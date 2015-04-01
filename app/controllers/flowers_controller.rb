@@ -8,6 +8,7 @@ class FlowersController < ApplicationController
 	end
 
 	def new
+		@flower = Flower.new
 	end
 
 	def create
