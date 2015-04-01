@@ -1,4 +1,9 @@
 <% provide(:title, @flower.name) %>
-<h1>
-	<%= @flower.name %>
-</h1>
+<div class="row center">
+	<h1><%= @flower.name %></h1>
+	<small style="font-style: italic">(<%= @flower.bot_name %>)</small>
+</div>
+
+<%= image_tag(@flower.image_url, class: "photo") %>
+
+<p><%= @flower.description %></p>

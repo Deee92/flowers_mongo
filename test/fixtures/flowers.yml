@@ -3,11 +3,13 @@
 one:
   name: MyString
   bot_name: MyString
-  description: MyText
+  description: MyString
+  color: MyString
   image_url: MyString
 
 two:
   name: MyString
   bot_name: MyString
-  description: MyText
+  description: MyString
+  color: MyString
   image_url: MyString
