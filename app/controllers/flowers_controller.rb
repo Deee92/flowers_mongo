@@ -14,6 +14,7 @@ class FlowersController < ApplicationController
 	def create
 		@flower = Flower.new(flower_params)
 		if @flower.save
+			flash[:success] = "Flower added!"
 		else
 			render 'new'
 		end
