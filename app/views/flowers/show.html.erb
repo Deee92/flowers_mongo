@@ -1,9 +1,25 @@
 <% provide(:title, @flower.name) %>
 <div class="row center">
-	<h1><%= @flower.name %></h1>
-	<small style="font-style: italic">(<%= @flower.bot_name %>)</small>
+<h1><%= @flower.name %></h1>
+<small style="font-style: italic">(<%= @flower.bot_name %>)</small>
 </div>
 
 <%= image_tag(@flower.image_url, class: "photo") %>
 
+<p><%= @flower.significance %></p>
+
+<p><%= @flower.petals %></p>
+
+<p><%= @flower.colour %></p>
+
 <p><%= @flower.description %></p>
+
+<p><%= @flower.place %></p>
+
+<p><%= @flower.climate %></p>
+
+<p><%= @flower.season %></p>
+
+<p><%= @flower.size %></p>
+
+<%= link_to "Back to all flowers", flowers_path %>
