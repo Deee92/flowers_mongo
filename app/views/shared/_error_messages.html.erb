@@ -1,0 +1,13 @@
+<% if @flower.errors.any? %>
+	<div id="error_explanation">
+		<div class="alert alert-danger">
+			Can't save your flower because it contains the following
+			<%= pluralize(@flower.errors.count, "error") %>
+		</div>
+		<ul>
+			<% @flower.errors.full_messages.each do |msg| %>
+				<li><%= msg %></li>
+			<% end %>
+		</ul>
+	</div>
+<% end %>

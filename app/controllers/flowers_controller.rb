@@ -8,10 +8,15 @@ class FlowersController < ApplicationController
 	end
 
 	def new
-		# @flower = Flower.new
+		@flower = Flower.new
 	end
 
 	def create
+		@flower = Flower.new(flower_params)
+		if @flower.save
+		else
+			render 'new'
+		end
 	end
 
 	def edit
@@ -22,4 +27,13 @@ class FlowersController < ApplicationController
 
 	def destroy
 	end
+
+	private
+
+		def flower_params
+			params.require(:flower).permit(:name, :bot_name, :significance,
+																		 :petals, :colour, :description,
+																		 :place, :climate, :season, :size,
+																		 :image_url)
+		end
 end
