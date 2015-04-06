@@ -24,7 +24,7 @@ textarea {
 
 #logo {
 	float: left;
-	margin-right: 10px;
+	margin: 0 10px;
 	font-size: 1.7em;
 	color: #ff4e50;
 	letter-spacing: 2px;
@@ -78,4 +78,10 @@ input {
 	.form-control {
 		color: $state-danger-text;
 	}
+}
+/* index */
+
+.option {
+	font-size: small;
+	font-weight: lighter;
 }

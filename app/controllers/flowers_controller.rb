@@ -1,6 +1,6 @@
 class FlowersController < ApplicationController
 	def index
-		@flowers = Flower.all
+		@flowers = Flower.asc(:name)
 	end
 
 	def show
