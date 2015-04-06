@@ -1,6 +1,7 @@
 class Flower
   include Mongoid::Document
   include Mongoid::Slug
+  # include Mongoid::Paperclip
   field :name, type: String
   slug :name
   field :bot_name, type: String
@@ -13,6 +14,11 @@ class Flower
 	field :season, type: String
 	field :size, type: String 
   field :image_url, type: String
+
+  # has_mongoid_attached_file :image
+  # validates_attachment_presence :image
+  # validates_attachment_content_type :image,
+  #                                   :content_type => ['image/jpeg', 'image/png', 'image/jpg']
 
   # dimensions, photographs, stories
 
