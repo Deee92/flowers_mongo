@@ -6,6 +6,9 @@
 		<li>
 			<%= link_to flower.name, flower %>
 			<!-- add links to edit and delete here -->
+			| <%= link_to "Edit", edit_flower_path(flower) %>
+			| <%= link_to "Delete", flower, method: :delete,
+																			data: { confirm: "Delete this flower?" } %>
 		</li>
 	<% end %>
 </ul>

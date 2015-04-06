@@ -24,8 +24,8 @@ class Flower
 
   validates_presence_of :bot_name, :message => "Botanical name must be present"
 
-  validates_format_of :image_url, :with => %r{\.(png|jpg|gif)}i,
-                                  :message => "The image must be a png or jpg"
+  # validates_format_of :image_url, :with => %r{\.(png|jpg|gif)}i,
+  #                                 :message => "The image must be a png or jpg"
 
   validates_uniqueness_of :name, :bot_name, :image_url
 
