@@ -6,20 +6,28 @@
 
 <%= image_tag(@flower.image_url, class: "photo") %>
 
-<p><%= @flower.significance %></p>
+<h4>Significance</h4>
+<p class="lead"><%= @flower.significance %></p>
 
+<h4>Petals</h4>
 <p><%= @flower.petals %></p>
 
+<h4>Colour</h4>
 <p><%= @flower.colour %></p>
 
+<h4>Description</h4>
 <p><%= @flower.description %></p>
 
+<h4>Places</h4>
 <p><%= @flower.place %></p>
 
+<h4>Climate</h4>
 <p><%= @flower.climate %></p>
 
+<h4>Seasons</h4>
 <p><%= @flower.season %></p>
 
+<h4>Size</h4>
 <p><%= @flower.size %></p>
 
 <%= link_to "Back to all flowers", flowers_path %>
