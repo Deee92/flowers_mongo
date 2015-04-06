@@ -39,7 +39,7 @@ gem 'mongoid'
 gem 'mongoid-slug'
 
 # Use Paperclip for mongoid
-gem "mongoid-paperclip", :require => "mongoid-paperclip"
+# gem "mongoid-paperclip", :require => "mongoid-paperclip"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
