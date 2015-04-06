@@ -6,7 +6,7 @@
 		<%= form_for(@flower) do |f| %>
 			<%= render 'fields', f: f %>
 			
-			<%= image_tag(@flower.image_url) %>
+			<%= image_tag(@flower.image_url, class: "img-responsive") %>
 
 			<%= f.label :image_url, "New image URL" %>
 			<!-- Use file_field to choose file -->
