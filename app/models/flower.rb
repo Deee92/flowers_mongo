@@ -2,8 +2,8 @@ class Flower
   include Mongoid::Document
   include Mongoid::Slug
   # include Mongoid::Paperclip
-  # include Mongoid::Elasticsearch
-  # elasticsearch!
+  include Mongoid::Elasticsearch
+  elasticsearch!
   field :name, type: String
   slug :name
   field :bot_name, type: String
