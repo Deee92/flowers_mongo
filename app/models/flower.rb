@@ -2,6 +2,8 @@ class Flower
   include Mongoid::Document
   include Mongoid::Slug
   # include Mongoid::Paperclip
+  # include Mongoid::Elasticsearch
+  # elasticsearch!
   field :name, type: String
   slug :name
   field :bot_name, type: String
@@ -19,6 +21,9 @@ class Flower
   # validates_attachment_presence :image
   # validates_attachment_content_type :image,
   #                                   :content_type => ['image/jpeg', 'image/png', 'image/jpg']
+
+
+
 
   # dimensions, photographs, stories
 

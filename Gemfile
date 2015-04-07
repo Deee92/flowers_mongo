@@ -41,6 +41,9 @@ gem 'mongoid-slug'
 # Use Paperclip for mongoid
 # gem "mongoid-paperclip", :require => "mongoid-paperclip"
 
+# Search
+gem 'mongoid-elasticsearch'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

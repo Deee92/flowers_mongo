@@ -1,10 +1,18 @@
 class FlowersController < ApplicationController
 	def index
 		@flowers = Flower.asc(:name)
+		respond_to do |format|
+			format.html
+			format.json { render json: @flowers }
+		end
 	end
 
 	def show
 		@flower = Flower.find(params[:id])
+		respond_to do |format|
+			format.html
+			format.json { render json: @flower }
+		end
 	end
 
 	def new
