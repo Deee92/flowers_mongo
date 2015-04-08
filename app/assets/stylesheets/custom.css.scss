@@ -26,6 +26,7 @@ textarea {
 	margin: 1em;
 	font-weight: 300;
 	text-align: center;
+	letter-spacing: 1px;
 }
 
 
@@ -135,6 +136,10 @@ input {
 .search_bar {
 	float:right;
 	margin: 2em 0;
+}
+
+.flower_name {
+	letter-spacing: 1.2px;
 }
 
 .option {
