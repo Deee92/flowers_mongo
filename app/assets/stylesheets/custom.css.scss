@@ -4,7 +4,7 @@
 /* universal */
 
 body {
-	padding-top: 60px;
+	padding-top: 100px;
 	position: relative;
 	background-color: #fff7f8;
 }
@@ -23,7 +23,7 @@ textarea {
 
 .nice_heading {
 	clear: both;
-	margin: 1em;
+	margin-bottom: 1em;
 	font-weight: 300;
 	text-align: center;
 	letter-spacing: 1px;
@@ -92,8 +92,8 @@ textarea {
 /* footer */
 
 footer {
-	padding-top: 1em;
-	padding-bottom: 60px;
+	padding-top: 2em;
+	padding-bottom: 100px;
 }
 
 /* forms */
@@ -135,8 +135,8 @@ input {
 /* index */
 
 .search_bar {
+	margin-bottom: 1em;
 	float:right;
-	margin: 2em 0;
 }
 
 .flower_name {
@@ -159,7 +159,6 @@ input {
 /* flower page */
 
 .flower_heading {
-	margin-top: 1em;
 	font-weight: 300;
 }
 
