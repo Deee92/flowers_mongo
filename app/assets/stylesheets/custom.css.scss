@@ -21,6 +21,14 @@ textarea {
 	text-align: center;
 }
 
+.nice_heading {
+	clear: both;
+	margin: 1em;
+	font-weight: 300;
+	text-align: center;
+}
+
+
 /* header */
 
 #logo {
@@ -39,6 +47,12 @@ textarea {
 
 /* home */
 
+.main_heading {
+	text-align: center;
+	font-weight: 300;
+	padding-bottom: 0.5em;
+}
+
 .slide {
 	width: 100%;
 }
@@ -49,7 +63,7 @@ textarea {
 }
 
 .quote {
-	padding: 2em;
+	padding: 1.5em;
 	background-color: #fff;
 	border-bottom-left-radius: 2em;
 	border-bottom-right-radius: 2em;
@@ -114,12 +128,6 @@ input {
 .search_bar {
 	float:right;
 	margin: 2em 0;
-}
-
-.index_heading {
-	clear: both;
-	margin-top: 1em;
-	font-weight: 300;	
 }
 
 .option {
