@@ -48,6 +48,22 @@ textarea {
 	max-height: 600px !important;
 }
 
+.quote {
+	padding: 2em;
+	background-color: #fff;
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	p {
+		font-size: 1.3em;
+		font-weight: 300;
+	}
+	.source {
+		font-size: 0.9em;
+		font-style: italic;
+		font-weight: 200;
+	}
+}
+
 /* images */
 
 .photo {
