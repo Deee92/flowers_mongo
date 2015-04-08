@@ -6,7 +6,7 @@
 		<%= form_for(@flower) do |f| %>
 			<%= render 'fields', f: f %>
 
-			<%= f.label :image_url, "Image URL" %>
+			<%= f.label :image_url, "Image URL", class: "form_field" %>
 			<!-- Use file_field to choose file -->
 			<%= f.text_field :image_url, class: "form-control" %>
 			

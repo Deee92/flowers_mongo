@@ -1,35 +1,37 @@
 <% provide(:title, @flower.name) %>
 <div class="row center">
-	<h1><%= @flower.name %></h1>
-	<small style="font-style: italic">(<%= @flower.bot_name %>)</small>
+	<h1 class="flower_heading"><%= @flower.name %></h1>
+	<small class="botanical_name">(<%= @flower.bot_name %>)</small>
 </div>
 
-<%= image_tag(@flower.image_url, class: "photo img-responsive") %>
+<%= image_tag(@flower.image_url, class: "photo img-responsive", style: "margin-top: 2em;") %>
 
-<h4>Significance</h4>
+<h5 style="float: right; letter-spacing: 1.2px; font-weight: 200;"><%= link_to "edit", edit_flower_path(@flower) %></h5>
+
+<h3 class="flower_subheading">Significance</h3>
 <p class="lead"><%= @flower.significance %></p>
 
-<h4>Petals</h4>
+<h3 class="flower_subheading">Petals</h3>
 <p><%= @flower.petals %></p>
 
-<h4>Colour</h4>
+<h3 class="flower_subheading">Colour</h3>
 <p><%= @flower.colour %></p>
 
-<h4>Description</h4>
+<h3 class="flower_subheading">Description</h3>
 <p><%= @flower.description %></p>
 
-<h4>Places</h4>
+<h3 class="flower_subheading">Places</h3>
 <p><%= @flower.place %></p>
 
-<h4>Climate</h4>
+<h3 class="flower_subheading">Climate</h3>
 <p><%= @flower.climate %></p>
 
-<h4>Seasons</h4>
+<h3 class="flower_subheading">Seasons</h3>
 <p><%= @flower.season %></p>
 
-<h4>Size</h4>
+<h3 class="flower_subheading">Size</h3>
 <p><%= @flower.size %></p>
 
-<%= link_to "Edit", edit_flower_path(@flower) %>
+</span>
 <br/>
-<%= link_to "Back to all flowers", flowers_path %>
+<h5 class="back"><%= link_to "Back to all flowers", flowers_path %></h5>
