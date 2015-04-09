@@ -1,0 +1,36 @@
+<% provide(:title, "All") %>
+
+<!-- Search box -->
+<div class="row col-md-4 search_bar">
+	<%= form_tag flowers_path, method: "get" do %>
+		<div class="input-group">
+			<%= text_field_tag :query, params[:query], class: "form-control", placeholder: "Search" %>
+			<span class="input-group-btn">
+				<button type="submit" class="btn btn-default">Go</button>
+			</span>
+		</div>
+		<% end %>
+</div>
+
+<!-- Heading amd list -->
+<% if @query.present? %>
+
+	<% if @size.to_i > 0 %>
+		<h1 class="nice_heading">
+			Found <%= pluralize(@size, "result") %>
+		</h1>
+		<%= render 'list' %>
+	<% else %>
+		<p class="lead", style="clear: both; text-align: center;">
+			Sorry, we're fresh out of <%= @query %>!
+		</p>
+	<% end %>
+
+<% else %>
+
+	<h1 class="nice_heading">List of all flowers</h1>
+	<%= render 'list' %>
+
+<% end %>
+
+<h4 class="add"><%= link_to "+ Add your own", new_flower_path %></h4>
