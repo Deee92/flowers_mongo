@@ -1,9 +1,16 @@
 class FlowersController < ApplicationController
 	def index
-		@flowers = Flower.asc(:name)
-		respond_to do |format|
-			format.html
-			format.json { render json: @flowers }
+		if params[:query].present?
+			@query = params[:query]
+			result = Flower.es.search(@query)
+			@size = result.size
+			@flowers = result.results
+		else
+			@flowers = Flower.asc(:name)
+			respond_to do |format|
+				format.html
+				format.json { render json: @flowers }
+			end
 		end
 	end
 
