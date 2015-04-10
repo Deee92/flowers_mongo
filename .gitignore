@@ -13,4 +13,4 @@
 /tmp
 
 # Ignore application.yml
-/config/locales/application.yml
+/config/application.yml
