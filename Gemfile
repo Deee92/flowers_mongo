@@ -47,6 +47,9 @@ gem 'mongoid-elasticsearch'
 # Use omniauth for signing in with Facebook
 gem 'omniauth-facebook'
 
+# Use Font Awesome
+gem 'font-awesome-sass'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
