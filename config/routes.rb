@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
+  get 'signin' => 'sessions#new'
+  get 'signout' => 'sessions#destroy'
+
+  get 'auth/:provider/callback', to: 'sessions#create'
+  get 'auth/failure', to: redirect('/')
+
   # get 'static_pages/home'
 
   # The priority is based upon order of creation: first created -> highest priority.

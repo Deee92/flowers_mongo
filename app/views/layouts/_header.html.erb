@@ -13,6 +13,17 @@
     	<ul class="nav navbar-nav navbar-right">
     		<li class="<%= 'active' if current_page?(flowers_path) %>"><%= link_to "All", flowers_path %></li>
         <li class="<%= 'active' if current_page?(new_flower_path) %>"><%= link_to "New", new_flower_path %></li>
+        <% if current_user %>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><%= current_user.name %> <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li class="dropdown-header">Not you?</li>
+              <li><%= link_to "Sign out", signout_path %></li>
+            </ul>
+          </li>
+        <% else %>
+          <li class="<%= 'active' if current_page?(signin_path) %>"><%= link_to "Sign in", signin_path %></li>
+        <% end %>
         <li>
           <!-- Search bar -->
           <%= form_tag flowers_path, method: "get", class: "navbar-form" do %>
