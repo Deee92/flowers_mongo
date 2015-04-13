@@ -16,6 +16,7 @@ class Flower
 	field :season, type: String
 	field :size, type: String 
   field :image_url, type: String
+  field :thumbnail_url, type: String
 
   # has_mongoid_attached_file :image
   # validates_attachment_presence :image
@@ -30,7 +31,7 @@ class Flower
   validates_presence_of :name, :significance,
                         :petals, :colour, :description,
                         :place, :climate, :season, :size
-
+                        
   validates_presence_of :image_url, :message => "Please upload an image"
 
   validates_presence_of :bot_name, :message => "Botanical name must be present"

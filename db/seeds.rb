@@ -22,7 +22,8 @@ lotus = Flower.create!(name: "Sacred Lotus",
 											 climate: "The lotus is an aquatic plant, needs warm water and isn't suited for humid climate",
 											 season: "Flowers from mid-summer through autumn",
 											 size: "4 to 6 feet above the water line",
-											 image_url: "lotus.jpg")
+											 image_url: "lotus.jpg",
+											 thumbnail_url: "lotus_thumbnail.jpg")
 
 eucalyptus = Flower.create!(name: "Eucalyptus",
 											 			bot_name: "E. tereticornis",
@@ -38,7 +39,8 @@ eucalyptus = Flower.create!(name: "Eucalyptus",
 											 			climate: "Mostly cultivated widely in the tropical and temperate regions",
 											 			season: "Most species prefer warmth and do not tolerate frost.",
 											 			size: "Eucalyptus flowers are usually small.",
-											 			image_url: "eucalyptus.jpg")
+											 			image_url: "eucalyptus.jpg",
+											 			thumbnail_url: "eucalyptus_thumbnail.jpg")
 
 
 rose = Flower.create!(name: "Rose",
@@ -53,7 +55,8 @@ rose = Flower.create!(name: "Rose",
 											climate: "Warm temperate",
 											season: "Late summer to fall",
 											size: "Roses are usually small.",
-											image_url: "rose.jpg")
+											image_url: "rose.jpg",
+											thumbnail_url: "rose_thumbnail.jpg")
 
 
 hibiscus = Flower.create!(name: "Chinese Hibiscus",
@@ -70,7 +73,8 @@ hibiscus = Flower.create!(name: "Chinese Hibiscus",
 											 		climate: "Hibiscus is native to warm-temperate, subtropical and tropical regions",
 											 		season: "Best grown during the summer months",
 											 		size: "Medium-sized",
-											 		image_url: "hibiscus.jpg")
+											 		image_url: "hibiscus.jpg",
+											 		thumbnail_url: "hibiscus_thumbnail.jpg")
 
 
 jessamine = Flower.create!(name: "Jessamine",
@@ -85,7 +89,8 @@ jessamine = Flower.create!(name: "Jessamine",
 											 		 climate: "Warm temperate and tropical",
 											 		 season: "Summer",
 											 		 size: "Small to medium-sized",
-											 		 image_url: "jessamine.jpg")
+											 		 image_url: "jessamine.jpg",
+											 		 thumbnail_url: "jessamine_thumbnail.jpg")
 
 
 spider_lily = Flower.create!(name: "Spider Lily",
@@ -101,7 +106,8 @@ spider_lily = Flower.create!(name: "Spider Lily",
 												 		 climate: "It is native to grasslands, wetlands and rocky habitats.",
 												 		 season: "Summers with plenty of sun",
 												 		 size: "Usually large",
-												 		 image_url: "spider_lily.jpg")
+												 		 image_url: "spider_lily.jpg",
+												 		 thumbnail_url: "spider_lily_thumbnail.jpg")
 
 
 golden_eye_grass = Flower.create!(name: "Golden Eye-Grass",
@@ -116,7 +122,8 @@ golden_eye_grass = Flower.create!(name: "Golden Eye-Grass",
 															 		climate: "Warm, humid",
 															 		season: "Late summer",
 															 		size: "Small",
-															 		image_url: "golden_eye_grass.jpg")
+															 		image_url: "golden_eye_grass.jpg",
+															 		thumbnail_url: "golden_eye_grass_thumbnail.jpg")
 
 
 spider_ivy = Flower.create!(name: "Spider Ivy",
@@ -132,7 +139,8 @@ spider_ivy = Flower.create!(name: "Spider Ivy",
 												 							best in sunny areas.",
 												 		season: "All seasons",
 												 		size: "Usually small",
-												 		image_url: "spider_ivy.jpg")
+												 		image_url: "spider_ivy.jpg",
+												 		thumbnail_url: "spider_ivy_thumbnail.jpg")
 
 
 dayflower = Flower.create!(name: "Dayflower",
@@ -148,7 +156,8 @@ dayflower = Flower.create!(name: "Dayflower",
 											 		 climate: "Warm",
 											 		 season: "The flowers bloom around mid-summer and mid-fall.",
 											 		 size: "Small",
-											 		 image_url: "dayflower.jpg")
+											 		 image_url: "dayflower.jpg",
+											 		 thumbnail_url: "dayflower_thumbnail.jpg")
 
 
 jasmine_tobacco = Flower.create!(name: "Jasmine Tobacco",
@@ -165,5 +174,6 @@ jasmine_tobacco = Flower.create!(name: "Jasmine Tobacco",
 														 		 climate: "Warm, sunny",
 														 		 season: "Summer to fall",
 														 		 size: "Medium-sized",
-														 		 image_url: "jasmine_tobacco.jpg")
+														 		 image_url: "jasmine_tobacco.jpg",
+														 		 thumbnail_url: "jasmine_tobacco_thumbnail.jpg")
 
