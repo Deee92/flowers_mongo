@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'origin' => 'static_pages#about'
+
   get 'signin' => 'sessions#new'
   get 'signout' => 'sessions#destroy'
 

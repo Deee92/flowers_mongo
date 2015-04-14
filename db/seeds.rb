@@ -177,3 +177,32 @@ jasmine_tobacco = Flower.create!(name: "Jasmine Tobacco",
 														 		 image_url: "jasmine_tobacco.jpg",
 														 		 thumbnail_url: "jasmine_tobacco_thumbnail.jpg")
 
+glorybower = Flower.create!(name: "Glorybower",
+														bot_name: "Clerodendrum",
+														significance: "Belief - Simple and candid, does not question.",
+														petals: "Six to eight",
+														colour: "White",
+														description: "Small very delicate white salverform flower with a long thin corolla tube, an
+																					irregularly shaped limb with scalloped edges and long thin rose violet stamens;
+																					borne in clusters. A small shrub or woody herb.",
+														place: "Sri Lanka, Andaman Islands",
+														climate: "Native to tropical and warm temperate regions",
+														season: "Summers",
+														size: "Small",
+														image_url: "glorybower.jpg",
+														thumbnail_url: "glorybower_thumbnail.jpg")
+
+garden_mignonette = Flower.create!(name: "Garden Mignonette",
+																	 bot_name: "Reseda odorata",
+																	 significance: "Benevolence - Makes life fragrant without attracting attention.",
+																	 petals: "Six",
+																	 colour: "White, yellowish or greenish",
+																	 description: "Small heads of tiny very fragrant yellowish white or greenish yellow flowers
+																	 							with six sepals, six petals and prominent orange anthers; borne in dense erect
+																	 							racemes. A branching spreading annual.",
+																	 place: "Mediterranian Basin, North America",
+																	 climate: "Tolerates a wide range of temperatures",
+																	 season: "Annual",
+																	 size: "Small",
+																	 image_url: "garden_mignonette.jpg",
+																	 thumbnail_url: "garden_mignonette_thumbnail.jpg")

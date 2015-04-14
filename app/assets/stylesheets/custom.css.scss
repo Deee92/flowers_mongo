@@ -82,6 +82,20 @@ textarea {
 	}
 }
 
+/* origin */
+
+.origin_text {
+	background-color: #fff;
+	padding: 2em;
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	p {
+		font-weight: 300;
+		letter-spacing: 1.2px;
+		line-spacing: 2px;
+	}
+}
+
 /* images */
 
 .photo {
@@ -177,7 +191,5 @@ input {
 
 .back {
 	letter-spacing: 1px;
-	text-align: center;
-	margin-top: 2em;
 	font-weight: 200;
 }

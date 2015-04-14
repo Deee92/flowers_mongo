@@ -1,12 +1,11 @@
 <% provide(:title, @flower.name) %>
-
 <div class="row center">
-  <div class="col-md-8 col-md-offset-2">
-    <%= image_tag(@flower.image_url, class: "img-responsive") %>
+  <div class="col-md-10 col-md-offset-1">
+      <%= image_tag(@flower.image_url, class: "img-responsive") %>
   </div>
 </div>
 <div class="row">
-  <div class="col-md-8 col-md-offset-2">
+  <div class="col-md-10 col-md-offset-1">
     <div class="details">
       <%= link_to "edit", edit_flower_path(@flower), class: "option", style: "float: right;" %>
       <h1 class="flower_heading"><%= @flower.name %></h1>
@@ -34,8 +33,16 @@
       <h3 class="flower_subheading">Seasons</h3>
       <p><%= @flower.season %></p>
 
-      <h3 class="flower_subheading">Size</h3>
+      <h3 class="flower_subheading", style="clear: both;">Size</h3>
       <p><%= @flower.size %></p>
+
+      <a href="#">
+        <span class="glyphicon glyphicon-menu-up", style="float: right;"></span>
+      </a>
     </div>
   </div>
+</div>
+
+<div class="center", style="margin-top: 2em;">
+  <%= link_to "Back to all flowers", flowers_path, class: "back" %>
 </div>
