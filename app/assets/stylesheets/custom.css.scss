@@ -154,19 +154,25 @@ input {
 
 /* flower page */
 
-.flower_heading {
-	font-weight: 300;
-}
-
-.botanical_name {
-	font-style: italic;
-	letter-spacing: 1px;
-}
-
-.flower_subheading {
-	clear: both;
-	letter-spacing: 1px;
-	font-weight: 300;
+.details {
+	background-color: #fff;
+	padding: 2em;
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	.flower_heading {
+		clear: both;
+		text-align: center;
+		font-weight: 300;
+	}
+	.botanical_name {
+		text-align: center;
+		font-style: italic;
+		letter-spacing: 1px;
+	}
+	.flower_subheading {
+		letter-spacing: 1px;
+		font-weight: 300;
+	}
 }
 
 .back {
