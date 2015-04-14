@@ -1,4 +1,5 @@
 class FlowersController < ApplicationController
+	before_action :logged_in_user, only: [:edit, :update, :destroy]
 	def index
 		if params[:query].present?
 			@query = params[:query]
@@ -63,5 +64,12 @@ class FlowersController < ApplicationController
 																		 :petals, :colour, :description,
 																		 :place, :climate, :season, :size,
 																		 :image_url)
+		end
+
+		def logged_in_user
+			unless logged_in?
+				flash[:danger] = "Please sign in."
+				redirect_to signin_path
+			end
 		end
 end

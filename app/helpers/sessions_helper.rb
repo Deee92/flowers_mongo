@@ -9,6 +9,11 @@ module SessionsHelper
     @current_user ||= User.find(session[:user_id]["$oid"]) if session[:user_id]
   end
 
+  # Returns true if the user is logged in
+  def logged_in?
+    !current_user.nil?
+  end
+
   # Logs the user out.
   def log_out
     session[:user_id] = nil
