@@ -198,11 +198,57 @@ garden_mignonette = Flower.create!(name: "Garden Mignonette",
 																	 petals: "Six",
 																	 colour: "White, yellowish or greenish",
 																	 description: "Small heads of tiny very fragrant yellowish white or greenish yellow flowers
-																	 							with six sepals, six petals and prominent orange anthers; borne in dense erect
-																	 							racemes. A branching spreading annual.",
+																	 							 with six sepals, six petals and prominent orange anthers; borne in dense erect
+																	 							 racemes. A branching spreading annual.",
 																	 place: "Mediterranian Basin, North America",
-																	 climate: "Tolerates a wide range of temperatures",
+																	 climate: "Tolerates a wide range of temperatures.",
 																	 season: "Annual",
 																	 size: "Small",
 																	 image_url: "garden_mignonette.jpg",
 																	 thumbnail_url: "garden_mignonette_thumbnail.jpg")
+
+carnation = Flower.create!(name: "Carnation",
+													 bot_name: "Dianthus caryophyllus",
+													 significance: "Collaboration - Always ready to help and knows how to do it.",
+													 petals: "Many",
+													 colour: "Originally a bright pinkish-purple, it is now cultivated to be white, and shades of purple, pink,
+													 				  red, yellow and apricot orange.",
+													 description: "Medium-sized fully double flowers with soft fringed petals and a sweet clovelike fragrance;
+													 							 in white and shades of purple, pink, red, yellow and apricot orange; borne in clusters of two
+													 							 to five flowers on long stems. A popular garden perennial.",
+													 place: "Native to the Mediterranian region",
+													 climate: "Tolerates a wide range of temperatures.",
+													 season: "Flowers bloom over the spring and summer.",
+													 size: "Medium-sized, about 80 cm tall and 3 to 5 cm in diameter",
+													 image_url: "carnation.jpg",
+													 thumbnail_url: "carnation_thumbnail.jpg")
+
+oleander = Flower.create!(name: "Oleander",
+													bot_name: "Nerium oleander",
+													significance: "Contemplation of the Divine - Occupied exclusively with its joyful contemplation.",
+													petals: "Five",
+													colour: "Light pink",
+													description: "Mildly fragrant single salverform flower with five separated petals that are light
+																				pink with white on one edge and with a delicate fringed corona; borne in loose cymes. A
+																				prolific flowering shrub with stiff lanceolate leaves, Oleander is one of the most poisonous
+																				of commonly grown garden plants",
+													place: "Widely cultivated, especially in southwest Asia",
+													climate: "Warm subtropical and tropical climates",
+													season: "Summers",
+													size: "Small",
+													image_url: "oleander.jpg",
+													thumbnail_url: "oleander_thumbnail.jpg")
+
+shasta_daisy = Flower.create!(name: "Shasta Daisy",
+															bot_name: "Leucanthemum X superbum",
+															significance: "Creative Word - Belongs only to the Divine.",
+															petals: "Many",
+															colour: "White with a yellow center",
+															description: "Large single compositae flower with white ray florets that are often crested or
+																					  frilled and a prominent yellow center of disc florets. A robust perennial.",
+															place: "A very common garden flower grown throughout the world",
+															climate: "Tolerates a wide range of temperatures.",
+															season: "Flowers bloom over the spring and summer.",
+															size: "Medium-sized",
+															image_url: "shasta_daisy.jpg",
+															thumbnail_url: "shasta_daisy_thumbnail.jpg")
