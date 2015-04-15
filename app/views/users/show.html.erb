@@ -1,0 +1,16 @@
+<% provide(:title, current_user.name) %>
+<h1 class="nice_heading"><%= @user.name %></h1>
+<hr/>
+
+<div class="row", style="margin-top: 2em;">
+  <div class="col-md-6 col-md-offset-3 center">
+    <% if @user.email.present? %>
+      <h3 class="user_email"><%= @user.email %></h3>
+      <%= link_to "edit", edit_user_path(@user), class: "option" %>
+    <% else %>
+      <%= form_for(@user) do |f| %>
+        <%= render 'email_form', f: f %>
+      <% end %>
+    <% end %>
+  </div>
+</div>

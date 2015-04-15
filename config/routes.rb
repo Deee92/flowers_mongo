@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'users/show'
+
   get 'origin' => 'static_pages#about'
 
   get 'signin' => 'sessions#new'
@@ -17,6 +19,7 @@ Rails.application.routes.draw do
   root 'static_pages#home'
 
   resources :flowers
+  resources :users
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
