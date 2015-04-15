@@ -1,8 +1,10 @@
 class User
   include Mongoid::Document
+  include Mongoid::Slug
   field :provider, type: String
   field :uid, type: String
   field :name, type: String
+  slug :name
   field :admin, type: Boolean, default: false
   field :email, type: String
 
