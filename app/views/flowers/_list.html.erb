@@ -8,7 +8,7 @@
       </div>
       <div class="media-body media-middle">
         <%= link_to flower.name, flower, class: "flower_name" %>
-        <% if logged_in? %>
+        <% if is_admin? %>
           <span class="option">
             | <%= link_to "edit", edit_flower_path(flower) %>
             | <%= link_to "delete", flower, method: :delete,

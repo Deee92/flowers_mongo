@@ -1,5 +1,5 @@
 class FlowersController < ApplicationController
-	before_action :logged_in_user, only: [:edit, :update, :destroy]
+	before_action :logged_in_user, :not_authorized?, only: [:edit, :update, :destroy]
 	def index
 		if params[:query].present?
 			@query = params[:query]
@@ -67,9 +67,16 @@ class FlowersController < ApplicationController
 		end
 
 		def logged_in_user
-			unless logged_in?
+			if !logged_in?
 				flash[:danger] = "Please sign in."
 				redirect_to signin_path
+			end
+		end
+
+		def not_authorized?
+			if !is_admin?
+				flash[:danger] = "You can't do that!"
+				redirect_to flowers_url
 			end
 		end
 end

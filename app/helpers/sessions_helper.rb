@@ -14,6 +14,14 @@ module SessionsHelper
     !current_user.nil?
   end
 
+  def is_admin?
+    if !current_user.nil? && current_user.admin
+      return true
+    else
+      false
+    end
+  end
+
   # Logs the user out.
   def log_out
     session[:user_id] = nil
