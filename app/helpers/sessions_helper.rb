@@ -14,6 +14,7 @@ module SessionsHelper
     !current_user.nil?
   end
 
+  # Returns true if current user is admin
   def is_admin?
     if !current_user.nil? && current_user.admin
       return true
