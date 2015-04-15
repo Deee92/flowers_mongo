@@ -4,10 +4,11 @@ class FlowersController < ApplicationController
 		if params[:query].present?
 			@query = params[:query]
 			result = Flower.es.search(@query)
+			response = result.raw_response
 			@size = result.size
-			@flowers = result.results
+			@flowers = Flower.es.search(@query, page: params[:page])
 		else
-			@flowers = Flower.asc(:name)
+			@flowers = Flower.asc(:name).page params[:page]
 			respond_to do |format|
 				format.html
 				format.json { render json: @flowers }
