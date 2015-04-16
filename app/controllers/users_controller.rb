@@ -24,7 +24,12 @@ class UsersController < ApplicationController
       end
       @user.save
       redirect_to @user
-      flash[:success] = "Your details updated!"
+      if !@user.email.blank? && @user.subscribed
+        UserMailer.welcome(@user).deliver_now
+        flash[:info] = "Your details have been updated and a welcome email has been dispatched!"
+      else
+        flash[:success] = "Your details have been updated!"
+      end
     else
       flash.now[:danger] = "Something's not right."
       render 'edit'
