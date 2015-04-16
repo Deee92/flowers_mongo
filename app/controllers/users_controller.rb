@@ -14,15 +14,15 @@ class UsersController < ApplicationController
   def update
     @user =  current_user
     if @user.update_attributes(user_params)
-      if @user.email.blank?
-        @user.subscribed = false
-      end
-      if @user.email == "sagar@example.com"
+      if @user.email == "dee@dee.com"
         @user.admin = true
       else
         @user.admin = false
       end
-      @user.save!
+      if @user.email.blank?
+        @user.subscribed = false
+      end
+      @user.save
       redirect_to @user
       flash[:success] = "Your details updated!"
     else

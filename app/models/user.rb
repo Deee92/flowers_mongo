@@ -9,6 +9,12 @@ class User
   field :email, type: String
   field :subscribed, type: Boolean, default: false
 
+  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
+
+  validates :email, length: { maximum: 255 },
+                    allow_blank: true,
+                    format: { with: VALID_EMAIL_REGEX }
+
   def self.from_omniauth(auth)
     where(auth.slice(:provider, :uid)).first_or_initialize.tap do |user|
       user.provider = auth.provider
@@ -17,10 +23,4 @@ class User
       user.save!
     end
   end
-
-  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
-
-  validates :email, length: { maximum: 255 },
-                    allow_blank: true,
-                    format: { with: VALID_EMAIL_REGEX }
 end
