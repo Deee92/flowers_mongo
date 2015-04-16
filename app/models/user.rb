@@ -7,6 +7,7 @@ class User
   slug :name
   field :admin, type: Boolean, default: false
   field :email, type: String
+  field :subscribed, type: Boolean, default: false
 
   def self.from_omniauth(auth)
     where(auth.slice(:provider, :uid)).first_or_initialize.tap do |user|

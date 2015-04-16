@@ -14,7 +14,9 @@ class UsersController < ApplicationController
   def update
     @user =  current_user
     if @user.update_attributes(user_params)
-      flash[:success] = "Email updated!"
+      if @user.email.blank?
+        @user.subscribed = false
+      end
       if @user.email == "sagar@example.com"
         @user.admin = true
       else
@@ -22,6 +24,7 @@ class UsersController < ApplicationController
       end
       @user.save!
       redirect_to @user
+      flash[:success] = "Your details updated!"
     else
       flash.now[:danger] = "Something's not right."
       render 'edit'
@@ -31,6 +34,6 @@ class UsersController < ApplicationController
   private
 
     def user_params
-      params.require(:user).permit(:email)
+      params.require(:user).permit(:email, :subscribed)
     end
 end

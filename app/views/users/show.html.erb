@@ -3,16 +3,31 @@
 <hr/>
 
 <div class="row", style="margin-top: 2em;">
-  <div class="col-md-6 col-md-offset-3 center">
+  <div class="col-md-6 col-md-offset-3">
     <% if @user.email.present? %>
-      <h3 class="user_email"><%= @user.email %></h3>
-      <% if is_admin? %>
-        <h4>Admin</h4>
-      <% end %>
-      <%= link_to "edit", edit_user_path(@user), class: "option" %>
+      <div class="center">
+        <h3 class="user_email"><%= @user.email %></h3>
+        
+        <% if is_admin? %>
+          <h4>Admin</h4>
+        <% end %>
+
+        <% if @user.subscribed %>
+          <small>You have subscribed to our newsletter!</small>
+        <% else %>
+          <small>You have not subscribed to our newsletter.</small>
+        <% end %>
+        <br/>
+        <%= link_to "edit", edit_user_path(@user), class: "option" %>
+      </div>
     <% else %>
       <%= form_for(@user) do |f| %>
-        <%= render 'email_form', f: f %>
+        <%= render 'edit_user_form', f: f %>
+        <div class="row", style="margin-top: 1em;">
+          <div class="col-md-6 col-md-offset-3">
+            <%= f.submit "Save", class: "btn btn-sm btn-primary center" %>
+          </div>
+        </div>
       <% end %>
     <% end %>
   </div>

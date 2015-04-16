@@ -18,7 +18,11 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'static_pages#home'
 
-  resources :flowers
+  concern :paginatable do
+    get '(page/:page)', :action => :index, :on => :collection, :as => ''
+  end
+
+  resources :flowers, :concerns => :paginatable
   resources :users
 
   # Example of regular route:

@@ -3,9 +3,9 @@
 
 <%= paginate @flowers %>
 
-<div class="media">
+<div class="media", style="clear: both;">
   <% @flowers.each do |flower| %>
-    <div class="col-md-4" style="margin-bottom: 4em;">
+    <div class="col-md-4" style="margin-bottom: 4em; margin-top: 2em;">
       <div class="media-left">
         <%= link_to image_tag(flower.thumbnail_url, class: "media-object img-circle", height: '90', width: '95'), flower %>
       </div>
