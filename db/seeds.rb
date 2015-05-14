@@ -252,3 +252,17 @@ shasta_daisy = Flower.create!(name: "Shasta Daisy",
 															size: "Medium-sized",
 															image_url: "shasta_daisy.jpg",
 															thumbnail_url: "shasta_daisy_thumbnail.jpg")
+
+wallflower = Flower.create!(name: "Wallflower",
+														bot_name: "Erysimum cheiri",
+														significance: "Optimism - More helpful than its opposite.",
+														petals: "Four",
+														colour: "Yellow to orange",
+														description: "Small very fragrant yellow to orange four-petalled flower; borne in long racemes.
+																					An erect popular perennial.",
+														place: "Native to Europe but widespread as an introduced species elsewhere",
+														climate: "Pleasant to warm",
+														season: "Flowers in spring",
+														size: "Small",
+														image_url: "wallflower.jpg",
+														thumbnail_url: "wallflower_thumbnail.jpg")
