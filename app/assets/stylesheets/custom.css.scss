@@ -4,9 +4,17 @@
 /* universal */
 
 body {
+	background: url(green_bokeh.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	padding-top: 100px;
 	position: relative;
 	background-color: #fdf9f9;
+	a {
+		color: #fff;
+	}
 }
 
 section {
@@ -66,7 +74,7 @@ textarea {
 .quote {
 	padding: 1em;
 	padding-bottom: 2em;
-	background-color: #fff;
+	background: rgba(255, 255, 255, 0.7);
 	border-bottom-left-radius: 2em;
 	border-bottom-right-radius: 2em;
 	p {
@@ -85,7 +93,7 @@ textarea {
 /* origin */
 
 .origin_text {
-	background-color: #fff;
+	background: rgba(255, 255, 255, 0.7);
 	padding: 1em 2em 2em 2em;
 	border-bottom-right-radius: 2em;
 	border-bottom-left-radius: 2em;
@@ -160,6 +168,7 @@ input {
 }
 
 .option {
+	color: #ff4e50;
 	font-size: small;
 	font-weight: lighter;
 	letter-spacing: 1.5px;
@@ -175,7 +184,7 @@ input {
 /* flower page */
 
 .details {
-	background-color: #fff;
+	background: rgba(255, 255, 255, 0.7);
 	padding: 2em;
 	border-bottom-right-radius: 2em;
 	border-bottom-left-radius: 2em;
