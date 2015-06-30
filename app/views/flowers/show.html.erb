@@ -13,30 +13,38 @@
       <h1 class="flower_heading"><%= @flower.name %></h1>
 
       <h5 class="botanical_name">(<%= @flower.bot_name %>)</h5>
+      
+      <% if @flower.family.present? %>
+        <h5 class="botanical_name">Family: <%= @flower.family %></h5>
+      <% end %>
+
+      <% if @flower.other_names.present? %>
+        <p class="flower_other_names">Other names: <%= @flower.other_names %></h2>
+      <% end %>
 
       <h3 class="flower_subheading", style="margin-top: 1.5em;">Significance</h3>
       <p><%= @flower.significance %></p>
 
-      <h3 class="flower_subheading">Petals</h3>
-      <p><%= @flower.petals %></p>
-
-      <h3 class="flower_subheading">Colour</h3>
-      <p><%= @flower.colour %></p>
+      <h3 class="flower_subheading">Comment</h3>
+      <p><%= @flower.comment %></p>
 
       <h3 class="flower_subheading">Description</h3>
       <p><%= @flower.description %></p>
 
+      <h3 class="flower_subheading">Colour</h3>
+      <p><%= @flower.colour %></p>
+
+      <h3 class="flower_subheading">Petals</h3>
+      <p><%= @flower.petals %></p>
+
+      <h3 class="flower_subheading">Size</h3>
+      <p><%= @flower.size %></p>
+
       <h3 class="flower_subheading">Places</h3>
       <p><%= @flower.place %></p>
 
-      <h3 class="flower_subheading">Climate</h3>
+      <h3 class="flower_subheading", style="clear: both;">Climate</h3>
       <p><%= @flower.climate %></p>
-
-      <h3 class="flower_subheading">Seasons</h3>
-      <p><%= @flower.season %></p>
-
-      <h3 class="flower_subheading", style="clear: both;">Size</h3>
-      <p><%= @flower.size %></p>
 
       <a href="#">
         <span class="glyphicon glyphicon-menu-up", style="float: right; color: #ff4e50;"></span>
@@ -45,6 +53,24 @@
   </div>
 </div>
 
-<div class="center", style="margin-top: 2em;">
-  <%= link_to "Back to all flowers", flowers_path, class: "back" %>
+<div class="flower_nav">
+
+  <div class="row">
+    <div class="col-md-4">
+      <% if !@previous.nil? %>
+        <%= link_to "Previous", flower_path(@previous) %>
+      <% end %>
+    </div>
+
+    <div class="col-md-4">
+      <%= link_to "Back", url_for(:back), class: "back" %>
+    </div>
+
+    <div class="col-md-4">
+      <% if !@next.nil? %>
+        <%= link_to "Next", flower_path(@next) %>
+      <% end %>
+    </div>
+  </div>
+
 </div>

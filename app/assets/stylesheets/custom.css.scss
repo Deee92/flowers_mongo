@@ -195,6 +195,9 @@ input {
 		text-align: center;
 		font-weight: 300;
 	}
+	.flower_other_names {
+		text-align: center;
+	}
 	.botanical_name {
 		text-align: center;
 		font-style: italic;
@@ -206,7 +209,9 @@ input {
 	}
 }
 
-.back {
+.flower_nav {
+	text-align: center;
+	margin-top: 2em;
 	letter-spacing: 1px;
 	font-weight: 200;
 }

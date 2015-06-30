@@ -6,15 +6,17 @@ class Flower
   elasticsearch!
   field :name, type: String
   slug :name
+  field :other_names, type: String
   field :bot_name, type: String
+  field :family, type: String
   field :significance, type: String
-  field :petals, type: String
-  field :colour, type: String
+  field :comment, type: String
   field :description, type: String
+  field :colour, type: String
+  field :petals, type: String
+  field :size, type: String
 	field :place, type: String
 	field :climate, type: String
-	field :season, type: String
-	field :size, type: String 
   field :image_url, type: String
   field :thumbnail_url, type: String
 
@@ -28,17 +30,17 @@ class Flower
 
   # dimensions, photographs, stories
 
-  validates_presence_of :name, :significance,
-                        :petals, :colour, :description,
-                        :place, :climate, :season, :size
+  # validates_presence_of :name, :significance,
+  #                       :petals, :colour, :description,
+  #                       :place, :climate, :season, :size
                         
-  validates_presence_of :image_url, :message => "Please upload an image"
+  # validates_presence_of :image_url, :message => "Please upload an image"
 
-  validates_presence_of :bot_name, :message => "Botanical name must be present"
+  # validates_presence_of :bot_name, :message => "Botanical name must be present"
 
   # validates_format_of :image_url, :with => %r{\.(png|jpg|gif)}i,
   #                                 :message => "The image must be a png or jpg"
 
-  validates_uniqueness_of :name, :bot_name, :image_url
+  # validates_uniqueness_of :name, :bot_name, :image_url
 
 end

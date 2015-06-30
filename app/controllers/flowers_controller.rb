@@ -18,6 +18,8 @@ class FlowersController < ApplicationController
 
 	def show
 		@flower = Flower.find(params[:id])
+		@previous = Flower.where(:name.lt => @flower.name).desc(:name).limit(1).first
+		@next = Flower.where(:name.gt => @flower.name).asc(:name).limit(1).first
 		respond_to do |format|
 			format.html
 			format.json { render json: @flower }
