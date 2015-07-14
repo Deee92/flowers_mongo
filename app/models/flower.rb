@@ -4,6 +4,7 @@ class Flower
   # include Mongoid::Paperclip
   include Mongoid::Elasticsearch
   elasticsearch!
+  recursively_embeds_many
   field :name, type: String
   slug :name
   field :other_names, type: String
