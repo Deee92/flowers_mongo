@@ -5,19 +5,13 @@ var getImageColor = function () {
     setTimeout(function() {
       try {
         var color = colorThief.getColor(mainImage[0]);
-        $('.details').animate({
-          borderColor: 'rgba(' + color.toString() + ', 0.6)'
-        }, 750);
         $('body').animate({
-          backgroundColor: 'rgba(' + color.toString() + ', 0.5)'
+          backgroundColor: 'rgba(' + color.toString() + ', 0.7) !important'
         }, 750);
-      } catch (e) {
-
-      }
+      } catch (e) {}
     }, 200);
   }
 }
 
 $(document).ready(getImageColor);
-
 $(document).on('page:load', getImageColor);

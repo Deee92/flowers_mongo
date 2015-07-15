@@ -9,14 +9,15 @@ $lightgrey: lightgrey;
 /* universal */
 
 body {
+	padding-top: 100px;
+	position: relative;
+	background-color: $lightgrey;
 	background: url(green_bokeh.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-	padding-top: 100px;
-	position: relative;
-	background-color: $lightgrey;
+  background-blend-mode: screen;
 	// background-color: #fdf9f9;
 	// a {
 	// 	color: #fff;
@@ -172,7 +173,6 @@ input {
 
 .flower_name {
 	letter-spacing: 1.2px;
-	// font-family:'Magma II W01';
 	font-weight: 200;
 	font-size: 20px;
 }
@@ -197,15 +197,11 @@ input {
 	background: rgb(255, 255, 255);
 	background: rgba(255, 255, 255, 0.7);
 	padding: 1.5em;
-	border: 1px solid darken($lightgrey, 6);
+	border: 1px solid darken($lightgrey, 10);
 	margin-bottom: 10px;
-	// border-radius: 1em;
-	// border-bottom-left-radius: 2em;
 	.flower_heading {
 		clear: both;
 		text-align: center;
-		// font-weight: 300;
-		// font-weight: 100;
 		font-size: 72px;
 	}
 	.flower_other_names {
@@ -215,7 +211,6 @@ input {
 		text-align: center;
 		font-style: italic;
 		letter-spacing: 1px;
-		// font-weight: 300;
 	}
 	.flower_subheading {
 		@extend h5;
@@ -233,7 +228,7 @@ input {
 
 .side-details {
 	@extend .details;
-	padding: 1em 1.5em;
+	padding: 0.5em 1.5em;
 	margin-bottom: 10px;
 }
 
