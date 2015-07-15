@@ -1,24 +1,38 @@
-<hr/>
-<br/>
-
-<%= paginate @flowers %>
-
-<div class="media", style="clear: both;">
-  <% @flowers.each do |flower| %>
-    <div class="col-md-4" style="margin-bottom: 4em; margin-top: 2em;">
-      <div class="media-left">
-        <%= link_to image_tag(flower.thumbnail_url, class: "media-object img-circle", height: '90', width: '95'), flower %>
-      </div>
-      <div class="media-body media-middle">
-        <%= link_to flower.name, flower, class: "flower_name" %>
-        <% if is_admin? %>
-          <span class="option">
-            | <%= link_to "edit", edit_flower_path(flower) %>
-            | <%= link_to "delete", flower, method: :delete,
-                                            data: { confirm: "Delete this flower?" } %>
-          </span>
-        <% end %>
-      </div>
+<!-- http://colintoh.com/blog/display-table-anti-hero -->
+<!-- https://css-tricks.com/almanac/properties/d/display/ -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/CSS/display -->
+<div class="row media">
+  <!-- <div class="media", style="clear: both;"> -->
+  <% get_flower_rows.each do |row| %>
+    <div class="row">
+      <% row.each do |flower| %>
+        <div class="col-sm-4 col-xs-12 text-center" style="display: table;margin: 20px 0">
+          <div style="display: table-row;">
+            <div style="display: table-cell;">
+              <%= link_to image_tag(flower.thumbnail_url, class: "img-circle", height: '150', width: '150'), flower %>
+            </div>
+          </div>
+          <div style="display: table-row;">
+            <%= link_to flower.name, flower, class: "flower_name" %>
+          </div>
+        </div>
+        <!-- 
+          <div class="media-body media-middle">
+            <%= link_to flower.name, flower, class: "flower_name" %>
+            <% if is_admin? %>
+              <span class="option">
+                | <%= link_to "edit", edit_flower_path(flower) %>
+                | <%= link_to "delete", flower, method: :delete,
+                                                data: { confirm: "Delete this flower?" } %>
+              </span>
+            <% end %>
+          </div>
+        </div> -->
+      <% end %>
+      
     </div>
   <% end %>
+  <!-- </div> -->
 </div>
+
+<%= paginate @flowers %>

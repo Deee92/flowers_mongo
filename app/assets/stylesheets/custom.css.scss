@@ -1,3 +1,7 @@
+$font-size-base: 20px;
+$font-family-sans-serif: 'Magma II W04', Helvetica, Arial, sans-serif;
+$lightgrey: lightgrey;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import url(http://fonts.googleapis.com/css?family=Lato:900);
@@ -12,10 +16,11 @@ body {
   background-size: cover;
 	padding-top: 100px;
 	position: relative;
-	background-color: #fdf9f9;
-	a {
-		color: #fff;
-	}
+	background-color: $lightgrey;
+	// background-color: #fdf9f9;
+	// a {
+	// 	color: #fff;
+	// }
 }
 
 section {
@@ -35,19 +40,19 @@ textarea {
 	margin-bottom: 1em;
 	font-weight: 300;
 	text-align: center;
-	letter-spacing: 1px;
+	// letter-spacing: 1px;
 }
 
 
 /* header */
 
 #logo {
-	font-family: 'Lato', sans-serif;
+	// font-family: 'Lato', sans-serif;
 	float: left;
 	margin: 0 6px;
 	font-size: 1.7em;
 	color: #ff4e50;
-	letter-spacing: 2px;
+	// letter-spacing: 2px;
 	padding-top: 9px;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -80,7 +85,7 @@ textarea {
 	border-bottom-left-radius: 2em;
 	border-bottom-right-radius: 2em;
 	p {
-		letter-spacing: 0.7px;
+		// letter-spacing: 0.7px;
 		font-size: 1.3em;
 		font-weight: 300;
 		padding-bottom: 1em;
@@ -103,11 +108,11 @@ textarea {
 		margin-bottom: 1em;
 		font-weight: 300;
 		text-align: center;
-		letter-spacing: 1px;
+		// letter-spacing: 1px;
 	}
 	p {
 		font-weight: 300;
-		letter-spacing: 1.2px;
+		// letter-spacing: 1.2px;
 		line-spacing: 2px;
 	}
 }
@@ -130,7 +135,7 @@ footer {
 /* forms */
 
 .form_field {
-	letter-spacing: 1px;
+	// letter-spacing: 1px;
 	font-weight: 300;
 	font-size: 1.5em;
 }
@@ -167,17 +172,20 @@ input {
 
 .flower_name {
 	letter-spacing: 1.2px;
+	// font-family:'Magma II W01';
+	font-weight: 200;
+	font-size: 20px;
 }
 
 .option {
 	color: #ff4e50;
 	font-size: small;
 	font-weight: lighter;
-	letter-spacing: 1.5px;
+	// letter-spacing: 1.5px;
 }
 
 .add {
-	letter-spacing: 1px;
+	// letter-spacing: 1px;
 	text-align: center;
 	margin-top: 3em;
 	font-weight: 200;
@@ -186,14 +194,19 @@ input {
 /* flower page */
 
 .details {
+	background: rgb(255, 255, 255);
 	background: rgba(255, 255, 255, 0.7);
-	padding: 2em;
-	border-bottom-right-radius: 2em;
-	border-bottom-left-radius: 2em;
+	padding: 1.5em;
+	border: 1px solid darken($lightgrey, 6);
+	margin-bottom: 10px;
+	// border-radius: 1em;
+	// border-bottom-left-radius: 2em;
 	.flower_heading {
 		clear: both;
 		text-align: center;
-		font-weight: 300;
+		// font-weight: 300;
+		// font-weight: 100;
+		font-size: 72px;
 	}
 	.flower_other_names {
 		text-align: center;
@@ -202,17 +215,32 @@ input {
 		text-align: center;
 		font-style: italic;
 		letter-spacing: 1px;
+		// font-weight: 300;
 	}
 	.flower_subheading {
-		letter-spacing: 1px;
+		@extend h5;
+		@extend .text-lowercase;
+		// letter-spacing: 1px;
 		font-weight: 300;
+		-moz-font-feature-settings : 'smcp= 1','calt=0';
+   -moz-font-feature-settings : "smcp" 1,"calt" 0;
+   -webkit-font-feature-settings : "smcp" 1,"calt" 0;
+   -ms-font-feature-settings : 'smcp= 1','calt=0';
+   -o-font-feature-settings : "smcp" 1,"calt" 0;
+   font-feature-settings : "smcp" 1,"calt" 0;
 	}
+}
+
+.side-details {
+	@extend .details;
+	padding: 1em 1.5em;
+	margin-bottom: 10px;
 }
 
 .flower_nav {
 	text-align: center;
 	margin-top: 2em;
-	letter-spacing: 1px;
+	// letter-spacing: 1px;
 	font-weight: 200;
 }
 
@@ -220,5 +248,44 @@ input {
 
 .user_email {
 	font-weight: 200;
-	letter-spacing: 1.2px;
+	// letter-spacing: 1.2px;
+}
+
+// p.lead {
+// 		font-weight: 100;
+// 	}
+
+.significance, .lead {
+	font-weight: 100;
+}
+
+	.t1 {
+		@extend .h1;
+		font-weight: 300;
+	}
+
+	.t2 {
+		@extend .h2;
+		font-weight: 300;
+	}
+
+	.t3 {
+		@extend .h3;
+		font-weight: 300;
+	}
+	.t4 {
+		@extend .h4;
+		font-weight: 300;
+	}
+	.t5 {
+		@extend .h5;
+		font-weight: 300;
+	}
+	.t6 {
+		@extend .h6;
+		font-weight: 300;
+	}
+
+.main-img {
+	margin: 40px 0;
 }

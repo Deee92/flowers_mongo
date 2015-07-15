@@ -1,60 +1,74 @@
 <% provide(:title, @flower.name.html_safe) %>
-<div class="row center">
-  <div class="col-md-10 col-md-offset-1">
-      <%= image_tag(@flower.image_url, class: "img-responsive") %>
+<!-- <div class="row">
+  <div class="text-center">
+    <h1><%= @flower.name %></h1>
+    <h3><em>(<%= @flower.bot_name %>)</em></h3>
   </div>
 </div>
-<div class="row">
+<div class="row center">
   <div class="col-md-10 col-md-offset-1">
+      <%= image_tag(@flower.image_url, class: "img-responsive main-img") %>
+  </div>
+</div> -->
+<div class="row">
+  <div class="col-md-9 col-xs-12">
     <div class="details">
       <% if is_admin? %>
         <%= link_to "edit", edit_flower_path(@flower), class: "option", style: "float: right;" %>
       <% end %>
       <h1 class="flower_heading"><%= @flower.name %></h1>
 
-      <h5 class="botanical_name">(<%= @flower.bot_name %>)</h5>
+      <h3 class="botanical_name">(<%= @flower.bot_name %>)</h3>
       
-      <% if @flower.family.present? %>
-        <h5 class="botanical_name">Family: <%= @flower.family %></h5>
-      <% end %>
-
-      <% if @flower.other_names.present? %>
-        <p class="flower_other_names">Other names: <%= @flower.other_names %></h2>
-      <% end %>
+      <%= image_tag(@flower.image_url, class: "img-responsive main-img") %>
 
       <% if @flower.child_flowers.length < 1 %>
 
-        <h3 class="flower_subheading">Significance</h3>
-        <p><%= @flower.significance %></p>
+        <p class="flower_subheading">Significance given by the Mother</p>
+        <p class="lead significance"><%= @flower.significance %></p>
 
         <% if @flower.comment.present? %>
-          <h3 class="flower_subheading">Comment</h3>
-          <p><%= @flower.comment %></p>
+          <h3 class="flower_subheading">The Mother's Comment</h3>
+          <p class="lead comment"><%= @flower.comment %></p>
         <% end %>
 
-        <h3 class="flower_subheading">Description</h3>
-        <p><%= @flower.description %></p>
+        <p class="flower_subheading">Description</p>
+        <p class="t5"><%= @flower.description %></p>
 
-        <h3 class="flower_subheading">Colour</h3>
-        <p><%= @flower.colour %></p>
+        <% if false %>
+        <% if @flower.family.present? %>
+          <p class="flower_subheading">Family</p>
+          <p class="t5"><%= @flower.family %></p>
+        <% end %>
 
+      <% if @flower.other_names.present? %>
+        <p class="flower_subheading">Other names</p>
+        <p class="t5"><%= @flower.other_names %></p>
       <% end %>
 
+        <p class="flower_subheading">Colour</p>
+        <p class="t5"><%= @flower.colour %></p>
+        <% end %>
+    <% end %>
+
+      <% if false %>
       <% if @flower.petals.present? %>
-        <h3 class="flower_subheading">Petals</h3>
-        <p><%= @flower.petals %></p>
+        <p class="flower_subheading">Petals</p>
+        <p class="t5"><%= @flower.petals %></p>
       <% end %>
 
       <% if @flower.size.present? %>
-        <h3 class="flower_subheading">Size</h3>
-        <p><%= @flower.size %></p>
+        <p class="flower_subheading">Size</p>
+        <p class="t5"><%= @flower.size %></p>
       <% end %>
 
-      <h3 class="flower_subheading">Places</h3>
-      <p><%= @flower.place %></p>
+      <p class="flower_subheading">Places</p>
+      <p class="t5"><%= @flower.place %></p>
 
-      <h3 class="flower_subheading">Climate</h3>
-      <p><%= @flower.climate %></p>
+      <p class="flower_subheading">Climate</p>
+      <p class="t5"><%= @flower.climate %></p>
+
+      <% end %>
 
       <% if @flower.child_flowers.length > 0 %>
 
@@ -93,7 +107,55 @@
       </a>
     </div>
   </div>
+  <div class="col-md-3 col-xs-12">
+    <% if @flower.family.present? %>
+      <div class="side-details">
+        <p class="flower_subheading">Family</p>
+        <p class="t5"><%= @flower.family %></p>
+      </div>
+    <% end %>
+
+    <% if @flower.other_names.present? %>
+      <div class="side-details">
+        <p class="flower_subheading">Other Names</p>
+        <p class="t5"><%= @flower.other_names %></p>
+      </div>
+    <% end %>
+
+    <% if @flower.colour.present? %>
+      <div class="side-details">
+        <p class="flower_subheading">Colour</p>
+        <p class="t5"><%= @flower.colour %></p>
+      </div>
+    <% end %>
+
+    <% if @flower.petals.present? %>
+      <div class="side-details">
+        <p class="flower_subheading">Petals</p>
+        <p class="t5"><%= @flower.petals %></p>
+      </div>
+    <% end %>
+
+    <% if @flower.size.present? %>
+      <div class="side-details">
+        <p class="flower_subheading">Size</p>
+        <p class="t5"><%= @flower.size %></p>
+      </div>
+    <% end %>
+
+    <div class="side-details">
+      <p class="flower_subheading">Cultivation</p>
+      <p class="t5"><%= @flower.place %></p>
+    </div>
+
+    <div class="side-details">
+      <p class="flower_subheading">Climate</p>
+      <p class="t5"><%= @flower.climate %></p>
+    </div>
+  </div>
 </div>
+<!-- <div class="row">
+</div> -->
 
 <div class="flower_nav">
 
