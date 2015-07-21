@@ -12,8 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
-//= require bootstrap-sprockets
+//= require bootstrap/transition
+//= require bootstrap/carousel
 //= require color-thief
 //= require jquery.color
+//= require turbolinks
 //= require_tree .

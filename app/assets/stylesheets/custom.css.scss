@@ -4,7 +4,6 @@ $lightgrey: lightgrey;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import url(http://fonts.googleapis.com/css?family=Lato:900);
 
 /* universal */
 
@@ -48,7 +47,6 @@ textarea {
 /* header */
 
 #logo {
-	// font-family: 'Lato', sans-serif;
 	float: left;
 	margin: 0 6px;
 	font-size: 1.7em;
@@ -218,11 +216,16 @@ input {
 		// letter-spacing: 1px;
 		font-weight: 300;
 		-moz-font-feature-settings : 'smcp= 1','calt=0';
-   -moz-font-feature-settings : "smcp" 1,"calt" 0;
-   -webkit-font-feature-settings : "smcp" 1,"calt" 0;
-   -ms-font-feature-settings : 'smcp= 1','calt=0';
-   -o-font-feature-settings : "smcp" 1,"calt" 0;
-   font-feature-settings : "smcp" 1,"calt" 0;
+		-moz-font-feature-settings : "smcp" 1,"calt" 0;
+		-webkit-font-feature-settings : "smcp" 1,"calt" 0;
+		-ms-font-feature-settings : 'smcp= 1','calt=0';
+		-o-font-feature-settings : "smcp" 1,"calt" 0;
+		font-feature-settings : "smcp" 1,"calt" 0;
+	}
+
+	.variant-subheading {
+		@extend .flower_subheading;
+		margin-top: 0;
 	}
 }
 
@@ -283,4 +286,21 @@ input {
 
 .main-img {
 	margin: 40px 0;
+}
+
+.details hr {
+	border-top-color: #fff;
+}
+
+@media (max-width: $screen-sm-max) {
+	.details {
+		border-color: transparent;
+		margin-bottom: 0;
+	}
+
+	.side-details {
+		margin: 0;
+		border-color: transparent;
+		padding-top: 0;
+	}
 }

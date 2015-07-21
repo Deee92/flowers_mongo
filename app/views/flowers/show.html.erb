@@ -20,83 +20,105 @@
 
       <h3 class="botanical_name">(<%= @flower.bot_name %>)</h3>
       
-      <%= image_tag(@flower.image_url, class: "img-responsive main-img") %>
+      <% if @flower.image_url %>
+        <%= image_tag(@flower.image_url, class: "img-responsive main-img", alt: @flower.name) %>
+      <% elsif @flower.child_flowers %>
+        <div id="flowers-carousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <% @flower.child_flowers.each_with_index do |variant, i| %>
+              <li data-target="#flowers-carousel" data-slide-to="<%= i %>" class="<%= "active" if i == 0 %>"></li>
+            <% end %>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <% @flower.child_flowers.each_with_index do |variant, i| %>
+              <div class="item <%= "active" if i == 0 %>">
+                <%= image_tag(variant.image_url, class: i == 0 ? 'variant-img' : nil, alt: variant.name) %>
+                <% if variant.bot_name %>
+                  <div class="carousel-caption">
+                    <%= variant.bot_name %>
+                  </div>
+                <% end %>
+              </div>
+            <% end %>
+          </div>
+          <a class="left carousel-control" href="#flowers-carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#flowers-carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      <% end %>
 
-      <% if @flower.child_flowers.length < 1 %>
+      <% if @flower.child_flowers.empty? %>
 
-        <p class="flower_subheading">Significance given by the Mother</p>
-        <p class="lead significance"><%= @flower.significance %></p>
+        <% if @flower.significance.present? %>
+          <p class="flower_subheading">Significance given by the Mother</p>
+          <p class="lead significance"><%= @flower.significance %></p>
+        <% end %>
 
         <% if @flower.comment.present? %>
-          <h3 class="flower_subheading">The Mother's Comment</h3>
+          <p class="flower_subheading">The Mother&rsquo;s Comment</p>
           <p class="lead comment"><%= @flower.comment %></p>
         <% end %>
 
-        <p class="flower_subheading">Description</p>
-        <p class="t5"><%= @flower.description %></p>
-
-        <% if false %>
-        <% if @flower.family.present? %>
-          <p class="flower_subheading">Family</p>
-          <p class="t5"><%= @flower.family %></p>
+        <% if @flower.description.present? %>
+          <p class="flower_subheading">Description</p>
+          <p class="t5"><%= @flower.description %></p>
         <% end %>
 
-      <% if @flower.other_names.present? %>
-        <p class="flower_subheading">Other names</p>
-        <p class="t5"><%= @flower.other_names %></p>
-      <% end %>
-
-        <p class="flower_subheading">Colour</p>
-        <p class="t5"><%= @flower.colour %></p>
+    <% else %>
+        <% if @flower.description.present? %>
+          <p class="flower_subheading">Description</p>
+          <p class="t5"><%= @flower.description %></p>
+        <% else %>
+          <p class="flower_subheading">Description</p>
+          <p class="t5">Medium-sized fully double flowers with soft fringed petals and a sweet clovelike fragrance; in white and shades of purple, pink, red, yellow and apricot orange; borne in clusters of two to five flowers on long stems. A popular garden perennial.</p>
         <% end %>
-    <% end %>
 
-      <% if false %>
-      <% if @flower.petals.present? %>
-        <p class="flower_subheading">Petals</p>
-        <p class="t5"><%= @flower.petals %></p>
-      <% end %>
+        <p class="t3 text-center">Variants</p>
 
-      <% if @flower.size.present? %>
-        <p class="flower_subheading">Size</p>
-        <p class="t5"><%= @flower.size %></p>
-      <% end %>
-
-      <p class="flower_subheading">Places</p>
-      <p class="t5"><%= @flower.place %></p>
-
-      <p class="flower_subheading">Climate</p>
-      <p class="t5"><%= @flower.climate %></p>
-
-      <% end %>
-
-      <% if @flower.child_flowers.length > 0 %>
-
-        <h3 class="flower_subheading">Variants</h3>
-        <hr/>
-        <% @flower.child_flowers.each do |variant| %>
+        <% @flower.child_flowers.each_with_index do |variant, i| %>
+          <% if i > 0 %>
+            <hr>
+          <% end %>
           <div class="row variant">
-            <div class="col-md-8">
-              <%= image_tag(variant.image_url, class: "img-responsive variant_img") %>
-            </div>
-            <div class="col-md-4">
-              <% if variant.bot_name.present? %>
-                <h5 class="botanical_name">(<%= variant.bot_name %>)</h5>
-              <% end %>
-              <h3 class="flower_subheading">Significance</h3>
-              <p><%= variant.significance %></p>
+            <div class="<%= i % 2 == 0 ? 'col-md-8' : 'col-md-8 col-md-push-4' %>">
+              <div class="row">
+                <div class="col-xs-12">
+                  <%= image_tag(variant.image_url, class: "img-responsive variant_img") %>
+                </div>
+              </div>
               <% if variant.comment.present? %>
-                <h3 class="flower_subheading">Comment</h3>
-                <p><%= variant.comment %></p>
+                <div class="row" style="margin-top: 20px">
+                  <div class="col-xs-12">
+                    <p class="variant-subheading">Significance given by the Mother</p>
+                    <p class="lead"><%= variant.significance %></p>
+                  </div>
+                </div>
               <% end %>
-              <h3 class="flower_subheading">Description</h3>
-              <p><%= variant.description %></p>
-              <h3 class="flower_subheading">Colour</h3>
-              <p><%= variant.colour %></p>
+              <% if variant.comment.present? %>
+                <div class="row">
+                  <div class="col-xs-12">
+                      <p class="variant-subheading">The Mother&rsquo;s Comment</p>
+                      <p class="lead"><%= variant.comment %></p>
+                  </div>
+                </div>
+              <% end %>
             </div>
-          </div>
-          <div class="row">
-            <hr/>
+            <div class="<%= i % 2 == 0 ? 'col-md-4' : 'col-md-4 col-md-pull-8' %>">
+              <% if variant.bot_name.present? %>
+                <p class="botanical_name">(<%= variant.bot_name %>)</p>
+              <% end %>
+              
+              
+              <p class="flower_subheading">Description</p>
+              <p class="t5"><%= variant.description %></p>
+              <p class="flower_subheading">Colour</p>
+              <p class="t5"><%= variant.colour %></p>
+            </div>
           </div>
         <% end %>
       
@@ -107,7 +129,7 @@
       </a>
     </div>
   </div>
-  <div class="col-md-3 col-xs-12">
+  <div class="col-md-3 col-xs-12 sidebar">
     <% if @flower.family.present? %>
       <div class="side-details">
         <p class="flower_subheading">Family</p>
@@ -154,8 +176,6 @@
     </div>
   </div>
 </div>
-<!-- <div class="row">
-</div> -->
 
 <div class="flower_nav">
 
