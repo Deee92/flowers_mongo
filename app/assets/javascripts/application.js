@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require bootstrap/transition
 //= require bootstrap/carousel
+//= require bootstrap/affix
 //= require color-thief
 //= require jquery.color
 //= require turbolinks

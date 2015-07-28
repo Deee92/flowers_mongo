@@ -2,7 +2,8 @@
   var attrs = {
     mainImg: '.main-img',
     variantImg: '.variant-img',
-    flowersCarousel: '#flowers-carousel'
+    flowersCarousel: '#flowers-carousel',
+    affixSidebar: '.scroll'
   };
 
   var ready = function () {
@@ -13,6 +14,15 @@
     get$(attrs.flowersCarousel).on('slide.bs.carousel', function (event) {
       blendBackgroundColour(event.relatedTarget.children[0]);
     });
+
+    get$(attrs.affixSidebar).affix({
+      offset: {
+        top: 200,
+        bottom: function () {
+          return (this.bottom = $('.variant').height());
+        }
+      }
+    })
   }
 
   var blendBackgroundColour = function (img) {

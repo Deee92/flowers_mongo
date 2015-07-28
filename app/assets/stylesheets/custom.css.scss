@@ -304,3 +304,21 @@ input {
 		padding-top: 0;
 	}
 }
+
+.scroll {
+	// position: unset;
+	bottom: 50px;
+}
+
+.scroll.affix-top .glyphicon {
+	display: none;
+}
+
+// .scroll.affix-bottom {
+// 	position: fixed;
+	
+// }
+
+.affix-bottom {
+    position: relative
+}
