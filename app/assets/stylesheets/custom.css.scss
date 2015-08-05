@@ -227,6 +227,10 @@ input {
 		@extend .flower_subheading;
 		margin-top: 0;
 	}
+	.img-source {
+		float: right;
+		font-size: 0.6em;
+	}
 }
 
 .side-details {
@@ -237,7 +241,7 @@ input {
 
 .flower_nav {
 	text-align: center;
-	margin-top: 2em;
+	margin-top: 4em;
 	// letter-spacing: 1px;
 	font-weight: 200;
 }
@@ -285,7 +289,7 @@ input {
 	}
 
 .main-img {
-	margin: 40px 0;
+	margin: 40px 0 5px 0;
 }
 
 .details hr {

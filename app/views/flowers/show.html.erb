@@ -18,10 +18,13 @@
       <% end %>
       <h1 class="flower_heading"><%= @flower.name %></h1>
 
-      <h3 class="botanical_name">(<%= @flower.bot_name %>)</h3>
+      <% if @flower.bot_name.present? %>
+        <h3 class="botanical_name">(<%= @flower.bot_name %>)</h3>
+      <% end %>
       
       <% if @flower.image_url %>
         <%= image_tag(@flower.image_url, class: "img-responsive main-img", alt: @flower.name) %>
+        <a href="<%= @flower.url %>" class="img-source" style="padding-bottom: 30px;"><%= @flower.source %></a>
       <% elsif @flower.child_flowers %>
         <div id="flowers-carousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -55,7 +58,7 @@
       <% if @flower.child_flowers.empty? %>
 
         <% if @flower.significance.present? %>
-          <p class="flower_subheading">Significance given by the Mother</p>
+          <p class="flower_subheading" style="clear: both;">Significance given by the Mother</p>
           <p class="lead significance"><%= @flower.significance %></p>
         <% end %>
 
@@ -71,14 +74,15 @@
 
     <% else %>
         <% if @flower.description.present? %>
-          <p class="flower_subheading">Description</p>
+          <p class="flower_subheading" style="clear: both;">Description</p>
           <p class="t5"><%= @flower.description %></p>
         <% else %>
-          <p class="flower_subheading">Description</p>
+          <p class="flower_subheading" style="clear: both;">Description</p>
           <p class="t5">Medium-sized fully double flowers with soft fringed petals and a sweet clovelike fragrance; in white and shades of purple, pink, red, yellow and apricot orange; borne in clusters of two to five flowers on long stems. A popular garden perennial.</p>
         <% end %>
 
         <p class="t3 text-center">Variants</p>
+        <hr/>
 
         <% @flower.child_flowers.each_with_index do |variant, i| %>
           <% if i > 0 %>
@@ -89,16 +93,15 @@
               <div class="row">
                 <div class="col-xs-12">
                   <%= image_tag(variant.image_url, class: "img-responsive variant_img") %>
+                  <a href="<%= variant.url %>" class="img-source"><%= variant.source %></a>
                 </div>
               </div>
-              <% if variant.comment.present? %>
-                <div class="row" style="margin-top: 20px">
-                  <div class="col-xs-12">
-                    <p class="variant-subheading">Significance given by the Mother</p>
-                    <p class="lead"><%= variant.significance %></p>
-                  </div>
+              <div class="row" style="margin-top: 20px">
+                <div class="col-xs-12">
+                  <p class="variant-subheading">Significance given by the Mother</p>
+                  <p class="lead"><%= variant.significance %></p>
                 </div>
-              <% end %>
+              </div>
               <% if variant.comment.present? %>
                 <div class="row">
                   <div class="col-xs-12">
@@ -170,11 +173,14 @@
       <p class="flower_subheading">Climate</p>
       <p class="t5"><%= @flower.climate %></p>
     </div>
-    <div class="scroll" data-spy="affix">
-      <a href="#">
-        <span class="glyphicon glyphicon-menu-up", style="float: right; color: #ff4e50;"></span>
-      </a>
-    </div>
+
+    <% if @flower.child_flowers.present? %>
+      <div class="scroll" data-spy="affix">
+        <a href="#">
+          <span class="glyphicon glyphicon-menu-up", style="color: #ff4e50;"></span>
+        </a>
+      </div>
+    <% end %>
   </div>
 
     

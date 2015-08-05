@@ -20,6 +20,8 @@ class Flower
 	field :climate, type: String
   field :image_url, type: String
   field :thumbnail_url, type: String
+  field :source, type: String
+  field :url, type: String
 
   # has_mongoid_attached_file :image
   # validates_attachment_presence :image
