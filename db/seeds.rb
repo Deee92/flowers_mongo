@@ -533,7 +533,7 @@ cardinals_guard = Flower.create!(name: "Cardinal's Guard",
                                  image_url: "cardinals_guard.jpg",
                                  thumbnail_url: "cardinals_guard_thumbnail.jpg",
                                  source: "Wikimedia Commons",
-                                 url: "https://commons.wikimedia.org/wiki/File:Pachystachys_coccinea-1-sunny_brook-yercaud-salem-India.JPG"
+                                 url: "https://commons.wikimedia.org/wiki/File:Pachystachys_coccinea-2-sunny_brook-yercaud-salem-India.JPG"
                                 )
 
 persian_shield = Flower.create!(name: "Persian Shield",

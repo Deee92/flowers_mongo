@@ -35,12 +35,14 @@
           <p><%= @flower.comment %></p>
         <% end %>
 
-        <h3 class="flower_subheading">Description</h3>
-        <p><%= @flower.description %></p>
-
         <h3 class="flower_subheading">Colour</h3>
         <p><%= @flower.colour %></p>
 
+      <% end %>
+
+      <% if @flower.description.present? %>
+        <h3 class="flower_subheading">Description</h3>
+        <p><%= @flower.description %></p>
       <% end %>
 
       <% if @flower.petals.present? %>
@@ -59,7 +61,7 @@
       <h3 class="flower_subheading">Climate</h3>
       <p><%= @flower.climate %></p>
 
-      <% if @flower.child_flowers.length > 0 %>
+      <% if @flower.child_flowers.present? %>
 
         <h3 class="flower_subheading">Variants</h3>
         <hr/>
