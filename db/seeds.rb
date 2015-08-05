@@ -16,6 +16,7 @@
 #                climate: "",
 #                image_url: "",
 #                thumbnail_url: "",
+#                source: ""
 #               )
 
 # .child_flowers.create!(description: "",
@@ -24,6 +25,12 @@
 #                        comment: "",
 #                        image_url: ""
 #                       )
+
+######################################################################################################################
+
+# Flowers without variants
+
+######################################################################################################################
 
 ladies_fingers = Flower.create!(name: "Ladies' Fingers",
                                 other_names: "Okra, Gumbo, Bhindi",
@@ -41,7 +48,9 @@ ladies_fingers = Flower.create!(name: "Ladies' Fingers",
                                         Americas and the Philippines",
                                 climate: "Tropical, subtropical and warm temperate regions",
                                 image_url: "ladies_fingers.jpg",
-                                thumbnail_url: "ladies_fingers_thumbnail.jpg"
+                                thumbnail_url: "ladies_fingers_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Abelmoschus_esculentus_01.JPG"
                                )
 
 sea_holly = Flower.create!(name: "Sea Holly",
@@ -60,7 +69,9 @@ sea_holly = Flower.create!(name: "Sea Holly",
                                    lakes and marshes and sea-shores",
                            climate: "Tropical and subtropical",
                            image_url: "sea_holly.jpg",
-                           thumbnail_url: "sea_holly_thumbnail.jpg"
+                           thumbnail_url: "sea_holly_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Kandal_04869.JPG"
                           )
 
 mountain_thistle = Flower.create!(name: "Mountain Thistle",
@@ -79,7 +90,9 @@ mountain_thistle = Flower.create!(name: "Mountain Thistle",
                                           regions",
                                   climate: "Tropical",
                                   image_url: "mountain_thistle.jpg",
-                                  thumbnail_url: "mountain_thistle_thumbnail.jpg"
+                                  thumbnail_url: "mountain_thistle_thumbnail.jpg",
+                                  source: "Prof. Summer's Web Garden - World Tropical Flowers",
+                                  url: "http://tropicalflowers.la.coocan.jp/Acanthaceae/Acanthus%20montanus/Acanthus%20montanus.htm"
                                  )
 
 red_aphelandra = Flower.create!(name: "Red Aphelandra",
@@ -98,7 +111,9 @@ red_aphelandra = Flower.create!(name: "Red Aphelandra",
                                 place: "Native to the tropical Americas",
                                 climate: "Tropical",
                                 image_url: "red_aphelandra.jpg",
-                                thumbnail_url: "red_aphelandra_thumbnail.jpg"
+                                thumbnail_url: "red_aphelandra_thumbnail.jpg",
+                                source: "Galleryhip",
+                                url: "http://galleryhip.com/aphelandra-tetragona.html"
                                )
 
 glush_weed = Flower.create!(name: "Glush Weed",
@@ -116,7 +131,9 @@ glush_weed = Flower.create!(name: "Glush Weed",
                             place: "Native to Brazil, grows from sothern Mexico to Argentina",
                             climate: "Tropical",
                             image_url: "glush_weed.jpg",
-                            thumbnail_url: "glush_weed_thumbnail.jpg"
+                            thumbnail_url: "glush_weed_thumbnail.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Ruellia_elegans_9844.jpg"
                            )
 
 violet_asystasia = Flower.create!(name: "Violet Asystasia",
@@ -136,7 +153,9 @@ violet_asystasia = Flower.create!(name: "Violet Asystasia",
                                   place: "Found in India and other tropical regions",
                                   climate: "Tropical",
                                   image_url: "violet_asystasia.jpg",
-                                  thumbnail_url: "violet_asystasia_thumbnail.jpg"
+                                  thumbnail_url: "violet_asystasia_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Asystasia_dalzelliana_around_Kadavoor.jpg"
                                  )
 
 barleria = Flower.create!(name: "Barleria",
@@ -154,11 +173,13 @@ barleria = Flower.create!(name: "Barleria",
                           place: "Native to Southern China, India, and Myanmar",
                           climate: "Tropical and subtropical",
                           image_url: "barleria.jpg",
-                          thumbnail_url: "barleria.jpg"
+                          thumbnail_url: "barleria.jpg",
+                          source: "Wikimedia Commons",
+                          url: "https://commons.wikimedia.org/wiki/File:Barleria_sp1.JPG"
                          )
 
 porcupine_flower = Flower.create!(name: "Porcupine Flower",
-                                  other_names: "",
+                                  other_names: "December Flower",
                                   bot_name: "Barleria prionitis",
                                   family: "Acanthaceae",
                                   significance: "Mental Opening",
@@ -171,7 +192,9 @@ porcupine_flower = Flower.create!(name: "Porcupine Flower",
                                   place: "Native to India, Sri Lanka and Eastern Southern and Central Africa.",
                                   climate: "Mostly tropical",
                                   image_url: "porcupine_flower.jpg",
-                                  thumbnail_url: "porcupine_flower_thumbnail.jpg"
+                                  thumbnail_url: "porcupine_flower_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Barleria_prionitis_(%E0%A4%95%E0%A4%BE%E0%A4%9F%E0%A5%87_%E0%A4%95%E0%A5%8B%E0%A4%B0%E0%A4%BE%E0%A4%82%E0%A4%9F%E0%A5%80)_Yellow_02.jpg"
                                  )
 
 blue_fox_tail = Flower.create!(name: "Blue Fox Tail",
@@ -188,7 +211,9 @@ blue_fox_tail = Flower.create!(name: "Blue Fox Tail",
                                place: "Endemic to India",
                                climate: "Tropical and subtropical",
                                image_url: "blue_fox_tail.jpg",
-                               thumbnail_url: "blue_fox_tail_thumbnail.jpg"
+                               thumbnail_url: "blue_fox_tail_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Green_ice_crossandra.jpg"
                               )
 
 shooting_star = Flower.create!(name: "Shooting Star",
@@ -206,7 +231,9 @@ shooting_star = Flower.create!(name: "Shooting Star",
                                place: "Native to tropical India and China",
                                climate: "Tropical",
                                image_url: "shooting_star.jpg",
-                               thumbnail_url: "shooting_star_thumbnail.jpg"
+                               thumbnail_url: "shooting_star_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Eranthemum_laxiflorum-sunny_brook-yercaud-salem-India.JPG"
                               )
 
 blue_eranthemum = Flower.create!(name: "Blue Eranthemum",
@@ -223,7 +250,9 @@ blue_eranthemum = Flower.create!(name: "Blue Eranthemum",
                                  place: "Native to the Indian subcontinent (tropical Asia)",
                                  climate: "Tropical",
                                  image_url: "blue_eranthemum.jpg",
-                                 thumbnail_url: "blue_eranthemum_thumbnail.jpg"
+                                 thumbnail_url: "blue_eranthemum_thumbnail.jpg",
+                                 source: "Wellgrow Horti Trading",
+                                 url: "http://www.wellgrowhorti.com/Page/LandscapePlants/ShrubList/Shrub%20List%20E.htm"
                                 )
 
 nerve_plant = Flower.create!(name: "Nerve Plant",
@@ -240,7 +269,9 @@ nerve_plant = Flower.create!(name: "Nerve Plant",
                              place: "Native to Peru",
                              climate: "Tropical",
                              image_url: "nerve_plant.jpg",
-                             thumbnail_url: "nerve_plant_thumbnail.jpg"
+                             thumbnail_url: "nerve_plant_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Fittonia_verschaffeltii_argyroneura_Prague_2012_1.jpg"
                             )
 
 caricature_plant = Flower.create!(name: "Caricature Plant",
@@ -259,11 +290,13 @@ caricature_plant = Flower.create!(name: "Caricature Plant",
                                   place: "Endemic to India",
                                   climate: "Tropical and subtropical",
                                   image_url: "caricature_plant.jpg",
-                                  thumbnail_url: "caricature_plant_thumbnail.jpg"
+                                  thumbnail_url: "caricature_plant_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Rosea_Variegata_(Graptophyllum_pictum_%27Roseum_Variegatum%27)_3.jpg"
                                  )
 
 yellow_jacobinia = Flower.create!(name: "Yellow Jacobinia",
-                                  other_names: "",
+                                  other_names: "Yellow Plume Flower",
                                   bot_name: "Justicia aurea",
                                   family: "Acanthaceae",
                                   significance: "Aspiration of the Mind for the Supramental Guidance",
@@ -279,12 +312,14 @@ yellow_jacobinia = Flower.create!(name: "Yellow Jacobinia",
                                   place: "Found in southern Mexico and Panama (Central America)",
                                   climate: "Tropical",
                                   image_url: "yellow_jacobinia.jpg",
-                                  thumbnail_url: "yellow_jacobinia_thumbnail.jpg"
+                                  thumbnail_url: "yellow_jacobinia_thumbnail.jpg",
+                                  source: "Joel Abroad",
+                                  url: "https://www.flickr.com/photos/40295335@N00/8515465558"
                                  )
 
 shrimp_plant = Flower.create!(name: "Shrimp Plant",
                               other_names: "Mexican Shrimp Plant. Shrimp Bush, False Hop",
-                              bot_name: "Beleperone guttata",
+                              bot_name: "Beloperone guttata",
                               family: "Acanthaceae",
                               significance: "Thirst for Perfection",
                               comment: "Constant and manifold aspiration.",
@@ -297,7 +332,9 @@ shrimp_plant = Flower.create!(name: "Shrimp Plant",
                               place: "Native to Mexico, also found in Florida",
                               climate: "Tropical",
                               image_url: "shrimp_plant.jpg",
-                              thumbnail_url: "shrimp_plant_thumbnail.jpg"
+                              thumbnail_url: "shrimp_plant_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Beloperone_guttata_pm.jpg"
                              )
 
 brazilian_plume_flower = Flower.create!(name: "Brazilian Plume Flower",
@@ -316,7 +353,9 @@ brazilian_plume_flower = Flower.create!(name: "Brazilian Plume Flower",
                                         place: "Native to the Atlantic Forest ecoregions of eastern Brazil",
                                         climate: "Tropical",
                                         image_url: "brazilian_plume_flower.jpg",
-                                        thumbnail_url: "brazilian_plume_flower_thumbnail.jpg"
+                                        thumbnail_url: "brazilian_plume_flower_thumbnail.jpg",
+                                        source: "Wikimedia Commons",
+                                        url: "https://commons.wikimedia.org/wiki/File:A_Flower.JPG"
                                        )
 
 firespike = Flower.create!(name: "Firespike",
@@ -335,7 +374,9 @@ firespike = Flower.create!(name: "Firespike",
                            place: "Native to Central America and Mexico",
                            climate: "Tropical",
                            image_url: "firespike.jpg",
-                           thumbnail_url: "firespike_thumbnail.jpg"
+                           thumbnail_url: "firespike_thumbnail.jpg",
+                           source: "Jesús Cabrera",
+                           url: "https://www.flickr.com/photos/jccsvq/9534791319/"
                           )
 
 hairyflower_wild_petunia = Flower.create!(name: "Hairyflower Wild Petunia",
@@ -357,7 +398,9 @@ hairyflower_wild_petunia = Flower.create!(name: "Hairyflower Wild Petunia",
                                                   subtropical regions",
                                           climate: "Subtropical",
                                           image_url: "hairyflower_wild_petunia.jpg",
-                                          thumbnail_url: "hairyflower_wild_petunia_thumbnail.jpg"
+                                          thumbnail_url: "hairyflower_wild_petunia_thumbnail.jpg",
+                                          source: "Petr Kocna, BioLib Biological Library",
+                                          url: "http://www.biolib.cz/en/image/id182235/"
                                          )
 
 meadow_weed = Flower.create!(name: "Meadow Weed",
@@ -377,7 +420,9 @@ meadow_weed = Flower.create!(name: "Meadow Weed",
                                      South and Southeast Asia",
                              climate: "Tropical",
                              image_url: "meadow_weed.jpg",
-                             thumbnail_url: "meadow_weed_thumbnail.jpg"
+                             thumbnail_url: "meadow_weed_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:(Ruellia_tuberosa)_at_Madhurawada_01.JPG"
                             )
 
 sanchezia = Flower.create!(name: "Sanchezia",
@@ -397,7 +442,9 @@ sanchezia = Flower.create!(name: "Sanchezia",
                            place: "Occurs in the lowlands of tropical South and Central America",
                            climate: "Tropical",
                            image_url: "sanchezia.jpg",
-                           thumbnail_url: "sanchezia_thumbnail.jpg"
+                           thumbnail_url: "sanchezia_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Shrubby_Whitevein_(Sanchezia_speciosa)_5.jpg"
                           )
 
 angel_wings = Flower.create!(name: "Angel Wings",
@@ -418,7 +465,9 @@ angel_wings = Flower.create!(name: "Angel Wings",
                                      Indian Ocean islands, southern Africa and Central America",
                              climate: "Tropical and subtropical",
                              image_url: "angel_wings.jpg",
-                             thumbnail_url: "angel_wings_thumbnail.jpg"
+                             thumbnail_url: "angel_wings_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Starr_070321-5984_Thunbergia_fragrans.jpg"
                             )
 
 blue_trumpet_vine = Flower.create!(name: "Blue Trumpet Vine",
@@ -438,7 +487,9 @@ blue_trumpet_vine = Flower.create!(name: "Blue Trumpet Vine",
                                            elsewhere",
                                    climate: "Tropical and subtropical",
                                    image_url: "blue_trumpet_vine.jpg",
-                                   thumbnail_url: "blue_trumpet_vine_thumbnail.jpg"
+                                   thumbnail_url: "blue_trumpet_vine_thumbnail.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Thunbergia_grandiflora.jpg"
                                   )
 
 blue_sky_shrub = Flower.create!(name: "Blue Sky Shrub",
@@ -457,7 +508,9 @@ blue_sky_shrub = Flower.create!(name: "Blue Sky Shrub",
                                 place: "Native to East Africa, found in other tropical regions",
                                 climate: "Tropical",
                                 image_url: "blue_sky_shrub.jpg",
-                                thumbnail_url: "blue_sky_shrub_thumbnail.jpg"
+                                thumbnail_url: "blue_sky_shrub_thumbnail.jpg",
+                                source: "Kyoto Prefecture Web Site",
+                                url: "http://www.pref.kyoto.jp/plant2/migoro/1611/161029/161029.html"
                                )
 
 cardinals_guard = Flower.create!(name: "Cardinal's Guard",
@@ -478,7 +531,9 @@ cardinals_guard = Flower.create!(name: "Cardinal's Guard",
                                          America, also cultivated in subtropical regions",
                                  climate: "Tropical and subtropical",
                                  image_url: "cardinals_guard.jpg",
-                                 thumbnail_url: "cardinals_guard_thumbnail.jpg"
+                                 thumbnail_url: "cardinals_guard_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Pachystachys_coccinea-1-sunny_brook-yercaud-salem-India.JPG"
                                 )
 
 persian_shield = Flower.create!(name: "Persian Shield",
@@ -497,7 +552,9 @@ persian_shield = Flower.create!(name: "Persian Shield",
                                 place: "Found in the shola forests of the Western Ghats in South India.",
                                 climate: "Tropical",
                                 image_url: "persian_shield.jpg",
-                                thumbnail_url: "persian_shield_thumbnail.jpg"
+                                thumbnail_url: "persian_shield_thumbnail.jpg",
+                                source: "Aruna Radhakrishnan",
+                                url: "https://www.flickr.com/photos/arunar/2917610207"
                                )
 
 maple = Flower.create!(name: "Maple",
@@ -516,12 +573,14 @@ maple = Flower.create!(name: "Maple",
                                North America",
                        climate: "Subtropical to temperate",
                        image_url: "maple.jpg",
-                       thumbnail_url: "maple_thumbnail.jpg"
+                       thumbnail_url: "maple_thumbnail.jpg",
+                       source: "kloniwotski, flickr.com",
+                       url: "https://www.flickr.com/photos/kloniwotski/4462502100"
                       )
 
 ti = Flower.create!(name: "Ti",
                     other_names: "Good-luck Plant, Hawaiian Good-luck Plant",
-                    bot_name: "Cordyline terminalis",
+                    bot_name: "Cordyline terminalis [Cordyline fruticosa]",
                     family: "Agavaceae",
                     significance: "Return",
                     comment: "The salvation of those who have gone astray.",
@@ -535,7 +594,9 @@ ti = Flower.create!(name: "Ti",
                             Australia, the Indian Ocean, and parts of Polynesia",
                     climate: "Tropical",
                     image_url: "ti.jpg",
-                    thumbnail_url: "ti_thumbnail.jpg"
+                    thumbnail_url: "ti_thumbnail.jpg",
+                    source: "Wikimedia Commons",
+                    url: "https://commons.wikimedia.org/wiki/File:Cordyline_fruticosa,_flowering.jpg"
                    )
 
 spanish_dagger = Flower.create!(name: "Spanish Dagger",
@@ -554,12 +615,14 @@ spanish_dagger = Flower.create!(name: "Spanish Dagger",
                                         South America, and the Caribbean",
                                 climate: "Tropical",
                                 image_url: "spanish_dagger.jpg",
-                                thumbnail_url: "spanish_dagger_thumbnail.jpg"
+                                thumbnail_url: "spanish_dagger_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Yucca_Flower_In_Garden_Hampshire_UK.jpg"
                                )
 
 javanese_wool_plant = Flower.create!(name: "Javanese Wool Plant",
                                      other_names: "",
-                                     bot_name: "Aerva tomentosa",
+                                     bot_name: "Aerva tomentosa [Aerva javanica]",
                                      family: "Amaranthaceae",
                                      significance: "Aspiration for Integral Immortality",
                                      comment: "An organised, tenacious and methodical development of the
@@ -573,7 +636,9 @@ javanese_wool_plant = Flower.create!(name: "Javanese Wool Plant",
                                      place: "Native to Africa (including Madagascar), south and southwest Asia",
                                      climate: "Tropical",
                                      image_url: "javanese_wool_plant.jpg",
-                                     thumbnail_url: "javanese_wool_plant_thumbnail.jpg"
+                                     thumbnail_url: "javanese_wool_plant_thumbnail.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Aerva_tomentosa.JPG"
                                     )
 
 joyweed = Flower.create!(name: "Joyweed",
@@ -590,7 +655,9 @@ joyweed = Flower.create!(name: "Joyweed",
                          place: "Found in tropical Americas, Asia, Africa, and Australia",
                          climate: "Tropical",
                          image_url: "joyweed.jpg",
-                         thumbnail_url: "joyweed_thumbnail.jpg"
+                         thumbnail_url: "joyweed_thumbnail.jpg",
+                         source: "Wikimedia Commons",
+                         url: "https://commons.wikimedia.org/wiki/File:Alternanthera_amoena-Flower-2.jpg"
                         )
 
 tampala = Flower.create!(name: "Tampala",
@@ -607,7 +674,9 @@ tampala = Flower.create!(name: "Tampala",
                          place: "Native to South America, but found in many other places",
                          climate: "Found across many climatic regions",
                          image_url: "tampala.jpg",
-                         thumbnail_url: "tampala_thumbnail.jpg"
+                         thumbnail_url: "tampala_thumbnail.jpg",
+                         source: "Wikimedia Commons",
+                         url: "https://commons.wikimedia.org/wiki/File:Amaranthus_tricolor_(in_a_flowerbed)_01.jpg"
                         )
 
 spider_lily = Flower.create!(name: "Spider Lily",
@@ -627,7 +696,9 @@ spider_lily = Flower.create!(name: "Spider Lily",
                                      and northern South America",
                              climate: "Tropical",
                              image_url: "spider_lily.jpg",
-                             thumbnail_url: "spider_lily_thumbnail.jpg"
+                             thumbnail_url: "spider_lily_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Hymenocallis_Caribaea.jpg"
                             )
 
 golden_hurricane_lily = Flower.create!(name: "Golden Hurricane Lily",
@@ -646,7 +717,9 @@ golden_hurricane_lily = Flower.create!(name: "Golden Hurricane Lily",
                                        place: "Found in China, Taiwan, Japan, Ryukyu Island, Indochina",
                                        climate: "Tropical and subtropical",
                                        image_url: "golden_hurricane_lily.jpg",
-                                       thumbnail_url: "golden_hurricane_lily_thumbnail.jpg"
+                                       thumbnail_url: "golden_hurricane_lily_thumbnail.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Lycoris_aurea-jp.jpg"
                                       )
 
 daffodil = Flower.create!(name: "Daffodil",
@@ -665,7 +738,9 @@ daffodil = Flower.create!(name: "Daffodil",
                                   diversity in the Western Mediterranean",
                           climate: "Mediterrnean and subtropical",
                           image_url: "daffodil.jpg",
-                          thumbnail_url: "daffodil_thumbnail.jpg"
+                          thumbnail_url: "daffodil_thumbnail.jpg",
+                          source: "Wikimedia Commons",
+                          url: "https://commons.wikimedia.org/wiki/File:Narcissus_asturiensis_2.jpg"
                          )
 
 poets_narcissus = Flower.create!(name: "Poet's Narcissus",
@@ -687,7 +762,9 @@ poets_narcissus = Flower.create!(name: "Poet's Narcissus",
                                          America)",
                                  climate: "Subtropical to temperate",
                                  image_url: "poets_narcissus.jpg",
-                                 thumbnail_url: "poets_narcissus_thumbnail.jpg"
+                                 thumbnail_url: "poets_narcissus_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Narcissus_poeticus_%27Recurvus%2703.jpg"
                                 )
 
 rain_flower = Flower.create!(name: "Rain Flower",
@@ -708,7 +785,9 @@ rain_flower = Flower.create!(name: "Rain Flower",
                                       Java, Maluku, Sulawesi and the Philippines)",
                              climate: "Tropical and subtropical",
                              image_url: "rain_flower.jpg",
-                             thumbnail_url: "rain_flower_thumbnail.jpg"
+                             thumbnail_url: "rain_flower_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Flower_with_pollen.JPG"
                             )
 
 brisbane_lily = Flower.create!(name: "Brisbane Lily",
@@ -731,7 +810,9 @@ brisbane_lily = Flower.create!(name: "Brisbane Lily",
                                        Islands.",
                                climate: "Tropical and subtropical",
                                image_url: "brisbane_lily.jpg",
-                               thumbnail_url: "brisbane_lily_thumbnail.jpg"
+                               thumbnail_url: "brisbane_lily_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Proiphys_amboinensis.jpg"
                               )
 
 blood_lily = Flower.create!(name: "Blood Lily",
@@ -752,7 +833,9 @@ blood_lily = Flower.create!(name: "Blood Lily",
                                     naturalized in Mexico and in the Chagos Archipelago.",
                             climate: "Mostly tropical",
                             image_url: "blood_lily.jpg",
-                            thumbnail_url: "blood_lily_thumbnail.jpg"
+                            thumbnail_url: "blood_lily_thumbnail.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Botanischer_Garten_der_Universit%C3%A4t_Z%C3%BCrich_-_Scadoxus_multiflorus_ssp._katherinae_(Reichbl%C3%BChende_Blutblume)_2010-09-16_15-48-52.JPG"
                            )
 
 amazon_lily = Flower.create!(name: "Amazon Lily",
@@ -772,12 +855,14 @@ amazon_lily = Flower.create!(name: "Amazon Lily",
                                     and western Ecuador and widely cultivated as an ornamental in other regions)",
                              climate: "Tropical and subtropical",
                              image_url: "amazon_lily.jpg",
-                             thumbnail_url: "amazon_lily_thumbnail.jpg"
+                             thumbnail_url: "amazon_lily_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Eucharis_x_grandiflora_%C2%B4Amazon_Lily%C2%B4.JPG"
                             )
 
 snowdrop = Flower.create!(name: "Snowdrop",
                           other_names: "European Snowdrop",
-                          bot_name: "Galanthus nivalis 'Viridapicis'",
+                          bot_name: "Galanthus nivalis 'Viridi-Apice'",
                           family: "Amaryllidaceae",
                           significance: "Promise of Renewal",
                           comment: "May ugliness disappear from the world.",
@@ -790,7 +875,9 @@ snowdrop = Flower.create!(name: "Snowdrop",
                           place: "Native to a large area of Europe, cultivated in North America",
                           climate: "Subtropical to temperate",
                           image_url: "snowdrop.jpg",
-                          thumbnail_url: "snowdrop_thumbnail.jpg"
+                          thumbnail_url: "snowdrop_thumbnail.jpg",
+                          source: "Wikimedia Commons",
+                          url: "https://commons.wikimedia.org/wiki/File:Perce-neige_02.png"
                          )
 
 winter_daffodil = Flower.create!(name: "Winter Daffodil",
@@ -808,7 +895,9 @@ winter_daffodil = Flower.create!(name: "Winter Daffodil",
                                          Mediterranean through to Tajikistan in Central Asia",
                                  climate: "Temperate",
                                  image_url: "winter_daffodil.jpg",
-                                 thumbnail_url: "winter_daffodil_thumbnail.jpg"
+                                 thumbnail_url: "winter_daffodil_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Sternbergia_lutea-umbria2.jpg"
                                 )
 
 kaffir_lily = Flower.create!(name: "Kaffir Lily",
@@ -829,7 +918,9 @@ kaffir_lily = Flower.create!(name: "Kaffir Lily",
                                      naturalized in Mexico",
                              climate: "Tropical and subtropical",
                              image_url: "kaffir_lily.jpg",
-                             thumbnail_url: "kaffir_lily_thumbnail.jpg"
+                             thumbnail_url: "kaffir_lily_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://en.wikipedia.org/wiki/File:Clivia_miniata1.jpg"
                             )
 
 guernsey_lily = Flower.create!(name: "Guernsey Lily",
@@ -849,7 +940,9 @@ guernsey_lily = Flower.create!(name: "Guernsey Lily",
                                        though it is now naturalized in France, Madeira and Azores",
                                climate: "Subtropical to temperate",
                                image_url: "guernsey_lily.jpg",
-                               thumbnail_url: "guernsey_lily_thumbnail.jpg"
+                               thumbnail_url: "guernsey_lily_thumbnail.jpg",
+                               source: "crabchick",
+                               url: "https://www.flickr.com/photos/crabchick/14214154282/"
                               )
 
 ylang_ylang = Flower.create!(name: "Ylang Ylang",
@@ -866,7 +959,9 @@ ylang_ylang = Flower.create!(name: "Ylang Ylang",
                              place: "Native to the Philippines",
                              climate: "Tropical",
                              image_url: "ylang_ylang.jpg",
-                             thumbnail_url: "ylang_ylang_thumbnail.jpg"
+                             thumbnail_url: "ylang_ylang_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Starr_061224-2825_Cananga_odorata.jpg"
                             )
 
 forest_aganosma = Flower.create!(name: "Forest Aganosma",
@@ -885,7 +980,9 @@ forest_aganosma = Flower.create!(name: "Forest Aganosma",
                                  place: "Native to China, the Indian Subcontinent, and Southeast Asia",
                                  climate: "Tropical and subtropical",
                                  image_url: "forest_aganosma.jpg",
-                                 thumbnail_url: "forest_aganosma_thumbnail.jpg"
+                                 thumbnail_url: "forest_aganosma_thumbnail.jpg",
+                                 source: "Dinesh Valke",
+                                 url: "https://www.flickr.com/photos/dinesh_valke/2772011196"
                                 )
 
 purple_allamanda = Flower.create!(name: "Purple Allamanda",
@@ -903,7 +1000,9 @@ purple_allamanda = Flower.create!(name: "Purple Allamanda",
                                   place: "Native to Brazil",
                                   climate: "Tropical",
                                   image_url: "purple_allamanda.jpg",
-                                  thumbnail_url: "purple_allamanda_thumbnail.jpg"
+                                  thumbnail_url: "purple_allamanda_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Allamanda_blanchetii_1.jpg"
                                  )
 
 common_allamanda = Flower.create!(name: "Common Allamanda",
@@ -922,7 +1021,9 @@ common_allamanda = Flower.create!(name: "Common Allamanda",
                                  place: "Native to Brazil",
                                  climate: "Tropical",
                                  image_url: "common_allamanda.jpg",
-                                 thumbnail_url: "common_allamanda_thumbnail.jpg"
+                                 thumbnail_url: "common_allamanda_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Allamanda_cathartica_01.JPG"
                                 )
 
 nepal_trumpet_flower = Flower.create!(name: "Nepal Trumpet Flower",
@@ -941,7 +1042,9 @@ nepal_trumpet_flower = Flower.create!(name: "Nepal Trumpet Flower",
                                       place: "Native to Southern India, Andaman Islands, and Myanmar",
                                       climate: "Tropical",
                                       image_url: "nepal_trumpet_flower.jpg",
-                                      thumbnail_url: "nepal_trumpet_flower_thumbnail.jpg"
+                                      thumbnail_url: "nepal_trumpet_flower_thumbnail.jpg",
+                                      source: "Van Swearingen",
+                                      url: "https://www.flickr.com/photos/vsny/3854200839"
                                      )
 
 frangipani_vine = Flower.create!(name: "Frangipani Vine",
@@ -960,7 +1063,9 @@ frangipani_vine = Flower.create!(name: "Frangipani Vine",
                                  place: "Native to India, Sri Lanka (Southeast Asia), the Philippines and South China",
                                  climate: "Mostly tropical",
                                  image_url: "frangipani_vine.jpg",
-                                 thumbnail_url: "frangipani_vine_thumbnail.jpg"
+                                 thumbnail_url: "frangipani_vine_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Chonemorpha_fragrans_-_Franginpani_vine_flower.jpg"
                                 )
 
 easter_tree = Flower.create!(name: "Easter Tree",
@@ -978,12 +1083,14 @@ easter_tree = Flower.create!(name: "Easter Tree",
                                      Indochina, and parts of China",
                              climate: "Tropical and subtropical",
                              image_url: "easter_tree.jpg",
-                             thumbnail_url: "easter_tree_thumbnail.jpg"
+                             thumbnail_url: "easter_tree_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Holarrhena_pubescens_09.JPG"
                             )
 
 shrub_vinca = Flower.create!(name: "Shrub Vinca",
                              other_names: "",
-                             bot_name: "Kopsia fruiticosa",
+                             bot_name: "Kopsia fruticosa",
                              family: "Apocynaceae",
                              significance: "Determination",
                              comment: "Knows what it wants and does it.",
@@ -997,7 +1104,9 @@ shrub_vinca = Flower.create!(name: "Shrub Vinca",
                              place: "Found in India, Myanmar, Indonesia, Malaysia, Philippines, and Thailand",
                              climate: "Mostly tropical",
                              image_url: "shrub_vinca.jpg",
-                             thumbnail_url: "shrub_vinca_thumbnail.jpg"
+                             thumbnail_url: "shrub_vinca_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Kopsia_fruticosa.JPG"
                             )
 
 milky_way_tree = Flower.create!(name: "Milky Way Tree",
@@ -1017,12 +1126,14 @@ milky_way_tree = Flower.create!(name: "Milky Way Tree",
                                         Florida (USA)",
                                 climate: "Tropical and subtropical",
                                 image_url: "milky_way_tree.jpg",
-                                thumbnail_url: "milky_way_tree_thumbnail.jpg"
+                                thumbnail_url: "milky_way_tree_thumbnail.jpg",
+                                source: "Useful Tropical Plants",
+                                url: "http://tropical.theferns.info/image.php?id=Stemmadenia+litoralis"
                                )
 
 twisted_cord_flower = Flower.create!(name: "Twisted Cord Flower",
-                                     other_names: "",
-                                     bot_name: "Strophanthus",
+                                     other_names: "Corkscrew Flower",
+                                     bot_name: "Strophanthus preussii",
                                      family: "Apocynaceae",
                                      significance: "Radiation of the Manifestation",
                                      comment: "The Divine Manifestation is spreading.",
@@ -1037,7 +1148,9 @@ twisted_cord_flower = Flower.create!(name: "Twisted Cord Flower",
                                              few species in Asia, from southern India to New Guinea and southern China.",
                                      climate: "Tropical and subtropical",
                                      image_url: "twisted_cord_flower.jpg",
-                                     thumbnail_url: "twisted_cord_flower_thumbnail.jpg"
+                                     thumbnail_url: "twisted_cord_flower_thumbnail.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Corkscrew_Flower_(Strophanthus_preussii).jpg"
                                     )
 
 climbing_oleander = Flower.create!(name: "Climbing Oleander",
@@ -1058,7 +1171,9 @@ climbing_oleander = Flower.create!(name: "Climbing Oleander",
                                           Cameroon, Equatorial Guinea, Gabon and also naturalized in Taiwan",
                                    climate: "Mostly tropical",
                                    image_url: "climbing_oleander.jpg",
-                                   thumbnail_url: "climbing_oleander_thumbnail.jpg"
+                                   thumbnail_url: "climbing_oleander_thumbnail.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Strophanthus_gratus_(2).JPG"
                                   )
 
 bread_flower = Flower.create!(name: "Bread Flower",
@@ -1077,7 +1192,9 @@ bread_flower = Flower.create!(name: "Bread Flower",
                                       Laos, Myanmar, Thailand, Vietnam, Hainan; naturalized in Andaman Islands",
                               climate: "Tropical and subtropical",
                               image_url: "bread_flower.jpg",
-                              thumbnail_url: "bread_flower_thumbnail.jpg"
+                              thumbnail_url: "bread_flower_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Vallaris_solanacea_(Vish_Vallari)_in_Hyderabad_W_IMG_8236.jpg"
                              )
 
 pala_indigo_plant = Flower.create!(name: "Pala Indigo Plant",
@@ -1096,7 +1213,9 @@ pala_indigo_plant = Flower.create!(name: "Pala Indigo Plant",
                                    place: "Found in India ",
                                    climate: "Tropical and subtropical",
                                    image_url: "pala_indigo_plant.jpg",
-                                   thumbnail_url: "pala_indigo_plant_thumbnail.jpg"
+                                   thumbnail_url: "pala_indigo_plant_thumbnail.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Wrightia_tinctoria_11.JPG"
                                   )
 
 holly = Flower.create!(name: "Holly",
@@ -1113,7 +1232,9 @@ holly = Flower.create!(name: "Holly",
                        place: "Native to the Mediterranean region",
                        climate: "Mediterrnean",
                        image_url: "holly.jpg",
-                       thumbnail_url: "holly_thumbnail.jpg"
+                       thumbnail_url: "holly_thumbnail.jpg",
+                       source: "Wikimedia Commons",
+                       url: "https://commons.wikimedia.org/wiki/File:Ilexparaguariensis.jpg"
                       )
 
 elephants_ear = Flower.create!(name: "Elephant's Ear",
@@ -1133,7 +1254,9 @@ elephants_ear = Flower.create!(name: "Elephant's Ear",
                                        of Africa and many tropical islands",
                                climate: "Tropical",
                                image_url: "elephants_ear.jpg",
-                               thumbnail_url: "elephants_ear_thumbnail.jpg"
+                               thumbnail_url: "elephants_ear_thumbnail.jpg",
+                               source: "My Sister Dale's Garden",
+                               url: "http://mysisterdalesgarden.com/photo-gallery/elephant-ear-flower/"
                               )
 
 peace_lily = Flower.create!(name: "Peace Lily",
@@ -1153,7 +1276,9 @@ peace_lily = Flower.create!(name: "Peace Lily",
                             place: "Native to tropical regions of the Americas and southeastern Asia",
                             climate: "Tropical",
                             image_url: "peace_lily.jpg",
-                            thumbnail_url: "peace_lily_thumbnail.jpg"
+                            thumbnail_url: "peace_lily_thumbnail.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Anturio_(Spathiphyllum_cochlearispathum),_Jard%C3%ADn_Bot%C3%A1nico,_M%C3%BAnich,_Alemania,_2013-09-08,_DD_01.JPG"
                            )
 
 divaricate_typhonium = Flower.create!(name: "Divaricate Typhonium",
@@ -1175,7 +1300,9 @@ divaricate_typhonium = Flower.create!(name: "Divaricate Typhonium",
                                               Mauritius, Comoros, Borneo, Philippines, West Indies",
                                       climate: "Tropical and subtropical",
                                       image_url: "divaricate_typhonium.jpg",
-                                      thumbnail_url: "divaricate_typhonium_thumbnail.jpg"
+                                      thumbnail_url: "divaricate_typhonium_thumbnail.jpg",
+                                      source: "Prof. Summer's Web Garden - Japanese Wild Flowers",
+                                      url: "http://www7a.biglobe.ne.jp/~flower_world/Araceae/Typhonium%20blumei.htm"
                                      )
 
 ivy = Flower.create!(name: "Ivy",
@@ -1193,7 +1320,9 @@ ivy = Flower.create!(name: "Ivy",
                              across central-southern Asia east to Japan and Taiwan",
                      climate: "Subtropical to temperate",
                      image_url: "ivy.jpg",
-                     thumbnail_url: "ivy_thumbnail.jpg"
+                     thumbnail_url: "ivy_thumbnail.jpg",
+                     source: "Wikimedia Commons",
+                     url: "https://commons.wikimedia.org/wiki/File:Ivy_fruits.JPG"
                     )
 
 australian_ivy_palm = Flower.create!(name: "Australian Ivy Palm",
@@ -1213,7 +1342,9 @@ australian_ivy_palm = Flower.create!(name: "Australian Ivy Palm",
                                              (eastern Queensland and the Northern Territory), New Guinea and Java",
                                      climate: "Tropical",
                                      image_url: "australian_ivy_palm.jpg",
-                                     thumbnail_url: "australian_ivy_palm_thumbnail.jpg"
+                                     thumbnail_url: "australian_ivy_palm_thumbnail.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Schefflera_actinophylla_mauroguanandi.jpg"
                                     )
 
 calico_flower = Flower.create!(name: "Calico Flower",
@@ -1233,12 +1364,14 @@ calico_flower = Flower.create!(name: "Calico Flower",
                                        subtropical regions",
                                climate: "Tropical and subtropical",
                                image_url: "calico_flower.jpg",
-                               thumbnail_url: "calico_flower_thumbnail.jpg"
+                               thumbnail_url: "calico_flower_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Aristolochiaceae_-_Aristolochia_littoralis.JPG"
                               )
 
 dutchmans_pipe = Flower.create!(name: "Dutchman's Pipe",
                                 other_names: "Pelican Flower",
-                                bot_name: "Aristolochia rigens",
+                                bot_name: "Aristolochia ringens",
                                 family: "Aristolochiaceae",
                                 significance: "Lasting Inspiration",
                                 comment: "Waits patiently to be received.",
@@ -1254,12 +1387,14 @@ dutchmans_pipe = Flower.create!(name: "Dutchman's Pipe",
                                 place: "Native to Central America, Colombia and Venezuela",
                                 climate: "Tropical and subtropical",
                                 image_url: "dutchmans_pipe.jpg",
-                                thumbnail_url: "dutchmans_pipe_thumbnail.jpg"
+                                thumbnail_url: "dutchmans_pipe_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Aristolochia_ringens_30.JPG"
                                )
 
 cowslip_creeper = Flower.create!(name: "Cowslip Creeper",
                                  other_names: "West Coast Creeper",
-                                 bot_name: "Telsoma Cordata [Pergularia odoratissima]",
+                                 bot_name: "Telosma cordata [Pergularia odoratissima]",
                                  family: "Asclepiadaceae",
                                  significance: "Vital Plentitude",
                                  comment: "Can only be obtained through conversion.",
@@ -1272,7 +1407,9 @@ cowslip_creeper = Flower.create!(name: "Cowslip Creeper",
                                  place: "Native to India, Pakistan, China and Burma",
                                  climate: "Tropical and subtropical",
                                  image_url: "cowslip_creeper.jpg",
-                                 thumbnail_url: "cowslip_creeper_thumbnail.jpg"
+                                 thumbnail_url: "cowslip_creeper_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Starr_060721-8420_Telosma_cordata.jpg"
                                 )
 
 starfish_flower = Flower.create!(name: "Starfish Flower",
@@ -1291,7 +1428,9 @@ starfish_flower = Flower.create!(name: "Starfish Flower",
                                  place: "Predominantly from South Africa with a few from other parts of Africa",
                                  climate: "Tropical and subtropical",
                                  image_url: "starfish_flower.jpg",
-                                 thumbnail_url: "starfish_flower_thumbnail.jpg"
+                                 thumbnail_url: "starfish_flower_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Botanischer_Garten_der_Universit%C3%A4t_Z%C3%BCrich_-_Stapelia_gettleffii_R.Pott_2010-09-16_15-41-32.JPG"
                                 )
 
 wax_plant = Flower.create!(name: "Wax Plant",
@@ -1309,7 +1448,9 @@ wax_plant = Flower.create!(name: "Wax Plant",
                            place: "Native to Eastern Asia and Australia",
                            climate: "Tropical and subtropical",
                            image_url: "wax_plant.jpg",
-                           thumbnail_url: "wax_plant_thumbnail.jpg"
+                           thumbnail_url: "wax_plant_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Hoya_FR_2013.jpg"
                           )
 
 patience_plant = Flower.create!(name: "Patience Plant",
@@ -1328,7 +1469,9 @@ patience_plant = Flower.create!(name: "Patience Plant",
                                 place: "Native to eastern Africa from Kenya to Mozambique",
                                 climate: "Tropical",
                                 image_url: "patience_plant.jpg",
-                                thumbnail_url: "patience_plant_thumbnail.jpg"
+                                thumbnail_url: "patience_plant_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Impatiens_walleriana_01.JPG"
                                )
 
 wild_guava = Flower.create!(name: "Wild Guava",
@@ -1345,7 +1488,9 @@ wild_guava = Flower.create!(name: "Wild Guava",
                             place: "Native to the Indian Subcontinent, Afghanistan, and Indochina",
                             climate: "Tropical and subtropical",
                             image_url: "wild_guava.jpg",
-                            thumbnail_url: "wild_guava_thumbnail.jpg"
+                            thumbnail_url: "wild_guava_thumbnail.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Careya_%D0%B0rborea.jpg"
                            )
 
 catuaba = Flower.create!(name: "Catuaba",
@@ -1364,11 +1509,13 @@ catuaba = Flower.create!(name: "Catuaba",
                          place: "Native to tropical and subtropical America including the West Indies",
                          climate: "Tropical and subtropical",
                          image_url: "catuaba.jpg",
-                         thumbnail_url: "catuaba_thumbnail.jpg"
+                         thumbnail_url: "catuaba_thumbnail.jpg",
+                         source: "Alex Popovkin, Bahia, Brazil",
+                         url: "https://www.flickr.com/photos/plants_of_russian_in_brazil/4069644783/"
                         )
 
 yellow_trumpet_vine = Flower.create!(name: "Yellow Trumpet Vine",
-                                     other_names: "",
+                                     other_names: "Black Vine",
                                      bot_name: "Anemopaegma chamberlaynii",
                                      family: "Bignoniaceae",
                                      significance: "Joy of Victory",
@@ -1383,7 +1530,9 @@ yellow_trumpet_vine = Flower.create!(name: "Yellow Trumpet Vine",
                                      place: "Native to tropical and subtropical America including the West Indies",
                                      climate: "Tropical and subtropical",
                                      image_url: "yellow_trumpet_vine.jpg",
-                                     thumbnail_url: "yellow_trumpet_vine_thumbnail.jpg"
+                                     thumbnail_url: "yellow_trumpet_vine_thumbnail.jpg",
+                                     source: "Museu Nacional / UFRJ",
+                                     url: "http://www.museunacional.ufrj.br/hortobotanico/paginas/especiesrestinga/anemopaegmachamberlaynii.htm"
                                     )
 
 heliotrope = Flower.create!(name: "Heliotrope",
@@ -1401,7 +1550,9 @@ heliotrope = Flower.create!(name: "Heliotrope",
                             place: "Native to Peru",
                             climate: "Tropical",
                             image_url: "heliotrope.jpg",
-                            thumbnail_url: "heliotrope_thumbnail.jpg"
+                            thumbnail_url: "heliotrope_thumbnail.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:2625_-_Innsbruck_-_Dom_zu_St_Jakob_-_Flowers.JPG"
                            )
 
 green_ebony = Flower.create!(name: "Green Ebony",
@@ -1421,7 +1572,9 @@ green_ebony = Flower.create!(name: "Green Ebony",
                                      Cuba, Hispaniola, Jamaica and the Bahamas, also cultivated widely in Asia",
                              climate: "Tropical and subtropical",
                              image_url: "green_ebony.jpg",
-                             thumbnail_url: "green_ebony_thumbnail.jpg"
+                             thumbnail_url: "green_ebony_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Jacaranda_cuspidifolia_flower.jpg"
                             )
 
 sausage_tree = Flower.create!(name: "Sausage Tree",
@@ -1439,12 +1592,14 @@ sausage_tree = Flower.create!(name: "Sausage Tree",
                               place: "Occurs throughout tropical Africa",
                               climate: "Tropical",
                               image_url: "sausage_tree.jpg",
-                              thumbnail_url: "sausage_tree_thumbnail.jpg"
+                              thumbnail_url: "sausage_tree_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Kigelia_africana_MS_10010.jpg"
                              )
 
 cats_claw = Flower.create!(name: "Cat's Claw",
                            other_names: "Cat's Claw Trumpet, Funnel Creeper, Anikab",
-                           bot_name: "Macfadyena unguis-cati [Doxantha unguis-cati]",
+                           bot_name: "Macfadyena unguis-cati [Doxantha unguis-cati, Dolychandra ungis-cati]",
                            family: "Bignoniaceae",
                            significance: "Supramental Influence",
                            comment: "Innumerable and rapid in its action.",
@@ -1460,7 +1615,9 @@ cats_claw = Flower.create!(name: "Cat's Claw",
                                    America and the Caribbean",
                            climate: "Tropical",
                            image_url: "cats_claw.jpg",
-                           thumbnail_url: "cats_claw_thumbnail.jpg"
+                           thumbnail_url: "cats_claw_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Bignoniaceae_-_Dolychandra_unguis-cati.JPG"
                           )
 
 garlic_vine = Flower.create!(name: "Garlic Vine",
@@ -1480,7 +1637,9 @@ garlic_vine = Flower.create!(name: "Garlic Vine",
                              place: "Native to Northern South America, has spread to Central America and Brasil",
                              climate: "Tropical",
                              image_url: "garlic_vine.jpg",
-                             thumbnail_url: "garlic_vine_thumbnail.jpg"
+                             thumbnail_url: "garlic_vine_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Mansoa_alliacea1.jpg"
                             )
 
 indian_cork_tree = Flower.create!(name: "Indian Cork Tree",
@@ -1499,7 +1658,9 @@ indian_cork_tree = Flower.create!(name: "Indian Cork Tree",
                                   place: "Native to South Asia & South East Asia",
                                   climate: "Tropical and subtropical",
                                   image_url: "indian_cork_tree.jpg",
-                                  thumbnail_url: "indian_cork_tree_thumbnail.jpg"
+                                  thumbnail_url: "indian_cork_tree_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Millingtonia_hortensis_flower.jpg"
                                  )
 
 bower_vine = Flower.create!(name: "Bower Vine",
@@ -1519,7 +1680,9 @@ bower_vine = Flower.create!(name: "Bower Vine",
                                     America",
                             climate: "Tropical and subtropical",
                             image_url: "bower_vine.jpg",
-                            thumbnail_url: "bower_vine_thumbnail.jpg"
+                            thumbnail_url: "bower_vine_thumbnail.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Starr_070906-9102_Pandorea_jasminoides.jpg"
                            )
 
 pink_trumpet_vine = Flower.create!(name: "Pink Trumpet Vine",
@@ -1539,7 +1702,9 @@ pink_trumpet_vine = Flower.create!(name: "Pink Trumpet Vine",
                                    place: "Possibly indigenous to southern Africa",
                                    climate: "Tropical and subtropical",
                                    image_url: "pink_trumpet_vine.jpg",
-                                   thumbnail_url: "pink_trumpet_vine_thumbnail.jpg"
+                                   thumbnail_url: "pink_trumpet_vine_thumbnail.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Podranea_ricasoliana.JPG"
                                   )
 
 orange_trumpet = Flower.create!(name: "Orange Trumpet",
@@ -1557,7 +1722,9 @@ orange_trumpet = Flower.create!(name: "Orange Trumpet",
                                 place: "Endemic to Brazil, cultivated in other tropical regions",
                                 climate: "Tropical",
                                 image_url: "orange_trumpet.jpg",
-                                thumbnail_url: "orange_trumpet_thumbnail.jpg"
+                                thumbnail_url: "orange_trumpet_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Starr_030201-0011_Pyrostegia_venusta.jpg"
                                )
 
 glow_vine = Flower.create!(name: "Glow Vine",
@@ -1576,7 +1743,9 @@ glow_vine = Flower.create!(name: "Glow Vine",
                            place: "Native to Colombia and Ecuador",
                            climate: "Tropical",
                            image_url: "glow_vine.jpg",
-                           thumbnail_url: "glow_vine_thumbnail.jpg"
+                           thumbnail_url: "glow_vine_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Saritaea_magnifica_-_single.JPG"
                           )
 
 african_tulip_tree = Flower.create!(name: "African Tulip Tree",
@@ -1597,7 +1766,9 @@ african_tulip_tree = Flower.create!(name: "African Tulip Tree",
                                     place: "Native to tropical dry forests of Africa",
                                     climate: "Tropical",
                                     image_url: "african_tulip_tree.jpg",
-                                    thumbnail_url: "african_tulip_tree_thumbnail.jpg"
+                                    thumbnail_url: "african_tulip_tree_thumbnail.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Spathodea_campanulata_3.jpg"
                                    )
 
 yellow_bells = Flower.create!(name: "Yellow Bells",
@@ -1614,7 +1785,9 @@ yellow_bells = Flower.create!(name: "Yellow Bells",
                               place: "Native to the Americas",
                               climate: "Found across temperate, subtropical and tropical regions",
                               image_url: "yellow_bells.jpg",
-                              thumbnail_url: "yellow_bells_thumbnail.jpg"
+                              thumbnail_url: "yellow_bells_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Tecoma-stans-20080404.JPG"
                              )
 
 trumpet_bush = Flower.create!(name: "Trumpet Bush",
@@ -1633,7 +1806,9 @@ trumpet_bush = Flower.create!(name: "Trumpet Bush",
                               place: "Found in subtropical USA and other subtropical regions",
                               climate: "Subtropical",
                               image_url: "trumpet_bush.jpg",
-                              thumbnail_url: "trumpet_bush_thumbnail.jpg"
+                              thumbnail_url: "trumpet_bush_thumbnail.jpg",
+                              source: "Norm's Nursery",
+                              url: "http://normsnursery.blogspot.in/2013/09/garden-dramas.html"
                              )
 
 cape_honeysuckle = Flower.create!(name: "Cape Honeysuckle",
@@ -1653,7 +1828,9 @@ cape_honeysuckle = Flower.create!(name: "Cape Honeysuckle",
                                           Hawaii and California.",
                                   climate: "Tropical and subtropical",
                                   image_url: "cape_honeysuckle.jpg",
-                                  thumbnail_url: "cape_honeysuckle_thumbnail.jpg"
+                                  thumbnail_url: "cape_honeysuckle_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Tecoma_capensis.JPG"
                                  )
 
 annatto = Flower.create!(name: "Annatto",
@@ -1673,7 +1850,9 @@ annatto = Flower.create!(name: "Annatto",
                          place: "Native to the tropical Americas",
                          climate: "Tropical",
                          image_url: "annatto.jpg",
-                         thumbnail_url: "annatto_thumbnail.jpg"
+                         thumbnail_url: "annatto_thumbnail.jpg",
+                         source: "Wikimedia Commons",
+                         url: "https://commons.wikimedia.org/wiki/File:Bixa_orellana_MS_1842.JPG"
                         )
 
 yellow_silk_cotton_tree = Flower.create!(name: "Yellow Silk Cotton Tree",
@@ -1693,7 +1872,9 @@ yellow_silk_cotton_tree = Flower.create!(name: "Yellow Silk Cotton Tree",
                                                  Subcontinent",
                                          climate: "Tropical",
                                          image_url: "yellow_silk_cotton_tree.jpg",
-                                         thumbnail_url: "yellow_silk_cotton_tree_thumbnail.jpg"
+                                         thumbnail_url: "yellow_silk_cotton_tree_thumbnail.jpg",
+                                         source: "Wikimedia Commons",
+                                         url: "https://commons.wikimedia.org/wiki/File:Cochlospermum_religiosum_(7).JPG"
                                         )
 
 
@@ -1712,7 +1893,9 @@ geiger_tree = Flower.create!(name: "Geiger Tree",
                              place: "Native to the tropical Americas",
                              climate: "Tropical",
                              image_url: "geiger_tree.jpg",
-                             thumbnail_url: "geiger_tree_thumbnail.jpg"
+                             thumbnail_url: "geiger_tree_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Cordia_sebestena_02.JPG"
                             )
 
 chinese_forget_me_not = Flower.create!(name: "Chinese Forget-me-not",
@@ -1729,7 +1912,9 @@ chinese_forget_me_not = Flower.create!(name: "Chinese Forget-me-not",
                                        place: "Native to Asia",
                                        climate: "Found across different climates",
                                        image_url: "chinese_forget_me_not.jpg",
-                                       thumbnail_url: "chinese_forget_me_not_thumbnail.jpg"
+                                       thumbnail_url: "chinese_forget_me_not_thumbnail.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Cynoglossum_amabile.jpg"
                                       )
 
 garden_forget_me_not = Flower.create!(name: "Garden Forget-me-not",
@@ -1747,12 +1932,14 @@ garden_forget_me_not = Flower.create!(name: "Garden Forget-me-not",
                                       place: "Native to Europe, widely cultivated throughout the temperate world",
                                       climate: "Temperate",
                                       image_url: "garden_forget_me_not.jpg",
-                                      thumbnail_url: "garden_forget_me_not_thumbnail.jpg"
+                                      thumbnail_url: "garden_forget_me_not_thumbnail.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:Myosotis_sylvatica,_Bosvergeet-mij-nietje.jpg"
                                      )
 
 summer_torch = Flower.create!(name: "Summer Torch",
-                              other_names: "",
-                              bot_name: "Pitcairnia museosa",
+                              other_names: "Hoary Pitcairnia",
+                              bot_name: "Pitcairnia muscosa [Pitcairnia flammea]",
                               family: "Bromeliaceae",
                               significance: "Control",
                               comment: "Control over the lower impulses is the first step towards realisation.",
@@ -1765,7 +1952,9 @@ summer_torch = Flower.create!(name: "Summer Torch",
                                       Argentina",
                               climate: "Tropical",
                               image_url: "summer_torch.jpg",
-                              thumbnail_url: "summer_torch_thumbnail.jpg"
+                              thumbnail_url: "summer_torch_thumbnail.jpg",
+                              source: "Jen 64",
+                              url: "https://www.flickr.com/photos/jen_in_brisbane/3388970523/"
                              )
 
 cactus = Flower.create!(name: "Cactus",
@@ -1785,12 +1974,14 @@ cactus = Flower.create!(name: "Cactus",
                         place: "Native to the Americas, but found in many regions",
                         climate: "Found across many climatic regions",
                         image_url: "cactus.jpg",
-                        thumbnail_url: "cactus_thumbnail.jpg"
+                        thumbnail_url: "cactus_thumbnail.jpg",
+                        source: "Wikimedia Commons",
+                        url: "https://commons.wikimedia.org/wiki/File:Yellow_cactus_flower.jpg"
                        )
 
 cactus_night_flower = Flower.create!(name: "Cactus Night Flower",
-                                     other_names: "Hedge Cactus",
-                                     bot_name: "Cereus peruvianus",
+                                     other_names: "Hedge Cactus, Column Cactus",
+                                     bot_name: "Cereus peruvianus [Cereus repandus]",
                                      family: "Cactaceae",
                                      significance: "Fortune",
                                      comment: "Very attractive, but beware - it pricks!",
@@ -1801,7 +1992,9 @@ cactus_night_flower = Flower.create!(name: "Cactus Night Flower",
                                      place: "Native to tropical South America",
                                      climate: "Tropical",
                                      image_url: "cactus_night_flower.jpg",
-                                     thumbnail_url: "cactus_night_flower_thumbnail.jpg"
+                                     thumbnail_url: "cactus_night_flower_thumbnail.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Cereus_repandus_bloom1.jpg"
                                     )
 
 barrel_cactus = Flower.create!(name: "Barrel Cactus",
@@ -1819,7 +2012,9 @@ barrel_cactus = Flower.create!(name: "Barrel Cactus",
                                place: "Native to South Brazil, Uruguay and northern Argentina",
                                climate: "Tropical and subtropical",
                                image_url: "barrel_cactus.jpg",
-                               thumbnail_url: "barrel_cactus_thumbnail.jpg"
+                               thumbnail_url: "barrel_cactus_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Echinopsis_oxygona_003.jpg"
                               )
 
 leaf_cactus = Flower.create!(name: "Leaf Cactus",
@@ -1838,7 +2033,9 @@ leaf_cactus = Flower.create!(name: "Leaf Cactus",
                              place: "Native to the region between Brazil and Mexico",
                              climate: "Tropical",
                              image_url: "leaf_cactus.jpg",
-                             thumbnail_url: "leaf_cactus_thumbnail.jpg"
+                             thumbnail_url: "leaf_cactus_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Pereskia_grandifolia_04764.JPG"
                             )
 
 night_blooming_cereus = Flower.create!(name: "Night Blooming Cereus",
@@ -1859,7 +2056,9 @@ night_blooming_cereus = Flower.create!(name: "Night Blooming Cereus",
                                        place: "Found in Central America, the Caribbean and northern South America",
                                        climate: "Tropical",
                                        image_url: "night_blooming_cereus.jpg",
-                                       thumbnail_url: "night_blooming_cereus_thumbnail.jpg"
+                                       thumbnail_url: "night_blooming_cereus_thumbnail.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Selenicereus_grandiflorus_Rich_Hoyer.JPG"
                                       )
 
 cup_and_saucer = Flower.create!(name: "Cup-and-saucer",
@@ -1876,7 +2075,9 @@ cup_and_saucer = Flower.create!(name: "Cup-and-saucer",
                                 place: "Native to southern Europe, cultivated in North America and European countries",
                                 climate: "Temperate",
                                 image_url: "cup_and_saucer.jpg",
-                                thumbnail_url: "cup_and_saucer_thumbnail.jpg"
+                                thumbnail_url: "cup_and_saucer_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Campanulaceae_-_Campanula_medium-3.JPG"
                                )
 
 edging_lobelia = Flower.create!(name: "Edging Lobelia",
@@ -1894,7 +2095,9 @@ edging_lobelia = Flower.create!(name: "Edging Lobelia",
                                 place: "Native to southern Africa, from Malawi and Namibia south to South Africa",
                                 climate: "Tropical and subtropical",
                                 image_url: "edging_lobelia.jpg",
-                                thumbnail_url: "edging_lobelia_thumbnail.jpg"
+                                thumbnail_url: "edging_lobelia_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Lobelia_erinus_0.02.jpg"
                                )
 
 balloon_flower = Flower.create!(name: "Balloon Flower",
@@ -1911,12 +2114,14 @@ balloon_flower = Flower.create!(name: "Balloon Flower",
                                 place: "Native to East Asia (China, Korea, Japan and East Siberia)",
                                 climate: "Subtropical to temperate",
                                 image_url: "balloon_flower.jpg",
-                                thumbnail_url: "balloon_flower_thumbnail.jpg"
+                                thumbnail_url: "balloon_flower_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Platycodon_grandiflorus.jpg"
                                )
 
 spider_flower = Flower.create!(name: "Spider Flower",
                                other_names: "Spider Plant",
-                               bot_name: "Cleome hasslerana",
+                               bot_name: "Cleome hassleriana",
                                family: "Capparaceae",
                                significance: "Elan of aspiration",
                                comment: "Nothing is too high, nothing is too far for its insatiable ardour.",
@@ -1930,7 +2135,9 @@ spider_flower = Flower.create!(name: "Spider Flower",
                                place: "Native to southern South America",
                                climate: "Subtropical to temperate",
                                image_url: "spider_flower.jpg",
-                               thumbnail_url: "spider_flower_thumbnail.jpg"
+                               thumbnail_url: "spider_flower_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Cleome-hassleriana-pink.jpg"
                               )
 
 thorn_straggler = Flower.create!(name: "Thorn Straggler",
@@ -1949,12 +2156,14 @@ thorn_straggler = Flower.create!(name: "Thorn Straggler",
                                  place: "Found mainly in southern India",
                                  climate: "Tropical",
                                  image_url: "thorn_straggler.jpg",
-                                 thumbnail_url: "thorn_straggler_thumbnail.jpg"
+                                 thumbnail_url: "thorn_straggler_thumbnail.jpg",
+                                 source: "Jayesh Patil",
+                                 url: "https://www.flickr.com/photos/54439360@N04/5543187038"
                                 )
 
 caper_tree = Flower.create!(name: "Caper Tree",
                            other_names: "",
-                           bot_name: "Crataeva Adansonii [Crataeva Nurvala; Crataeva Religiosa]",
+                           bot_name: "Crataeva adansonii [Crataeva nurvala, Crataeva religiosa, Crataeva magna]",
                            family: "Capparidaceae",
                            significance: "Working of the Enlightened Mind",
                            comment: "It is very powerful in leading the being to the Divine and can be very
@@ -1970,7 +2179,9 @@ caper_tree = Flower.create!(name: "Caper Tree",
                                    Pacific islands, also cultivated in Africa",
                            climate: "Found across a wide range of climates",
                            image_url: "caper_tree.jpg",
-                           thumbnail_url: "caper_tree_thumbnail.jpg"
+                           thumbnail_url: "caper_tree_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Crataeva_magna_05.JPG"
                           )
 
 japanese_honeysuckle = Flower.create!(name: "Japanese Honeysuckle",
@@ -1991,7 +2202,9 @@ japanese_honeysuckle = Flower.create!(name: "Japanese Honeysuckle",
                                       place: "Native to eastern Asia including China, Japan and Korea",
                                       climate: "Subtropical to temperate",
                                       image_url: "japanese_honeysuckle.jpg",
-                                      thumbnail_url: "japanese_honeysuckle_thumbnail.jpg"
+                                      thumbnail_url: "japanese_honeysuckle_thumbnail.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:Starr_071024-0039_Lonicera_japonica.jpg"
                                      )
 
 elder = Flower.create!(name: "Elder",
@@ -2011,7 +2224,9 @@ elder = Flower.create!(name: "Elder",
                                of Australasia and South America",
                        climate: "Subtropical to temperate",
                        image_url: "elder.jpg",
-                       thumbnail_url: "elder_thumbnail.jpg"
+                       thumbnail_url: "elder_thumbnail.jpg",
+                       source: "Wikimedia Commons",
+                       url: "https://commons.wikimedia.org/wiki/File:Sambucus_nigra_003.jpg"
                       )
 
 japanese_snowball = Flower.create!(name: "Japanese Snowball",
@@ -2028,7 +2243,9 @@ japanese_snowball = Flower.create!(name: "Japanese Snowball",
                                    place: "Native to mainland China, Korea, Japan, and Taiwan",
                                    climate: "Subtropical to temperate",
                                    image_url: "japanese_snowball.jpg",
-                                   thumbnail_url: "japanese_snowball_thumbnail.jpg"
+                                   thumbnail_url: "japanese_snowball_thumbnail.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://en.wikipedia.org/wiki/File:Snowball_bush_flowers.jpg"
                                   )
 
 sweet_william = Flower.create!(name: "Sweet William",
@@ -2046,7 +2263,9 @@ sweet_william = Flower.create!(name: "Sweet William",
                                place: "Native to southern Europe and parts of Asia",
                                climate: "Temperate",
                                image_url: "sweet_william.jpg",
-                               thumbnail_url: "sweet_william_thumbnail.jpg"
+                               thumbnail_url: "sweet_william_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Dianthus-barbatus.jpg"
                               )
 
 carnation = Flower.create!(name: "Carnation",
@@ -2066,7 +2285,9 @@ carnation = Flower.create!(name: "Carnation",
                                    across temperate regions",
                            climate: "Mediterrnean and temperate",
                            image_url: "carnation.jpg",
-                           thumbnail_url: "carnation_thumbnail.jpg"
+                           thumbnail_url: "carnation_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Starr_070730-7933_Dianthus_caryophyllus.jpg"
                           )
 
 babys_breath = Flower.create!(name: "Baby's Breath",
@@ -2084,7 +2305,9 @@ babys_breath = Flower.create!(name: "Baby's Breath",
                               place: "Native to Asia and Europe",
                               climate: "Subtropical to temperate",
                               image_url: "babys_breath.jpg",
-                              thumbnail_url: "babys_breath_thumbnail.jpg"
+                              thumbnail_url: "babys_breath_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Gypsophila_elegans_at_lalbagh_7226.JPG"
                              )
 
 soap_won = Flower.create!(name: "Soap-won",
@@ -2101,7 +2324,9 @@ soap_won = Flower.create!(name: "Soap-won",
                           place: "Native range extends throughout Europe, and in Asia till western Siberia",
                           climate: "Temperate",
                           image_url: "soap_won.jpg",
-                          thumbnail_url: "soap_won_thumbnail.jpg"
+                          thumbnail_url: "soap_won_thumbnail.jpg",
+                          source: "Wikimedia Commons",
+                          url: "https://commons.wikimedia.org/wiki/File:Ab_plant_1188.jpg"
                          )
 
 flame_vine = Flower.create!(name: "Flame Vine",
@@ -2119,7 +2344,9 @@ flame_vine = Flower.create!(name: "Flame Vine",
                             place: "Native to Madagascar and Mauritius",
                             climate: "Tropical",
                             image_url: "flame_vine.jpg",
-                            thumbnail_url: "flame_vine_thumbnail.jpg"
+                            thumbnail_url: "flame_vine_thumbnail.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Combretum_coccineum.jpg"
                            )
 
 burning_bush = Flower.create!(name: "Burning Bush",
@@ -2137,7 +2364,9 @@ burning_bush = Flower.create!(name: "Burning Bush",
                               place: "Native to Central America and South America",
                               climate: "Tropical and subtropical",
                               image_url: "burning_bush.jpg",
-                              thumbnail_url: "burning_bush_thumbnail.jpg"
+                              thumbnail_url: "burning_bush_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Combretum_fruticosum.jpg"
                              )
 
 rangoon_creeper = Flower.create!(name: "Rangoon Creeper",
@@ -2156,7 +2385,9 @@ rangoon_creeper = Flower.create!(name: "Rangoon Creeper",
                                  place: "Found in Asia",
                                  climate: "Found across a wide range of climates",
                                  image_url: "rangoon_creeper.jpg",
-                                 thumbnail_url: "rangoon_creeper_thumbnail.jpg"
+                                 thumbnail_url: "rangoon_creeper_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Quisqualis_indica_0004.jpg"
                                 )
 
 tropical_almond = Flower.create!(name: "Tropical Almond",
@@ -2174,7 +2405,9 @@ tropical_almond = Flower.create!(name: "Tropical Almond",
                                  place: "Grows mainly in the tropical regions of Asia, Africa, and Australia",
                                  climate: "Tropical",
                                  image_url: "tropical_almond.jpg",
-                                 thumbnail_url: "tropical_almond_thumbnail.jpg"
+                                 thumbnail_url: "tropical_almond_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Terminalia_catappa_5.jpg"
                                 )
 
 purple_heart = Flower.create!(name: "Purple Heart",
@@ -2192,7 +2425,9 @@ purple_heart = Flower.create!(name: "Purple Heart",
                               place: "Native to the Gulf Coast region of eastern Mexico",
                               climate: "Tropical",
                               image_url: "purple_heart.jpg",
-                              thumbnail_url: "purple_heart_thumbnail.jpg"
+                              thumbnail_url: "purple_heart_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Tradescantia_pallida_Purpurea2.jpg"
                              )
 
 oyster_plant = Flower.create!(name: "Oyster Plant",
@@ -2210,7 +2445,9 @@ oyster_plant = Flower.create!(name: "Oyster Plant",
                               place: "Native to the Caribbean and Central America.",
                               climate: "Tropical",
                               image_url: "oyster_plant.jpg",
-                              thumbnail_url: "oyster_plant_thumbnail.jpg"
+                              thumbnail_url: "oyster_plant_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Oyster_Plant_(1000215285).jpg"
                              )
 
 wandering_jew = Flower.create!(name: "Wandering Jew",
@@ -2231,7 +2468,9 @@ wandering_jew = Flower.create!(name: "Wandering Jew",
                                        Asia, Africa, Australia, South America, and various oceanic islands",
                                climate: "Tropical",
                                image_url: "wandering_jew.jpg",
-                               thumbnail_url: "wandering_jew_thumbnail.jpg"
+                               thumbnail_url: "wandering_jew_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Zebrina_pendula_20060521_2.JPG"
                               )
 
 flossflower = Flower.create!(name: "Flossflower",
@@ -2248,7 +2487,9 @@ flossflower = Flower.create!(name: "Flossflower",
                              place: "Native to Central America and adjacent parts of Mexico",
                              climate: "Tropical",
                              image_url: "flossflower.jpg",
-                             thumbnail_url: "flossflower_thumbnail.jpg"
+                             thumbnail_url: "flossflower_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Ageratum_houstonianum5.jpg"
                             )
 
 stemless_carline_thistle = Flower.create!(name: "Stemless Carline Thistle",
@@ -2267,7 +2508,9 @@ stemless_carline_thistle = Flower.create!(name: "Stemless Carline Thistle",
                                           place: "Native to alpine regions of central and southern Europe",
                                           climate: "Temperate",
                                           image_url: "stemless_carline_thistle.jpg",
-                                          thumbnail_url: "stemless_carline_thistle_thumbnail.jpg"
+                                          thumbnail_url: "stemless_carline_thistle_thumbnail.jpg",
+                                          source: "Wikimedia Commons",
+                                          url: "https://commons.wikimedia.org/wiki/File:CARLINA_ACAULIS_-_CADINELL_-_IB-432_(Carlina_cardiguera).JPG"
                                          )
 
 cornflower = Flower.create!(name: "Cornflower",
@@ -2285,7 +2528,9 @@ cornflower = Flower.create!(name: "Cornflower",
                             place: "Native to Europe, cultivated in North America and many parts of Australia",
                             climate: "Temperate",
                             image_url: "cornflower.jpg",
-                            thumbnail_url: "cornflower_thumbnail.jpg"
+                            thumbnail_url: "cornflower_thumbnail.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Centaurea_cyanus_L._(7477567080).jpg"
                            )
 
 treasure_flower = Flower.create!(name: "Treasure Flower",
@@ -2304,7 +2549,9 @@ treasure_flower = Flower.create!(name: "Treasure Flower",
                                  place: "Native to southern Africa",
                                  climate: "Tropical and subtropical",
                                  image_url: "treasure_flower.jpg",
-                                 thumbnail_url: "treasure_flower_thumbnail.jpg"
+                                 thumbnail_url: "treasure_flower_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Gazania_rigens-2.jpg"
                                 )
 
 barberton_daisy = Flower.create!(name: "Barberton Daisy",
@@ -2323,7 +2570,9 @@ barberton_daisy = Flower.create!(name: "Barberton Daisy",
                                  place: "Indigenous to South Eastern Africa",
                                  climate: "Tropical and subtropical",
                                  image_url: "barberton_daisy.jpg",
-                                 thumbnail_url: "barberton_daisy_thumbnail.jpg"
+                                 thumbnail_url: "barberton_daisy_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:BarbertonDaisy.jpg"
                                 )
 
 strawflower = Flower.create!(name: "Strawflower",
@@ -2342,7 +2591,9 @@ strawflower = Flower.create!(name: "Strawflower",
                              place: "Native to Australia",
                              climate: "Subtropical to temperate",
                              image_url: "strawflower.jpg",
-                             thumbnail_url: "strawflower_thumbnail.jpg"
+                             thumbnail_url: "strawflower_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Helichrysum_bracteatum_or_Xerochrysum_bracteatum_from_Lalbagh_Flower_Show_August_2012_4591.JPG"
                             )
 
 edelweiss = Flower.create!(name: "Edelweiss",
@@ -2361,7 +2612,9 @@ edelweiss = Flower.create!(name: "Edelweiss",
                            place: "Native to the mountains of Europe, cultivated in other regions of Eurasia",
                            climate: "Temperate",
                            image_url: "edelweiss.jpg",
-                           thumbnail_url: "edelweiss_thumbnail.jpg"
+                           thumbnail_url: "edelweiss_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Alpen_Edelwei%C3%9F,_Leontopodium_alpinum_1.JPG"
                           )
 
 ox_eye_daisy = Flower.create!(name: "Ox-eye Daisy",
@@ -2379,12 +2632,14 @@ ox_eye_daisy = Flower.create!(name: "Ox-eye Daisy",
                                       Australia and New Zealand",
                               climate: "Temperate",
                               image_url: "ox_eye_daisy.jpg",
-                              thumbnail_url: "ox_eye_daisy_thumbnail.jpg"
+                              thumbnail_url: "ox_eye_daisy_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Leucanthemum_vulgare_hp01.jpg"
                              )
 
 gold_medallion_flower = Flower.create!(name: "Gold Medallion Flower",
                                        other_names: "",
-                                       bot_name: "",
+                                       bot_name: "Melampodium paludosum",
                                        family: "Compositae",
                                        significance: "Birth of True Mental Sincerity",
                                        comment: "With its birth the mind will understand that it is only an
@@ -2399,7 +2654,9 @@ gold_medallion_flower = Flower.create!(name: "Gold Medallion Flower",
                                                Caribbean, and South America",
                                        climate: "Tropical and subtropical",
                                        image_url: "gold_medallion_flower.jpg",
-                                       thumbnail_url: "gold_medallion_flower_thumbnail.jpg"
+                                       thumbnail_url: "gold_medallion_flower_thumbnail.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Melampodium_paludosum_%27Million_Gold%27_2.jpg"
                                       )
 
 black_eyed_susan = Flower.create!(name: "Black-eyed Susan",
@@ -2418,7 +2675,9 @@ black_eyed_susan = Flower.create!(name: "Black-eyed Susan",
                                   place: "Native to the Eastern and Central United States",
                                   climate: "Subtropical to temperate",
                                   image_url: "black_eyed_susan.jpg",
-                                  thumbnail_url: "black_eyed_susan_thumbnail.jpg"
+                                  thumbnail_url: "black_eyed_susan_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Rudbeckia_hirta_flowers_at_Microsoft_Building_99.jpg"
                                  )
 
 groundsel = Flower.create!(name: "Groundsel",
@@ -2435,7 +2694,9 @@ groundsel = Flower.create!(name: "Groundsel",
                            place: "Found across many different regions",
                            climate: "Found across temperate, subtropical and tropical regions",
                            image_url: "groundsel.jpg",
-                           thumbnail_url: "groundsel_thumbnail.jpg"
+                           thumbnail_url: "groundsel_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Senecio_barbertonicus,_blomkoppe.jpg"
                           )
 
 marigold = Flower.create!(name: "Marigold",
@@ -2455,7 +2716,9 @@ marigold = Flower.create!(name: "Marigold",
                                   world",
                           climate: "Found across temperate, subtropical and tropical regions",
                           image_url: "marigold.jpg",
-                          thumbnail_url: "marigold_thumbnail.jpg"
+                          thumbnail_url: "marigold_thumbnail.jpg",
+                          source: "Wikimedia Commons",
+                          url: "https://commons.wikimedia.org/wiki/File:Tagetes_Orange.jpg"
                          )
 
 golden_fleece = Flower.create!(name: "Golden Fleece",
@@ -2473,13 +2736,15 @@ golden_fleece = Flower.create!(name: "Golden Fleece",
                                        Australia",
                                climate: "Tropical",
                                image_url: "golden_fleece.jpg",
-                               thumbnail_url: "golden_fleece_thumbnail.jpg"
+                               thumbnail_url: "golden_fleece_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Thymophylla_tenuiloba.JPG"
                               )
 
 creeping_daisy = Flower.create!(name: "Creeping Daisy",
                                 other_names: "",
-                                bot_name: "Vittadinia triloba",
-                                family: "Compositae",
+                                bot_name: "Vittadinia triloba [Erigeron karvinskianus]",
+                                family: "Asteraceae",
                                 significance: "Integral Simplicity",
                                 comment: "The simplicity that comes from perfect sincerity.",
                                 description: "Small compositae flower with a double row of numerous narrow rounded
@@ -2492,7 +2757,9 @@ creeping_daisy = Flower.create!(name: "Creeping Daisy",
                                         Australia), Tasmania",
                                 climate: "Subtropical to temperate",
                                 image_url: "creeping_daisy.jpg",
-                                thumbnail_url: "creeping_daisy_thumbnail.jpg"
+                                thumbnail_url: "creeping_daisy_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Asteraceae_-_Erigeron_karvinskianus.JPG"
                                )
 
 blue_eyed_african_daisy = Flower.create!(name: "Blue-eyed African Daisy",
@@ -2512,7 +2779,9 @@ blue_eyed_african_daisy = Flower.create!(name: "Blue-eyed African Daisy",
                                                  tropical regions across the world",
                                          climate: "Tropical",
                                          image_url: "blue_eyed_african_daisy.jpg",
-                                         thumbnail_url: "blue_eyed_african_daisy_thumbnail.jpg"
+                                         thumbnail_url: "blue_eyed_african_daisy_thumbnail.jpg",
+                                         source: "Gardening Know How",
+                                         url: "http://www.gardeningknowhow.com/garden-how-to/info/"
                                         )
 
 common_marigold = Flower.create!(name: "Common Marigold",
@@ -2530,7 +2799,9 @@ common_marigold = Flower.create!(name: "Common Marigold",
                                  place: "Native to southern Europe, cultivated widely across warm temperate regions",
                                  climate: "Warm temperate",
                                  image_url: "common_marigold.jpg",
-                                 thumbnail_url: "common_marigold_thumbnail.jpg"
+                                 thumbnail_url: "common_marigold_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Calendula_officinalis_12012015.jpg"
                                 )
 
 chrysanthemum = Flower.create!(name: "Chrysanthemum",
@@ -2548,7 +2819,9 @@ chrysanthemum = Flower.create!(name: "Chrysanthemum",
                                place: "Native to Asia (China) and northeastern Europe",
                                climate: "Subtropical to temperate",
                                image_url: "chrysanthemum.jpg",
-                               thumbnail_url: "chrysanthemum_thumbnail.jpg"
+                               thumbnail_url: "chrysanthemum_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Chrysanthemum_(0883)-Relic38.jpg"
                               )
 
 tickweed = Flower.create!(name: "Tickweed",
@@ -2567,7 +2840,9 @@ tickweed = Flower.create!(name: "Tickweed",
                                   Plains and Southern states",
                           climate: "Subtropical to temperate",
                           image_url: "tickweed.jpg",
-                          thumbnail_url: "tickweed_thumbnail.jpg"
+                          thumbnail_url: "tickweed_thumbnail.jpg",
+                          source: "Wikimedia Commons",
+                          url: "https://commons.wikimedia.org/wiki/File:2007_coreopsis_tinctoria_2.jpg"
                          )
 
 chinese_lavender = Flower.create!(name: "Chinese Lavender",
@@ -2584,12 +2859,14 @@ chinese_lavender = Flower.create!(name: "Chinese Lavender",
                                   place: "Native to China, India, Vietnam, Philippines",
                                   climate: "Tropical and subtropical",
                                   image_url: "chinese_lavender.jpg",
-                                  thumbnail_url: "chinese_lavender_thumbnail.jpg"
+                                  thumbnail_url: "chinese_lavender_thumbnail.jpg",
+                                  source: "Flower Photos",
+                                  url: "http://www.flower-photo.info/products/detail.php?product_id=601"
                                  )
 
 shasta_daisy = Flower.create!(name: "Shasta Daisy",
                               other_names: "",
-                              bot_name: "Leucanthemum X superbum [Chrysanthemum Xsuperbum]",
+                              bot_name: "Leucanthemum X superbum [Chrysanthemum X superbum]",
                               family: "Compositae",
                               significance: "Creative Word",
                               comment: "Belongs only to the Divine.",
@@ -2602,13 +2879,15 @@ shasta_daisy = Flower.create!(name: "Shasta Daisy",
                               place: "Originally from the subtropical and temperate Americas",
                               climate: "Subtropical to temperate",
                               image_url: "shasta_daisy.jpg",
-                              thumbnail_url: "shasta_daisy_thumbnail.jpg"
+                              thumbnail_url: "shasta_daisy_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Leucanthemum_x_superbum_%27Becky%27_in_NH.jpg"
                              )
 
 curtain_creeper = Flower.create!(name: "Curtain Creeper",
                                  other_names: "",
-                                 bot_name: "Vernonia eleagnaefolia",
-                                 family: "Compositae",
+                                 bot_name: "Vernonia elaeagnifolia [Tarlmounia elliptica]",
+                                 family: "Asteraceae",
                                  significance: "Aspiration for the Divine Consciousness",
                                  comment: "Blossom, O precious flower, and never close again.",
                                  description: "Small clusters of tiny brushlike flowers that open pale mauve and
@@ -2621,13 +2900,15 @@ curtain_creeper = Flower.create!(name: "Curtain Creeper",
                                          and Queensland, Australia",
                                  climate: "Tropical and subtropical",
                                  image_url: "curtain_creeper.jpg",
-                                 thumbnail_url: "curtain_creeper_thumbnail.jpg"
+                                 thumbnail_url: "curtain_creeper_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Vernonia_elaeagnifolia_flowers_Kewarra_4799.jpg"
                                 )
 
 west_indian_creeper = Flower.create!(name: "West Indian Creeper",
                                      other_names: "Creeping Daisy",
-                                     bot_name: "Wadelia",
-                                     family: "Compositae",
+                                     bot_name: "Wedelia",
+                                     family: "Asteraceae",
                                      significance: "Detailed Perseverance",
                                      comment: "One continues the work begun for as long as necessary. ",
                                      description: "Small fully double bright yellow compositae flowers; borne singly.
@@ -2638,13 +2919,15 @@ west_indian_creeper = Flower.create!(name: "West Indian Creeper",
                                      place: "Generally found in tropical and subtropical regions of the world",
                                      climate: "Tropical and subtropical",
                                      image_url: "west_indian_creeper.jpg",
-                                     thumbnail_url: "west_indian_creeper_thumbnail.jpg"
+                                     thumbnail_url: "west_indian_creeper_thumbnail.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Chinese_Wedelia_flower.jpg"
                                     )
 
 creeping_zinnia = Flower.create!(name: "Creeping Zinnia",
                                  other_names: "",
                                  bot_name: "Zinnia angustifolia",
-                                 family: "Compositae",
+                                 family: "Asteraceae",
                                  significance: "Detailed Endurance",
                                  comment: "Nothing is too small to be neglected; all circumstances are met with the same
                                            care.",
@@ -2658,12 +2941,14 @@ creeping_zinnia = Flower.create!(name: "Creeping Zinnia",
                                          Southwestern United States",
                                  climate: "Tropical and subtropical",
                                  image_url: "creeping_zinnia.jpg",
-                                 thumbnail_url: "creeping_zinnia_thumbnail.jpg"
+                                 thumbnail_url: "creeping_zinnia_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Zinnia_angustifolia_%27Pette_Land_White%272.jpg"
                                 )
 
 slender_dwarf_morning_glory = Flower.create!(name: "Slender Dwarf Morning Glory",
                                              other_names: "",
-                                             bot_name: "Evolvus alsinoides",
+                                             bot_name: "Evolvulus alsinoides",
                                              family: "Convolvulaceae",
                                              significance: "First Sign of Krishna’s Light in Matter",
                                              comment: "It is the indication of the coming transformation.",
@@ -2677,7 +2962,9 @@ slender_dwarf_morning_glory = Flower.create!(name: "Slender Dwarf Morning Glory"
                                                      Indomalaya, Polynesia, Sub-Saharan Africa and the Americas",
                                              climate: "Tropical and warm temperate",
                                              image_url: "slender_dwarf_morning_glory.jpg",
-                                             thumbnail_url: "slender_dwarf_morning_glory_thumbnail.jpg"
+                                             thumbnail_url: "slender_dwarf_morning_glory_thumbnail.jpg",
+                                             source: "Wikimedia Commons",
+                                             url: "https://commons.wikimedia.org/wiki/File:Evolvulus_alsinoides_09186.jpg"
                                             )
 
 moonflower = Flower.create!(name: "Moonflower",
@@ -2696,7 +2983,9 @@ moonflower = Flower.create!(name: "Moonflower",
                                     Mexico and Florida ",
                             climate: "Tropical and subtropical",
                             image_url: "moonflower.jpg",
-                            thumbnail_url: "moonflower_thumbnail.jpg"
+                            thumbnail_url: "moonflower_thumbnail.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Ipomoea_alba270483816.jpg"
                            )
 
 railway_creeper = Flower.create!(name: "Railway Creeper",
@@ -2714,7 +3003,9 @@ railway_creeper = Flower.create!(name: "Railway Creeper",
                                  place: "Found in tropical and subtropical regions across the world",
                                  climate: "Tropical and subtropical",
                                  image_url: "railway_creeper.jpg",
-                                 thumbnail_url: "railway_creeper_thumbnail.jpg"
+                                 thumbnail_url: "railway_creeper_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Ipomoea_cairica.jpg"
                                 )
 
 pink_morning_glory = Flower.create!(name: "Pink Morning Glory",
@@ -2733,7 +3024,9 @@ pink_morning_glory = Flower.create!(name: "Pink Morning Glory",
                                     place: "Found in tropical and subtropical regions across the world",
                                     climate: "Tropical and subtropical",
                                     image_url: "pink_morning_glory.jpg",
-                                    thumbnail_url: "pink_morning_glory_thumbnail.jpg"
+                                    thumbnail_url: "pink_morning_glory_thumbnail.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Ipomoea_carnea.jpg"
                                    )
 
 scarlet_morning_glory = Flower.create!(name: "Scarlet Morning Glory",
@@ -2750,7 +3043,9 @@ scarlet_morning_glory = Flower.create!(name: "Scarlet Morning Glory",
                                        place: "Native to the Americas",
                                        climate: "Tropical and subtropical",
                                        image_url: "scarlet_morning_glory.jpg",
-                                       thumbnail_url: "scarlet_morning_glory_thumbnail.jpg"
+                                       thumbnail_url: "scarlet_morning_glory_thumbnail.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hrushikesh_kulkarni_red_flower.JPG"
                                       )
 
 princess_vine = Flower.create!(name: "Princess Vine",
@@ -2769,7 +3064,9 @@ princess_vine = Flower.create!(name: "Princess Vine",
                                place: "Native to the Caribbean and Brazil",
                                climate: "Tropical",
                                image_url: "princess_vine.jpg",
-                               thumbnail_url: "princess_vine_thumbnail.jpg"
+                               thumbnail_url: "princess_vine_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Starr_071024-0238_Ipomoea_horsfalliae.jpg"
                               )
 
 blue_dawn_flower = Flower.create!(name: "Blue Dawn Flower",
@@ -2787,7 +3084,9 @@ blue_dawn_flower = Flower.create!(name: "Blue Dawn Flower",
                                   place: "Native to tropical habitats throughout the world",
                                   climate: "Tropical",
                                   image_url: "blue_dawn_flower.jpg",
-                                  thumbnail_url: "blue_dawn_flower_thumbnail.jpg"
+                                  thumbnail_url: "blue_dawn_flower_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Ipomoea_indica_(3).jpg"
                                  )
 
 spanish_flag = Flower.create!(name: "Spanish Flag",
@@ -2805,11 +3104,13 @@ spanish_flag = Flower.create!(name: "Spanish Flag",
                               place: "Native to Brazil",
                               climate: "Tropical",
                               image_url: "spanish_flag.jpg",
-                              thumbnail_url: "spanish_flag_thumbnail.jpg"
+                              thumbnail_url: "spanish_flag_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Flowers_ab5.jpg"
                              )
 
 cypress_vine = Flower.create!(name: "Cypress Vine",
-                              other_names: "Star-glory, Indian Pink, Cardinal Climber",
+                              other_names: "Cyprus Vine Flower, Star-glory, Indian Pink, Cardinal Climber",
                               bot_name: "Ipomoea quamoclit",
                               family: "Convolvulaceae",
                               significance: "Love in the Physical for the Divine",
@@ -2825,7 +3126,9 @@ cypress_vine = Flower.create!(name: "Cypress Vine",
                                       to Mexico",
                               climate: "Tropical",
                               image_url: "cypress_vine.jpg",
-                              thumbnail_url: "cypress_vine_thumbnail.jpg"
+                              thumbnail_url: "cypress_vine_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Cyprus_vine_flower.jpg"
                              )
 
 skyblue_clustervine = Flower.create!(name: "Skyblue Clustervine",
@@ -2843,7 +3146,9 @@ skyblue_clustervine = Flower.create!(name: "Skyblue Clustervine",
                                      place: "Found in tropical regions, like Floride and Louisiana in the USA",
                                      climate: "Tropical",
                                      image_url: "skyblue_clustervine.jpg",
-                                     thumbnail_url: "skyblue_clustervine_thumbnail.jpg"
+                                     thumbnail_url: "skyblue_clustervine_thumbnail.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Starr_080716-9266_Jacquemontia_pentantha.jpg"
                                     )
 
 rock_rosemary = Flower.create!(name: "Rock Rosemary",
@@ -2864,7 +3169,9 @@ rock_rosemary = Flower.create!(name: "Rock Rosemary",
                                        regions across the world",
                                climate: "Tropical",
                                image_url: "rock_rosemary.jpg",
-                               thumbnail_url: "rock_rosemary_thumbnail.jpg"
+                               thumbnail_url: "rock_rosemary_thumbnail.jpg",
+                               source: "Russian Academy of Sciences - Laboratory of Plant Biotechnology",
+                               url: "http://www.biora.ru/modules.php?name=invitro&file=spec1&sid=21369&gid=2722&fid=169"
                               )
 
 yellow_morning_glory = Flower.create!(name: "Yellow Morning Glory",
@@ -2884,7 +3191,9 @@ yellow_morning_glory = Flower.create!(name: "Yellow Morning Glory",
                                       place: "Native to Mexico",
                                       climate: "Tropical",
                                       image_url: "yellow_morning_glory.jpg",
-                                      thumbnail_url: "yellow_morning_glory_thumbnail.jpg"
+                                      thumbnail_url: "yellow_morning_glory_thumbnail.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:Starr_070302-5063_Merremia_tuberosa.jpg"
                                      )
 
 bridal_bouquet = Flower.create!(name: "Bridal Bouquet",
@@ -2902,7 +3211,9 @@ bridal_bouquet = Flower.create!(name: "Bridal Bouquet",
                                 place: "Found in India, America (Florida), Madagascar, Venezuela, Ecuador, Honduras",
                                 climate: "Tropical and subtropical",
                                 image_url: "bridal_bouquet.jpg",
-                                thumbnail_url: "bridal_bouquet_thumbnail.jpg"
+                                thumbnail_url: "bridal_bouquet_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Muguet_Martinique.JPG"
                                )
 
 bridal_creeper = Flower.create!(name: "Bridal Creeper",
@@ -2919,7 +3230,9 @@ bridal_creeper = Flower.create!(name: "Bridal Creeper",
                                 place: "Native to Southeast Asia",
                                 climate: "Tropical and subtropical",
                                 image_url: "bridal_creeper.jpg",
-                                thumbnail_url: "bridal_creeper_thumbnail.jpg"
+                                thumbnail_url: "bridal_creeper_thumbnail.jpg",
+                                source: "Gardening Q & A V, Pinoy Exchange",
+                                url: "http://www.pinoyexchange.com/forums/printthread.php?t=528271&pp=20&page=213"
                                )
 
 lemonia = Flower.create!(name: "Lemonia",
@@ -2938,11 +3251,13 @@ lemonia = Flower.create!(name: "Lemonia",
                                  in India, Pakistan and Bangladesh",
                          climate: "Tropical and subtropical",
                          image_url: "lemonia.jpg",
-                         thumbnail_url: "lemonia_thumbnail.jpg"
+                         thumbnail_url: "lemonia_thumbnail.jpg",
+                         source: "Wikimedia Commons",
+                         url: "https://commons.wikimedia.org/wiki/File:Lemonia_(Ravenia_spectabilis).jpg"
                         )
 
 mile_a_minute_plant = Flower.create!(name: "Mile-a-minute Plant",
-                                     other_names: "",
+                                     other_names: "Stictocardia, Hawaiian Sunset Vine, Hawaiian Bells",
                                      bot_name: "Stictocardia beraviensis",
                                      family: "Convolvulaceae",
                                      significance: "Nature Aspires to be Supramentalised",
@@ -2959,7 +3274,9 @@ mile_a_minute_plant = Flower.create!(name: "Mile-a-minute Plant",
                                              Alabama, California, Pennsylvania, New York), and other regions (Madagascar)",
                                      climate: "Subtropical to temperate",
                                      image_url: "mile_a_minute_plant.jpg",
-                                     thumbnail_url: "mile_a_minute_plant_thumbnail.jpg"
+                                     thumbnail_url: "mile_a_minute_plant_thumbnail.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Starr_080716-9420_Stictocardia_tiliifolia.jpg"
                                     )
 
 air_plant = Flower.create!(name: "Air Plant",
@@ -2980,7 +3297,9 @@ air_plant = Flower.create!(name: "Air Plant",
                                    regions",
                            climate: "Tropical and subtropical",
                            image_url: "air_plant.jpg",
-                           thumbnail_url: "air_plant_thumbnail.jpg"
+                           thumbnail_url: "air_plant_thumbnail.jpg",
+                           source: "Prof. Summer's Web Garden - Japanese Wild Flowers",
+                           url: "http://flowers2.la.coocan.jp/Crassulaceae/Kalanchoe%20pinnata.htm"
                           )
 
 wallflower = Flower.create!(name: "Wallflower",
@@ -2997,7 +3316,9 @@ wallflower = Flower.create!(name: "Wallflower",
                             place: "Native to Europe but widespread as an introduced species elsewhere",
                             climate: "Temperate",
                             image_url: "wallflower.jpg",
-                            thumbnail_url: "wallflower_thumbnail.jpg"
+                            thumbnail_url: "wallflower_thumbnail.jpg",
+                            source: "Bernhard Friess",
+                            url: "https://www.flickr.com/photos/bernhard-friess/17116488069"
                            )
 
 candytuft = Flower.create!(name: "Candytuft",
@@ -3015,7 +3336,9 @@ candytuft = Flower.create!(name: "Candytuft",
                            place: "Native to southern Europe",
                            climate: "Temperate",
                            image_url: "candytuft.jpg",
-                           thumbnail_url: "candytuft_thumbnail.jpg"
+                           thumbnail_url: "candytuft_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Iberis_sempervirens_003.JPG"
                           )
 
 sweet_alison = Flower.create!(name: "Sweet Alison",
@@ -3034,7 +3357,9 @@ sweet_alison = Flower.create!(name: "Sweet Alison",
                                       France in the Bay of Biscay, widely naturalized elsewhere in the temperate world.",
                               climate: "Temperate",
                               image_url: "sweet_alison.jpg",
-                              thumbnail_url: "sweet_alison_thumbnail.jpg"
+                              thumbnail_url: "sweet_alison_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Lobularia_maritima5.jpg"
                              )
 
 pumpkin = Flower.create!(name: "Pumpkin",
@@ -3054,7 +3379,9 @@ pumpkin = Flower.create!(name: "Pumpkin",
                                  regions",
                          climate: "Tropical and subtropical",
                          image_url: "pumpkin.jpg",
-                         thumbnail_url: "pumpkin_thumbnail.jpg"
+                         thumbnail_url: "pumpkin_thumbnail.jpg",
+                         source: "Wikimedia Commons",
+                         url: "https://commons.wikimedia.org/wiki/File:Cucurbita_maxima_02.JPG"
                         )
 
 bottle_gourd = Flower.create!(name: "Bottle Gourd",
@@ -3074,7 +3401,9 @@ bottle_gourd = Flower.create!(name: "Bottle Gourd",
                               place: "Cultivated in tropical and subtropical regions throughout the world",
                               climate: "Tropical and subtropical",
                               image_url: "bottle_gourd.jpg",
-                              thumbnail_url: "bottle_gourd_thumbnail.jpg"
+                              thumbnail_url: "bottle_gourd_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Lagenaria_siceraria_Clavata_Group2SHSU.jpg"
                              )
 
 angled_luffa = Flower.create!(name: "Angled Luffa",
@@ -3093,7 +3422,9 @@ angled_luffa = Flower.create!(name: "Angled Luffa",
                               place: "Found in central and eastern Asia to southeastern Asia",
                               climate: "Tropical and subtropical",
                               image_url: "angled_luffa.jpg",
-                              thumbnail_url: "angled_luffa_thumbnail.jpg"
+                              thumbnail_url: "angled_luffa_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Starr-120606-7021-plant-Luffa_acutangula-flowers_and_leaves-Kahanu_Gardens_Veggie_Garden_Hana.jpg"
                              )
 
 bitter_gourd = Flower.create!(name: "Bitter Gourd",
@@ -3112,7 +3443,9 @@ bitter_gourd = Flower.create!(name: "Bitter Gourd",
                               place: "Widely grown in Asia, Africa, and the Caribbean",
                               climate: "Mostly tropical",
                               image_url: "bitter_gourd.jpg",
-                              thumbnail_url: "bitter_gourd_thumbnail.jpg"
+                              thumbnail_url: "bitter_gourd_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:MomordicaCharantia_flowers.jpg"
                             )
 
 simpoh_ayer = Flower.create!(name: "Simpoh Ayer",
@@ -3131,7 +3464,9 @@ simpoh_ayer = Flower.create!(name: "Simpoh Ayer",
                              place: "Found in tropical South East Asia and other tropical regions",
                              climate: "Tropical",
                              image_url: "simpoh_ayer.jpg",
-                             thumbnail_url: "simpoh_ayer_thumbnail.jpg"
+                             thumbnail_url: "simpoh_ayer_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Dil_suffrut_111030-1677_bml.jpg"
                             )
 
 ling = Flower.create!(name: "Ling",
@@ -3148,34 +3483,38 @@ ling = Flower.create!(name: "Ling",
                       place: "Found in most parts of Europe and North America",
                       climate: "Subtropical to temperate",
                       image_url: "ling.jpg",
-                      thumbnail_url: "ling_thumbnail.jpg"
+                      thumbnail_url: "ling_thumbnail.jpg",
+                      source: "Wikimedia Commons",
+                      url: "https://commons.wikimedia.org/wiki/File:Calluna_vulgaris_5.jpg"
                      )
 
-rhodendron = Flower.create!(name: "Rhodendron",
-                            other_names: "Azalea",
-                            bot_name: "Rhodedendron",
-                            family: "Ericaceae",
-                            significance: "Abundance of Beauty",
-                            comment: "A beauty that blossoms freely and abundantly.",
-                            description: "Small to medium, occasionally large, delicate open bell-shaped or funnelform
-                                          flowers with five deeply cut overlapping petal-like lobes and long exserted
-                                          stamens; borne in dense clusters in a great variety of colours. There are
-                                          more than 800 species of shrubs(or rarely small trees).",
-                            colour: "Great variety of colours",
-                            petals: "Five",
-                            size: "Comes in all sizes",
-                            place: "Found mainly in Asia, although it is also widespread throughout the Southern
-                                    Highlands of the Appalachian Mountains of North America",
-                            climate: "Tropical and subtropical",
-                            image_url: "rhodendron.jpg",
-                            thumbnail_url: "rhodendron_thumbnail.jpg"
-                           )
+rhododendron = Flower.create!(name: "Rhododendron",
+                              other_names: "Azalea",
+                              bot_name: "Rhododendron",
+                              family: "Ericaceae",
+                              significance: "Abundance of Beauty",
+                              comment: "A beauty that blossoms freely and abundantly.",
+                              description: "Small to medium, occasionally large, delicate open bell-shaped or funnelform
+                                            flowers with five deeply cut overlapping petal-like lobes and long exserted
+                                            stamens; borne in dense clusters in a great variety of colours. There are
+                                            more than 800 species of shrubs(or rarely small trees).",
+                              colour: "Great variety of colours",
+                              petals: "Five",
+                              size: "Comes in all sizes",
+                              place: "Found mainly in Asia, although it is also widespread throughout the Southern
+                                      Highlands of the Appalachian Mountains of North America",
+                              climate: "Tropical and subtropical",
+                              image_url: "rhododendron.jpg",
+                              thumbnail_url: "rhododendron_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Rhododendron_calophytum_(1).jpg"
+                             )
 
 chenille_plant = Flower.create!(name: "Chenille Plant",
                                 other_names: "Red-hot Cattail, Red Cattail, Foxtail",
                                 bot_name: "Acalypha hispida",
                                 family: "Euphorbiaceae",
-                                significance: "Physical continuity",
+                                significance: "Physical Continuity",
                                 comment: "Prolongs and prolongs itself and never comes to an end.",
                                 description: "Very long soft dense pendant red or purple catkins borne singly
                                               from the leaf axils. A shrub with medium to large broad green
@@ -3186,26 +3525,10 @@ chenille_plant = Flower.create!(name: "Chenille Plant",
                                 place: "Distributed mainly in the tropics and subtropics",
                                 climate: "Tropical and subtropical",
                                 image_url: "chenille_plant.jpg",
-                                thumbnail_url: "chenille_plant_thumbnail.jpg"
+                                thumbnail_url: "chenille_plant_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Acalypha_hispida(2).jpg"
                                )
-
-three_seeded_mercury = Flower.create!(name: "Three-sided Mercury",
-                                      other_names: "Copperleaf",
-                                      bot_name: "Acalypha",
-                                      family: "Euphorbiaceae",
-                                      significance: "Continuity",
-                                      comment: "To know how to persist in one's effort.",
-                                      description: "Soft, erect or drooping, axillary or terminal catkins of various
-                                                    sizes, in shades of red, pink or green; borne on a shrub with
-                                                    striking, often multicoloured leaves.",
-                                      colour: "In shades of red, pink, or green",
-                                      petals: "",
-                                      size: "Comes in all sizes",
-                                      place: "Distributed mainly in the tropics and subtropics",
-                                      climate: "Tropical and subtropical",
-                                      image_url: "three_seeded_mercury.jpg",
-                                      thumbnail_url: "three_seeded_mercury_thumbnail.jpg"
-                                     )
 
 croton = Flower.create!(name: "Croton",
                         other_names: "",
@@ -3222,7 +3545,9 @@ croton = Flower.create!(name: "Croton",
                         place: "Native to Indonesia, Malaysia, and the western Pacific Ocean islands",
                         climate: "Tropical",
                         image_url: "croton.jpg",
-                        thumbnail_url: "croton_thumbnail.jpg"
+                        thumbnail_url: "croton_thumbnail.jpg",
+                        source: "Wikimedia Commons",
+                        url: "https://commons.wikimedia.org/wiki/File:Codiaeum_variegatum_-_male_flowers_-_Kroton_002.JPG"
                        )
 
 crown_of_thorns = Flower.create!(name: "Crown of Thorns",
@@ -3240,7 +3565,9 @@ crown_of_thorns = Flower.create!(name: "Crown of Thorns",
                                  place: "Native to Madagascar",
                                  climate: "Tropical",
                                  image_url: "crown_of_thorns.jpg",
-                                 thumbnail_url: "crown_of_thorns_thumbnail.jpg"
+                                 thumbnail_url: "crown_of_thorns_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Euphorbia_Milii_flowers.jpg"
                                 )
 
 peregrina = Flower.create!(name: "Peregrina",
@@ -3261,7 +3588,9 @@ peregrina = Flower.create!(name: "Peregrina",
                            place: "Native to Cuba and Hispaniola",
                            climate: "Tropical",
                            image_url: "peregrina.jpg",
-                           thumbnail_url: "peregrina_thumbnail.jpg"
+                           thumbnail_url: "peregrina_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Starr_070906-8338_Jatropha_integerrima.jpg"
                           )
 
 coral_plant = Flower.create!(name: "Coral Plant",
@@ -3279,12 +3608,14 @@ coral_plant = Flower.create!(name: "Coral Plant",
                              place: "Native to the tropical Americas",
                              climate: "Tropical",
                              image_url: "coral_plant.jpg",
-                             thumbnail_url: "coral_plant_thumbnail.jpg"
+                             thumbnail_url: "coral_plant_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Jatropha_multifida_02.JPG"
                             )
 
 gout_plant = Flower.create!(name: "Gout Plant",
                             other_names: "Tartogo, Australian Bottle Plant",
-                            bot_name: "Jatropha podagarica",
+                            bot_name: "Jatropha podagrica",
                             family: "Euphorbiaceae",
                             significance: "First Response of the Subconscient to the Supramental Action",
                             comment: "The open door to realisation.",
@@ -3297,7 +3628,9 @@ gout_plant = Flower.create!(name: "Gout Plant",
                             place: "Native to the tropical Americas, cultivated in many other regions",
                             climate: "Tropical",
                             image_url: "gout_plant.jpg",
-                            thumbnail_url: "gout_plant_thumbnail.jpg"
+                            thumbnail_url: "gout_plant_thumbnail.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Gout_Stick_(Jatropha_podagrica)_10.jpg"
                            )
 
 calabur = Flower.create!(name: "Calabur",
@@ -3318,11 +3651,13 @@ calabur = Flower.create!(name: "Calabur",
                                  America south to Peru and Bolivia",
                          climate: "Tropical",
                          image_url: "calabur.jpg",
-                         thumbnail_url: "calabur_thumbnail.jpg"
+                         thumbnail_url: "calabur_thumbnail.jpg",
+                         source: "pixgood.com",
+                         url: "http://pixgood.com/muntingia-calabura-seedlings.html"
                         )
 
 snuff_box_tree = Flower.create!(name: "Snuff Box Tree",
-                                other_names: "",
+                                other_names: "Fried Egg Flower",
                                 bot_name: "Oncoba spinosa",
                                 family: "Salicaceae",
                                 significance: "Mental Chastity",
@@ -3337,7 +3672,9 @@ snuff_box_tree = Flower.create!(name: "Snuff Box Tree",
                                         its northernmost limit is reached on the eastern side of the Red Sea in Arabia",
                                 climate: "Tropical and subtropical",
                                 image_url: "snuff_box_tree.jpg",
-                                thumbnail_url: "snuff_box_tree_thumbnail.jpg"
+                                thumbnail_url: "snuff_box_tree_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Fried-egg_Flower_(Oncoba_spinosa)_(11533763726).jpg"
                                )
 
 geranium = Flower.create!(name: "Geranium",
@@ -3356,7 +3693,9 @@ geranium = Flower.create!(name: "Geranium",
                           place: "Indigenous to Southern Africa, also cultivated in temperate regions",
                           climate: "Tropical to warm temperate",
                           image_url: "geranium.jpg",
-                          thumbnail_url: "geranium_thumbnail.jpg"
+                          thumbnail_url: "geranium_thumbnail.jpg",
+                          source: "Wikimedia Commons",
+                          url: "https://commons.wikimedia.org/wiki/File:Pelargonium_cucullatum.jpg"
                          )
 
 monkey_faced_pansy = Flower.create!(name: "Monkey-faced Pansy",
@@ -3375,7 +3714,9 @@ monkey_faced_pansy = Flower.create!(name: "Monkey-faced Pansy",
                                     place: "Native to North America (Mexico) and Central America",
                                     climate: "Tropical",
                                     image_url: "monkey_faced_pansy.jpg",
-                                    thumbnail_url: "monkey_faced_pansy_thumbnail.jpg"
+                                    thumbnail_url: "monkey_faced_pansy_thumbnail.jpg",
+                                    source: "Petr Kocna, BioLib Biological Library",
+                                    url: "http://www.biolib.cz/en/image/id195277/"
                                    )
 
 goldenrod = Flower.create!(name: "Goldenrod",
@@ -3394,7 +3735,9 @@ goldenrod = Flower.create!(name: "Goldenrod",
                                    Europe and other parts of the world",
                            climate: "Found across temperate, subtropical and tropical regions",
                            image_url: "goldenrod.jpg",
-                           thumbnail_url: "goldenrod_thumbnail.jpg"
+                           thumbnail_url: "goldenrod_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Solidago_canadensis_of_Kadavoor.jpg"
                           )
 
 dropseed = Flower.create!(name: "Dropseed",
@@ -3412,7 +3755,9 @@ dropseed = Flower.create!(name: "Dropseed",
                           place: "Native to Portugal and Spain",
                           climate: "Temperate",
                           image_url: "dropseed.jpg",
-                          thumbnail_url: "dropseed_thumbnail.jpg"
+                          thumbnail_url: "dropseed_thumbnail.jpg",
+                          source: "Wikimedia Commons",
+                          url: "https://commons.wikimedia.org/wiki/File:Agrostis_nebulosa_inflorescencias_2010-5-31_MestanzaValledeAlcudia.jpg"
                          )
 
 finger_grass = Flower.create!(name: "Finger-grass",
@@ -3431,7 +3776,9 @@ finger_grass = Flower.create!(name: "Finger-grass",
                                       Hemisphere",
                               climate: "Tropical and subtropical",
                               image_url: "finger_grass.jpg",
-                              thumbnail_url: "finger_grass_thumbnail.jpg"
+                              thumbnail_url: "finger_grass_thumbnail.jpg",
+                              source: "Wendy Cutler",
+                              url: "https://www.flickr.com/photos/wlcutler/15630281853/"
                              )
 
 lemongrass = Flower.create!(name: "Lemongrass",
@@ -3448,7 +3795,9 @@ lemongrass = Flower.create!(name: "Lemongrass",
                              place: "Native to tropical Southeast Asia",
                              climate: "Tropical",
                              image_url: "lemongrass.jpg",
-                             thumbnail_url: "lemongrass_thumbnail.jpg"
+                             thumbnail_url: "lemongrass_thumbnail.jpg",
+                             source: "Tony Rodd",
+                             url: "https://www.flickr.com/photos/tony_rodd/2162328102/in/album-72157603629327031/"
                             )
 
 alexandrian_laurel = Flower.create!(name: "Alexandrian Laurel",
@@ -3468,7 +3817,9 @@ alexandrian_laurel = Flower.create!(name: "Alexandrian Laurel",
                                             Australia",
                                     climate: "Mostly tropical",
                                     image_url: "alexandrian_laurel.jpg",
-                                    thumbnail_url: "alexandrian_laurel_thumbnail.jpg"
+                                    thumbnail_url: "alexandrian_laurel_thumbnail.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:(Calophyllum_inophyllum)_at_VUDA_Park_05.JPG"
                                    )
 
 hydrangea = Flower.create!(name: "Hydrangea",
@@ -3488,7 +3839,9 @@ hydrangea = Flower.create!(name: "Hydrangea",
                                    Indonesia) and the Americas",
                            climate: "Tropical and subtropical",
                            image_url: "hydrangea.jpg",
-                           thumbnail_url: "hydrangea_thumbnail.jpg"
+                           thumbnail_url: "hydrangea_thumbnail.jpg",
+                           source: "Eric Skiff",
+                           url: "https://www.flickr.com/photos/ericskiff/109782794"
                           )
 
 golden_eye_grass = Flower.create!(name: "Golden Eye Grass",
@@ -3506,7 +3859,9 @@ golden_eye_grass = Flower.create!(name: "Golden Eye Grass",
                                   place: "Native to China, Japan, Indian Subcontinent, Papuasia, Micronesia",
                                   climate: "Tropical and subtropical",
                                   image_url: "golden_eye_grass.jpg",
-                                  thumbnail_url: "golden_eye_grass_thumbnail.jpg"
+                                  thumbnail_url: "golden_eye_grass_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:%E0%B4%A8%E0%B4%BF%E0%B4%B2%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B4%A8_%E0%B4%AA%E0%B5%82%E0%B4%B5%E0%B5%81%E0%B4%AE%E0%B4%BE%E0%B4%AF%E0%B4%BF.JPG"
                                  )
 
 blackberry_lily = Flower.create!(name: "Blackberry Lily",
@@ -3524,7 +3879,9 @@ blackberry_lily = Flower.create!(name: "Blackberry Lily",
                                  place: "Native to China, found in other subtropical regions",
                                  climate: "Subtropical",
                                  image_url: "blackberry_lily.jpg",
-                                 thumbnail_url: "blackberry_lily_thumbnail.jpg"
+                                 thumbnail_url: "blackberry_lily_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Belamcanda_chinensis_2007.jpg"
                                 )
 
 african_iris = Flower.create!(name: "African Iris",
@@ -3546,12 +3903,14 @@ african_iris = Flower.create!(name: "African Iris",
                                       the world",
                               climate: "Tropical and subtropical",
                               image_url: "african_iris.jpg",
-                              thumbnail_url: "african_iris_thumbnail.jpg"
+                              thumbnail_url: "african_iris_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Dietes_iridioides_POFA.JPG"
                              )
 
 peacock_orchid = Flower.create!(name: "Peacock Orchid",
                                 other_names: "",
-                                bot_name: "Gladiolus (Acidanthera bicolor)",
+                                bot_name: "Gladiolus murielae",
                                 family: "Iridaceae",
                                 significance: "The Vital’s Possibility of Perfection",
                                 comment: "The day the vital will be converted it will have much to give.",
@@ -3565,7 +3924,9 @@ peacock_orchid = Flower.create!(name: "Peacock Orchid",
                                 place: "Native to eastern Africa, from Ethiopia to Malawi",
                                 climate: "Tropical",
                                 image_url: "peacock_orchid.jpg",
-                                thumbnail_url: "peacock_orchid_thumbnail.jpg"
+                                thumbnail_url: "peacock_orchid_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Gladiolus_murielae20100914_432.jpg/"
                                )
 
 flag = Flower.create!(name: "Flag",
@@ -3584,7 +3945,9 @@ flag = Flower.create!(name: "Flag",
                       place: "Found in tropical and subtropical America",
                       climate: "Tropical and subtropical",
                       image_url: "flag.jpg",
-                      thumbnail_url: "flag_thumbnail.jpg"
+                      thumbnail_url: "flag_thumbnail.jpg",
+                      source: "Wikimedia Commons",
+                      url: "https://commons.wikimedia.org/wiki/File:Iris_versicolor_3.jpg"
                      )
 
 lily_of_the_valley = Flower.create!(name: "Lily of the Valley",
@@ -3603,7 +3966,9 @@ lily_of_the_valley = Flower.create!(name: "Lily of the Valley",
                                             Europe",
                                     climate: "Temperate",
                                     image_url: "lily_of_the_valley.jpg",
-                                    thumbnail_url: "lily_of_the_valley_thumbnail.jpg"
+                                    thumbnail_url: "lily_of_the_valley_thumbnail.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Convallaria_majalis_zoom.jpg"
                                    )
 
 lions_ear = Flower.create!(name: "Lion's Ear",
@@ -3622,7 +3987,9 @@ lions_ear = Flower.create!(name: "Lion's Ear",
                                    Latin America and the West Indies",
                            climate: "Tropical",
                            image_url: "lions_ear.jpg",
-                           thumbnail_url: "lions_ear_thumbnail.jpg"
+                           thumbnail_url: "lions_ear_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Leonotis_nepetifolia_sept_2015.JPG"
                           )
 
 thumbai = Flower.create!(name: "Thumbai",
@@ -3640,7 +4007,9 @@ thumbai = Flower.create!(name: "Thumbai",
                          place: "Found throughout India",
                          climate: "Tropical and subtropical",
                          image_url: "thumbai.jpg",
-                         thumbnail_url: "thumbai_thumbnail.jpg"
+                         thumbnail_url: "thumbai_thumbnail.jpg",
+                         source: "Wikimedia Commons",
+                         url: "https://commons.wikimedia.org/wiki/File:%E0%B4%A4%E0%B5%81%E0%B4%82%E0%B4%AC_%E0%B4%AA%E0%B5%82%E0%B4%B5%E0%B5%8D.JPG"
                         )
 
 hoary_basil = Flower.create!(name: "Hoary Basil",
@@ -3659,7 +4028,9 @@ hoary_basil = Flower.create!(name: "Hoary Basil",
                                      Queensland, Christmas Island, and parts of tropical America",
                              climate: "Tropical and subtropical",
                              image_url: "hoary_basil.jpg",
-                             thumbnail_url: "hoary_basil_thumbnail.jpg"
+                             thumbnail_url: "hoary_basil_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:ChristianBauer_stalk_of_basil.jpg"
                             )
 
 holy_basil = Flower.create!(name: "Holy Basil",
@@ -3682,7 +4053,9 @@ holy_basil = Flower.create!(name: "Holy Basil",
                                     the Southeast Asian tropics",
                             climate: "Tropical and subtropical",
                             image_url: "holy_basil.jpg",
-                            thumbnail_url: "holy_basil_thumbnail.jpg"
+                            thumbnail_url: "holy_basil_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Ocimum_tenuiflorum_18.jpg"
                            )
 
 sweet_marjoram = Flower.create!(name: "Sweet Marjoram",
@@ -3701,7 +4074,9 @@ sweet_marjoram = Flower.create!(name: "Sweet Marjoram",
                                 place: "Indigenous to Cyprus and southern Turkey",
                                 climate: "Temperate",
                                 image_url: "sweet_marjoram.jpg",
-                                thumbnail_url: "sweet_marjoram_thumbnail.jpg"
+                                thumbnail_url: "sweet_marjoram_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Origanum-majorana-flowers.jpg"
                                )
 
 mealy_sage = Flower.create!(name: "Mealy Sage",
@@ -3720,7 +4095,9 @@ mealy_sage = Flower.create!(name: "Mealy Sage",
                             place: "Native to Mexico and parts of the United States including Texas",
                             climate: "Tropical and subtropical",
                             image_url: "mealy_sage.jpg",
-                            thumbnail_url: "mealy_sage_thumbnail.jpg"
+                            thumbnail_url: "mealy_sage_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Salvia_farinacea_0.6_R.jpg"
                            )
 
 sage = Flower.create!(name: "Sage",
@@ -3737,7 +4114,9 @@ sage = Flower.create!(name: "Sage",
                       place: "Found in Central and South America, Central Asia and Mediterranean, Eastern Asia",
                       climate: "Found across temperate, subtropical and tropical regions",
                       image_url: "sage.jpg",
-                      thumbnail_url: "sage_thumbnail.jpg"
+                      thumbnail_url: "sage_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Salvia_verbenaca_b.JPG"
                      )
 
 mexican_bush_sage = Flower.create!(name: "Mexican Bush Sage",
@@ -3757,7 +4136,9 @@ mexican_bush_sage = Flower.create!(name: "Mexican Bush Sage",
                                            Mexico",
                                    climate: "Tropical and subtropical",
                                    image_url: "mexican_bush_sage.jpg",
-                                   thumbnail_url: "mexican_bush_sage_thumbnail.jpg"
+                                   thumbnail_url: "mexican_bush_sage_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Salvia_leucantha_(Junichiro_Aoyama)_001.jpg"
                                   )
 
 scarlet_sage = Flower.create!(name: "Scarlet Sage",
@@ -3777,7 +4158,9 @@ scarlet_sage = Flower.create!(name: "Scarlet Sage",
                               place: "Native to Brazil, cultivated in many other tropical regions",
                               climate: "Tropical",
                               image_url: "scarlet_sage.jpg",
-                              thumbnail_url: "scarlet_sage_thumbnail.jpg"
+                              thumbnail_url: "scarlet_sage_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Salvia_splendens1.jpg"
                              )
 
 fish_poison_tree = Flower.create!(name: "Fish Poison Tree",
@@ -3797,7 +4180,9 @@ fish_poison_tree = Flower.create!(name: "Fish Poison Tree",
                                           Ocean and western Pacific Ocean",
                                   climate: "Tropical",
                                   image_url: "fish_poison_tree.jpg",
-                                  thumbnail_url: "fish_poison_tree_thumbnail.jpg"
+                                  thumbnail_url: "fish_poison_tree_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Barringtonia_asiatica_-_twin_flower.JPG"
                                  )
 
 dwarf_white_bauhinia = Flower.create!(name: "Dwarf White Bauhinia",
@@ -3816,7 +4201,9 @@ dwarf_white_bauhinia = Flower.create!(name: "Dwarf White Bauhinia",
                                       place: "Native to tropical southeastern Asia",
                                       climate: "Tropical",
                                       image_url: "dwarf_white_bauhinia.jpg",
-                                      thumbnail_url: "dwarf_white_bauhinia_thumbnail.jpg"
+                                      thumbnail_url: "dwarf_white_bauhinia_thumbnail.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:Bauhinia_acuminata_24_08_2012_01.JPG"
                                      )
 
 st_thomas_tree = Flower.create!(name: "St. Thomas Tree",
@@ -3834,7 +4221,9 @@ st_thomas_tree = Flower.create!(name: "St. Thomas Tree",
                                 place: "Native to tropical Africa, found in many other tropical regions",
                                 climate: "Tropical",
                                 image_url: "st_thomas_tree.jpg",
-                                thumbnail_url: "st_thomas_tree_thumbnail.jpg"
+                                thumbnail_url: "st_thomas_tree_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Bauhinia_tomentosa_(8606310758).jpg"
                                )
 
 orchid_tree = Flower.create!(name: "Orchid Tree",
@@ -3853,12 +4242,14 @@ orchid_tree = Flower.create!(name: "Orchid Tree",
                              place: "Native to India and Burma",
                              climate: "Mostly tropical",
                              image_url: "orchid_tree.jpg",
-                             thumbnail_url: "orchid_tree_thumbnail.jpg"
+                             thumbnail_url: "orchid_tree_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Starr_061223-2719_Bauhinia_sp..jpg"
                             )
 
 divi_divi = Flower.create!(name: "Divi Divi",
-                           other_names: "Caesalpinia coriaria",
-                           bot_name: "",
+                           other_names: "",
+                           bot_name: "Caesalpinia coriaria [Poinciana coriaria]",
                            family: "Fabaceae",
                            significance: "Intuitive Knowledge",
                            comment: "Innumerable and vast for exploration, it is pure and fragrant.",
@@ -3871,7 +4262,9 @@ divi_divi = Flower.create!(name: "Divi Divi",
                            place: "Native to the Caribbean, Mexico, Central America, and northern South America",
                            climate: "Tropical",
                            image_url: "divi_divi.jpg",
-                           thumbnail_url: "divi_divi_thumbnail.jpg"
+                           thumbnail_url: "divi_divi_thumbnail.jpg",
+                           source: "Plants of Colombia",
+                           url: "http://plantasdecolombia.org/2011/10/21/caesalpinia-coriaria-caesalpinaceae/"
                           )
 
 golden_shower_tree = Flower.create!(name: "Golden Shower Tree",
@@ -3891,7 +4284,9 @@ golden_shower_tree = Flower.create!(name: "Golden Shower Tree",
                                     place: "Native to the Indian subcontinent and adjacent regions of Southeast Asia",
                                     climate: "Tropical and subtropical",
                                     image_url: "golden_shower_tree.jpg",
-                                    thumbnail_url: "golden_shower_tree_thumbnail.jpg"
+                                    thumbnail_url: "golden_shower_tree_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Cassia_fistula_flowers_5.jpg"
                                    )
 
 pink_shower = Flower.create!(name: "Pink Shower",
@@ -3909,7 +4304,9 @@ pink_shower = Flower.create!(name: "Pink Shower",
                              place: "Native to Southeast Asia, cultivated in other tropical regions",
                              climate: "Mostly tropical",
                              image_url: "pink_shower.jpg",
-                             thumbnail_url: "pink_shower_thumbnail.jpg"
+                             thumbnail_url: "pink_shower_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Cassia_javanica_3.jpg"
                             )
 
 red_cassia = Flower.create!(name: "Red Cassia",
@@ -3928,7 +4325,9 @@ red_cassia = Flower.create!(name: "Red Cassia",
                             place: "Found in tropical India, Americas, Africa, and Myanmar",
                             climate: "Mostly tropical",
                             image_url: "red_cassia.jpg",
-                            thumbnail_url: "red_cassia_thumbnail.jpg"
+                            thumbnail_url: "red_cassia_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Red_Cassia17.JPG"
                            )
 
 white_gulmohar = Flower.create!(name: "White Gulmohar",
@@ -3947,7 +4346,9 @@ white_gulmohar = Flower.create!(name: "White Gulmohar",
                                 place: "Found in East Africa, southern Arabia east to western India",
                                 climate: "Mostly tropical",
                                 image_url: "white_gulmohar.jpg",
-                                thumbnail_url: "white_gulmohar_thumbnail.jpg"
+                                thumbnail_url: "white_gulmohar_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Delonix_elata01.JPG"
                                )
 
 peacock_flower = Flower.create!(name: "Peacock Flower",
@@ -3966,7 +4367,9 @@ peacock_flower = Flower.create!(name: "Peacock Flower",
                                 place: "Native to Madagascar",
                                 climate: "Tropical",
                                 image_url: "peacock_flower.jpg",
-                                thumbnail_url: "peacock_flower_thumbnail.jpg"
+                                thumbnail_url: "peacock_flower_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Flamboyant_BW_2.jpg"
                                )
 
 logwood = Flower.create!(name: "Logwood",
@@ -3984,7 +4387,9 @@ logwood = Flower.create!(name: "Logwood",
                          place: "Native to southern Mexico and northern Central America",
                          climate: "Tropical",
                          image_url: "logwood.jpg",
-                         thumbnail_url: "logwood_thumbnail.jpg"
+                         thumbnail_url: "logwood_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Haematoxylum_campechianum_(Camp%C3%AAche).jpg"
                         )
 
 jerusalem_thorn = Flower.create!(name: "Jerusalem Thorn",
@@ -4009,7 +4414,9 @@ jerusalem_thorn = Flower.create!(name: "Jerusalem Thorn",
                                         Australia.",
                                  climate: "Tropical and subtropical",
                                  image_url: "jerusalem_thorn.jpg",
-                                 thumbnail_url: "jerusalem_thorn_thumbnail.jpg"
+                                 thumbnail_url: "jerusalem_thorn_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Parkinsonia_aculeata_flowers_3.jpg"
                                 )
 
 copper_pod = Flower.create!(name: "Copper Pod",
@@ -4028,7 +4435,9 @@ copper_pod = Flower.create!(name: "Copper Pod",
                                     world",
                             climate: "Tropical",
                             image_url: "copper_pod.jpg",
-                            thumbnail_url: "copper_pod_thumbnail.jpg"
+                            thumbnail_url: "copper_pod_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Yellow_Flame_(Peltophorum_pterocarpum)_3.jpg"
                            )
 
 asoka = Flower.create!(name: "Asoka",
@@ -4047,7 +4456,9 @@ asoka = Flower.create!(name: "Asoka",
                                of the Western Ghats in the western coastal zone of the Indian subcontinent",
                        climate: "Tropical",
                        image_url: "asoka.jpg",
-                       thumbnail_url: "asoka_thumbnail.jpg"
+                       thumbnail_url: "asoka_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Gardenology-IMG_4861_hunt10mar.jpg"
                       )
 
 christmas_candle = Flower.create!(name: "Christmas Candle",
@@ -4067,7 +4478,9 @@ christmas_candle = Flower.create!(name: "Christmas Candle",
                                   place: "Native to Mexico, and can be found in diverse habitats, mostly tropical",
                                   climate: "Mostly tropical",
                                   image_url: "christmas_candle.jpg",
-                                  thumbnail_url: "christmas_candle_thumbnail.jpg"
+                                  thumbnail_url: "christmas_candle_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Senna_alata_4.jpg"
                                  )
 
 mimosa_bush = Flower.create!(name: "Mimosa Bush",
@@ -4084,7 +4497,9 @@ mimosa_bush = Flower.create!(name: "Mimosa Bush",
                              place: "Found in many regions",
                              climate: "Wide range of climates",
                              image_url: "mimosa_bush.jpg",
-                             thumbnail_url: "mimosa_bush_thumbnail.jpg"
+                             thumbnail_url: "mimosa_bush_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Starr_030202-0022_Acacia_farnesiana.jpg"
                             )
 
 white_bark_acacia = Flower.create!(name: "White Bark Acacia",
@@ -4101,7 +4516,9 @@ white_bark_acacia = Flower.create!(name: "White Bark Acacia",
                                    place: "Commonly found in Southern India",
                                    climate: "Tropical",
                                    image_url: "white_bark_acacia.jpg",
-                                   thumbnail_url: "white_bark_acacia_thumbnail.jpg"
+                                   thumbnail_url: "white_bark_acacia_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Acacia_leucophloea_flowering_in_Vanasthalipuram,_Hyderabad,_AP_W2_IMG_9224.jpg"
                                   )
 
 siris_tree = Flower.create!(name: "Siris Tree",
@@ -4120,12 +4537,14 @@ siris_tree = Flower.create!(name: "Siris Tree",
                                     other tropical and subtropical regions",
                             climate: "Tropical and subtropical",
                             image_url: "siris_tree.jpg",
-                            thumbnail_url: "siris_tree_thumbnail.jpg"
+                            thumbnail_url: "siris_tree_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Albizia_lebbeck_(Siris)_in_Hyderabad_W_IMG_7116.jpg"
                            )
 
 rain_tree = Flower.create!(name: "Rain Tree",
                            other_names: "Saman, Monkey Pod, Zamang",
-                           bot_name: "Enterolobium saman",
+                           bot_name: "Enterolobium saman [Albizia saman]",
                            family: "Fabaceae",
                            significance: "Wisdom",
                            comment: "Can only be acquired through union with the Divine Consciousness.",
@@ -4139,7 +4558,9 @@ rain_tree = Flower.create!(name: "Rain Tree",
                            place: "Native to West Indies and Central America",
                            climate: "Tropical and subtropical",
                            image_url: "rain_tree.jpg",
-                           thumbnail_url: "rain_tree_thumbnail.jpg"
+                           thumbnail_url: "rain_tree_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Albizia_saman_0155.JPG"
                           )
 
 powderpuff = Flower.create!(name: "Powderpuff",
@@ -4157,7 +4578,9 @@ powderpuff = Flower.create!(name: "Powderpuff",
                             place: "Native to the tropical and subtropical Americas",
                             climate: "Tropical and subtropical",
                             image_url: "powderpuff.jpg",
-                            thumbnail_url: "powderpuff_thumbnail.jpg"
+                            thumbnail_url: "powderpuff_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Calliandra_surinamensis_(8).jpg"
                            )
 
 red_powderpuff = Flower.create!(name: "Red Powderpuff",
@@ -4174,7 +4597,9 @@ red_powderpuff = Flower.create!(name: "Red Powderpuff",
                                 place: "Native to the tropical and subtropical Americas",
                                 climate: "Tropical and subtropical",
                                 image_url: "red_powderpuff.jpg",
-                                thumbnail_url: "red_powderpuff_thumbnail.jpg"
+                                thumbnail_url: "red_powderpuff_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Starr_071024-0461_Calliandra_haematocephala.jpg"
                                )
 
 white_powderpuff = Flower.create!(name: "White Powderpuff",
@@ -4191,7 +4616,9 @@ white_powderpuff = Flower.create!(name: "White Powderpuff",
                                   place: "Native to the tropical and subtropical Americas",
                                   climate: "Tropical and subtropical",
                                   image_url: "white_powderpuff.jpg",
-                                  thumbnail_url: "white_powderpuff_thumbnail.jpg"
+                                  thumbnail_url: "white_powderpuff_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:DirkvdM_spiky_flower_white.jpg"
                                  )
 
 lead_tree = Flower.create!(name: "Lead Tree",
@@ -4210,12 +4637,14 @@ lead_tree = Flower.create!(name: "Lead Tree",
                                    naturalized throughout the tropics",
                            climate: "Tropical",
                            image_url: "lead_tree.jpg",
-                           thumbnail_url: "lead_tree_thumbnail.jpg"
+                           thumbnail_url: "lead_tree_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Leucaena_leucocephala_(5732468687).jpg"
                           )
 
 mungo_tree = Flower.create!(name: "Mungo Tree",
                             other_names: "Nittu Tree",
-                            bot_name: "Parkia pedunculata",
+                            bot_name: "Parkia pedunculata [Parkia biglandulosa]",
                             family: "Fabaceae",
                             significance: "Boastfulness",
                             comment: "One of the greatest obstacles to progress. A stupidity one must carefully avoid
@@ -4229,7 +4658,9 @@ mungo_tree = Flower.create!(name: "Mungo Tree",
                             place: "Native to Asia",
                             climate: "Found across temperate, subtropical and tropical regions",
                             image_url: "mungo_tree.jpg",
-                            thumbnail_url: "mungo_tree_thumbnail.jpg"
+                            thumbnail_url: "mungo_tree_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Parkia_biglandulosa_(badminton_ball_tree)_W_IMG_4677.jpg"
                            )
 
 honey_mesquite = Flower.create!(name: "Honey Mesquite",
@@ -4247,12 +4678,14 @@ honey_mesquite = Flower.create!(name: "Honey Mesquite",
                                         southern Kansas and as far east as the eastern fifth of Texas",
                                 climate: "Tropical and subtropical",
                                 image_url: "honey_mesquite.jpg",
-                                thumbnail_url: "honey_mesquite_thumbnail.jpg"
+                                thumbnail_url: "honey_mesquite_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Prosopis_glandulosa_001.jpg"
                                )
 
 flame_of_the_forest = Flower.create!(name: "Flame of the Forest",
-                                     other_names: "Palas",
-                                     bot_name: "Butea monosperma",
+                                     other_names: "Palash",
+                                     bot_name: "Butea monosperma [Erythrina monosperma]",
                                      family: "Fabaceae",
                                      significance: "Beginning of the Supramental Realisation",
                                      comment: "Of charming beauty it is the herald of victory.",
@@ -4265,7 +4698,9 @@ flame_of_the_forest = Flower.create!(name: "Flame of the Forest",
                                              and Southeast Asia",
                                      climate: "Tropical and subtropical",
                                      image_url: "flame_of_the_forest.jpg",
-                                     thumbnail_url: "flame_of_the_forest_thumbnail.jpg"
+                                     thumbnail_url: "flame_of_the_forest_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Butea_monosperma_(1).jpg"
                                     )
 
 moreton_bay_chestnut = Flower.create!(name: "Moreton Bay Chestnut",
@@ -4284,7 +4719,9 @@ moreton_bay_chestnut = Flower.create!(name: "Moreton Bay Chestnut",
                                               and to the Pacific islands of Vanuatu and New Caledonia",
                                       climate: "Subtropical to temperate",
                                       image_url: "moreton_bay_chestnut.jpg",
-                                      thumbnail_url: "moreton_bay_chestnut_thumbnail.jpg"
+                                      thumbnail_url: "moreton_bay_chestnut_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Castanospermumaustrale2.jpg"
                                      )
 
 sunn_hemp = Flower.create!(name: "Sunn Hemp",
@@ -4302,7 +4739,9 @@ sunn_hemp = Flower.create!(name: "Sunn Hemp",
                            place: "Possibly native to India, also found in other tropical regions of the world",
                            climate: "Mostly tropical",
                            image_url: "sunn_hemp.jpg",
-                           thumbnail_url: "sunn_hemp_thumbnail.jpg"
+                           thumbnail_url: "sunn_hemp_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Crotalaria_juncea_Da220020.JPG"
                           )
 
 madre_de_cacao = Flower.create!(name: "Madre de Cacao",
@@ -4321,7 +4760,9 @@ madre_de_cacao = Flower.create!(name: "Madre de Cacao",
                                 place: "Found on volcanic soils in its native range in Central America and Mexico",
                                 climate: "Tropical",
                                 image_url: "madre_de_cacao.jpg",
-                                thumbnail_url: "madre_de_cacao_thumbnail.jpg"
+                                thumbnail_url: "madre_de_cacao_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Starr_070111-3222_Gliricidia_sepium.jpg"
                                )
 
 scarlet_wistaria_tree = Flower.create!(name: "Scarlet Wistaria Tree",
@@ -4341,7 +4782,9 @@ scarlet_wistaria_tree = Flower.create!(name: "Scarlet Wistaria Tree",
                                                of India",
                                        climate: "Mostly tropical",
                                        image_url: "scarlet_wistaria_tree.jpg",
-                                       thumbnail_url: "scarlet_wistaria_tree_thumbnail.jpg"
+                                       thumbnail_url: "scarlet_wistaria_tree_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:%E0%AE%85%E0%AE%95%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%82.jpg"
                                       )
 
 chinese_wisteria = Flower.create!(name: "Chinese Wisteria",
@@ -4360,7 +4803,9 @@ chinese_wisteria = Flower.create!(name: "Chinese Wisteria",
                                           Shaanxi, and Yunnan",
                                   climate: "Subtropical to temperate",
                                   image_url: "chinese_wisteria.jpg",
-                                  thumbnail_url: "chinese_wisteria_thumbnail.jpg"
+                                  thumbnail_url: "chinese_wisteria_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Funchal,_Monte_-_Wisteria_sinensis_(Chinesischer_Blauregen)_IMG_1926.JPG"
                                  )
 
 senna = Flower.create!(name: "Senna",
@@ -4379,7 +4824,9 @@ senna = Flower.create!(name: "Senna",
                        place: "Has a pantropical distribution",
                        climate: "Tropical and subtropical",
                        image_url: "senna.jpg",
-                       thumbnail_url: "senna_thumbnail.jpg"
+                       thumbnail_url: "senna_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Senna_corymbosa_(14979984571).jpg"
                       )
 
 black_wattle = Flower.create!(name: "Black Wattle",
@@ -4398,7 +4845,9 @@ black_wattle = Flower.create!(name: "Black Wattle",
                                       Asia, Oceania and in Sudan",
                               climate: "Tropical and subtropical",
                               image_url: "black_wattle.jpg",
-                              thumbnail_url: "black_wattle_thumbnail.jpg"
+                              thumbnail_url: "black_wattle_thumbnail.jpg",
+                                  source: "Krishna",
+                                  url: "https://www.flickr.com/photos/nexus2006/5941522396"
                              )
 
 touch_me_not = Flower.create!(name: "Touch-me-not",
@@ -4416,7 +4865,9 @@ touch_me_not = Flower.create!(name: "Touch-me-not",
                               place: "Native to South America and Central America, but is now a pantropical weed",
                               climate: "Tropical and subtropical",
                               image_url: "touch_me_not.jpg",
-                              thumbnail_url: "touch_me_not_thumbnail.jpg"
+                              thumbnail_url: "touch_me_not_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:YosriPokokSemalubunga.jpg"
                              )
 
 common_laburnum = Flower.create!(name: "Common Laburnum",
@@ -4433,7 +4884,9 @@ common_laburnum = Flower.create!(name: "Common Laburnum",
                                  place: "Native to Central and Southern Europe",
                                  climate: "Temperate",
                                  image_url: "common_laburnum.jpg",
-                                 thumbnail_url: "common_laburnum_thumbnail.jpg"
+                                 thumbnail_url: "common_laburnum_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Fruchth%C3%BClsen_und_Bl%C3%BCten_des_Goldregen.JPG"
                                 )
 
 rattlebox = Flower.create!(name: "Rattlebox",
@@ -4451,7 +4904,9 @@ rattlebox = Flower.create!(name: "Rattlebox",
                            place: "Commonly found in Africa and other tropical regions of the world",
                            climate: "Tropical",
                            image_url: "rattlebox.jpg",
-                           thumbnail_url: "rattlebox_thumbnail.jpg"
+                           thumbnail_url: "rattlebox_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Crotalaria_verrucosa.jpg"
                           )
 
 clover = Flower.create!(name: "Clover",
@@ -4471,7 +4926,9 @@ clover = Flower.create!(name: "Clover",
                                 including at high altitudes on mountains in the tropics",
                         climate: "Found across temperate, subtropical and tropical regions",
                         image_url: "clover.jpg",
-                        thumbnail_url: "clover_thumbnail.jpg"
+                        thumbnail_url: "clover_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Trifolium_wormskioldii.jpg"
                        )
 
 garden_lupine = Flower.create!(name: "Garden Lupine",
@@ -4490,7 +4947,9 @@ garden_lupine = Flower.create!(name: "Garden Lupine",
                                place: "Found in many different regions of the world",
                                climate: "Found across temperate, subtropical and tropical regions",
                                image_url: "garden_lupine.jpg",
-                               thumbnail_url: "garden_lupine_thumbnail.jpg"
+                               thumbnail_url: "garden_lupine_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Lupinus_polyphyllus4.jpg"
                               )
 
 scarlet_flame_bean = Flower.create!(name: "Scarlet Flame Bean",
@@ -4509,7 +4968,9 @@ scarlet_flame_bean = Flower.create!(name: "Scarlet Flame Bean",
                                             other tropical and subtropical regions",
                                     climate: "Tropical and subtropical",
                                     image_url: "scarlet_flame_bean.jpg",
-                                    thumbnail_url: "scarlet_flame_bean_thumbnail.jpg"
+                                    thumbnail_url: "scarlet_flame_bean_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://en.wikipedia.org/wiki/File:Brownea_coccinea_KL.jpg"
                                    )
 
 barbados_aloe = Flower.create!(name: "Barbados Aloe",
@@ -4526,27 +4987,31 @@ barbados_aloe = Flower.create!(name: "Barbados Aloe",
                                place: "Native to Socotra (Yemen), Somalia, and Sudan",
                                climate: "Tropical",
                                image_url: "barbados_aloe.jpg",
-                               thumbnail_url: "barbados_aloe_thumbnail.jpg"
+                               thumbnail_url: "barbados_aloe_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Aloe_vera_Flores_2013-5-01_TorreLaMata.jpg"
                               )
 
-sprenger_asparagus = Flower.create!(name: "Sprenger Asparagus",
-                                    other_names: "Sprengeri, Emerald Fern, Emerald Feather",
-                                    bot_name: "Asparagus densiflorus 'Sprengeri'",
-                                    family: "Asparagaceae",
-                                    significance: "Spiritual Speech",
-                                    comment: "All-powerful in its simplicity.",
-                                    description: "Tiny white mildly fragrant starlike flowers with orange-tipped
-                                                  stamens; occurring in small clusters amidst the foliage or sometimes
-                                                  forming dense sprays. A fernlike perennial herb with gracefully
-                                                  arching stems.",
-                                    colour: "White, orange",
-                                    petals: "",
-                                    size: "Tiny",
-                                    place: "Native to southern Africa from Mozambique to South Africa",
-                                    climate: "Tropical",
-                                    image_url: "sprenger_asparagus.jpg",
-                                    thumbnail_url: "sprenger_asparagus_thumbnail.jpg"
-                                   )
+sprengers_asparagus = Flower.create!(name: "Sprenger's Asparagus",
+                                     other_names: "Sprengeri, Emerald Fern, Emerald Feather",
+                                     bot_name: "Asparagus densiflorus 'Sprengeri'",
+                                     family: "Asparagaceae",
+                                     significance: "Spiritual Speech",
+                                     comment: "All-powerful in its simplicity.",
+                                     description: "Tiny white mildly fragrant starlike flowers with orange-tipped
+                                                   stamens; occurring in small clusters amidst the foliage or sometimes
+                                                   forming dense sprays. A fernlike perennial herb with gracefully
+                                                   arching stems.",
+                                     colour: "White, orange",
+                                     petals: "",
+                                     size: "Tiny",
+                                     place: "Native to southern Africa from Mozambique to South Africa",
+                                     climate: "Tropical",
+                                     image_url: "sprengers_asparagus.jpg",
+                                     thumbnail_url: "sprengers_asparagus_thumbnail.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Starr_080607-7082_Asparagus_densiflorus.jpg"
+                                    )
 
 satavar = Flower.create!(name: "Satavar",
                          other_names: "Shatavari, Shatamull",
@@ -4563,7 +5028,9 @@ satavar = Flower.create!(name: "Satavar",
                          place: "Common throughout Nepal, Sri Lanka, India and the Himalayas",
                          climate: "Tropical and subtropical",
                          image_url: "satavar.jpg",
-                         thumbnail_url: "satavar_thumbnail.jpg"
+                         thumbnail_url: "satavar_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Asparagus_racemosus_fleurs.JPG/1024px-Asparagus_racemosus_fleurs.JPG"
                         )
 
 spider_ivy = Flower.create!(name: "Spider Ivy",
@@ -4583,7 +5050,9 @@ spider_ivy = Flower.create!(name: "Spider Ivy",
                                     including western Australia",
                             climate: "Mostly tropical",
                             image_url: "spider_ivy.jpg",
-                            thumbnail_url: "spider_ivy_thumbnail.jpg"
+                            thumbnail_url: "spider_ivy_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Blossom_Bl%C3%BCte_Gr%C3%BCnlilie_Chlorophytum_comosum_Agavengew%C3%A4chse_Agavoideae_PICT6339.JPG"
                            )
 
 giant_squill = Flower.create!(name: "Giant Squill",
@@ -4602,7 +5071,9 @@ giant_squill = Flower.create!(name: "Giant Squill",
                               place: "Native to South Africa",
                               climate: "Tropical and subtropical",
                               image_url: "giant_squill.jpg",
-                              thumbnail_url: "giant_squill_thumbnail.jpg"
+                              thumbnail_url: "giant_squill_thumbnail.jpg",
+                                  source: "Hortipedia Commons",
+                                  url: "http://commons.hortipedia.com/wiki/File:Drimiopsis_kirkii_photo_file_PDB_160KB.jpg"
                              )
 
 glory_lily = Flower.create!(name: "Glory Lily",
@@ -4625,7 +5096,9 @@ glory_lily = Flower.create!(name: "Glory Lily",
                             place: "Native to much of Africa and Asia",
                             climate: "Found across temperate, subtropical and tropical regions",
                             image_url: "glory_lily.jpg",
-                            thumbnail_url: "glory_lily_thumbnail.jpg"
+                            thumbnail_url: "glory_lily_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Gloriosa_superba_1.jpg"
                            )
 
 hyacinth = Flower.create!(name: "Hyacinth",
@@ -4645,7 +5118,9 @@ hyacinth = Flower.create!(name: "Hyacinth",
                                   regions",
                           climate: "Temperate",
                           image_url: "hyacinth.jpg",
-                          thumbnail_url: "hyacinth_thumbnail.jpg"
+                          thumbnail_url: "hyacinth_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Hyacinthus_orientalis_(S.lukas).JPG"
                          )
 
 madonna_lily = Flower.create!(name: "Madonna Lily",
@@ -4666,7 +5141,9 @@ madonna_lily = Flower.create!(name: "Madonna Lily",
                                       the Canary Islands, Mexico, and other places",
                               climate: "Found across temperate, subtropical and tropical regions",
                               image_url: "madonna_lily.jpg",
-                              thumbnail_url: "madonna_lily_thumbnail.jpg"
+                              thumbnail_url: "madonna_lily_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Lilium_candidum_(14434339854).jpg"
                              )
 
 star_of_bethlehem = Flower.create!(name: "Star of Bethlehem",
@@ -4685,7 +5162,9 @@ star_of_bethlehem = Flower.create!(name: "Star of Bethlehem",
                                            and south-western Asia, also found in North America",
                                    climate: "Subtropical to temperate",
                                    image_url: "star_of_bethlehem.jpg",
-                                   thumbnail_url: "star_of_bethlehem_thumbnail.jpg"
+                                   thumbnail_url: "star_of_bethlehem_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Ornithogalum_umbellatum_002.JPG"
                                   )
 
 tulip = Flower.create!(name: "Tulip",
@@ -4705,7 +5184,9 @@ tulip = Flower.create!(name: "Tulip",
                                 to the Northwest of China",
                        climate: "Mostly subtropical",
                        image_url: "tulip.jpg",
-                       thumbnail_url: "tulip_thumbnail.jpg"
+                       thumbnail_url: "tulip_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Tulipa_cultivars_Amsterdam.jpg"
                       )
 
 flowering_flax = Flower.create!(name: "Flowering Flax",
@@ -4726,7 +5207,9 @@ flowering_flax = Flower.create!(name: "Flowering Flax",
                                         Europe and in several locations in North America as an introduced species",
                                 climate: "Subtropical to temperate",
                                 image_url: "flowering_flax.jpg",
-                                thumbnail_url: "flowering_flax_thumbnail.jpg"
+                                thumbnail_url: "flowering_flax_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Linum_grandiflorum_%27Rubrum%27_(Linaceae)_flower.JPG"
                                )
 
 madamfate = Flower.create!(name: "Madamfate",
@@ -4745,7 +5228,9 @@ madamfate = Flower.create!(name: "Madamfate",
                                    and Oceania",
                            climate: "Tropical",
                            image_url: "madamfate.jpg",
-                           thumbnail_url: "madamfate_thumbnail.jpg"
+                           thumbnail_url: "madamfate_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Hippobroma_longiflora_01.JPG"
                           )
 
 summer_lilac = Flower.create!(name: "Summer Lilac",
@@ -4763,7 +5248,9 @@ summer_lilac = Flower.create!(name: "Summer Lilac",
                               place: "Native to Japan, and central China",
                               climate: "Subtropical to temperate",
                               image_url: "summer_lilac.jpg",
-                              thumbnail_url: "summer_lilac_thumbnail.jpg"
+                              thumbnail_url: "summer_lilac_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Buddleja_%27Sugar_Plum%27.jpg"
                              )
 
 honey_suckled_mistletoe = Flower.create!(name: "Honey Suckled Mistletoe",
@@ -4783,7 +5270,9 @@ honey_suckled_mistletoe = Flower.create!(name: "Honey Suckled Mistletoe",
                                          place: "Found in tropical Africa, Asia, and Australia",
                                          climate: "Tropical",
                                          image_url: "honey_suckled_mistletoe.jpg",
-                                         thumbnail_url: "honey_suckled_mistletoe_thumbnail.jpg"
+                                         thumbnail_url: "honey_suckled_mistletoe_thumbnail.jpg",
+                                  source: "News from Coquette Point",
+                                  url: "http://coquettepointinnisfail.blogspot.in/2015/02/hello-from-coquette-point-while-south.html"
                                         )
 
 mistletoe = Flower.create!(name: "Mistletoe",
@@ -4800,7 +5289,9 @@ mistletoe = Flower.create!(name: "Mistletoe",
                            place: "Native to Europe and western and southern Asia",
                            climate: "Subtropical to temperate",
                            image_url: "mistletoe.jpg",
-                           thumbnail_url: "mistletoe_thumbnail.jpg"
+                           thumbnail_url: "mistletoe_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Mistletoe_with_berries.jpg"
                           )
 
 tall_cigar_plant = Flower.create!(name: "Tall Cigar Plant",
@@ -4817,7 +5308,9 @@ tall_cigar_plant = Flower.create!(name: "Tall Cigar Plant",
                                   place: "Native to Mexico, cultivated as a garden plant in many other regions",
                                   climate: "Tropical",
                                   image_url: "tall_cigar_plant.jpg",
-                                  thumbnail_url: "tall_cigar_plant_thumbnail.jpg"
+                                  thumbnail_url: "tall_cigar_plant_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Tall_cigar_plant_(Cuphea_micropetala)_1.jpg"
                                  )
 
 queens_crape_myrtle = Flower.create!(name: "Queen's Crape Myrtle",
@@ -4836,7 +5329,9 @@ queens_crape_myrtle = Flower.create!(name: "Queen's Crape Myrtle",
                                      place: "Native to tropical southern Asia",
                                      climate: "Tropical",
                                      image_url: "queens_crape_myrtle.jpg",
-                                     thumbnail_url: "queens_crape_myrtle_thumbnail.jpg"
+                                     thumbnail_url: "queens_crape_myrtle_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Lagerstroemia_speciosa_(2).JPG"
                                     )
 
 henna = Flower.create!(name: "Henna",
@@ -4853,7 +5348,9 @@ henna = Flower.create!(name: "Henna",
                        place: "Found in Central Asia, India, and Africa",
                        climate: "Tropical and subtropical",
                        image_url: "henna.jpg",
-                       thumbnail_url: "henna_thumbnail.jpg"
+                       thumbnail_url: "henna_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Lawsonia_inermis_flower.jpg"
                       )
 
 large_flowered_magnolia = Flower.create!(name: "Large-flowered Magnolia",
@@ -4870,7 +5367,9 @@ large_flowered_magnolia = Flower.create!(name: "Large-flowered Magnolia",
                                          place: "Native to the southeastern United States",
                                          climate: "Tropical and subtropical",
                                          image_url: "large_flowered_magnolia.jpg",
-                                         thumbnail_url: "large_flowered_magnolia_thumbnail.jpg"
+                                         thumbnail_url: "large_flowered_magnolia_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Magnolia_flower_Duke_campus.jpg"
                                         )
 
 slender_golden_shower = Flower.create!(name: "Slender Golden Shower",
@@ -4888,7 +5387,9 @@ slender_golden_shower = Flower.create!(name: "Slender Golden Shower",
                                        place: "Native to Mexico, cultivated in tropical regions",
                                        climate: "Tropical",
                                        image_url: "slender_golden_shower.jpg",
-                                       thumbnail_url: "slender_golden_shower_thumbnail.jpg"
+                                       thumbnail_url: "slender_golden_shower_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Galphimia_glauca2.jpg"
                                       )
 
 hiptage = Flower.create!(name: "Hiptage",
@@ -4907,7 +5408,9 @@ hiptage = Flower.create!(name: "Hiptage",
                          place: "Native to India, Southeast Asia and the Philippines",
                          climate: "Tropical and subtropical",
                          image_url: "hiptage.jpg",
-                         thumbnail_url: "hiptage_thumbnail.jpg"
+                         thumbnail_url: "hiptage_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Hiptage_benghalensis_011.JPG"
                         )
 
 barbados_cherry = Flower.create!(name: "Barbados Cherry",
@@ -4926,7 +5429,9 @@ barbados_cherry = Flower.create!(name: "Barbados Cherry",
                                          America as far as Peru and Brazil.",
                                  climate: "Tropical",
                                  image_url: "barbados_cherry.jpg",
-                                 thumbnail_url: "barbados_cherry_thumbnail.jpg"
+                                 thumbnail_url: "barbados_cherry_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Malpighia_glabra_(5).JPG"
                                 )
 
 miniature_holly = Flower.create!(name: "Miniature Holly",
@@ -4946,7 +5451,9 @@ miniature_holly = Flower.create!(name: "Miniature Holly",
                                          as far as Peru and Brazil. ",
                                  climate: "Tropical",
                                  image_url: "miniature_holly.jpg",
-                                 thumbnail_url: "miniature_holly_thumbnail.jpg"
+                                 thumbnail_url: "miniature_holly_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Singapore_Holly_(Malpighia_coccigera)_2.jpg"
                                 )
 
 maidens_jealousy = Flower.create!(name: "Maiden's Jealousy",
@@ -4964,7 +5471,9 @@ maidens_jealousy = Flower.create!(name: "Maiden's Jealousy",
                                   place: "Native from Southeast Asia to New Caledonia",
                                   climate: "Tropical and subtropical",
                                   image_url: "maidens_jealousy.jpg",
-                                  thumbnail_url: "maidens_jealousy_thumbnail.jpg"
+                                  thumbnail_url: "maidens_jealousy_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Maiden%27s_jealousy_(Tristellateia_australasiae).jpg"
                                  )
 
 red_silk_cotton_tree = Flower.create!(name: "Red Silk Cotton Tree",
@@ -4982,7 +5491,9 @@ red_silk_cotton_tree = Flower.create!(name: "Red Silk Cotton Tree",
                                       place: "Native to tropical Asia",
                                       climate: "Tropical",
                                       image_url: "red_silk_cotton_tree.jpg",
-                                      thumbnail_url: "red_silk_cotton_tree_thumbnail.jpg"
+                                      thumbnail_url: "red_silk_cotton_tree_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Starr_080305-3330_Bombax_ceiba.jpg"
                                      )
 
 white_silk_cotton_tree = Flower.create!(name: "White Silk Cotton Tree",
@@ -5002,7 +5513,9 @@ white_silk_cotton_tree = Flower.create!(name: "White Silk Cotton Tree",
                                                 America and to tropical west Africa, cultivated in south-east Asia",
                                         climate: "Tropical",
                                         image_url: "white_silk_cotton_tree.jpg",
-                                        thumbnail_url: "white_silk_cotton_tree_thumbnail.jpg"
+                                        thumbnail_url: "white_silk_cotton_tree_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Ceiba_pentandra_MS_4330.jpg"
                                        )
 
 tree_cotton = Flower.create!(name: "Tree Cotton",
@@ -5022,7 +5535,9 @@ tree_cotton = Flower.create!(name: "Tree Cotton",
                              place: "Native to India, Pakistan and other tropical and subtropical regions of the world",
                              climate: "Tropical and subtropical",
                              image_url: "tree_cotton.jpg",
-                             thumbnail_url: "tree_cotton_thumbnail.jpg"
+                             thumbnail_url: "tree_cotton_thumbnail.jpg",
+                                  source: "ThaiHerbal.org | Herbal Resources",
+                                  url: "http://thaiherbal.org/2126/2126"
                             )
 
 cotton = Flower.create!(name: "Cotton",
@@ -5041,7 +5556,9 @@ cotton = Flower.create!(name: "Cotton",
                         place: "Native to the tropical and subtropical regions of the world",
                         climate: "Tropical and subtropical",
                         image_url: "cotton.jpg",
-                        thumbnail_url: "cotton_thumbnail.jpg"
+                        thumbnail_url: "cotton_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Cotton_flower.jpg"
                        )
 
 japanese_hibiscus = Flower.create!(name: "Japanese Hibiscus",
@@ -5058,7 +5575,9 @@ japanese_hibiscus = Flower.create!(name: "Japanese Hibiscus",
                                    place: "Native to tropical eastern Africa in Kenya, Tanzania and Mozambique",
                                    climate: "Tropical",
                                    image_url: "japanese_hibiscus.jpg",
-                                   thumbnail_url: "japanese_hibiscus_thumbnail.jpg"
+                                   thumbnail_url: "japanese_hibiscus_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_schizopetalus_at_the_Iguazu_Falls_(Argentina).jpg"
                                   )
 
 portia_tree = Flower.create!(name: "Portia Tree",
@@ -5076,7 +5595,9 @@ portia_tree = Flower.create!(name: "Portia Tree",
                              place: "Has a pantropical distribution",
                              climate: "Tropical and subtropical",
                              image_url: "portia_tree.jpg",
-                             thumbnail_url: "portia_tree_thumbnail.jpg"
+                             thumbnail_url: "portia_tree_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:(Thespesia_populnea)_at_Tenneti_park_01.JPG"
                             )
 
 unicorn_plant = Flower.create!(name: "Unicorn Plant",
@@ -5096,7 +5617,9 @@ unicorn_plant = Flower.create!(name: "Unicorn Plant",
                                place: "Endemic to Mexico",
                                climate: "Tropical",
                                image_url: "unicorn_plant.jpg",
-                               thumbnail_url: "unicorn_plant_thumbnail.jpg"
+                               thumbnail_url: "unicorn_plant_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Martynia_annua_05.JPG"
                               )
 
 ironwood = Flower.create!(name: "Ironwood",
@@ -5116,11 +5639,13 @@ ironwood = Flower.create!(name: "Ironwood",
                                   in Sri Lanka",
                           climate: "Mostly tropical",
                           image_url: "ironwood.jpg",
-                          thumbnail_url: "ironwood_thumbnail.jpg"
+                          thumbnail_url: "ironwood_thumbnail.jpg",
+                                  source: "Dinesh Valke",
+                                  url: "https://www.flickr.com/photos/dinesh_valke/3094880129/"
                          )
 
 chinese_rice_flower = Flower.create!(name: "Chinese Rice Flower",
-                                     other_names: "",
+                                     other_names: "Chinese Perfume Plant",
                                      bot_name: "Aglaia odorata",
                                      family: "Meliaceae",
                                      significance: "Mental Suggestions of Organisation",
@@ -5135,7 +5660,9 @@ chinese_rice_flower = Flower.create!(name: "Chinese Rice Flower",
                                              Vietnam, and possibly Laos",
                                      climate: "Tropical and subtropical",
                                      image_url: "chinese_rice_flower.jpg",
-                                     thumbnail_url: "chinese_rice_flower_thumbnail.jpg"
+                                     thumbnail_url: "chinese_rice_flower_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Starr_070830-8182_Aglaia_odorata.jpg"
                                     )
 
 neem = Flower.create!(name: "Neem",
@@ -5152,7 +5679,9 @@ neem = Flower.create!(name: "Neem",
                       place: "Native to India and the Indian subcontinent",
                       climate: "Tropical and subtropical",
                       image_url: "neem.jpg",
-                      thumbnail_url: "neem_thumbnail.jpg"
+                      thumbnail_url: "neem_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Starr_060928-0472_Azadirachta_indica.jpg"
                      )
 
 chinaberry = Flower.create!(name: "Chinaberry",
@@ -5171,12 +5700,14 @@ chinaberry = Flower.create!(name: "Chinaberry",
                             place: "Native to Indomalaya and Australasia",
                             climate: "Tropical and subtropical",
                             image_url: "chinaberry.jpg",
-                            thumbnail_url: "chinaberry_thumbnail.jpg"
+                            thumbnail_url: "chinaberry_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Melia_azedarach_%E8%8B%A6%E6%A5%9D_002.jpg"
                            )
 
 horse_radish_tree = Flower.create!(name: "Horse Radish Tree",
                                    other_names: "Ben, Oil of Ben Tree, Drum-stick Tree",
-                                   bot_name: "Moringa oleifera.",
+                                   bot_name: "Moringa oleifera",
                                    family: "Moringaceae",
                                    significance: "Hygienic Organisation",
                                    comment: "Cleanliness, order, utility.",
@@ -5192,7 +5723,9 @@ horse_radish_tree = Flower.create!(name: "Horse Radish Tree",
                                            and widely cultivated in tropical and subtropical areas",
                                    climate: "Tropical and subtropical",
                                    image_url: "horse_radish_tree.jpg",
-                                   thumbnail_url: "horse_radish_tree_thumbnail.jpg"
+                                   thumbnail_url: "horse_radish_tree_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Flowers_of_Moringa_oleifera.jpg"
                                   )
 
 false_bird_of_paradise = Flower.create!(name: "False Bird of Paradise",
@@ -5213,7 +5746,9 @@ false_bird_of_paradise = Flower.create!(name: "False Bird of Paradise",
                                                 islands of the western Pacific and Maluku",
                                         climate: "Tropical",
                                         image_url: "false_bird_of_paradise.jpg",
-                                        thumbnail_url: "false_bird_of_paradise_thumbnail.jpg"
+                                        thumbnail_url: "false_bird_of_paradise_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Heliconia_psittacorum_%C3%97_Heliconia_spathocircinata.jpg"
                                        )
 
 bird_of_paradise = Flower.create!(name: "Bird of Paradise",
@@ -5234,7 +5769,9 @@ bird_of_paradise = Flower.create!(name: "Bird of Paradise",
                                           Madeira Islands and Juan Fernández Islands off the coast of Chile",
                                   climate: "Tropical and subtropical",
                                   image_url: "bird_of_paradise.jpg",
-                                  thumbnail_url: "bird_of_paradise_thumbnail.jpg"
+                                  thumbnail_url: "bird_of_paradise_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Strelitzia_reginae,_Gold_Coast,_Queensland,_Australia.jpg"
                                  )
 
 bottlebrush = Flower.create!(name: "Bottlebrush",
@@ -5254,7 +5791,9 @@ bottlebrush = Flower.create!(name: "Bottlebrush",
                                      other regions",
                              climate: "Subtropical to temperate",
                              image_url: "bottlebrush.jpg",
-                             thumbnail_url: "bottlebrush_thumbnail.jpg"
+                             thumbnail_url: "bottlebrush_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Callistemon_citrinus_JPG1F.jpg"
                             )
 
 eucalyptus = Flower.create!(name: "Eucalyptus",
@@ -5272,7 +5811,9 @@ eucalyptus = Flower.create!(name: "Eucalyptus",
                             place: "Native to Australia, also cultivated in other tropical and temperate regions",
                             climate: "Tropical to temperate",
                             image_url: "eucalyptus.jpg",
-                            thumbnail_url: "eucalyptus_thumbnail.jpg"
+                            thumbnail_url: "eucalyptus_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Eucalyptus_tereticornis_flowers,_capsules,_buds_and_foliage.jpeg"
                            )
 
 rose_apple = Flower.create!(name: "Rose Apple",
@@ -5290,7 +5831,9 @@ rose_apple = Flower.create!(name: "Rose Apple",
                             place: "Native to Southeast Asia, occurs widely elsewhere",
                             climate: "Tropical and subtropical",
                             image_url: "rose_apple.jpg",
-                            thumbnail_url: "rose_apple_thumbnail.jpg"
+                            thumbnail_url: "rose_apple_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Starr_080326-3712_Syzygium_jambos.jpg"
                            )
 
 myrtle = Flower.create!(name: "Myrtle",
@@ -5309,7 +5852,9 @@ myrtle = Flower.create!(name: "Myrtle",
                         place: "Native to the Mediterranean region in southern Europe",
                         climate: "Mediterranean",
                         image_url: "myrtle.jpg",
-                        thumbnail_url: "myrtle_thumbnail.jpg"
+                        thumbnail_url: "myrtle_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Myrtus_communis_Flower_Closeup_DehesaBoyalPuertollano.jpg"
                        )
 
 common_guava = Flower.create!(name: "Common Guava",
@@ -5327,7 +5872,9 @@ common_guava = Flower.create!(name: "Common Guava",
                               place: "Native to the Caribbean, Central America and South America",
                               climate: "Tropical",
                               image_url: "common_guava.jpg",
-                              thumbnail_url: "common_guava_thumbnail.jpg"
+                              thumbnail_url: "common_guava_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Flower_of_guava.JPG"
                              )
 
 indian_red_water_lily = Flower.create!(name: "Indian Red Water Lily",
@@ -5350,7 +5897,9 @@ indian_red_water_lily = Flower.create!(name: "Indian Red Water Lily",
                                                Australia and Papua New Guinea",
                                        climate: "Found across temperate, subtropical and tropical regions",
                                        image_url: "indian_red_water_lily.jpg",
-                                       thumbnail_url: "indian_red_water_lily_thumbnail.jpg"
+                                       thumbnail_url: "indian_red_water_lily_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:2007_nymphaea_rubra.jpg"
                                       )
 
 birds_eye_bush = Flower.create!(name: "Bird's Eye Bush",
@@ -5370,7 +5919,9 @@ birds_eye_bush = Flower.create!(name: "Bird's Eye Bush",
                                         Asia",
                                 climate: "Tropical",
                                 image_url: "birds_eye_bush.jpg",
-                                thumbnail_url: "birds_eye_bush_thumbnail.jpg"
+                                thumbnail_url: "birds_eye_bush_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Ochna_kirkii3.jpg"
                                )
 
 italian_yellow_jasmine = Flower.create!(name: "Italian Yellow Jasmine",
@@ -5389,7 +5940,9 @@ italian_yellow_jasmine = Flower.create!(name: "Italian Yellow Jasmine",
                                                 Himalayas and south west China",
                                         climate: "Mostly subtropical",
                                         image_url: "italian_yellow_jasmine.jpg",
-                                        thumbnail_url: "italian_yellow_jasmine_thumbnail.jpg"
+                                        thumbnail_url: "italian_yellow_jasmine_thumbnail.jpg",
+                                        source: "Wikimedia Commons",
+                                        url: "https://commons.wikimedia.org/wiki/File:Jasminum_humile1.jpg"
                                        )
 
 lilac = Flower.create!(name: "Lilac",
@@ -5409,7 +5962,9 @@ lilac = Flower.create!(name: "Lilac",
                                commonly cultivated in temperate areas elsewhere",
                        climate: "Mostly temperate",
                        image_url: "lilac.jpg",
-                       thumbnail_url: "lilac_thumbnail.jpg"
+                       thumbnail_url: "lilac_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Stockholm-lilac.jpg"
                       )
 
 farewell_to_spring = Flower.create!(name: "Farewell to Spring",
@@ -5428,7 +5983,9 @@ farewell_to_spring = Flower.create!(name: "Farewell to Spring",
                                     place: "Endemic to California",
                                     climate: "Temperate",
                                     image_url: "farewell_to_spring.jpg",
-                                    thumbnail_url: "farewell_to_spring_thumbnail.jpg"
+                                    thumbnail_url: "farewell_to_spring_thumbnail.jpg",
+                                  source: "Yasuo Kida",
+                                  url: "https://www.flickr.com/photos/67381643@N00/161780684/"
                                    )
 
 ladys_eardrops = Flower.create!(name: "Lady's Eardrops",
@@ -5450,7 +6007,9 @@ ladys_eardrops = Flower.create!(name: "Lady's Eardrops",
                                         America to Mexico, and also several from New Zealand to Tahiti",
                                 climate: "Tropical to warm temperate",
                                 image_url: "ladys_eardrops.jpg",
-                                thumbnail_url: "ladys_eardrops_thumbnail.jpg"
+                                thumbnail_url: "ladys_eardrops_thumbnail.jpg",
+                                  source: "Jon Sullivan",
+                                  url: "http://www.public-domain-image.com/plants/flowers/slides/fuchsia-flowers-purple.html"
                                )
 
 scarlet_orchid = Flower.create!(name: "Scarlet Orchid",
@@ -5468,7 +6027,9 @@ scarlet_orchid = Flower.create!(name: "Scarlet Orchid",
                                 place: "Found in the United States",
                                 climate: "Subtropical to temperate",
                                 image_url: "scarlet_orchid.jpg",
-                                thumbnail_url: "scarlet_orchid_thumbnail.jpg"
+                                thumbnail_url: "scarlet_orchid_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Starr_070616-7310_Epidendrum_x_obrienianum.jpg"
                                )
 
 blue_orchid = Flower.create!(name: "Blue Orchid",
@@ -5487,7 +6048,9 @@ blue_orchid = Flower.create!(name: "Blue Orchid",
                                      to China (southern Yunnan)",
                              climate: "Subtropical",
                              image_url: "blue_orchid.jpg",
-                             thumbnail_url: "blue_orchid_thumbnail.jpg"
+                             thumbnail_url: "blue_orchid_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Group_purple_flowers.JPG"
                             )
 
 starfruit = Flower.create!(name: "Starfruit",
@@ -5505,7 +6068,9 @@ starfruit = Flower.create!(name: "Starfruit",
                            place: "Native to Southeast Asia and the Indian Subcontinent",
                            climate: "Tropical and subtropical",
                            image_url: "starfruit.jpg",
-                           thumbnail_url: "starfruit_thumbnail.jpg"
+                           thumbnail_url: "starfruit_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Averrhoa_carambola_(3).jpg"
                           )
 
 sorrel = Flower.create!(name: "Sorrel",
@@ -5525,7 +6090,9 @@ sorrel = Flower.create!(name: "Sorrel",
                                 particularly rich in tropical Brazil, Mexico and South Africa.",
                         climate: "Found across temperate, subtropical and tropical regions",
                         image_url: "sorrel.jpg",
-                        thumbnail_url: "sorrel_thumbnail.jpg"
+                        thumbnail_url: "sorrel_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Oxalis_bifida_(3).jpg"
                        )
 
 peony = Flower.create!(name: "Peony",
@@ -5544,7 +6111,9 @@ peony = Flower.create!(name: "Peony",
                        place: "Native to Asia, Southern Europe and Western North America",
                        climate: "Found across temperate, subtropical and tropical regions",
                        image_url: "peony.jpg",
-                       thumbnail_url: "peony_thumbnail.jpg"
+                       thumbnail_url: "peony_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Paeonia_suffruticosa_cv3.jpg"
                       )
 
 betel_palm = Flower.create!(name: "Betel Palm",
@@ -5562,7 +6131,9 @@ betel_palm = Flower.create!(name: "Betel Palm",
                             place: "Grows in much of the tropical Pacific, Asia, and parts of east Africa",
                             climate: "Tropical",
                             image_url: "betel_palm.jpg",
-                            thumbnail_url: "betel_palm_thumbnail.jpg"
+                            thumbnail_url: "betel_palm_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Arecanut_tree_flowers.jpg"
                            )
 
 coconut = Flower.create!(name: "Coconut",
@@ -5582,7 +6153,9 @@ coconut = Flower.create!(name: "Coconut",
                          place: "Found throughout the tropics and subtropics",
                          climate: "Tropical and subtropical",
                          image_url: "coconut.jpg",
-                         thumbnail_url: "coconut_thumbnail.jpg"
+                         thumbnail_url: "coconut_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:%E0%B4%A4%E0%B5%86%E0%B4%99%E0%B5%8D%E0%B4%99%E0%B4%BF%E0%B5%BB_%E0%B4%AA%E0%B5%82%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%81%E0%B4%B2.jpg"
                         )
 
 pandanus_palm = Flower.create!(name: "Pandanus Palm",
@@ -5601,7 +6174,9 @@ pandanus_palm = Flower.create!(name: "Pandanus Palm",
                                place: "Native to Malesia, eastern Australia, and the Pacific Islands",
                                climate: "Mostly tropical",
                                image_url: "pandanus_palm.jpg",
-                               thumbnail_url: "pandanus_palm_thumbnail.jpg"
+                               thumbnail_url: "pandanus_palm_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Pandanus_tectorius_(5187733419).jpg"
                               )
 
 bleeding_heart = Flower.create!(name: "Bleeding Heart",
@@ -5621,7 +6196,9 @@ bleeding_heart = Flower.create!(name: "Bleeding Heart",
                                 place: "Native to Siberia, northern China, Korea and Japan",
                                 climate: "Temperate",
                                 image_url: "bleeding_heart.jpg",
-                                thumbnail_url: "bleeding_heart_thumbnail.jpg"
+                                thumbnail_url: "bleeding_heart_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:2006-04-26Dicentra_spectabilis02.jpg"
                                )
 
 corn_poppy = Flower.create!(name: "Corn Poppy",
@@ -5640,7 +6217,9 @@ corn_poppy = Flower.create!(name: "Corn Poppy",
                             place: "Native range includes West Asia, North Africa and Europe",
                             climate: "Subtropical to temperate",
                             image_url: "corn_poppy.jpg",
-                            thumbnail_url: "corn_poppy_thumbnail.jpg"
+                            thumbnail_url: "corn_poppy_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Papaver_rhoeas_in_Rome.JPG"
                            )
 
 running_pop = Flower.create!(name: "Running Pop",
@@ -5662,7 +6241,9 @@ running_pop = Flower.create!(name: "Running Pop",
                                      to tropical regions around the world, such as Southeast Asia and Hawaii",
                              climate: "Tropical",
                              image_url: "running_pop.jpg",
-                             thumbnail_url: "running_pop_thumbnail.jpg"
+                             thumbnail_url: "running_pop_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Mooloolah-wild-passion-fruit-1020.jpg"
                             )
 
 passion_flower = Flower.create!(name: "Passion Flower",
@@ -5682,7 +6263,9 @@ passion_flower = Flower.create!(name: "Passion Flower",
                                 place: "Found in tropical and subtropical regions of America and other places",
                                 climate: "Tropical and subtropical",
                                 image_url: "passion_flower.jpg",
-                                thumbnail_url: "passion_flower_thumbnail.jpg"
+                                thumbnail_url: "passion_flower_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Flickr_-_ggallice_-_Passiflora_incarnata_(1).jpg"
                                )
 
 perfumed_passion_flower = Flower.create!(name: "Perfumed Passion Flower",
@@ -5705,7 +6288,9 @@ perfumed_passion_flower = Flower.create!(name: "Perfumed Passion Flower",
                                                  and northwestern South America (Venezuela, Colombia, Ecuador, Peru)",
                                          climate: "Tropical",
                                          image_url: "perfumed_passion_flower.jpg",
-                                         thumbnail_url: "perfumed_passion_flower_thumbnail.jpg"
+                                         thumbnail_url: "perfumed_passion_flower_thumbnail.jpg",
+                                          source: "Wikimedia Commons",
+                                          url: "https://commons.wikimedia.org/wiki/File:Passiflora_vitifolia_flower.jpg"
                                         )
 
 sesame = Flower.create!(name: "Sesame",
@@ -5723,7 +6308,9 @@ sesame = Flower.create!(name: "Sesame",
                         place: "Native to India, widely naturalized in tropical regions around the world",
                         climate: "Mostly tropical",
                         image_url: "sesame.jpg",
-                        thumbnail_url: "sesame_thumbnail.jpg"
+                        thumbnail_url: "sesame_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Sesame_flower,_Mozambique.jpg"
                        )
 
 indian_leadwort = Flower.create!(name: "Indian Leadwort",
@@ -5741,7 +6328,9 @@ indian_leadwort = Flower.create!(name: "Indian Leadwort",
                                  place: "Native to south east Asia",
                                  climate: "Tropical and subtropical",
                                  image_url: "indian_leadwort.jpg",
-                                 thumbnail_url: "indian_leadwort.jpg"
+                                 thumbnail_url: "indian_leadwort.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Plumbago_indica,_fresh_blossoms.jpg"
                                 )
 
 ceylon_leadwort = Flower.create!(name: "Ceylon Leadwort",
@@ -5761,7 +6350,9 @@ ceylon_leadwort = Flower.create!(name: "Ceylon Leadwort",
                                          Southeast Asia, Oceania)",
                                  climate: "Tropical and subtropical",
                                  image_url: "ceylon_leadwort.jpg",
-                                 thumbnail_url: "ceylon_leadwort_thumbnail.jpg"
+                                 thumbnail_url: "ceylon_leadwort_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Plumbago_zeylanica_(5188407648).jpg"
                                 )
 
 knotweed = Flower.create!(name: "Knotweed",
@@ -5779,7 +6370,9 @@ knotweed = Flower.create!(name: "Knotweed",
                           place: "Primarily grows in northern temperate regions",
                           climate: "Temperate",
                           image_url: "knotweed.jpg",
-                          thumbnail_url: "knotweed_thumbnail.jpg"
+                          thumbnail_url: "knotweed_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Polygonum-bistorta_287a.jpg"
                          )
 
 rock_purslane = Flower.create!(name: "Rock Purslane",
@@ -5798,7 +6391,9 @@ rock_purslane = Flower.create!(name: "Rock Purslane",
                                        mediterranean climates.",
                                climate: "Subtropical, mediterranean",
                                image_url: "rock_purslane.jpg",
-                               thumbnail_url: "rock_purslane_thumbnail.jpg"
+                               thumbnail_url: "rock_purslane_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Calandriniagrandiflora.JPG"
                               )
 
 rose_moss = Flower.create!(name: "Rose Moss",
@@ -5816,7 +6411,9 @@ rose_moss = Flower.create!(name: "Rose Moss",
                            place: "Widely grown in tropical and temperate regions",
                            climate: "Tropical to warm temperate",
                            image_url: "rose_moss.jpg",
-                           thumbnail_url: "rose_moss_thumbnail.jpg"
+                           thumbnail_url: "rose_moss_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Portulaca_grandiflora,_Burdwan,_30032014_(11).jpg"
                           )
 
 jewels_of_opar = Flower.create!(name: "Jewels of Opar",
@@ -5835,7 +6432,9 @@ jewels_of_opar = Flower.create!(name: "Jewels of Opar",
                                 place: "Native to much of the western hemisphere",
                                 climate: "Found across temperate, subtropical and tropical regions",
                                 image_url: "jewels_of_opar.jpg",
-                                thumbnail_url: "jewels_of_opar_thumbnail.jpg"
+                                thumbnail_url: "jewels_of_opar_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Talinum_paniculatum-3-xavier_cottage-yercaud-salem-India.JPG"
                                )
 
 persian_violet = Flower.create!(name: "Persian Violet",
@@ -5854,7 +6453,9 @@ persian_violet = Flower.create!(name: "Persian Violet",
                                 place: "Native to central Europe, northern Italy, and Slovenia",
                                 climate: "Temperate",
                                 image_url: "persian_violet.jpg",
-                                thumbnail_url: "persian_violet_thumbnail.jpg"
+                                thumbnail_url: "persian_violet_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Cyclamen_purpurascens_Orchi_01.jpg"
                                )
 
 primrose = Flower.create!(name: "Primrose",
@@ -5874,7 +6475,9 @@ primrose = Flower.create!(name: "Primrose",
                                   half of the known species are from the Himalayas",
                           climate: "Tropical (mountainous) and temperate",
                           image_url: "primrose.jpg",
-                          thumbnail_url: "primrose_thumbnail.jpg"
+                          thumbnail_url: "primrose_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Primeln_bunte_Farbenpracht.JPG"
                          )
 
 windflower = Flower.create!(name: "Windflower",
@@ -5893,7 +6496,9 @@ windflower = Flower.create!(name: "Windflower",
                             place: "Native to the Mediterranean region",
                             climate: "Mediterranean",
                             image_url: "windflower.jpg",
-                            thumbnail_url: "windflower_thumbnail.jpg"
+                            thumbnail_url: "windflower_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Anemone-coronaria0001.jpg"
                            )
 
 leather_flower = Flower.create!(name: "Leather Flower",
@@ -5911,7 +6516,9 @@ leather_flower = Flower.create!(name: "Leather Flower",
                                 place: "Native to China and Japan",
                                 climate: "Subtropical to temperate",
                                 image_url: "leather_flower.jpg",
-                                thumbnail_url: "leather_flower_thumbnail.jpg"
+                                thumbnail_url: "leather_flower_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Clematis_virginiana_(1).jpg"
                                )
 
 larkspur = Flower.create!(name: "Larkspur",
@@ -5931,7 +6538,9 @@ larkspur = Flower.create!(name: "Larkspur",
                                   Africa",
                           climate: "Tropical and warm temperate",
                           image_url: "larkspur.jpg",
-                          thumbnail_url: "larkspur_thumbnail.jpg"
+                          thumbnail_url: "larkspur_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Delphinium_cv2.jpg"
                          )
 
 mignonette = Flower.create!(name: "Mignonette",
@@ -5949,7 +6558,9 @@ mignonette = Flower.create!(name: "Mignonette",
                             place: "Probably native to the Mediterranean Basin, also found growing elsewhere",
                             climate: "Mediterranean",
                             image_url: "mignonette.jpg",
-                            thumbnail_url: "mignonette_thumbnail.jpg"
+                            thumbnail_url: "mignonette_thumbnail.jpg",
+                                  source: "Impecta fröhandel - By Growers, For Growers",
+                                  url: "http://www.impecta.se/sv/artiklar/luktreseda.html"
                            )
 
 hawthorn = Flower.create!(name: "Hawthorn",
@@ -5968,7 +6579,9 @@ hawthorn = Flower.create!(name: "Hawthorn",
                                   America",
                           climate: "Temperate",
                           image_url: "hawthorn.jpg",
-                          thumbnail_url: "hawthorn_thumbnail.jpg"
+                          thumbnail_url: "hawthorn_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Crataegus-oxyacantha-flowers.JPG"
                          )
 
 almond_tree = Flower.create!(name: "Almond Tree",
@@ -5987,7 +6600,9 @@ almond_tree = Flower.create!(name: "Almond Tree",
                              place: "Native to the Middle East and South Asia",
                              climate: "Tropical and subtropical",
                              image_url: "almond_tree.jpg",
-                             thumbnail_url: "almond_tree_thumbnail.jpg"
+                             thumbnail_url: "almond_tree_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:20140316Mandelbluete_Bruehl11.jpg"
                             )
 
 oriental_cherry = Flower.create!(name: "Oriental Cherry",
@@ -6005,7 +6620,9 @@ oriental_cherry = Flower.create!(name: "Oriental Cherry",
                                  place: "Native to Japan, Korea and China",
                                  climate: "Subtropical to temperate",
                                  image_url: "oriental_cherry.jpg",
-                                 thumbnail_url: "oriental_cherry_thumbnail.jpg"
+                                 thumbnail_url: "oriental_cherry_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Higan-Kirsche_(Prunus_subhirtella).jpg"
                                 )
 
 dog_rose = Flower.create!(name: "Dog Rose",
@@ -6023,7 +6640,9 @@ dog_rose = Flower.create!(name: "Dog Rose",
                           place: "Native to Europe, northwest Africa and western Asia",
                           climate: "Subtropical to temperate",
                           image_url: "dog_rose.jpg",
-                          thumbnail_url: "dog_rose_thumbnail.jpg"
+                          thumbnail_url: "dog_rose_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Rosa_canina_1.jpg"
                          )
 
 polyantha_rose = Flower.create!(name: "Polyantha Rose",
@@ -6040,12 +6659,14 @@ polyantha_rose = Flower.create!(name: "Polyantha Rose",
                                 place: "Grown in subtropical regions",
                                 climate: "Subtropical",
                                 image_url: "polyantha_rose.jpg",
-                                thumbnail_url: "polyantha_rose_thumbnail.jpg"
+                                thumbnail_url: "polyantha_rose_thumbnail.jpg",
+                                  source: "Patrick Nouhailler",
+                                  url: "https://www.flickr.com/photos/patrick_nouhailler/14487872683"
                                )
 
 kadam_tree = Flower.create!(name: "Kadam Tree",
                             other_names: "",
-                            bot_name: "Anthocephalus cadamba",
+                            bot_name: "Anthocephalus cadamba [Neolamarckia cadamba]",
                             family: "Rubiaceae",
                             significance: "Supramental Sun",
                             comment: "We aspire that its rays may illumine and transform us.",
@@ -6058,7 +6679,9 @@ kadam_tree = Flower.create!(name: "Kadam Tree",
                             place: "Native to South and Southeast Asia",
                             climate: "Tropical and subtropical",
                             image_url: "kadam_tree.jpg",
-                            thumbnail_url: "kadam_tree_thumbnail.jpg"
+                            thumbnail_url: "kadam_tree_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Kadam_Flower1.jpg"
                            )
 
 lily_thorn = Flower.create!(name: "Lily Thorn",
@@ -6076,7 +6699,9 @@ lily_thorn = Flower.create!(name: "Lily Thorn",
                             place: "Native to Cuba and the Bahamas",
                             climate: "Tropical",
                             image_url: "lily_thorn.jpg",
-                            thumbnail_url: "lily_thorn_thumbnail.jpg"
+                            thumbnail_url: "lily_thorn_thumbnail.jpg",
+                                  source: "Fairchild Tropical Botanic Garden",
+                                  url: "http://www.fairchildgarden.org/horticulture/2014-members-day-plant-sale"
                            )
 
 beach_gardenia = Flower.create!(name: "Beach Gardenia",
@@ -6096,7 +6721,9 @@ beach_gardenia = Flower.create!(name: "Beach Gardenia",
                                         Ocean",
                                 climate: "Tropical",
                                 image_url: "beach_gardenia.jpg",
-                                thumbnail_url: "beach_gardenia_thumbnail.jpg"
+                                thumbnail_url: "beach_gardenia_thumbnail.jpg",
+                                  source: "Teo Siyang, The Total Vascular Flora of Singapore Online",
+                                  url: "https://floraofsingapore.wordpress.com/2010/04/26/guettarda-speciosa/"
                                )
 
 scarlet_bush = Flower.create!(name: "Scarlet Bush",
@@ -6113,7 +6740,9 @@ scarlet_bush = Flower.create!(name: "Scarlet Bush",
                               place: "Native to the American subtropics and tropics",
                               climate: "Tropical and subtropical",
                               image_url: "scarlet_bush.jpg",
-                              thumbnail_url: "scarlet_bush_thumbnail.jpg"
+                              thumbnail_url: "scarlet_bush_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Hamelia_patens_2.jpg"
                              )
 
 torch_tree = Flower.create!(name: "Torch Tree",
@@ -6131,11 +6760,13 @@ torch_tree = Flower.create!(name: "Torch Tree",
                             place: "Found in South Asia",
                             climate: "Tropical and subtropical",
                             image_url: "torch_tree.jpg",
-                            thumbnail_url: "torch_tree_thumbnail.jpg"
+                            thumbnail_url: "torch_tree_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Ixora_pavetta_W_IMG_7065.jpg"
                            )
 
 white_ixora = Flower.create!(name: "White Ixora",
-                             other_names: "",
+                             other_names: "White Jungleflame",
                              bot_name: "Ixora thwaitesii",
                              family: "Rubiaceae",
                              significance: "Peace in the Cells",
@@ -6149,7 +6780,9 @@ white_ixora = Flower.create!(name: "White Ixora",
                              place: "Found in tropical regions",
                              climate: "Tropical",
                              image_url: "white_ixora.jpg",
-                             thumbnail_url: "white_ixora_thumbnail.jpg"
+                             thumbnail_url: "white_ixora_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Ixora-White_flower_in_India.JPG"
                             )
 
 indian_mulberry = Flower.create!(name: "Indian Mulberry",
@@ -6168,7 +6801,9 @@ indian_mulberry = Flower.create!(name: "Indian Mulberry",
                                          throughout the tropics and widely naturalised",
                                  climate: "Tropical and subtropical",
                                  image_url: "indian_mulberry.jpg",
-                                 thumbnail_url: "indian_mulberry_thumbnail.jpg"
+                                 thumbnail_url: "indian_mulberry_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Starr_060422-7896_Morinda_citrifolia.jpg"
                                 )
 
 egyptian_star_cluster = Flower.create!(name: "Egyptian Star Cluster",
@@ -6189,7 +6824,9 @@ egyptian_star_cluster = Flower.create!(name: "Egyptian Star Cluster",
                                        place: "Native to the African and Asian tropics and subtropics",
                                        climate: "Tropical and subtropical",
                                        image_url: "egyptian_star_cluster.jpg",
-                                       thumbnail_url: "egyptian_star_cluster_thumbnail.jpg"
+                                       thumbnail_url: "egyptian_star_cluster_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Dwarf_Yellow_Mussaenda_(Mussaenda_luteola)_1.jpg"
                                       )
 
 indian_pavetta = Flower.create!(name: "Indian Pavetta",
@@ -6208,12 +6845,14 @@ indian_pavetta = Flower.create!(name: "Indian Pavetta",
                                         and Africa",
                                 climate: "Tropical and subtropical",
                                 image_url: "indian_pavetta.jpg",
-                                thumbnail_url: "indian_pavetta_thumbnail.jpg"
+                                thumbnail_url: "indian_pavetta_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Pavetta_indica_36.JPG"
                                )
 
 indigoberry = Flower.create!(name: "Indigoberry",
                              other_names: "",
-                             bot_name: "Randia speciosa [Rosenbergiodendron longiflorum]",
+                             bot_name: "Randia speciosa",
                              family: "Rubiaceae",
                              significance: "Order",
                              comment: "To put a thing in its place gives its true value.\n An apparently insignificant
@@ -6228,7 +6867,9 @@ indigoberry = Flower.create!(name: "Indigoberry",
                                      Peru, Paraguay",
                              climate: "Tropical and subtropical",
                              image_url: "indigoberry.jpg",
-                             thumbnail_url: "indigoberry_thumbnail.jpg"
+                             thumbnail_url: "indigoberry_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Randia_aculeata_(1).jpg"
                             )
 
 rondeletia = Flower.create!(name: "Rondeletia",
@@ -6246,7 +6887,9 @@ rondeletia = Flower.create!(name: "Rondeletia",
                             place: "Native to Cuba and Panama, also cultivated elsewhere",
                             climate: "Tropical",
                             image_url: "rondeletia.jpg",
-                            thumbnail_url: "rondeletia_thumbnail.jpg"
+                            thumbnail_url: "rondeletia_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Rondeletia_odorata.jpg"
                            )
 
 asiatic_tarenna = Flower.create!(name: "Asiatic Tarenna",
@@ -6264,7 +6907,9 @@ asiatic_tarenna = Flower.create!(name: "Asiatic Tarenna",
                                  place: "Native to peninsular India, Sri Lanka and Malayasia",
                                  climate: "Tropical",
                                  image_url: "asiatic_tarenna.jpg",
-                                 thumbnail_url: "asiatic_tarenna_thumbnail.jpg"
+                                 thumbnail_url: "asiatic_tarenna_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Tarenna_asiatica_(L.)Kuntze_ex_Schum_-_Flickr_-_lalithamba.jpg"
                                 )
 
 coffee = Flower.create!(name: "Coffee",
@@ -6282,7 +6927,9 @@ coffee = Flower.create!(name: "Coffee",
                         place: "Native to tropical and southern Africa and tropical Asia",
                         climate: "Tropical",
                         image_url: "coffee.jpg",
-                        thumbnail_url: "coffee_thumbnail.jpg"
+                        thumbnail_url: "coffee_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Coffea_arabica_flowers.JPG"
                        )
 
 ixora = Flower.create!(name: "Ixora",
@@ -6302,7 +6949,9 @@ ixora = Flower.create!(name: "Ixora",
                                diversity is in Tropical Asia",
                        climate: "Tropical and subtropical",
                        image_url: "ixora.jpg",
-                       thumbnail_url: "ixora_thumbnail.jpg"
+                       thumbnail_url: "ixora_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:2010_07_21000_6725_Da%27an_District,_Taipei,_Daan_Park,_Taiwan,_Plants.JPG"
                       )
 
 javanese_ixora = Flower.create!(name: "Javanese Ixora",
@@ -6321,7 +6970,9 @@ javanese_ixora = Flower.create!(name: "Javanese Ixora",
                                         Malaysia, Indonesia.",
                                 climate: "Tropical and subtropical",
                                 image_url: "javanese_ixora.jpg",
-                                thumbnail_url: "javanese_ixora_thumbnail.jpg"
+                                thumbnail_url: "javanese_ixora_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Ixora_javanica.jpg"
                                )
 
 country_gooseberry = Flower.create!(name: "Country Gooseberry",
@@ -6339,7 +6990,9 @@ country_gooseberry = Flower.create!(name: "Country Gooseberry",
                                     place: "Found in India and other tropical regions",
                                     climate: "Mostly tropical",
                                     image_url: "country_gooseberry.jpg",
-                                    thumbnail_url: "country_gooseberry_thumbnail.jpg"
+                                    thumbnail_url: "country_gooseberry_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Atalantia_monophylla_03.JPG"
                                    )
 
 orange_jessamine = Flower.create!(name: "Orange Jessamine",
@@ -6361,7 +7014,9 @@ orange_jessamine = Flower.create!(name: "Orange Jessamine",
                                           Territory, far northern Queensland and northern Western Australia",
                                   climate: "Tropical and subtropical",
                                   image_url: "orange_jessamine.jpg",
-                                  thumbnail_url: "orange_jessamine_thumbnail.jpg"
+                                  thumbnail_url: "orange_jessamine_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Starr_061105-9626_Murraya_paniculata.jpg"
                                  )
 
 bael_tree = Flower.create!(name: "Bael Tree",
@@ -6381,7 +7036,9 @@ bael_tree = Flower.create!(name: "Bael Tree",
                            place: "Native to India, cultivated across southeast Asia",
                            climate: "Tropical",
                            image_url: "bael_tree.jpg",
-                           thumbnail_url: "bael_tree_thumbnail.jpg"
+                           thumbnail_url: "bael_tree_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Aegle_marmelos_flowers_03.JPG"
                           )
 
 lemon = Flower.create!(name: "Lemon",
@@ -6400,7 +7057,9 @@ lemon = Flower.create!(name: "Lemon",
                        place: "Native to Asia (India and Pakistan), cultivated worlwide in warm regions",
                        climate: "Tropical to warm temperate",
                        image_url: "lemon.jpg",
-                       thumbnail_url: "lemon_thumbnail.jpg"
+                       thumbnail_url: "lemon_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:VM_0197_Stratford_-_lemon_tree_flower.jpg"
                       )
 
 shaddock = Flower.create!(name: "Shaddock",
@@ -6417,7 +7076,9 @@ shaddock = Flower.create!(name: "Shaddock",
                           place: "Native to South and Southeast Asia",
                           climate: "Tropical and subtropical",
                           image_url: "shaddock.jpg",
-                          thumbnail_url: "shaddock_thumbnail.jpg"
+                          thumbnail_url: "shaddock_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Citrus_maxima_(Pampelmuse)_004.jpg"
                          )
 
 pussy_willow = Flower.create!(name: "Pussy Willow",
@@ -6437,7 +7098,9 @@ pussy_willow = Flower.create!(name: "Pussy Willow",
                                       the contiguous United States (Idaho east to Maine, and south to Maryland))",
                               climate: "Temperate",
                               image_url: "pussy_willow.jpg",
-                              thumbnail_url: "pussy_willow_thumbnail.jpg"
+                              thumbnail_url: "pussy_willow_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Pussy_willow_branch.jpg"
                              )
 
 hopbush = Flower.create!(name: "Hopbush",
@@ -6448,7 +7111,7 @@ hopbush = Flower.create!(name: "Hopbush",
                          comment: "Matter opens itself to the spiritual life.",
                          description: "Small green papery three-winged seed-capsules tinged with light maroon,
                                        turning brown when ripe; borne in clusters among the leaves. A medium-sized
-                                       shrub or slender tree with ovate- lanceolate leaves.",
+                                       shrub or slender tree with ovate-lanceolate leaves.",
                          colour: "Green, light maroon, brown",
                          petals: "",
                          size: "Small",
@@ -6457,7 +7120,9 @@ hopbush = Flower.create!(name: "Hopbush",
                                  Australasia",
                          climate: "Tropical to warm temperate",
                          image_url: "hopbush.jpg",
-                         thumbnail_url: "hopbush_thumbnail.jpg"
+                         thumbnail_url: "hopbush_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Starr_011121-0005_Dodonaea_viscosa.jpg"
                         )
 
 common_foxglove = Flower.create!(name: "Common Foxglove",
@@ -6478,7 +7143,9 @@ common_foxglove = Flower.create!(name: "Common Foxglove",
                                          Australasia and northwestern Africa",
                                  climate: "Subtropical to temperate",
                                  image_url: "common_foxglove.jpg",
-                                 thumbnail_url: "common_foxglove_thumbnail.jpg"
+                                 thumbnail_url: "common_foxglove_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Digitalis_(Fingerhut)_(1).jpg"
                                 )
 
 toadflax = Flower.create!(name: "Toadflax",
@@ -6499,7 +7166,9 @@ toadflax = Flower.create!(name: "Toadflax",
                                   such as California",
                           climate: "Subtropical",
                           image_url: "toadflax.jpg",
-                          thumbnail_url: "toadflax_thumbnail.jpg"
+                          thumbnail_url: "toadflax_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Linaria_maroccana_cv2.jpg"
                          )
 
 fountain_plant = Flower.create!(name: "Fountain Plant",
@@ -6517,7 +7186,9 @@ fountain_plant = Flower.create!(name: "Fountain Plant",
                                 place: "Native to Mexico",
                                 climate: "Tropical",
                                 image_url: "fountain_plant.jpg",
-                                thumbnail_url: "fountain_plant_thumbnail.jpg"
+                                thumbnail_url: "fountain_plant_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Starr_070320-5731_Russelia_equisetiformis.jpg"
                                )
 
 antiqua_sage = Flower.create!(name: "Antiqua Sage",
@@ -6537,7 +7208,9 @@ antiqua_sage = Flower.create!(name: "Antiqua Sage",
                                       Australia and other tropical regions",
                               climate: "Tropical",
                               image_url: "antiqua_sage.jpg",
-                              thumbnail_url: "antiqua_sage_thumbnail.jpg"
+                              thumbnail_url: "antiqua_sage_thumbnail.jpg",
+                                  source: "scott.zona",
+                                  url: "https://www.flickr.com/photos/scottzona/6482009519/"
                              )
 
 bitter_wood = Flower.create!(name: "Bitter Wood",
@@ -6557,7 +7230,9 @@ bitter_wood = Flower.create!(name: "Bitter Wood",
                                      outside its native range.",
                              climate: "Tropical",
                              image_url: "bitter_wood.jpg",
-                             thumbnail_url: "bitter_wood_thumbnail.jpg"
+                             thumbnail_url: "bitter_wood_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Quassia_amara11.JPG"
                             )
 
 yesterday_today_and_tomorrow = Flower.create!(name: "Yesterday-today-and-tomorrow",
@@ -6577,7 +7252,9 @@ yesterday_today_and_tomorrow = Flower.create!(name: "Yesterday-today-and-tomorro
                                               place: "Native to tropical South America",
                                               climate: "Tropical",
                                               image_url: "yesterday_today_and_tomorrow.jpg",
-                                              thumbnail_url: "yesterday_today_and_tomorrow_thumbnail.jpg"
+                                              thumbnail_url: "yesterday_today_and_tomorrow_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Brunfelsia_australis_-_twin_flower.JPG"
                                              )
 
 capsicum = Flower.create!(name: "Capsicum",
@@ -6595,7 +7272,9 @@ capsicum = Flower.create!(name: "Capsicum",
                           place: "Native to southern North America and northern South America",
                           climate: "Tropical",
                           image_url: "capsicum.jpg",
-                          thumbnail_url: "capsicum_thumbnail.jpg"
+                          thumbnail_url: "capsicum_thumbnail.jpg",
+                                  source: "Impecta fröhandel - By Growers, For Growers",
+                                  url: "http://www.impecta.se/sv/artiklar/sotpeppar.html"
                          )
 
 night_jessamine = Flower.create!(name: "Night Jessamine",
@@ -6612,7 +7291,9 @@ night_jessamine = Flower.create!(name: "Night Jessamine",
                                  place: "Native to West Indies, widely cultivated throughout India",
                                  climate: "Tropical and subtropical",
                                  image_url: "night_jessamine.jpg",
-                                 thumbnail_url: "night_jessamine_thumbnail.jpg"
+                                 thumbnail_url: "night_jessamine_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Cestrum_diurnum_%E2%80%94_Scott_Zona_005.jpg"
                                 )
 
 purple_cestrum = Flower.create!(name: "Purple Cestrum",
@@ -6629,7 +7310,9 @@ purple_cestrum = Flower.create!(name: "Purple Cestrum",
                                 place: "Native to Mexico",
                                 climate: "Tropical",
                                 image_url: "purple_cestrum.jpg",
-                                thumbnail_url: "purple_cestrum_thumbnail.jpg"
+                                thumbnail_url: "purple_cestrum_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Starr_071024-0414_Cestrum_elegans.jpg"
                                )
 
 queen_of_the_night = Flower.create!(name: "Queen of the Night",
@@ -6647,7 +7330,9 @@ queen_of_the_night = Flower.create!(name: "Queen of the Night",
                                     place: "Native to the West Indies, but naturalized in South Asia",
                                     climate: "Tropical and subtropical",
                                     image_url: "queen_of_the_night.jpg",
-                                    thumbnail_url: "queen_of_the_night_thumbnail.jpg"
+                                    thumbnail_url: "queen_of_the_night_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Jazm%C3%ADn_de_Noche.JPG"
                                    )
 
 violet_churur = Flower.create!(name: "Violet Churur",
@@ -6665,7 +7350,9 @@ violet_churur = Flower.create!(name: "Violet Churur",
                                place: "Native to the tropical areas of Central and South America",
                                climate: "Tropical",
                                image_url: "violet_churur.jpg",
-                               thumbnail_url: "violet_churur_thumbnail.jpg"
+                               thumbnail_url: "violet_churur_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Iochroma_cyaneum_%E2%80%94_Franco_Folini_001.jpg"
                               )
 
 jasmine_tobacco = Flower.create!(name: "Jasmine Tobacco",
@@ -6685,7 +7372,9 @@ jasmine_tobacco = Flower.create!(name: "Jasmine Tobacco",
                                  place: "Native to warm-temperate South America",
                                  climate: "Warm temperate",
                                  image_url: "jasmine_tobacco.jpg",
-                                 thumbnail_url: "jasmine_tobacco_thumbnail.jpg"
+                                 thumbnail_url: "jasmine_tobacco_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Nicotiana_alata.jpg"
                                 )
 
 tex_mex_tobacco = Flower.create!(name: "Tex-Mex Tobacco",
@@ -6702,7 +7391,9 @@ tex_mex_tobacco = Flower.create!(name: "Tex-Mex Tobacco",
                                  place: "Found in tropical and subtropical regions",
                                  climate: "Tropical and subtropical",
                                  image_url: "tex_mex_tobacco.jpg",
-                                 thumbnail_url: "tex_mex_tobacco_thumbnail.jpg"
+                                 thumbnail_url: "tex_mex_tobacco_thumbnail.jpg",
+                                  source: "Saroj Kumar Kasaju",
+                                  url: "https://www.flickr.com/photos/65294918@N07/8025728058"
                                 )
 
 cupflower = Flower.create!(name: "Cupflower",
@@ -6720,7 +7411,9 @@ cupflower = Flower.create!(name: "Cupflower",
                            place: "Native to Brazil and Argentina in South America",
                            climate: "Tropical",
                            image_url: "cupflower.jpg",
-                           thumbnail_url: "cupflower_thumbnail.jpg"
+                           thumbnail_url: "cupflower_thumbnail.jpg",
+                                  source: "Petr Kocna, BioLib Biological Library",
+                                  url: "http://www.biolib.cz/en/image/id85289/"
                           )
 
 chinese_lantern = Flower.create!(name: "Chinese Lantern",
@@ -6738,7 +7431,9 @@ chinese_lantern = Flower.create!(name: "Chinese Lantern",
                                  place: "Native from southern Europe east across southern Asia to Japan",
                                  climate: "Subtropical to temperate",
                                  image_url: "chinese_lantern.jpg",
-                                 thumbnail_url: "chinese_lantern_thumbnail.jpg"
+                                 thumbnail_url: "chinese_lantern_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Physalis_alkekengi_4777.jpg"
                                 )
 
 chalice_vine = Flower.create!(name: "Chalice Vine",
@@ -6756,7 +7451,9 @@ chalice_vine = Flower.create!(name: "Chalice Vine",
                               place: "Endemic to Mexico and Central America",
                               climate: "Tropical",
                               image_url: "chalice_vine.jpg",
-                              thumbnail_url: "chalice_vine_thumbnail.jpg"
+                              thumbnail_url: "chalice_vine_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Starr_080219-2908_Solandra_maxima.jpg"
                              )
 
 angels_trumpet = Flower.create!(name: "Angel's Trumpet",
@@ -6776,7 +7473,9 @@ angels_trumpet = Flower.create!(name: "Angel's Trumpet",
                                         South America, and parts of North America",
                                 climate: "Tropical and subtropical",
                                 image_url: "angels_trumpet.jpg",
-                                thumbnail_url: "angels_trumpet_thumbnail.jpg"
+                                thumbnail_url: "angels_trumpet_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Brugmansia_tree;_closeup_of_white_flower.jpg"
                                )
 
 lady_of_the_night = Flower.create!(name: "Lady of the Night",
@@ -6794,7 +7493,9 @@ lady_of_the_night = Flower.create!(name: "Lady of the Night",
                                    place: "Native to the tropical Americas, cultivated in other tropical regions",
                                    climate: "Tropical",
                                    image_url: "lady_of_the_night.jpg",
-                                   thumbnail_url: "lady_of_the_night_thumbnail.jpg"
+                                   thumbnail_url: "lady_of_the_night_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Lady_of_the_Night_(Brunfelsia_americana).jpg"
                                   )
 
 blue_potato_bush = Flower.create!(name: "Blue Potato Bush",
@@ -6814,7 +7515,9 @@ blue_potato_bush = Flower.create!(name: "Blue Potato Bush",
                                           Georgia, New York, Nevada, South Carolina, Texas, Washington, Pennsylvania)",
                                   climate: "Tropical and subtropical",
                                   image_url: "blue_potato_bush.jpg",
-                                  thumbnail_url: "blue_potato_bush_thumbnail.jpg"
+                                  thumbnail_url: "blue_potato_bush_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Lycianthes_rantonnei_by_Danny_S._-_001.jpg"
                                  )
 
 st_vincents_lilac = Flower.create!(name: "St. Vincent's Lilac",
@@ -6834,7 +7537,9 @@ st_vincents_lilac = Flower.create!(name: "St. Vincent's Lilac",
                                    place: "Native to tropical South America, cultivated in other tropical regions",
                                    climate: "Tropical",
                                    image_url: "st_vincents_lilac.jpg",
-                                   thumbnail_url: "st_vincents_lilac_thumbnail.jpg"
+                                   thumbnail_url: "st_vincents_lilac_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Starr_030202-0100_Solanum_seaforthianum.jpg"
                                   )
 
 turkey_berry = Flower.create!(name: "Turkey Berry",
@@ -6856,7 +7561,9 @@ turkey_berry = Flower.create!(name: "Turkey Berry",
                                       Islands including Hawaii, Guam, and American Samoa",
                               climate: "Tropical",
                               image_url: "turkey_berry.jpg",
-                              thumbnail_url: "turkey_berry_thumbnail.jpg"
+                              thumbnail_url: "turkey_berry_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:A_flower_of_Turkey_berries_1.JPG"
                              )
 
 pink_ball_dombeya = Flower.create!(name: "Pink Ball Dombeya",
@@ -6875,7 +7582,9 @@ pink_ball_dombeya = Flower.create!(name: "Pink Ball Dombeya",
                                    place: "Native to Africa and Madagascar",
                                    climate: "Tropical",
                                    image_url: "pink_ball_dombeya.jpg",
-                                   thumbnail_url: "pink_ball_dombeya_thumbnail.jpg"
+                                   thumbnail_url: "pink_ball_dombeya_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Malta_-_Attard_-_Triq_San_Anton_-_Kitchen_Garden_-_Dombeya_x_cayeuxii_02_ies.jpg"
                                   )
 
 guest_tree = Flower.create!(name: "Guest Tree",
@@ -6893,7 +7602,9 @@ guest_tree = Flower.create!(name: "Guest Tree",
                             place: "Native to Indonesia, Malaysia and other parts of tropical Asia",
                             climate: "Tropical",
                             image_url: "guest_tree.jpg",
-                            thumbnail_url: "guest_tree_thumbnail.jpg"
+                            thumbnail_url: "guest_tree_thumbnail.jpg",
+                                  source: "mingiweng",
+                                  url: "https://www.flickr.com/photos/mingiweng/6355914845"
                            )
 
 midday_flower = Flower.create!(name: "Midday Flower",
@@ -6913,7 +7624,9 @@ midday_flower = Flower.create!(name: "Midday Flower",
                                        and to the northern coast of the Australian Northern Territory",
                                climate: "Tropical and subtropical",
                                image_url: "midday_flower.jpg",
-                               thumbnail_url: "midday_flower_thumbnail.jpg"
+                               thumbnail_url: "midday_flower_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Dupurmoni_01.jpg"
                               )
 
 maple_leaved_bayur = Flower.create!(name: "Maple-leaved Bayur",
@@ -6933,7 +7646,9 @@ maple_leaved_bayur = Flower.create!(name: "Maple-leaved Bayur",
                                     place: "Indigenous to Southeast Asia, from India to Burma",
                                     climate: "Tropical and subtropical",
                                     image_url: "maple_leaved_bayur.jpg",
-                                    thumbnail_url: "maple_leaved_bayur_thumbnail.jpg"
+                                    thumbnail_url: "maple_leaved_bayur_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Maple-leaved_Bayur_Tree.jpg"
                                    )
 
 common_camellia = Flower.create!(name: "Common Camellia",
@@ -6952,7 +7667,9 @@ common_camellia = Flower.create!(name: "Common Camellia",
                                  place: "Native to mainland China, Taiwan, southern Korea and southern Japan",
                                  climate: "Temperate",
                                  image_url: "common_camellia.jpg",
-                                 thumbnail_url: "common_camellia_thumbnail.jpg"
+                                 thumbnail_url: "common_camellia_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Camellia_japonica_%27Prince_Frederick_William%27.jpg"
                                 )
 
 wood_halmilla = Flower.create!(name: "Wood Halmilla",
@@ -6969,7 +7686,9 @@ wood_halmilla = Flower.create!(name: "Wood Halmilla",
                                place: "Native to much of Southeast Asia and introduced to Africa",
                                climate: "Tropical",
                                image_url: "wood_halmilla.jpg",
-                               thumbnail_url: "wood_halmilla_thumbnail.jpg"
+                               thumbnail_url: "wood_halmilla_thumbnail.jpg",
+                                  source: "TaiBIF - Taiwan Biodiversity Information Facility",
+                                  url: "http://taibif.tw/zh/namecode/203712"
                               )
 
 coriander = Flower.create!(name: "Coriander",
@@ -6988,7 +7707,9 @@ coriander = Flower.create!(name: "Coriander",
                                    to southwestern Asia",
                            climate: "Subtropical to temperate",
                            image_url: "coriander.jpg",
-                           thumbnail_url: "coriander_thumbnail.jpg"
+                           thumbnail_url: "coriander_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Coriandrum_sativum_flower_13.jpg"
                           )
 
 greater_burnet_saxifrage = Flower.create!(name: "Greater Burnet-saxifrage",
@@ -7007,7 +7728,9 @@ greater_burnet_saxifrage = Flower.create!(name: "Greater Burnet-saxifrage",
                                                   naturalized in North America",
                                           climate: "Subtropical to temperate",
                                           image_url: "greater_burnet_saxifrage.jpg",
-                                          thumbnail_url: "greater_burnet_saxifrage_thumbnail.jpg"
+                                          thumbnail_url: "greater_burnet_saxifrage_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Pimpinella_major_002.JPG"
                                          )
 
 blue_lace_flower = Flower.create!(name: "Blue Lace Flower",
@@ -7025,12 +7748,14 @@ blue_lace_flower = Flower.create!(name: "Blue Lace Flower",
                                   place: "Native to Australia, Malesia, New Caledonia and Fiji",
                                   climate: "Tropical and subtropical",
                                   image_url: "blue_lace_flower.jpg",
-                                  thumbnail_url: "blue_lace_flower_thumbnail.jpg"
+                                  thumbnail_url: "blue_lace_flower_thumbnail.jpg",
+                                  source: "Thomas Ripplinger, fotocommunity",
+                                  url: "http://www.fotocommunity.de/pc/pc/display/29227732"
                                  )
 
 turks_turban = Flower.create!(name: "Turk's Turban",
                               other_names: "Tubeflower",
-                              bot_name: "Clerodendrum indicum",
+                              bot_name: "Clerodendrum indicum [Clerodendrum siphonanthus]",
                               family: "Verbenaceae",
                               significance: "Divine Will Acting in the Subconscient",
                               comment: "The rare moments when the Divine asserts Himself visibly.",
@@ -7043,7 +7768,9 @@ turks_turban = Flower.create!(name: "Turk's Turban",
                               place: "Native to tropical and warm temperate regions of the world",
                               climate: "Tropical to warm temperate",
                               image_url: "turks_turban.jpg",
-                              thumbnail_url: "turks_turban_thumbnail.jpg"
+                              thumbnail_url: "turks_turban_thumbnail.jpg",
+                                  source: "Salim.E.I, Raxa Collective",
+                                  url: "https://raxacollective.wordpress.com/2012/08/11/turks-turban-clerodendrum-indicum/"
                              )
 
 glory_bower = Flower.create!(name: "Glory Bower",
@@ -7061,12 +7788,14 @@ glory_bower = Flower.create!(name: "Glory Bower",
                              place: "Native to Asia",
                              climate: "Found across tropical, subtropical and temperate regions",
                              image_url: "glory_bower.jpg",
-                             thumbnail_url: "glory_bower_thumbnail.jpg"
+                             thumbnail_url: "glory_bower_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Clerodendrum_philippinum_multiplex2.JPG"
                             )
 
 butterfly_bush = Flower.create!(name: "Butterfly Bush",
                                 other_names: "",
-                                bot_name: "Clerodendrum ugandense",
+                                bot_name: "Clerodendrum ugandense [Rotheca myricoides]",
                                 family: "Verbenaceae",
                                 significance: "Repose",
                                 comment: "Opens out in calm relaxation. The true repose is that of perfect
@@ -7076,12 +7805,14 @@ butterfly_bush = Flower.create!(name: "Butterfly Bush",
                                               white stamens that curve upward above the flower; borne in
                                               terminal panicles. A tall narrow shrub of open habit.",
                                 colour: "Pale blue",
-                                petals: "Four",
+                                petals: "Five",
                                 size: "Small",
-                                place: "Native to Africa and widely cultivated elsewhere",
+                                place: "Native to Africa, widely cultivated elsewhere",
                                 climate: "Tropical and subtropical",
                                 image_url: "butterfly_bush.jpg",
-                                thumbnail_url: "butterfly_bush_thumbnail.jpg"
+                                thumbnail_url: "butterfly_bush_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:2009-05-17Rotheca_myricoides003.jpg"
                                )
 
 purple_wreath = Flower.create!(name: "Purple Wreath",
@@ -7094,13 +7825,15 @@ purple_wreath = Flower.create!(name: "Purple Wreath",
                                              marked with a prominent white spot, set in a larger pale lilac
                                              star-shaped calyx; borne on pendulous racemes. A woody vine with rough
                                              leaves like sandpaper.",
-                               colour: "White, pale lilac",
+                               colour: "Violet, pale lilac, white",
                                petals: "Five",
                                size: "Small",
                                place: "Native to Mexico and Central America, found in other tropical regions",
                                climate: "Tropical",
                                image_url: "purple_wreath.jpg",
-                               thumbnail_url: "purple_wreath_thumbnail.jpg"
+                               thumbnail_url: "purple_wreath_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Petrea_volubilis_001.jpg"
                               )
 
 fiddle_wood = Flower.create!(name: "Fiddle Wood",
@@ -7118,12 +7851,14 @@ fiddle_wood = Flower.create!(name: "Fiddle Wood",
                              place: "Native to the tropical Americas",
                              climate: "Tropical",
                              image_url: "fiddle_wood.jpg",
-                             thumbnail_url: "fiddle_wood_thumbnail.jpg"
+                             thumbnail_url: "fiddle_wood_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Citharexylum_spinosum_(Fiddlewood)_W_IMG_3232.jpg"
                             )
 
 indian_privet = Flower.create!(name: "Indian Privet",
                                other_names: "",
-                               bot_name: "Clerodendrum inerme",
+                               bot_name: "Clerodendrum inerme [Volkameria inermis]",
                                family: "Verbenaceae",
                                significance: "Perfect Planning of Work",
                                comment: "Can only be obtained with the consciousness of the Divine.",
@@ -7137,7 +7872,9 @@ indian_privet = Flower.create!(name: "Indian Privet",
                                place: "Found in Australia, Asia, Malesia and the Pacific islands",
                                climate: "Tropical and subtropical",
                                image_url: "indian_privet.jpg",
-                               thumbnail_url: "indian_privet_thumbnail.jpg"
+                               thumbnail_url: "indian_privet_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Volkameria_inermis_kz2.JPG"
                               )
 
 tubeflower = Flower.create!(name: "Tubeflower",
@@ -7156,7 +7893,9 @@ tubeflower = Flower.create!(name: "Tubeflower",
                             place: "Native to Indonesia and the Philippines",
                             climate: "Tropical",
                             image_url: "tubeflower.jpg",
-                            thumbnail_url: "tubeflower_thumbnail.jpg"
+                            thumbnail_url: "tubeflower_thumbnail.jpg",
+                                  source: "Accents for Home and Garden",
+                                  url: "http://www.accentsforhomeandgarden.com/catalog_i13594951.html?catId=293245"
                            )
 
 pagoda_flower = Flower.create!(name: "Pagoda Flower",
@@ -7175,7 +7914,9 @@ pagoda_flower = Flower.create!(name: "Pagoda Flower",
                                place: "Native to tropical Asia and Papuasia, and other tropical regions",
                                climate: "Tropical",
                                image_url: "pagoda_flower.jpg",
-                               thumbnail_url: "pagoda_flower_thumbnail.jpg"
+                               thumbnail_url: "pagoda_flower_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Clerodendrum_paniculatum_closeup.jpg"
                               )
 
 javanese_glory_bower = Flower.create!(name: "Javanese Glory Bower",
@@ -7196,7 +7937,9 @@ javanese_glory_bower = Flower.create!(name: "Javanese Glory Bower",
                                               Africa, the Caribbean, Seychelles, and Florida",
                                       climate: "Tropical",
                                       image_url: "javanese_glory_bower.jpg",
-                                      thumbnail_url: "javanese_glory_bower.jpg"
+                                      thumbnail_url: "javanese_glory_bower.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Clerodendrum_speciosissimum_-_Brooklyn_Botanic_Garden_-_Brooklyn,_NY_-_DSC08167.JPG"
                                      )
 
 flaming_glory_bower = Flower.create!(name: "Flaming Glory Bower",
@@ -7216,7 +7959,9 @@ flaming_glory_bower = Flower.create!(name: "Flaming Glory Bower",
                                      place: "Native to tropical Western Africa",
                                      climate: "Tropical",
                                      image_url: "flaming_glory_bower.jpg",
-                                     thumbnail_url: "flaming_glory_bower_thumbnail.jpg"
+                                     thumbnail_url: "flaming_glory_bower_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Clerodendrum_splendens_03.jpg"
                                     )
 
 bleeding_heart_vine = Flower.create!(name: "Bleeding Heart Vine",
@@ -7234,7 +7979,9 @@ bleeding_heart_vine = Flower.create!(name: "Bleeding Heart Vine",
                                      place: "Native to tropical west Africa",
                                      climate: "Tropical",
                                      image_url: "bleeding_heart_vine.jpg",
-                                     thumbnail_url: "bleeding_heart_vine_thumbnail.jpg"
+                                     thumbnail_url: "bleeding_heart_vine_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Clerodendrum_thomsoniae_-_bleeding-heart_vine_-_desc-flowers_-_from-DC1.jpg"
                                     )
 
 java_glory_bean = Flower.create!(name: "Java Glory Bean",
@@ -7253,7 +8000,9 @@ java_glory_bean = Flower.create!(name: "Java Glory Bean",
                                  place: "Native to tropical Africa",
                                  climate: "Tropical",
                                  image_url: "java_glory_bean.jpg",
-                                 thumbnail_url: "java_glory_bean_thumbnail.jpg"
+                                 thumbnail_url: "java_glory_bean_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Clerodendrum_thomsoniae_3.jpg"
                                 )
 
 wild_sage = Flower.create!(name: "Wild Sage",
@@ -7272,7 +8021,9 @@ wild_sage = Flower.create!(name: "Wild Sage",
                            place: "Found in Philippines, Cambodia, Vietnam, and Thailand",
                            climate: "Tropical",
                            image_url: "wild_sage.jpg",
-                           thumbnail_url: "wild_sage_thumbnail.jpg"
+                           thumbnail_url: "wild_sage_thumbnail.jpg",
+                                  source: "Prof. Summer's Web Garden - World Tropical Flowers",
+                                  url: "http://tropicalflowers.la.coocan.jp/Verbenaceae/Gmelina%20philippensis/Gmelina%20philippensis.htm"
                           )
 
 tree_of_sadness = Flower.create!(name: "Tree of Sadness",
@@ -7292,7 +8043,9 @@ tree_of_sadness = Flower.create!(name: "Tree of Sadness",
                                  place: "Native to South Asia and Southeast Asia",
                                  climate: "Tropical and subtropical",
                                  image_url: "tree_of_sadness.jpg",
-                                 thumbnail_url: "tree_of_sadness_thumbnail.jpg"
+                                 thumbnail_url: "tree_of_sadness_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:(Nyctanthes_arbor-tristis)_flower_at_Madhurawada_01.JPG"
                                 )
 
 blue_snakeweed = Flower.create!(name: "Blue Snakeweed",
@@ -7310,7 +8063,9 @@ blue_snakeweed = Flower.create!(name: "Blue Snakeweed",
                                 place: "Native throughout the Caribbean",
                                 climate: "Tropical",
                                 image_url: "blue_snakeweed.jpg",
-                                thumbnail_url: "blue_snakeweed_thumbnail.jpg"
+                                thumbnail_url: "blue_snakeweed_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Starr_080602-5518_Stachytarpheta_jamaicensis.jpg"
                                )
 
 teak = Flower.create!(name: "Teak",
@@ -7329,7 +8084,9 @@ teak = Flower.create!(name: "Teak",
                               the Caribbean",
                       climate: "Tropical and subtropical",
                       image_url: "teak.jpg",
-                      thumbnail_url: "teak_thumbnail.jpg"
+                      thumbnail_url: "teak_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://en.wikipedia.org/wiki/File:Teak_(Tectona_grandis)_flowers_in_Anantgiri,_AP_W2_IMG_8807.jpg"
                      )
 
 sweet_violet = Flower.create!(name: "Sweet Violet",
@@ -7348,7 +8105,9 @@ sweet_violet = Flower.create!(name: "Sweet Violet",
                                       Australia",
                               climate: "Found across temperate, subtropical and tropical regions",
                               image_url: "sweet_violet.jpg",
-                              thumbnail_url: "sweet_violet_thumbnail.jpg"
+                              thumbnail_url: "sweet_violet_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Viola_odorata_fg01.JPG"
                              )
 
 common_grape_vine = Flower.create!(name: "Common Grape Vine",
@@ -7368,7 +8127,9 @@ common_grape_vine = Flower.create!(name: "Common Grape Vine",
                                            Iran",
                                    climate: "Mediterrnean, temperate",
                                    image_url: "common_grape_vine.jpg",
-                                   thumbnail_url: "common_grape_vine_thumbnail.jpg"
+                                   thumbnail_url: "common_grape_vine_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Edle_Weinrebe,_%27Vitis_vinifera%27_subsp._%27vinifera.jpg"
                                   )
 
 siamese_ginger = Flower.create!(name: "Siamese Ginger",
@@ -7387,7 +8148,9 @@ siamese_ginger = Flower.create!(name: "Siamese Ginger",
                                 place: "Native to South Asia and Indonesia",
                                 climate: "Tropical and subtropical",
                                 image_url: "siamese_ginger.jpg",
-                                thumbnail_url: "siamese_ginger_thumbnail.jpg"
+                                thumbnail_url: "siamese_ginger_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Alpinia_galanga-Sunny_brook-4-yercaud-salem-India.JPG"
                                )
 
 shell_ginger = Flower.create!(name: "Shell Ginger",
@@ -7405,7 +8168,9 @@ shell_ginger = Flower.create!(name: "Shell Ginger",
                               place: "Native to East Asia",
                               climate: "Subtropical to temperate",
                               image_url: "shell_ginger.jpg",
-                              thumbnail_url: "shell_ginger_thumbnail.jpg"
+                              thumbnail_url: "shell_ginger_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Alpinia_zerumbet2CaryCass.jpg"
                              )
 
 zeodary = Flower.create!(name: "Zeodary",
@@ -7424,7 +8189,9 @@ zeodary = Flower.create!(name: "Zeodary",
                          place: "Native to India and Indonesia, cultivated in Florida",
                          climate: "Tropical and subtropical",
                          image_url: "zeodary.jpg",
-                         thumbnail_url: "zeodary_thumbnail.jpg"
+                         thumbnail_url: "zeodary_thumbnail.jpg",
+                                  source: "Ray, The Daily Bloom",
+                                  url: "http://bloom.btloc.com/2014/05/13/white-turmeric/"
                         )
 
 ginger_lily = Flower.create!(name: "Ginger Lily",
@@ -7444,7 +8211,9 @@ ginger_lily = Flower.create!(name: "Ginger Lily",
                              place: "Native to lightly wooded habitats in Asia",
                              climate: "Tropical and subtropical",
                              image_url: "ginger_lily.jpg",
-                             thumbnail_url: "ginger_lily_thumbnail.jpg"
+                             thumbnail_url: "ginger_lily_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Hedychium_coronarium2.jpg"
                             )
 
 peacock_ginger = Flower.create!(name: "Peacock Ginger",
@@ -7463,7 +8232,9 @@ peacock_ginger = Flower.create!(name: "Peacock Ginger",
                                 place: "Found in Thailand and Peninsular Malaysia",
                                 climate: "Tropical",
                                 image_url: "peacock_ginger.jpg",
-                                thumbnail_url: "peacock_ginger_thumbnail.jpg"
+                                thumbnail_url: "peacock_ginger_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Kaempferia_pulchra2.jpg"
                                )
 
 resurrection_lily = Flower.create!(name: "Resurrection Lily",
@@ -7486,7 +8257,9 @@ resurrection_lily = Flower.create!(name: "Resurrection Lily",
                                            cultivated elsewhere",
                                    climate: "Tropical and subtropical",
                                    image_url: "resurrection_lily.jpg",
-                                   thumbnail_url: "resurrection_lily_thumbnail.jpg"
+                                   thumbnail_url: "resurrection_lily_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Kaemp_rotun_101130-09813_tdp.jpg"
                                   )
 
 caltrop = Flower.create!(name: "Caltrop",
@@ -7506,13 +8279,15 @@ caltrop = Flower.create!(name: "Caltrop",
                                  Europe, southern Asia, throughout Africa, and Australia",
                          climate: "Tropical to warm temperate",
                          image_url: "caltrop.jpg",
-                         thumbnail_url: "caltrop_thumbnail.jpg"
+                         thumbnail_url: "caltrop_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Devil%27s_Thorn_(Tribulus_terrestris)_(11884273406).jpg"
                         )
 
 conifers = Flower.create!(name: "Conifers",
                           other_names: "",
                           bot_name: "Pinophyta",
-                          family: "",
+                          family: "Pinaceae",
                           significance: "Perpetual Vitality",
                           comment: "A vitality that is not affected by external influences.",
                           description: "Majestic cone-bearing trees or shrubs with evergreen needles.",
@@ -7523,7 +8298,9 @@ conifers = Flower.create!(name: "Conifers",
                                   northern hemisphere, but also in similar cool climates in mountains further south.",
                           climate: "Found across temperate, subtropical and tropical regions",
                           image_url: "conifers.jpg",
-                          thumbnail_url: "conifers_thumbnail.jpg"
+                          thumbnail_url: "conifers_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Regulus_ignicapilla_-Galicia,_Spain_-singing_in_a_conifer_tree-8_(1).jpg"
                          )
 
 dill = Flower.create!(name: "Dill",
@@ -7540,7 +8317,10 @@ dill = Flower.create!(name: "Dill",
                       place: "Found in many different regions, from tropical to warm temperate",
                       climate: "Found across a wide range of climates",
                       image_url: "dill.jpg",
-                      thumbnail_url: "dill_thumbnail.jpg")
+                      thumbnail_url: "dill_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Anethum_graveolens_Ab-05.jpg"
+                     )
 
 fennel = Flower.create!(name: "Fennel",
                         other_names: "",
@@ -7557,7 +8337,10 @@ fennel = Flower.create!(name: "Fennel",
                                 parts of the world, especially on dry soils near the sea-coast and on riverbanks.",
                         climate: "Mediterranean, temperate",
                         image_url: "fennel.jpg",
-                        thumbnail_url: "fennel_thumbnail.jpg")
+                        thumbnail_url: "fennel_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Ichneumon_wasp_on_fennel.jpg"
+                       )
 
 cosmos = Flower.create!(name: "Cosmos",
                         other_names: "",
@@ -7576,6 +8359,8 @@ cosmos = Flower.create!(name: "Cosmos",
                         climate: "Tropical and subtropical",
                         image_url: "cosmos.jpg",
                         thumbnail_url: "cosmos_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Cosmos_flower_at_lalbagh_7075.JPG"
                        )
 
 garden_cosmos = Flower.create!(name: "Garden Cosmos",
@@ -7596,7 +8381,9 @@ garden_cosmos = Flower.create!(name: "Garden Cosmos",
                                        South America, West Indies, Italy, Australia, and Asia",
                                climate: "Tropical and subtropical",
                                image_url: "garden_cosmos.jpg",
-                               thumbnail_url: "",
+                               thumbnail_url: "garden_cosmos_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Cosmos_bipinnatus,_Burdwan,_West_Bengal,_India_10_01_2013.jpg"
                               )
 
 sulfur_cosmos = Flower.create!(name: "Sulfur Cosmos",
@@ -7616,6 +8403,8 @@ sulfur_cosmos = Flower.create!(name: "Sulfur Cosmos",
                                climate: "Found across a wide range of climates",
                                image_url: "sulfur_cosmos.jpg",
                                thumbnail_url: "sulfur_cosmos_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Yellow_cosmos_2.jpeg"
                               )
 
 water_hyacinth = Flower.create!(name: "Water Hyacinth",
@@ -7634,7 +8423,9 @@ water_hyacinth = Flower.create!(name: "Water Hyacinth",
                                 place: "Native to the Amazon basin",
                                 climate: "Tropical",
                                 image_url: "water_hyacinth.jpg",
-                                thumbnail_url: "water_hyacinth_thumbnail.jpg"
+                                thumbnail_url: "water_hyacinth_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Eichhornia_crassipes_(water_hyacinth)_flower.JPG"
                                )
 
 flame_violet = Flower.create!(name: "Flame Violet",
@@ -7655,6 +8446,8 @@ flame_violet = Flower.create!(name: "Flame Violet",
                               climate: "Tropical",
                               image_url: "flame_violet.jpg",
                               thumbnail_url: "flame_violet_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Episcia_cupreata-flower_close.JPG"
                              )
 
 red_violet = Flower.create!(name: "Red Violet",
@@ -7674,7 +8467,10 @@ red_violet = Flower.create!(name: "Red Violet",
                                     other tropical regions of the world",
                             climate: "Tropical",
                             image_url: "red_violet.jpg",
-                            thumbnail_url: "red_violet_thumbnail.jpg")
+                            thumbnail_url: "red_violet_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Episcia_reptans.jpg"
+                           )
 
 painted_leaf = Flower.create(name: "Painted Leaf",
                              other_names: "Fire on the Mountain, Mexican Fire Plant",
@@ -7691,7 +8487,9 @@ painted_leaf = Flower.create(name: "Painted Leaf",
                              place: "Native to North and South America, naturalized elsewhere",
                              climate: "Found across temperate, subtropical and tropical climates",
                              image_url: "painted_leaf.jpg",
-                             thumbnail_url: "painted_leaf_thumbnail.jpg"
+                             thumbnail_url: "painted_leaf_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Euphorbia_cyathophora.jpg"
                             )
 
 poinsettia = Flower.create(name: "Poinsettia",
@@ -7710,7 +8508,9 @@ poinsettia = Flower.create(name: "Poinsettia",
                            place: "Indigenous to Mexico and Central America",
                            climate: "Tropical",
                            image_url: "poinsettia.jpg",
-                           thumbnail_url: "poinsettia_thumbnail.jpg"
+                           thumbnail_url: "poinsettia_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Euphorbia_pulcherrima_(3).JPG"
                           )
 
 canterbury_bells = Flower.create!(name: "Canterbury Bells",
@@ -7729,7 +8529,9 @@ canterbury_bells = Flower.create!(name: "Canterbury Bells",
                                   place: "Found in a wide range in Central and South America (primarily the Andes)",
                                   climate: "Tropical",
                                   image_url: "canterbury_bells.jpg",
-                                  thumbnail_url: "canterbury_bells_thumbnail.jpg"
+                                  thumbnail_url: "canterbury_bells_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Gloxinia_perennis_10.JPG"
                                  )
 
 tiny_flower_hibiscus = Flower.create!(name: "Tiny Flower Hibiscus",
@@ -7747,7 +8549,9 @@ tiny_flower_hibiscus = Flower.create!(name: "Tiny Flower Hibiscus",
                                       place: "Native to India",
                                       climate: "Tropical and subtropical",
                                       image_url: "tiny_flower_hibiscus.jpg",
-                                      thumbnail_url: "tiny_flower_hibiscus_thumbnail.jpg"
+                                      thumbnail_url: "tiny_flower_hibiscus_thumbnail.jpg",
+                                  source: "Dinesh Valke",
+                                  url: "https://www.flickr.com/photos/dinesh_valke/2059527507/"
                                      )
 
 lesser_mallow = Flower.create!(name: "Lesser Mallow",
@@ -7765,12 +8569,14 @@ lesser_mallow = Flower.create!(name: "Lesser Mallow",
                                place: "Found in Comoros, Mascarenes, Seychelles, Africa, Asia",
                                climate: "Tropical and subtropical",
                                image_url: "lesser_mallow.jpg",
-                               thumbnail_url: "lesser_mallow_thumbnail.jpg"
+                               thumbnail_url: "lesser_mallow_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://en.wikipedia.org/wiki/File:Hibiscus_hirtus_Lesser_Mallow_flower_Yeleswaram_EastGodavari.JPG"
                               )
 
 white_champaca = Flower.create!(name: "White Champaca",
                                 other_names: "White Sandalwood",
-                                bot_name: "Michelia alba",
+                                bot_name: "Michelia alba [Magnolia x alba]",
                                 family: "Magnoliaceae",
                                 significance: "Divine Smile",
                                 comment: "We can contemplate the smiles of the Divine when we have conquered our ego.",
@@ -7784,12 +8590,14 @@ white_champaca = Flower.create!(name: "White Champaca",
                                         of China and Southeast Asia",
                                 climate: "Tropical and subtropical",
                                 image_url: "white_champaca.jpg",
-                                thumbnail_url: "white_champaca_thumbnail.jpg"
+                                thumbnail_url: "white_champaca_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:White_Champaca_April_2009.JPG"
                                )
 
 champaca = Flower.create!(name: "Champaca",
                           other_names: "Champak, Fragrant Champaca",
-                          bot_name: "Michelia champaca",
+                          bot_name: "Michelia champaca [Magnolia champaca]",
                           family: "Magnoliaceae",
                           significance: "Supramentalised Psychological Perfection",
                           comment: "A psychological perfection aspiring to be Divinised.",
@@ -7803,7 +8611,9 @@ champaca = Flower.create!(name: "Champaca",
                                   parts of China)",
                           climate: "Tropical and subtropical",
                           image_url: "champaca.jpg",
-                          thumbnail_url: "champaca_thumbnail.jpg"
+                          thumbnail_url: "champaca_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Michelia_champaca2.JPG"
                          )
 
 china_rose = Flower.create!(name: "China Rose",
@@ -7820,7 +8630,9 @@ china_rose = Flower.create!(name: "China Rose",
                             place: "Native to Southwest China in Guizhou, Hubei, and Sichuan Provinces",
                             climate: "Subtropical",
                             image_url: "china_rose.jpg",
-                            thumbnail_url: "china_rose_thumbnail.jpg"
+                            thumbnail_url: "china_rose_thumbnail.jpg",
+                                  source: "Durio Nursery",
+                                  url: "http://www.durionursery.biz/roses.htm"
                            )
 
 fairy_rose = Flower.create!(name: "Fairy Rose",
@@ -7836,7 +8648,9 @@ fairy_rose = Flower.create!(name: "Fairy Rose",
                             place: "Native to Southwest China in Guizhou, Hubei, and Sichuan Provinces",
                             climate: "Subtropical",
                             image_url: "fairy_rose.jpg",
-                            thumbnail_url: "fairy_rose_thumbnail.jpg"
+                            thumbnail_url: "fairy_rose_thumbnail.jpg",
+                                  source: "Whisteling petals",
+                                  url: "http://whistelingpetals.blogspot.in/p/my-flower-collections.html"
                            )
 
 green_rose = Flower.create!(name: "Green Rose",
@@ -7856,7 +8670,9 @@ green_rose = Flower.create!(name: "Green Rose",
                             place: "Native to Southwest China in Guizhou, Hubei, and Sichuan Provinces",
                             climate: "Subtropical",
                             image_url: "green_rose.jpg",
-                            thumbnail_url: "green_rose_thumbnail.jpg"
+                            thumbnail_url: "green_rose_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Green_rose_3.jpg"
                            )
 
 tree_marigold = Flower.create!(name: "Tree Marigold",
@@ -7876,7 +8692,9 @@ tree_marigold = Flower.create!(name: "Tree Marigold",
                                        distribution as an introduced species",
                                climate: "Tropical and subtropical",
                                image_url: "tree_marigold.jpg",
-                               thumbnail_url: "tree_marigold_thumbnail.jpg"
+                               thumbnail_url: "tree_marigold_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Tithonia_diversifoliaRHu2.JPG"
                               )
 
 mexican_sunflower = Flower.create!(name: "Mexican Sunflower",
@@ -7894,7 +8712,9 @@ mexican_sunflower = Flower.create!(name: "Mexican Sunflower",
                                    place: "Native to Florida, Louisiana, Mexico, Central America and the West Indies",
                                    climate: "Tropical and subtropical",
                                    image_url: "mexican_sunflower.jpg",
-                                   thumbnail_url: "mexican_sunflower_thumbnail.jpg"
+                                   thumbnail_url: "mexican_sunflower_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Tithonia_rotundifolia_-_Fleur.jpg"
                                   )
 
 white_alder = Flower.create(name: "White Alder",
@@ -7915,7 +8735,9 @@ white_alder = Flower.create(name: "White Alder",
                                     other Pacific Islands, the Caribbean, and Florida in the United States",
                             climate: "Tropical",
                             image_url: "white_alder.jpg",
-                            thumbnail_url: "white_alder_thumbnail.jpg"
+                            thumbnail_url: "white_alder_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:BangbangNuevaVizcayajf9987_14.JPG"
                            )
 
 yellow_alder = Flower.create(name: "Yellow Alder",
@@ -7933,10 +8755,16 @@ yellow_alder = Flower.create(name: "Yellow Alder",
                              place: "Native to Mexico and the West Indies",
                              climate: "Tropical",
                              image_url: "yellow_alder.jpg",
-                             thumbnail_url: "yellow_alder_thumbnail.jpg"
+                             thumbnail_url: "yellow_alder_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Turnera_ulmifolia_01.JPG"
                            )
 
+######################################################################################################################
+
 # Flowers with variants
+
+######################################################################################################################
 
 # Wild Ginger
 
@@ -7951,6 +8779,8 @@ wild_ginger = Flower.create(name: "Wild Ginger",
                             climate: "Tropical and subtropical",
                             image_url: "wild_ginger.jpg",
                             thumbnail_url: "wild_ginger_thumbnail.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Costus_speciosus_Guadeloupe.JPG"
                            )
 
 wild_ginger.child_flowers.create!(description: "Medium to large fragrant rose purple tubular
@@ -7963,7 +8793,9 @@ wild_ginger.child_flowers.create!(description: "Medium to large fragrant rose pu
                                   colour: "Rose purple",
                                   significance: "Revelation",
                                   comment: "The true revelation is the revelation of the Divine.",
-                                  image_url: "wild_ginger_red.jpg"
+                                  image_url: "wild_ginger_red.jpg",
+                                  source: "ruurmo",
+                                  url: "https://www.flickr.com/photos/rufino_uribe/231707862/"
                                  )
 
 wild_ginger.child_flowers.create!(description: "Medium to large fragrant white flower with a golden yellow throat and
@@ -7973,7 +8805,9 @@ wild_ginger.child_flowers.create!(description: "Medium to large fragrant white f
                                   colour: "White, golden yellow, pale pink",
                                   significance: "Integral Revelation",
                                   comment: "Half-way to transformation.",
-                                  image_url: "wild_ginger_white.jpg"
+                                  image_url: "wild_ginger_white.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Crepe_Ginger_(Costus_speciosus)_1.jpg"
                                  )
 
 # Flowering Maple
@@ -7988,6 +8822,8 @@ flowering_maple = Flower.create!(name: "Flowering Maple",
                                  climate: "Tropical and subtropical",
                                  image_url: "flowering_maple.jpg",
                                  thumbnail_url: "flowering_maple_thumbnail.jpg",
+                                 source: "Sids1",
+                                 url: "https://www.flickr.com/photos/sids1/2219163831/"
                                 )
 
 flowering_maple.child_flowers.create!(description: "Small to medium-sized pendant bell-shaped flowers with stamens
@@ -7997,7 +8833,9 @@ flowering_maple.child_flowers.create!(description: "Small to medium-sized pendan
                                       colour: "In shades of white, yellow, orange, or reddish purple",
                                       significance: "Promise",
                                       comment: "The future is full of promise.",
-                                      image_url: "flowering_maple_mix.jpg"
+                                      image_url: "flowering_maple_mix.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:Abutilon_hybridum_cultivar-002.jpg"
                                      )
 
 flowering_maple.child_flowers.create!(description: "Small to medium-sized pendant bell-shaped bright yellow flowers
@@ -8007,7 +8845,9 @@ flowering_maple.child_flowers.create!(description: "Small to medium-sized pendan
                                       colour: "Bright yellow",
                                       significance: "Mental Promise",
                                       comment: "The assurance that the Supramental goal will be realised.",
-                                      image_url: "flowering_maple_yellow.jpg"
+                                      image_url: "flowering_maple_yellow.jpg",
+                                      source: "Botanical Gardens Riviera Côte d'Azur",
+                                      url: "http://violapinnata.blogspot.in/2012/10/abutilon-x-hybridum-malvaceae-cultivars.html"
                                      )
 
 flowering_maple.child_flowers.create!(description: "Small to medium-sized pendant bell-shaped deep redish purple
@@ -8017,14 +8857,16 @@ flowering_maple.child_flowers.create!(description: "Small to medium-sized pendan
                                       colour: "Deep reddish purple",
                                       significance: "Vital Promise",
                                       comment: "The vital is full of possibilities ready to develop.",
-                                      image_url: "flowering_maple_red.jpg"
+                                      image_url: "flowering_maple_red_purple.jpg",
+                                      source: "Bernard Spragg. NZ",
+                                      url: "https://www.flickr.com/photos/volvob12b/11394506506"
                                      )
 
 # Copperleaf
 
 copperleaf = Flower.create!(name: "Copperleaf",
-                            other_names: "Jacob's Coat, Fire Dragon",
-                            bot_name: "Acalypha wilkesiana",
+                            other_names: "Jacob's Coat, Fire Dragon, Three-sided Mercury",
+                            bot_name: "Acalypha",
                             family: "Euphorbiaceae",
                             petals: "",
                             size: "",
@@ -8032,31 +8874,54 @@ copperleaf = Flower.create!(name: "Copperleaf",
                             climate: "Tropical and subtropical",
                             image_url: "copperleaf.jpg",
                             thumbnail_url: "copperleaf_thumbnail.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Acalypha_wilkesiana_Musa%C3%AFca_2.JPG"
                            )
 
-copperleaf.child_flowers.create!(description: "Short pale green catkins tinged with red; borne in pairs or small
+copperleaf.child_flowers.create!(significance: "Continuity",
+                                 comment: "To know how to persist in one's effort.",
+                                 description: "Soft, erect or drooping, axillary or terminal catkins of various
+                                               sizes, in shades of red, pink or green; borne on a shrub with
+                                               striking, often multicoloured leaves.",
+                                 colour: "In shades of red, pink, or green",
+                                 image_url: "copperleaf_mix.jpg",
+                                 thumbnail_url: "copperleaf_mix.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Copper_Leaf_Plant_-_%E0%B4%AA%E0%B5%82%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%B5%E0%B4%BE%E0%B5%BD_01.JPG"
+                                )
+
+copperleaf.child_flowers.create!(bot_name: "Acalypha wilkesiana",
+                                 description: "Short pale green catkins tinged with red; borne in pairs or small
                                                clusters from the leaf axils. A shrub with somewhat drooping green
                                                oblong leaves with irregularly cut white margins.",
                                  colour: "Pale green, red",
                                  significance: "Attempt towards Continuity",
                                  comment: "Vigorous and repeated but not lasting.",
-                                 image_url: "copperleaf_green_red.jpg"
+                                 image_url: "copperleaf_green_red.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Acalypha_wilkesiana_Musa%C3%AFca_3.JPG"
                                 )
 
-copperleaf.child_flowers.create!(description: "A shrub with partly curled multicoloured leaves in shades of green,
+copperleaf.child_flowers.create!(bot_name: "Acalypha wilkesiana",
+                                 description: "A shrub with partly curled multicoloured leaves in shades of green,
                                                yellow green and pink with pink veins.",
                                  colour: "Multicoloured green, yellow green, and pink",
                                  significance: "Vital Continuity",
                                  comment: "Rich, abundant, persistent.",
-                                 image_url: "copperleaf_leaf.jpg"
+                                 image_url: "copperleaf_leaf.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Acalypha_wilkesiana1.JPG"
                                 )
 
-copperleaf.child_flowers.create!(description: "Long thin hard erect dull red catkins. A shrub having large russet leaves
+copperleaf.child_flowers.create!(bot_name: "Acalypha wilkesiana",
+                                 description: "Long thin hard erect dull red catkins. A shrub having large russet leaves
                                            with pink patches.",
                                  colour: "Dull red",
                                  significance: "Material Continuity",
                                  comment: "Powerful, enduring, solid.",
-                                 image_url: "copperleaf_dull_red.jpg"
+                                 image_url: "copperleaf_dull_red.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:P%C3%A1jara_Costa_Calma_-_FV-2_-_Carretera_a_Morro_Jable_-_Acalypha_wilkesiana_04_ies.jpg"
                                 )
 
 # Hollyhock
@@ -8071,6 +8936,8 @@ hollyhock = Flower.create!(name: "Hollyhock",
                            climate: "Temperate",
                            image_url: "hollyhock.jpg",
                            thumbnail_url: "hollyhock_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Roses_tr%C3%A9miaires.JPG"
                           )
 
 hollyhock.child_flowers.create!(description: "Medium to large funnel-shaped flowers with satiny overlapping lobes and
@@ -8081,7 +8948,9 @@ hollyhock.child_flowers.create!(description: "Medium to large funnel-shaped flow
                                 colour: "In white and shades of pink, purple, and yellow",
                                 significance: "Offering",
                                 comment: "The only offering that truly enriches is the one that is made to the Divine.",
-                                image_url: "hollyhock_mix.jpg"
+                                image_url: "hollyhock_mix.jpg",
+                                source: "Fleuroselect",
+                                url: "http://www.fleuroselect.com/awarded-varieties/halo-mixed"
                                )
 
 hollyhock.child_flowers.create!(description: "Medium to large single or double funnel-shaped dark purple, almost black
@@ -8092,7 +8961,9 @@ hollyhock.child_flowers.create!(description: "Medium to large single or double f
                                 significance: "Offering of All Obscurities",
                                 comment: "Offer your obscurities sincerely to the Divine and you will be able to
                                           receive the Light.",
-                                image_url: "hollyhock_purple_black.jpg"
+                                image_url: "hollyhock_purple_black.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Alcea_rosea.JPG"
                                )
 
 hollyhock.child_flowers.create!(description: "Medium to large single or double funnel-shaped light pink flowers with
@@ -8102,7 +8973,9 @@ hollyhock.child_flowers.create!(description: "Medium to large single or double f
                                 colour: "Light pink",
                                 significance: "Psychic Offering",
                                 comment: "This is the spontaneous attitude of the psychic towards the Divine.",
-                                image_url: "hollyhock_light_pink.jpg"
+                                image_url: "hollyhock_light_pink.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Alcea_rosea_(Korea).jpg"
                                )
 
 hollyhock.child_flowers.create!(description: "Medium to large single or double funnel-shaped lavender pink flowers
@@ -8112,7 +8985,9 @@ hollyhock.child_flowers.create!(description: "Medium to large single or double f
                                 colour: "Lavender pink",
                                 significance: "Offering of the Emotions",
                                 comment: "Emotions placed at the service of progress.",
-                                image_url: "hollyhock_lavender_pink.jpg"
+                                image_url: "hollyhock_lavender_pink.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Alcea_rosea_with_bee.JPG"
                                )
 
 hollyhock.child_flowers.create!(description: "Medium to large single or double funnel-shaped dark red flowers with
@@ -8122,7 +8997,9 @@ hollyhock.child_flowers.create!(description: "Medium to large single or double f
                                 colour: "Dark red",
                                 significance: "Offering of the Vital",
                                 comment: "The immediate result of conversion.",
-                                image_url: "hollyhock_dark_red.jpg"
+                                image_url: "hollyhock_dark_red.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Alcea_rosea_0.0_R.jpg"
                                )
 
 hollyhock.child_flowers.create!(description: "Medium to large single or double funnel-shaped white flowers with a
@@ -8132,7 +9009,9 @@ hollyhock.child_flowers.create!(description: "Medium to large single or double f
                                 colour: "White, lavender",
                                 significance: "Integral Offering of the Vital",
                                 comment: "An important stage on the way to transformation.",
-                                image_url: "hollyhock_white_lavender.jpg"
+                                image_url: "hollyhock_white_lavender.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:ALTHAEA_ROSEA_-_TOR%C3%80_-_IB-175_(Malva_real).JPG"
                                )
 
 hollyhock.child_flowers.create!(description: "Medium to large single or double funnel-shaped reddish violet flowers
@@ -8142,7 +9021,9 @@ hollyhock.child_flowers.create!(description: "Medium to large single or double f
                                 colour: "Reddish violet",
                                 significance: "Offering of the Material Vital",
                                 comment: "Indispensable for conversion.",
-                                image_url: "hollyhock_red_violet.jpg"
+                                image_url: "hollyhock_red_violet.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Flower_with_water_droplets.JPG"
                                )
 
 hollyhock.child_flowers.create!(description: "Medium to large single or double funnel-shaped very dark red flowers with
@@ -8152,7 +9033,9 @@ hollyhock.child_flowers.create!(description: "Medium to large single or double f
                                 colour: "Dark red to black",
                                 significance: "Offering of the Most Material Vital",
                                 comment: "The first step towards transformation.",
-                                image_url: "hollyhock_red_black.jpg"
+                                image_url: "hollyhock_red_black.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Alcea_rosea_L..JPG"
                                )
 
 hollyhock.child_flowers.create!(description: "Medium to large single or double funnel-shaped red flowers with satiny
@@ -8163,7 +9046,9 @@ hollyhock.child_flowers.create!(description: "Medium to large single or double f
                                 significance: "Offering of the Physical",
                                 comment: "The proof of the resolution to liberate oneself from the ego. Let the
                                           physical offer itself sincerely to the Divine and it will be transformed.",
-                                image_url: "hollyhock_red.jpg"
+                                image_url: "hollyhock_red.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Fleur_%C3%A9panouie_de_rose_tr%C3%A9mi%C3%A8re_(12).JPG"
                                )
 
 hollyhock.child_flowers.create!(description: "Medium to large single or double funnel-shaped bicoloured flowers with
@@ -8173,7 +9058,9 @@ hollyhock.child_flowers.create!(description: "Medium to large single or double f
                                 colour: "Bicoloured",
                                 significance: "Combined Offering of Two parts of the Being",
                                 comment: "This heralds the progress and effectiveness of the being.",
-                                image_url: "hollyhock_bicoloured.jpg"
+                                image_url: "hollyhock_bicoloured.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:ALTHAEA_ROSEA_-_TOR%C3%80_-_IB-173_(Malva_reial).JPG"
                                )
 
 hollyhock.child_flowers.create!(description: "Medium to large single or double funnel-shaped white flowers with satiny
@@ -8183,7 +9070,9 @@ hollyhock.child_flowers.create!(description: "Medium to large single or double f
                                 colour: "White",
                                 significance: "Integral Offering",
                                 comment: "The surest road to realisation.",
-                                image_url: "hollyhock_white.jpg"
+                                image_url: "hollyhock_white.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Ab_plant_1354.jpg"
                                )
 
 # Velvet Flower
@@ -8198,6 +9087,8 @@ velvet_flower = Flower.create!(name: "Velvet Flower",
                                climate: "Mostly tropical",
                                image_url: "velvet_flower.jpg",
                                thumbnail_url: "velvet_flower_thumbnail.jpg",
+                               source: "M a n u e l",
+                               url: "https://www.flickr.com/photos/martius/15160085552/"
                               )
 
 velvet_flower.child_flowers.create!(description: "Long tapering pendulous catkins densely covered with minute stiff
@@ -8207,7 +9098,9 @@ velvet_flower.child_flowers.create!(description: "Long tapering pendulous catkin
                                     colour: "Dull magenta",
                                     significance: "Fearlessness in Action",
                                     comment: "Manifold, unfettered and fearless.",
-                                    image_url: "velvet_flower_dull_magenta.jpg"
+                                    image_url: "velvet_flower_magenta.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:3834_-_Amaranthus_caudatus_(Zieramaranth).JPG"
                                    )
 
 velvet_flower.child_flowers.create!(description: "Long tapering pendulous or erect catkins densely covered with tiny
@@ -8216,7 +9109,9 @@ velvet_flower.child_flowers.create!(description: "Long tapering pendulous or ere
                                     colour: "Off-white",
                                     significance: "Illumined Strength in the Vital",
                                     comment: "",
-                                    image_url: "velvet_flower_off_white.jpg"
+                                    image_url: "velvet_flower_off_white.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Unidentified_plant_serres_du_Jardin_du_Luxembourg_2.JPG"
                                    )
 
 # Willowleaf Angelon
@@ -8231,6 +9126,8 @@ willowleaf_angelon = Flower.create!(name: "Willowleaf Angelon",
                                     climate: "Subtropical",
                                     image_url: "willowleaf_angelon.jpg",
                                     thumbnail_url: "willowleaf_angelon_thumbnail.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Angelonia_salicariifolia_07.jpg"
                                    )
 
 willowleaf_angelon.child_flowers.create!(description: "Small fragrant purple bilabiate flowers with two upper and
@@ -8239,7 +9136,9 @@ willowleaf_angelon.child_flowers.create!(description: "Small fragrant purple bil
                                          colour: "Purple",
                                          significance: "Renunciation of Vital Desires",
                                          comment: "It has understood the futility of desires.",
-                                         image_url: "willowleaf_angelon_purple.jpg"
+                                         image_url: "willowleaf_angelon_purple.jpg",
+                                         source: "Wikimedia Commons",
+                                         url: "https://commons.wikimedia.org/wiki/File:Angelonia_salicariifolia_06.jpg"
                                         )
 
 willowleaf_angelon.child_flowers.create!(description: "Small fragrant white bilabiate flowers with two upper and three
@@ -8248,7 +9147,9 @@ willowleaf_angelon.child_flowers.create!(description: "Small fragrant white bila
                                          colour: "White",
                                          significance: "Integral Renunciation of the Vital Desires",
                                          comment: "An indispensable condition for true progress.",
-                                         image_url: "willowleaf_angelon_white.jpg"
+                                         image_url: "willowleaf_angelon_white.jpg",
+                                         source: "Kauchipoteto Garden",
+                                         url: "http://couchpotate.blog9.fc2.com/blog-date-20061008.html"
                                         )
 
 willowleaf_angelon.child_flowers.create!(description: "Small fragrant bilabiate flowers with two upper and three lower
@@ -8257,7 +9158,9 @@ willowleaf_angelon.child_flowers.create!(description: "Small fragrant bilabiate 
                                          colour: "White, purple",
                                          significance: "Renunciation of Emotional Desires ",
                                          comment: "Indispensable for transformation.",
-                                         image_url: "willowleaf_angelon_white_purple.jpg"
+                                         image_url: "willowleaf_angelon_white_purple.jpg",
+                                         source: "Kauchipoteto Garden",
+                                         url: "http://couchpotate.blog9.fc2.com/blog-date-20061008.html"
                                         )
 
 # Flamingo Flower
@@ -8271,7 +9174,9 @@ flamingo_flower = Flower.create!(name: "Flamingo Flower",
                                  place: "Native to Colombia and Ecuador",
                                  climate: "Tropical",
                                  image_url: "flamingo_flower.jpg",
-                                 thumbnail_url: "flamingo_flower_thumbnail.jpg"
+                                 thumbnail_url: "flamingo_flower_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Anthurium_at_lalbagh_flower_show_7108.JPG"
                                 )
 
 flamingo_flower.child_flowers.create!(description: "Firm waxy heart-shaped large to very large pink spathe and a
@@ -8281,7 +9186,9 @@ flamingo_flower.child_flowers.create!(description: "Firm waxy heart-shaped large
                                       colour: "Pink, white",
                                       significance: "Sex centre Aspiring to be Purified",
                                       comment: "The awakening of the consciousness to a higher life.",
-                                      image_url: "flamingo_flower_pink.jpg"
+                                      image_url: "flamingo_flower_pink.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:Anthurium_1.jpg"
                                      )
 
 flamingo_flower.child_flowers.create!(description: "Firm waxy heart-shaped large to very large white spathe and a
@@ -8291,7 +9198,9 @@ flamingo_flower.child_flowers.create!(description: "Firm waxy heart-shaped large
                                       colour: "White",
                                       significance: "Purified Sex Centre",
                                       comment: "Is transformed into a force for progress.",
-                                      image_url: "flamingo_flower_white.jpg"
+                                      image_url: "flamingo_flower_white.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:WhiteAnthurium2.jpg"
                                      )
 
 flamingo_flower.child_flowers.create!(description: "Firm waxy heart-shaped large to very large red spathe and a
@@ -8302,7 +9211,9 @@ flamingo_flower.child_flowers.create!(description: "Firm waxy heart-shaped large
                                       significance: "Mastery of Sex",
                                       comment: "Instead of being dominated by sexual impulses, one must put them under
                                                 the control of the highest will.",
-                                      image_url: "flamingo_flower_red.jpg"
+                                      image_url: "flamingo_flower_red.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:Anthurium_at_lalbagh_flower_show_7101.JPG"
                                      )
 
 # Coral Vine
@@ -8316,7 +9227,9 @@ coral_vine = Flower.create!(name: "Coral Vine",
                             place: "Native to the Americas",
                             climate: "Found across many climatic regions",
                             image_url: "coral_vine.jpg",
-                            thumbnail_url: "coral_vine_thumbnail.jpg"
+                            thumbnail_url: "coral_vine_thumbnail.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Coral_Vine_Antigonon_leptopus_flower_at_Thiruvanathapuram_1.JPG"
                            )
 
 coral_vine.child_flowers.create!(description: "Tiny delicate lantern-shaped white, pink, deep pink and bicoloured pink
@@ -8325,7 +9238,9 @@ coral_vine.child_flowers.create!(description: "Tiny delicate lantern-shaped whit
                                  colour: "White, pink, deep pink, and bicoloured pink",
                                  significance: "Harmony",
                                  comment: "Let us work for the day when this will become both the means and the end.",
-                                 image_url: "coral_vine_mix.jpg"
+                                 image_url: "coral_vine_mix.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Coral_Vine_(Antignon_leptopus)_4.jpg"
                                 )
 
 coral_vine.child_flowers.create!(description: "Tiny delicate lantern-shaped deep pink flowers in small racemes forming
@@ -8334,7 +9249,9 @@ coral_vine.child_flowers.create!(description: "Tiny delicate lantern-shaped deep
                                  colour: "Deep pink",
                                  significance: "Harmony in the Material Vital",
                                  comment: "No disputes, no quarrels - the sweetness of a life without clashes.",
-                                 image_url: "coral_vine_deep_pink.jpg"
+                                 image_url: "coral_vine_deep_pink.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Honey_bee_(10555025375).jpg"
                                 )
 
 coral_vine.child_flowers.create!(description: "Tiny delicate lantern-shaped bright pink flowers in small racemes
@@ -8344,7 +9261,9 @@ coral_vine.child_flowers.create!(description: "Tiny delicate lantern-shaped brig
                                  significance: "Harmony in the Vital",
                                  comment: "To harmonise the vital is a psychological masterpiece; happy is the one who
                                            accomplishes it.",
-                                 image_url: "coral_vine_bright_pink.jpg"
+                                 image_url: "coral_vine_bright_pink.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Antigonon_leptopus_flower_(5731619434).jpg"
                                 )
 
 coral_vine.child_flowers.create!(description: "Tiny delicate lantern-shaped white flowers in small racemes forming
@@ -8355,7 +9274,9 @@ coral_vine.child_flowers.create!(description: "Tiny delicate lantern-shaped whit
                                  comment: "Harmony between things, harmony between persons, harmony of circumstances
                                            and, above all, harmony of aspirations — all leading towards the Supreme
                                            Truth.",
-                                 image_url: "coral_vine_white.jpg"
+                                 image_url: "coral_vine_white.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Antigonon_leptopus_white2.JPG"
                                 )
 
 # Snapdragon
@@ -8370,6 +9291,8 @@ snapdragon = Flower.create!(name: "Snapdragon",
                             climate: "Mediterranean, temperate",
                             image_url: "snapdragon.jpg",
                             thumbnail_url: "snapdragon_thumbnail.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Antirrhinum_majus_Snapdragon_%E1%83%93%E1%83%94%E1%83%95%E1%83%98%E1%83%A1%E1%83%9E%E1%83%98%E1%83%A0%E1%83%90.JPG"
                            )
 
 snapdragon.child_flowers.create!(description: "Small bilabiate flowers in white and shades of yellow, orange, pink and
@@ -8380,7 +9303,9 @@ snapdragon.child_flowers.create!(description: "Small bilabiate flowers in white 
                                  colour: "White and shades of yellow, orange, pink, and red",
                                  significance: "Power of Expression",
                                  comment: "It has the power to manifest that which is latent.",
-                                 image_url: "snapdragon_mix.jpg"
+                                 image_url: "snapdragon_mix.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:File-Snapdragons.JPG"
                                 )
 
 snapdragon.child_flowers.create!(description: "Small bilabiate pink flowers with a short flattened corolla tube; the
@@ -8392,7 +9317,9 @@ snapdragon.child_flowers.create!(description: "Small bilabiate pink flowers with
                                  significance: "Power of Psychic Expression",
                                  comment: "The psychic obtains its power of expression when it governs the whole
                                            being.",
-                                 image_url: ""
+                                 image_url: "snapdragon_pink.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Amboise,_fleur_d%27un_parterre_4.jpg"
                                 )
 
 snapdragon.child_flowers.create!(description: "Small bilabiate yellow flowers with a short flattened corolla tube; the
@@ -8403,7 +9330,9 @@ snapdragon.child_flowers.create!(description: "Small bilabiate yellow flowers wi
                                  colour: "Yellow",
                                  significance: "Power of Mental Expression",
                                  comment: "Has no value unless it is at the service of the Divine.",
-                                 image_url: "snapdragon_yellow.jpg"
+                                 image_url: "snapdragon_yellow.jpg",
+                                 source: "Toshihiro Gamo",
+                                 url: "https://www.flickr.com/photos/dakiny/8886798584/"
                                 )
 
 snapdragon.child_flowers.create!(description: "Small bilabiate purple to violet flowers with a short flattened corolla
@@ -8414,7 +9343,9 @@ snapdragon.child_flowers.create!(description: "Small bilabiate purple to violet 
                                  colour: "Purple to violet",
                                  significance: "Power of Vital Expression",
                                  comment: "It is useful only when the vital is converted.",
-                                 image_url: "snapdragon_purple.jpg"
+                                 image_url: "snapdragon_purple.jpg",
+                                 source: "Joan Simon",
+                                 url: "https://www.flickr.com/photos/simonjoan/16743218481/"
                                 )
 
 snapdragon.child_flowers.create!(description: "Small bilabiate red flowers with a short flattened corolla tube; the
@@ -8425,7 +9356,9 @@ snapdragon.child_flowers.create!(description: "Small bilabiate red flowers with 
                                  colour: "Red",
                                  significance: "Power of Physical Expression",
                                  comment: "One of the benefits of conversion.",
-                                 image_url: "snapdragon_red.jpg"
+                                 image_url: "snapdragon_red.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:20140627Antirrhinum_majus2.jpg"
                                 )
 
 snapdragon.child_flowers.create!(description: "Small bilabiate white flowers with yellow throat; with a short
@@ -8436,7 +9369,9 @@ snapdragon.child_flowers.create!(description: "Small bilabiate white flowers wit
                                  colour: "White, yellow",
                                  significance: "Power of Integral Expression",
                                  comment: "Nothing is too difficult for it to say.",
-                                 image_url: "snapdragon_white_yellow.jpg"
+                                 image_url: "snapdragon_white_yellow.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B0%D1%81%D1%82%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B2_%D0%A1%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE_253.jpg"
                                 )
 
 snapdragon.child_flowers.create!(description: "Small bilabiate multicoloured flowers with a short flattened corolla
@@ -8447,7 +9382,9 @@ snapdragon.child_flowers.create!(description: "Small bilabiate multicoloured flo
                                  colour: "Multicoloured",
                                  significance: "Power of Manifold Expression",
                                  comment: "The result of suppleness and plasticity.",
-                                 image_url: "snapdragon_multicoloured.jpg"
+                                 image_url: "snapdragon_multicoloured.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Antirrhinum_aka_Snap_dragon_at_lalbagh_7118.JPG"
                                 )
 
 snapdragon.child_flowers.create!(bot_name: "Antirrhinum majus ‘Butterfly hybrid’",
@@ -8457,7 +9394,9 @@ snapdragon.child_flowers.create!(bot_name: "Antirrhinum majus ‘Butterfly hybri
                                  colour: "Pink",
                                  significance: "Progressive Expression",
                                  comment: "What you cannot say today, you will know how to say tomorrow!",
-                                 image_url: "snapdragon_butterfly.jpg"
+                                 image_url: "snapdragon_butterfly.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Kissing_bugs_with_voyeur_find_it.jpg"
                                 )
 
 # Climbing Lang-lang
@@ -8472,6 +9411,8 @@ climbing_lang_lang = Flower.create!(name: "Climbing Lang-lang",
                                     climate: "Tropical and subtropical",
                                     image_url: "climbing_lang_lang.jpg",
                                     thumbnail_url: "climbing_lang_lang_thumbnail.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Ylang_Ylang_vine_01.JPG"
                                    )
 
 climbing_lang_lang.child_flowers.create!(description: "Medium-sized pendulous flower with six thick fleshy tapering
@@ -8481,20 +9422,24 @@ climbing_lang_lang.child_flowers.create!(description: "Medium-sized pendulous fl
                                          colour: "Greenish yellow to yellow",
                                          significance: "Clear Mind",
                                          comment: "The first step on the way to conversion.",
-                                         image_url: "climbing_lang_lang_flower.jpg"
+                                         image_url: "climbing_lang_lang_flower.jpg",
+                                         source: "Wikimedia Commons",
+                                         url: "https://commons.wikimedia.org/wiki/File:Artabotrys_hexapetalus02.JPG"
                                         )
 
 climbing_lang_lang.child_flowers.create!(description: "Small oval fragrant yellow fruit; borne singly or in clusters.",
                                          colour: "Yellow",
                                          significance: "Reason",
                                          comment: "An excellent instrument when it is at the service of the Divine.",
-                                         image_url: "climbing_lang_lang_fruit.jpg"
+                                         image_url: "climbing_lang_lang_fruit.jpg",
+                                         source: "TopTropicals",
+                                         url: "https://toptropicals.com/catalog/uid/artabotrys_hexapetalus.htm"
                                         )
 
 # Blood Flower
 
 blood_flower = Flower.create!(name: "Blood Flower",
-                              other_names: "Swallow Wort, Matal, Indian Root",
+                              other_names: "Milkweed, Swallow Wort, Matal, Indian Root",
                               bot_name: "Asclepias curassavica",
                               family: "Asclepiadaceae",
                               petals: "Five",
@@ -8503,6 +9448,8 @@ blood_flower = Flower.create!(name: "Blood Flower",
                               climate: "Tropical",
                               image_url: "blood_flower.jpg",
                               thumbnail_url: "blood_flower_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Asclepias_curassavica_1854.jpg"
                              )
 
 blood_flower.child_flowers.create!(description: "Tiny flowers with five yellow petals that curve back towards the
@@ -8511,16 +9458,20 @@ blood_flower.child_flowers.create!(description: "Tiny flowers with five yellow p
                                    colour: "Yellow",
                                    significance: "Response of the Mind to the Supramental Light",
                                    comment: "Represents an important step towards realisation.",
-                                   image_url: "blood_flower_yellow.jpg"
+                                   image_url: "blood_flower_yellow.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Blood_Flower_(Asclepias_curassavica)_4.jpg"
                                   )
 
 blood_flower.child_flowers.create!(description: "Tiny flowers with five orange red petals that curve back towards the
                                                  stalk and a prominent central orange crown; borne in terminal cymes.
                                                  A perennial herb with milky sap.",
-                                   colour: "Orange",
+                                   colour: "Orange red",
                                    significance: "Response of the Physical Mind to the Supramental Light",
                                    comment: "The physical mind eager to understand and be transformed.",
-                                   image_url: "blood_flower_orange.jpg"
+                                   image_url: "blood_flower_orange_red.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Mexican_Milkweed_Asclepias_curassavica_Flowers_Closeup_3008px.jpg"
                                   )
 
 # Italian Aster
@@ -8536,6 +9487,8 @@ italian_aster = Flower.create!(name: "Italian Aster",
                                climate: "Subtropical to temperate",
                                image_url: "italian_aster.jpg",
                                thumbnail_url: "italian_aster_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Aster_amellus_-_blooms_(aka).jpg"
                               )
 
 italian_aster.child_flowers.create!(description: "Small single compositae flower with narrow white ray florets and a
@@ -8544,7 +9497,9 @@ italian_aster.child_flowers.create!(description: "Small single compositae flower
                                     colour: "White, yellow",
                                     significance: "Simple Sincerity",
                                     comment: "The beginning of all progress.",
-                                    image_url: "italian_aster_white_yellow.jpg"
+                                    image_url: "italian_aster_white_yellow.jpg",
+                                    source: "Swamy Nursery & Florist",
+                                    url: "http://www.swamynursery.in/category/flowering-shrubs/"
                                    )
 
 italian_aster.child_flowers.create!(description: "Small single compositae flower with narrow lavender pink ray florets
@@ -8553,7 +9508,9 @@ italian_aster.child_flowers.create!(description: "Small single compositae flower
                                     colour: "Lavender pink, yellow",
                                     significance: "Emotional Sincerity",
                                     comment: "Does not try to falsify the emotions.",
-                                    image_url: "italian_aster_lavender_pink_yellow.jpg"
+                                    image_url: "italian_aster_lavender_pink_yellow.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Aster_amellus-IMG_6178.jpg"
                                    )
 
 italian_aster.child_flowers.create!(description: "Small single compositae flower with narrow lavender blue ray florets
@@ -8562,7 +9519,9 @@ italian_aster.child_flowers.create!(description: "Small single compositae flower
                                     colour: "Lavender blue, yellow",
                                     significance: "Sincerity in the Vital",
                                     comment: "The sure way to realisation.",
-                                    image_url: "italian_aster_lavender_blue_yellow.jpg"
+                                    image_url: "italian_aster_lavender_blue_yellow.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:European_Michaelmas_Daisy_-_Aster_amellus_(12831629843).jpg"
                                    )
 
 # Chinese Violet
@@ -8577,6 +9536,8 @@ chinese_violet = Flower.create!(name: "Chinese Violet",
                                 climate: "Tropical",
                                 image_url: "chinese_violet.jpg",
                                 thumbnail_url: "chinese_violet_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Asystasia_gangetica_09277.jpg"
                                )
 
 chinese_violet.child_flowers.create!(description: "Small funnelform flowers in several colours with a short corolla
@@ -8586,7 +9547,9 @@ chinese_violet.child_flowers.create!(description: "Small funnelform flowers in s
                                      colour: "Several colours",
                                      significance: "Trust in the Divine",
                                      comment: "Most indispensable for the impulsive vital.",
-                                     image_url: "chinese_violet_mix.jpg"
+                                     image_url: "chinese_violet_mix.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Coromandel_(Asystasia_gangetica).jpg"
                                     )
 
 chinese_violet.child_flowers.create!(description: "Small cream yellow funnelform flowers with a short corolla tube and
@@ -8596,7 +9559,9 @@ chinese_violet.child_flowers.create!(description: "Small cream yellow funnelform
                                      colour: "Cream yellow",
                                      significance: "Mental Trust in the Divine",
                                      comment: "Firm and definitive, does not question.",
-                                     image_url: "chinese_violet_cream_yellow.jpg"
+                                     image_url: "chinese_violet_cream_yellow.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Coromandel_(Asystasia_gangetica_%27Alba%27).jpg"
                                     )
 
 chinese_violet.child_flowers.create!(description: "Small pale yellow funnelform flower with a light lavender spot on
@@ -8607,7 +9572,9 @@ chinese_violet.child_flowers.create!(description: "Small pale yellow funnelform 
                                      significance: "Trust in the Vital Mind for the Divine",
                                      comment: "Opens itself to the Divine Consciousness, without trying to hide
                                                anything from It.",
-                                     image_url: "chinese_violet_yellow_lavender.jpg"
+                                     image_url: "chinese_violet_pale_yellow_lavender.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Asystasia_gangetica_(nom),_d,_Walter_Sisulu_NBT.jpg"
                                     )
 
 chinese_violet.child_flowers.create!(description: "Small white funnelform flower with a lavender spot on the throat;
@@ -8617,7 +9584,9 @@ chinese_violet.child_flowers.create!(description: "Small white funnelform flower
                                      colour: "White, lavender",
                                      significance: "Trust of the Emotional Vital in the Divine",
                                      comment: "Smiling and sweet, it is sheltered from grief.",
-                                     image_url: "chinese_violet_white_lavender.jpg"
+                                     image_url: "chinese_violet_white_lavender.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Ara_Songsang.jpg"
                                     )
 
 chinese_violet.child_flowers.create!(description: "Small predominantly lavender shaded funnelform flowers with a short
@@ -8627,7 +9596,9 @@ chinese_violet.child_flowers.create!(description: "Small predominantly lavender 
                                      colour: "Lavender",
                                      significance: "Vital Trust in the Divine",
                                      comment: "Full of courage and energy, it no longer fears anything.",
-                                     image_url: "chinese_violet_lavender.jpg"
+                                     image_url: "chinese_violet_lavender.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Starr_030415-0001_Asystasia_gangetica.jpg"
                                     )
 
 chinese_violet.child_flowers.create!(description: "Small white funnelform flowers with a short corolla tube and a limb
@@ -8637,7 +9608,9 @@ chinese_violet.child_flowers.create!(description: "Small white funnelform flower
                                      colour: "White",
                                      significance: "Integral Trust in the Divine",
                                      comment: "The trust that gives the true support to life.",
-                                     image_url: "chinese_violet_white.jpg"
+                                     image_url: "chinese_violet_white.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Asystasia_gangetica_9400.jpg"
                                     )
 
 # Philippine Violet
@@ -8652,6 +9625,8 @@ philippine_violet = Flower.create!(name: "Philippine Violet",
                                    climate: "Tropical and subtropical",
                                    image_url: "philippine_violet.jpg",
                                    thumbnail_url: "philippine_violet_thumbnail.jpg",
+                                   source: "scott.zona",
+                                   url: "https://www.flickr.com/photos/scottzona/6442045831"
                                   )
 
 philippine_violet.child_flowers.create!(description: "Small lavender salverform flower, with five rounded separated
@@ -8660,7 +9635,9 @@ philippine_violet.child_flowers.create!(description: "Small lavender salverform 
                                         colour: "Lavender",
                                         significance: "Elegance in the Emotions",
                                         comment: "Delicate and refined, does not permit itself any vulgarity.",
-                                        image_url: "philippine_violet_lavender.jpg"
+                                        image_url: "philippine_violet_lavender.jpg",
+                                        source: "Wikimedia Commons",
+                                        url: "https://commons.wikimedia.org/wiki/File:Barleria_cristata.JPG"
                                        )
 
 philippine_violet.child_flowers.create!(description: "Small striped white and lavender salverform flowers with five
@@ -8669,7 +9646,9 @@ philippine_violet.child_flowers.create!(description: "Small striped white and la
                                         colour: "White, lavender",
                                         significance: "Emotional Opening",
                                         comment: "The progress of emotions towars the Divine.",
-                                        image_url: "philippine_violet_white_lavender.jpg"
+                                        image_url: "philippine_violet_white_lavender.jpg",
+                                        source: "TopTropicals",
+                                        url: "https://toptropicals.com/catalog/uid/BARLERIA_STRIPED.htm"
                                        )
 
 philippine_violet.child_flowers.create!(description: "Small white salverform flowers with five rounded separated lobes
@@ -8678,7 +9657,9 @@ philippine_violet.child_flowers.create!(description: "Small white salverform flo
                                         colour: "White",
                                         significance: "Integral Opening of the Being to the Divine",
                                         comment: "The first step of the ascent.",
-                                        image_url: "philippine_violet_white.jpg"
+                                        image_url: "philippine_violet_white.jpg",
+                                        source: "Wikimedia Commons",
+                                        url: "https://commons.wikimedia.org/wiki/File:Parvathi_Flower_01356.JPG"
                                        )
 
 philippine_violet.child_flowers.create!(description: "Small pink salverform flowers with five rounded separated lobes
@@ -8687,7 +9668,9 @@ philippine_violet.child_flowers.create!(description: "Small pink salverform flow
                                         colour: "Pink",
                                         significance: "Opening of the Emotional Vital",
                                         comment: "One of the first steps on the way to transformation.",
-                                        image_url: "philippine_violet_pink.jpg"
+                                        image_url: "philippine_violet_pink.jpg",
+                                        source: "Flower Photos",
+                                        url: "http://oazis-cvetov.ru/photo/ehkzoticheskie_cvety/barlerija/116-0-4590"
                                        )
 
 # Butterfly Tree
@@ -8702,6 +9685,8 @@ butterfly_tree = Flower.create!(name: "Butterfly Tree",
                                 climate: "Tropical and subtropical",
                                 image_url: "butterfly_tree.jpg",
                                 thumbnail_url: "butterfly_tree_thumbnail.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Bauhinia_purpurea_(Kaniar)_in_Hyderabad,_AP_W_IMG_2573.jpg"
                                )
 
 butterfly_tree.child_flowers.create!(description: "Large mildly fragrant flowers in various shades of light pink to
@@ -8712,7 +9697,9 @@ butterfly_tree.child_flowers.create!(description: "Large mildly fragrant flowers
                                      colour: "Light pink to reddish violet",
                                      significance: "Stability in the Vital",
                                      comment: "One of the important results of conversion.",
-                                     image_url: "butterfly_tree_pink_red.jpg"
+                                     image_url: "butterfly_tree_violet.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Bauhinia_purpurea.jpg"
                                     )
 
 butterfly_tree.child_flowers.create!(description: "Large mildly fragrant light mauve flowers with five irregular
@@ -8722,7 +9709,9 @@ butterfly_tree.child_flowers.create!(description: "Large mildly fragrant light m
                                      colour: "Light to dark mauve",
                                      significance: "Stability in the Higher Vital",
                                      comment: "",
-                                     image_url: "butterfly_tree_mauve.jpg"
+                                     image_url: "butterfly_tree_mauve.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Bauhinia_purpurea2.JPG"
                                     )
 
 # Begonia
@@ -8737,6 +9726,8 @@ begonia = Flower.create!(name: "Begonia",
                          climate: "Tropical and subtropical",
                          image_url: "begonia.jpg",
                          thumbnail_url: "begonia_thumbnail.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Begonia_semperflorens_-_Alipore_-_Kolkata_2013-02-10_4784.JPG"
                         )
 
 begonia.child_flowers.create!(description: "Tiny waxy flowers in white and shades of pink, red and yellow with two
@@ -8746,7 +9737,9 @@ begonia.child_flowers.create!(description: "Tiny waxy flowers in white and shade
                               colour: "White and shades of pink, red, and yellow",
                               significance: "Balance",
                               comment: "Each seeks his own balance in order to stabilise himself.",
-                              image_url: "begonia_single_mix.jpg"
+                              image_url: "begonia_single_mix.jpg",
+                                   source: "JJL GREENHOUSE, INC.",
+                                   url: "https://www.flickr.com/photos/jjl_greenhouse/5755199756"
                              )
 
 begonia.child_flowers.create!(description: "Medium-sized single or double flowers in white and shades of pink, red and
@@ -8756,7 +9749,9 @@ begonia.child_flowers.create!(description: "Medium-sized single or double flower
                               colour: "White and shades of pink, red, and yellow",
                               significance: "Perfect Balance",
                               comment: "One of the most important conditions of a growing peace.",
-                              image_url: "begonia_double_mix.jpg"
+                              image_url: "begonia_double_mix.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Begonia_%C3%97_tuberhybrida%E3%80%81_tuberous_begonia_%E7%90%83%E6%A0%B9%E3%83%99%E3%82%B4%E3%83%8B%E3%82%A2_2024880.JPG"
                              )
 
 begonia.child_flowers.create!(description: "Tiny pink waxy flowers with two prominent petals and yellow anthers and
@@ -8765,7 +9760,9 @@ begonia.child_flowers.create!(description: "Tiny pink waxy flowers with two prom
                               colour: "Pink, yellow",
                               significance: "Psychic Balance",
                               comment: "Under the psychic influence all activity becomes balanced.",
-                              image_url: "begonia_single_pink_yellow.jpg"
+                              image_url: "begonia_single_pink_yellow.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://de.wikipedia.org/wiki/Datei:Begonia.naumoniensis.7083.jpg"
                              )
 
 begonia.child_flowers.create!(description: "Medium-sized single or double pink flowers with two or more prominent
@@ -8774,7 +9771,9 @@ begonia.child_flowers.create!(description: "Medium-sized single or double pink f
                               colour: "Pink, yellow",
                               significance: "Perfect Psychic Balance",
                               comment: "On the way to transformation.",
-                              image_url: "begonia_double_pink_yellow.jpg"
+                              image_url: "begonia_double_pink_yellow.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Begonia_x_tuberhybrida_1005Pink1.JPG"
                              )
 
 begonia.child_flowers.create!(description: "Tiny yellow waxy flowers with two prominent petals and yellow anthers and
@@ -8783,7 +9782,9 @@ begonia.child_flowers.create!(description: "Tiny yellow waxy flowers with two pr
                               colour: "Yellow",
                               significance: "Mental Balance",
                               comment: "Mind governed by reason.",
-                              image_url: "begonia_single_yellow.jpg"
+                              image_url: "begonia_single_yellow.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Begonia_prismatocarpa_Bioko_2013.jpg"
                              )
 
 begonia.child_flowers.create!(description: "Medium-sized single or double yellow flowers with two or more prominent
@@ -8792,7 +9793,9 @@ begonia.child_flowers.create!(description: "Medium-sized single or double yellow
                               colour: "Yellow",
                               significance: "Perfect Mental Balance",
                               comment: "Indispensable for facing the difficulties of life.",
-                              image_url: "begonia_double_yellow.jpg"
+                              image_url: "begonia_double_yellow.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Fotky_kv%C4%9Bt%C5%AF_(06).jpg"
                              )
 
 begonia.child_flowers.create!(description: "Tiny white waxy flowers with two prominent petals and yellow anthers and
@@ -8801,7 +9804,9 @@ begonia.child_flowers.create!(description: "Tiny white waxy flowers with two pro
                               colour: "White, yellow",
                               significance: "Integral Balance",
                               comment: "It multiplies itself so as not to be static.",
-                              image_url: "begonia_single_white_yellow.jpg"
+                              image_url: "begonia_single_white_yellow.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Begonia_floccifera_-_JBM.jpg"
                              )
 
 begonia.child_flowers.create!(description: "Medium-sized single or double white flowers with two or more prominent
@@ -8810,7 +9815,9 @@ begonia.child_flowers.create!(description: "Medium-sized single or double white 
                               colour: "White, yellow",
                               significance: "Perfect Integral Balance",
                               comment: "One is ready for transformation.",
-                              image_url: "begonia_double_white.jpg"
+                              image_url: "begonia_double_white_yellow.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:JB_Metz_-_13082011_-_004.jpg"
                              )
 
 # Bougainvillea
@@ -8825,6 +9832,8 @@ bougainvillea = Flower.create!(name: "Bougainvillea",
                                climate: "Tropical and subtropical",
                                image_url: "bougainvillea.jpg",
                                thumbnail_url: "bougainvillea_thumbnail.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Common_Wanderer_(Pareronia_valeria)-_Female_on_Bouganvillea_species_in_Kolkata_W_IMG_3636.jpg"
                               )
 
 bougainvillea.child_flowers.create!(description: "Clusters of showy ovate bracts in groups of three or more that
@@ -8834,7 +9843,9 @@ bougainvillea.child_flowers.create!(description: "Clusters of showy ovate bracts
                                     significance: "Protection",
                                     comment: "Let us give ourselves entirely and sincerely to the Divine and we shall
                                               enjoy His protection.",
-                                    image_url: "bougainvillea_mix.jpg"
+                                    image_url: "bougainvillea_mix.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Bougainvillea_flowers_2.JPG"
                                    )
 
 bougainvillea.child_flowers.create!(bot_name: "Bougainvillea ‘Mahara’",
@@ -8844,7 +9855,9 @@ bougainvillea.child_flowers.create!(bot_name: "Bougainvillea ‘Mahara’",
                                     colour: "White to greenish white, bright magenta",
                                     significance: "Attempt towards Protection",
                                     comment: "Irregular and not always effective efforts.",
-                                    image_url: "bougainvillea_mahara.jpg"
+                                    image_url: "bougainvillea_magenta.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Bougainvillea_spectabilis_(5).JPG"
                                    )
 
 bougainvillea.child_flowers.create!(bot_name: "Bougainvillea ‘Trinidad’",
@@ -8854,7 +9867,9 @@ bougainvillea.child_flowers.create!(bot_name: "Bougainvillea ‘Trinidad’",
                                     colour: "White to greenish white, pale lavender",
                                     significance: "Discreet Protection",
                                     comment: "Does its work discreetly without drawing attention.",
-                                    image_url: "bougainvillea_trinidad.jpg"
+                                    image_url: "bougainvillea_lavender.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Starr_080117-1938_Bougainvillea_sp..jpg"
                                    )
 
 bougainvillea.child_flowers.create!(description: "Clusters of showy ovate pink bracts in groups of three or more that
@@ -8863,7 +9878,9 @@ bougainvillea.child_flowers.create!(description: "Clusters of showy ovate pink b
                                     colour: "White to greenish white, pink",
                                     significance: "Psychic Protection",
                                     comment: "The protection resulting from surrender to the Divine.",
-                                    image_url: "bougainvillea_pink.jpg"
+                                    image_url: "bougainvillea_pink.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Bougainvillea_glabra_blossom_-_Thailand_2.jpg"
                                    )
 
 bougainvillea.child_flowers.create!(description: "Clusters of showy ovate light lavender pink bracts in groups of
@@ -8872,7 +9889,9 @@ bougainvillea.child_flowers.create!(description: "Clusters of showy ovate light 
                                     colour: "White to greenish white, light lavender pink",
                                     significance: "Emotional Protection",
                                     comment: "Surrender to the Divine is the best emotional protection.",
-                                    image_url: "bougainvillea_lavender_pink.jpg"
+                                    image_url: "bougainvillea_lavender_pink.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Bougainvillea_blossoms_and_bracts-001.jpg"
                                    )
 
 bougainvillea.child_flowers.create!(description: "Clusters of showy ovate violet bracts in groups of three or more
@@ -8881,17 +9900,21 @@ bougainvillea.child_flowers.create!(description: "Clusters of showy ovate violet
                                     colour: "White to greenish white, violet",
                                     significance: "Vital Protection",
                                     comment: "Surrender to the Divine is the best vital protection.",
-                                    image_url: "bougainvillea_violet.jpg"
+                                    image_url: "bougainvillea_violet.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Starr_060928-0432_Bougainvillea_sp..jpg"
                                    )
 
 bougainvillea.child_flowers.create!(description: "Clusters of showy ovate red bracts in groups of three or more that
                                                   enfold tiny white to greenish white salverform flowers. A shrub,
                                                   vine or small tree, usually armed with spines.",
                                     colour: "White to greenish white, red",
-                                    significance: "Physical protection",
+                                    significance: "Physical Protection",
                                     comment: "Is possible only with a total surrender to the divine and absence of all
                                               desire.",
-                                    image_url: "bougainvillea_red.jpg"
+                                    image_url: "bougainvillea_red.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Redleaves.jpg"
                                    )
 
 bougainvillea.child_flowers.create!(bot_name: "Bougainvillea 'Blondie'",
@@ -8902,7 +9925,9 @@ bougainvillea.child_flowers.create!(bot_name: "Bougainvillea 'Blondie'",
                                     colour: "White to greenish white, pale lavender pink to soft orange",
                                     significance: "Triple Protection",
                                     comment: "Protection in the mind, the vital and the physical.",
-                                    image_url: "bougainvillea_blondie.jpg"
+                                    image_url: "bougainvillea_blondie.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Bougainvillea3.jpg"
                                    )
 
 bougainvillea.child_flowers.create!(description: "Clusters of showy ovate white bracts in groups of three or more that
@@ -8911,7 +9936,9 @@ bougainvillea.child_flowers.create!(description: "Clusters of showy ovate white 
                                     colour: "White to greenish white",
                                     significance: "Integral Protection",
                                     comment: "That which can be given only by the Divine.",
-                                    image_url: "bougainvillea_white.jpg"
+                                    image_url: "bougainvillea_white.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Bougainvillea_-_%E0%B4%95%E0%B4%9F%E0%B4%B2%E0%B4%BE%E0%B4%B8%E0%B5%81%E0%B4%AA%E0%B5%82%E0%B4%B5%E0%B5%8D_05.JPG"
                                    )
 
 bougainvillea.child_flowers.create!(bot_name: "Bougainvillea ‘Mary Palmer’",
@@ -8923,7 +9950,9 @@ bougainvillea.child_flowers.create!(bot_name: "Bougainvillea ‘Mary Palmer’",
                                     significance: "Manifold Protection",
                                     comment: "A protection working not only on life as a whole but on each of its
                                               details.",
-                                    image_url: "bougainvillea_mary_palmer.jpg"
+                                    image_url: "bougainvillea_purple_pink.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Starr_080117-1818_Bougainvillea_sp..jpg"
                                    )
 
 bougainvillea.child_flowers.create!(description: "Clusters of showy ovate predominantly yellow and golden bracts in
@@ -8933,7 +9962,9 @@ bougainvillea.child_flowers.create!(description: "Clusters of showy ovate predom
                                     colour: "White to greenish white, yellow, golden",
                                     significance: "Protection of the Gods",
                                     comment: "Luminous and clear-visioned.",
-                                    image_url: "bougainvillea_yellow_golden.jpg"
+                                    image_url: "bougainvillea_yellow_golden.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Bouganvilla4.JPG"
                                    )
 
 # Bush Violet
@@ -8948,6 +9979,8 @@ bush_violet = Flower.create!(name: "Bush Violet",
                              climate: "Subtropical",
                              image_url: "bush_violet.jpg",
                              thumbnail_url: "bush_violet_thumbnail.jpg",
+                                   source: "NixPixMix",
+                                   url: "http://nixpixmix.blogspot.in/2014/01/browallia-speciosa-bush-violet.html"
                             )
 
 bush_violet.child_flowers.create!(description: "Small delicate salverform flower with an irregularly shaped five-lobed
@@ -8956,7 +9989,10 @@ bush_violet.child_flowers.create!(description: "Small delicate salverform flower
                                   colour: "Light blue, yellow",
                                   significance: "Consent of the Vital",
                                   comment: "Friendly, smiling, always ready for action, with a great goodwill.",
-                                  image_url: "bush_violet_light_blue.jpg")
+                                  image_url: "bush_violet_blue.jpg",
+                                   source: "Go Botany",
+                                   url: "https://gobotany.newenglandwild.org/species/browallia/americana/?pile=alternate-remaining-non-monocots"
+                                 )
 
 bush_violet.child_flowers.create!(description: "Small delicate salverform flower with an irregularly shaped five-lobed
                                                 limb; in Pale lilac lined with white borne singly in the leaf axils.
@@ -8965,7 +10001,10 @@ bush_violet.child_flowers.create!(description: "Small delicate salverform flower
                                   significance: "Enthusiastic Vital Consent",
                                   comment: "Here all the resources of its enthusiasm are placed at the service of its
                                             consent.",
-                                  image_url: "bush_violet_lilac.jpg")
+                                  image_url: "bush_violet_lilac.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Browallia_viscosa_(Solanaceae)flower.JPG"
+                                 )
 
 # Barbados Pride
 
@@ -8980,6 +10019,8 @@ barbados_pride = Flower.create!(name: "Barbados Pride",
                                 climate: "Tropical and subtropical",
                                 image_url: "barbados_pride.jpg",
                                 thumbnail_url: "barbados_pride_thumbnail.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Caesalpinia_pulcherrima_flowers.jpg"
                                )
 
 barbados_pride.child_flowers.create!(description: "Small striking flower with four equal petals, a smaller lip and
@@ -8989,7 +10030,9 @@ barbados_pride.child_flowers.create!(description: "Small striking flower with fo
                                      colour: "Orange red, yellow",
                                      significance: "Fire",
                                      comment: "Fears no obstacle.",
-                                     image_url: "barbados_pride_orange_red_yellow.jpg"
+                                     image_url: "barbados_pride_orange_red_yellow.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Starr_061111-1566_Caesalpinia_pulcherrima.jpg"
                                     )
 
 barbados_pride.child_flowers.create!(description: "Small striking golden yellow flower with four equal petals, a
@@ -8998,7 +10041,9 @@ barbados_pride.child_flowers.create!(description: "Small striking golden yellow 
                                      colour: "Golden yellow",
                                      significance: "Fire in the Mind",
                                      comment: "An ardour that sets ideas ablaze.",
-                                     image_url: "barbados_pride_golden_yellow.jpg"
+                                     image_url: "barbados_pride_golden_yellow.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Starr_061111-1549_Caesalpinia_pulcherrima.jpg"
                                     )
 
 # China Aster
@@ -9013,6 +10058,8 @@ china_aster = Flower.create!(name: "China Aster",
                              climate: "Mostly temperate",
                              image_url: "china_aster.jpg",
                              thumbnail_url: "china_aster_thumbnail.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Callistephus_chinensis_1.3_R.jpg"
                             )
 
 china_aster.child_flowers.create!(description: "Medium-sized slightly scented semi-double to double compositae flowers
@@ -9022,7 +10069,9 @@ china_aster.child_flowers.create!(description: "Medium-sized slightly scented se
                                   colour: "White, yellow, and shades of blue, purple, pink, and red",
                                   significance: "Transparency",
                                   comment: "Can come only as a result of perfect sincerity.",
-                                  image_url: "china_aster_mix.jpg"
+                                  image_url: "china_aster_mix.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Sommerastern.JPG"
                                  )
 
 china_aster.child_flowers.create!(description: "Medium-sized slightly scented semi-double compositae pink flowers with
@@ -9031,7 +10080,9 @@ china_aster.child_flowers.create!(description: "Medium-sized slightly scented se
                                   colour: "Pink, yellow",
                                   significance: "Psychic Transparency",
                                   comment: "Manifests fully only when the psychic is perfectly developed.",
-                                  image_url: "china_aster_single_pink_yellow.jpg"
+                                  image_url: "china_aster_single_pink.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Callistephus_or_china_aster_1950.JPG"
                                  )
 
 china_aster.child_flowers.create!(description: "Medium-sized slightly scented double compositae pink flowers with a
@@ -9040,7 +10091,9 @@ china_aster.child_flowers.create!(description: "Medium-sized slightly scented do
                                   colour: "Pink, yellow",
                                   significance: "Supramentalised Psychic Activity",
                                   comment: "Luminous, manifold, balanced, it meets all needs.",
-                                  image_url: "china_aster_double_pink_yellow.jpg"
+                                  image_url: "china_aster_double_pink.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Asteroideae_Sommeraster_rosa_gelb.jpg"
                                  )
 
 china_aster.child_flowers.create!(description: "Medium-sized slightly scented semi-double compositae light mauve
@@ -9049,7 +10102,9 @@ china_aster.child_flowers.create!(description: "Medium-sized slightly scented se
                                   colour: "Light mauve, yellow",
                                   significance: "Transparency of the Emotional Vital",
                                   comment: "At once the condition and result of the abolition of the ego.",
-                                  image_url: "china_aster_light_mauve_yellow.jpg"
+                                  image_url: "china_aster_light_mauve.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Flowers_of_Bangladesh03.jpg"
                                  )
 
 china_aster.child_flowers.create!(description: "Medium-sized slightly scented semi-double compositae deep mauve to
@@ -9059,7 +10114,9 @@ china_aster.child_flowers.create!(description: "Medium-sized slightly scented se
                                   colour: "Deep mauve to violet, yellow",
                                   significance: "Vital Transparency",
                                   comment: "Indispensable for conversion.",
-                                  image_url: "china_aster_deep_mauve_yellow.jpg"
+                                  image_url: "china_aster_deep_mauve.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Callistephus_or_china_aster_1957.JPG"
                                  )
 
 china_aster.child_flowers.create!(description: "Medium-sized slightly scented double compositae violet flowers with a
@@ -9068,7 +10125,9 @@ china_aster.child_flowers.create!(description: "Medium-sized slightly scented do
                                   colour: "Violet, yellow",
                                   significance: "Supramentalised Vital Transparency",
                                   comment: "One of the results of conversion.",
-                                  image_url: "china_aster_violet_yellow.jpg"
+                                  image_url: "china_aster_violet_yellow.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:China_Aster_(Callistephus_Chinensis).jpg"
                                  )
 
 china_aster.child_flowers.create!(description: "Medium-sized slightly scented semi-double compositae red flowers with
@@ -9077,7 +10136,9 @@ china_aster.child_flowers.create!(description: "Medium-sized slightly scented se
                                   colour: "Red, yellow",
                                   significance: "Transparency in the Physical",
                                   comment: "The physical is preparing itself to be transformed.",
-                                  image_url: "china_aster_red_yellow.jpg"
+                                  image_url: "china_aster_red_yellow.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:%EA%B3%BC%EA%BD%83_%EA%B0%80%EA%B9%8C%EC%9D%B4.JPG"
                                  )
 
 china_aster.child_flowers.create!(description: "Medium-sized slightly scented double compositae white flowers with a
@@ -9086,7 +10147,9 @@ china_aster.child_flowers.create!(description: "Medium-sized slightly scented do
                                   colour: "White, yellow",
                                   significance: "Integral Transparency",
                                   comment: "It is the result of goodwill and perfect sincerity.",
-                                  image_url: "china_aster_double_white_yellow.jpg"
+                                  image_url: "china_aster_double_white.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Asteroideae_Sommeraster_wei%C3%9F.jpg"
                                  )
 
 china_aster.child_flowers.create!(description: "Medium-sized slightly scented semi-double compositae white flowers
@@ -9095,7 +10158,9 @@ china_aster.child_flowers.create!(description: "Medium-sized slightly scented se
                                   colour: "White, yellow",
                                   significance: "Illumined Transparency",
                                   comment: "An effect of the Divine Grace.",
-                                  image_url: "china_aster_semi_double_white_yellow.jpg"
+                                  image_url: "china_aster_semi_double_white_yellow.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Flowers_-_Uncategorised_Garden_plants_75.JPG"
                                  )
 
 # Mudar
@@ -9111,6 +10176,8 @@ mudar = Flower.create!(name: "Mudar",
                        climate: "Tropical and subtropical",
                        image_url: "mudar.jpg",
                        thumbnail_url: "mudar_thumbnail.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Crown_flower_(Calotropis_gigantea),_HortPark,_Singapore_-_20090228-02.jpg"
                       )
 
 mudar.child_flowers.create!(description: "Small mauve star-shaped flower with fleshy petals and a beautifully sculpted
@@ -9119,7 +10186,9 @@ mudar.child_flowers.create!(description: "Small mauve star-shaped flower with fl
                             colour: "Mauve",
                             significance: "Courage",
                             comment: "Bold, it faces all dangers.",
-                            image_url: "mudar_mauve.jpg"
+                            image_url: "mudar_mauve.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:%22CALOTROPIS_GIGANTEA%22.JPG"
                            )
 
 mudar.child_flowers.create!(description: "Small white star-shaped flower with fleshy petals and a beautifully sculpted
@@ -9129,7 +10198,9 @@ mudar.child_flowers.create!(description: "Small white star-shaped flower with fl
                             significance: "Integral Courage",
                             comment: "Whatever the domain, whatever the danger, the attitude remains the same - calm
                                       and assured.",
-                            image_url: "mudar_white.jpg"
+                            image_url: "mudar_white.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Starr_070402-6308_Calotropis_gigantea.jpg"
                            )
 
 # Indian-shot
@@ -9144,6 +10215,8 @@ indian_shot = Flower.create!(name: "Indian-shot",
                              climate: "Found across temperate, subtropical and tropical climates",
                              image_url: "indian_shot.jpg",
                              thumbnail_url: "indian_shot_thumbnail.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Flower_yellow_and_red.jpg"
                             )
 
 indian_shot.child_flowers.create!(description: "Small glowing red flower with slender erect irregularly shaped petals
@@ -9153,7 +10226,9 @@ indian_shot.child_flowers.create!(description: "Small glowing red flower with sl
                                   significance: "Friendship with the Divine",
                                   comment: "Delicate, attentive, and faithful, always ready to respond to the smallest
                                             appeal.",
-                                  image_url: "indian_shot_red_yellow.jpg"
+                                  image_url: "indian_shot_red.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Utoquai_2012-08-08_19-48-10_(WB850F).JPG"
                                  )
 
 indian_shot.child_flowers.create!(description: "Small to medium-sized bright reddish orange flower with slender petals
@@ -9164,7 +10239,9 @@ indian_shot.child_flowers.create!(description: "Small to medium-sized bright red
                                   significance: "Progressive Friendship with the Divine",
                                   comment: "As we progress and purify ourselves of our egoism, our friendship with the
                                             Divine becomes clearer and more conscious.",
-                                  image_url: "indian_shot_red_orange_yellow.jpg"
+                                  image_url: "indian_shot_red_orange.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Canna_-_Howrah_2011-03-20_2095.JPG"
                                  )
 
 indian_shot.child_flowers.create!(description: "Small glowing bright yellow flower with slender erect irregularly
@@ -9173,7 +10250,9 @@ indian_shot.child_flowers.create!(description: "Small glowing bright yellow flow
                                   colour: "Bright yellow",
                                   significance: "Supramental Friendship with the Divine",
                                   comment: "Luminous and light, always smiling.",
-                                  image_url: "indian_shot_yellow.jpg"
+                                  image_url: "indian_shot_yellow.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:JPoblacionSanRoque0661Pandifvf_03.JPG"
                                  )
 
 # Canna Lily
@@ -9188,6 +10267,8 @@ canna_lily = Flower.create!(name: "Canna Lily",
                             climate: "Tropical to warm temperate",
                             image_url: "canna_lily.jpg",
                             thumbnail_url: "canna_lily_thumbnail.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_0364_rbgs10dec.jpg"
                            )
 
 canna_lily.child_flowers.create!(description: "Large showy flowers with three soft round irregular petals in shades of
@@ -9197,7 +10278,9 @@ canna_lily.child_flowers.create!(description: "Large showy flowers with three so
                                  colour: "Multicoloured, shades of white, yellow, and pink",
                                  significance: "Complexity of the Centres",
                                  comment: "Responds to several influences at a time.",
-                                 image_url: "canna_lily_mix.jpg"
+                                 image_url: "canna_lily_mix.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Starr_980528-4108_Canna_x_generalis.jpg"
                                 )
 
 canna_lily.child_flowers.create!(description: "Large showy orange red flower with three soft round irregular petals
@@ -9206,7 +10289,9 @@ canna_lily.child_flowers.create!(description: "Large showy orange red flower wit
                                  colour: "Orange red",
                                  significance: "Physical Centre",
                                  comment: "Occupied mainly with material things, it likes to have an ordered life.",
-                                 image_url: "canna_lily_orange_red.jpg"
+                                 image_url: "canna_lily_orange_red.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:JfCanna_generalis326Arayatfvf.JPG"
                                 )
 
 canna_lily.child_flowers.create!(description: "Large showy dark red flower with three soft round irregular petals
@@ -9215,7 +10300,9 @@ canna_lily.child_flowers.create!(description: "Large showy dark red flower with 
                                  colour: "Dark red",
                                  significance: "Vital Centre",
                                  comment: "Passionate and strong, it needs to be controlled.",
-                                 image_url: "canna_lily_dark_red.jpg"
+                                 image_url: "canna_lily_dark_red.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Utoquai_2010-10-05_18-22-28.JPG"
                                 )
 
 canna_lily.child_flowers.create!(description: "Large showy deep rose pink flower with three soft round irregular
@@ -9224,7 +10311,9 @@ canna_lily.child_flowers.create!(description: "Large showy deep rose pink flower
                                  colour: "Deep rose pink",
                                  significance: "Emotional Centre",
                                  comment: "Vibrant and sensitive, it needs to be controlled.",
-                                 image_url: "canna_lily_rose_pink.jpg"
+                                 image_url: "canna_lily_rose_pink.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Starr_980528-4105_Canna_x_generalis.jpg"
                                 )
 
 canna_lily.child_flowers.create!(description: "Large showy predominantly salmon pink flowers marked with any other
@@ -9233,7 +10322,9 @@ canna_lily.child_flowers.create!(description: "Large showy predominantly salmon 
                                  colour: "Salmon pink",
                                  significance: "Psychic Centre",
                                  comment: "Luminous and calm, it is meant to govern the human being.",
-                                 image_url: "canna_lily_salmon.jpg"
+                                 image_url: "canna_lily_salmon_pink.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Canna_lily_cm.jpg"
                                 )
 
 canna_lily.child_flowers.create!(description: "Large showy pale yellow flower with three soft round irregular petals
@@ -9242,7 +10333,9 @@ canna_lily.child_flowers.create!(description: "Large showy pale yellow flower wi
                                  colour: "Pale yellow",
                                  significance: "Illumined Mind Centre",
                                  comment: "In the peace that comes from the perfect light.",
-                                 image_url: "canna_lily_pale_yellow.jpg"
+                                 image_url: "canna_lily_pale_yellow.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Starr_980528-4104_Canna_x_generalis.jpg"
                                 )
 
 canna_lily.child_flowers.create!(description: "Large showy light or dark yellow flowers having a few red specks
@@ -9252,7 +10345,9 @@ canna_lily.child_flowers.create!(description: "Large showy light or dark yellow 
                                  colour: "Light or dark yellow, red",
                                  significance: "Intuitive Mind Centre",
                                  comment: "The activity of correct perception.",
-                                 image_url: "canna_lily_yellow_red.jpg"
+                                 image_url: "canna_lily_yellow_red.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_0366_rbgs10dec.jpg"
                                 )
 
 canna_lily.child_flowers.create!(description: "Large showy predominantly orange flower with three soft round irregular
@@ -9261,7 +10356,9 @@ canna_lily.child_flowers.create!(description: "Large showy predominantly orange 
                                  colour: "Orange",
                                  significance: "Future Supramental Centre",
                                  comment: "What is involved in Nature will evolve and become manifest.",
-                                 image_url: "canna_lily_orange.jpg"
+                                 image_url: "canna_lily_orange.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_0365_rbgs10dec.jpg"
                                 )
 
 canna_lily.child_flowers.create!(description: "Large showy cream white flower having pink specks with three soft round
@@ -9270,7 +10367,9 @@ canna_lily.child_flowers.create!(description: "Large showy cream white flower ha
                                  colour: "Cream white, pink",
                                  significance: "Ananda in the Centres",
                                  comment: "This will be one of the benefits resulting from physical conversion.",
-                                 image_url: "canna_lily_cream_pink.jpg"
+                                 image_url: "canna_lily_cream_pink.jpg",
+                                   source: "Canna National Collection",
+                                   url: "http://www.canna-collection.org.uk/"
                                 )
 
 canna_lily.child_flowers.create!(description: "Large showy cream white flower having a red centre with three soft
@@ -9280,7 +10379,9 @@ canna_lily.child_flowers.create!(description: "Large showy cream white flower ha
                                  significance: "Ananda in the Physical Body",
                                  comment: "Purified of all desire and all repulsion, with perfect equality and
                                            surrender, the physical body is ready to enjoy the Divine Ananda.",
-                                 image_url: "canna_lily_cream_red.jpg"
+                                 image_url: "canna_lily_cream_red.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Curico,_flores_(12646504963).jpg"
                                 )
 
 canna_lily.child_flowers.create!(description: "Large showy flowers with three soft round irregular petals, all
@@ -9290,7 +10391,9 @@ canna_lily.child_flowers.create!(description: "Large showy flowers with three so
                                  significance: "Connection between the Light and Physical",
                                  comment: "Physical centre touched by the Light. Awakens to the necessity of growth
                                            and blossoming.",
-                                 image_url: "canna_lily_bicoloured_yellow_red.jpg"
+                                 image_url: "canna_lily_bicoloured_yellow_red.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:La_llama_de_tu_amor.jpg"
                                 )
 
 canna_lily.child_flowers.create!(description: "Large showy flowers with three soft round irregular petals, all
@@ -9300,7 +10403,9 @@ canna_lily.child_flowers.create!(description: "Large showy flowers with three so
                                  significance: "Connection between the Supermind and the Physical",
                                  comment: "Physical centre open and full of the Supramental Light. On the way to
                                            transformation, generous and powerful.",
-                                 image_url: "canna_lily_bicoloured_orange_red.jpg"
+                                 image_url: "canna_lily_bicoloured_orange_red.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Canna_cultivar.jpg"
                                 )
 
 # Madagascar Periwinkle
@@ -9315,6 +10420,8 @@ madagascar_periwinkle = Flower.create!(name: "Madagascar Periwinkle",
                                        climate: "Tropical",
                                        image_url: "madagascar_periwinkle.jpg",
                                        thumbnail_url: "madagascar_periwinkle_thumbnail.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Ab_plant_392.jpg"
                                       )
 
 madagascar_periwinkle.child_flowers.create!(description: "Small to medium-sized salverform flowers with a narrow green
@@ -9325,7 +10432,9 @@ madagascar_periwinkle.child_flowers.create!(description: "Small to medium-sized 
                                             colour: "White and shades of pink and red",
                                             significance: "Progress",
                                             comment: "This is why we are on earth.",
-                                            image_url: "madagascar_periwinkle_mix.jpg"
+                                            image_url: "madagascar_periwinkle_mix.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:VincaGarden.JPG"
                                            )
 
 madagascar_periwinkle.child_flowers.create!(description: "Small to medium-sized salverform flowers with a narrow green
@@ -9336,7 +10445,9 @@ madagascar_periwinkle.child_flowers.create!(description: "Small to medium-sized 
                                             significance: "Vital Progress",
                                             comment: "Organisation around the Divine Will and progressive surrender to
                                                       that Will.",
-                                            image_url: "madagascar_periwinkle_pink_violet.jpg"
+                                            image_url: "madagascar_periwinkle_pink_violet.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Catharanthus_roseus,_Kourou_2.jpg"
                                            )
 
 madagascar_periwinkle.child_flowers.create!(description: "Small to medium-sized salverform flowers with a narrow green
@@ -9346,7 +10457,9 @@ madagascar_periwinkle.child_flowers.create!(description: "Small to medium-sized 
                                             colour: "White, violet",
                                             significance: "Integral Progress in the Vital",
                                             comment: "The vital consents to be purified.",
-                                            image_url: "madagascar_periwinkle_white_violet.jpg"
+                                            image_url: "madagascar_periwinkle_white_violet.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Starr_061223-2740_Catharanthus_roseus.jpg"
                                            )
 
 madagascar_periwinkle.child_flowers.create!(description: "Small to medium-sized salverform flowers with a narrow green
@@ -9356,7 +10469,9 @@ madagascar_periwinkle.child_flowers.create!(description: "Small to medium-sized 
                                             colour: "Light pink, red",
                                             significance: "Constant Progress in Matter",
                                             comment: "The result of an ardent aspiration.",
-                                            image_url: "madagascar_periwinkle_pink_red.jpg"
+                                            image_url: "madagascar_periwinkle_pink_red.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:2010._%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0_%D1%86%D0%B2%D0%B5%D1%82%D0%BE%D0%B2_%D0%B2_%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B5_%D0%BD%D0%B0_%D0%B4%D0%B5%D0%BD%D1%8C_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_120.jpg"
                                            )
 
 madagascar_periwinkle.child_flowers.create!(description: "Small to medium-sized salverform flowers with a narrow green
@@ -9366,7 +10481,9 @@ madagascar_periwinkle.child_flowers.create!(description: "Small to medium-sized 
                                             colour: "White, red",
                                             significance: "Integral Progress in Matter",
                                             comment: "Matter awakens to consciousness.",
-                                            image_url: "madagascar_periwinkle_white_red.jpg"
+                                            image_url: "madagascar_periwinkle_white_red.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Catharanthus_roseus_white_CC-BY-SA.jpg"
                                            )
 
 madagascar_periwinkle.child_flowers.create!(description: "Small to medium-sized white salverform flowers with a narrow
@@ -9376,7 +10493,9 @@ madagascar_periwinkle.child_flowers.create!(description: "Small to medium-sized 
                                             colour: "White",
                                             significance: "Integral Progress",
                                             comment: "Can only be satisfied by integrality. The best way to go fast.",
-                                            image_url: "madagascar_periwinkle_white.jpg"
+                                            image_url: "madagascar_periwinkle_white.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Catharanthus_roseus_at_Universitas_Gadjah_Mada,_Yogyakarta,_2014-04-30_06.jpg"
                                            )
 
 madagascar_periwinkle.child_flowers.create!(description: "Small to medium-sized salverform flowers with a narrow green
@@ -9386,7 +10505,9 @@ madagascar_periwinkle.child_flowers.create!(description: "Small to medium-sized 
                                             colour: "Light pink violet, white",
                                             significance: "Uninterrupted but Spasmodic Progress",
                                             comment: "Now here, now there, apparently very impulsive.",
-                                            image_url: "madagascar_periwinkle_pink_violet_white.jpg"
+                                            image_url: "madagascar_periwinkle_pink_violet_white.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Catharanthus_roseus_26_10_2009.jpg"
                                            )
 
 # Orchid
@@ -9404,7 +10525,9 @@ orchid = Flower.create!(name: "Orchid",
                         place: "Found in many different regions",
                         climate: "Found across temperate, subtropical and tropical climates, but mostly tropical",
                         image_url: "orchid.jpg",
-                        thumbnail_url: "orchid__thumbnail.jpg",
+                        thumbnail_url: "orchid_thumbnail.jpg",
+                        source: "Wikimedia Commons",
+                        url: "https://commons.wikimedia.org/wiki/File:Cattleya_mossiae2.jpg"
                        )
 
 orchid.child_flowers.create!(bot_name: "Cattleya",
@@ -9417,7 +10540,9 @@ orchid.child_flowers.create!(bot_name: "Cattleya",
                              significance: "Attachment to the Divine",
                              comment: "Wraps itself around the Divine and finds all its support in Him so as to be
                                        sure of never leaving Him. Offers itself spontaneously to the Divine.",
-                             image_url: "orchid_mix.jpg"
+                             image_url: "orchid_mix.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Dungsia_harpophylla.jpg"
                             )
 
 orchid.child_flowers.create!(bot_name: "Cattleya",
@@ -9430,7 +10555,9 @@ orchid.child_flowers.create!(bot_name: "Cattleya",
                              significance: "Beauty of Attachment to the Divine",
                              comment: "When the physical world manifests the splendour of the Divine, all will become
                                        marvellous.",
-                             image_url: "orchid_lavender_pink.jpg"
+                             image_url: "orchid_lavender_pink.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:A_and_B_Larsen_orchids_-_Cattleya_lueddemannia597-21.jpg"
                             )
 
 orchid.child_flowers.create!(bot_name: "Dendrobium moschatum",
@@ -9441,7 +10568,9 @@ orchid.child_flowers.create!(bot_name: "Dendrobium moschatum",
                              colour: "Pale golden orange",
                              significance: "Mental Attachment to the Divine",
                              comment: "Beautiful in form and in expression.",
-                             image_url: "orchid_golden_orange.jpg"
+                             image_url: "orchid_golden_orange.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Dendrobium_moschatum_(Ecological_Botanical_Gardens_2015_-_04).jpg"
                             )
 
 orchid.child_flowers.create!(bot_name: "Papilionanthe teres [Vanda teres]",
@@ -9452,7 +10581,9 @@ orchid.child_flowers.create!(bot_name: "Papilionanthe teres [Vanda teres]",
                              colour: "Pale pinkish lavender, golden yellow",
                              significance: "Emotional Attachment to the Divine",
                              comment: "Cups of flowery feeling offered to the Divine",
-                             image_url: "orchid_pink_golden.jpg"
+                             image_url: "orchid_pink_golden.jpg",
+                             source: "MaX Fulcher",
+                             url: "https://www.flickr.com/photos/maxful/11302326975/"
                             )
 
 orchid.child_flowers.create!(bot_name: "Vanda tessellata",
@@ -9464,14 +10595,16 @@ orchid.child_flowers.create!(bot_name: "Vanda tessellata",
                              significance: "Detailed Attachment to the Divine",
                              comment: "Manifold, scrupulous, neglecting nothing, always ready to make an effort,
                                        meticulous.",
-                             image_url: "orchid_green_lavender.jpg"
+                             image_url: "orchid_green_lavender.jpg",
+                             source: "crazyforflowers, Orchids Forum",
+                             url: "https://www.orchidsforum.com/threads/vanda-tessellata.14141/"
                             )
 
 # Feathered Amaranth
 
 feathered_amaranth = Flower.create!(name: "Feathered Amaranth",
                                     other_names: "",
-                                    bot_name: "Celosia argentea (Plumosa)",
+                                    bot_name: "Celosia argentea var. plumosa",
                                     family: "Amaranthaceae",
                                     petals: "",
                                     size: "Tiny",
@@ -9479,6 +10612,8 @@ feathered_amaranth = Flower.create!(name: "Feathered Amaranth",
                                     climate: "Tropical and subtropical",
                                     image_url: "feathered_amaranth.jpg",
                                     thumbnail_url: "feathered_amaranth_thumbnail.jpg",
+                                    source: "LookForDiagnosis.com - Medical Diagnosis and Medicinal Plants",
+                                    url: "http://www.lookfordiagnosis.com/mesh_info.php?term=Celosia&lang=1"
                                    )
 
 feathered_amaranth.child_flowers.create!(description: "Long erect branching spikes of tiny golden yellow loosely
@@ -9487,7 +10622,9 @@ feathered_amaranth.child_flowers.create!(description: "Long erect branching spik
                                          colour: "Golden yellow",
                                          significance: "Abundant Expression",
                                          comment: "Has much to say and says it fully.",
-                                         image_url: "feathered_amaranth_golden_yellow.jpg"
+                                         image_url: "feathered_amaranth_golden_yellow.jpg",
+                                         source: "Timo Kuusela",
+                                         url: "https://www.flickr.com/photos/rdvortex/662017643"
                                         )
 
 feathered_amaranth.child_flowers.create!(description: "Long erect branching spikes of tiny golden orange loosely
@@ -9496,16 +10633,20 @@ feathered_amaranth.child_flowers.create!(description: "Long erect branching spik
                                          colour: "Golden orange",
                                          significance: "Joyful Expression",
                                          comment: "It enjoys itself and gives enjoyment to others.",
-                                         image_url: "feathered_amaranth_golden_orange.jpg"
+                                         image_url: "feathered_amaranth_golden_orange.jpg",
+                                         source: "Nargil - Plant Database",
+                                         url: "http://nargil.ir/plant/houseplants.aspx?pid=107"
                                         )
 
 feathered_amaranth.child_flowers.create!(description: "Long erect branching spikes of tiny greenish white loosely
                                                        arranged everlasting flowers that form soft feathery plumes. A
                                                        showy floriferous garden annual.",
                                          colour: "Greenish white",
-                                         significance: "Attempt towards Immortality",
+                                         significance: "Attempt Towards Immortality",
                                          comment: "Persistent and coordinated.",
-                                         image_url: "feathered_amaranth_green_white.jpg"
+                                         image_url: "feathered_amaranth_green_white.jpg",
+                                         source: "Prof. Summer's Web Garden - Japanese Wild Flowers",
+                                         url: "http://flowers.la.coocan.jp/Amaranthaceae/Celosia%20argentea.htm"
                                         )
 
 feathered_amaranth.child_flowers.create!(description: "Long erect branching spikes of loosely arranged everlasting
@@ -9515,7 +10656,9 @@ feathered_amaranth.child_flowers.create!(description: "Long erect branching spik
                                          colour: "All colours",
                                          significance: "Aspiration for Immortality",
                                          comment: "Pure, soaring, full of trust.",
-                                         image_url: "feathered_amaranth_mix.jpg"
+                                         image_url: "feathered_amaranth_mix.jpg",
+                                         source: "Horticulture 131, PennState",
+                                         url: "http://www.personal.psu.edu/rdb4/hort131/weekly-lessons/week-4/week-4-plants/celosia/"
                                         )
 
 feathered_amaranth.child_flowers.create!(description: "Long erect branching spikes of tiny purplish pink loosely
@@ -9524,7 +10667,9 @@ feathered_amaranth.child_flowers.create!(description: "Long erect branching spik
                                          colour: "Purplish pink",
                                          significance: "Vital Aspiration for Immortality",
                                          comment: "Clustered, intense, but short-lived.",
-                                         image_url: "feathered_amaranth_purple_pink.jpg"
+                                         image_url: "feathered_amaranth_purple_pink.jpg",
+                                         source: "Wikimedia Commons",
+                                         url: "https://commons.wikimedia.org/wiki/File:Celosia_plumosa_02.jpg"
                                         )
 
 feathered_amaranth.child_flowers.create!(description: "Long erect branching spikes of tiny red loosely arranged
@@ -9533,7 +10678,9 @@ feathered_amaranth.child_flowers.create!(description: "Long erect branching spik
                                          colour: "Red",
                                          significance: "Physical Aspiration for Immortality",
                                          comment: "Intense aspiration, but ignorant of the means.",
-                                         image_url: "feathered_amaranth_red.jpg"
+                                         image_url: "feathered_amaranth_red_1.jpg",
+                                         source: "Horticulture 131, PennState",
+                                         url: "http://www.personal.psu.edu/rdb4/hort131/weekly-lessons/week-4/week-4-plants/celosia/"
                                         )
 
 feathered_amaranth.child_flowers.create!(description: "Long erect branching spikes of tiny red loosely arranged
@@ -9542,14 +10689,16 @@ feathered_amaranth.child_flowers.create!(description: "Long erect branching spik
                                          colour: "Red",
                                          significance: "Spiritual Aspiration in the Vital",
                                          comment: "",
-                                         image_url: "feathered_amaranth_red.jpg"
+                                         image_url: "feathered_amaranth_red_2.jpg",
+                                         source: "Bedding Plants, Auburn University Landscape Horticulture",
+                                         url: "http://www.ag.auburn.edu/hort/landscape/BEDDING_celosia_argentea_var.plumosa_'Fresh_Look_Red'.html"
                                         )
 
 # Common Cockscomb
 
 common_cockscomb = Flower.create!(name: "Common Cockscomb",
                                   other_names: "",
-                                  bot_name: "Celosia argentea (Cristata)",
+                                  bot_name: "Celosia argentea var. cristata",
                                   family: "Amaranthaceae",
                                   petals: "",
                                   size: "",
@@ -9557,6 +10706,8 @@ common_cockscomb = Flower.create!(name: "Common Cockscomb",
                                   climate: "Tropical and subtropical",
                                   image_url: "common_cockscomb.jpg",
                                   thumbnail_url: "common_cockscomb_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Celosia_argentea_cristata_1.jpg"
                                  )
 
 common_cockscomb.child_flowers.create!(description: "Colourful compact velvety rounded or flared floral heads with
@@ -9566,7 +10717,9 @@ common_cockscomb.child_flowers.create!(description: "Colourful compact velvety r
                                        colour: "White and shades of yellow, orange, pink, purple, and red",
                                        significance: "Boldness",
                                        comment: "Do fearlessly what has to be done, dreading no difficulty.",
-                                       image_url: "common_cockscomb_mix.jpg"
+                                       image_url: "common_cockscomb_mix.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Cockscomb_or_Celosia_argentea_from_lalbagh_1700.JPG"
                                       )
 
 common_cockscomb.child_flowers.create!(description: "Green compact velvety rounded or flared floral heads with
@@ -9575,7 +10728,9 @@ common_cockscomb.child_flowers.create!(description: "Green compact velvety round
                                        colour: "Green",
                                        significance: "Spontaneous Boldness",
                                        comment: "One of the results of perfect trust in the Divine",
-                                       image_url: "common_cockscomb_green.jpg"
+                                       image_url: "common_cockscomb_green.jpg",
+                                       source: "Mark Dwyer, Rotary Botanical Gardens Horticulture Blog",
+                                       url: "http://rotarygardens.blogspot.in/2013/10/hls-set-up-commences.html"
                                       )
 
 common_cockscomb.child_flowers.create!(description: "Yellow compact velvety rounded or flared floral heads with
@@ -9584,7 +10739,9 @@ common_cockscomb.child_flowers.create!(description: "Yellow compact velvety roun
                                        colour: "Yellow",
                                        significance: "Mental Boldness",
                                        comment: "May your mind be capable of foreseeing the perfections of tomorrow.",
-                                       image_url: "common_cockscomb_yellow.jpg"
+                                       image_url: "common_cockscomb_yellow.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Celosia.JPG"
                                       )
 
 common_cockscomb.child_flowers.create!(description: "Dark red compact velvety rounded or flared floral heads with
@@ -9593,7 +10750,9 @@ common_cockscomb.child_flowers.create!(description: "Dark red compact velvety ro
                                        colour: "Dark red",
                                        significance: "Vital Boldness",
                                        comment: "Should submit to reason.",
-                                       image_url: "common_cockscomb_dark_red.jpg"
+                                       image_url: "common_cockscomb_dark_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Unidentified_flower_(2981650843).jpg"
                                       )
 
 common_cockscomb.child_flowers.create!(description: "Red compact velvety rounded or flared floral heads with intricate
@@ -9602,7 +10761,9 @@ common_cockscomb.child_flowers.create!(description: "Red compact velvety rounded
                                        colour: "Red",
                                        significance: "Physical Boldness",
                                        comment: "Nothing seems impossible in its consecration to the Divine.",
-                                       image_url: "common_cockscomb_red.jpg"
+                                       image_url: "common_cockscomb_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Celosia_argentea_var._cristata.JPG"
                                       )
 
 # Bag Flower
@@ -9617,6 +10778,8 @@ bag_flower = Flower.create!(name: "Bag Flower",
                             climate: "Tropical to warm temperate",
                             image_url: "bag_flower.jpg",
                             thumbnail_url: "bag_flower_thumbnail.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Clerodendrum_quadriloculare102636383.jpg"
                            )
 
 bag_flower.child_flowers.create!(description: "Small very delicate white salverform flower with a long thin
@@ -9626,7 +10789,10 @@ bag_flower.child_flowers.create!(description: "Small very delicate white salverf
                                  colour: "White, rose violet",
                                  significance: "Belief",
                                  comment: "Simple and candid, does not question.",
-                                 image_url: "bag_flower_white_rose_violet.jpg")
+                                 image_url: "bag_flower_1.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Clerodendrum_quadriloculare_-_Hong_Kong_Park_Conservatory_-_IMG_9811.JPG"
+                                )
 
 bag_flower.child_flowers.create!(description: "Small mildly fragrant white salverform flower with exserted white
                                                stamens, a thin corolla tube and five narrow lobes with
@@ -9635,7 +10801,10 @@ bag_flower.child_flowers.create!(description: "Small mildly fragrant white salve
                                  colour: "White",
                                  significance: "Divine Will Acting in the Inconscient",
                                  comment: "Is all-powerful even when we are not aware of it.",
-                                 image_url: "bag_flower_white.jpg")
+                                 image_url: "bag_flower_2.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Starr_090213-2510_Clerodendrum_quadriloculare.jpg"
+                                )
 
 # Blue Pea
 
@@ -9651,6 +10820,8 @@ blue_pea = Flower.create!(name: "Blue Pea",
                           climate: "Mostly tropical",
                           image_url: "blue_pea.jpg",
                           thumbnail_url: "blue_pea_thumbnail.jpg",
+                          source: "Wikimedia Commons",
+                          url: "https://commons.wikimedia.org/wiki/File:Starr_070402-6245_Clitoria_ternatea.jpg"
                          )
 
 blue_pea.child_flowers.create!(description: "Medium-sized single or double ultramarine blue papilionaceous flower that
@@ -9660,7 +10831,9 @@ blue_pea.child_flowers.create!(description: "Medium-sized single or double ultra
                                colour: "Ultramarine blue, yellow, pale blue",
                                significance: "Radha’s Consciousness",
                                comment: "Symbolises perfect attachment to the Divine.",
-                               image_url: "blue_pea_ultramarine_blue_yellow.jpg"
+                               image_url: "blue_pea_ultramarine_blue_yellow.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Clitoria_ternatea.jpg"
                               )
 
 blue_pea.child_flowers.create!(description: "Medium-sized single light purple or mauve papilionaceous flower that has
@@ -9670,7 +10843,9 @@ blue_pea.child_flowers.create!(description: "Medium-sized single light purple or
                                colour: "Light purple or mauve, yellow, pale blue",
                                significance: "Radha’s Consciousness in the Vital",
                                comment: "Perfect attachment to the Divine replaces all vital attractions and passions.",
-                               image_url: "blue_pea_purple_yellow.jpg"
+                               image_url: "blue_pea_purple_yellow.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Clitoria_MS4124.JPG"
                               )
 
 blue_pea.child_flowers.create!(description: "Medium-sized single papilionaceous flower that has a broad oval pale blue
@@ -9680,7 +10855,9 @@ blue_pea.child_flowers.create!(description: "Medium-sized single papilionaceous 
                                colour: "Pale blue, yellow",
                                significance: "Krishna’s Light in the Senses",
                                comment: "A first step towards transformation.",
-                               image_url: "blue_pea_pale_blue_yellow.jpg"
+                               image_url: "blue_pea_pale_blue_yellow.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Starr_070402-6246_Clitoria_ternatea.jpg"
                               )
 
 blue_pea.child_flowers.create!(description: "Medium-sized single papilionaceous flower that has a broad oval white
@@ -9689,7 +10866,9 @@ blue_pea.child_flowers.create!(description: "Medium-sized single papilionaceous 
                                colour: "White, yellow",
                                significance: "Purified Senses",
                                comment: "Can only be obtained by total surrender to the Truth.",
-                               image_url: "blue_pea_white.jpg"
+                               image_url: "blue_pea_white.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:White_Clitoria_ternatea.jpg"
                               )
 
 # Dayflower
@@ -9704,6 +10883,8 @@ dayflower = Flower.create!(name: "Dayflower",
                            climate: "Found across temperate, subtropical and tropical climates",
                            image_url: "dayflower.jpg",
                            thumbnail_url: "dayflower_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Commelina_dayflower.jpg"
                           )
 
 dayflower.child_flowers.create!(description: "Small clear sky blue flower with two prominent clawed slightly ruffled
@@ -9713,7 +10894,9 @@ dayflower.child_flowers.create!(description: "Small clear sky blue flower with t
                                 colour: "Sky blue, bright yellow",
                                 significance: "Charity",
                                 comment: "Simple and sweet, attentive to the needs of all.",
-                                image_url: "dayflower_blue_yellow.jpg"
+                                image_url: "dayflower_blue.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Commelina-communis-B.jpg"
                                )
 
 dayflower.child_flowers.create!(description: "Tiny blue to lavender flower with two upper clawed petals, one lower
@@ -9723,7 +10906,9 @@ dayflower.child_flowers.create!(description: "Tiny blue to lavender flower with 
                                 significance: "First Conscious Reception of the Light in Nature",
                                 comment: "The origin or starting-point of the will to progress. Nature has an
                                           instinctive thirst for Light.",
-                                image_url: "dayflower_lavender.jpg"
+                                image_url: "dayflower_lavender.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Commelina_benghalensis_inflorescence_Layton_170_XTBG.JPG"
                                )
 
 # Cannonball Tree
@@ -9739,6 +10924,8 @@ cannonball_tree = Flower.create!(name: "Cannonball Tree",
                                  climate: "Tropical",
                                  image_url: "cannonball_tree.jpg",
                                  thumbnail_url: "cannonball_tree_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Abric%C3%B3-de-macaco_flor.jpg"
                                 )
 
 cannonball_tree.child_flowers.create!(description: "Large very fragrant light to deep red flowers with six wide fleshy
@@ -9749,7 +10936,9 @@ cannonball_tree.child_flowers.create!(description: "Large very fragrant light to
                                       colour: "Light to deep red, yellow",
                                       significance: "Prosperity",
                                       comment: "Remains only with him who offers it to the Divine.",
-                                      image_url: "cannonball_tree_red.jpg"
+                                      image_url: "cannonball_tree_red.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:Ricardo_Haleck_-_049.jpg"
                                      )
 
 cannonball_tree.child_flowers.create!(description: "Large very fragrant pink and white flowers with six wide fleshy
@@ -9760,7 +10949,9 @@ cannonball_tree.child_flowers.create!(description: "Large very fragrant pink and
                                       colour: "Pink, white, yellow",
                                       significance: "Unselfish Prosperity",
                                       comment: "He who receives it abundantly gives all that he has as he receives it.",
-                                      image_url: "cannonball_tree_pink_white.jpg"
+                                      image_url: "cannonball_tree_pink_white.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:Cannonball_Tree_Flower.jpg"
                                      )
 
 # Crinum Lily
@@ -9775,6 +10966,8 @@ crinum_lily = Flower.create!(name: "Crinum Lily",
                              climate: "Tropical and subtropical",
                              image_url: "crinum_lily.jpg",
                              thumbnail_url: "crinum_lily_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Starr_061017-1201_Crinum_sp..jpg"
                             )
 
 crinum_lily.child_flowers.create!(description: "Large fragrant white salverform flower with six narrow or broad partly
@@ -9784,7 +10977,9 @@ crinum_lily.child_flowers.create!(description: "Large fragrant white salverform 
                                   colour: "White, reddish purple",
                                   significance: "Disinterested Work Done for the Divine",
                                   comment: "The surest way to progress.",
-                                  image_url: "crinum_lily_white_reddish_purple.jpg"
+                                  image_url: "crinum_lily_white_reddish_purple.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:CrinumAugustumKeyWest.JPG"
                                  )
 
 crinum_lily.child_flowers.create!(description: "Very large white salverform flower with long tapering fleshy recurved
@@ -9794,7 +10989,9 @@ crinum_lily.child_flowers.create!(description: "Very large white salverform flow
                                   colour: "White, reddish purple, purple",
                                   significance: "Disinterested Work Done for the Divine in the Vital",
                                   comment: "Calm and powerful, it reaches its goal.",
-                                  image_url: "crinum_lily_white_purple.jpg"
+                                  image_url: "crinum_lily_white_purple.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Starr_030807-0090_Crinum_sp..jpg"
                                  )
 
 crinum_lily.child_flowers.create!(description: "Large fragrant white lily like flower with a long narrow green tube
@@ -9804,7 +11001,9 @@ crinum_lily.child_flowers.create!(description: "Large fragrant white lily like f
                                   colour: "White, green, light pink",
                                   significance: "Joy of Integral Peace",
                                   comment: "Calm and tranquil, an unfailing smile.",
-                                  image_url: "crinum_lily_white_pink.jpg"
+                                  image_url: "crinum_lily_white_pink.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:P%C3%A1jara_Morro_Jable_-_Calle_Nasas_02_ies.jpg"
                                  )
 
 # Firecracker Flower
@@ -9819,6 +11018,8 @@ firecracker_flower = Flower.create!(name: "Firecracker Flower",
                                     climate: "Tropical",
                                     image_url: "firecracker_flower.jpg",
                                     thumbnail_url: "firecracker_flower_thumbnail.jpg",
+                                    source: "Luke McGuff",
+                                    url: "https://www.flickr.com/photos/holyoutlaw/4693673399"
                                    )
 
 firecracker_flower.child_flowers.create!(description: "Small showy bright orange half-salverform flower with a tiny
@@ -9828,7 +11029,9 @@ firecracker_flower.child_flowers.create!(description: "Small showy bright orange
                                          colour: "Bright orange, yellow",
                                          significance: "Supramental Influence in the Subconscient",
                                          comment: "Under its modest appearance, it is a great force of transformation.",
-                                         image_url: "firecracker_flower_orange.jpg"
+                                         image_url: "firecracker_flower_orange.jpg",
+                                         source: "Hafiz Issadeen",
+                                         url: "https://www.flickr.com/photos/yimhafiz/4182678135/"
                                         )
 
 firecracker_flower.child_flowers.create!(description: "Small showy bright yellow half-salverform flower with a limb
@@ -9837,7 +11040,9 @@ firecracker_flower.child_flowers.create!(description: "Small showy bright yellow
                                          colour: "Bright yellow",
                                          significance: "Supramental Light in the Subconscient",
                                          comment: "Essential condition for transformation.",
-                                         image_url: "firecracker_flower_yellow.jpg"
+                                         image_url: "firecracker_flower_yellow.jpg",
+                                         source: "Lalithamba",
+                                         url: "https://www.flickr.com/photos/45835639@N04/10979322993/"
                                         )
 
 firecracker_flower.child_flowers.create!(description: "Small showy bright salmon pink half-salverform flower with a
@@ -9846,7 +11051,9 @@ firecracker_flower.child_flowers.create!(description: "Small showy bright salmon
                                          colour: "Bright salmon pink",
                                          significance: "Psychic Light in the Subconscient",
                                          comment: "Preliminary condition for progress.",
-                                         image_url: "firecracker_flower_salmon.jpg"
+                                         image_url: "firecracker_flower_salmon.jpg",
+                                         source: "Vishwas Krishna",
+                                         url: "https://www.flickr.com/photos/howard84/6246854804/"
                                         )
 
 # Common Broom
@@ -9863,20 +11070,26 @@ common_broom = Flower.create!(name: "Common Broom",
                               climate: "Temperate",
                               image_url: "common_broom.jpg",
                               thumbnail_url: "common_broom_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:20140504Cytisus_scoparius1.jpg"
                              )
 
 common_broom.child_flowers.create!(description: "Small yellow to golden yellow papilionaceous flowers borne on loose,
                                                  leafy, terminal racemes. Numerous species of deciduous or almost
                                                  leafless shrubs and small trees.",
                                    colour: "Yellow to golden yellow",
-                                   image_url: "common_broom_yellow.jpg"
+                                   image_url: "common_broom_yellow.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:20140504Cytisus_scoparius2.jpg"
                                   )
 
 common_broom.child_flowers.create!(description: "Small yellow papilionaceous flower with dark crimson wings, borne
                                                  singly or in pairs in the leaf axils. A large profusely flowering
                                                  shrub.",
                                    colour: "Yellow, dark crimson",
-                                   image_url: "common_broom_yellow_crimson.jpg"
+                                   image_url: "common_broom_yellow_crimson.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Cytisus_scoparius_flower_1.jpg"
                                   )
 
 # Dahlia
@@ -9891,6 +11104,8 @@ dahlia = Flower.create!(name: "Dahlia",
                         climate: "Mostly tropical",
                         image_url: "dahlia.jpg",
                         thumbnail_url: "dahlia_thumbnail.jpg",
+                        source: "Wikimedia Commons",
+                        url: "https://commons.wikimedia.org/wiki/File:Dahlia_-_Indian_Botanic_Garden_-_Howrah_2012-01-29_1768.JPG"
                        )
 
 dahlia.child_flowers.create!(description: "Very large (over 16 cm) fully double flowers with somewhat narrow, pointed
@@ -9901,7 +11116,9 @@ dahlia.child_flowers.create!(description: "Very large (over 16 cm) fully double 
                              significance: "Aristocracy",
                              comment: "Incapable of baseness and pettiness, it asserts itself with dignity and
                                        authority.",
-                             image_url: "dahlia_double_mix.jpg"
+                             image_url: "dahlia_double_xl.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Dahlia_-_Indian_Botanic_Garden_-_Howrah_2012-01-29_1769.JPG"
                             )
 
 dahlia.child_flowers.create!(description: "Medium to large (10-15 cm) fully double flowers with symmetrically arranged
@@ -9910,7 +11127,9 @@ dahlia.child_flowers.create!(description: "Medium to large (10-15 cm) fully doub
                              colour: "Many colours",
                              significance: "Dignity",
                              comment: "Affirms its worth, but asks for nothing.",
-                             image_url: "dahlia_double_mix.jpg"
+                             image_url: "dahlia_double_l.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:20140901_Dahlien_0012.jpg"
                             )
 
 dahlia.child_flowers.create!(description: "Medium to large (10-15 cm) fully double pink flowers with symmetrically
@@ -9918,7 +11137,9 @@ dahlia.child_flowers.create!(description: "Medium to large (10-15 cm) fully doub
                              colour: "Pink",
                              significance: "Psychic Dignity",
                              comment: "Refuses all that lowers or debases.",
-                             image_url: "dahlia_pink.jpg"
+                             image_url: "dahlia_pink.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/w/index.php?title=File:Dahlia.tif&page=1"
                             )
 
 dahlia.child_flowers.create!(description: "Medium to large (10-15 cm) fully double orange yellow flowers with
@@ -9927,7 +11148,9 @@ dahlia.child_flowers.create!(description: "Medium to large (10-15 cm) fully doub
                              colour: "Orange yellow",
                              significance: "Supramentalised Mental Dignity",
                              comment: "Tolerates no pettiness in thought turned towards the Truth.",
-                             image_url: "dahlia_orange_yellow.jpg"
+                             image_url: "dahlia_yellow_orange.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Dahlia_%27Bad_Neuenahr%27.jpg"
                             )
 
 dahlia.child_flowers.create!(description: "Medium to large (10-15 cm) fully double mauve pink flowers with
@@ -9936,7 +11159,9 @@ dahlia.child_flowers.create!(description: "Medium to large (10-15 cm) fully doub
                              colour: "Mauve pink",
                              significance: "Dignity of the Emotions",
                              comment: "Not to allow one’s emotions to contradict the inner Divinity.",
-                             image_url: "dahlia_mauve_pink.jpg"
+                             image_url: "dahlia_mauve_pink.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:36Dahlia.JPG"
                             )
 
 dahlia.child_flowers.create!(description: "Medium to large (10-15 cm) fully double intense red flowers with
@@ -9945,7 +11170,9 @@ dahlia.child_flowers.create!(description: "Medium to large (10-15 cm) fully doub
                              colour: "Intense red",
                              significance: "Dignity in the Physical",
                              comment: "Above bargaining.",
-                             image_url: "dahlia_red.jpg"
+                             image_url: "dahlia_red.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:20140901_Dahlien_0014.jpg"
                             )
 
 dahlia.child_flowers.create!(description: "Very large (over 16 cm) fully double showy deep wine red flower with
@@ -9954,7 +11181,9 @@ dahlia.child_flowers.create!(description: "Very large (over 16 cm) fully double 
                              colour: "Deep wine red",
                              significance: "Nobility",
                              comment: "The incapacity for any pettiness of feeling or action.",
-                             image_url: "dahlia_wine_red.jpg"
+                             image_url: "dahlia_wine_red.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Dahlia_%27Natal%27.jpg"
                             )
 
 dahlia.child_flowers.create!(description: "Very large (over 16 cm.) double pure white compositae flower showing no
@@ -9964,7 +11193,9 @@ dahlia.child_flowers.create!(description: "Very large (over 16 cm.) double pure 
                              colour: "Pure white",
                              significance: "Superhumanity",
                              comment: "The aim of our aspirations.",
-                             image_url: "dahlia_pure_white.jpg"
+                             image_url: "dahlia_pure_white.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Schloss_Schwerin_Haslhofer.JPG"
                             )
 
 dahlia.child_flowers.create!(description: "Medium-sized single compositae flower, in all colours, with eight
@@ -9975,7 +11206,9 @@ dahlia.child_flowers.create!(description: "Medium-sized single compositae flower
                              colour: "All colours",
                              significance: "Vanity",
                              comment: "One of the most frequent forms of falsehood.",
-                             image_url: "dahlia_single.jpg"
+                             image_url: "dahlia_single_mix.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Dahlia_at_lalbagh_flower_show_7181.JPG"
                             )
 
 dahlia.child_flowers.create!(description: "Medium-sized semi-double compositae flowers with two or three rows of ray
@@ -9985,15 +11218,19 @@ dahlia.child_flowers.create!(description: "Medium-sized semi-double compositae f
                              colour: "White and shades of red, pink, lavender, purple, orange, and yellow",
                              significance: "Pride",
                              comment: "A great obstacle to progress.",
-                             image_url: "dahlia_semi_double_mix.jpg"
+                             image_url: "dahlia_semi_double_mix.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Dahlia_at_Lalbagh_flowershow_aug2011_7048.JPG"
                             )
 
 dahlia.child_flowers.create!(description: "Medium-sized semi-double yellow compositae flowers with two or three rows
                                            of ray florets and a central yellow disc; borne singly or in clusters.",
                              colour: "Yellow",
-                             significance: "Mental pride ",
+                             significance: "Mental Pride ",
                              comment: "",
-                             image_url: "dahlia_semi_double_yellow.jpg"
+                             image_url: "dahlia_semi_double_yellow.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Dahlia_at_lalbagh_flower_show_7180.JPG"
                             )
 
 # Thorn Apple
@@ -10007,7 +11244,9 @@ thorn_apple = Flower.create!(name: "Thorn Apple",
                              place: "Found across tropical and temperate regions across the world",
                              climate: "Found across a wide range of climates",
                              image_url: "thorn_apple.jpg",
-                             thumbnail_url: "thorn_apple_thumbnail.jpg"
+                             thumbnail_url: "thorn_apple_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Datura_candida_(flower)_01.jpg"
                             )
 
 thorn_apple.child_flowers.create!(description: "Large single white mildly fragrant erect trumpet-shaped flower with
@@ -10018,7 +11257,9 @@ thorn_apple.child_flowers.create!(description: "Large single white mildly fragra
                                   colour: "White, green",
                                   significance: "Tapasya",
                                   comment: "A discipline with the aim of realising the Divine.",
-                                  image_url: "thorn_apple_white.jpg"
+                                  image_url: "thorn_apple_white.jpg",
+                                  source: "tOrange - Free Photobank",
+                                  url: "http://www.torange.us/Plants/Flowers/Large-White-flower-Datura-6970.html"
                                  )
 
 thorn_apple.child_flowers.create!(description: "Large single or double mildly fragrant erect trumpet-shaped yellow
@@ -10029,7 +11270,9 @@ thorn_apple.child_flowers.create!(description: "Large single or double mildly fr
                                   colour: "Yellow, green",
                                   significance: "Mental Tapasya",
                                   comment: "The process leading to the goal.",
-                                  image_url: "thorn_apple_yellow.jpg"
+                                  image_url: "thorn_apple_yellow.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Datura_metel_fleur_fruit.jpg"
                                  )
 
 thorn_apple.child_flowers.create!(description: "Large single, double or triple mildly fragrant erect trumpet-shaped
@@ -10040,7 +11283,9 @@ thorn_apple.child_flowers.create!(description: "Large single, double or triple m
                                   colour: "Violet, green",
                                   significance: "Vital Tapasya",
                                   comment: "The vital undergoes a rigorous discipline in order to transform itself.",
-                                  image_url: "thorn_apple_violet.jpg"
+                                  image_url: "thorn_apple_violet.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Datura_metel_%22Fastuosa%22_4.JPG"
                                  )
 
 thorn_apple.child_flowers.create!(description: "Large double mildly fragrant erect trumpet-shaped white flower with
@@ -10050,7 +11295,9 @@ thorn_apple.child_flowers.create!(description: "Large double mildly fragrant ere
                                   colour: "White",
                                   significance: "Integral Tapasya",
                                   comment: "The whole being lives only to know and serve the Divine.",
-                                  image_url: "thorn_apple_double_white.jpg"
+                                  image_url: "thorn_apple_double_white.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Datura_metel_Chlorantha257929451.jpg"
                                  )
 
 # Florists' Chrysanthemum
@@ -10065,6 +11312,8 @@ florists_chrysanthemum = Flower.create!(name: "Florists' Chrysanthemum",
                                         climate: "Subtropical to temperate",
                                         image_url: "florists_chrysanthemum.jpg",
                                         thumbnail_url: "florists_chrysanthemum_thumbnail.jpg",
+                                        source: "Wikimedia Commons",
+                                        url: "https://commons.wikimedia.org/wiki/File:ChrysanthemumMorifolium6.jpg"
                                        )
 
 florists_chrysanthemum.child_flowers.create!(description: "Medium to large double compositae flowers in a variety of
@@ -10075,7 +11324,9 @@ florists_chrysanthemum.child_flowers.create!(description: "Medium to large doubl
                                              colour: "White and shades of yellow, bronze, pink, red, and mauve",
                                              significance: "Life Energy",
                                              comment: "Powerful and manifold, meets all needs.",
-                                             image_url: "florists_chrysanthemum_mix.jpg"
+                                             image_url: "florists_chrysanthemum_mix.jpg",
+                                             source: "Wikimedia Commons",
+                                             url: "https://commons.wikimedia.org/wiki/File:Chrysanthemums.jpg"
                                             )
 
 florists_chrysanthemum.child_flowers.create!(description: "Medium to large double compositae white flowers in a
@@ -10085,7 +11336,9 @@ florists_chrysanthemum.child_flowers.create!(description: "Medium to large doubl
                                              colour: "White",
                                              significance: "Purified Dynamic Life Energy",
                                              comment: "Superb, indomitable, all-powerful in its purity.",
-                                             image_url: "florists_chrysanthemum_white.jpg"
+                                             image_url: "florists_chrysanthemum_white.jpg",
+                                             source: "Toshihiro Gamo",
+                                             url: "https://www.flickr.com/photos/dakiny/15037121384"
                                             )
 
 florists_chrysanthemum.child_flowers.create!(description: "Medium to large double compositae orange yellow flowers in
@@ -10095,7 +11348,9 @@ florists_chrysanthemum.child_flowers.create!(description: "Medium to large doubl
                                              colour: "Orange yellow",
                                              significance: "Supramentalised Life Energy",
                                              comment: "Manifold and supple, it has an immortal resistance.",
-                                             image_url: "florists_chrysanthemum_orange_yellow.jpg"
+                                             image_url: "florists_chrysanthemum_orange_yellow.jpg",
+                                             source: "Wikimedia Commons",
+                                             url: "https://commons.wikimedia.org/wiki/File:ChrysanthemumMorifolium2.jpg"
                                             )
 
 florists_chrysanthemum.child_flowers.create!(description: "Medium to large double compositae light mauve flowers in a
@@ -10105,7 +11360,9 @@ florists_chrysanthemum.child_flowers.create!(description: "Medium to large doubl
                                              colour: "Light mauve",
                                              significance: "Life Energy in the Vital",
                                              comment: "Supple and resistant, it is tireless.",
-                                             image_url: "florists_chrysanthemum_mauve.jpg"
+                                             image_url: "florists_chrysanthemum_mauve.jpg",
+                                             source: "Wikimedia Commons",
+                                             url: "https://commons.wikimedia.org/wiki/File:ChrysanthemumMorifolium11.jpg"
                                             )
 
 florists_chrysanthemum.child_flowers.create!(description: "Medium to large double compositae golden red flowers in a
@@ -10115,7 +11372,9 @@ florists_chrysanthemum.child_flowers.create!(description: "Medium to large doubl
                                              colour: "Golden red",
                                              significance: "Life Energy in the Material",
                                              comment: "",
-                                             image_url: "florists_chrysanthemum_golden_red.jpg"
+                                             image_url: "florists_chrysanthemum_golden_red.jpg",
+                                             source: "JungleDragon",
+                                             url: "http://www.jungledragon.com/wildlife/photos/plantae/angiosperms/eudicots/asterales/asteraceae/chrysanthemum"
                                             )
 
 # Rainbow Pink
@@ -10130,6 +11389,8 @@ rainbow_pink = Flower.create!(name: "Rainbow Pink",
                               climate: "Temperate",
                               image_url: "rainbow_pink.jpg",
                               thumbnail_url: "rainbow_pink_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Colorful_flowers.JPG"
                              )
 
 rainbow_pink.child_flowers.create!(description: "Small single mildly fragrant rotate flowers with four to six broad
@@ -10141,7 +11402,9 @@ rainbow_pink.child_flowers.create!(description: "Small single mildly fragrant ro
                                    colour: "White and shades of pink and red",
                                    significance: "Obedience",
                                    comment: "To learn to obey is good; to obey only the Divine is better.",
-                                   image_url: "rainbow_pink_single.jpg"
+                                   image_url: "rainbow_pink_single.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Dianthus_-_3.jpg"
                                   )
 
 rainbow_pink.child_flowers.create!(description: "Small double mildly fragrant rotate flowers with petals that have
@@ -10153,7 +11416,9 @@ rainbow_pink.child_flowers.create!(description: "Small double mildly fragrant ro
                                    significance: "Perfect Obedience",
                                    comment: "Without reserve or hesitation, joyous obedience in every sphere to the
                                              Divine command.",
-                                   image_url: "rainbow_pink_double.jpg"
+                                   image_url: "rainbow_pink_double.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Dianthus_chinensis_var_senperflorens2.jpg"
                                   )
 
 # Pigeon Berry
@@ -10169,6 +11434,8 @@ pigeon_berry = Flower.create!(name: "Pigeon Berry",
                               climate: "Tropical",
                               image_url: "pigeon_berry.jpg",
                               thumbnail_url: "pigeon_berry_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Duranta_erecta_07.JPG"
                              )
 
 pigeon_berry.child_flowers.create!(description: "Tiny sweetly scented lavender salverform flower with a white centre,
@@ -10176,7 +11443,9 @@ pigeon_berry.child_flowers.create!(description: "Tiny sweetly scented lavender s
                                    colour: "Lavender, white",
                                    significance: "Aspiration for Vital Purity",
                                    comment: "Delicate, modest, insistent.",
-                                   image_url: "pigeon_berry_lavender_white.jpg"
+                                   image_url: "pigeon_berry_lavender.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Duranta_erecta.jpg"
                                   )
 
 pigeon_berry.child_flowers.create!(description: "Tiny sweetly scented white salverform flower; borne on small racemes.
@@ -10184,7 +11453,9 @@ pigeon_berry.child_flowers.create!(description: "Tiny sweetly scented white salv
                                    colour: "White",
                                    significance: "Vital Purity",
                                    comment: "It begins with the abolition of desires.",
-                                   image_url: "pigeon_berry_white.jpg"
+                                   image_url: "pigeon_berry_white.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Starr_080103-1216_Duranta_erecta.jpg"
                                   )
 
 # Flora's Paintbrush
@@ -10199,6 +11470,8 @@ floras_paintbrush = Flower.create!(name: "Flora's Paintbrush",
                                    climate: "Tropical",
                                    image_url: "floras_paintbrush.jpg",
                                    thumbnail_url: "floras_paintbrush_thumbnail.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Emilia_sonchifolia_4.jpg"
                                   )
 
 floras_paintbrush.child_flowers.create!(description: "Small scarlet soft tassel-like head of Compositae flowers in
@@ -10208,7 +11481,9 @@ floras_paintbrush.child_flowers.create!(description: "Small scarlet soft tassel-
                                         significance: "Prudence",
                                         comment: "Very useful for weakness since weakness needs prudence; strength
                                                   does not need it.",
-                                        image_url: "floras_paintbrush_scarlet.jpg"
+                                        image_url: "floras_paintbrush_scarlet.jpg",
+                                        source: "Wikimedia Commons",
+                                        url: "https://commons.wikimedia.org/wiki/File:Tasselflower2.jpeg"
                                        )
 
 floras_paintbrush.child_flowers.create!(bot_name: "Emilia sonchifolia 'Lutea' (Javanica)",
@@ -10218,7 +11493,9 @@ floras_paintbrush.child_flowers.create!(bot_name: "Emilia sonchifolia 'Lutea' (J
                                         colour: "Golden yellow",
                                         significance: "Enlightened Prudence",
                                         comment: "Looks carefully before going forward.",
-                                        image_url: "floras_paintbrush_golden.jpg"
+                                        image_url: "floras_paintbrush_golden.jpg",
+                                        source: "Wikimedia Commons",
+                                        url: "https://commons.wikimedia.org/wiki/File:Emilia_coccinea-IMG_4639.jpg"
                                        )
 
 # Blue Sage
@@ -10233,6 +11510,8 @@ blue_sage = Flower.create!(name: "Blue Sage",
                            climate: "Tropical and subtropical",
                            image_url: "blue_sage.jpg",
                            thumbnail_url: "blue_sage_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Eranthemum_pulchellum1.jpg"
                           )
 
 blue_sage.child_flowers.create!(description: "Small sky blue salverform flower with five rounded lobes; borne on a
@@ -10240,7 +11519,9 @@ blue_sage.child_flowers.create!(description: "Small sky blue salverform flower w
                                 colour: "Sky blue",
                                 significance: "Aspiration for Silence in the Mind",
                                 comment: "Too noisy to be effective.",
-                                image_url: "blue_sage_blue.jpg"
+                                image_url: "blue_sage_blue.jpg",
+                                source: "Anand Kumar Reddy, Medicinal Plants",
+                                url: "http://medplants.blogspot.in/search/label/Eranthemum%20pulchellum"
                                )
 
 blue_sage.child_flowers.create!(description: "Small blue violet salverform flower with five rounded lobes; borne on a
@@ -10248,7 +11529,9 @@ blue_sage.child_flowers.create!(description: "Small blue violet salverform flowe
                                 colour: "Blue violet",
                                 significance: "Aspiration for Silence in the Physical Mind",
                                 comment: "Does what it can, but cannot do much.",
-                                image_url: "blue_sage_violet.jpg"
+                                image_url: "blue_sage_violet.jpg",
+                                source: "Kai Yan, Joseph Wong",
+                                url: "https://www.flickr.com/photos/33623636@N08/5552046155"
                                )
 
 # Coral Tree
@@ -10265,6 +11548,8 @@ coral_tree = Flower.create!(name: "Coral Tree",
                             climate: "Tropical and subtropical",
                             image_url: "coral_tree.jpg",
                             thumbnail_url: "coral_tree_thumbnail.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Starr_050222-4234_Erythrina_variegata.jpg"
                            )
 
 coral_tree.child_flowers.create!(description: "Dense striking terminal racemes of medium-sized orange red to dark red
@@ -10273,7 +11558,9 @@ coral_tree.child_flowers.create!(description: "Dense striking terminal racemes o
                                  colour: "Orange red to dark red",
                                  significance: "Beginning of Realisation in Matter",
                                  comment: "Matter responds to the Divine influence.",
-                                 image_url: "coral_tree_orange_red.jpg"
+                                 image_url: "coral_tree_orange_red.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Erythrina_variegata.jpg"
                                 )
 
 coral_tree.child_flowers.create!(bot_name: "Erythrina variegata 'Alba'",
@@ -10283,7 +11570,9 @@ coral_tree.child_flowers.create!(bot_name: "Erythrina variegata 'Alba'",
                                  colour: "White, pink",
                                  significance: "The Psychic Governs Matter",
                                  comment: "The psychic influence compels the physical to turn towards the Divine.",
-                                 image_url: "coral_tree_white_pink.jpg"
+                                 image_url: "coral_tree_white.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Starr_050128-3277_Erythrina_variegata.jpg"
                                 )
 
 coral_tree.child_flowers.create!(description: "Medium-sized bright orange flowers with long exserted orange red
@@ -10293,14 +11582,15 @@ coral_tree.child_flowers.create!(description: "Medium-sized bright orange flower
                                  significance: "Matter Prepares Itself to Receive the Supramental",
                                  comment: "Matter strives to free itself from old habits in order to prepare for the
                                            new realisation.",
-                                 image_url: "coral_tree_bright_orange.jpg"
+                                 image_url: "coral_tree_bright_orange.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Rose-ringed_Parakeet_(Psittacula_krameri)_feeding_on_Indian_Coral_Tree_at_Kolkata_I_IMG_3989.jpg"
                                 )
 
 # Indian Blanket
 
 indian_blanket = Flower.create!(name: "Indian Blanket",
                                 other_names: "Blanket Flower, Fire-wheels",
-                                bot_name: "Gaillardia pulchella",
                                 family: "Compositae",
                                 petals: "",
                                 size: "Medium-sized",
@@ -10308,25 +11598,33 @@ indian_blanket = Flower.create!(name: "Indian Blanket",
                                 climate: "Tropical and subtropical",
                                 image_url: "indian_blanket.jpg",
                                 thumbnail_url: "indian_blanket_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Gaillardia_pulchella_01.JPG"
                                )
 
-indian_blanket.child_flowers.create!(description: "Medium-sized single or double compositae flower with prominent
+indian_blanket.child_flowers.create!(bot_name: "Gaillardia 'Fanfare'",
+                                     description: "Medium-sized single or double compositae flower with prominent
                                                    trumpet-shaped ray florets encircling the convex central disc; in
                                                    shades of red, yellow, orange or multicoloured; borne singly. A
                                                    commonly cultivated garden annual.",
                                      colour: "Multicoloured, shades of red, yellow, orange",
                                      significance: "Successful Future",
                                      comment: "Full of promise and joyful surprises.",
-                                     image_url: "indian_blanket_mix.jpg"
+                                     image_url: "indian_blanket_single.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Laitche-P052.jpg"
                                     )
 
-indian_blanket.child_flowers.create!(description: "Medium-sized double compositae red flower heavily tipped with
+indian_blanket.child_flowers.create!(bot_name: "Gaillardia pulchella 'Sundance Bicolor'",
+                                     description: "Medium-sized double compositae red flower heavily tipped with
                                                    yellow trumpet-shaped ray florets encircling the convex central
                                                    disc; borne singly. A commonly cultivated garden annual.",
                                      colour: "Red, yellow",
                                      significance: "Successful Future under the Supramental Influence",
                                      comment: "",
-                                     image_url: "indian_blanket_red_yellow.jpg"
+                                     image_url: "indian_blanket_double.jpg",
+                                     source: "Mark Dwyer, Rotary Botanical Gardens Horticulture Blog",
+                                     url: "http://rotarygardens.blogspot.in/2013/08/another-busy-weekend.html"
                                     )
 
 indian_blanket.child_flowers.create!(bot_name: "Gaillardia pulchella 'Picta (Sweet)'",
@@ -10337,7 +11635,9 @@ indian_blanket.child_flowers.create!(bot_name: "Gaillardia pulchella 'Picta (Swe
                                      colour: "Orange red, yellow",
                                      significance: "Cheerfulness",
                                      comment: "A joyful smile of nature.",
-                                     image_url: "indian_blanket_picta_orange_red.jpg"
+                                     image_url: "indian_blanket_picta_orange.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Marineland_gaillardia01.jpg"
                                     )
 
 indian_blanket.child_flowers.create!(bot_name: "Gaillardia pulchella 'Picta (Sweet)'",
@@ -10347,22 +11647,28 @@ indian_blanket.child_flowers.create!(bot_name: "Gaillardia pulchella 'Picta (Swe
                                      colour: "Yellow",
                                      significance: "Mental Cheerfulness",
                                      comment: "It knows how to enjoy everything.",
-                                     image_url: "indian_blanket_picta_yellow.jpg"
+                                     image_url: "indian_blanket_picta_yellow.jpg",
+                                     source: "Mehitable Days",
+                                     url: "http://laloofah.blogspot.in/2011_07_01_archive.html"
                                     )
 
 # Cape Jasmine
 
 cape_jasmine = Flower.create!(name: "Cape Jasmine",
                               other_names: "Jasmine",
-                              bot_name: "Gardenia augusta [Jasminoides]",
+                              bot_name: "Gardenia augusta [Gardenia jasminoides]",
                               family: "Rubiaceae",
                               petals: "Six or several",
                               size: "Medium to large",
                               place: "Native to Asia, most commonly found growing wild in Vietnam, Southern China,
                                       Taiwan, Japan, Myanmar and India",
-                              climate: "Tropical to warm temperate",
+                              climate: "Native to Asia, most commonly found growing wild in Vietnam, Southern China,
+                                        Taiwan, Japan, Myanmar and India. Cultivated from subtropical to warm temperate
+                                        regions",
                               image_url: "cape_jasmine.jpg",
                               thumbnail_url: "cape_jasmine_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Gardenia_jasminoides_in_Mount_Yagi_2008-06-13.jpg"
                              )
 
 cape_jasmine.child_flowers.create!(description: "Medium to large highly fragrant single white salverform flower with a
@@ -10372,7 +11678,9 @@ cape_jasmine.child_flowers.create!(description: "Medium to large highly fragrant
                                    colour: "White, yellow",
                                    significance: "Radiating Purity",
                                    comment: "It charms and fascinates. It makes all Nature fragrant.",
-                                   image_url: "cape_jasmine_single.jpg"
+                                   image_url: "cape_jasmine_single.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Gardenia_jasminoides_flowers.jpg"
                                   )
 
 cape_jasmine.child_flowers.create!(description: "Medium to large highly fragrant double white salverform flower with
@@ -10382,7 +11690,9 @@ cape_jasmine.child_flowers.create!(description: "Medium to large highly fragrant
                                    colour: "White",
                                    significance: "Perfect Radiating Purity",
                                    comment: "Nothing escapes its action.",
-                                   image_url: "cape_jasmine_double.jpg"
+                                   image_url: "cape_jasmine_double.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Gardenia_augusta_%27Miami_Supreme%27.JPG"
                                   )
 
 # Garden Gladiolus
@@ -10398,6 +11708,8 @@ garden_gladiolus = Flower.create!(name: "Garden Gladiolus",
                                   climate: "Tropical and subtropical",
                                   image_url: "garden_gladiolus.jpg",
                                   thumbnail_url: "garden_gladiolus_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Gladiolen_bei_Brensbach.jpg"
                                  )
 
 garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-sided spike of graceful small to
@@ -10408,7 +11720,9 @@ garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-si
                                        colour: "White and shades of yellow, red, pink, lavender, and purple",
                                        significance: "Receptivity",
                                        comment: "Conscious of the Divine Will and surrendered to it.",
-                                       image_url: "garden_gladiolus_mix.jpg"
+                                       image_url: "garden_gladiolus_mix.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Gladiolus.JPG"
                                       )
 
 garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-sided spike of small to medium-sized
@@ -10417,7 +11731,9 @@ garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-si
                                        colour: "Pink or rose pink",
                                        significance: "Psychic Receptivity",
                                        comment: "The psychic responds joyfully to the ascending force.",
-                                       image_url: "garden_gladiolus_pink.jpg"
+                                       image_url: "garden_gladiolus_pink.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Gladiolus1.JPG"
                                       )
 
 garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-sided spike of small to medium-sized
@@ -10427,7 +11743,9 @@ garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-si
                                        colour: "Bicoloured, pink, orange",
                                        significance: "Receptivity of the Supramentalised Psychic",
                                        comment: "This is what happens to the psychic that continues to progress.",
-                                       image_url: "garden_gladiolus_pink_orange.jpg"
+                                       image_url: "garden_gladiolus_pink_orange.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Japan_Gladiole.JPG"
                                       )
 
 garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-sided spike of small to medium-sized
@@ -10436,7 +11754,9 @@ garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-si
                                        colour: "Yellow",
                                        significance: "Mental Receptivity",
                                        comment: "Always ready to learn.",
-                                       image_url: "garden_gladiolus_yellow.jpg"
+                                       image_url: "garden_gladiolus_yellow.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Gladiolus_%C3%97_hortulanus_(4).JPG"
                                       )
 
 garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-sided spike of small to medium-sized
@@ -10446,7 +11766,9 @@ garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-si
                                        colour: "Lavender pink or mauve",
                                        significance: "Emotional Receptivity",
                                        comment: "Emotions wanting to be Divinised.",
-                                       image_url: "garden_gladiolus_lavender_pink.jpg"
+                                       image_url: "garden_gladiolus_lavender_pink.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Gladiolus,_Grower_Mr_Vogel.jpg"
                                       )
 
 garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-sided spike of small to medium-sized
@@ -10457,7 +11779,9 @@ garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-si
                                        significance: "Vital Receptivity",
                                        comment: "Happens only when the vital understands that it must be transformed.
                                                  The vital blossoms in aspiration for the divine.",
-                                       image_url: "garden_gladiolus_red_violet.jpg"
+                                       image_url: "garden_gladiolus_violet.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Gladiolus,_South_West_Coast_Path_-_geograph.org.uk_-_821967.jpg"
                                       )
 
 garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-sided spike of small to medium-sized
@@ -10466,7 +11790,9 @@ garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-si
                                        colour: "Bright red",
                                        significance: "Physical Receptivity",
                                        comment: "One should have it only towards the Divine.",
-                                       image_url: "garden_gladiolus_red.jpg"
+                                       image_url: "garden_gladiolus_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Gladiolus%27RedCascade%2703.jpg"
                                       )
 
 garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-sided spike of small to medium-sized
@@ -10475,7 +11801,9 @@ garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-si
                                        colour: "White",
                                        significance: "Integral Receptivity",
                                        comment: "The whole being perceives the Divine Will and obeys it.",
-                                       image_url: "garden_gladiolus_white.jpg"
+                                       image_url: "garden_gladiolus_white.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Gladiolus_withe_01.jpg"
                                       )
 
 garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-sided spike of small to medium-sized
@@ -10484,7 +11812,9 @@ garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-si
                                        colour: "Multicoloured",
                                        significance: "Manifold Receptivity",
                                        comment: "Nothing resists the Light.",
-                                       image_url: "garden_gladiolus_multicoloured.jpg"
+                                       image_url: "garden_gladiolus_multicoloured.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Kvetouc%C3%AD_gladioly.jpg"
                                       )
 
 garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-sided spike of small to medium-sized
@@ -10493,7 +11823,9 @@ garden_gladiolus.child_flowers.create!(description: "Tall elegant compact one-si
                                        colour: "Orange",
                                        significance: "Supramentalised Receptivity",
                                        comment: "The receptivity of tomorrow.",
-                                       image_url: "garden_gladiolus_orange.jpg"
+                                       image_url: "garden_gladiolus_orange.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Rote_Gladiole.JPG"
                                       )
 
 # Globe Amaranth
@@ -10508,6 +11840,8 @@ globe_amaranth = Flower.create!(name: "Globe Amaranth",
                                 climate: "Tropical",
                                 image_url: "globe_amaranth.jpg",
                                 thumbnail_url: "globe_amaranth_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Malli_puvu.JPG"
                                )
 
 globe_amaranth.child_flowers.create!(description: "Small rounded everlasting heads of colourful papery bracts
@@ -10517,7 +11851,9 @@ globe_amaranth.child_flowers.create!(description: "Small rounded everlasting hea
                                      significance: "Immortality",
                                      comment: "Forms are in perpetual transformation; identify yourself with the
                                                Immortal Consciousness and you will become it.",
-                                     image_url: "globe_amaranth_mix.jpg"
+                                     image_url: "globe_amaranth_mix.jpg",
+                                     source: "Florez Nursery",
+                                     url: "http://floreznursery.blogspot.in/2011_02_01_archive.html"
                                     )
 
 globe_amaranth.child_flowers.create!(description: "Small rounded everlasting heads of magenta purple papery bracts
@@ -10526,7 +11862,9 @@ globe_amaranth.child_flowers.create!(description: "Small rounded everlasting hea
                                      colour: "Magenta purple",
                                      significance: "Vital Immortality",
                                      comment: "It exists in its own domain, but depends on surrender to the Divine.",
-                                     image_url: "globe_amaranth_magenta.jpg"
+                                     image_url: "globe_amaranth_magenta.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:2010._%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0_%D1%86%D0%B2%D0%B5%D1%82%D0%BE%D0%B2_%D0%B2_%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B5_%D0%BD%D0%B0_%D0%B4%D0%B5%D0%BD%D1%8C_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_34.jpg"
                                     )
 
 globe_amaranth.child_flowers.create!(description: "Small rounded everlasting heads of pale lavender pink papery bracts
@@ -10535,7 +11873,9 @@ globe_amaranth.child_flowers.create!(description: "Small rounded everlasting hea
                                      colour: "Pale lavender pink",
                                      significance: "Conscious Vital Immortality",
                                      comment: "The immortality of an organised and conscious vital being.",
-                                     image_url: "globe_amaranth_lavender_pink.jpg"
+                                     image_url: "globe_amaranth_lavender_pink.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Gomphrena_globosa_serres_du_Luxembourg.JPG"
                                     )
 
 globe_amaranth.child_flowers.create!(description: "Small rounded everlasting heads of white papery bracts enfolding
@@ -10544,7 +11884,9 @@ globe_amaranth.child_flowers.create!(description: "Small rounded everlasting hea
                                      colour: "White",
                                      significance: "Integral Immortality",
                                      comment: "It is a promise! When will it be a material fact?",
-                                     image_url: "globe_amaranth_white.jpg"
+                                     image_url: "globe_amaranth_white.jpg",
+                                     source: "Horticulture 131, PennState",
+                                     url: "http://www.personal.psu.edu/rdb4/hort131/weekly-lessons/week-2/week-2-plants/gomphrena/"
                                     )
 
 globe_amaranth.child_flowers.create!(description: "Small rounded everlasting heads of bright orange bracts shaded
@@ -10554,7 +11896,9 @@ globe_amaranth.child_flowers.create!(description: "Small rounded everlasting hea
                                      colour: "Bright orange, salmon pink",
                                      significance: "Supramental Immortality",
                                      comment: "It is an established fact, but few human beings have experienced it.",
-                                     image_url: ""
+                                     image_url: "globe_amaranth_orange.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Amboise,_fleur_d%27un_parterre_3.jpg"
                                     )
 
 # Sunflower
@@ -10569,6 +11913,8 @@ sunflower = Flower.create!(name: "Sunflower",
                            climate: "Found across a wide range of climates",
                            image_url: "sunflower.jpg",
                            thumbnail_url: "sunflower_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Sunflowers_helianthus_annuus.jpg"
                           )
 
 sunflower.child_flowers.create!(description: "Large dark brownish red flower with a golden yellow glow at the tips and
@@ -10577,7 +11923,9 @@ sunflower.child_flowers.create!(description: "Large dark brownish red flower wit
                                 colour: "Dark brownish red, golden yellow, dark brown",
                                 significance: "Supramental Artistic Genius",
                                 comment: "It blossoms in the Light and knows how to manifest it.",
-                                image_url: "sunflower_brown_yellow.jpg"
+                                image_url: "sunflower_brown_yellow.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Sunflowers_in_Nova_Scotia.jpg"
                                )
 
 sunflower.child_flowers.create!(description: "Medium to large single compositae flowers with a prominent centre of
@@ -10586,7 +11934,9 @@ sunflower.child_flowers.create!(description: "Medium to large single compositae 
                                 colour: "Browm or green, deep yellow",
                                 significance: "Consciousness Turned towards the Light",
                                 comment: "It thirsts for Light and cannot live without it.",
-                                image_url: "sunflower_yellow.jpg"
+                                image_url: "sunflower_yellow.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Tournesols_FR_2008.jpg"
                                )
 
 sunflower.child_flowers.create!(description: "Medium to large single compositae flowers with a prominent centre of
@@ -10595,7 +11945,9 @@ sunflower.child_flowers.create!(description: "Medium to large single compositae 
                                 colour: "Brown or green, yellow orange",
                                 significance: "Consciousness Turned towards the Supramental Light",
                                 comment: "It thirsts for truth and will find its satisfaction only in the truth.",
-                                image_url: "sunflower_yellow_orange.jpg"
+                                image_url: "sunflower_yellow_orange.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Sonnenblumen_im_Bund.JPG"
                                )
 
 sunflower.child_flowers.create!(description: "Medium to large fully double yellow compositae flowers; borne singly or
@@ -10603,7 +11955,9 @@ sunflower.child_flowers.create!(description: "Medium to large fully double yello
                                 colour: "Yellow",
                                 significance: "Intensity of the Consciousness in the Full Supramental Light",
                                 comment: "It is radiant and shining in order to illuminate the world.",
-                                image_url: "sunflower_double_yellow.jpg"
+                                image_url: "sunflower_double.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Helianthus_annuus_%27Teddy_Bear%27_cultivar.JPG"
                                )
 
 sunflower.child_flowers.create!(description: "Large striking compositae flower with sienna ray florets streaked with
@@ -10612,7 +11966,9 @@ sunflower.child_flowers.create!(description: "Large striking compositae flower w
                                 colour: "Sienna, golden yellow, dark brown",
                                 significance: "Body-Consciousness Undergoing the Supramental Transformation",
                                 comment: "Solid and resolute, it faces all difficulties.",
-                                image_url: "sunflower_sienna.jpg"
+                                image_url: "sunflower_sienna.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Starr_081009-0033_Helianthus_annuus.jpg"
                                )
 
 # Cotton Rosemallow
@@ -10627,6 +11983,8 @@ cotton_rosemallow = Flower.create!(name: "Cotton Rosemallow",
                                    climate: "Tropical and subtropical",
                                    image_url: "cotton_rosemallow.jpg",
                                    thumbnail_url: "cotton_rosemallow_thumbnail.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Mufurong1.jpg"
                                   )
 
 cotton_rosemallow.child_flowers.create!(description: "Large double flower with soft delicate petals that open pure white and
@@ -10634,7 +11992,9 @@ cotton_rosemallow.child_flowers.create!(description: "Large double flower with s
                                   colour: "Pure white to pink",
                                   significance: "The Divine Grace",
                                   comment: "Thy goodness is infinite, we bow before Thee in gratitude.",
-                                  image_url: "cotton_rosemallow_white.jpg"
+                                  image_url: "cotton_rosemallow_white.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:H._mutabilis.jpg"
                                  )
 
 cotton_rosemallow.child_flowers.create!(description: "Large double glowing pink flower with soft delicate petals; flowers
@@ -10642,7 +12002,9 @@ cotton_rosemallow.child_flowers.create!(description: "Large double glowing pink 
                                   colour: "Pink",
                                   significance: "Victorious Love",
                                   comment: "Sure of itself, fearless, generous and smiling.",
-                                  image_url: "cotton_rosemallow_pink.jpg"
+                                  image_url: "cotton_rosemallow_pink.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_mutabilis_(2).JPG"
                                  )
 
 # Chinese Hibiscus
@@ -10657,6 +12019,8 @@ chinese_hibiscus = Flower.create!(name: "Chinese Hibiscus",
                                   climate: "Tropical",
                                   image_url: "chinese_hibiscus.jpg",
                                   thumbnail_url: "chinese_hibiscus_thumbnail.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Starr_070906-8674_Hibiscus_rosa-sinensis.jpg"
                                  )
 
 chinese_hibiscus.child_flowers.create!(description: "Medium-sized double light salmon pink flower with fine red veins
@@ -10665,7 +12029,9 @@ chinese_hibiscus.child_flowers.create!(description: "Medium-sized double light s
                                        significance: "Agni",
                                        comment: "The flame of purification which ought to precede all contact with the
                                                  invisible worlds.",
-                                       image_url: "chinese_hibiscus_salmon_red.jpg"
+                                       image_url: "chinese_hibiscus_double_salmon_red.jpg",
+                                       source: "leahahaha",
+                                       url: "https://www.flickr.com/photos/leahahaha/2731533496/"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Small delicate single flower with soft slightly crinkled cream
@@ -10674,7 +12040,9 @@ chinese_hibiscus.child_flowers.create!(description: "Small delicate single flowe
                                        significance: "Ananda",
                                        comment: "Calm, tranquil, equal, smiling and very sweet in its truly simple
                                                  austerity.",
-                                       image_url: "chinese_hibiscus_cream.jpg"
+                                       image_url: "chinese_hibiscus_cream_white.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Starr_070403-6477_Hibiscus_rosa-sinensis.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Small delicate single flower with soft slightly crinkled cream
@@ -10682,7 +12050,9 @@ chinese_hibiscus.child_flowers.create!(description: "Small delicate single flowe
                                        colour: "Cream, deep red, pure white",
                                        significance: "Ananda in the Physical",
                                        comment: "May it be welcome, even if it manifests itself rarely.",
-                                       image_url: "chinese_hibiscus_cream_red.jpg"
+                                       image_url: "chinese_hibiscus_cream_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Kailua_Yellow_Hibiscus_18cm.JPG"
                                       )
 
 chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis ‘Viceroy’",
@@ -10690,7 +12060,9 @@ chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis ‘Vice
                                        colour: "Magenta",
                                        significance: "Individual Power",
                                        comment: "Limited in its capacity and action.",
-                                       image_url: "chinese_hibiscus_magenta.jpg"
+                                       image_url: "chinese_hibiscus_magenta.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiskus_rosa-sinensis_-_Kwiat.JPG"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Small single coral pink flower with deeper pink veins and an
@@ -10698,7 +12070,9 @@ chinese_hibiscus.child_flowers.create!(description: "Small single coral pink flo
                                        colour: "Coral pink, intense red, cream",
                                        significance: "Enlightened Individual Power",
                                        comment: "Limited in its action, but of a very high capacity.",
-                                       image_url: "chinese_hibiscus_pink_red_cream.jpg"
+                                       image_url: "chinese_hibiscus_coral_pink_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:GenE.aguinaldoChurchjf9042_13.JPG"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Medium to large double bright rose pink flower with ruffled
@@ -10707,7 +12081,9 @@ chinese_hibiscus.child_flowers.create!(description: "Medium to large double brig
                                        significance: "Power of the Psychic Consciousness",
                                        comment: "Psychic power organises the activities of the nature to make them
                                                  progress.",
-                                       image_url: "chinese_hibiscus_rose_pink.jpg"
+                                       image_url: "chinese_hibiscus_double_rose_pink.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:%E0%B4%9A%E0%B5%86%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B4%B0%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%82.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Medium-sized single light pink flower that has slightly separated
@@ -10722,7 +12098,9 @@ chinese_hibiscus.child_flowers.create!(description: "Medium-sized single light p
                                        colour: "Pink to lilac pink, deep red",
                                        significance: "Psychic Power in Existence",
                                        comment: "Manifold, imperious, irresistible in its understanding sweetness.",
-                                       image_url: ""
+                                       image_url: "chinese_hibiscus_lilac_pink_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus_pink_fully_opened.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Viceroy'",
@@ -10731,7 +12109,9 @@ chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Vicero
                                        colour: "Lemon yellow, bright red or maroon",
                                        significance: "Mentalised Power",
                                        comment: "Power becomes utilisable.",
-                                       image_url: "chinese_hibiscus_lemon_yellow.jpg"
+                                       image_url: "chinese_hibiscus_lemon_yellow_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9E_%E0%B4%9A%E0%B5%86%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B4%B0%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%82%E0%B4%B5%E0%B5%8D_1.JPG"
                                       )
 
 chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Viceroy'",
@@ -10740,7 +12120,9 @@ chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Vicero
                                        significance: "Power in the Converted Mind",
                                        comment: "When the mind turns towards the Divine it becomes a powerful
                                                  instrument.",
-                                       image_url: "chinese_hibiscus_ochre_yellow.jpg"
+                                       image_url: "chinese_hibiscus_ochre_yellow.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus_-_Agri-Horticultural_Society_of_India_-_Alipore_-_Kolkata_2013-01-05_2248.JPG"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Large single light gold to apricot yellow flower with crinkled
@@ -10750,7 +12132,9 @@ chinese_hibiscus.child_flowers.create!(description: "Large single light gold to 
                                                       Auroville)",
                                        comment: "Sweetness itself becomes powerful when it is at the service of the
                                                  Divine.",
-                                       image_url: "chinese_hibiscus_gold_pink.jpg"
+                                       image_url: "chinese_hibiscus_gold_pink.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Yellow_flower.JPG"
                                       )
 
 chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Waimaea'",
@@ -10760,7 +12144,9 @@ chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Waimae
                                        colour: "Milk white, bright orange",
                                        significance: "Light of the Purified Power",
                                        comment: "Irresistibly simple in its power consecrated solely to the Divine.",
-                                       image_url: "chinese_hibiscus_white_orange.jpg"
+                                       image_url: "chinese_hibiscus_white_orange.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:White_Hibiscus_5505.JPG"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Small or large single white flower with long separated petals and
@@ -10770,7 +12156,9 @@ chinese_hibiscus.child_flowers.create!(description: "Small or large single white
                                        colour: "White, bright red or vermilion",
                                        significance: "Power of Integral Purity",
                                        comment: "The power of accepting only the Divine influence.",
-                                       image_url: "chinese_hibiscus_white_red.jpg"
+                                       image_url: "chinese_hibiscus_white_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus_Tricolor.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Medium to large single flowers with bright golden yellow or light
@@ -10780,7 +12168,9 @@ chinese_hibiscus.child_flowers.create!(description: "Medium to large single flow
                                                 light orange",
                                        significance: "Power of Harmony",
                                        comment: "Simple, noble, dignified, powerful and charming.",
-                                       image_url: "chinese_hibiscus_yellow_pink.jpg"
+                                       image_url: "chinese_hibiscus_yellow_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus_Cultivar_2010-7-11_TorreLaMata.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Large single reddish pink flower with a dark red centre and
@@ -10789,7 +12179,9 @@ chinese_hibiscus.child_flowers.create!(description: "Large single reddish pink f
                                        colour: "Reddish pink, dark red, white",
                                        significance: "Aesthetic Power",
                                        comment: "Beauty is a great power.",
-                                       image_url: "chinese_hibiscus_pink_red.jpg"
+                                       image_url: "chinese_hibiscus_pink_red_white.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:JfLakandulaflowerPampanga0214fvf_02.JPG"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Medium-sized single flowers in shades ranging from light to
@@ -10797,7 +12189,9 @@ chinese_hibiscus.child_flowers.create!(description: "Medium-sized single flowers
                                        colour: "Light to medium red",
                                        significance: "Dynamic Power",
                                        comment: "Indispensable for progress.",
-                                       image_url: "chinese_hibiscus_red.jpg"
+                                       image_url: "chinese_hibiscus_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus_rosa-sinensis_flower_2.JPG"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Medium-sized semi-double grey lavender with deeper shading on the
@@ -10805,7 +12199,9 @@ chinese_hibiscus.child_flowers.create!(description: "Medium-sized semi-double gr
                                        colour: "Grey lavender",
                                        significance: "Controlled Power",
                                        comment: "",
-                                       image_url: "chinese_hibiscus_grey_lavender.jpg"
+                                       image_url: "chinese_hibiscus_grey_lavender.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:%E0%B4%9A%E0%B5%86%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B4%B0%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%AF%E0%B5%81%E0%B4%9F%E0%B5%86_%E0%B4%B5%E0%B4%AF%E0%B4%B2%E0%B4%B1%E0%B5%8D%E0%B4%B1%E0%B5%8D_%E0%B4%AA%E0%B5%82%E0%B4%B5%E0%B5%8D.JPG"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Medium-sized single bright cardinal red flower with firm petals,
@@ -10813,7 +12209,9 @@ chinese_hibiscus.child_flowers.create!(description: "Medium-sized single bright 
                                        colour: "Cardinal red, reddish purple",
                                        significance: "Power of Action",
                                        comment: "The power resulting from true surrender to the Divine.",
-                                       image_url: "chinese_hibiscus_cardinal_red.jpg"
+                                       image_url: "chinese_hibiscus_cardinal_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus-20070216-013.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Double flowers in all sizes with colours that range from
@@ -10822,7 +12220,9 @@ chinese_hibiscus.child_flowers.create!(description: "Double flowers in all sizes
                                        significance: "Power of Consciousness",
                                        comment: "All the powers of controlling and governing the lower movements of
                                                  inconscient nature.",
-                                       image_url: "chinese_hibiscus_pink_red.jpg"
+                                       image_url: "chinese_hibiscus_double_pink_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus_(rosa-sinensis)_Kerala.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Large single orange to red orange flower often tinged rose at the
@@ -10831,7 +12231,9 @@ chinese_hibiscus.child_flowers.create!(description: "Large single orange to red 
                                        colour: "Orange to red orange, rose, deep red",
                                        significance: "Power of Perseverance (Continued Perseverance and Action)",
                                        comment: "The perseverance that overcomes all obstacles.",
-                                       image_url: "chinese_hibiscus_orange_red.jpg"
+                                       image_url: "chinese_hibiscus_red_orange_rose.jpg",
+                                       source: "anuraj, Pixabay",
+                                       url: "https://pixabay.com/en/hibiscus-rosa-sinensis-flower-436595/"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Large single grey lavender to deep lavender with delicate petals
@@ -10839,7 +12241,9 @@ chinese_hibiscus.child_flowers.create!(description: "Large single grey lavender 
                                        colour: "Grey lavender to deep lavender, magenta purple",
                                        significance: "Power of Effort (Effort of Auroville)",
                                        comment: "Efforts well-directed break down all obstacles.",
-                                       image_url: "chinese_hibiscus_grey_lavender_magenta.jpg"
+                                       image_url: "chinese_hibiscus_grey_lavender_magenta.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Starr_060928-0504_Hibiscus_rosa-sinensis.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Large single pink to light red or reddish orange flowers with
@@ -10850,7 +12254,9 @@ chinese_hibiscus.child_flowers.create!(description: "Large single pink to light 
                                                 pink",
                                        significance: "Power of Progress",
                                        comment: "Power is the sign of the Divine influence in creation.",
-                                       image_url: "chinese_hibiscus_pink_orange_white.jpg"
+                                       image_url: "chinese_hibiscus_pink_orange_white.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus_(4909573650).jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Sweetheart'",
@@ -10860,7 +12266,9 @@ chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Sweeth
                                        colour: "Cream white, deep pink, orange",
                                        significance: "Power to Progress",
                                        comment: "Precious because it is rare, it must be cultivated with care.",
-                                       image_url: "chinese_hibiscus_cream_pink.jpg"
+                                       image_url: "chinese_hibiscus_cream_pink_orange.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus_(10).jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Large single cream white flower with crinkled petals and a deep
@@ -10868,7 +12276,9 @@ chinese_hibiscus.child_flowers.create!(description: "Large single cream white fl
                                        colour: "Cream white, deep rose pink or magenta",
                                        significance: "Power of Success (Success of Auroville)",
                                        comment: "The power of those who know how to continue their effort.",
-                                       image_url: "chinese_hibiscus_cream_magenta.jpg"
+                                       image_url: "chinese_hibiscus_cream_magenta.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Starr_060928-0499_Hibiscus_rosa-sinensis.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Large sturdy single bright orange red flower with firm crinkled
@@ -10880,7 +12290,9 @@ chinese_hibiscus.child_flowers.create!(description: "Large sturdy single bright 
                                        colour: "Bright orange red, yellow orange, grey lavender",
                                        significance: "Power of Realisation",
                                        comment: "With realisation all obstacles will be overcome.",
-                                       image_url: "chinese_hibiscus_orange.jpg"
+                                       image_url: "chinese_hibiscus_orange.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Starr_080103-1210_Hibiscus_rosa-sinensis.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Comet'",
@@ -10889,7 +12301,9 @@ chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Comet'
                                        colour: "Deep red or deep magenta",
                                        significance: "Power of the Future",
                                        comment: "To be capable of working for the future.",
-                                       image_url: "chinese_hibiscus_deep_red.jpg"
+                                       image_url: "chinese_hibiscus_deep_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Red_Hibiscus_from_Kerala.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Very large single bright magenta flower with firm crinkled
@@ -10897,7 +12311,9 @@ chinese_hibiscus.child_flowers.create!(description: "Very large single bright ma
                                        colour: "Bright magenta",
                                        significance: "Power in Service of the Future",
                                        comment: "Without haste, but sure of its success.",
-                                       image_url: "chinese_hibiscus_bright_magenta.jpg"
+                                       image_url: "chinese_hibiscus_bright_magenta.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Kembang_Sepatu_Hibiscus_rosa.JPG"
                                       )
 
 chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Rukmini'",
@@ -10908,7 +12324,9 @@ chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Rukmin
                                        colour: "Deep gold to apricot, red or deep orange",
                                        significance: "Power of the Supramental Consciousness",
                                        comment: "Organising and active, irresistible in its influence.",
-                                       image_url: "chinese_hibiscus_gold_red.jpg"
+                                       image_url: "chinese_hibiscus_double_gold_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Starr_070111-3349_Hibiscus_rosa-sinensis.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Large single open cup-shaped flower with a large deep pink centre
@@ -10917,7 +12335,9 @@ chinese_hibiscus.child_flowers.create!(description: "Large single open cup-shape
                                        significance: "Effective Power of the Supermind",
                                        comment: "All-powerful, it imposes itself on all in the certitude of its
                                                  knowledge.",
-                                       image_url: "chinese_hibiscus_orange_pink.jpg"
+                                       image_url: "chinese_hibiscus_orange_pink.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus_Erin_Rachael.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Splash'",
@@ -10928,7 +12348,9 @@ chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Splash
                                        colour: "Bright red or orange red, white, cream yellow to light gold",
                                        significance: "Manifold Power of the New Creation (Manifold Power of Auroville)",
                                        comment: "The new creation will be rich in possibilities.",
-                                       image_url: "chinese_hibiscus_red_white.jpg"
+                                       image_url: "chinese_hibiscus_red_white.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Starr_061223-2696_Hibiscus_rosa-sinensis.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Medium-sized or large single salmon-orange to golden-yellow
@@ -10937,14 +12359,18 @@ chinese_hibiscus.child_flowers.create!(description: "Medium-sized or large singl
                                        colour: "Salmon orange to golden yellow, deep magenta",
                                        significance: "Power of Spiritual Beauty (Spiritual beauty of Auroville)",
                                        comment: "Spiritual beauty has a contagious power.",
-                                       image_url: "chinese_hibiscus_salmon_magenta.jpg"
+                                       image_url: "chinese_hibiscus_salmon_magenta.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus_single.JPG"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Medium-sized double flower, variegated in red and white.",
                                        colour: "Red, white",
                                        significance: "Faith",
                                        comment: "You flame up and triumph.",
-                                       image_url: "chinese_hibiscus_variegated_red_white.jpg"
+                                       image_url: "chinese_hibiscus_variegated_red_white.jpg",
+                                       source: "Xeramtheum, All Things Plants",
+                                       url: "http://allthingsplants.com/plants/photo/244361/"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Medium-sized single light golden orange flower with orange veins
@@ -10954,7 +12380,9 @@ chinese_hibiscus.child_flowers.create!(description: "Medium-sized single light g
                                        colour: "Light golden orange, deep red, deep salmon pink to cream yellow",
                                        significance: "Supramental Beauty in the Physical",
                                        comment: "Its promise is charming.",
-                                       image_url: "chinese_hibiscus_golden_orange_red.jpg"
+                                       image_url: "chinese_hibiscus_golden_orange_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus_6520.JPG"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Large single salmon pink flower with broadly overlapping rounded
@@ -10964,7 +12392,9 @@ chinese_hibiscus.child_flowers.create!(description: "Large single salmon pink fl
                                        colour: "Salmon pink, pink, yellow",
                                        significance: "Beauty of Supramental Love (Flower of Auroville)",
                                        comment: "It invites us to live at its height",
-                                       image_url: "chinese_hibiscus_salmon_pink.jpg"
+                                       image_url: "chinese_hibiscus_salmon_pink.jpg",
+                                       source: "Ian Percy, Florez Nursery",
+                                       url: "http://floreznursery.blogspot.in/2013_06_01_archive.html"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Medium-sized single flower with recurved soft salmon orange
@@ -10972,7 +12402,9 @@ chinese_hibiscus.child_flowers.create!(description: "Medium-sized single flower 
                                        colour: "Salmon orange, pale yellow, red",
                                        significance: "Beauty of Supramental Youth",
                                        comment: "Exquisite in its freshness, powerful in its undeniable beauty.",
-                                       image_url: "chinese_hibiscus_salmon_orange.jpg"
+                                       image_url: "chinese_hibiscus_salmon_orange_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus_Madeline_Champion.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Debbie Ann'",
@@ -10982,7 +12414,9 @@ chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Debbie
                                        colour: "Crimson pink, pale pink, dark red",
                                        significance: "Beauty of the New Creation (Beauty of Auroville)",
                                        comment: "The new creation strives to better manifest the Divine.",
-                                       image_url: "chinese_hibiscus_crimson_pink.jpg"
+                                       image_url: "chinese_hibiscus_crimson_pink.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus_rosa-sinensis_Pink_Cultivars_at_Marikavalasa.JPG"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Large single flowers in light or bright orange shades, with or
@@ -10991,7 +12425,9 @@ chinese_hibiscus.child_flowers.create!(description: "Large single flowers in lig
                                        colour: "Light or bright orange shades",
                                        significance: "Beauty of Tomorrow",
                                        comment: "The beauty that will express Divine Power.",
-                                       image_url: "chinese_hibiscus_orange_shades.jpg"
+                                       image_url: "chinese_hibiscus_orange_shades.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Starr_070221-4815_Hibiscus_rosa-sinensis.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Large single flowers in shades of orange, with a striking white
@@ -10999,7 +12435,9 @@ chinese_hibiscus.child_flowers.create!(description: "Large single flowers in sha
                                        colour: "Shades of orange, and a white centre",
                                        significance: "Beauty of Tomorrow Manifesting the Divine",
                                        comment: "A beauty that exists only by and for the Divine.",
-                                       image_url: "chinese_hibiscus_orange_white.jpg"
+                                       image_url: "chinese_hibiscus_orange_white.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus_8800.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Grace Goo'",
@@ -11009,7 +12447,9 @@ chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Grace 
                                        colour: "Golden ochre to mustard, deep red or vermilion",
                                        significance: "Victorious Beauty",
                                        comment: "When it has removed the ugliness of life.",
-                                       image_url: "chinese_hibiscus_gold_vermilion.jpg"
+                                       image_url: "chinese_hibiscus_gold_vermilion.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Chinese_Hibiscus_Hibiscus_rosa-sinensis_Fifth_Dimension_Mallow_Family_-_Malvaceae_(3073325832).jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Large semi-double flower of the cup-and-saucer type with rounded
@@ -11019,7 +12459,9 @@ chinese_hibiscus.child_flowers.create!(description: "Large semi-double flower of
                                        significance: "Blossoming of the New Creation (Blossoming of Auroville)",
                                        comment: "The more we concentrate on the goal, the more it blossoms forth and
                                                  becomes precise.",
-                                       image_url: "chinese_hibiscus_bright_yellow_red.jpg"
+                                       image_url: "chinese_hibiscus_semi_double_yellow_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:PeppersSuprise01.JPG"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Large single light pink flower with crinkled petals and a centre
@@ -11027,7 +12469,9 @@ chinese_hibiscus.child_flowers.create!(description: "Large single light pink flo
                                        colour: "Light pink, white to dark pink centre",
                                        significance: "Charm of the New Creation (Charm of Auroville)",
                                        comment: "The New Creation is attractive to all those who want to progress.",
-                                       image_url: "chinese_hibiscus_light_pink.jpg"
+                                       image_url: "chinese_hibiscus_light_pink.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Cayena_(Hibiscus_rosa-sinensis),_Conservatorio_bot%C3%A1nico,_Fort_Wayne,_Indiana,_Estados_Unidos,_2012-11-12,_DD_01.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Medium-sized single cup-shaped flower with thick crinkled yellow
@@ -11036,7 +12480,9 @@ chinese_hibiscus.child_flowers.create!(description: "Medium-sized single cup-sha
                                        colour: "Yellow, orange, red orange, light yellow",
                                        significance: "Concentration of the New Creation (Concentration of Auroville)",
                                        comment: "Concentration on a precise goal is helpful to development.",
-                                       image_url: "chinese_hibiscus_yellow_orange_red.jpg"
+                                       image_url: "chinese_hibiscus_yellow_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus_Cultivar_2010-7-11_TorreLaMata.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Large single yellow flower intricately veined with orange, the
@@ -11050,7 +12496,9 @@ chinese_hibiscus.child_flowers.create!(description: "Large single yellow flower 
                                        colour: "Yellow, orange, deep red or bright pink",
                                        significance: "Firmness of the New Creation (Firmness of Auroville)",
                                        comment: "The new creation wants to be steadfast in its manifestation.",
-                                       image_url: "chinese_hibiscus_yellow_orange_red.jpg"
+                                       image_url: "chinese_hibiscus_yellow_orange_red_lavender_rose.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus2733.JPG"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Medium-sized single cup-shaped flower with delicately or heavily
@@ -11060,7 +12508,9 @@ chinese_hibiscus.child_flowers.create!(description: "Medium-sized single cup-sha
                                        significance: "Ideal of the New Creation (Ideal of Auroville)",
                                        comment: "The ideal should be progressive so that it can be realised in the
                                                  future.",
-                                       image_url: "chinese_hibiscus_violet_mauve.jpg"
+                                       image_url: "chinese_hibiscus_violet_mauve.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Starr_061213-2359_Hibiscus_rosa-sinensis.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Sturdy medium-sized single cup-shaped flower with a frilled
@@ -11069,7 +12519,9 @@ chinese_hibiscus.child_flowers.create!(description: "Sturdy medium-sized single 
                                        colour: "Yellow, reddish orange",
                                        significance: "Progress of the New Creation (Progress of Auroville)",
                                        comment: "Each must find the activity favourable to his progress.",
-                                       image_url: "chinese_hibiscus_yellow_orange_red.jpg"
+                                       image_url: "chinese_hibiscus_yellow_orange_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus_three.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Vasco'",
@@ -11079,15 +12531,19 @@ chinese_hibiscus.child_flowers.create!(bot_name: "Hibiscus rosa-sinensis 'Vasco'
                                        colour: "Lemon or bright yellow, white",
                                        significance: "Realisation of the New Creation (Realisation of Auroville)",
                                        comment: "It is for this that we must prepare.",
-                                       image_url: "chinese_hibiscus_lemon_white.jpg"
+                                       image_url: "chinese_hibiscus_lemon_yellow_white.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus_rosa-sinensis_(giallo)_-_01.JPG"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Medium to large solid single deep pink flower with flat rounded
                                                      petals and a reddish pink center.",
                                        colour: "Deep pink, reddish pink",
-                                       significance: "Usefulness of the New creation (Usefulness of Auroville)",
+                                       significance: "Usefulness of the New Creation (Usefulness of Auroville)",
                                        comment: "A creation which aims at teaching men to surpass themselves.",
-                                       image_url: "chinese_hibiscus_pink_red.jpg"
+                                       image_url: "chinese_hibiscus_pink_red.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiskus_at_Bhopal.JPG"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Large double flower with light pink petals shading to deeper pink
@@ -11096,7 +12552,9 @@ chinese_hibiscus.child_flowers.create!(description: "Large double flower with li
                                        colour: "Light to deep pink, dark red, cream",
                                        significance: "Consciousness One with the Divine Consciousness",
                                        comment: "Smiling and happy, it no longer knows any shadows.",
-                                       image_url: "chinese_hibiscus_pink_red_cream.jpg"
+                                       image_url: "chinese_hibiscus_double_pink_red_cream.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Starr_080715-9249_Hibiscus_rosa-sinensis.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Large double bright yellow or golden yellow flowers. Another form
@@ -11105,14 +12563,18 @@ chinese_hibiscus.child_flowers.create!(description: "Large double bright yellow 
                                        significance: "Supramental Consciousness",
                                        comment: "Gloriously awake and powerful. Luminous, sure of itself, infallible
                                                  in its movements.",
-                                       image_url: "chinese_hibiscus_yellow.jpg"
+                                       image_url: "chinese_hibiscus_double_yellow.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus_cultivar_(2).JPG"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Medium-sized double cream white flower.",
                                        colour: "Cream white",
                                        significance: "Will in Course of Uniting Itself with the Divine Will",
                                        comment: "On the way to perfection.",
-                                       image_url: "chinese_hibiscus_cream.jpg"
+                                       image_url: "chinese_hibiscus_double_cream_white.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Starr_050107-2950_Hibiscus_rosa-sinensis.jpg"
                                       )
 
 chinese_hibiscus.child_flowers.create!(description: "Large single shell white or very pale yellow gold flower with
@@ -11120,7 +12582,9 @@ chinese_hibiscus.child_flowers.create!(description: "Large single shell white or
                                        colour: "Shell white or pale yellow gold, pink, golden",
                                        significance: "Godhead",
                                        comment: "Pure and perfect, puts forth its force in the world.",
-                                       image_url: "chinese_hibiscus_gold_white.jpg"
+                                       image_url: "chinese_hibiscus_gold_white.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Hibiscus03.jpg"
                                       )
 
 # Rose of Sharon
@@ -11135,6 +12599,8 @@ rose_of_sharon = Flower.create!(name: "Rose of Sharon",
                                 climate: "Found across a wide range of climates",
                                 image_url: "rose_of_sharon.jpg",
                                 thumbnail_url: "rose_of_sharon_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Hibiscus_syriacus_Blue_bird.jpg"
                                )
 
 rose_of_sharon.child_flowers.create!(description: "Medium-sized single funnel-shaped lavender flower changing to blue,
@@ -11142,14 +12608,19 @@ rose_of_sharon.child_flowers.create!(description: "Medium-sized single funnel-sh
                                      colour: "Lavender to blue, magenta, white",
                                      significance: "Power in the Higher Vital",
                                      comment: "Power that wants to be at the service of the Divine.",
-                                     image_url: "rose_of_sharon_lavender.jpg"
+                                     image_url: "rose_of_sharon_lavender.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Hibiscus_bleu_2.jpg"
                                     )
 
-rose_of_sharon.child_flowers.create!(description: "Medium-sized double white flower with soft petals.",
+rose_of_sharon.child_flowers.create!(bot_name: "Hibiscus syriacus 'White Chiffon'",
+                                     description: "Medium-sized double white flower with soft petals.",
                                      colour: "White",
                                      significance: "Will One with the Divine Will",
                                      comment: "The condition that triumphs over all obstacles.",
-                                     image_url: "rose_of_sharon_white.jpg"
+                                     image_url: "rose_of_sharon_white.jpg",
+                                     source: "Pflanzen (Lubera Gartenshop)",
+                                     url: "http://www.lubera.com/de/shop/hibiskus-white-chiffon_produkt-912962.html"
                                     )
 
 # Amaryllis
@@ -11165,6 +12636,8 @@ amaryllis = Flower.create!(name: "Amaryllis",
                            climate: "Tropical and subtropical",
                            image_url: "amaryllis.jpg",
                            thumbnail_url: "amaryllis_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Sunset_effect_on_the_flowers.JPG"
                           )
 
 amaryllis.child_flowers.create!(description: "Large trumpet-shaped flowers with six flared petals and long curving
@@ -11174,7 +12647,9 @@ amaryllis.child_flowers.create!(description: "Large trumpet-shaped flowers with 
                                 colour: "White, and shades of red, pink, orange, and salmon",
                                 significance: "Conversion",
                                 comment: "The starting point of realisation.",
-                                image_url: "amaryllis_mix.jpg"
+                                image_url: "amaryllis_mix.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:RFE06_384.jpg"
                                )
 
 amaryllis.child_flowers.create!(description: "Large trumpet-shaped yellow flowers with six flared petals and long
@@ -11184,7 +12659,9 @@ amaryllis.child_flowers.create!(description: "Large trumpet-shaped yellow flower
                                 significance: "Conversion of the Mind",
                                 comment: "The mind has freed itself of its arrogance and knows that it is only an
                                           instrument.",
-                                image_url: "amaryllis_yellow.jpg"
+                                image_url: "amaryllis_yellow.jpg",
+                                source: "Lilium Breeding",
+                                url: "http://www.liliumbreeding.nl/lilyliek.htm"
                                )
 
 amaryllis.child_flowers.create!(description: "Large trumpet-shaped salmon orange flowers with six flared petals and
@@ -11193,7 +12670,9 @@ amaryllis.child_flowers.create!(description: "Large trumpet-shaped salmon orange
                                 colour: "Salmon orange",
                                 significance: "Conversion of the Physical Mind",
                                 comment: "Ready to understand everything and to grow continually.",
-                                image_url: "amaryllis_orange.jpg"
+                                image_url: "amaryllis_orange.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Starr_080327-3845_Hippeastrum_striatum.jpg"
                                )
 
 amaryllis.child_flowers.create!(description: "Large trumpet-shaped light pink flowers with reddish pink lines and a
@@ -11204,7 +12683,9 @@ amaryllis.child_flowers.create!(description: "Large trumpet-shaped light pink fl
                                 colour: "Light pink, reddish pink, white",
                                 significance: "Conversion of the Emotional Being",
                                 comment: "It blossoms in a harmonious receptivity.",
-                                image_url: "amaryllis_pink_red_white.jpg"
+                                image_url: "amaryllis_pink_red_white.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Hippeastrum_Pink_Floyd.jpg"
                                )
 
 amaryllis.child_flowers.create!(description: "Large trumpet-shaped dark red flowers with or without a red centre and
@@ -11214,7 +12695,9 @@ amaryllis.child_flowers.create!(description: "Large trumpet-shaped dark red flow
                                 colour: "Dark red",
                                 significance: "Conversion of the Vital",
                                 comment: "Enthusiastic and spontaneous, it gives itself unstintingly.",
-                                image_url: "amaryllis_dark_red.jpg"
+                                image_url: "amaryllis_dark_red.jpg",
+                                source: "Tatters ❀",
+                                url: "https://www.flickr.com/photos/tgerus/3034864958"
                                )
 
 amaryllis.child_flowers.create!(description: "Large trumpet-shaped bright red flowers with or without a white centre;
@@ -11224,7 +12707,9 @@ amaryllis.child_flowers.create!(description: "Large trumpet-shaped bright red fl
                                 colour: "Bright red, white",
                                 significance: "Conversion of the Physical",
                                 comment: "Compact and stable, without any fluctuations.",
-                                image_url: "amaryllis_bright_red.jpg"
+                                image_url: "amaryllis_bright_red.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:HippeastrumRed.jpg"
                                )
 
 amaryllis.child_flowers.create!(description: "Large trumpet-shaped fragrant white flowers with or without a green
@@ -11234,7 +12719,9 @@ amaryllis.child_flowers.create!(description: "Large trumpet-shaped fragrant whit
                                 colour: "White, green",
                                 significance: "Integral Conversion",
                                 comment: "Above all conflicts and struggles, in a harmonious blossoming.",
-                                image_url: "amaryllis_white.jpg"
+                                image_url: "amaryllis_white.jpg",
+                                source: "kkmarais",
+                                url: "https://www.flickr.com/photos/29946195@N07/4805997491/"
                                )
 
 amaryllis.child_flowers.create!(description: "Large trumpet-shaped flowers with wavy petals spotted rose; flowers with
@@ -11244,7 +12731,9 @@ amaryllis.child_flowers.create!(description: "Large trumpet-shaped flowers with 
                                 colour: "Rose",
                                 significance: "Integral Conversion with the Help of the Psychic",
                                 comment: "Sweetness mingles with resolution.",
-                                image_url: "amaryllis_rose.jpg"
+                                image_url: "amaryllis_rose.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Hippeastrum_reticulatum_(1).jpg"
                                )
 
 amaryllis.child_flowers.create!(description: "Large trumpet-shaped very large light red flowers with thick fleshy
@@ -11254,7 +12743,9 @@ amaryllis.child_flowers.create!(description: "Large trumpet-shaped very large li
                                 colour: "Light red",
                                 significance: "Total Conversion",
                                 comment: "The whole being has given itself in all its movements.",
-                                image_url: "amaryllis_light_red.jpg"
+                                image_url: "amaryllis_light_red.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Starr_061231-3065_Hippeastrum_striatum.jpg"
                                )
 
 # Cup-and-saucer Plant
@@ -11272,6 +12763,8 @@ cup_and_saucer_plant = Flower.create!(name: "Cup-and-saucer Plant",
                                       climate: "Tropical and subtropical",
                                       image_url: "cup_and_saucer_plant.jpg",
                                       thumbnail_url: "cup_and_saucer_plant_thumbnail.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:Starr_071024-0264_Holmskioldia_sanguinea.jpg"
                                      )
 
 cup_and_saucer_plant.child_flowers.create!(description: "Small narrow tubular flowers in shades of yellow, red and
@@ -11281,7 +12774,9 @@ cup_and_saucer_plant.child_flowers.create!(description: "Small narrow tubular fl
                                            colour: "In shades of yellow, red, and lavender",
                                            significance: "Curiosity",
                                            comment: "If we want to be exceptional, let it be through our qualities.",
-                                           image_url: "cup_and_saucer_plant_mix.jpg"
+                                           image_url: "cup_and_saucer_plant_mix.jpg",
+                                           source: "Wikimedia Commons",
+                                           url: "https://commons.wikimedia.org/wiki/File:Starr_070112-3357_Holmskioldia_sanguinea.jpg"
                                           )
 
 cup_and_saucer_plant.child_flowers.create!(description: "Small narrow tubular lemon yellow flowers arising from open
@@ -11290,7 +12785,9 @@ cup_and_saucer_plant.child_flowers.create!(description: "Small narrow tubular le
                                            colour: "Lemon yellow",
                                            significance: "Mental Curiosity",
                                            comment: "Should be strictly controlled so as not to be dangerous.",
-                                           image_url: "cup_and_saucer_plant_lemon_yellow.jpg"
+                                           image_url: "cup_and_saucer_plant_lemon_yellow.jpg",
+                                           source: "Wikimedia Commons",
+                                           url: "https://commons.wikimedia.org/wiki/File:Starr_070111-3326_Holmskioldia_sanguinea.jpg"
                                           )
 
 cup_and_saucer_plant.child_flowers.create!(description: "Small narrow tubular red flowers arising from open
@@ -11299,7 +12796,9 @@ cup_and_saucer_plant.child_flowers.create!(description: "Small narrow tubular re
                                            colour: "Red",
                                            significance: "Physical Curiosity",
                                            comment: "Its value depends on its purpose.",
-                                           image_url: "cup_and_saucer_plant_red.jpg"
+                                           image_url: "cup_and_saucer_plant_red.jpg",
+                                           source: "Wikimedia Commons",
+                                           url: "https://commons.wikimedia.org/wiki/File:Holmskioldia_sanguinea2.jpg"
                                           )
 
 # Garden Balsam
@@ -11310,10 +12809,13 @@ garden_balsam = Flower.create!(name: "Garden Balsam",
                                family: "Balsaminaceae",
                                petals: "",
                                size: "",
-                               place: "Native to southern Asia in India and Burma",
+                               place: "Native to southern Asia in India and Burma, cultivated in tropical and
+                                       subtropical regions",
                                climate: "Tropical and subtropical",
                                image_url: "garden_balsam.jpg",
                                thumbnail_url: "garden_balsam_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Impatiens_balsamina_(2).JPG"
                               )
 
 garden_balsam.child_flowers.create!(description: "Small to medium-sized single or double flowers with irregular wavy
@@ -11324,7 +12826,9 @@ garden_balsam.child_flowers.create!(description: "Small to medium-sized single o
                                     colour: "Shades of red, pink, purple, and white",
                                     significance: "Generosity",
                                     comment: "Gives and gives itself without bargaining. ",
-                                    image_url: "garden_balsam_mix.jpg"
+                                    image_url: "garden_balsam_mix.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Balsam_flower_at_lalbagh7353.JPG"
                                    )
 
 garden_balsam.child_flowers.create!(description: "Small to medium-sized single or double pink flowers with irregular
@@ -11334,7 +12838,9 @@ garden_balsam.child_flowers.create!(description: "Small to medium-sized single o
                                     colour: "Pink",
                                     significance: "Psychic Generosity",
                                     comment: "Gives for the joy of giving.",
-                                    image_url: "garden_balsam_pink.jpg"
+                                    image_url: "garden_balsam_pink.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Balsam_flower..JPG"
                                    )
 
 garden_balsam.child_flowers.create!(description: "Small to medium-sized single rose purple flowers with irregular wavy
@@ -11344,7 +12850,9 @@ garden_balsam.child_flowers.create!(description: "Small to medium-sized single r
                                     colour: "Rose purple",
                                     significance: "Generosity in the Vital",
                                     comment: "Gives itself unstintingly.",
-                                    image_url: "garden_balsam_single_rose_purple.jpg"
+                                    image_url: "garden_balsam_single_rose_purple.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Impatiens_balsamina_28_08_2009.JPG"
                                    )
 
 garden_balsam.child_flowers.create!(description: "Small to medium-sized double rose purple flowers with irregular wavy
@@ -11354,7 +12862,9 @@ garden_balsam.child_flowers.create!(description: "Small to medium-sized double r
                                     colour: "Rose purple",
                                     significance: "Perfect Generosity in the Vital",
                                     comment: "",
-                                    image_url: "garden_balsam_double_rose_purple.jpg"
+                                    image_url: "garden_balsam_double_rose_purple.jpg",
+                                    source: "Ongzi's SecretGarden",
+                                    url: "http://ongzi-secretgarden.blogspot.in/2014/02/impatiens-balsamina.html"
                                    )
 
 garden_balsam.child_flowers.create!(description: "Small to medium-sized bicoloured pink and red single or double
@@ -11364,7 +12874,9 @@ garden_balsam.child_flowers.create!(description: "Small to medium-sized bicolour
                                     colour: "Bicoloured pink and red",
                                     significance: "Psycho-Physical Generosity",
                                     comment: "Generosity of thought and act.",
-                                    image_url: "garden_balsam_bicoloured.jpg"
+                                    image_url: "garden_balsam_bicoloured.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Balsamina_Impatiens.jpg"
                                    )
 
 garden_balsam.child_flowers.create!(description: "Small to medium-sized single or double red flowers with irregular
@@ -11374,7 +12886,9 @@ garden_balsam.child_flowers.create!(description: "Small to medium-sized single o
                                     colour: "Red",
                                     significance: "Generosity in the Physical",
                                     comment: "Loves abundance and loves to give it.",
-                                    image_url: "garden_balsam_red.jpg"
+                                    image_url: "garden_balsam_red.jpg",
+                                    source: " tournesols",
+                                    url: "https://www.flickr.com/photos/szotyi/1496617824"
                                    )
 
 # Morning Glory
@@ -11387,7 +12901,9 @@ morning_glory = Flower.create!(name: "Morning Glory",
                                place: "Occurs throughout tropical and subtropical regions of the world",
                                climate: "Tropical and subtropical",
                                image_url: "morning_glory.jpg",
-                               thumbnail_url: "morning_glory_thumbnail.jpg"
+                               thumbnail_url: "morning_glory_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Morning_Glory_%22Grandpa_Ott%22_(1033355923).jpg"
                               )
 
 morning_glory.child_flowers.create!(bot_name: "Ipomoea",
@@ -11398,7 +12914,9 @@ morning_glory.child_flowers.create!(bot_name: "Ipomoea",
                                     colour: "White and shades of red, pink, purple, and blue",
                                     significance: "Nature Makes an Offering of Her Beauty",
                                     comment: "It is a spontaneous and effortless offering.",
-                                    image_url: "morning_glory_mix.jpg"
+                                    image_url: "morning_glory_mix.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Morning_glory.jpg"
                                    )
 
 morning_glory.child_flowers.create!(bot_name: "Ipomoea tricolor 'Pearly Gates'",
@@ -11407,7 +12925,9 @@ morning_glory.child_flowers.create!(bot_name: "Ipomoea tricolor 'Pearly Gates'",
                                     colour: "White, cream yellow",
                                     significance: "Integral Unconditional Offering",
                                     comment: "The joy of self-offering without asking anything in return.",
-                                    image_url: "morning_glory_pearly_gates.jpg"
+                                    image_url: "morning_glory_pearly_gates.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Ipomoea_tricolor46978264.jpg"
                                    )
 
 morning_glory.child_flowers.create!(bot_name: "Ipomoea tricolor",
@@ -11416,7 +12936,9 @@ morning_glory.child_flowers.create!(bot_name: "Ipomoea tricolor",
                                     colour: "Blue, white",
                                     significance: "Artistic Sensitivity",
                                     comment: "A powerful aid in fighting ugliness.",
-                                    image_url: "morning_glory_blue_white.jpg"
+                                    image_url: "morning_glory_blue_white.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Morning_glory_6b.jpg"
                                    )
 
 morning_glory.child_flowers.create!(bot_name: "Ipomoea nil 'Scarlet O'Hara'",
@@ -11425,7 +12947,9 @@ morning_glory.child_flowers.create!(bot_name: "Ipomoea nil 'Scarlet O'Hara'",
                                     colour: "Bright magenta",
                                     significance: "Joy of Beauty",
                                     comment: "Beauty is the joyous offering of Nature.",
-                                    image_url: "morning_glory_scarlet_o_hara.jpg"
+                                    image_url: "morning_glory_scarlet_o_hara.jpg",
+                                    source: "World Seed Supply",
+                                    url: "http://www.worldseedsupply.com/product/ipomoea-nil-scarlet-ohara-morning-glory-seeds/"
                                    )
 
 morning_glory.child_flowers.create!(bot_name: "Ipomoea nil 'Cornell'",
@@ -11434,7 +12958,9 @@ morning_glory.child_flowers.create!(bot_name: "Ipomoea nil 'Cornell'",
                                     colour: "Rose pink, white",
                                     significance: "Spontaneous Beauty",
                                     comment: "Delicate and magnificent, it has an incomparable charm.",
-                                    image_url: "morning_glory_cornell.jpg"
+                                    image_url: "morning_glory_cornell.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:PharbitisNil.jpg"
                                    )
 
 morning_glory.child_flowers.create!(bot_name: "Ipomoea tricolor 'Heavenly Blue'",
@@ -11443,7 +12969,9 @@ morning_glory.child_flowers.create!(bot_name: "Ipomoea tricolor 'Heavenly Blue'"
                                     colour: "Sky blue, yellow",
                                     significance: "Pure Sense of Beauty",
                                     comment: "Can be acquired only through a great sense of purification.",
-                                    image_url: "morning_glory_heavenly_blue.jpg"
+                                    image_url: "morning_glory_heavenly_blue.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Morning_Glory_1.JPG"
                                    )
 
 # Jungle Geranium
@@ -11458,6 +12986,8 @@ jungle_geranium = Flower.create!(name: "Jungle Geranium",
                                  climate: "Tropical",
                                  image_url: "jungle_geranium.jpg",
                                  thumbnail_url: "jungle_geranium_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:FvfSantan0726_02.JPG"
                                 )
 
 jungle_geranium.child_flowers.create!(description: "Small light yellow salverform flower with a long thin corolla tube
@@ -11467,7 +12997,9 @@ jungle_geranium.child_flowers.create!(description: "Small light yellow salverfor
                                       colour: "Light yellow",
                                       significance: "Mental Aspiration",
                                       comment: "Its expression is clear precise and very reasonable.",
-                                      image_url: "jungle_geranium_yellow.jpg"
+                                      image_url: "jungle_geranium_yellow.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:Ixora_coccinea,_yellow.jpg"
                                      )
 
 jungle_geranium.child_flowers.create!(description: "Small deep red salverform flower with a long thin corolla tube and
@@ -11476,7 +13008,9 @@ jungle_geranium.child_flowers.create!(description: "Small deep red salverform fl
                                       colour: "Deep red",
                                       significance: "Aspiration in the Physical",
                                       comment: "Manifold, simple and joyful.",
-                                      image_url: "jungle_geranium_red.jpg"
+                                      image_url: "jungle_geranium_red.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:%E0%B4%9A%E0%B5%86%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%82.jpg"
                                      )
 
 # Jasmine
@@ -11491,6 +13025,8 @@ jasmine = Flower.create!(name: "Jasmine",
                          climate: "Tropical to warm temperate",
                          image_url: "jasmine.jpg",
                          thumbnail_url: "jasmine_thumbnail.jpg",
+                         source: "Wikimedia Commons",
+                         url: "https://commons.wikimedia.org/wiki/File:Jasminum_angulare,_a,_Schanskop.jpg"
                         )
 
 jasmine.child_flowers.create!(description: "All varieties of small single white salverform flowers with a slender tube
@@ -11499,7 +13035,9 @@ jasmine.child_flowers.create!(description: "All varieties of small single white 
                               colour: "White",
                               significance: "Purity",
                               comment: "True purity has a lovely fragrance.",
-                              image_url: "jasmine_single_mix.jpg"
+                              image_url: "jasmine_single_mix.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Flowers_(228).jpg"
                              )
 
 jasmine.child_flowers.create!(description: "Small semi-double salverform flowers with a slender tube; the flowers are
@@ -11508,17 +13046,21 @@ jasmine.child_flowers.create!(description: "Small semi-double salverform flowers
                               colour: "White",
                               significance: "Psychic Purity",
                               comment: "The condition natural to the psychic.",
-                              image_url: "jasmine_semi_double_mix.jpg"
+                              image_url: "jasmine_semi_double_mix.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Jasminium_Sambac_-_%E0%B4%95%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%AE%E0%B5%81%E0%B4%B2%E0%B5%8D%E0%B4%B2_02.JPG"
                              )
 
-jasmine.child_flowers.create!(bot_name: "Jasminum sambac",
+jasmine.child_flowers.create!(bot_name: "Jasminum sambac 'Grand Duke of Tuscany'",
                               description: "Intensely fragrant fully double white roselike salverform flowers with a
                                             slender tube; the flowers are typically highly fragrant; borne in terminal
                                             or axillary cymes. Shrubs or vines.",
                               colour: "White",
                               significance: "Integral Purity",
                               comment: "The whole being is purified of the ego.",
-                              image_url: "jasmine_sambac.jpg"
+                              image_url: "jasmine_sambac.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Jasminum_sambac_(2).JPG"
                              )
 
 # Crape Myrtle
@@ -11533,6 +13075,8 @@ crape_myrtle = Flower.create!(name: "Crape Myrtle",
                               climate: "Tropical to warm temperate",
                               image_url: "crape_myrtle.jpg",
                               thumbnail_url: "crape_myrtle_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Lagerstroemia_indica_0005.jpg"
                              )
 
 crape_myrtle.child_flowers.create!(description: "Medium-sized mildly fragrant flower, in a variety of colours, with
@@ -11543,7 +13087,9 @@ crape_myrtle.child_flowers.create!(description: "Medium-sized mildly fragrant fl
                                    significance: "Intimacy with the Divine",
                                    comment: "Complete surrender to the Divine and total receptivity to His influence
                                              are the conditions for this intimacy.",
-                                   image_url: "crape_myrtle_mix.jpg"
+                                   image_url: "crape_myrtle_mix.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Red_Myrtle_(Lagerstroemia_indica).jpg"
                                   )
 
 crape_myrtle.child_flowers.create!(description: "Medium-sized mildly fragrant lavender pink flower, with delicate
@@ -11553,7 +13099,9 @@ crape_myrtle.child_flowers.create!(description: "Medium-sized mildly fragrant la
                                    colour: "Lavender pink, yellow",
                                    significance: "Intimacy with the Divine in the Psychic",
                                    comment: "The natural state of the fully developed Psychic.",
-                                   image_url: "crape_myrtle_lavender_pink.jpg"
+                                   image_url: "crape_myrtle_lavender_pink.jpg",
+                                   source: "OnlinePlantGuide.com",
+                                   url: "http://www.onlineplantguide.com/Plant-Details/1409/"
                                   )
 
 crape_myrtle.child_flowers.create!(description: "Medium-sized mildly fragrant light purple flower, with delicate
@@ -11564,7 +13112,9 @@ crape_myrtle.child_flowers.create!(description: "Medium-sized mildly fragrant li
                                    significance: "Intimacy with the Divine in the Vital",
                                    comment: "Only a pure, calm, and desire-less vital can hope to enter this
                                              marvellous state.",
-                                   image_url: "crape_myrtle_light_purple.jpg"
+                                   image_url: "crape_myrtle_light_purple.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:A80321597.jpg"
                                   )
 
 crape_myrtle.child_flowers.create!(description: "Medium-sized mildly fragrant pinkish red flower, with delicate deeply
@@ -11574,7 +13124,9 @@ crape_myrtle.child_flowers.create!(description: "Medium-sized mildly fragrant pi
                                    significance: "Intimacy with the Divine in the Physical",
                                    comment: "Is possible only for him who lives exclusively by the Divine and for the
                                              Divine.",
-                                   image_url: ""
+                                   image_url: "crape_myrtle_pink_red_yellow.jpg",
+                                   source: "Campus Arboretum, The University of Arizona",
+                                   url: "http://arboretum.arizona.edu/dazzling-dry-summer"
                                   )
 
 crape_myrtle.child_flowers.create!(description: "Medium-sized mildly fragrant white flower, with delicate deeply
@@ -11583,7 +13135,9 @@ crape_myrtle.child_flowers.create!(description: "Medium-sized mildly fragrant wh
                                    colour: "White, yellow",
                                    significance: "Integral Intimacy with the Divine",
                                    comment: "The whole being vibrates only to the divine touch.",
-                                   image_url: "crape_myrtle_white.jpg"
+                                   image_url: "crape_myrtle_white.jpg",
+                                   source: "FloraFinder.com",
+                                   url: "http://www.florafinder.com/Species/Lagerstroemia_indica_Acomi.php"
                                   )
 
 # Shrub Verbena
@@ -11599,6 +13153,8 @@ shrub_verbena = Flower.create!(name: "Shrub Verbena",
                                climate: "Tropical",
                                image_url: "shrub_verbena.jpg",
                                thumbnail_url: "shrub_verbena_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_-_Danaus_plexippus_(5882864342).jpg"
                               )
 
 shrub_verbena.child_flowers.create!(description: "Tiny multicoloured and often changeable shades of red, orange, gold
@@ -11608,7 +13164,9 @@ shrub_verbena.child_flowers.create!(description: "Tiny multicoloured and often c
                                     colour: "multicoloured red, orange, gold, and lavender",
                                     significance: "Supramental Influence in the Cells",
                                     comment: "Unexpected variety in colours and qualities.",
-                                    image_url: "shrub_verbena_multi.jpg"
+                                    image_url: "shrub_verbena_multi.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Lantana_flowers,_Cefal%C3%BA,_Sicily,_It_(9452491724).jpg"
                                    )
 
 shrub_verbena.child_flowers.create!(description: "Tiny mauve salverform flowers in round compact axillary or terminal
@@ -11617,7 +13175,9 @@ shrub_verbena.child_flowers.create!(description: "Tiny mauve salverform flowers 
                                     colour: "Mauve",
                                     significance: "Emotional Beauty in the Cells",
                                     comment: "Seeking and radiating all the emotions of beauty.",
-                                    image_url: "shrub_verbena_mauve.jpg"
+                                    image_url: "shrub_verbena_mauve.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Lisbon_Portugal_579_(5108898412).jpg"
                                    )
 
 shrub_verbena.child_flowers.create!(description: "Tiny yellow salverform flowers in round compact axillary or terminal
@@ -11626,7 +13186,9 @@ shrub_verbena.child_flowers.create!(description: "Tiny yellow salverform flowers
                                     colour: "Yellow",
                                     significance: "Light in the Cells",
                                     comment: "The first step towards purity in the cells.",
-                                    image_url: "shrub_verbena_yellow.jpg"
+                                    image_url: "shrub_verbena_yellow.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Golden_flower_hydrangea.jpg"
                                    )
 
 shrub_verbena.child_flowers.create!(description: "Tiny white salverform flowers in round compact axillary or terminal
@@ -11636,7 +13198,9 @@ shrub_verbena.child_flowers.create!(description: "Tiny white salverform flowers 
                                     significance: "Purity in the Cells",
                                     comment: "Can only be obtained through the conquest of desires; the true condition
                                               for good health.",
-                                    image_url: "shrub_verbena_white.jpg"
+                                    image_url: "shrub_verbena_white.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Lantana_05352.JPG"
                                    )
 
 # Sweet Pea
@@ -11650,7 +13214,9 @@ sweet_pea = Flower.create!(name: "Sweet Pea",
                            place: "Native to Sicily, southern Italy and the Aegean Islands",
                            climate: "Temperate",
                            image_url: "sweet_pea.jpg",
-                           thumbnail_url: "sweet_pea_thumbnail.jpg"
+                           thumbnail_url: "sweet_pea_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Sweet_pea_from_lalbagh_1790.JPG"
                           )
 
 sweet_pea.child_flowers.create!(description: "Small sweetly fragrant papilionaceous flowers with a broad erect upper
@@ -11660,7 +13226,9 @@ sweet_pea.child_flowers.create!(description: "Small sweetly fragrant papilionace
                                 colour: "White and shades of pink, red, salmon, and lavender",
                                 significance: "Gentleness",
                                 comment: "Always gracious and loves to please.",
-                                image_url: "sweet_pea_mix.jpg"
+                                image_url: "sweet_pea_mix.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:P1000299_Lathyrus_odoratus_(Prince_Edward_of_York)_(Leguminosae)_Flower.JPG"
                                )
 
 sweet_pea.child_flowers.create!(description: "Small sweetly fragrant papilionaceous mauve flowers with a broad erect
@@ -11669,7 +13237,9 @@ sweet_pea.child_flowers.create!(description: "Small sweetly fragrant papilionace
                                 colour: "Mauve",
                                 significance: "Vital Gentleness ",
                                 comment: "",
-                                image_url: "sweet_pea_mauve.jpg"
+                                image_url: "sweet_pea_mauve.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Lathyrus_odoratus_Paris.JPG"
                                )
 
 # Turk's Cap
@@ -11685,6 +13255,8 @@ turks_cap = Flower.create!(name: "Turk's Cap",
                            climate: "Mostly tropical",
                            image_url: "turks_cap.jpg",
                            thumbnail_url: "turks_cap_thumbnail.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Hibiscus_from_Venezuela.jpg"
                           )
 
 turks_cap.child_flowers.create!(bot_name: "Malvaviscus arboreus var. drummondii",
@@ -11694,7 +13266,9 @@ turks_cap.child_flowers.create!(bot_name: "Malvaviscus arboreus var. drummondii"
                                 colour: "Bright red",
                                 significance: "Divine Help",
                                 comment: "Modest in appearance, powerful in action.",
-                                image_url: "turks_cap_bright_red.jpg"
+                                image_url: "turks_cap_bright_red.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:%E0%B4%9A%E0%B5%86%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B4%B0%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF5.JPG"
                                )
 
 turks_cap.child_flowers.create!(bot_name: "Malvaviscus arboreus var. mexicanus",
@@ -11704,7 +13278,9 @@ turks_cap.child_flowers.create!(bot_name: "Malvaviscus arboreus var. mexicanus",
                                 colour: "Red",
                                 significance: "Divine Solicitude",
                                 comment: "Always active, even when we do not perceive it.",
-                                image_url: "turks_cap_red.jpg"
+                                image_url: "turks_cap_red.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Malvaviscus_arboreus_stamens_and_pistil_2.jpg"
                                )
 
 turks_cap.child_flowers.create!(bot_name: "Malvaviscus arboreus var. mexicanus",
@@ -11715,7 +13291,9 @@ turks_cap.child_flowers.create!(bot_name: "Malvaviscus arboreus var. mexicanus",
                                 significance: "Divine Solicitude Rightly Understood",
                                 comment: "Let us understand and receive with gratitude this Divine Solicitude, so
                                           often misunderstood.",
-                                image_url: "turks_cap_pink.jpg"
+                                image_url: "turks_cap_pink.jpg",
+                                source: "Dinesh Valke",
+                                url: "https://www.flickr.com/photos/dinesh_valke/323897121"
                                )
 
 # Mango
@@ -11731,6 +13309,8 @@ mango = Flower.create!(name: "Mango",
                        climate: "Tropical and subtropical",
                        image_url: "mango.jpg",
                        thumbnail_url: "mango_thumbnail.jpg",
+                       source: "Wikimedia Commons",
+                       url: "https://commons.wikimedia.org/wiki/File:Manguifera_indica_follaje_y_frutos.jpeg"
                       )
 
 mango.child_flowers.create!(description: "Tiny cream to pale pink five-petalled flowers with a fruitlike fragrance,
@@ -11739,7 +13319,9 @@ mango.child_flowers.create!(description: "Tiny cream to pale pink five-petalled 
                             colour: "Cream to pale pink",
                             significance: "Nature's Hope for Realisation",
                             comment: "Nature knows that one day she will be able to realise.",
-                            image_url: "mango_flower.jpg"
+                            image_url: "mango_flower.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Starr_070123-3685_Mangifera_indica.jpg"
                            )
 
 mango.child_flowers.create!(description: "Medium to large succulent edible fruit of the mango tree, generally oval in
@@ -11747,7 +13329,9 @@ mango.child_flowers.create!(description: "Medium to large succulent edible fruit
                             colour: "Green to yellow",
                             significance: "Divine Knowledge",
                             comment: "It is succulent, nourishing, strengthening.",
-                            image_url: "mango_fruit.jpg"
+                            image_url: "mango_fruit.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Mangifera_indica_(Manguier_4).jpg"
                            )
 
 # Spanish Cherry
@@ -11758,10 +13342,14 @@ spanish_cherry = Flower.create!(name: "Spanish Cherry",
                                 family: "Sapotaceae",
                                 petals: "",
                                 size: "Small",
-                                place: "Found in tropical forests in South Asia, Southeast Asia and northern Australia",
+                                place: "Native to India, Sri Lanka, the Andaman Islands, and the Indochinese
+                                        peninsula. Found in tropical forests in South Asia, Southeast Asia and
+                                        northern Australia",
                                 climate: "Mostly tropical",
                                 image_url: "spanish_cherry.jpg",
                                 thumbnail_url: "spanish_cherry_thumbnail.jpg",
+                                source: "MarveilleueChiang-May",
+                                url: "http://www.merveilleusechiang-mai.com/mimusops-elengi-l-ou-phikoun"
                                )
 
 spanish_cherry.child_flowers.create!(description: "Small cream white strongly scented flower with four pointed sepals
@@ -11771,7 +13359,9 @@ spanish_cherry.child_flowers.create!(description: "Small cream white strongly sc
                                      colour: "Cream white",
                                      significance: "Patience",
                                      comment: "Indispensable for all realisation.",
-                                     image_url: "spanish_cherry_flower.jpg"
+                                     image_url: "spanish_cherry_flower.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Mimusops_elengi_flowers_1.jpg"
                                     )
 
 spanish_cherry.child_flowers.create!(description: "Small oval yellow orange fruit with a pointed tip. A medium to
@@ -11779,7 +13369,9 @@ spanish_cherry.child_flowers.create!(description: "Small oval yellow orange frui
                                      colour: "Yellow orange",
                                      significance: "Accomplishment",
                                      comment: "Accomplishment is undoubtedly the fruit of patience.",
-                                     image_url: "spanish_cherry_fruit.jpg"
+                                     image_url: "spanish_cherry_fruit.jpg",
+                                     source: "MarveilleueChiang-May",
+                                     url: "http://www.merveilleusechiang-mai.com/mimusops-elengi-l-ou-phikoun"
                                     )
 
 # Marvel of Peru
@@ -11795,6 +13387,8 @@ marvel_of_peru = Flower.create!(name: "Marvel of Peru",
                                 climate: "Tropical to warm temperate",
                                 image_url: "marvel_of_peru.jpg",
                                 thumbnail_url: "marvel_of_peru_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa.jpg"
                                )
 
 marvel_of_peru.child_flowers.create!(description: "Small fragrant salverform flowers with a long corolla tube and the
@@ -11804,7 +13398,9 @@ marvel_of_peru.child_flowers.create!(description: "Small fragrant salverform flo
                                      colour: "White and shades of red and yellow",
                                      significance: "Solace",
                                      comment: "The blessing that the Divine grants us.",
-                                     image_url: "marvel_of_peru_mix.jpg"
+                                     image_url: "marvel_of_peru_mix.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Mirabilis63.JPG"
                                     )
 
 marvel_of_peru.child_flowers.create!(description: "Small fragrant yellow salverform flowers with a long corolla tube
@@ -11813,7 +13409,9 @@ marvel_of_peru.child_flowers.create!(description: "Small fragrant yellow salverf
                                      colour: "Yellow",
                                      significance: "Solace in the Mind",
                                      comment: "A silent peace.",
-                                     image_url: "marvel_of_peru_yellow.jpg"
+                                     image_url: "marvel_of_peru_yellow.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Mirabilis66.JPG"
                                     )
 
 marvel_of_peru.child_flowers.create!(description: "Small fragrant magenta salverform flowers with a long corolla tube
@@ -11822,7 +13420,9 @@ marvel_of_peru.child_flowers.create!(description: "Small fragrant magenta salver
                                      colour: "Magenta",
                                      significance: "Solace in the Vital",
                                      comment: "Modest but effective.",
-                                     image_url: "marvel_of_peru_magenta.jpg"
+                                     image_url: "marvel_of_peru_magenta.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:2009-09-26_(2)_Wunderblume,_Four_oclock_flower,_Mirabilis_jalapa.JPG"
                                     )
 
 marvel_of_peru.child_flowers.create!(description: "Small fragrant white salverform flowers with a long corolla tube
@@ -11831,7 +13431,9 @@ marvel_of_peru.child_flowers.create!(description: "Small fragrant white salverfo
                                      colour: "White",
                                      significance: "Integral Solace",
                                      comment: "That which one can receive only from the Divine.",
-                                     image_url: "marvel_of_peru_white.jpg"
+                                     image_url: "marvel_of_peru_white.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Mirabilis.65.jpg"
                                     )
 
 # Sacred Lotus
@@ -11846,6 +13448,8 @@ sacred_lotus = Flower.create!(name: "Sacred Lotus",
                               climate: "Tropical",
                               image_url: "sacred_lotus.jpg",
                               thumbnail_url: "sacred_lotus_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Nelumbo_nucifera_(2).jpg"
                              )
 
 sacred_lotus.child_flowers.create!(bot_name: "Nelumbo nucifera 'Alba'",
@@ -11858,7 +13462,9 @@ sacred_lotus.child_flowers.create!(bot_name: "Nelumbo nucifera 'Alba'",
                                    colour: "White",
                                    significance: "Aditi - the Divine Consciousness",
                                    comment: "Pure, immaculate, gloriously powerful.",
-                                   image_url: "sacred_lotus_white.jpg"
+                                   image_url: "sacred_lotus_white.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:HanaNoHasu6.jpg"
                                   )
 
 sacred_lotus.child_flowers.create!(description: "Very large fragrant chalice-shaped pink flower with several rows of
@@ -11870,7 +13476,9 @@ sacred_lotus.child_flowers.create!(description: "Very large fragrant chalice-sha
                                    colour: "Pink",
                                    significance: "Avatar - the Supreme Manifested in a Body upon Earth",
                                    comment: "The pink lotus is the flower of Sri Aurobindo.",
-                                   image_url: "sacred_lotus_pink.jpg"
+                                   image_url: "sacred_lotus_pink.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Nelumno_nucifera_open_flower_-_botanic_garden_adelaide_edit3.jpg"
                                   )
 
 # Oleander
@@ -11885,6 +13493,8 @@ oleander = Flower.create!(name: "Oleander",
                           climate: "Found across temperate, subtropical and tropical climates",
                           image_url: "oleander.jpg",
                           thumbnail_url: "oleander_thumbnail.jpg",
+                          source: "Wikimedia Commons",
+                          url: "https://commons.wikimedia.org/wiki/File:Nerium_oleander_(2).JPG"
                          )
 
 oleander.child_flowers.create!(description: "Sweetly fragrant single salverform flower with five separated lobes that
@@ -11894,7 +13504,9 @@ oleander.child_flowers.create!(description: "Sweetly fragrant single salverform 
                                colour: "Pink to pale pink, light yellow",
                                significance: "Sweetness of Thought Turned Exclusively towards the Divine",
                                comment: "Lovely, joyful, sweet and calm, sheltered from all conflicts.",
-                               image_url: "oleander_pink_yellow.jpg"
+                               image_url: "oleander_pink_yellow.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:An_oleander_(Nerium_oleander)_flower.JPG"
                               )
 
 oleander.child_flowers.create!(description: "Sweetly fragrant single reddish pink salverform flower with five
@@ -11903,7 +13515,9 @@ oleander.child_flowers.create!(description: "Sweetly fragrant single reddish pin
                                colour: "Reddish pink",
                                significance: "Changing of Wrong Movements into Right",
                                comment: "A supreme goodwill always ready to be transformed.",
-                               image_url: "oleander_reddish_pink.jpg"
+                               image_url: "oleander_reddish_pink.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Feminidad_en_la_naturaleza.JPG"
                               )
 
 oleander.child_flowers.create!(description: "Mildly fragrant single salverform flower with five separated petals that
@@ -11913,7 +13527,9 @@ oleander.child_flowers.create!(description: "Mildly fragrant single salverform f
                                colour: "Light pink, white",
                                significance: "Contemplation of the Divine",
                                comment: "Occupied exclusively with its joyful contemplation.",
-                               image_url: "oleander_light_pink.jpg"
+                               image_url: "oleander_light_pink.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:%E0%B4%85%E0%B4%B0%E0%B4%B3%E0%B4%BF%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%82%E0%B4%B5%E0%B5%8D.JPG"
                               )
 
 oleander.child_flowers.create!(description: "Sweetly fragrant single white salverform flower with five separated
@@ -11922,7 +13538,9 @@ oleander.child_flowers.create!(description: "Sweetly fragrant single white salve
                                colour: "White",
                                significance: "Quiet Mind",
                                comment: "The best way to learn.",
-                               image_url: "oleander_white.jpg"
+                               image_url: "oleander_white.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:NERIUM_OLEANDER_-_AGUDA_-_IB-119_(Baladre).JPG"
                               )
 
 oleander.child_flowers.create!(description: "Sweetly fragrant single white salverform flower with elongated petals,
@@ -11931,7 +13549,9 @@ oleander.child_flowers.create!(description: "Sweetly fragrant single white salve
                                colour: "White",
                                significance: "Quietness Established in the Mind",
                                comment: "The essential condition for its transformation.",
-                               image_url: "oleander_white_elongated.jpg"
+                               image_url: "oleander_white_elongated.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Starr_070111-3178_Nerium_oleander.jpg"
                               )
 
 oleander.child_flowers.create!(description: "Sweetly fragrant double white salverform flower with five separated
@@ -11940,7 +13560,9 @@ oleander.child_flowers.create!(description: "Sweetly fragrant double white salve
                                colour: "White",
                                significance: "Perfect Quietness in the Mind",
                                comment: "Essential condition for true progress.",
-                               image_url: "oleander_double_white.jpg"
+                               image_url: "oleander_double_white.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Oleander_-_Kolkata_2011-03-31_2151.JPG"
                               )
 
 oleander.child_flowers.create!(description: "Sweetly fragrant double bright rose pink salverform flower with five
@@ -11950,7 +13572,9 @@ oleander.child_flowers.create!(description: "Sweetly fragrant double bright rose
                                significance: "Surrender of All Falsehood",
                                comment: "Let us offer all our falsehoods to the Divine so that He may change them into
                                          joyous truths.",
-                               image_url: "oleander_rose_pink.jpg"
+                               image_url: "oleander_double_rose_pink.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:NERIUM_OLEANDER_-_AGUDA_-_IB-124_(Baladre).JPG"
                               )
 
 # Water Lily
@@ -11965,6 +13589,8 @@ water_lily = Flower.create!(name: "Water Lily",
                             climate: "Found across temperate, subtropical and tropical climates",
                             image_url: "water_lily.jpg",
                             thumbnail_url: "water_lily_thumbnail.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Nymphaea_capensis_in_jaffna1.JPG"
                            )
 
 water_lily.child_flowers.create!(description: "Large showy usually very fragrant flowers with numerous narrow pointed
@@ -11975,7 +13601,9 @@ water_lily.child_flowers.create!(description: "Large showy usually very fragrant
                                  colour: "White and shades of yellow, red, pink, blue, lavender, and purple",
                                  significance: "Wealth",
                                  comment: "True wealth is the wealth that one offers to the Divine.",
-                                 image_url: "water_lily_mix.jpg"
+                                 image_url: "water_lily_mix.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Nymphaea_%27Innerlight%27.jpg"
                                 )
 
 water_lily.child_flowers.create!(description: "Large showy usually very fragrant pink flowers with a prominent golden
@@ -11986,7 +13614,9 @@ water_lily.child_flowers.create!(description: "Large showy usually very fragrant
                                  colour: "Pink, golden yellow",
                                  significance: "Supramentalised Wealth",
                                  comment: "Wealth placed at the service of the Divine.",
-                                 image_url: "water_lily_pink_golden.jpg"
+                                 image_url: "water_lily_pink_golden.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Water-Lilly-Ganpatipule.JPG"
                                 )
 
 water_lily.child_flowers.create!(description: "Large showy usually very fragrant blue flowers with golden centre and
@@ -11997,7 +13627,9 @@ water_lily.child_flowers.create!(description: "Large showy usually very fragrant
                                  colour: "Blue, golden",
                                  significance: "Wealth in the Mind of Light",
                                  comment: "Open to all higher ideas.",
-                                 image_url: "water_lily_blue_golden.jpg"
+                                 image_url: "water_lily_blue.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Fioriture_Estive_a_Parco_Giardino_Sigurt%C3%A0.jpg"
                                 )
 
 water_lily.child_flowers.create!(description: "Large showy usually very fragrant white flowers shaded pink and with
@@ -12008,7 +13640,9 @@ water_lily.child_flowers.create!(description: "Large showy usually very fragrant
                                  colour: "White, pink",
                                  significance: "Wealth under the Psychic Influence",
                                  comment: "Wealth ready to return to its true possessor, the Divine.",
-                                 image_url: "water_lily_white_pink.jpg"
+                                 image_url: "water_lily_white_pink.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Seerose-in-Lindenberg-3.JPG"
                                 )
 
 water_lily.child_flowers.create!(description: "Large showy usually very fragrant lavender flowers with numerous narrow
@@ -12019,7 +13653,9 @@ water_lily.child_flowers.create!(description: "Large showy usually very fragrant
                                  colour: "Lavender",
                                  significance: "Emotional Wealth",
                                  comment: "The only true emotional wealth is love for the Divine.",
-                                 image_url: "water_lily_lavender.jpg"
+                                 image_url: "water_lily_lavender.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:20100620_Plantentuin_Meise_(0069).jpg"
                                 )
 
 water_lily.child_flowers.create!(description: "Large showy usually very fragrant deep rose red flowers with numerous
@@ -12030,7 +13666,9 @@ water_lily.child_flowers.create!(description: "Large showy usually very fragrant
                                  colour: "Deep rose red",
                                  significance: "Wealth in the Most Material Vital",
                                  comment: "Can be stable only after conversion.",
-                                 image_url: "water_lily_red.jpg"
+                                 image_url: "water_lily_red.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Wundersch%C3%B6ne_Seerosenbl%C3%BCte_September_2013_Schwaigern.JPG"
                                 )
 
 water_lily.child_flowers.create!(description: "Large showy usually very fragrant yellow flowers with numerous narrow
@@ -12041,7 +13679,9 @@ water_lily.child_flowers.create!(description: "Large showy usually very fragrant
                                  colour: "Yellow",
                                  significance: "Generous Wealth",
                                  comment: "Likes to be given and spread far and wide.",
-                                 image_url: "water_lily_yellow.jpg"
+                                 image_url: "water_lily_yellow.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Yellow_lotus2.jpg"
                                 )
 
 water_lily.child_flowers.create!(description: "Large showy usually very fragrant pure white flowers with a golden
@@ -12053,7 +13693,9 @@ water_lily.child_flowers.create!(description: "Large showy usually very fragrant
                                  significance: "Integral Wealth of Mahalakshmi",
                                  comment: "Wealth in all domains and all activities, intellectual, psychological,
                                            material, in feeling and action.",
-                                 image_url: "water_lily_white.jpg"
+                                 image_url: "water_lily_pure_white.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:White_Waterlily.jpg"
                                 )
 
 # Common Basil
@@ -12068,6 +13710,8 @@ common_basil = Flower.create!(name: "Common Basil",
                               climate: "Tropical",
                               image_url: "common_basil.jpg",
                               thumbnail_url: "common_basil_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:2008_03_15_-_Ocimum_basilicum_2.JPG"
                              )
 
 common_basil.child_flowers.create!(description: "Tiny white bilabiate flowers lightly tinged pink with green leaves
@@ -12077,7 +13721,9 @@ common_basil.child_flowers.create!(description: "Tiny white bilabiate flowers li
                                    colour: "White, pink",
                                    significance: "Discipline",
                                    comment: "Sets the example and hopes to be followed.",
-                                   image_url: "common_basil_white_pink.jpg"
+                                   image_url: "common_basil_white_pink.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Basilic,_jardins_du_mus%C3%A9um_de_Toulouse.JPG"
                                   )
 
 common_basil.child_flowers.create!(description: "Tiny white bilabiate flowers with a green calyx, stem and leaves; the
@@ -12086,14 +13732,16 @@ common_basil.child_flowers.create!(description: "Tiny white bilabiate flowers wi
                                    colour: "White",
                                    significance: "Joy of Union with the Divine",
                                    comment: "Abundantly scented, it fills the heart with joy.",
-                                   image_url: "common_basil_white.jpg"
+                                   image_url: "common_basil_white.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:2008_03_15_-_Ocimum_basilicum_6.JPG"
                                   )
 
 # Wooden Rose
 
 wooden_rose = Flower.create!(name: "Wooden Rose",
                              other_names: "",
-                             bot_name: "Operculina turpethum",
+                             bot_name: "Operculina turpethum [Ipomoea turpethum]",
                              family: "Convolvulaceae",
                              petals: "Five",
                              size: "Large",
@@ -12102,6 +13750,8 @@ wooden_rose = Flower.create!(name: "Wooden Rose",
                              climate: "Tropical",
                              image_url: "wooden_rose.jpg",
                              thumbnail_url: "wooden_rose_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Operculina_turpethum_(Nisottar)_in_Kawal,_AP_W_IMG_2211.jpg"
                             )
 
 wooden_rose.child_flowers.create!(description: "Large white funnelform flower with five shallow irregularly rounded
@@ -12111,7 +13761,9 @@ wooden_rose.child_flowers.create!(description: "Large white funnelform flower wi
                                   colour: "White, light greenish yellow, light green",
                                   significance: "Integral Gratitude",
                                   comment: "The whole being offers itself to the Lord in absolute trust.",
-                                  image_url: "wooden_rose_white.jpg"
+                                  image_url: "wooden_rose_white.jpg",
+                                  source: "Anand Kumar Reddy, Medicinal Plants",
+                                  url: "http://medplants.blogspot.in/search/label/Operculina%20turpethum"
                                  )
 
 wooden_rose.child_flowers.create!(description: "Light brown rattlelike seed capsules shaped like a wooden rose but
@@ -12121,14 +13773,16 @@ wooden_rose.child_flowers.create!(description: "Light brown rattlelike seed caps
                                   significance: "Call of the Divine Grace",
                                   comment: "Not loud, but persistent and very perceptible to those who know how to
                                             listen.",
-                                  image_url: "wooden_rose_brown.jpg"
+                                  image_url: "wooden_rose_brown.jpg",
+                                  source: "Protist Information Server",
+                                  url: "http://protist.i.hosei.ac.jp/asagao/yoneda_db/j/PCD2522/htmls/10.html"
                                  )
 
 # Cat's Whiskers
 
 cats_whiskers = Flower.create!(name: "Cat's Whiskers",
                                other_names: "",
-                               bot_name: "Orthosiphon stamineus",
+                               bot_name: "Orthosiphon stamineus [Orthosiphon aristatus]",
                                family: "Labiatae",
                                petals: "",
                                size: "Small",
@@ -12136,6 +13790,8 @@ cats_whiskers = Flower.create!(name: "Cat's Whiskers",
                                climate: "Tropical",
                                image_url: "cats_whiskers.jpg",
                                thumbnail_url: "cats_whiskers_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_8060_qsbg11mar.jpg"
                               )
 
 cats_whiskers.child_flowers.create!(description: "Small rose purple salverform flower with a very thin corolla tube,
@@ -12147,7 +13803,9 @@ cats_whiskers.child_flowers.create!(description: "Small rose purple salverform f
                                     significance: "Spiritual Intensity",
                                     comment: "It is an intensity without violence. The ardour it gives you is
                                               expressed without grand gesture and big words.",
-                                    image_url: "cats_whiskers_rose_purple.jpg"
+                                    image_url: "cats_whiskers_rose_purple.jpg",
+                                    source: "ahmaja2009",
+                                    url: "https://www.flickr.com/photos/roma-/3768522410"
                                    )
 
 cats_whiskers.child_flowers.create!(description: "Small white salverform flower with a very thin corolla tube, two
@@ -12158,7 +13816,9 @@ cats_whiskers.child_flowers.create!(description: "Small white salverform flower 
                                     colour: "White, pale lavender",
                                     significance: "Aspiration for Spiritual Intensity",
                                     comment: "Bold, elegant, obstinate.",
-                                    image_url: "cats_whiskers_white_lavender.jpg"
+                                    image_url: "cats_whiskers_white_lavender.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Cats_Moustache_(5156258824).jpg"
                                    )
 
 # Star Cluster
@@ -12173,6 +13833,8 @@ star_cluster = Flower.create!(name: "Star Cluster",
                               climate: "Mostly tropical",
                               image_url: "star_cluster.jpg",
                               thumbnail_url: "star_cluster_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Pentas_flowers.jpg"
                              )
 
 star_cluster.child_flowers.create!(description: "Small white salverform five-pointed star-shaped limb; airy thin
@@ -12181,7 +13843,9 @@ star_cluster.child_flowers.create!(description: "Small white salverform five-poi
                                    colour: "White",
                                    significance: "Movements in the Light",
                                    comment: "This is possible only with a great sincerity.",
-                                   image_url: "star_cluster_white.jpg"
+                                   image_url: "star_cluster_white.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Arun_image31.jpg"
                                   )
 
 star_cluster.child_flowers.create!(description: "Small salverform flowers in shaded of mauve with a five-pointed
@@ -12191,7 +13855,9 @@ star_cluster.child_flowers.create!(description: "Small salverform flowers in sha
                                    colour: "Mauve",
                                    significance: "Light in the Vital Movements",
                                    comment: "This certainly means the beginning of wisdom.",
-                                   image_url: "star_cluster_mauve.jpg"
+                                   image_url: "star_cluster_mauve.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Pentas_lanceolat.jpg"
                                   )
 
 star_cluster.child_flowers.create!(description: "Small vivid pink salverform five-pointed star-shaped limb; airy thin
@@ -12200,7 +13866,9 @@ star_cluster.child_flowers.create!(description: "Small vivid pink salverform fiv
                                    colour: "Vivid pink",
                                    significance: "Psychic Light in the Physical Movements",
                                    comment: "The first step towards the transformation of the physical.",
-                                   image_url: "star_cluster_pink.jpg"
+                                   image_url: "star_cluster_pink.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Starr_080117-2082_Pentas_lanceolata.jpg"
                                   )
 
 star_cluster.child_flowers.create!(description: "Small bright red salverform five-pointed star-shaped limb; airy thin
@@ -12209,14 +13877,16 @@ star_cluster.child_flowers.create!(description: "Small bright red salverform fiv
                                    colour: "Bright red",
                                    significance: "Psychic Light in the Material Movements",
                                    comment: "Essential condition for transformation.",
-                                   image_url: "star_cluster_red.jpg"
+                                   image_url: "star_cluster_red.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Red-flowers.jpg"
                                   )
 
 # Petunia
 
 petunia = Flower.create!(name: "Petunia",
                          other_names: "",
-                         bot_name: "Petunia X hybrida",
+                         bot_name: "Petunia x hybrida [Petunia × atkinsiana]",
                          family: "Solanaceae",
                          petals: "",
                          size: "Medium to large",
@@ -12224,6 +13894,8 @@ petunia = Flower.create!(name: "Petunia",
                          climate: "Tropical and subtropical",
                          image_url: "petunia.jpg",
                          thumbnail_url: "petunia_thumbnail.jpg",
+                         source: "Wikimedia Commons",
+                         url: "https://commons.wikimedia.org/wiki/File:Flores_na_r%C3%BAa._La_Seu_d%27Urgell._Catalu%C3%B1a_C02.jpg"
                         )
 
 petunia.child_flowers.create!(description: "Medium to large scented single or double salverform flowers with a narrow
@@ -12233,7 +13905,9 @@ petunia.child_flowers.create!(description: "Medium to large scented single or do
                               colour: "Wide range of colours",
                               significance: "Enthusiasm",
                               comment: "True enthusiasm is full of a peaceful endurance.",
-                              image_url: "petunia_single_mix.jpg"
+                              image_url: "petunia_single_mix.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Petunia_(many-coloured)_01.JPG"
                              )
 
 petunia.child_flowers.create!(description: "Medium to large scented all double salverform flowers with a narrow hairy
@@ -12243,7 +13917,9 @@ petunia.child_flowers.create!(description: "Medium to large scented all double s
                               colour: "Double flowers in all colours",
                               significance: "Cheerful Enthusiasm",
                               comment: "The best way of facing life. Joy unites with enthusiasm in action.",
-                              image_url: "petunia_double_mix.jpg"
+                              image_url: "petunia_double_mix.jpg",
+                              source: "Bel-R Greenhouse, Inc",
+                              url: "http://www.bel-r.com/summerAnnuals.html"
                              )
 
 petunia.child_flowers.create!(description: "Medium to large scented all single bicoloured salverform flowers with a
@@ -12253,7 +13929,9 @@ petunia.child_flowers.create!(description: "Medium to large scented all single b
                               colour: "Bicoloured",
                               significance: "Enthusiasm in Action",
                               comment: "All actions are done with energy and ardour.",
-                              image_url: "petunia_single_bicoloured.jpg"
+                              image_url: "petunia_single_bicoloured.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Flowers_(215).jpg"
                             )
 
 petunia.child_flowers.create!(description: "Medium to large scented all double bicoloured salverform flowers with a
@@ -12263,7 +13941,9 @@ petunia.child_flowers.create!(description: "Medium to large scented all double b
                               colour: "Bicoloured",
                               significance: "Cheerful Enthusiasm in Action",
                               comment: "Action will become joyfully enthusiastic when it is governed by the Supermind.",
-                              image_url: "petunia_double_bicoloured.jpg"
+                              image_url: "petunia_double_bicoloured.jpg",
+                              source: "Bel-R Greenhouse, Inc",
+                              url: "http://www.bel-r.com/summerAnnuals.html"
                              )
 
 petunia.child_flowers.create!(description: "Medium to large scented single light pink salverform flowers with a narrow
@@ -12273,7 +13953,9 @@ petunia.child_flowers.create!(description: "Medium to large scented single light
                               colour: "Light pink",
                               significance: "Psychic Enthusiasm",
                               comment: "A state that only the Divine can awaken.",
-                              image_url: "petunia_single_light_pink.jpg"
+                              image_url: "petunia_single_light_pink.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Paleflower4.jpg"
                              )
 
 petunia.child_flowers.create!(description: "Medium to large scented double light pink salverform flowers with a narrow
@@ -12283,7 +13965,9 @@ petunia.child_flowers.create!(description: "Medium to large scented double light
                               colour: "Light pink",
                               significance: "Cheerful Psychic Enthusiasm",
                               comment: "An assurance of success in spite of obstacles.",
-                              image_url: "petunia_double_light_pink.jpg"
+                              image_url: "petunia_double_light_pink.jpg",
+                              source: "zoee1957, Amazon",
+                              url: "http://www.amazon.com/Petunia-Double-Cascade-Pelleted-Seeds/dp/B00ESJ6GAW?"
                              )
 
 petunia.child_flowers.create!(description: "Medium to large scented single pale lavender blue salverform flowers with
@@ -12294,7 +13978,9 @@ petunia.child_flowers.create!(description: "Medium to large scented single pale 
                               colour: "Pale and deep lavender",
                               significance: "Enthusiasm in Higher Vital",
                               comment: "The vital being takes a lively interest in what it does.",
-                              image_url: "petunia_single_lavender.jpg"
+                              image_url: "petunia_single_lavender.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Herzele_bloemengemeente.JPG"
                              )
 
 petunia.child_flowers.create!(description: "Medium to large scented double pale lavender blue salverform flowers with
@@ -12305,7 +13991,9 @@ petunia.child_flowers.create!(description: "Medium to large scented double pale 
                               colour: "Pale and deep lavender",
                               significance: "Cheerful Enthusiasm in the Higher Vital",
                               comment: "The result of perfect surrender to the Divine.",
-                              image_url: "petunia_double_lavender.jpg"
+                              image_url: "petunia_double_lavender.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Petunia_Hybrida_Sweet_Sunshine_lilac.jpg"
                              )
 
 petunia.child_flowers.create!(description: "Medium to large scented single pinkish mauve salverform flowers with a
@@ -12315,7 +14003,9 @@ petunia.child_flowers.create!(description: "Medium to large scented single pinki
                               colour: "Pinkish mauve",
                               significance: "Vital Enthusiasm",
                               comment: "Care must be taken that it is in the right direction.",
-                              image_url: "petunia_single_pink_mauve.jpg"
+                              image_url: "petunia_single_pink_mauve.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Petunias_dans_plate-bande.jpg"
                              )
 
 petunia.child_flowers.create!(description: "Medium to large scented double pinkish mauve salverform flowers with a
@@ -12325,7 +14015,9 @@ petunia.child_flowers.create!(description: "Medium to large scented double pinki
                               colour: "Pinkish mauve",
                               significance: "Cheerful Vital Enthusiasm",
                               comment: "Very precious if it persists in spite of difficulties.",
-                              image_url: "petunia_double_pink_mauve.jpg"
+                              image_url: "petunia_double_pink_mauve.jpg",
+                              source: "Mark Dwyer, Rotary Botanical Gardens Horticulture Blog",
+                              url: "http://rotarygardens.blogspot.in/2013_07_01_archive.html"
                              )
 
 petunia.child_flowers.create!(description: "Medium to large scented single velvety rich deep purple salverform flowers
@@ -12335,7 +14027,9 @@ petunia.child_flowers.create!(description: "Medium to large scented single velve
                               colour: "Deep purple",
                               significance: "Enthusiasm in the Most Material Vital",
                               comment: "Needed to face the difficulties of life successfully.",
-                              image_url: "petunia_single_deep_purple.jpg"
+                              image_url: "petunia_single_deep_purple.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Starr_070906-8408_Petunia_x_hybrida.jpg"
                              )
 
 petunia.child_flowers.create!(description: "Medium to large scented double velvety rich deep purple salverform flowers
@@ -12346,7 +14040,9 @@ petunia.child_flowers.create!(description: "Medium to large scented double velve
                               significance: "Cheerful Enthusiasm in the Most Material Vital",
                               comment: "The most material vital will find its joy in enthusiastic action when it is
                                         governed by the Supermind.",
-                              image_url: "petunia_double_deep_purple.jpg"
+                              image_url: "petunia_double_deep_purple.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Starr_070906-8405_Petunia_x_hybrida.jpg"
                              )
 
 petunia.child_flowers.create!(description: "Medium to large scented single red salverform flowers with a narrow hairy
@@ -12356,7 +14052,9 @@ petunia.child_flowers.create!(description: "Medium to large scented single red s
                               colour: "Red",
                               significance: "Physical Enthusiasm",
                               comment: "The body takes a lively interest in life and action.",
-                              image_url: "petunia_single_red.jpg"
+                              image_url: "petunia_single_red.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Surfinia_a5.jpg"
                              )
 
 petunia.child_flowers.create!(description: "Medium to large scented double red salverform flowers with a narrow hairy
@@ -12366,7 +14064,9 @@ petunia.child_flowers.create!(description: "Medium to large scented double red s
                               colour: "Red",
                               significance: "Cheerful Physical Enthusiasm",
                               comment: "The whole being lives only to serve the Divine.",
-                              image_url: "petunia_double_red.jpg"
+                              image_url: "petunia_double_red.jpg",
+                              source: "Gardening tips, Pinterest",
+                              url: "https://www.pinterest.com/pin/393783561145333467/"
                              )
 
 petunia.child_flowers.create!(description: "Medium to large scented single white salverform flowers with a narrow
@@ -12376,7 +14076,9 @@ petunia.child_flowers.create!(description: "Medium to large scented single white
                               colour: "White",
                               significance: "Integral Enthusiasm",
                               comment: "The whole being does whatever it does with ardour.",
-                              image_url: "petunia_single_white.jpg"
+                              image_url: "petunia_single_white.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Petunia_2.jpg"
                              )
 
 petunia.child_flowers.create!(description: "Medium to large scented double white salverform flowers with a narrow
@@ -12386,7 +14088,9 @@ petunia.child_flowers.create!(description: "Medium to large scented double white
                               colour: "White",
                               significance: "Cheerful Integral Enthusiasm",
                               comment: "To ardour is added the joy of doing things well.",
-                              image_url: "petunia_double_white.jpg"
+                              image_url: "petunia_double_white.jpg",
+                              source: "Bush Bernie's Blog",
+                              url: "http://bushbernie.blogspot.in/2012_06_01_archive.html"
                              )
 
 # Annual Phlox
@@ -12401,6 +14105,8 @@ annual_phlox = Flower.create!(name: "Annual Phlox",
                               climate: "Mostly tropical",
                               image_url: "annual_phlox.jpg",
                               thumbnail_url: "annual_phlox_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Phlox_from_Lalbagh_Flowershow_-_August_2012_4566.JPG"
                              )
 
 annual_phlox.child_flowers.create!(description: "Small salverform flowers with a narrow tube and a flattened limb
@@ -12410,7 +14116,9 @@ annual_phlox.child_flowers.create!(description: "Small salverform flowers with a
                                    colour: "White, pale yellow, and shades of red, pink, and purple",
                                    significance: "Skill in Work",
                                    comment: "Must be used consciously.",
-                                   image_url: "annual_phlox_mix.jpg"
+                                   image_url: "annual_phlox_mix.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Phlox_from_Lalbagh_Flowershow_-_August_2012_4587.JPG"
                                   )
 
 annual_phlox.child_flowers.create!(description: "Small clear pink salverform flowers with a narrow tube and a
@@ -12420,7 +14128,9 @@ annual_phlox.child_flowers.create!(description: "Small clear pink salverform flo
                                    significance: "Skill in Psychic Work",
                                    comment: "Listen silently to the command that comes from the Supreme Lord and you
                                              will have the capacity to carry it out.",
-                                   image_url: "annual_phlox_pink.jpg"
+                                   image_url: "annual_phlox_pink.jpg",
+                                   source: "Yonatan Matalon, Colorful Nature",
+                                   url: "http://www.colorfulnature.com/picture.jsp?lang=he&category=flowers&picGroupId=Phlox_Drummondii___Pink_____3__-m"
                                   )
 
 annual_phlox.child_flowers.create!(description: "Small yellow salverform flowers with a narrow tube and a flattened
@@ -12429,7 +14139,9 @@ annual_phlox.child_flowers.create!(description: "Small yellow salverform flowers
                                    colour: "Yellow",
                                    significance: "Skill in Mental Work",
                                    comment: "To know how to observe in silence is the source of its skillfulness.",
-                                   image_url: "annual_phlox_yellow.jpg"
+                                   image_url: "annual_phlox_yellow.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Flox_-_Phlox_drummondii_(1).jpg"
                                   )
 
 annual_phlox.child_flowers.create!(description: "Small white salverform flowers with a mauve centre; with a narrow
@@ -12440,7 +14152,9 @@ annual_phlox.child_flowers.create!(description: "Small white salverform flowers 
                                    significance: "Emotional Skill in Work",
                                    comment: "When work becomes attractive and is done with joy, how much better it is
                                              done.",
-                                   image_url: "annual_phlox_white_mauve.jpg"
+                                   image_url: "annual_phlox_white_mauve.jpg",
+                                   source: "Seedville, Amazon",
+                                   url: "http://www.amazon.com/Mixed-Colors-DRUMMOND-Drummondii-Flower/dp/B004YYCXGC"
                                   )
 
 annual_phlox.child_flowers.create!(description: "Small purple to mauve salverform flowers with a narrow tube and a
@@ -12450,7 +14164,9 @@ annual_phlox.child_flowers.create!(description: "Small purple to mauve salverfor
                                    significance: "Skill in Vital Work",
                                    comment: "The seat of all capacities and all skills, which have only to be
                                              disciplined in order to be realised.",
-                                   image_url: "annual_phlox_purple.jpg"
+                                   image_url: "annual_phlox_purple.jpg",
+                                   source: "Marilee",
+                                   url: "https://www.flickr.com/photos/rigib/1299198548"
                                   )
 
 annual_phlox.child_flowers.create!(description: "Small carmine red salverform flowers with a narrow tube and a
@@ -12460,7 +14176,9 @@ annual_phlox.child_flowers.create!(description: "Small carmine red salverform fl
                                    significance: "Physical Skill in Work",
                                    comment: "Skillful hands, a clear vision, a concentrated attention, an untiring
                                              patience, and what one does is done well.",
-                                   image_url: "annual_phlox_carmine_red.jpg"
+                                   image_url: "annual_phlox_carmine_red.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Phlox_X_drummondii-Anna_park-yercaud-salem-India.JPG"
                                   )
 
 annual_phlox.child_flowers.create!(description: "Small brigt red salverform flowers with a narrow tube and a flattened
@@ -12470,7 +14188,9 @@ annual_phlox.child_flowers.create!(description: "Small brigt red salverform flow
                                    significance: "Skill in Material Work",
                                    comment: "Skillful hands, precise care, a sustained attention, and one compels
                                              matter to obey the spirit.",
-                                   image_url: "annual_phlox_bright_red.jpg"
+                                   image_url: "annual_phlox_bright_red.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Flowers7.jpg"
                                   )
 
 annual_phlox.child_flowers.create!(description: "Small white salverform flowers with a narrow tube and a flattened
@@ -12479,7 +14199,9 @@ annual_phlox.child_flowers.create!(description: "Small white salverform flowers 
                                    colour: "White",
                                    significance: "Skill in Integral Work",
                                    comment: "All that is done is done well, whatever the work undertaken.",
-                                   image_url: "annual_phlox_white.jpg"
+                                   image_url: "annual_phlox_white.jpg",
+                                   source: "abrar, back to garden",
+                                   url: "http://backtonature-garden.blogspot.in/"
                                   )
 
 annual_phlox.child_flowers.create!(description: "Small very light pink salverform flowers with indented petals; with a
@@ -12489,7 +14211,9 @@ annual_phlox.child_flowers.create!(description: "Small very light pink salverfor
                                    colour: "Light pink",
                                    significance: "Artistic Work",
                                    comment: "Work at the service of beauty.",
-                                   image_url: "annual_phlox_light_pink.jpg"
+                                   image_url: "annual_phlox_light_pink.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Pink7.jpg"
                                   )
 
 annual_phlox.child_flowers.create!(description: "Small salverform flowers with a central star and fringed petals; with
@@ -12501,7 +14225,9 @@ annual_phlox.child_flowers.create!(description: "Small salverform flowers with a
                                    significance: "Radiating Skill in Work",
                                    comment: "When the instruments of work (hands, eyes etc.) become conscious and the
                                              attention is controlled, the capacity for work seems to be limitless.",
-                                   image_url: "annual_phlox_bicoloured.jpg"
+                                   image_url: "annual_phlox_bicoloured.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Flowers_(214).jpg"
                                   )
 
 # Cape Leadwort
@@ -12516,6 +14242,8 @@ cape_leadwort = Flower.create!(name: "Cape Leadwort",
                                climate: "Subtropical",
                                image_url: "cape_leadwort.jpg",
                                thumbnail_url: "cape_leadwort_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Ibaanjf0132_08.JPG"
                               )
 
 cape_leadwort.child_flowers.create!(description: "Small soft pale lavender blue salverform flower with a very thin
@@ -12525,7 +14253,9 @@ cape_leadwort.child_flowers.create!(description: "Small soft pale lavender blue 
                                     colour: "Pale lavender blue",
                                     significance: "Krishna’s Ananda",
                                     comment: "Manifold, abundant, and so full of charm",
-                                    image_url: "cape_leadwort_lavender_blue.jpg"
+                                    image_url: "cape_leadwort_lavender_blue.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:BSUJPLPCjf7877_13.JPG"
                                    )
 
 cape_leadwort.child_flowers.create!(bot_name: "Plumbago auriculata 'Alba'",
@@ -12536,13 +14266,15 @@ cape_leadwort.child_flowers.create!(bot_name: "Plumbago auriculata 'Alba'",
                                     colour: "Pure white",
                                     significance: "Presence",
                                     comment: "Consciousness seeking for the presence.",
-                                    image_url: "cape_leadwort_white.jpg"
+                                    image_url: "cape_leadwort_white.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Littleflower2.jpg"
                                    )
 
 # Frangipani
 
 frangipani = Flower.create!(name: "Frangipani",
-                            other_names: "Temple Tree, Nosegay, West Indian Jasmine, Pagoda Tree",
+                            other_names: "Champa, Temple Tree, Nosegay, West Indian Jasmine, Pagoda Tree",
                             family: "Apocynaceae",
                             petals: "Five",
                             size: "Medium to large",
@@ -12551,6 +14283,8 @@ frangipani = Flower.create!(name: "Frangipani",
                             climate: "Tropical and subtropical",
                             image_url: "frangipani.jpg",
                             thumbnail_url: "frangipani_thumbnail.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Starr_080610-8167_Plumeria_rubra.jpg"
                            )
 
 frangipani.child_flowers.create!(bot_name: "Plumeria rubra",
@@ -12565,7 +14299,9 @@ frangipani.child_flowers.create!(bot_name: "Plumeria rubra",
                                  significance: "Psychological Perfection",
                                  comment: "There is not one psychological perfection but five. They are sincerity,
                                            faith, devotion, aspiration and surrender.",
-                                 image_url: "frangipani_yellow_white.jpg"
+                                 image_url: "frangipani_yellow_white.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Frangipani_flowers.jpg"
                                 )
 
 frangipani.child_flowers.create!(bot_name: "Plumeria rubra",
@@ -12575,7 +14311,9 @@ frangipani.child_flowers.create!(bot_name: "Plumeria rubra",
                                  colour: "Deep rose to purplish red, deep yellow to orange",
                                  significance: "Psychological Perfection on the Way to Fulfilment",
                                  comment: "The state of those who take up the Yoga seriously.",
-                                 image_url: "frangipani_deep_rose.jpg"
+                                 image_url: "frangipani_deep_rose.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Starr_070124-3787_Plumeria_rubra.jpg"
                                 )
 
 frangipani.child_flowers.create!(bot_name: "Plumeria rubra forma tricolor",
@@ -12585,7 +14323,9 @@ frangipani.child_flowers.create!(bot_name: "Plumeria rubra forma tricolor",
                                  colour: "White, rose pink, deep yellow",
                                  significance: "Psychological Perfection in Matter",
                                  comment: "The first step towards transformation.",
-                                 image_url: "frangipani_white_pink_rose.jpg"
+                                 image_url: "frangipani_white_yellow_rose.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Plumeria_rubra,_Madeira_-_June_2008.jpg"
                                 )
 
 frangipani.child_flowers.create!(bot_name: "Plumeria obtusa",
@@ -12595,7 +14335,9 @@ frangipani.child_flowers.create!(bot_name: "Plumeria obtusa",
                                  colour: "White, yellow",
                                  significance: "Integral Psychological Perfection",
                                  comment: "One of the conditions indispensable for transformation.",
-                                 image_url: "frangipani_obtusa_white_yellow.jpg"
+                                 image_url: "frangipani_separated.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Starr_080117-1877_Plumeria_obtusa.jpg"
                                 )
 
 frangipani.child_flowers.create!(bot_name: "Plumeria obtusa",
@@ -12605,7 +14347,9 @@ frangipani.child_flowers.create!(bot_name: "Plumeria obtusa",
                                  colour: "White, yellow",
                                  significance: "Perfect Psychological Perfection",
                                  comment: "Psychological perfection in all the parts of the being.",
-                                 image_url: "frangipani_obtusa_white_yellow.jpg"
+                                 image_url: "frangipani_overlapping.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Plumeria_obtusa_at_Keawakapu_Beach.jpg"
                                 )
 
 # Tuberose
@@ -12620,6 +14364,8 @@ tuberose = Flower.create!(name: "Tuberose",
                           climate: "Tropical and subtropical",
                           image_url: "tuberose.jpg",
                           thumbnail_url: "tuberose_thumbnail.jpg",
+                          source: "Wikimedia Commons",
+                          url: "https://commons.wikimedia.org/wiki/File:Tuberosa.jpg"
                          )
 
 tuberose.child_flowers.create!(description: "Highly fragrant medium-sized tubular white flower with six separated
@@ -12628,7 +14374,9 @@ tuberose.child_flowers.create!(description: "Highly fragrant medium-sized tubula
                                colour: "White",
                                significance: "New Creation",
                                comment: "Strong, lasting and fragrant, it rises straight towards the sky.",
-                               image_url: "tuberose_single.jpg"
+                               image_url: "tuberose_single.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Tuberose_-_Flickr_-_Swami_Stream.jpg"
                               )
 
 tuberose.child_flowers.create!(description: "Highly fragrant medium-sized tubular double white flower with six
@@ -12637,7 +14385,9 @@ tuberose.child_flowers.create!(description: "Highly fragrant medium-sized tubula
                                colour: "White",
                                significance: "Perfect New Creation",
                                comment: "Clustered, manifold and complete, it asserts its right to be.",
-                               image_url: "tuberose_double.jpg"
+                               image_url: "tuberose_double.jpg",
+                               source: "Van Berkel",
+                               url: "http://www.jmvanberkel.nl/nl/polianthes-tuberosa-06-20101004.html"
                               )
 
 # Bell Flower
@@ -12652,6 +14402,8 @@ bell_flower = Flower.create!(name: "Bell Flower",
                              climate: "Tropical",
                              image_url: "bell_flower.jpg",
                              thumbnail_url: "bell_flower_thumbnail.jpg",
+                             source: "Kyle Wicomb",
+                             url: "https://www.flickr.com/photos/36838058@N03/6170798957/"
                             )
 
 bell_flower.child_flowers.create!(description: "Large fragrant waxy pure white trumpet-shaped flower with a limb
@@ -12660,7 +14412,9 @@ bell_flower.child_flowers.create!(description: "Large fragrant waxy pure white t
                                   colour: "Pure white",
                                   significance: "Peace of Integral Faithfulness",
                                   comment: "Be faithful to the Divine and you will enjoy a constant peace.",
-                                  image_url: "bell_flower_white.jpg"
+                                  image_url: "bell_flower_white.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_2052_hunt08sep.jpg"
                                  )
 
 bell_flower.child_flowers.create!(description: "Large fragrant waxy white flower finely edged with pink;
@@ -12669,7 +14423,9 @@ bell_flower.child_flowers.create!(description: "Large fragrant waxy white flower
                                   colour: "White, pink",
                                   significance: "Joy of Integral Faithfulness",
                                   comment: "That bond of love which makes all faithfulness so easy.",
-                                  image_url: "bell_flower_white_pink.jpg"
+                                  image_url: "bell_flower_white_pink.jpg",
+                                  source: "World Reviewer",
+                                  url: "http://www.worldreviewer.com/holiday-ideas/grenada-the-garden-friendship-isle"
                                  )
 
 # Pastel Flower
@@ -12685,6 +14441,8 @@ pastel_flower = Flower.create!(name: "Pastel Flower",
                                climate: "Subtropical",
                                image_url: "pastel_flower.jpg",
                                thumbnail_url: "pastel_flower_thumbnail.jpg",
+                               source: "Shubhada Nikharge",
+                               url: "https://www.flickr.com/photos/shubhada_nikharge/5997297037/"
                               )
 
 pastel_flower.child_flowers.create!(description: "Small salverform flowers in a variety of colours with five rounded
@@ -12694,7 +14452,9 @@ pastel_flower.child_flowers.create!(description: "Small salverform flowers in a 
                                     colour: "Various colours",
                                     significance: "Organisation",
                                     comment: "Indispensable for all good work.",
-                                    image_url: "pastel_flower_mix.jpg"
+                                    image_url: "pastel_flower_mix.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Pseuderanthemum_carruthersii_or_Gokarna_Jasmine_from_Kerala_5290.JPG"
                                    )
 
 pastel_flower.child_flowers.create!(description: "White flower with a reddish purple centre and a few reddish purple
@@ -12705,7 +14465,9 @@ pastel_flower.child_flowers.create!(description: "White flower with a reddish pu
                                     colour: "White, reddish purple",
                                     significance: "Aspiration for Organisation",
                                     comment: "Clear and methodical, order at the expense of multiplicity.",
-                                    image_url: "pastel_flower_white_red.jpg"
+                                    image_url: "pastel_flower_white_reddish_purple.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Flor_-_Quintana_Roo_-_M%C3%A9xico-5.jpg"
                                    )
 
 pastel_flower.child_flowers.create!(description: "White flower heavily overlaid with pink, streaked and spotted
@@ -12716,7 +14478,9 @@ pastel_flower.child_flowers.create!(description: "White flower heavily overlaid 
                                     colour: "White, pink, magenta",
                                     significance: "Organisation in the Vital",
                                     comment: "Indispensable for all realisation.",
-                                    image_url: "pastel_flower_white_pink.jpg"
+                                    image_url: "pastel_flower_white_pink.jpg",
+                                    source: "Anand Kumar Reddy, Medicinal Plants",
+                                    url: "http://medplants.blogspot.in/search/label/Pseuderanthemum%20carruthersii"
                                    )
 
 pastel_flower.child_flowers.create!(description: "Small white salverform flowers speckled with purplish red dots and a
@@ -12727,7 +14491,9 @@ pastel_flower.child_flowers.create!(description: "Small white salverform flowers
                                     colour: "White, purplish red",
                                     significance: "Material Organisation",
                                     comment: "Manifold and well-arranged in order to face difficulties.",
-                                    image_url: "pastel_flower_white_purple.jpg"
+                                    image_url: "pastel_flower_white_purple.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Pseuderanthemum_carruthersii_or_Gokarna_Jasmine_from_Kerala_5289.JPG"
                                    )
 
 pastel_flower.child_flowers.create!(description: "Small white salverform flowers with five rounded lobes, the upper
@@ -12737,7 +14503,9 @@ pastel_flower.child_flowers.create!(description: "Small white salverform flowers
                                     colour: "White",
                                     significance: "Integral Organisation",
                                     comment: "Preliminary necessity for transformation.",
-                                    image_url: "pastel_flower_white.jpg"
+                                    image_url: "pastel_flower_leaves.jpg",
+                                    source: "Pantip",
+                                    url: "http://pantip.com/topic/32415788"
                                    )
 
 pastel_flower.child_flowers.create!(description: "Small white salverform flowers a reddish purple centre and a few
@@ -12749,7 +14517,9 @@ pastel_flower.child_flowers.create!(description: "Small white salverform flowers
                                     colour: "White, reddish purple",
                                     significance: "Organisation of Details",
                                     comment: "Indispensable for all lasting accomplishment.",
-                                    image_url: "pastel_flower_purple_white.jpg"
+                                    image_url: "pastel_flower_purple_white.jpg",
+                                    source: "amaralis",
+                                    url: "https://www.flickr.com/photos/helianne/6109036966"
                                    )
 
 pastel_flower.child_flowers.create!(description: "White flower with reddish purple dots mostly towards the outer edge
@@ -12759,7 +14529,9 @@ pastel_flower.child_flowers.create!(description: "White flower with reddish purp
                                     colour: "White, reddish purple",
                                     significance: "Result of Harmonious Organisation",
                                     comment: "More effective than showy. An effective simplicity.",
-                                    image_url: "pastel_flower_white_purple.jpg"
+                                    image_url: "pastel_flower_white_purple_maroon.jpg",
+                                    source: "Malcolm Manners",
+                                    url: "https://www.flickr.com/photos/mmmavocado/6261152312/"
                                    )
 
 # Pomegranate
@@ -12776,6 +14548,8 @@ pomegranate = Flower.create!(name: "Pomegranate",
                              climate: "Tropical and subtropical",
                              image_url: "pomegranate.jpg",
                              thumbnail_url: "pomegranate_thumbnail.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Punica_granatum_004.JPG"
                             )
 
 pomegranate.child_flowers.create!(description: "Medium-sized double orange red flower with innumerable tightly held
@@ -12784,7 +14558,9 @@ pomegranate.child_flowers.create!(description: "Medium-sized double orange red f
                                   colour: "Orange",
                                   significance: "Divine Love",
                                   comment: "A flower reputed to bloom even in the desert.",
-                                  image_url: "pomegranate_double_orange.jpg"
+                                  image_url: "pomegranate_double_orange.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_6835_hunt09jun.jpg"
                                  )
 
 pomegranate.child_flowers.create!(description: "Small single brilliant orange flower with six rounded crinkled petals
@@ -12795,7 +14571,9 @@ pomegranate.child_flowers.create!(description: "Small single brilliant orange fl
                                   significance: "Divine Sacrifice",
                                   comment: "Is it not a supreme sacrifice for the Divine to renounce the beatitude of
                                             His unity in order to create the painful multiplicity of the world?",
-                                  image_url: "pomegranate_single_orange.jpg"
+                                  image_url: "pomegranate_single_orange.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Punica_granatum_0556.jpg"
                                  )
 
 pomegranate.child_flowers.create!(description: "Medium to large nearly round thick-skinned fruit that is yellow tinged
@@ -12804,7 +14582,9 @@ pomegranate.child_flowers.create!(description: "Medium to large nearly round thi
                                   colour: "Yellow, red",
                                   significance: "Divine Love Spreading Over the World",
                                   comment: "Innumerable, succulent, it gives strength and life untiringly.",
-                                  image_url: "pomegranate_fruit.jpg"
+                                  image_url: "pomegranate_fruit.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:The_Scots_Hotel_IMG_9106_(16074477165).jpg"
                                  )
 
 pomegranate.child_flowers.create!(description: "Medium-sized double white flower with innumerable tightly held
@@ -12814,7 +14594,9 @@ pomegranate.child_flowers.create!(description: "Medium-sized double white flower
                                   significance: "Unmanifest Divine Love",
                                   comment: "The splendour of that marvellous love which the Divine keeps for the pure
                                             heart.",
-                                  image_url: "pomegranate_white.jpg"
+                                  image_url: "pomegranate_white.jpg",
+                                  source: "Wikimedia Commons",
+                                  url: "https://commons.wikimedia.org/wiki/File:Punica_granatum_%27Legrelliae%27.jpg"
                                  )
 
 # Rose
@@ -12830,6 +14612,8 @@ rose = Flower.create!(name: "Rose",
                       climate: "Subtropical to temperate",
                       image_url: "rose.jpg",
                       thumbnail_url: "rose_thumbnail.jpg",
+                      source: "Wikimedia Commons",
+                      url: "https://commons.wikimedia.org/wiki/File:Rosa_Kardinal_02.jpg"
                      )
 
 rose.child_flowers.create!(description: "All forms and sizes of roses, single and double, usually fragrant, in a great
@@ -12838,49 +14622,63 @@ rose.child_flowers.create!(description: "All forms and sizes of roses, single an
                            significance: "Love for the Divine",
                            comment: "The vegetal kingdom gathers together its most beautiful possibilities to offer
                                      them to the Divine.",
-                           image_url: "rose_mix.jpg"
+                           image_url: "rose_mix.jpg",
+                           source: "sophie",
+                           url: "https://www.flickr.com/photos/sophiea/5721768347"
                           )
 
 rose.child_flowers.create!(description: "Medium to large solitary pure white flower. A large shrub.",
                            colour: "Pure white",
                            significance: "Integral Love for the Divine",
                            comment: "Pure, complete and irrevocable, it is a love that gives itself for ever.",
-                           image_url: "rose_pure_white.jpg"
+                           image_url: "rose_pure_white.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Flickr_-_Michael_Gwyther-Jones_-_White_Rose.jpg"
                           )
 
 rose.child_flowers.create!(description: "Small to medium-sized solitary orange flower. A large shrub",
                            colour: "Orange",
                            significance: "Flaming Love for the Divine",
                            comment: "Ready for all heroism and all sacrifices.",
-                           image_url: "rose_orange.jpg"
+                           image_url: "rose_orange.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Rosa_%27Voodoo%27_1.JPG"
                           )
 
 rose.child_flowers.create!(description: "Medium-sized lavender or mauve flower.",
                            colour: "Lavender or mauve",
                            significance: "Humility in the Love for the Divine",
                            comment: "Delicate, effective, and surrendered, but very persistent in its feelings.",
-                           image_url: "rose_lavender.jpg"
+                           image_url: "rose_lavender.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Lavender_rose.jpg"
                           )
 
 rose.child_flowers.create!(description: "Medium to large yellow flower. A medium to large shrub.",
                            colour: "Yellow",
                            significance: "Mental Love for the Divine",
                            comment: "The nature offers its love in a fragrant blossoming.",
-                           image_url: "rose_yellow.jpg"
+                           image_url: "rose_yellow.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Rose_Gina_Lollobrigida_20070601.jpg"
                           )
 
 rose.child_flowers.create!(description: "Medium to large red flower. A large shrub.",
                            colour: "Red",
                            significance: "Human Passions Changed into Love for the Divine",
                            comment: "Let them become a real fact, and their abundance will save the world.",
-                           image_url: "rose_red.jpg"
+                           image_url: "rose_red.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Rosa_%27Mister_Lincoln%27_1964.jpg"
                           )
 
 rose.child_flowers.create!(description: "All medium-sized bicoloured flowers. A large shrub.",
                            colour: "Bicoloured",
                            significance: "Balance of the Nature in the Love for the Divine",
                            comment: "Passive and active, calm and ardent, sweet and strong, silent and expressed.",
-                           image_url: "rose_bicoloured.jpg"
+                           image_url: "rose_bicoloured.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Rose_(142).jpg"
                           )
 
 rose.child_flowers.create!(description: "Very large white flower tinged with pink and yellow. A shrub.",
@@ -12888,14 +14686,18 @@ rose.child_flowers.create!(description: "Very large white flower tinged with pin
                            significance: "Love from the Divine",
                            comment: "A vibration of love that the Supreme directs upon a particular point (a person or
                                      thing).",
-                           image_url: "rose_white_pink_yellow.jpg"
+                           image_url: "rose_white_pink_yellow.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Rosa_%27Mevrow_G_A_van_Rossen%27.jpg"
                           )
 
 rose.child_flowers.create!(description: "Small white flower tinged with pink. A small to medium-sized shrub.",
                            colour: "White, pink",
                            significance: "Affection for the Divine",
                            comment: "A sweet and trusting tenderness that gives itself unfailingly to the Divine.",
-                           image_url: "rose_white_pink.jpg"
+                           image_url: "rose_white_pink.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Madeleine_Rivoire.JPG"
                           )
 
 rose.child_flowers.create!(bot_name: "Rosa ‘Confidence’",
@@ -12903,7 +14705,9 @@ rose.child_flowers.create!(bot_name: "Rosa ‘Confidence’",
                            colour: "Salmon",
                            significance: "Beauty Offers Itself in Service to the Divine",
                            comment: "Incomparable splendour, it becomes a modest servitor.",
-                           image_url: "rose_salmon.jpg"
+                           image_url: "rose_salmon.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Hybrid_Tea_-_Confidence_3_(cr).JPG"
                           )
 
 rose.child_flowers.create!(bot_name: "Rosa ‘Father’s Day’",
@@ -12912,7 +14716,9 @@ rose.child_flowers.create!(bot_name: "Rosa ‘Father’s Day’",
                            colour: "Light orange",
                            significance: "Supramental Attachment for the Divine",
                            comment: "Manifold and smiling, repeating itself endlessly.",
-                           image_url: "rose_light_orange.jpg"
+                           image_url: "rose_light_orange.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Howard_Foley_(4493132394).jpg"
                           )
 
 rose.child_flowers.create!(bot_name: "Rosa ‘Edward’",
@@ -12920,7 +14726,9 @@ rose.child_flowers.create!(bot_name: "Rosa ‘Edward’",
                            colour: "Pink",
                            significance: "Surrender",
                            comment: "To will what the Divine wills is the supreme wisdom.",
-                           image_url: "rose_edward_pink.jpg"
+                           image_url: "rose_edward.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Rosa_Louise_Odier_01.jpg"
                           )
 
 rose.child_flowers.create!(description: "All fully double medium to large solitary pink flowers, except Surrender
@@ -12928,14 +14736,18 @@ rose.child_flowers.create!(description: "All fully double medium to large solita
                            colour: "Pink",
                            significance: "Loving Surrender",
                            comment: "A state that can be obtained by surrendering to the Divine.",
-                           image_url: "rose_pink.jpg"
+                           image_url: "rose_pink.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Vienna_Woods_(4492484451).jpg"
                           )
 
 rose.child_flowers.create!(description: "Medium to large yellow flower tinged with orange. A medium to large shrub.",
                            colour: "Yellow, orange",
                            significance: "Mental Surrender",
                            comment: "Occurs when the mind has understood that it is only an instrument.",
-                           image_url: "rose_yellow_orange.jpg"
+                           image_url: "rose_yellow_orange.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Rosa-eureka.jpg"
                           )
 
 rose.child_flowers.create!(bot_name: "Rosa ‘Paul Neyron’",
@@ -12943,7 +14755,9 @@ rose.child_flowers.create!(bot_name: "Rosa ‘Paul Neyron’",
                            colour: "Deep pink",
                            significance: "Perfect Surrender",
                            comment: "The indispensable condition for identification.",
-                           image_url: "rose_paul_neyron_pink.jpg"
+                           image_url: "rose_paul_neyron.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Rose_Yves_Piaget_20070601.jpg"
                           )
 
 rose.child_flowers.create!(bot_name: "Rosa 'Prosperity'",
@@ -12952,7 +14766,9 @@ rose.child_flowers.create!(bot_name: "Rosa 'Prosperity'",
                            colour: "Ivory white, pink",
                            significance: "Pure Spiritual Surrender",
                            comment: "Candid, simple, spontaneous, and complete in its multiplicity.",
-                           image_url: "rose_prosperity_white_pink.jpg"
+                           image_url: "rose_prosperity_white_pink.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Rosa_%27Prosperity%27_01.jpg"
                           )
 
 rose.child_flowers.create!(bot_name: "Rosa ‘Peace’",
@@ -12962,7 +14778,9 @@ rose.child_flowers.create!(bot_name: "Rosa ‘Peace’",
                            significance: "Mental Love Under the Psychic Influence",
                            comment: "The mind influenced by the psychic knows how to express its love for the Divine
                                      in magnificent terms.",
-                           image_url: "rose_peace_cream_pink.jpg"
+                           image_url: "rose_peace_cream_pink.jpg",
+                           source: "Wikimedia Commons",
+                           url: "https://commons.wikimedia.org/wiki/File:Rosa_Peace_1945.jpg"
                           )
 
 # African Violet
@@ -12977,6 +14795,8 @@ african_violet = Flower.create!(name: "African Violet",
                                 climate: "Tropical",
                                 image_url: "african_violet.jpg",
                                 thumbnail_url: "african_violet_thumbnail.jpg",
+                                source: "Wikimedia Commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Ab_plant_945.jpg"
                                )
 
 african_violet.child_flowers.create!(description: "Small dainty flowers with five spreading petal-like lobes and a
@@ -12988,7 +14808,9 @@ african_violet.child_flowers.create!(description: "Small dainty flowers with fiv
                                      colour: "White, and shades of blue, purple, and pink, a yellow centre",
                                      significance: "Correct Movements",
                                      comment: "All movements are under the right inspiration.",
-                                     image_url: "african_violet_mix.jpg"
+                                     image_url: "african_violet_mix.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Saintpaulia_ionantha_(flowers).jpg"
                                     )
 
 african_violet.child_flowers.create!(description: "Small dainty single purple flowers with five spreading petal-like
@@ -12999,7 +14821,9 @@ african_violet.child_flowers.create!(description: "Small dainty single purple fl
                                      colour: "Purple, yellow",
                                      significance: "Correct Movements in the Vital",
                                      comment: "At once the cause and the result of conversion.",
-                                     image_url: "african_violet_purple.jpg"
+                                     image_url: "african_violet_purple.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:2007-04-20Saintpaulia_ionantha02.jpg"
                                     )
 
 # Bowstring Hemp
@@ -13014,6 +14838,8 @@ bowstring_hemp = Flower.create!(name: "Bowstring Hemp",
                                 climate: "Tropical and subtropical",
                                 image_url: "bowstring_hemp.jpg",
                                 thumbnail_url: "bowstring_hemp_thumbnail.jpg",
+                                source: "Wikimedia commons",
+                                url: "https://commons.wikimedia.org/wiki/File:Sansevieria_trifasciata_(black_coral)_with_flowers.jpg"
                                )
 
 bowstring_hemp.child_flowers.create!(description: "Small white to dusty white scented tubular flowers with a narrow
@@ -13024,7 +14850,9 @@ bowstring_hemp.child_flowers.create!(description: "Small white to dusty white sc
                                      colour: "White to dusty white",
                                      significance: "Power of Spirituality",
                                      comment: "True spirituality transforms life.",
-                                     image_url: "bowstring_hemp_white.jpg"
+                                     image_url: "bowstring_hemp_1.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Sansevieria_cylindrica_flowers_5.jpg"
                                     )
 
 bowstring_hemp.child_flowers.create!(description: "Small white to dusty white scented tubular flowers with a narrow
@@ -13035,7 +14863,9 @@ bowstring_hemp.child_flowers.create!(description: "Small white to dusty white sc
                                      colour: "White to dusty white",
                                      significance: "Joy of Spirituality",
                                      comment: "The reward of sincere efforts.",
-                                     image_url: "bowstring_hemp_white_2.jpg"
+                                     image_url: "bowstring_hemp_2.jpg",
+                                     source: "Wikimedia Commons",
+                                     url: "https://commons.wikimedia.org/wiki/File:Sansevieria_GoldenHahnii_pm1.JPG"
                                     )
 
 # Pincushion Flower
@@ -13054,6 +14884,8 @@ pincushion_flower = Flower.create!(name: "Pincushion Flower",
                                    climate: "Subtropical to temperate",
                                    image_url: "pincushion_flower.jpg",
                                    thumbnail_url: "pincushion_flower_thumbnail.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Scabiosa_atropurpurea_%27Sweet_scabious%27_(Dipsacaceae)_flower.JPG"
                                   )
 
 pincushion_flower.child_flowers.create!(description: "Small rounded heads composed of tiny mildly fragrant pinkish
@@ -13063,7 +14895,9 @@ pincushion_flower.child_flowers.create!(description: "Small rounded heads compos
                                         colour: "Pinkish lavender, white",
                                         significance: "Blessings",
                                         comment: "Pure and innumerable, manifesting themselves infinitely.",
-                                        image_url: "pincushion_flower_lavender.jpg"
+                                        image_url: "pincushion_flower_lavender.jpg",
+                                        source: "Wikimedia Commons",
+                                        url: "https://commons.wikimedia.org/wiki/File:Scabiosa_atropurpurea,_flower,_S%C3%A8te_01.jpg"
                                        )
 
 pincushion_flower.child_flowers.create!(description: "Small rounded heads composed of tiny mildly fragrant deep purple
@@ -13073,14 +14907,16 @@ pincushion_flower.child_flowers.create!(description: "Small rounded heads compos
                                         colour: "Deep purple, white",
                                         significance: "Blessings on the Material World",
                                         comment: "Puissant and innumerable, they answer all needs.",
-                                        image_url: "pincushion_flower_deep_purple.jpg"
+                                        image_url: "pincushion_flower_deep_purple.jpg",
+                                        source: "nick fullerton",
+                                        url: "https://www.flickr.com/photos/18203311@N08/4921856829"
                                        )
 
 # Florists' Gloxinia
 
 florists_gloxinia = Flower.create!(name: "Florists' Gloxinia",
                                    other_names: "Gloxinia, Brazilian Gloxinia, Violet Slipper Gloxinia",
-                                   bot_name: "Sinningia speciosa",
+                                   bot_name: "Sinningia speciosa [Gloxinia speciosa]",
                                    family: "Gesneriaceae",
                                    petals: "Five to twelve",
                                    size: "Medium-sized",
@@ -13088,6 +14924,8 @@ florists_gloxinia = Flower.create!(name: "Florists' Gloxinia",
                                    climate: "Tropical",
                                    image_url: "florists_gloxinia.jpg",
                                    thumbnail_url: "florists_gloxinia_thumbnail.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:African_violet_2.jpg"
                                   )
 
 florists_gloxinia.child_flowers.create!(description: "Showy medium-sized single or double velvety bell-shaped flowers
@@ -13098,7 +14936,9 @@ florists_gloxinia.child_flowers.create!(description: "Showy medium-sized single 
                                         colour: "In many colours",
                                         significance: "Broadening of the Being",
                                         comment: "All the parts of the being broaden in order to progress.",
-                                        image_url: "florists_gloxinia_mix.jpg"
+                                        image_url: "florists_gloxinia_mix.jpg",
+                                        source: "Wikimedia Commons",
+                                        url: "https://commons.wikimedia.org/wiki/File:2010._%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0_%D1%86%D0%B2%D0%B5%D1%82%D0%BE%D0%B2_%D0%B2_%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B5_%D0%BD%D0%B0_%D0%B4%D0%B5%D0%BD%D1%8C_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_12.jpg"
                                        )
 
 florists_gloxinia.child_flowers.create!(description: "Showy medium-sized single velvety bell-shaped white flower with
@@ -13110,7 +14950,9 @@ florists_gloxinia.child_flowers.create!(description: "Showy medium-sized single 
                                         significance: "Organised Emotional Broadening",
                                         comment: "The broadening should not be the result of an instinctive impulse
                                                   but of a conscious organisation.",
-                                        image_url: "florists_gloxinia_white_purple.jpg"
+                                        image_url: "florists_gloxinia_white_purple.jpg",
+                                        source: "Sarah Macmillan",
+                                        url: "https://www.flickr.com/photos/essjay/368258112/in/photostream/"
                                        )
 
 florists_gloxinia.child_flowers.create!(description: "Showy medium-sized single velvety purple bell-shaped flowers
@@ -13120,7 +14962,9 @@ florists_gloxinia.child_flowers.create!(description: "Showy medium-sized single 
                                         colour: "Purple",
                                         significance: "Broadening of the Most Material Vital",
                                         comment: "The limitations of the ego begin to be shaken.",
-                                        image_url: "florists_gloxinia_purple.jpg"
+                                        image_url: "florists_gloxinia_purple.jpg",
+                                        source: "PRO-FABER",
+                                        url: "http://www.pro-faber.ro/index.php?showproducts=yes&tld=797658&location="
                                        )
 
 florists_gloxinia.child_flowers.create!(description: "Showy medium-sized single white velvety bell-shaped flower with
@@ -13131,7 +14975,9 @@ florists_gloxinia.child_flowers.create!(description: "Showy medium-sized single 
                                         significance: "Balanced Use of Integral Power",
                                         comment: "In truth, power can only become integral when it is used in a
                                                   balanced way.",
-                                        image_url: "florists_gloxinia_white.jpg"
+                                        image_url: "florists_gloxinia_white.jpg",
+                                        source: "Farmer",
+                                        url: "http://farmer.hu/html2/Gloxinia%20speciosa.htm"
                                        )
 
 # Eggplant
@@ -13146,6 +14992,8 @@ eggplant = Flower.create!(name: "Eggplant",
                           climate: "Tropical",
                           image_url: "eggplant.jpg",
                           thumbnail_url: "eggplant_thumbnail.jpg",
+                          source: "Wikimedia Commons",
+                          url: "https://commons.wikimedia.org/wiki/File:296jfSolanum_melongena_Aduas_Centro_Cabanatuan_Cityfvf_23.JPG"
                          )
 
 eggplant.child_flowers.create!(description: "Small solitary light lavender and white star-shaped flower with a
@@ -13154,7 +15002,9 @@ eggplant.child_flowers.create!(description: "Small solitary light lavender and w
                                colour: "Light lavender, white, yellow",
                                significance: "Fearlessness in the Vital",
                                comment: "Goes straight to its goal and fears no inclemency.",
-                               image_url: "eggplant_lavender_white.jpg"
+                               image_url: "eggplant_lavender_white.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Bereng-flor-1.JPG"
                               )
 
 eggplant.child_flowers.create!(description: "Small purple star-shaped flower with a prominent yellow centre of five
@@ -13163,7 +15013,9 @@ eggplant.child_flowers.create!(description: "Small purple star-shaped flower wit
                                colour: "Purple, yellow",
                                significance: "Vital Courage",
                                comment: "Must be controlled to be beneficial.",
-                               image_url: "eggplant_purple_yellow.jpg"
+                               image_url: "eggplant_purple.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Eggplant_Flower_in_Hong_Kong.JPG"
                               )
 
 # Coleus
@@ -13178,6 +15030,8 @@ coleus = Flower.create!(name: "Coleus",
                         climate: "Tropical",
                         image_url: "coleus.jpg",
                         thumbnail_url: "coleus_thumbnail.jpg",
+                        source: "Wikimedia Commons",
+                        url: "https://commons.wikimedia.org/wiki/File:Starr_080103-1142_Solenostemon_scutellarioides.jpg"
                        )
 
 coleus.child_flowers.create!(description: "Tiny two-lipped flowers that open pale lavender and turn white, borne in
@@ -13186,7 +15040,9 @@ coleus.child_flowers.create!(description: "Tiny two-lipped flowers that open pal
                              colour: "Pale lavender to white",
                              significance: "Spiritual Awakening of the Vital",
                              comment: "It soars towards the heights in the hope of reaching them.",
-                             image_url: "coleus_flower.jpg"
+                             image_url: "coleus_flower.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Blue_purple_flower.jpg"
                             )
 
 coleus.child_flowers.create!(description: "An annual or perennial herb with semi-succulent stems and multicoloured
@@ -13194,7 +15050,9 @@ coleus.child_flowers.create!(description: "An annual or perennial herb with semi
                              colour: "Multicoloured",
                              significance: "Strength in the Vital",
                              comment: "Likes to show its beauty and its power.",
-                             image_url: "coleus_leaf.jpg"
+                             image_url: "coleus_leaf.jpg",
+                             source: "Wikimedia Commons",
+                             url: "https://commons.wikimedia.org/wiki/File:Los_colores_de_los_c%C3%B3leos.jpg"
                             )
 
 # Terrestrial Orchid
@@ -13211,6 +15069,8 @@ terrestrial_orchid = Flower.create!(name: "Terrestrial Orchid",
                                     climate: "Tropical and subtropical",
                                     image_url: "terrestrial_orchid.jpg",
                                     thumbnail_url: "terrestrial_orchid_thumbnail.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:White_Orchid_Flowers.jpg"
                                    )
 
 terrestrial_orchid.child_flowers.create!(description: "Small pale to deep lavender pink flower with three petal-like
@@ -13221,7 +15081,9 @@ terrestrial_orchid.child_flowers.create!(description: "Small pale to deep lavend
                                          colour: "Pale to deep lavender pink",
                                          significance: "Vital Attachment to the Divine",
                                          comment: "Manifold and abundant in its multiplicity.",
-                                         image_url: "terrestrial_orchid_lavender_pink.jpg"
+                                         image_url: "terrestrial_orchid_lavender_pink.jpg",
+                                         source: "Wikimedia Commons",
+                                         url: "https://commons.wikimedia.org/wiki/File:Spathoglottis_plicata_(4909577234).jpg"
                                         )
 
 terrestrial_orchid.child_flowers.create!(description: "Small white flower with three petal-like sepals, two similar
@@ -13231,13 +15093,15 @@ terrestrial_orchid.child_flowers.create!(description: "Small white flower with t
                                          colour: "White",
                                          significance: "Integral Attachment to the Divine",
                                          comment: "On the right way towards realisation",
-                                         image_url: "terrestrial_orchid_white.jpg"
+                                         image_url: "terrestrial_orchid_white.jpg",
+                                         source: "Wikimedia Commons",
+                                         url: "https://commons.wikimedia.org/wiki/File:Ground_orchid_white_2.jpg"
                                         )
 
-# Crape Jasmine
+# Crepe Jasmine
 
-crape_jasmine = Flower.create!(name: "Crape Jasmine",
-                               other_names: "Crape Gardenia, Pinwheel Flower, East Indian Rosebay",
+crepe_jasmine = Flower.create!(name: "Crepe Jasmine",
+                               other_names: "Crepe Gardenia, Pinwheel Flower, East Indian Rosebay",
                                bot_name: "Tabernaemontana divaricata",
                                family: "Apocynaceae",
                                petals: "Five or several",
@@ -13245,21 +15109,25 @@ crape_jasmine = Flower.create!(name: "Crape Jasmine",
                                place: "Native to India, cultivated throughout South East Asia and the warmer regions
                                        of continental Asia",
                                climate: "Tropical and subtropical",
-                               image_url: "crape_jasmine.jpg",
-                               thumbnail_url: "crape_jasmine_thumbnail.jpg",
+                               image_url: "crepe_jasmine.jpg",
+                               thumbnail_url: "crepe_jasmine_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Nandyar_vattam.jpg"
                               )
 
-crape_jasmine.child_flowers.create!(description: "Small single white salverform flower with five rotate lobes
+crepe_jasmine.child_flowers.create!(description: "Small single white salverform flower with five rotate lobes
                                                   resembling a pinwheel, and a yellow centre; borne in compound
                                                   clusters. A large handsome almost ever-blooming shrub with glossy
                                                   dark green leaves",
                                     colour: "White, yellow",
                                     significance: "Mental Purity",
                                     comment: "A mirror that does not distort.",
-                                    image_url: "crape_jasmine_single.jpg"
+                                    image_url: "crepe_jasmine_single.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Crepe_jasmine,_Tabernaemontana_divaricata_1.jpg"
                                    )
 
-crape_jasmine.child_flowers.create!(bot_name: "Tabernaemontana divaricata 'Flore-pleno'",
+crepe_jasmine.child_flowers.create!(bot_name: "Tabernaemontana divaricata 'Flore-pleno'",
                                     description: "Medium-sized slightly fragrant semi-double white salverform flower
                                                   with curling slightly crinkled petal-like lobes. A medium-sized
                                                   shrub with glossy leaves.",
@@ -13267,16 +15135,20 @@ crape_jasmine.child_flowers.create!(bot_name: "Tabernaemontana divaricata 'Flore
                                     significance: "Integral Mental Purity",
                                     comment: "Silent, attentive, receptive, concentrated on the Divine - such is the
                                               path of purity.",
-                                    image_url: "crape_jasmine_semi_double.jpg"
+                                    image_url: "crepe_jasmine_semi_double.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_1206_bbg09.jpg"
                                    )
 
-crape_jasmine.child_flowers.create!(bot_name: "Tabernaemontana divaricata 'Flore-pleno'",
+crepe_jasmine.child_flowers.create!(bot_name: "Tabernaemontana divaricata 'Flore-pleno'",
                                     description: "Medium-sized fragrant double white salverform flower with heavily
                                                   crinkled petal-like lobes. A medium-sized shrub with glossy leaves.",
                                     colour: "White",
                                     significance: "Perfect Mental Purity",
                                     comment: "A spotless mirror turned constantly towards the Divine.",
-                                    image_url: "crape_jasmine_double.jpg"
+                                    image_url: "crepe_jasmine_double.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Tabernaemontana_divaricata_-_JBM.jpg"
                                    )
 
 # African Marigold
@@ -13291,6 +15163,8 @@ african_marigold = Flower.create!(name: "African Marigold",
                                   climate: "Tropical",
                                   image_url: "african_marigold.jpg",
                                   thumbnail_url: "african_marigold_thumbnail.jpg",
+                                  source: "Horticulture Gardens Today",
+                                  url: "http://hortgardenstoday.blogspot.in/2010/07/blog-post.html"
                                  )
 
 african_marigold.child_flowers.create!(description: "Medium to large compact double compositae yellow flowers with
@@ -13299,7 +15173,9 @@ african_marigold.child_flowers.create!(description: "Medium to large compact dou
                                        colour: "Yellow",
                                        significance: "Mental Plasticity",
                                        comment: "Indispensable for true knowledge.",
-                                       image_url: "african_marigold_yellow.jpg"
+                                       image_url: "african_marigold_yellow.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Marigold_from_lalbagh_1852.JPG"
                                       )
 
 african_marigold.child_flowers.create!(bot_name: "Tagetes erecta 'Spun Yellow'",
@@ -13310,7 +15186,9 @@ african_marigold.child_flowers.create!(bot_name: "Tagetes erecta 'Spun Yellow'",
                                        colour: "Bright yellow",
                                        significance: "Energy of a Plastic Mind",
                                        comment: "Does not draw back from any effort to progress.",
-                                       image_url: "african_marigold_bright_yellow.jpg"
+                                       image_url: "african_marigold_bright_yellow.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Yellowflower2.jpg"
                                       )
 
 african_marigold.child_flowers.create!(description: "Medium to large compact double compositae orange to orange yellow
@@ -13320,7 +15198,9 @@ african_marigold.child_flowers.create!(description: "Medium to large compact dou
                                        colour: "Orange to orange yellow",
                                        significance: "Supramentalised Plasticity",
                                        comment: "One of the stages on the way to transformation.",
-                                       image_url: "african_marigold_orange.jpg"
+                                       image_url: "african_marigold_orange.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Marigold_at_Lalbagh_Flower_show_August_2012_100111.jpg"
                                       )
 
 # French Marigold
@@ -13334,8 +15214,21 @@ french_marigold = Flower.create!(name: "French Marigold",
                                  place: "Native to the Americas with several naturalised populations around the world",
                                  climate: "Found across temperate, subtropical and tropical regions",
                                  image_url: "french_marigold.jpg",
-                                 thumbnail_url: "french_marigold_thumbnail.jpg"
+                                 thumbnail_url: "french_marigold_thumbnail.jpg",
+                                 source: "Benery",
+                                 url: "http://www.benary.de/en/product/W3411"
                                 )
+
+french_marigold.child_flowers.create!(description: "Medium-sized compositae yellow or orange flower streaked with
+                                                    maroon; borne singly or in few-flowered clusters. A low bushy
+                                                    annual with strongly aromatic leaves",
+                                      colour: "Yellow or orange, maroon",
+                                      significance: "Physical Plasticity",
+                                      comment: "One of the important conditions for transformation.",
+                                      image_url: "french_marigold_yellow_maroon.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:Tagetes_patula_(2).JPG"
+                                     )
 
 french_marigold.child_flowers.create!(description: "Small compact compositae yellow flowers with convoluted petals,
                                                     in shades of yellow, orange and rust; borne singly or in
@@ -13344,23 +15237,16 @@ french_marigold.child_flowers.create!(description: "Small compact compositae yel
                                       colour: "Shades of yellow, orange, and rust",
                                       significance: "Detailed Plasticity",
                                       comment: "The plasticity needed to constantly progress.",
-                                      image_url: "french_marigold_mix.jpg"
-                                     )
-
-french_marigold.child_flowers.create!(description: "Medium-sized compositae yellow or orange flower streaked with
-                                                    maroon; borne singly or in few-flowered clusters. A low bushy
-                                                    annual with strongly aromatic leaves",
-                                      colour: "Yellow or orange, maroon",
-                                      significance: "Physical Plasticity",
-                                      comment: "One of the important conditions for transformation.",
-                                      image_url: "french_marigold_yellow_maroon.jpg"
+                                      image_url: "french_marigold_mix.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:%E0%B4%AE%E0%B4%B2%E0%B5%8D%E0%B4%B2%E0%B4%BF%E0%B4%956.JPG"
                                      )
 
 # Yellow Oleander
 
 yellow_oleander = Flower.create!(name: "Yellow Oleander",
-                                 other_names: "Be-still Tree, Lucky Nut",
-                                 bot_name: "Thevetia peruviana",
+                                 other_names: "Be-still Tree, Lucky Nut, Mexican Oleander",
+                                 bot_name: "Thevetia peruviana [Cascabela thevetia]",
                                  family: "Apocynaceae",
                                  petals: "",
                                  size: "Medium-sized",
@@ -13369,6 +15255,8 @@ yellow_oleander = Flower.create!(name: "Yellow Oleander",
                                  climate: "Tropical",
                                  image_url: "yellow_oleander.jpg",
                                  thumbnail_url: "yellow_oleander_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Starr_060916-8884_Thevetia_peruviana.jpg"
                                 )
 
 yellow_oleander.child_flowers.create!(description: "Medium-sized fragrant yellow narrow funnel-shaped flower with
@@ -13378,7 +15266,9 @@ yellow_oleander.child_flowers.create!(description: "Medium-sized fragrant yellow
                                       colour: "Yellow",
                                       significance: "Mind",
                                       comment: "Its true value depends on its surrender to the Divine.",
-                                      image_url: "yellow_oleander_yellow.jpg"
+                                      image_url: "yellow_oleander_yellow.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:Starr_060916-8886_Thevetia_peruviana.jpg"
                                      )
 
 yellow_oleander.child_flowers.create!(bot_name: "Thevetia peruviana 'Alba'",
@@ -13389,7 +15279,9 @@ yellow_oleander.child_flowers.create!(bot_name: "Thevetia peruviana 'Alba'",
                                       colour: "White",
                                       significance: "Purified Mind",
                                       comment: "Mind ready to surrender to the Divine.",
-                                      image_url: "yellow_oleander_white.jpg"
+                                      image_url: "yellow_oleander_white.jpg",
+                                      source: "Pixabay",
+                                      url: "https://pixabay.com/en/mexican-oleander-thevetia-peruviana-371603/"
                                      )
 
 yellow_oleander.child_flowers.create!(description: "Medium-sized fragrant orange narrow funnel-shaped flower with
@@ -13398,7 +15290,9 @@ yellow_oleander.child_flowers.create!(description: "Medium-sized fragrant orange
                                       colour: "Orange",
                                       significance: "Supramentalised Mind",
                                       comment: "Mind has become an instrument for transformation.",
-                                      image_url: "yellow_oleander_orange.jpg"
+                                      image_url: "yellow_oleander_orange.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:Starr_061129-1729_Thevetia_peruviana.jpg"
                                      )
 
 # Black-eyed Susan Vine
@@ -13415,6 +15309,8 @@ black_eyed_susan_vine = Flower.create!(name: "Black-eyed Susan Vine",
                                        climate: "Tropical and subtropical",
                                        image_url: "black_eyed_susan_vine.jpg",
                                        thumbnail_url: "black_eyed_susan_vine_thumbnail.jpg",
+                                       source: "Wikimedia Commons",
+                                       url: "https://commons.wikimedia.org/wiki/File:Starr_080716-9356_Thunbergia_alata.jpg"
                                       )
 
 black_eyed_susan_vine.child_flowers.create!(description: "Small yellow orange to orange salverform flowers with a limb
@@ -13426,7 +15322,9 @@ black_eyed_susan_vine.child_flowers.create!(description: "Small yellow orange to
                                             colour: "Yellow orange to orange, dark maroon or green",
                                             significance: "Obscurity Offers Itself to be Transformed",
                                             comment: "Obscurity tired of being obscure.",
-                                            image_url: "black_eyed_susan_vine_yellow_maroon.jpg"
+                                            image_url: "black_eyed_susan_vine_yellow.jpg",
+                                            source: "Wikimedia Commons",
+                                            url: "https://commons.wikimedia.org/wiki/File:Starr_071024-0311_Thunbergia_alata.jpg"
                                            )
 
 black_eyed_susan_vine.child_flowers.create!(bot_name: "Thunbergia alata ‘Julietta’",
@@ -13440,7 +15338,9 @@ black_eyed_susan_vine.child_flowers.create!(bot_name: "Thunbergia alata ‘Julie
                                             significance: "Transformation Dispels Obscurity",
                                             comment: "Obscurity will disappear more and more as the transformation
                                                       progresses.",
-                                            image_url: "black_eyed_susan_vine_julietta.jpg"
+                                            image_url: "black_eyed_susan_vine_orange.jpg",
+                                            source: "Wikimedia Commons",
+                                            url: "https://commons.wikimedia.org/wiki/File:Thunbergia_alata_-_blossom_(aka).jpg"
                                            )
 
 # King's Mantle
@@ -13455,6 +15355,8 @@ kings_mantle = Flower.create!(name: "King's Mantle",
                               climate: "Tropical and subtropical",
                               image_url: "kings_mantle.jpg",
                               thumbnail_url: "kings_mantle_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Thunbergia_erecta_00561.JPG"
                              )
 
 kings_mantle.child_flowers.create!(description: "Medium-sized salverform flowers in lavender blue, purple and white
@@ -13463,7 +15365,9 @@ kings_mantle.child_flowers.create!(description: "Medium-sized salverform flowers
                                    colour: "Lavender blue, purple, white, yellow",
                                    significance: "Opening to the Light",
                                    comment: "Harmonises with all that can lead towards the Light.",
-                                   image_url: "kings_mantle_lavender_white_yellow.jpg"
+                                   image_url: "kings_mantle_mix.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Thunbergia_erecta_8843.jpg"
                                   )
 
 kings_mantle.child_flowers.create!(description: "Medium-sized variegated lavender and white salverform flowers with a
@@ -13473,7 +15377,9 @@ kings_mantle.child_flowers.create!(description: "Medium-sized variegated lavende
                                    significance: "Opening of the Higher Vital to the Light",
                                    comment: "The vital existing only for the Divine. The vital knowing no other master
                                              than the Divine.",
-                                   image_url: "kings_mantle_variegated.jpg"
+                                   image_url: "kings_mantle_variegated.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Bush_Clock_Vine_(Thunbergia_erecta_%27Fairy_Moon%27)_2.jpg"
                                   )
 
 kings_mantle.child_flowers.create!(description: "Medium-sized deep violet salverform flowers with a bright yellow
@@ -13482,7 +15388,9 @@ kings_mantle.child_flowers.create!(description: "Medium-sized deep violet salver
                                    colour: "Deep violet, bright yellow",
                                    significance: "Opening of the Material Vital to the Light",
                                    comment: "One of the essential conditions for peace.",
-                                   image_url: "kings_mantle_violet_yellow.jpg"
+                                   image_url: "kings_mantle_violet.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Rizal,Lagunajf3491_32.JPG"
                                   )
 
 kings_mantle.child_flowers.create!(bot_name: "Thunbergia erecta 'Alba'",
@@ -13492,13 +15400,15 @@ kings_mantle.child_flowers.create!(bot_name: "Thunbergia erecta 'Alba'",
                                    colour: "White, bright yellow",
                                    significance: "Integral Opening to the Light",
                                    comment: "The assurance of the coming peace and joy.",
-                                   image_url: "kings_mantle_white.jpg"
+                                   image_url: "kings_mantle_white.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Thunbergia_erecta_alba-BSI-1-yercaud-salem-India.JPG"
                                   )
 
 # Wishbone Flower
 
 wishbone_flower = Flower.create!(name: "Wishbone Flower",
-                                 other_names: "Bluewings",
+                                 other_names: "Bluewings, Purple Bell Flower",
                                  bot_name: "Torenia fournieri",
                                  family: "Scrophulariacea",
                                  petals: "Four",
@@ -13507,6 +15417,8 @@ wishbone_flower = Flower.create!(name: "Wishbone Flower",
                                  climate: "Tropical and subtropical",
                                  image_url: "wishbone_flower.jpg",
                                  thumbnail_url: "wishbone_flower_thumbnail.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Starr_070906-8990_Torenia_fournieri.jpg"
                                 )
 
 wishbone_flower.child_flowers.create!(description: "Small salverform flowers with a flattened corolla tube and a limb
@@ -13518,7 +15430,9 @@ wishbone_flower.child_flowers.create!(description: "Small salverform flowers wit
                                       colour: "In white, mauve, or lavender, and light green",
                                       significance: "Krishna’s Play",
                                       comment: "A power of progress veiling itself behind appearances.",
-                                      image_url: "wishbone_flower_mix.jpg"
+                                      image_url: "wishbone_flower_mix.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:Torenia_at_lalbagh_7362.JPG"
                                      )
 
 wishbone_flower.child_flowers.create!(description: "Small salverform flowers with a flattened corolla tube and a limb
@@ -13532,7 +15446,9 @@ wishbone_flower.child_flowers.create!(description: "Small salverform flowers wit
                                       significance: "Krishna’s Play in Matter",
                                       comment: "Beauty, love and joy are His companions. A play that widens and makes
                                                 us progress.",
-                                      image_url: "wishbone_flower_lavender.jpg"
+                                      image_url: "wishbone_flower_lavender.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:Torenia_at_lalbagh_7361.JPG"
                                      )
 
 wishbone_flower.child_flowers.create!(description: "Small salverform white flowers with pale pinkish tan; flattened
@@ -13544,7 +15460,9 @@ wishbone_flower.child_flowers.create!(description: "Small salverform white flowe
                                       colour: "White, pale pink, yellow",
                                       significance: "Krishna’s Integral Play",
                                       comment: "All the parts of the being respond to His influence.",
-                                      image_url: "wishbone_flower_white.jpg"
+                                      image_url: "wishbone_flower_pink.jpg",
+                                      source: "Wikimedia Commons",
+                                      url: "https://commons.wikimedia.org/wiki/File:Torenia_fournieri_in_Shaoxing_01_2012-07.JPG"
                                      )
 
 # Nasturtium
@@ -13561,6 +15479,8 @@ nasturtium = Flower.create!(name: "Nasturtium",
                             climate: "Tropical and subtropical",
                             image_url: "nasturtium.jpg",
                             thumbnail_url: "nasturtium_thumbnail.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Flower_in_Grindelwald_1.JPG"
                            )
 
 nasturtium.child_flowers.create!(description: "Medium-sized mildly fragrant showy flowers with two upper and three
@@ -13571,7 +15491,9 @@ nasturtium.child_flowers.create!(description: "Medium-sized mildly fragrant show
                                  colour: "White and shades of yellow, salmon pink, orange, and red",
                                  significance: "Promise of Realisation",
                                  comment: "The best encouragement.",
-                                 image_url: "nasturtium_mix.jpg"
+                                 image_url: "nasturtium_mix.jpg",
+                                 source: "ClatieK",
+                                 url: "https://www.flickr.com/photos/clatiek/4612826628"
                                 )
 
 nasturtium.child_flowers.create!(description: "Medium-sized mildly fragrant dark red to maroon flowers with two upper
@@ -13581,7 +15503,9 @@ nasturtium.child_flowers.create!(description: "Medium-sized mildly fragrant dark
                                  colour: "Dark red to maroon",
                                  significance: "Promise of Realisation in Matter",
                                  comment: "The best encouragement for doing what is necessary.",
-                                 image_url: "nasturtium_dark_red.jpg"
+                                 image_url: "nasturtium_dark_red.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Flower,_Name_Unknown..._-_Flickr_-_nekonomania_(7).jpg"
                                 )
 
 nasturtium.child_flowers.create!(description: "Medium-sized mildly fragrant yellow flowers with two upper and three
@@ -13592,7 +15516,9 @@ nasturtium.child_flowers.create!(description: "Medium-sized mildly fragrant yell
                                  significance: "Promise of Realisation in the Mind",
                                  comment: "The mind must be silent to allow the Supramental consciousness to take its
                                            place.",
-                                 image_url: "nasturtium_yellow.jpg"
+                                 image_url: "nasturtium_yellow.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Capucines_jaunes_2.JPG"
                                 )
 
 nasturtium.child_flowers.create!(description: "Medium-sized mildly fragrant light yellow flower with a red centre with
@@ -13602,7 +15528,9 @@ nasturtium.child_flowers.create!(description: "Medium-sized mildly fragrant ligh
                                  colour: "Light yellow, red",
                                  significance: "Promise of Realisation in the Physical Mind",
                                  comment: "A good encouragement for the necessary effort.",
-                                 image_url: "nasturtium_light_yellow_red.jpg"
+                                 image_url: "nasturtium_light_yellow_red.jpg",
+                                 source: "Wikimedia Commons",
+                                 url: "https://commons.wikimedia.org/wiki/File:Tropaeolum_majus_2004.jpg"
                                 )
 
 nasturtium.child_flowers.create!(description: "Medium-sized mildly fragrant bicoloured yellow and maroon flowers with
@@ -13612,14 +15540,16 @@ nasturtium.child_flowers.create!(description: "Medium-sized mildly fragrant bico
                                  colour: "Bicoloured. yellow and maroon",
                                  significance: "Promise of Realisation in the Physical",
                                  comment: "Courage to face the long labour.",
-                                 image_url: "nasturtium_yellow_maroon"
+                                 image_url: "nasturtium_yellow_maroon",
+                                 source: "David Goehring",
+                                 url: "https://www.flickr.com/photos/carbonnyc/3714161505"
                                 )
 
 # Moss Verbena
 
 moss_verbena = Flower.create!(name: "Moss Verbena",
                               other_names: "",
-                              bot_name: "Verbena tenuisecta",
+                              bot_name: "Verbena tenuisecta [Glandularia tenuisecta]",
                               family: "Verbenaceae",
                               petals: "Five",
                               size: "Small",
@@ -13627,6 +15557,8 @@ moss_verbena = Flower.create!(name: "Moss Verbena",
                               climate: "Tropical and subtropical",
                               image_url: "moss_verbena.jpg",
                               thumbnail_url: "moss_verbena_thumbnail.jpg",
+                              source: "Wikimedia Commons",
+                              url: "https://commons.wikimedia.org/wiki/File:Starr_070313-5597_Verbena_tenuisecta.jpg"
                              )
 
 moss_verbena.child_flowers.create!(description: "Elongated spikes of small light pink salverform flowers with five
@@ -13635,16 +15567,20 @@ moss_verbena.child_flowers.create!(description: "Elongated spikes of small light
                                    colour: "Pink",
                                    significance: "Aspiration for Conquest of Enemies in the Vital",
                                    comment: "A concentrated and unobtrusive will acting quietly but effectively.",
-                                   image_url: "moss_verbena_pink.jpg"
+                                   image_url: "moss_verbena_pink.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Starr_070313-5587_Verbena_tenuisecta.jpg"
                                   )
 
 moss_verbena.child_flowers.create!(description: "Elongated spikes of small rose purple salverform flowers with five
                                                  irregular rounded lobes. A low perennial herb with deeply cut
                                                  somewhat lacy leaves.",
-                                   colour: "Pink",
+                                   colour: "Rose purple",
                                    significance: "Will to Conquer the Vital Enemies",
                                    comment: "Indispensable for the mastery over desires.",
-                                   image_url: "moss_verbena_rose_purple.jpg"
+                                   image_url: "moss_verbena_rose_purple.jpg",
+                                   source: "Wikimedia Commons",
+                                   url: "https://commons.wikimedia.org/wiki/File:Starr_070313-5589_Verbena_tenuisecta.jpg"
                                   )
 
 moss_verbena.child_flowers.create!(description: "Elongated spikes of small white salverform flowers with five
@@ -13653,14 +15589,16 @@ moss_verbena.child_flowers.create!(description: "Elongated spikes of small white
                                    colour: "White",
                                    significance: "Conquest over the Vital Enemies",
                                    comment: "The appearance is modest, but the power is lasting.",
-                                   image_url: "moss_verbena_white.jpg"
+                                   image_url: "moss_verbena_white.jpg",
+                                   source: "Apalachee Hills Landscapes",
+                                   url: "http://apalacheehills.com/roadside/wildVerbena.html"
                                   )
 
 # Common Garden Vereana
 
 common_garden_verbena = Flower.create!(name: "Common Garden Verbena",
                                        other_names: "Florists' Verbena",
-                                       bot_name: "Verbena X Hybrida",
+                                       bot_name: "Verbena x Hybrida [Glandularia × hybrida]",
                                        family: "Verbenaceae",
                                        petals: "",
                                        size: "Small",
@@ -13668,6 +15606,8 @@ common_garden_verbena = Flower.create!(name: "Common Garden Verbena",
                                        climate: "Tropical and subtropical",
                                        image_url: "common_garden_verbena.jpg",
                                        thumbnail_url: "common_garden_verbena_thumbnail.jpg",
+                                       source: "FazFácil",
+                                       url: "http://www.fazfacil.com.br/jardim/verbena-hybrida/"
                                       )
 
 common_garden_verbena.child_flowers.create!(description: "Small salverform flowers with irregular rounded lobes, in
@@ -13678,7 +15618,9 @@ common_garden_verbena.child_flowers.create!(description: "Small salverform flowe
                                             colour: "Many colours, usually white centre",
                                             significance: "Thoroughness",
                                             comment: "Indispensable for all true progress.",
-                                            image_url: "common_garden_verbena_mix.jpg"
+                                            image_url: "common_garden_verbena_mix.jpg",
+                                            source: "rioMoros",
+                                            url: "http://www.riomoros.com/2012/09/la-verbena-verbena-hybrida.html"
                                            )
 
 common_garden_verbena.child_flowers.create!(description: "Small pink salverform flowers with irregular rounded lobes;
@@ -13688,7 +15630,9 @@ common_garden_verbena.child_flowers.create!(description: "Small pink salverform 
                                             colour: "Pink",
                                             significance: "Psychic Thoroughness",
                                             comment: "With tireless patience it works for the perfection of the being.",
-                                            image_url: "common_garden_verbena_pink.jpg"
+                                            image_url: "common_garden_verbena_pink.jpg",
+                                            source: "Wikimedia Commons",
+                                            url: "https://commons.wikimedia.org/wiki/File:Verbena_hybrida_cv_Hanatemari1.jpg"
                                            )
 
 common_garden_verbena.child_flowers.create!(description: "Small mauve salverform flowers with irregular rounded lobes;
@@ -13698,7 +15642,9 @@ common_garden_verbena.child_flowers.create!(description: "Small mauve salverform
                                             colour: "Mauve",
                                             significance: "Vital Thoroughness",
                                             comment: "The vital must become calm and docile.",
-                                            image_url: "common_garden_verbena_mauve.jpg"
+                                            image_url: "common_garden_verbena_mauve.jpg",
+                                            source: "Auntie Dogma's Garden Spot",
+                                            url: "https://auntiedogmasgardenspot.wordpress.com/tag/prairie-verbena/"
                                            )
 
 common_garden_verbena.child_flowers.create!(description: "Small dark red salverform flowers with irregular rounded
@@ -13708,7 +15654,9 @@ common_garden_verbena.child_flowers.create!(description: "Small dark red salverf
                                             colour: "Dark red",
                                             significance: "Physical Thoroughness",
                                             comment: "Takes great care of details in the execution of work.",
-                                            image_url: "common_garden_verbena_dark_red.jpg"
+                                            image_url: "common_garden_verbena_dark_red.jpg",
+                                            source: "Wikimedia Commons",
+                                            url: "https://commons.wikimedia.org/wiki/File:Verbena_hybrida_2.JPG"
                                            )
 
 common_garden_verbena.child_flowers.create!(description: "Small white salverform flowers with irregular rounded lobes;
@@ -13718,7 +15666,9 @@ common_garden_verbena.child_flowers.create!(description: "Small white salverform
                                             colour: "White",
                                             significance: "Integral Thoroughness",
                                             comment: "Nothing is neglected in order to reach the Divine Goal.",
-                                            image_url: "common_garden_verbena_white.jpg"
+                                            image_url: "common_garden_verbena_white.jpg",
+                                            source: "Wikimedia Commons",
+                                            url: "https://commons.wikimedia.org/wiki/File:Verbena_hybrida7.JPG"
                                            )
 
 common_garden_verbena.child_flowers.create!(description: "Small soft red with cream centre salverform flowers with
@@ -13728,7 +15678,9 @@ common_garden_verbena.child_flowers.create!(description: "Small soft red with cr
                                             colour: "Red, cream",
                                             significance: "Artistic Thoroughness",
                                             comment: "Neglects nothing in its search for perfection.",
-                                            image_url: "common_garden_verbena_red.jpg"
+                                            image_url: "common_garden_verbena_red_cream.jpg",
+                                            source: "rioMoros",
+                                            url: "http://www.riomoros.com/2012/09/la-verbena-verbena-hybrida.html"
                                            )
 
 # Pansy
@@ -13743,16 +15695,9 @@ pansy = Flower.create!(name: "Pansy",
                        petals: "Five",
                        image_url: "pansy.jpg",
                        thumbnail_url: "pansy_thumbnail.jpg",
+                       source: "Wikimedia Commons",
+                       url: "https://commons.wikimedia.org/wiki/File:Pens%C3%A9es_FR_2011.jpg"
                       )
-
-pansy.child_flowers.create!(description: "Medium to large soft velvety cream yellow flower with five rounded
-                                          irregularly overlapping petals; borne singly. A lovely low annual or
-                                          short-lived perennial..",
-                            colour: "Cream yellow",
-                            significance: "Integrally Pure Thoughts",
-                            comment: "An effect of the Divine Grace.",
-                            image_url: "pansy_cream.jpg"
-                           )
 
 pansy.child_flowers.create!(description: "Medium to large soft velvety flower with five rounded irregularly
                                           overlapping petals, the lower three usually having darker patches
@@ -13762,7 +15707,20 @@ pansy.child_flowers.create!(description: "Medium to large soft velvety flower wi
                             colour: "White and shades of yellow, cream, orange, pink, reddish brown, purple, and blue",
                             significance: "Thoughts Turned towards the Divine",
                             comment: "A certitude of beauty.",
-                            image_url: "pansy_purple.jpg"
+                            image_url: "pansy_purple.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Viola_Tricolor.jpg"
+                           )
+
+pansy.child_flowers.create!(description: "Medium to large soft velvety cream yellow flower with five rounded
+                                          irregularly overlapping petals; borne singly. A lovely low annual or
+                                          short-lived perennial..",
+                            colour: "Cream yellow",
+                            significance: "Integrally Pure Thoughts",
+                            comment: "An effect of the Divine Grace.",
+                            image_url: "pansy_cream.jpg",
+                            source: "Wikimedia Commons",
+                            url: "https://commons.wikimedia.org/wiki/File:Viola.jpg"
                            )
 
 # Zephyr Flower
@@ -13777,6 +15735,8 @@ zephyr_flower = Flower.create!(name: "Zephyr Flower",
                                climate: "Found across temperate, subtropical and tropical climates",
                                image_url: "zephyr_flower.jpg",
                                thumbnail_url: "zephyr_flower_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Zephyranthes_rosea.jpg"
                               )
 
 zephyr_flower.child_flowers.create!(description: "Small to medium-sized funnel-shaped flowers with six pointed petals,
@@ -13785,7 +15745,9 @@ zephyr_flower.child_flowers.create!(description: "Small to medium-sized funnel-s
                                     colour: "In several colours",
                                     significance: "Prayer",
                                     comment: "Self-giving is true prayer.",
-                                    image_url: "zephyr_flower_mix.jpg"
+                                    image_url: "zephyr_flower_mix.jpg",
+                                    source: "Jean Elizabeth Paul, Through A Looking Glass",
+                                    url: "http://lizyhere.blogspot.in/2014/07/how-to-have-fully-bloomed-garden.html"
                                    )
 
 zephyr_flower.child_flowers.create!(description: "Medium-sized funnel-shaped light pink flowers with six pointed
@@ -13793,7 +15755,9 @@ zephyr_flower.child_flowers.create!(description: "Medium-sized funnel-shaped lig
                                     colour: "Light pink",
                                     significance: "Psychic Prayer",
                                     comment: "Spontaneous and fervent.",
-                                    image_url: "zephyr_flower_light_pink.jpg"
+                                    image_url: "zephyr_flower_light_pink.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Pink_garden_flower_in_bush.jpg"
                                    )
 
 zephyr_flower.child_flowers.create!(description: "Small to medium-sized funnel-shaped fragrant yellow flowers with six
@@ -13801,7 +15765,9 @@ zephyr_flower.child_flowers.create!(description: "Small to medium-sized funnel-s
                                     colour: "Yellow",
                                     significance: "Mental Prayer",
                                     comment: "Spontaneous in a mind that is aspiring for transformation.",
-                                    image_url: "zephyr_flower_yellow.jpg"
+                                    image_url: "zephyr_flower_yellow.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Starr_021019-0011_Zephyranthes_citrina.jpg"
                                    )
 
 zephyr_flower.child_flowers.create!(description: "Small funnel-shaped fragrant deep pink flowers with six pointed
@@ -13809,7 +15775,9 @@ zephyr_flower.child_flowers.create!(description: "Small funnel-shaped fragrant d
                                     colour: "Deep pink",
                                     significance: "Vital Prayer",
                                     comment: "The vital prays to be purified.",
-                                    image_url: "zephyr_flower_deep_pink.jpg"
+                                    image_url: "zephyr_flower_deep_pink.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Pink_Fairy_Lily.JPG"
                                    )
 
 zephyr_flower.child_flowers.create!(description: "Small to medium-sized funnel-shaped white flowers with six pointed
@@ -13817,7 +15785,9 @@ zephyr_flower.child_flowers.create!(description: "Small to medium-sized funnel-s
                                     colour: "White",
                                     significance: "Integral Prayer",
                                     comment: "The whole being is concentrated in a single prayer to the Divine.",
-                                    image_url: "zephyr_flower_white.jpg"
+                                    image_url: "zephyr_flower_white.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:(Zephyranthes_candida)_White_Ginger_Lily_at_Marikavalasa.JPG"
                                    )
 
 # Common Zinnia
@@ -13832,6 +15802,8 @@ common_zinnia = Flower.create!(name: "Common Zinnia",
                                climate: "Tropical, dry",
                                image_url: "common_zinnia.jpg",
                                thumbnail_url: "common_zinnia_thumbnail.jpg",
+                               source: "Wikimedia Commons",
+                               url: "https://commons.wikimedia.org/wiki/File:Zinnia_July_2010-1.jpg"
                               )
 
 common_zinnia.child_flowers.create!(description: "Large usually double compositae flowers with firm spatulate ray
@@ -13840,7 +15812,9 @@ common_zinnia.child_flowers.create!(description: "Large usually double composita
                                     colour: "In a wide range of colours",
                                     significance: "Endurance",
                                     comment: "Going to the end of the effort without fatigue or relaxation.",
-                                    image_url: "common_zinnia_mix.jpg"
+                                    image_url: "common_zinnia_mix.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Zinnia_at_lalbagh7374.JPG"
                                    )
 
 common_zinnia.child_flowers.create!(description: "Large, usually double compositae royal purple flowers with firm
@@ -13849,7 +15823,9 @@ common_zinnia.child_flowers.create!(description: "Large, usually double composit
                                     colour: "Royal purple",
                                     significance: "Courageous Endurance",
                                     comment: "Strong and energetic, never complains.",
-                                    image_url: "common_zinnia_royal_purple.jpg"
+                                    image_url: "common_zinnia_purple.jpg",
+                                    source: "Jim, the Photographer",
+                                    url: "https://www.flickr.com/photos/jcapaldi/6057029135/"
                                    )
 
 common_zinnia.child_flowers.create!(description: "Large, usually double compositae orange flowers with firm spatulate
@@ -13858,7 +15834,9 @@ common_zinnia.child_flowers.create!(description: "Large, usually double composit
                                     colour: "Orange",
                                     significance: "Victorious Endurance",
                                     comment: "It will endure till the end of the battle.",
-                                    image_url: "common_zinnia_orange.jpg"
+                                    image_url: "common_zinnia_orange.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Zinnia_elegans_(5).jpg"
                                    )
 
 common_zinnia.child_flowers.create!(description: "Large, usually double compositae light green flowers with firm
@@ -13867,7 +15845,9 @@ common_zinnia.child_flowers.create!(description: "Large, usually double composit
                                     colour: "Light green",
                                     significance: "Spontaneous Endurance",
                                     comment: "Natural, effortless, smiling.",
-                                    image_url: "common_zinnia_light_green.jpg"
+                                    image_url: "common_zinnia_light_green.jpg",
+                                    source: "Mark Dwyer, Rotary Botanical Gardens Horticulture Blog",
+                                    url: "http://rotarygardens.blogspot.in/2014/01/consider-seasonal-dash-of-lime-in-garden.html"
                                    )
 
 common_zinnia.child_flowers.create!(description: "Large, usually double compositae bright coral pink flowers with firm
@@ -13876,7 +15856,9 @@ common_zinnia.child_flowers.create!(description: "Large, usually double composit
                                     colour: "Bright coral pink",
                                     significance: "Joyful Endurance",
                                     comment: "Whatever happens, it keeps on smiling.",
-                                    image_url: "common_zinnia_coral_pink.jpg"
+                                    image_url: "common_zinnia_coral_pink.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Zinnia_from_Lalbagh_Flowershow_-_August_2012_4777.JPG"
                                    )
 
 common_zinnia.child_flowers.create!(description: "Large, usually double compositae cream flowers with a red centre and
@@ -13886,7 +15868,9 @@ common_zinnia.child_flowers.create!(description: "Large, usually double composit
                                     significance: "Ananda of Endurance",
                                     comment: "To know how to bear and endure undoubtedly creates a strong and lasting
                                               joy.",
-                                    image_url: "common_zinnia_cream_red.jpg"
+                                    image_url: "common_zinnia_cream_red.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Zinnia_elegans_04.JPG"
                                    )
 
 common_zinnia.child_flowers.create!(description: "Large, usually double compositae golden yellow flowers with firm
@@ -13895,7 +15879,9 @@ common_zinnia.child_flowers.create!(description: "Large, usually double composit
                                     colour: "Golden yellow",
                                     significance: "Supramentalised Endurance",
                                     comment: "The attitude is such that difficulties lose their power to harass.",
-                                    image_url: "common_zinnia_golden_yellow.jpg"
+                                    image_url: "common_zinnia_golden_yellow.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Zinnia_elegans_(RpM).JPG"
                                    )
 
 common_zinnia.child_flowers.create!(description: "Large, usually double compositae pnk flowers with firm spatulate ray
@@ -13904,7 +15890,9 @@ common_zinnia.child_flowers.create!(description: "Large, usually double composit
                                     colour: "Pink",
                                     significance: "Psychic Endurance",
                                     comment: "It will smile at life whatever its difficulties may be.",
-                                    image_url: "common_zinnia_pink.jpg"
+                                    image_url: "common_zinnia_pink.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Zinnia_from_Lalbagh_Flowershow_-_August_2012_4756.JPG"
                                    )
 
 common_zinnia.child_flowers.create!(description: "Large, usually double compositae yellow flowers with firm spatulate
@@ -13913,7 +15901,9 @@ common_zinnia.child_flowers.create!(description: "Large, usually double composit
                                     colour: "Yellow",
                                     significance: "Mental Endurance",
                                     comment: "The difficulty of the problems to be solved will never discourage it.",
-                                    image_url: "common_zinnia_yellow.jpg"
+                                    image_url: "common_zinnia_yellow.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Rosa_mistica_Zinnia_elegans.jpg"
                                    )
 
 common_zinnia.child_flowers.create!(description: "Large, usually double compositae pinkish mauve flowers with firm
@@ -13922,7 +15912,9 @@ common_zinnia.child_flowers.create!(description: "Large, usually double composit
                                     colour: "Pinkish mauve",
                                     significance: "Endurance of the Higher Vital",
                                     comment: "Whatever the circumstances, it never fails.",
-                                    image_url: "common_zinnia_mauve.jpg"
+                                    image_url: "common_zinnia_mauve.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:BUGA-2011-DS.JPG"
                                    )
 
 common_zinnia.child_flowers.create!(description: "Large, usually double compositae violet red flowers with firm
@@ -13931,7 +15923,9 @@ common_zinnia.child_flowers.create!(description: "Large, usually double composit
                                     colour: "Violet red",
                                     significance: "Vital Endurance",
                                     comment: "Whatever the obstacles, we shall always go forward!",
-                                    image_url: "common_zinnia_violet_red.jpg"
+                                    image_url: "common_zinnia_violet_red.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Zinnia_elegans_03.jpg"
                                    )
 
 common_zinnia.child_flowers.create!(description: "Large, usually double compositae dark red flowers with firm
@@ -13940,7 +15934,9 @@ common_zinnia.child_flowers.create!(description: "Large, usually double composit
                                     colour: "Dark red",
                                     significance: "Physical Endurance",
                                     comment: "Knows neither fatigue nor exhaustion.",
-                                    image_url: "common_zinnia_dark_red.jpg"
+                                    image_url: "common_zinnia_red.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Flower,_Zinnia_-_Flickr_-_nekonomania.jpg"
                                    )
 
 common_zinnia.child_flowers.create!(description: "Large, usually double compositae white flowers with firm spatulate
@@ -13949,7 +15945,9 @@ common_zinnia.child_flowers.create!(description: "Large, usually double composit
                                     colour: "White",
                                     significance: "Integral Endurance",
                                     comment: "It will go on unfailingly till the end of its task.",
-                                    image_url: "common_zinnia_white.jpg"
+                                    image_url: "common_zinnia_white.jpg",
+                                    source: "Chiltern Seeds",
+                                    url: "http://www.chilternseeds.co.uk/item_1309t_zinnia_elegans_polar_bear_seeds"
                                    )
 
 common_zinnia.child_flowers.create!(description: "Large, usually double compositae variegated or multicoloured flowers
@@ -13958,5 +15956,7 @@ common_zinnia.child_flowers.create!(description: "Large, usually double composit
                                     colour: "Variegated or multicoloured",
                                     significance: "Manifold Endurance",
                                     comment: "Whatever the endurance needed, it is always there to do its duty.",
-                                    image_url: "common_zinnia_multicoloured.jpg"
+                                    image_url: "common_zinnia_multicoloured.jpg",
+                                    source: "Wikimedia Commons",
+                                    url: "https://commons.wikimedia.org/wiki/File:Hippie-flower_-_Virginia_-_ForestWander.jpg"
                                    )
