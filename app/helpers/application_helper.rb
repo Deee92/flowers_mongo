@@ -1,7 +1,7 @@
 module ApplicationHelper
 	# Provides the title for every page.
 	def full_title(page_title = '')
-		base_title = "Flowers Mongo"
+		base_title = "Flowers"
 		if page_title.empty?
 			base_title
 		else

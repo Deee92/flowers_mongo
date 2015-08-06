@@ -11931,7 +11931,7 @@ sunflower.child_flowers.create!(description: "Large dark brownish red flower wit
 sunflower.child_flowers.create!(description: "Medium to large single compositae flowers with a prominent centre of
                                               brown or green disc florets and light to deep yellow ray florets; borne
                                               singly. An annual or perennial herb.",
-                                colour: "Browm or green, deep yellow",
+                                colour: "Brown or green, deep yellow",
                                 significance: "Consciousness Turned towards the Light",
                                 comment: "It thirsts for Light and cannot live without it.",
                                 image_url: "sunflower_yellow.jpg",
