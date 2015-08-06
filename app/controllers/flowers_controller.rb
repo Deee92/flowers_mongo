@@ -33,7 +33,7 @@ class FlowersController < ApplicationController
 	def create
 		@flower = Flower.new(flower_params)
 		if @flower.save
-			flash[:success] = "Flower added!"
+			flash[:success] = "Flower added"
 			redirect_to @flower
 		else
 			render 'new'
@@ -47,7 +47,7 @@ class FlowersController < ApplicationController
 	def update
 		@flower = Flower.find(params[:id])
 		if @flower.update_attributes(flower_params)
-			flash[:success] = "Flower updated!"
+			flash[:success] = "Flower updated"
 			redirect_to @flower
 		else
 			render 'edit'
@@ -56,7 +56,7 @@ class FlowersController < ApplicationController
 
 	def destroy
 		Flower.find(params[:id]).destroy
-		flash[:success] = "Flower deleted."
+		flash[:success] = "Flower deleted"
 		redirect_to flowers_url
 	end
 
@@ -71,14 +71,14 @@ class FlowersController < ApplicationController
 
 		def logged_in_user
 			if !logged_in?
-				flash[:danger] = "Please sign in."
+				flash[:danger] = "Please sign in"
 				redirect_to signin_path
 			end
 		end
 
 		def not_authorized?
 			if !is_admin?
-				flash[:danger] = "You can't do that!"
+				flash[:danger] = "You can't do that"
 				redirect_to flowers_url
 			end
 		end
