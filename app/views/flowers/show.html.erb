@@ -72,16 +72,17 @@
           <p class="t5"><%= @flower.description %></p>
         <% end %>
 
-    <% else %>
+      <% else %>
         <% if @flower.description.present? %>
           <p class="flower_subheading" style="clear: both;">Description</p>
           <p class="t5"><%= @flower.description %></p>
-        <% else %>
-          <p class="flower_subheading" style="clear: both;">Description</p>
-          <p class="t5">Medium-sized fully double flowers with soft fringed petals and a sweet clovelike fragrance; in white and shades of purple, pink, red, yellow and apricot orange; borne in clusters of two to five flowers on long stems. A popular garden perennial.</p>
         <% end %>
-
-        <p class="t3 text-center">Variants</p>
+        
+        <div class="row">
+          <div class="col-md-4 col-md-offset-5 col-sm-5 col-sm-offset-5 col-xs-5 col-xs-offset-4">
+            <p class="t3">Variants</p>
+          </div>
+        </div>
         <hr/>
 
         <% @flower.child_flowers.each_with_index do |variant, i| %>
@@ -89,6 +90,9 @@
             <hr>
           <% end %>
           <div class="row variant">
+            <% if variant.bot_name.present? %>
+                <p class="botanical_name">(<%= variant.bot_name %>)</p>
+              <% end %>
             <div class="<%= i % 2 == 0 ? 'col-md-8' : 'col-md-8 col-md-push-4' %>">
               <div class="row">
                 <div class="col-xs-12">
@@ -112,11 +116,6 @@
               <% end %>
             </div>
             <div class="<%= i % 2 == 0 ? 'col-md-4' : 'col-md-4 col-md-pull-8' %>">
-              <% if variant.bot_name.present? %>
-                <p class="botanical_name">(<%= variant.bot_name %>)</p>
-              <% end %>
-              
-              
               <p class="flower_subheading">Description</p>
               <p class="t5"><%= variant.description %></p>
               <p class="flower_subheading">Colour</p>
