@@ -533,7 +533,7 @@ cardinals_guard = Flower.create!(name: "Cardinal's Guard",
                                  image_url: "cardinals_guard.jpg",
                                  thumbnail_url: "cardinals_guard_thumbnail.jpg",
                                  source: "Wikimedia Commons",
-                                 url: "https://commons.wikimedia.org/wiki/File:Pachystachys_coccinea-1-sunny_brook-yercaud-salem-India.JPG"
+                                 url: "https://commons.wikimedia.org/wiki/File:Pachystachys_coccinea-2-sunny_brook-yercaud-salem-India.JPG"
                                 )
 
 persian_shield = Flower.create!(name: "Persian Shield",
@@ -3890,7 +3890,7 @@ african_iris = Flower.create!(name: "African Iris",
                               family: "Iridaceae",
                               significance: "Aristocracy of beauty",
                               comment: "So perfectly formed that it compels  admiration.",
-                              description: "Medium-sized irislike flower with a centre of three erect incurving
+                              description: "Medium-sized iris-like flower with a centre of three erect incurving
                                             lavender crests and six flat rounded white petals, three of which
                                             are wider and have a prominent golden orange mark from the base to
                                             the centre, and three alternate petals, narrower and spotted brown
@@ -9240,7 +9240,7 @@ coral_vine.child_flowers.create!(description: "Tiny delicate lantern-shaped whit
                                  comment: "Let us work for the day when this will become both the means and the end.",
                                  image_url: "coral_vine_mix.jpg",
                                  source: "Wikimedia Commons",
-                                 url: "https://commons.wikimedia.org/wiki/File:Coral_Vine_(Antignon_leptopus)_4.jpg"
+                                 url: "https://commons.wikimedia.org/wiki/File:CoralVine.JPG"
                                 )
 
 coral_vine.child_flowers.create!(description: "Tiny delicate lantern-shaped deep pink flowers in small racemes forming

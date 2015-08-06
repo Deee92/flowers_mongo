@@ -18,4 +18,5 @@
 //= require color-thief
 //= require jquery.color
 //= require turbolinks
+//= require bootstrap-sprockets
 //= require_tree .
