@@ -5,6 +5,7 @@ class Flower
   include Mongoid::Elasticsearch
   elasticsearch!
   recursively_embeds_many
+  # accepts_nested_attributes_for :flowers
   field :name, type: String
   slug :name
   field :other_names, type: String

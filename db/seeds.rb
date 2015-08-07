@@ -15427,7 +15427,7 @@ wishbone_flower.child_flowers.create!(description: "Small salverform flowers wit
                                                     prominent calyx is light green and ribbed; borne singly in the
                                                     leaf axils or in few-flowered terminal racemes. A low delicate
                                                     annual herb.",
-                                      colour: "In white, mauve, or lavender, and light green",
+                                      colour: "In white, mauve or lavender, and light green",
                                       significance: "Krishna’s Play",
                                       comment: "A power of progress veiling itself behind appearances.",
                                       image_url: "wishbone_flower_mix.jpg",
