@@ -313,6 +313,12 @@ input {
 .scroll {
 	// position: unset;
 	bottom: 50px;
+	.top_button {
+		color: #fff;
+		background: rgba(0, 0, 0, 0.4);
+		padding: 0.5em;
+		border: 1px solid #666;
+	}
 }
 
 .scroll.affix-top .glyphicon {

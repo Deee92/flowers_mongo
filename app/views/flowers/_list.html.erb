@@ -4,10 +4,10 @@
 
 <div class="media", style="clear: both;">
   <% @flowers.each do |flower| %>
-    <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom: 4em; margin-top: 2em;">
+    <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom: 2em; margin-top: 2em;">
       <%= link_to flower do %>
         <div class="name_card" align="center">
-          <%= image_tag(flower.thumbnail_url, class: "media-object img-circle", height: '140', width: '145') %>
+          <%= image_tag(flower.thumbnail_url, class: "media-object img-circle", height: '165', width: '165') %>
           <br/>
           <p class="flower_name"><%= flower.name %></p>
           <% if is_admin? %>
