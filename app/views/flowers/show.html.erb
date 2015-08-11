@@ -24,7 +24,7 @@
       
       <% if @flower.image_url %>
         <%= image_tag(@flower.image_url, class: "img-responsive main-img", alt: @flower.name) %>
-        <a href="<%= @flower.url %>" class="img-source" style="padding-bottom: 30px;"><%= @flower.source %></a>
+        <a href="<%= @flower.url %>" target="_blank" class="img-source" style="padding-bottom: 30px;"><%= @flower.source %></a>
       <% elsif @flower.child_flowers %>
         <div id="flowers-carousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -55,28 +55,22 @@
         </div>
       <% end %>
 
-      <% if @flower.child_flowers.empty? %>
+      <% if @flower.significance.present? %>
+        <p class="flower_subheading" style="clear: both;">Significance given by the Mother</p>
+        <p class="lead significance"><%= @flower.significance %></p>
+      <% end %>
 
-        <% if @flower.significance.present? %>
-          <p class="flower_subheading" style="clear: both;">Significance given by the Mother</p>
-          <p class="lead significance"><%= @flower.significance %></p>
-        <% end %>
+      <% if @flower.comment.present? %>
+        <p class="flower_subheading">The Mother&rsquo;s Comment</p>
+        <p class="lead comment"><%= @flower.comment %></p>
+      <% end %>
 
-        <% if @flower.comment.present? %>
-          <p class="flower_subheading">The Mother&rsquo;s Comment</p>
-          <p class="lead comment"><%= @flower.comment %></p>
-        <% end %>
+      <% if @flower.description.present? %>
+        <p class="flower_subheading">Description</p>
+        <p class="t5"><%= @flower.description %></p>
+      <% end %>
 
-        <% if @flower.description.present? %>
-          <p class="flower_subheading">Description</p>
-          <p class="t5"><%= @flower.description %></p>
-        <% end %>
-
-      <% else %>
-        <% if @flower.description.present? %>
-          <p class="flower_subheading" style="clear: both;">Description</p>
-          <p class="t5"><%= @flower.description %></p>
-        <% end %>
+      <% if @flower.child_flowers.present? %>
         
         <div class="row">
           <div class="col-md-4 col-md-offset-5 col-sm-5 col-sm-offset-5 col-xs-5 col-xs-offset-4">
@@ -102,15 +96,17 @@
               <div class="row">
                 <div class="col-xs-12">
                   <%= image_tag(variant.image_url, class: "img-responsive variant_img") %>
-                  <a href="<%= variant.url %>" class="img-source"><%= variant.source %></a>
+                  <a href="<%= variant.url %>" target="_blank" class="img-source"><%= variant.source %></a>
                 </div>
               </div>
-              <div class="row" style="margin-top: 20px">
-                <div class="col-xs-12">
-                  <p class="variant-subheading">Significance given by the Mother</p>
-                  <p class="lead"><%= variant.significance %></p>
+              <% if variant.significance.present? %>
+                <div class="row" style="margin-top: 20px">
+                  <div class="col-xs-12">
+                    <p class="variant-subheading">Significance given by the Mother</p>
+                    <p class="lead"><%= variant.significance %></p>
+                  </div>
                 </div>
-              </div>
+              <% end %>
               <% if variant.comment.present? %>
                 <div class="row">
                   <div class="col-xs-12">

@@ -11,16 +11,15 @@
 			<%= f.label :image_url, "New image URL", class: "form_field" %>
 			<!-- Use file_field to choose file -->
 			<%= f.text_field :image_url, class: "form-control" %>
-
 			<div class="row">
 				<div class="col-md-6", style="margin-top: 1em;">
 					<%= f.submit "Update", class: "btn btn-lg btn-primary" %>
 				</div>
-				<div class="col-md-6", style="margin-top: 1em;">
+			  <div class="col-md-6", style="margin-top: 1em;">
 					<%= link_to "Cancel", flowers_path, class: "btn btn-lg btn-danger", style: "width: 100%;" %>
 				</div>
 			</div>
-		
+
 		<% end %>
 	</div>
 </div>

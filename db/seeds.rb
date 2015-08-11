@@ -479,7 +479,7 @@ blue_trumpet_vine = Flower.create!(name: "Blue Trumpet Vine",
                                    description: "Large light lavender salverform flower with a broad limb divided
                                                  into five rounded lobes, a soft yellow centre and a corolla tube
                                                  that emerges from two prominent green bracts; borne in pendulous
-                                                 racemes. A vigorous vine with dense rough foliage",
+                                                 racemes. A vigorous vine with dense rough foliage.",
                                    colour: "Light lavender",
                                    petals: "Five",
                                    size: "Large",
@@ -798,7 +798,7 @@ brisbane_lily = Flower.create!(name: "Brisbane Lily",
                                comment: "Manifold and white, it aspires for spirituality.",
                                description: "Medium-sized glistening white salverform flowers with a long narrow
                                              light green corolla tube that divides abruptly into six narrow pointed
-                                             separated segments; borne in many- flowered umbels. A bulbous plant
+                                             separated segments; borne in many-flowered umbels. A bulbous plant
                                              with numerous large rounded leaves.",
                                colour: "White",
                                petals: "Six",
@@ -910,7 +910,7 @@ kaffir_lily = Flower.create!(name: "Kaffir Lily",
                              description: "Medium-sized bright orange funnelform flowers with the limb divided into
                                            six lobes, a yellow or apricot throat and exserted stamens; borne in
                                            many-flowered umbels on erect scapes. A perennial bulb with straplike
-                                           leaves",
+                                           leaves.",
                              colour: "Bright orange",
                              petals: "Six",
                              size: "Medium-sized",
@@ -1036,7 +1036,7 @@ nepal_trumpet_flower = Flower.create!(name: "Nepal Trumpet Flower",
                                                     recurved lobes with wavy edges, a small yellow green centre
                                                     and prominent stamens united at the anthers; borne in axillary
                                                     and terminal corymbs. A heavy woody vine with large glossy leaves.",
-                                      colour: "White",
+                                      colour: "White, yellow green",
                                       petals: "Five",
                                       size: "Large",
                                       place: "Native to Southern India, Andaman Islands, and Myanmar",
@@ -1101,7 +1101,7 @@ shrub_vinca = Flower.create!(name: "Shrub Vinca",
                              colour: "Light pink, deep rose",
                              petals: "Five",
                              size: "Medium-sized",
-                             place: "Found in India, Myanmar, Indonesia, Malaysia, Philippines, and Thailand",
+                             place: "Found in India, Myanmar, Indonesia, Malaysia, the Philippines, and Thailand",
                              climate: "Mostly tropical",
                              image_url: "shrub_vinca.jpg",
                              thumbnail_url: "shrub_vinca_thumbnail.jpg",
@@ -1297,7 +1297,7 @@ divaricate_typhonium = Flower.create!(name: "Divaricate Typhonium",
                                       size: "Large",
                                       place: "Found in Japan, Taiwan, Ryukyu Islands, much of China, Bangladesh,
                                               Laos, Cambodia, Myanmar, Thailand, Vietnam; nautralized in Madagascar,
-                                              Mauritius, Comoros, Borneo, Philippines, West Indies",
+                                              Mauritius, Comoros, Borneo, the Philippines, West Indies",
                                       climate: "Tropical and subtropical",
                                       image_url: "divaricate_typhonium.jpg",
                                       thumbnail_url: "divaricate_typhonium_thumbnail.jpg",
@@ -1985,7 +1985,7 @@ cactus_night_flower = Flower.create!(name: "Cactus Night Flower",
                                      family: "Cactaceae",
                                      significance: "Fortune",
                                      comment: "Very attractive, but beware - it pricks!",
-                                     description: "Large many-petalled white cup-shaped flowers with innumerable stamens",
+                                     description: "Large many-petalled white cup-shaped flowers with innumerable stamens.",
                                      colour: "White",
                                      petals: "",
                                      size: "Large",
@@ -2461,7 +2461,7 @@ wandering_jew = Flower.create!(name: "Wandering Jew",
                                              purple on the reverse; borne singly. A trailing perennial succulent herb
                                              with metallic green leaves that have purple edges and a purple central
                                              stripe, and turn dark green with age.",
-                               colour: "Magenta",
+                               colour: "Magenta pink",
                                petals: "Three",
                                size: "Tiny",
                                place: "Native to Mexico, Central America and Colombia, and naturalized in parts of
@@ -2576,7 +2576,7 @@ barberton_daisy = Flower.create!(name: "Barberton Daisy",
                                 )
 
 strawflower = Flower.create!(name: "Strawflower",
-                             other_names: "Golden Everlasting. Yellow Paper Daisy",
+                             other_names: "Golden Everlasting, Yellow Paper Daisy",
                              bot_name: "Helichrysum bracteatum",
                              family: "Compositae",
                              significance: "Supramental Immortality upon Earth",
@@ -2856,7 +2856,7 @@ chinese_lavender = Flower.create!(name: "Chinese Lavender",
                                   colour: "Yellow",
                                   petals: "",
                                   size: "Tiny",
-                                  place: "Native to China, India, Vietnam, Philippines",
+                                  place: "Native to China, India, Vietnam, and the Philippines",
                                   climate: "Tropical and subtropical",
                                   image_url: "chinese_lavender.jpg",
                                   thumbnail_url: "chinese_lavender_thumbnail.jpg",
@@ -2872,7 +2872,7 @@ shasta_daisy = Flower.create!(name: "Shasta Daisy",
                               comment: "Belongs only to the Divine.",
                               description: "Large single compositae flower with white ray florets that are often
                                             crested or frilled and a prominent yellow centre of disc florets. A robust
-                                            perennial",
+                                            perennial.",
                               colour: "White, yellow",
                               petals: "",
                               size: "Large",
@@ -3110,7 +3110,7 @@ spanish_flag = Flower.create!(name: "Spanish Flag",
                              )
 
 cypress_vine = Flower.create!(name: "Cypress Vine",
-                              other_names: "Cyprus Vine Flower, Star-glory, Indian Pink, Cardinal Climber",
+                              other_names: "Cyprus Vine, Star-glory, Indian Pink, Cardinal Climber",
                               bot_name: "Ipomoea quamoclit",
                               family: "Convolvulaceae",
                               significance: "Love in the Physical for the Divine",
@@ -3204,7 +3204,7 @@ bridal_bouquet = Flower.create!(name: "Bridal Bouquet",
                                 comment: "Charming and ethereal, it is bound to please.",
                                 description: "Tiny white mildly fragrant salverform flowers borne in delicate
                                               many-flowered panicles that form large airy sprays. A rampant vine
-                                              with large ovate-cordate leaves that are white- pubescent beneath",
+                                              with large ovate-cordate leaves that are white-pubescent beneath.",
                                 colour: "White",
                                 petals: "",
                                 size: "Tiny",
@@ -4194,7 +4194,7 @@ dwarf_white_bauhinia = Flower.create!(name: "Dwarf White Bauhinia",
                                       description: "Medium-sized pure white saucer-shaped flower with five broad
                                                     petals and conspicuous golden anthers; borne in very short
                                                     racemes. A medium to large shrub with the camels-foot leaves;
-                                                    typical of the genus",
+                                                    typical of the genus.",
                                       colour: "White",
                                       petals: "Five",
                                       size: "Medium-sized",
@@ -4207,7 +4207,7 @@ dwarf_white_bauhinia = Flower.create!(name: "Dwarf White Bauhinia",
                                      )
 
 st_thomas_tree = Flower.create!(name: "St. Thomas Tree",
-                                other_names: "Yellow Bauhinia. Bell Bauhinia",
+                                other_names: "Yellow Bauhinia, Bell Bauhinia",
                                 bot_name: "Bauhinia tomentosa",
                                 family: "Fabaceae",
                                 significance: "Gold",
@@ -4271,7 +4271,7 @@ golden_shower_tree = Flower.create!(name: "Golden Shower Tree",
                                     other_names: "Purging Cassia, Indian Laburnum, Pudding Pipe Tree",
                                     bot_name: "Cassia fistula",
                                     family: "Fabaceae",
-                                    significance: "Cassia fistula",
+                                    significance: "Imagination",
                                     comment: "Abundant and varied, may be charming, but must not be substituted for
                                               Truth.",
                                     description: "Medium-sized fragrant canary yellow flower with three upper and two
@@ -4448,7 +4448,7 @@ asoka = Flower.create!(name: "Asoka",
                        comment: "The contemplation that leads you beyond suffering.",
                        description: "Large compact panicles of small mildly fragrant orange and pale orange
                                      four-lobed salverform flowers with elongated crimson stamens. A small
-                                     ornamental tree with translucent pinkish tan new leaves",
+                                     ornamental tree with translucent pinkish tan new leaves.",
                        colour: "Orange, pale orange",
                        petals: "Four",
                        size: "Large",
@@ -4652,7 +4652,7 @@ mungo_tree = Flower.create!(name: "Mungo Tree",
                             description: "Medium-sized brownish ball-like heads covered with soft cream white stamens
                                           and borne on long pendulous stalks. A large stately tree with feathery
                                           foliage.",
-                            colour: "brownish, cream white",
+                            colour: "Brownish, cream white",
                             petals: "",
                             size: "Medium-sized",
                             place: "Native to Asia",
@@ -4690,7 +4690,7 @@ flame_of_the_forest = Flower.create!(name: "Flame of the Forest",
                                      significance: "Beginning of the Supramental Realisation",
                                      comment: "Of charming beauty it is the herald of victory.",
                                      description: "Dense racemes of medium-sized bright red-orange papilionaceous
-                                                   flowers; small to medium-sized tree",
+                                                   flowers; small to medium-sized tree.",
                                      colour: "Bright red orange",
                                      petals: "",
                                      size: "Medium-sized",
@@ -5181,7 +5181,7 @@ tulip = Flower.create!(name: "Tulip",
                        place: "Its native range extends west to the Iberian Peninsula, through North Africa to Greece,
                                the Balkans, Turkey, throughout the Levant (Syria, Israel, Palestinian Territories,
                                 Lebanon, Jordan) and Iran, north to Ukraine, southern Siberia and Mongolia, and east
-                                to the Northwest of China",
+                                to the Northwest of China.",
                        climate: "Mostly subtropical",
                        image_url: "tulip.jpg",
                        thumbnail_url: "tulip_thumbnail.jpg",
@@ -5892,7 +5892,7 @@ indian_red_water_lily = Flower.create!(name: "Indian Red Water Lily",
                                        petals: "Numerous",
                                        size: "Large",
                                        place: "Found throughout temperate and tropical Asia: Bangladesh, India, Sri
-                                               Lanka, Yunnan, Taiwan, Philippines, Cambodia, Laos, Myanmar, Thailand,
+                                               Lanka, Yunnan, Taiwan, the Philippines, Cambodia, Laos, Myanmar, Thailand,
                                                Vietnam, Indonesia and Malaysia. It is also found in northeastern
                                                Australia and Papua New Guinea",
                                        climate: "Found across temperate, subtropical and tropical regions",
@@ -6671,7 +6671,7 @@ kadam_tree = Flower.create!(name: "Kadam Tree",
                             significance: "Supramental Sun",
                             comment: "We aspire that its rays may illumine and transform us.",
                             description: "Medium-sized fragrant deep golden yellow flowers, studded overall with
-                                          exerted white stigmas that create a pincushion effect; they are solitary or
+                                          exserted white stigmas that create a pincushion effect; they are solitary or
                                           in pairs and pendulous. A fast-growing but short-lived spreading tree.",
                             colour: "Deep golden yellow, white",
                             petals: "",
@@ -6772,7 +6772,7 @@ white_ixora = Flower.create!(name: "White Ixora",
                              significance: "Peace in the Cells",
                              comment: "The indispensable condition for the body’s progress.",
                              description: "Small fragrant white salverform flower with a starlike limb divided into
-                                           four curled narrow lobes; borne in dense corymbs. A tall glossy- leaved
+                                           four curled narrow lobes; borne in dense corymbs. A tall glossy-leaved
                                            shrub that produces numerous root suckers.",
                              colour: "White",
                              petals: "Four",
@@ -7245,7 +7245,7 @@ yesterday_today_and_tomorrow = Flower.create!(name: "Yesterday-today-and-tomorro
                                                             and a limb divided into five wavy overlapping lobes;
                                                             flower opens purple with a white eye and changes from
                                                             purple to lavender on the second day and to white on the
-                                                            third; borne singly. A small shrub",
+                                                            third; borne singly. A small shrub.",
                                               colour: "Purple, white, lavender",
                                               petals: "Five",
                                               size: "Small",
@@ -7713,7 +7713,7 @@ coriander = Flower.create!(name: "Coriander",
                           )
 
 greater_burnet_saxifrage = Flower.create!(name: "Greater Burnet-saxifrage",
-                                          other_names: "Hollowstem Burnet Saxifrage",
+                                          other_names: "Hollowstem Burnet-saxifrage",
                                           bot_name: "Pimpinella major",
                                           family: "Umbelliferae",
                                           significance: "Purity in the Blood",
@@ -8018,7 +8018,7 @@ wild_sage = Flower.create!(name: "Wild Sage",
                            colour: "Bright yellow",
                            petals: "Four",
                            size: "Small",
-                           place: "Found in Philippines, Cambodia, Vietnam, and Thailand",
+                           place: "Found in the Philippines, Cambodia, Vietnam, and Thailand",
                            climate: "Tropical",
                            image_url: "wild_sage.jpg",
                            thumbnail_url: "wild_sage_thumbnail.jpg",
@@ -8119,7 +8119,7 @@ common_grape_vine = Flower.create!(name: "Common Grape Vine",
                                    description: "Large compact clusters of small round succulent fruits in shades of
                                                  yellow, green, purple and red. A woody deciduous vine with ornamental
                                                  deeply lobed leaves.",
-                                   colour: "Shades of yellow, greem, purple, and red",
+                                   colour: "Shades of yellow, green, purple, and red",
                                    petals: "(Fruit)",
                                    size: "Small",
                                    place: "Native to the Mediterranean region, central Europe, and southwestern Asia,
@@ -8718,7 +8718,7 @@ mexican_sunflower = Flower.create!(name: "Mexican Sunflower",
                                   )
 
 white_alder = Flower.create(name: "White Alder",
-                            other_names: "white Buttercup, Sulphur Alder, Politician's Flower, Dark-eyed Turnera",
+                            other_names: "White Buttercup, Sulphur Alder, Politician's Flower, Dark-eyed Turnera",
                             bot_name: "Turnera subulata",
                             family: "Passifloraceae",
                             significance: "Awakening of the Physical Mind",
@@ -8945,7 +8945,7 @@ hollyhock.child_flowers.create!(description: "Medium to large funnel-shaped flow
                                               shades of pink, purple and yellow; borne on tall spirelike stems. There
                                               are also many double forms, often with scalloped or frilled edges. A
                                               tall biennial herb with rough hairy leaves.",
-                                colour: "In white and shades of pink, purple, and yellow",
+                                colour: "White and shades of pink, purple, and yellow",
                                 significance: "Offering",
                                 comment: "The only offering that truly enriches is the one that is made to the Divine.",
                                 image_url: "hollyhock_mix.jpg",
@@ -10127,7 +10127,7 @@ china_aster.child_flowers.create!(description: "Medium-sized slightly scented do
                                   comment: "One of the results of conversion.",
                                   image_url: "china_aster_violet_yellow.jpg",
                                    source: "Wikimedia Commons",
-                                   url: "https://commons.wikimedia.org/wiki/File:China_Aster_(Callistephus_Chinensis).jpg"
+                                   url: "https://commons.wikimedia.org/wiki/File:Callistephus_chinensis_1.0_R.jpg"
                                  )
 
 china_aster.child_flowers.create!(description: "Medium-sized slightly scented semi-double compositae red flowers with
@@ -10171,7 +10171,7 @@ mudar = Flower.create!(name: "Mudar",
                        family: "Asclepiadaceae",
                        petals: "Five",
                        size: "Small",
-                       place: "Native to Cambodia, Indonesia, Malaysia, Philippines, Thailand, Sri Lanka, India,
+                       place: "Native to Cambodia, Indonesia, Malaysia, the Philippines, Thailand, Sri Lanka, India,
                                China, and Pakistan",
                        climate: "Tropical and subtropical",
                        image_url: "mudar.jpg",
@@ -13161,7 +13161,7 @@ shrub_verbena.child_flowers.create!(description: "Tiny multicoloured and often c
                                                   and lavender salverform flowers in round compact axillary or
                                                   terminal heads. A vigorous shrub with coarse strongly scented leaves
                                                   and a long blooming season.",
-                                    colour: "multicoloured red, orange, gold, and lavender",
+                                    colour: "Multicoloured, red, orange, gold, and lavender",
                                     significance: "Supramental Influence in the Cells",
                                     comment: "Unexpected variety in colours and qualities.",
                                     image_url: "shrub_verbena_multi.jpg",
@@ -13745,7 +13745,7 @@ wooden_rose = Flower.create!(name: "Wooden Rose",
                              family: "Convolvulaceae",
                              petals: "Five",
                              size: "Large",
-                             place: "Endemic to India, commonly found in North Circars and Deccan region up to 3000
+                             place: "Endemic to India, commonly found in North Circars and the Deccan region up to 3000
                                      ft.",
                              climate: "Tropical",
                              image_url: "wooden_rose.jpg",

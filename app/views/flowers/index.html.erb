@@ -1,7 +1,7 @@
-<% provide(:title, "All") %>
 
 <!-- Heading amd list -->
 <% if @query.present? %>
+	<% provide(:title, "Search Results") %>
 
 	<% if @size.to_i > 0 %>
 		<h1 class="nice_heading">
@@ -15,6 +15,8 @@
 	<% end %>
 
 <% else %>
+
+	<% provide(:title, "All") %>
 
 	<h1 class="page-header">Flowers</h1>
 	
