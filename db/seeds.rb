@@ -471,7 +471,7 @@ angel_wings = Flower.create!(name: "Angel Wings",
                             )
 
 blue_trumpet_vine = Flower.create!(name: "Blue Trumpet Vine",
-                                   other_names: "Clock Vine, Bengal Clock Vine. Sky Vine",
+                                   other_names: "Clock Vine, Bengal Clock Vine, Sky Vine",
                                    bot_name: "Thunbergia grandiflora",
                                    family: "Acanthaceae",
                                    significance: "Krishna’s Light in the Mind",
@@ -1839,20 +1839,20 @@ annatto = Flower.create!(name: "Annatto",
                          family: "Bixaceae",
                          significance: "New World",
                          comment: "The result of transformation.",
-                         description: "Medium-sized pale lavender pink flower with six rounded widely separated
+                         description: "Medium-sized pale lavender pink flower with five rounded widely separated
                                        petals and a centre of numerous golden stamens with prominent lavender
                                        anthers; borne in few-flowered clusters. A large shrub or small tree
                                        bearing ornamental seed pods in red, green or yellow with bright orange
                                        seeds.",
                          colour: "Pale lavender pink",
-                         petals: "Six",
+                         petals: "Five",
                          size: "Medium-sized",
                          place: "Native to the tropical Americas",
                          climate: "Tropical",
                          image_url: "annatto.jpg",
                          thumbnail_url: "annatto_thumbnail.jpg",
                          source: "Wikimedia Commons",
-                         url: "https://commons.wikimedia.org/wiki/File:Bixa_orellana_MS_1842.JPG"
+                         url: "https://commons.wikimedia.org/wiki/File:JfBixaorellana0695Angatfvf_14.JPG"
                         )
 
 yellow_silk_cotton_tree = Flower.create!(name: "Yellow Silk Cotton Tree",
@@ -3866,14 +3866,14 @@ golden_eye_grass = Flower.create!(name: "Golden Eye Grass",
 
 blackberry_lily = Flower.create!(name: "Blackberry Lily",
                                  other_names: "Leopard Lily",
-                                 bot_name: "Belamcanda chinensis",
+                                 bot_name: "Belamcanda chinensis [Iris domestica]",
                                  family: "Iridaceae",
                                  significance: "Attachment to the Divine",
                                  comment: "",
                                  description: "Small deep orange flower with six narrow widely separated petals covered
                                                with bright red spots; borne in loose corymbs on long narrow stems. A
                                                rhizomatous perennial herb with broad swordlike leaves.",
-                                 colour: "Deep orange",
+                                 colour: "Deep orange, bright red",
                                  petals: "Six",
                                  size: "Small",
                                  place: "Native to China, found in other subtropical regions",
@@ -4941,7 +4941,7 @@ garden_lupine = Flower.create!(name: "Garden Lupine",
                                              folded back in half and a two-lobed lower lip folded together; in all
                                              colours and colour combinations; borne in showy ascending tiers. An
                                              attractive annual or perennial herb or subshrub.",
-                               colour: "In many colours and combinations",
+                               colour: "Many colours and combinations",
                                petals: "Three",
                                size: "Small",
                                place: "Found in many different regions of the world",
@@ -5080,7 +5080,7 @@ glory_lily = Flower.create!(name: "Glory Lily",
                             other_names: "Climbing lily",
                             bot_name: "Gloriosa superba",
                             family: "Liliaceae",
-                            significance: "No quarrels ",
+                            significance: "No Quarrels ",
                             comment: "A very important condition to fulfil in order to facilitate the advent of the
                                       Supermind.",
                             description: "Medium-sized pendulous flower with six acutely recurved narrow petals with
@@ -5190,7 +5190,7 @@ tulip = Flower.create!(name: "Tulip",
                       )
 
 flowering_flax = Flower.create!(name: "Flowering Flax",
-                                other_names: "",
+                                other_names: "Scarlet Flax",
                                 bot_name: "Linum grandiflorum",
                                 family: "Liliaceae",
                                 significance: "Good Temper",
@@ -5209,7 +5209,7 @@ flowering_flax = Flower.create!(name: "Flowering Flax",
                                 image_url: "flowering_flax.jpg",
                                 thumbnail_url: "flowering_flax_thumbnail.jpg",
                                   source: "Wikimedia Commons",
-                                  url: "https://commons.wikimedia.org/wiki/File:Linum_grandiflorum_%27Rubrum%27_(Linaceae)_flower.JPG"
+                                  url: "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B0%D1%81%D1%82%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B2_%D0%A1%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE_040.JPG"
                                )
 
 madamfate = Flower.create!(name: "Madamfate",
@@ -5912,7 +5912,7 @@ birds_eye_bush = Flower.create!(name: "Bird's Eye Bush",
                                 description: "Small glossy jet black oval fruits that protrude from waxy red
                                               sepals; borne in short panicles. A decorative woody shrub with
                                               narrow leathery leaves and delicate evanescent yellow flowers.",
-                                colour: "Red",
+                                colour: "Red, black",
                                 petals: "",
                                 size: "Small",
                                 place: "Native to tropical woodlands of Africa, Madagascar, the Mascarenes and
@@ -10515,6 +10515,9 @@ madagascar_periwinkle.child_flowers.create!(description: "Small to medium-sized 
 orchid = Flower.create!(name: "Orchid",
                         other_names: "",
                         family: "Orchidaceae",
+                        significance: "Attachment to the Divine",
+                        comment: "Wraps itself around the Divine and takes all its support in Him, so as to be sure of
+                                  never leaving Him. Offers itself spontaneously to the Divine.",
                         description: "Considered to be the largest family of flowering plants and the most highly
                                       evolved, orchids are found in every colour of the spectrum and encompass an
                                       extraordinary range of size and form. They are usually epiphytic in tropical
@@ -10539,7 +10542,7 @@ orchid.child_flowers.create!(bot_name: "Cattleya",
                              colour: "Many colours, except white and lavender pink",
                              significance: "Attachment to the Divine",
                              comment: "Wraps itself around the Divine and finds all its support in Him so as to be
-                                       sure of never leaving Him. Offers itself spontaneously to the Divine.",
+                                       sure of never leaving Him.",
                              image_url: "orchid_mix.jpg",
                              source: "Wikimedia Commons",
                              url: "https://commons.wikimedia.org/wiki/File:Dungsia_harpophylla.jpg"

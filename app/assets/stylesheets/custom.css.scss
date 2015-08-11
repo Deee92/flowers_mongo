@@ -214,14 +214,22 @@ input {
 	.flower_subheading {
 		@extend h5;
 		@extend .text-lowercase;
-		// letter-spacing: 1px;
+		font-variant: small-caps;
+		letter-spacing: 1px;
 		font-weight: 300;
-		-moz-font-feature-settings : 'smcp= 1','calt=0';
-		-moz-font-feature-settings : "smcp" 1,"calt" 0;
-		-webkit-font-feature-settings : "smcp" 1,"calt" 0;
-		-ms-font-feature-settings : 'smcp= 1','calt=0';
-		-o-font-feature-settings : "smcp" 1,"calt" 0;
-		font-feature-settings : "smcp" 1,"calt" 0;
+	}
+
+	 @supports(font-feature-settings: 'smcp') {
+    .flower_subheading {
+        font-variant: normal;
+        font-feature-settings: 'smcp';
+        -moz-font-feature-settings : 'smcp= 1','calt=0';
+				-moz-font-feature-settings : "smcp" 1,"calt" 0;
+				-webkit-font-feature-settings : "smcp" 1,"calt" 0;
+				-ms-font-feature-settings : 'smcp= 1','calt=0';
+				-o-font-feature-settings : "smcp" 1,"calt" 0;
+				font-feature-settings : "smcp" 1,"calt" 0;
+    }
 	}
 
 	.variant-subheading {
