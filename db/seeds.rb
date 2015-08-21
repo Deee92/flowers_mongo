@@ -39,12 +39,12 @@ ladies_fingers = Flower.create!(
   family: "Malvaceae",
   significance: "Mentalised Power",
   comment: "Power becomes utilisable.",
-  description: "Medium-sized bright lemon yellow rotate flower with five soft overlapping petals, a dark red centre and prominent dark red stigmas; borne singly. A common garden vegetable in warm climates.",
-  colour: "Bright lemon yellow",
+  description: "Medium-sized, bright lemon-yellow rotate flower with five soft overlapping petals, a dark red center, and prominent dark red stigmas; borne singly. A common garden vegetable in warm climates.",
+  colour: "Bright lemon-yellow, dark red",
   petals: "Five",
   size: "Medium-sized",
-  place: "Originally from West Africa, Ethiopia, and South Asia. Also cultivated in the Americas and the Philippines",
-  climate: "Tropical, subtropical and warm temperate regions",
+  place: "Originally from West Africa, Ethiopia, and South Asia; also cultivated in the Americas and the Philippines",
+  climate: "Tropical to warm temperate",
   image_url: "ladies_fingers.jpg",
   thumbnail_url: "ladies_fingers_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -57,11 +57,11 @@ sea_holly = Flower.create!(
   family: "Acanthaceae",
   significance: "The Guardian",
   comment: "Vigilant and thorny, it knows how to protect what it guards.",
-  description: "Small deep blue tubular flower with the lower edge divided into three lobes, set in a spiny calyx and borne in tall spikes. A medium-sized spiny shrub with holly like leaves.",
+  description: "Small, deep blue tubular flower with the lower edge divided into three lobes, set in a spiny calyx, and borne in tall spikes. A medium-sized, spiny shrub with holly-like leaves.",
   colour: "Deep blue",
   petals: "Three",
   size: "Small",
-  place: "Native to India, Sri Lanka, Asia, Malesia, Australia and Pacific Islands. Grows along lakes and marshes and sea-shores",
+  place: "Native to India, Sri Lanka, Asia, Malesia, Australia, and the Pacific Islands; grows along lakes, marshes, and seashores",
   climate: "Tropical and subtropical",
   image_url: "sea_holly.jpg",
   thumbnail_url: "sea_holly_thumbnail.jpg",
@@ -75,11 +75,11 @@ mountain_thistle = Flower.create!(
   family: "Acanthaceae",
   significance: "Emotions Awake to the First Contact with the Divine",
   comment: "The Light begins to work in the emotional consciousness.",
-  description: "Small light purple to purple tubular flowers tinged white with the lower edge divided into three lobes, set in a spiny calyx and borne in tall spikes. A small shrub with spiny leaves.",
+  description: "Small, light purple to purple tubular flowers tinged white, with the lower edge divided into three lobes, set in a spiny calyx, and borne in tall spikes. A small shrub with spiny leaves.",
   colour: "Purple, white",
   petals: "Three",
   size: "Small",
-  place: "Native to West Africa, this flower has also been introduced to many other regions",
+  place: "Native to West Africa; has also been introduced to many other regions",
   climate: "Tropical",
   image_url: "mountain_thistle.jpg",
   thumbnail_url: "mountain_thistle_thumbnail.jpg",
@@ -93,7 +93,7 @@ red_aphelandra = Flower.create!(
   family: "Acanthaceae",
   significance: "Sharp Tongue",
   comment: "Unfortunately too frequent.",
-  description: "Medium-sized long narrow tubular orange flower opening into two pointed lips; set in overlapping brownish green bracts on a four-sided terminal spike. A medium-sized shrub that flowers for many weeks in the cool season.",
+  description: "Medium-sized, long, narrow, tubular orange flower opening into two pointed lips; set in overlapping brownish-green bracts on a four-sided terminal spike. A medium-sized shrub that flowers for many weeks in the cool season.",
   colour: "Orange",
   petals: "Two",
   size: "Medium-sized",
@@ -112,11 +112,11 @@ glush_weed = Flower.create!(
   family: "Acanthaceae",
   significance: "Heroic Action",
   comment: "Fights for the true and the beautiful without fear of obstacles or opposition.",
-  description: "Small bright red salverform flower with a flattened corolla tube, a limb divided into five rounded lobes and conspicuous white anthers; borne in few-flowered axillary cymes or terminal panicles. A perennial herb.",
-  colour: "Bright red",
+  description: "Small, bright red salverform flower with a flattened corolla tube, a limb divided into five rounded lobes, and conspicuous white anthers; borne in few-flowered axillary cymes or terminal panicles. A perennial herb.",
+  colour: "Bright red, white",
   petals: "Five",
   size: "Small",
-  place: "Native to Brazil, grows from sothern Mexico to Argentina",
+  place: "Native to Brazil; grows from southern Mexico to Argentina",
   climate: "Tropical",
   image_url: "glush_weed.jpg",
   thumbnail_url: "glush_weed_thumbnail.jpg",
@@ -130,7 +130,7 @@ violet_asystasia = Flower.create!(
   family: "Acanthaceae",
   significance: "Aspiration for Trust in the Divine",
   comment: "An intense need for that immutable peace given by the certitude of the Divine Grace.",
-  description: "Small pale purple funnelform flower with five lobes edged pale purple, the lower lobe marked deep purple and the throat finely lined and irregularly spotted white; borne in few-flowered racemes. A subshrub with ovate leaves.",
+  description: "Small, pale purple funnelform flower with five lobes edged pale purple, the lower lobe marked deep purple, and the throat finely lined and irregularly spotted white; borne in few-flowered racemes. A subshrub with ovate leaves.",
   colour: "Pale and deep purple, white",
   petals: "Five",
   size: "Small",
@@ -148,7 +148,7 @@ barleria = Flower.create!(
   family: "Acanthaceae",
   significance: "Opening",
   comment: "The help is constant in all domains. It is for us to know how to benefit from it.",
-  description: "Small salverform flowers with five rounded separated lobes that emerge from a spiny bracted spike; in many colours. An erect occasionally spiny shrub and herb.",
+  description: "Small salverform flowers with five rounded, separated lobes that emerge from a spiny bracted spike; in many colours. An erect, occasionally spiny, shrub and herb.",
   colour: "Many colours",
   petals: "Five",
   size: "Small",
@@ -167,11 +167,11 @@ porcupine_flower = Flower.create!(
   family: "Acanthaceae",
   significance: "Mental Opening",
   comment: "The first step of the mind towards transformation.",
-  description: "Small golden yellow salverform flower with pointed petals that emerge from a spiny bracted spike. An erect spiny subshrub.",
-  colour: "Golden yellow",
+  description: "Small, golden-yellow salverform flower with pointed petals that emerge from a spiny bracted spike. An erect, spiny subshrub.",
+  colour: "Golden-yellow",
   petals: "Five",
   size: "Small",
-  place: "Native to India, Sri Lanka and Eastern Southern and Central Africa.",
+  place: "Native to India, Sri Lanka, and eastern, southern, and central Africa",
   climate: "Mostly tropical",
   image_url: "porcupine_flower.jpg",
   thumbnail_url: "porcupine_flower_thumbnail.jpg",
@@ -185,8 +185,8 @@ blue_fox_tail = Flower.create!(
   family: "Acanthaceae",
   significance: "Krishna’s Influence in the Subconscient",
   comment: "The best way to be above all contingencies.",
-  description: "Small bluish green half-salverform flower borne on a dense bracted spike. A perennial herb or subshrub.",
-  colour: "Bluish green",
+  description: "Small, bluish-green half-salverform flower borne on a dense bracted spike. A perennial herb or subshrub.",
+  colour: "Bluish-green",
   size: "Small",
   place: "Endemic to India",
   climate: "Tropical and subtropical",
@@ -203,8 +203,8 @@ shooting_star = Flower.create!(
   family: "Acanthaceae",
   significance: "Attachment of the Material Vital to the Divine",
   comment: "An attachment that insists on feeling the power of contact.",
-  description: "Small reddish violet salverform flower with a thin tube that expands into five somewhat irregular and pointed lobes; borne in one- to three-flowered clusters from the leaf axils. A small prolific flowering shrub.",
-  colour: "Reddish violet",
+  description: "Small, reddish-violet salverform flower with a thin tube that expands into five somewhat irregular and pointed lobes; borne in one- to three-flowered clusters from the leaf axils. A small, prolific flowering shrub.",
+  colour: "Reddish-violet",
   petals: "Five",
   size: "Small",
   place: "Native to tropical India and China",
@@ -220,9 +220,9 @@ blue_eranthemum = Flower.create!(
   other_names: "Deep Blue Sage, Fish Scale Plant",
   bot_name: "Eranthemum wattii",
   family: "Acanthaceae",
-  significance: "Krishna’s light in the Subconscient",
+  significance: "Krishna’s Light in the Subconscient",
   comment: "Soon it will no longer be Subconscient.",
-  description: "Small purple salverform flowers borne on a bracted spike. A small shrubby perennial.",
+  description: "Small, purple salverform flowers borne on a bracted spike. A small shrubby perennial.",
   colour: "Purple",
   petals: "Five",
   size: "Small",
@@ -241,7 +241,7 @@ nerve_plant = Flower.create!(
   family: "Acanthaceae",
   significance: "Application",
   comment: "Modest but harmonious.",
-  description: "Tiny pale yellow bilabiate flower emerging from a short upright bracted spike. A spreading ornamental herb with leaves intricately veined white.",
+  description: "Tiny, pale yellow bilabiate flower emerging from a short upright bracted spike. A spreading ornamental herb with leaves intricately veined white.",
   colour: "Pale yellow",
   size: "Tiny",
   place: "Native to Peru",
@@ -258,8 +258,8 @@ caricature_plant = Flower.create!(
   family: "Acanthaceae",
   significance: "Vital Impulses",
   comment: "Look like nothing at all, but assert themselves and are stubborn.",
-  description: "Small narrow dull reddish purple bilabiate flower, with an obliquely cut mouth and irregular rolled and twisted lobes; borne in short terminal racemes. A shrub, usually with variegated leaves.",
-  colour: "Dull reddish purple",
+  description: "Small, narrow, dull reddish-purple bilabiate flower with an obliquely cut mouth, and irregular rolled and twisted lobes; borne in short terminal racemes. A shrub, usually with variegated leaves.",
+  colour: "Dull reddish-purple",
   size: "Small",
   place: "Endemic to India",
   climate: "Tropical and subtropical",
@@ -276,9 +276,8 @@ yellow_jacobinia = Flower.create!(
   family: "Acanthaceae",
   significance: "Aspiration of the Mind for the Supramental Guidance",
   comment: "The mind feels that its complexity is powerless and asks for a greater light to illuminate it.",
-  description: "Medium-sized yellow tubular flower with the corolla partly divided into two lips, emerging from a conspicuous dark green bract; in dense brushlike terminal spikes. An erect narrow shrub with four-sided stems.",
+  description: "Medium-sized, yellow tubular flower with the corolla partly divided into two lips, emerging from a conspicuous dark green bract; in dense brush-like terminal spikes. An erect, narrow shrub with four-sided stems.",
   colour: "Yellow",
-  petals: "Two",
   size: "Medium-sized",
   place: "Found in southern Mexico and Panama (Central America)",
   climate: "Tropical",
@@ -291,19 +290,20 @@ yellow_jacobinia = Flower.create!(
 shrimp_plant = Flower.create!(
   name: "Shrimp Plant",
   other_names: "Mexican Shrimp Plant. Shrimp Bush, False Hop",
-  bot_name: "Beloperone guttata",
+  bot_name: "Beloperone guttata [Justicia brandegeeana]",
   family: "Acanthaceae",
   significance: "Thirst for Perfection",
   comment: "Constant and manifold aspiration.",
-  description: "Small white flattened tubular two-lipped flowers spotted with purple on the lower lip emerging from broad showy russet or greenish-yellow bracts; in drooping terminal spikes. An evergreen subshrub with weak stems.",
-  colour: "White, purple, greenish-yellow",
+  description: "Small, white, flattened, tubular two-lipped flowers spotted with purple on the lower lip, emerging from broad, showy russet or greenish-yellow bracts; in drooping terminal spikes. An evergreen subshrub with weak stems.",
+  colour: "White, purple, russet or greenish-yellow",
+  petals: "Two",
   size: "Small",
-  place: "Native to Mexico, also found in Florida",
+  place: "Native to Mexico; also found in Florida",
   climate: "Tropical",
   image_url: "shrimp_plant.jpg",
   thumbnail_url: "shrimp_plant_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Beloperone_guttata_pm.jpg"
+  url: "https://commons.wikimedia.org/wiki/File:Justicia_brandegeeana.jpg"
 )
 
 brazilian_plume_flower = Flower.create!(
@@ -312,8 +312,8 @@ brazilian_plume_flower = Flower.create!(
   family: "Acanthaceae",
   significance: "Psychic Influence in the Emotions",
   comment: "Indispensable for beginning sadhana.",
-  description: "Clusters of small narrow rose pink bilabiate flowers, the lower lip divided into three elongated lobes with a tiny white pattern on the central lobe. A small subshrub with opposite oblong-lanceolate leaves.",
-  colour: "Rose pink",
+  description: "Clusters of small, narrow, rose-pink bilabiate flowers, the lower lip divided into three elongated lobes, with a tiny white pattern on the central lobe. A small subshrub with opposite oblong-lanceolate leaves.",
+  colour: "Rose-pink, white",
   size: "Small",
   place: "Native to the Atlantic Forest ecoregions of eastern Brazil",
   climate: "Tropical",
@@ -330,7 +330,7 @@ firespike = Flower.create!(
   family: "Acanthaceae",
   significance: "Matter Aspiring for the Supramental Guidance",
   comment: "Dissatisfied and troubled, matter asks for a powerful guide to put it in order.",
-  description: "Small red curving tubular flower with five irregularly separated flaring lobes; borne in erect branching racemes. A small to medium shrub with wavy-edged leaves.",
+  description: "Small, red, curving tubular flower with five irregularly separated, flaring lobes; borne in erect branching racemes. A small to medium shrub with wavy-edged leaves.",
   colour: "Red",
   petals: "Five",
   size: "Small",
@@ -348,11 +348,11 @@ hairyflower_wild_petunia = Flower.create!(
   family: "Acanthaceae",
   significance: "Krishna’s Light in the Physical Mind",
   comment: "The physical mind looses all rigidity and becomes supple and charming.",
-  description: "Medium-sized pale lavender salverform flower with a flattened corolla tube, a violet throat and a limb divided into five somewhat crinkled lobes; borne in few-flowered axillary cymes or terminal panicles. A perennial herb with long pendant flexuous branches.",
+  description: "Medium-sized, pale lavender salverform flower with a flattened corolla tube, a violet throat, and a limb divided into five somewhat crinkled lobes; borne in few-flowered axillary cymes or terminal panicles. A perennial herb with long pendant flexuous branches.",
   colour: "Pale lavender",
   petals: "Five",
   size: "Medium-sized",
-  place: "Found in subtropical regions of the US (Florida) and other subtropical regions",
+  place: "Found in subtropical regions of the US (like Florida), and other subtropical regions",
   climate: "Subtropical",
   image_url: "hairyflower_wild_petunia.jpg",
   thumbnail_url: "hairyflower_wild_petunia_thumbnail.jpg",
@@ -367,11 +367,11 @@ meadow_weed = Flower.create!(
   family: "Acanthaceae",
   significance: "Krishna’s Light in the Vital",
   comment: "The light that turns the vital towards the Truth.",
-  description: "Small pale purple salverform flower with a flattened corolla tube, a purple throat and a limb divided into five somewhat crinkled lobes; borne in few-flowered axillary cymes or terminal panicles. A perennial herb with lanceolate leaves.",
+  description: "Small, pale purple salverform flower with a flattened corolla tube, a purple throat, and a limb divided into five somewhat crinkled lobes; borne in few-flowered axillary cymes or terminal panicles. A perennial herb with lanceolate leaves.",
   colour: "Pale purple",
   petals: "Five",
   size: "Small",
-  place: "Native to Central America but presently naturalized in many countries of tropical South and Southeast Asia",
+  place: "Native to Central America; naturalized in many countries of tropical South and Southeast Asia",
   climate: "Tropical",
   image_url: "meadow_weed.jpg",
   thumbnail_url: "meadow_weed_thumbnail.jpg",
@@ -385,8 +385,8 @@ sanchezia = Flower.create!(
   family: "Acanthaceae",
   significance: "Foresight",
   comment: "A perception that is under the Divine Influence.",
-  description: "Medium-sized waxy golden yellow narrow tubular flower with the edge of the corolla tube recurved and two conspicuous exserted stamens; borne in small clusters from dull reddish orange bracts on one side of erect terminal stalks. A shrub with somewhat fleshy stems and large leaves with prominent cream white veins and midrib.",
-  colour: "Golden yellow, dull reddish orange",
+  description: "Medium-sized, waxy, golden-yellow narrow tubular flower with the edge of the corolla tube recurved, and two conspicuous exserted stamens; borne in small clusters from dull reddish-orange bracts on one side of erect terminal stalks. A shrub with somewhat fleshy stems and large leaves with prominent cream white veins and midrib.",
+  colour: "Golden-yellow, dull reddish-orange",
   size: "Medium-sized",
   place: "Occurs in the lowlands of tropical South and Central America",
   climate: "Tropical",
@@ -402,11 +402,11 @@ angel_wings = Flower.create!(
   family: "Acanthaceae",
   significance: "Purity in the Emotional Centre",
   comment: "Indispensable for progress.",
-  description: "Medium-sized white salverform flower with a delicate limb divided into five somewhat spatulate lobes and a flattened corolla tube that arises from the side of two small light green bracts; borne singly. A light climber with lanceolate to triangular leaves.",
+  description: "Medium-sized, white salverform flower with a delicate limb divided into five somewhat spatulate lobes and a flattened corolla tube that arises from the side of two small, light green bracts; borne singly. A light climber with lanceolate to triangular leaves.",
   colour: "White",
   petals: "Five",
   size: "Medium-sized",
-  place: "Native to India and Southern Asia but widespread in the tropics including Florida, Hawaii, Australia, New Caledonia, French Polynesia, Caribbean and Indian Ocean islands, southern Africa and Central America",
+  place: "Native to India and Southern Asia; widespread in the tropics including Florida, Hawaii, Australia, New Caledonia, French Polynesia, Caribbean and Indian Ocean islands, southern Africa, and Central America",
   climate: "Tropical and subtropical",
   image_url: "angel_wings.jpg",
   thumbnail_url: "angel_wings_thumbnail.jpg",
@@ -421,11 +421,11 @@ blue_trumpet_vine = Flower.create!(
   family: "Acanthaceae",
   significance: "Krishna’s Light in the Mind",
   comment: "A charming way of becoming intelligent.",
-  description: "Large light lavender salverform flower with a broad limb divided into five rounded lobes, a soft yellow centre and a corolla tube that emerges from two prominent green bracts; borne in pendulous racemes. A vigorous vine with dense rough foliage.",
-  colour: "Light lavender",
+  description: "Large, light lavender salverform flower with a broad limb divided into five rounded lobes, a soft yellow center, and a corolla tube that emerges from two prominent green bracts; borne in pendulous racemes. A vigorous vine with dense rough foliage.",
+  colour: "Light lavender, yellow",
   petals: "Five",
   size: "Large",
-  place: "Native to China, India, Nepal, Indochina and Burma, widely naturalised elsewhere",
+  place: "Native to China, India, Nepal, Indochina, and Burma; widely naturalised elsewhere",
   climate: "Tropical and subtropical",
   image_url: "blue_trumpet_vine.jpg",
   thumbnail_url: "blue_trumpet_vine_thumbnail.jpg",
@@ -439,11 +439,11 @@ blue_sky_shrub = Flower.create!(
   family: "Acanthaceae",
   significance: "Opening to Sri Aurobindo’s Force",
   comment: "Sri Aurobindo's help is constant. It is for us to know how to receive it.",
-  description: "Small lavender salverform flower with a corolla divided into five squared lobes and a light yellow spot in the throat; borne singly or in pairs. A small attractive shrub with narrow almost rhomboidal leaves.",
-  colour: "Lavender",
+  description: "Small, lavender salverform flower with a corolla divided into five squared lobes, and a light yellow spot in the throat; borne singly or in pairs. A small attractive shrub with narrow, almost rhomboidal, leaves.",
+  colour: "Lavender, light yellow",
   petals: "Five",
   size: "Small",
-  place: "Native to East Africa, found in other tropical regions",
+  place: "Native to East Africa; found in other tropical regions",
   climate: "Tropical",
   image_url: "blue_sky_shrub.jpg",
   thumbnail_url: "blue_sky_shrub_thumbnail.jpg",
@@ -456,12 +456,12 @@ cardinals_guard = Flower.create!(
   bot_name: "Pachystachys coccinea",
   family: "Acanthaceae",
   significance: "Aspiration for Supramental Guidance in the Subconscient",
-  comment: "Intense need of order, light and knowledge in the subconscient penumbra.",
-  description: "Small bright red to dark red bilabiate flower with the upper lip divided into two lobes and the lower into three; borne on erect bracteate spikes. A medium-sized herbaceous shrub with large ovate opposite leaves and a somewhat open habit.",
-  colour: "Bright red to dark red",
+  comment: "Intense need of order, light, and knowledge in the subconscient penumbra.",
+  description: "Small, bright to dark red bilabiate flower with the upper lip divided into two lobes, and the lower into three; borne on erect bracteate spikes. A medium-sized herbaceous shrub with large ovate opposite leaves, and a somewhat open habit.",
+  colour: "Bright to dark red",
   petals: "Five",
   size: "Small",
-  place: "Native to rainforest in the Caribbean and Central and South America, also cultivated in subtropical regions",
+  place: "Native to rainforests in the Caribbean, and Central and South America; also cultivated in subtropical regions",
   climate: "Tropical and subtropical",
   image_url: "cardinals_guard.jpg",
   thumbnail_url: "cardinals_guard_thumbnail.jpg",
@@ -476,10 +476,10 @@ persian_shield = Flower.create!(
   family: "Acanthaceae",
   significance: "Power of a Perfect Endurance",
   comment: "Manifests rarely, but is very precious.",
-  description: "Small bluish violet campanulate flower with one side of the corolla slightly swollen from the base; set in dense broad bracted spikes. A perennial herb or subshrub with numerous erect quadrangular stems. Blossoms gregariously once in 12 years.",
-  colour: "Bluish violet",
+  description: "Small, bluish-violet campanulate flower with one side of the corolla slightly swollen from the base; set in dense, broad bracted spikes. A perennial herb or subshrub with numerous erect quadrangular stems. Blossoms gregariously once in 12 years.",
+  colour: "Bluish-violet",
   size: "Small",
-  place: "Found in the shola forests of the Western Ghats in South India.",
+  place: "Found in the shola forests of the Western Ghats in South India",
   climate: "Tropical",
   image_url: "persian_shield.jpg",
   thumbnail_url: "persian_shield_thumbnail.jpg",
@@ -493,9 +493,9 @@ maple = Flower.create!(
   family: "Aceraceae",
   significance: "Flame of Aspiration",
   comment: "A flame that illuminates but does not burn.",
-  description: "Numerous species of mostly deciduous small to medium-sized very attractive trees and occasionally shrubs usually with palmately lobed leaves, often as wide as they are long; rich bright autumnal colourings vary from light yellow to deep red.",
+  description: "Numerous species of mostly deciduous, small to medium-sized, very attractive trees, and occasionally shrubs, usually with palmately lobed leaves, often as wide as they are long; rich, bright autumnal colourings vary from light yellow to deep red.",
   colour: "Light yellow to deep red",
-  place: "Native to Asia, with a number also appearing in Europe, northern Africa, and North America",
+  place: "Native to Asia, with a number of species also appearing in Europe, northern Africa, and North America",
   climate: "Subtropical to temperate",
   image_url: "maple.jpg",
   thumbnail_url: "maple_thumbnail.jpg",
@@ -510,8 +510,8 @@ ti = Flower.create!(
   family: "Agavaceae",
   significance: "Return",
   comment: "The salvation of those who have gone astray.",
-  description: "Tiny pale mauve tubular flowers with five recurved lobes and conspicuous exserted yellow-tipped stamens; borne in dense branching somewhat pendulous spikes. A medium to large shrub, usually with brightly coloured leaves.",
-  colour: "Pale mauve",
+  description: "Tiny, pale mauve tubular flowers with five recurved lobes and conspicuous exserted yellow-tipped stamens; borne in dense branching, somewhat pendulous spikes. A medium to large shrub, usually with brightly coloured leaves.",
+  colour: "Pale mauve, yellow",
   petals: "Five",
   size: "Tiny",
   place: "Native to tropical southeastern Asia, Papua New Guinea, Melanesia, northeastern Australia, the Indian Ocean, and parts of Polynesia",
@@ -528,7 +528,7 @@ spanish_dagger = Flower.create!(
   family: "Agavaceae",
   significance: "Initiation",
   comment: "It is unique in the whole existence of the plant.",
-  description: "Medium-sized fragrant waxy white cup-shaped flowers on tall erect racemes or panicles. Succulent perennial herb with stiff sword-shaped leaves, either stemless or with woody trunks.",
+  description: "Medium-sized, fragrant, waxy, white cup-shaped flowers on tall, erect racemes or panicles. Succulent perennial herb with stiff, sword-shaped leaves, either stemless or with woody trunks.",
   colour: "White",
   size: "Medium-sized",
   place: "Native to the hot and dry (arid) parts of North America, Central America, South America, and the Caribbean",
@@ -544,11 +544,11 @@ javanese_wool_plant = Flower.create!(
   bot_name: "Aerva tomentosa [Aerva javanica]",
   family: "Amaranthaceae",
   significance: "Aspiration for Integral Immortality",
-  comment: "An organised, tenacious and methodical development of the consciousness.",
-  description: "Small to medium-sized thin white woolly catkins borne in short branching axillary or terminal spikes. A weak-stemmed shrub with silvery tomentose leaves.",
+  comment: "An organised, tenacious, and methodical development of the consciousness.",
+  description: "Small to medium-sized, thin, white woolly catkins borne in short, branching axillary or terminal spikes. A weak-stemmed shrub with silvery tomentose leaves.",
   colour: "White",
   size: "Small to medium-sized",
-  place: "Native to Africa (including Madagascar), south and southwest Asia",
+  place: "Native to Africa (including Madagascar), and south and southwest Asia",
   climate: "Tropical",
   image_url: "javanese_wool_plant.jpg",
   thumbnail_url: "javanese_wool_plant_thumbnail.jpg",
@@ -563,7 +563,7 @@ joyweed = Flower.create!(
   family: "Amaranthaceae",
   significance: "Integral Immortality",
   comment: "It is a promise! When will it be a material fact?",
-  description: "Small white rounded papery heads of tiny everlasting flowers in small axillary clusters. A perennial herb or shrub with green, reddish or purplish leaves.",
+  description: "Small, white, rounded, papery heads of tiny everlasting flowers in small axillary clusters. A perennial herb or shrub with green, reddish, or purplish leaves.",
   colour: "White",
   size: "Small",
   place: "Found in tropical Americas, Asia, Africa, and Australia",
@@ -581,10 +581,10 @@ tampala = Flower.create!(
   family: "Amaranthaceae",
   significance: "Bravery",
   comment: "Fears nothing and knows how to stand up against adversities.",
-  description: "Minute deep mauve flowers in dense clusters surrounding the stem. An annual herb with maroon lower leaves and brilliant magenta pink upper leaves.",
+  description: "Minute, deep mauve flowers in dense clusters surrounding the stem. An annual herb with maroon lower leaves and brilliant magenta pink upper leaves.",
   colour: "Deep mauve",
   size: "Minute",
-  place: "Native to South America, but found in many other places",
+  place: "Native to South America; also found in many other places",
   climate: "Found across many climatic regions",
   image_url: "tampala.jpg",
   thumbnail_url: "tampala_thumbnail.jpg",
@@ -599,7 +599,7 @@ spider_lily = Flower.create!(
   family: "Amaryllidaceae",
   significance: "Alchemy",
   comment: "Supple and plastic, ready to take any form whatever.",
-  description: "Large fragrant white funnelform flowers with long slender recurved petal-like lobes and elongated stamens that arise from the edge of a cuplike crown; borne in umbels on a long scape. An easily grown bulb with straplike leaves.",
+  description: "Large, fragrant, white funnelform flowers with long, slender, recurved petal-like lobes and elongated stamens that arise from the edge of a cup-like crown; borne in umbels on a long scape. An easily grown bulb with strap-like leaves.",
   colour: "White",
   size: "Large",
   place: "Native to the southeastern United States, Mexico, Central America, the Caribbean, and northern South America",
@@ -617,10 +617,10 @@ golden_hurricane_lily = Flower.create!(
   family: "Amaryllidaceae",
   significance: "Conversion of the Higher Mind",
   comment: "Receives its inspirations from the Divine Consciousness.",
-  description: "Medium-sized bright golden yellow funnelform flower with a short tube opening into curved lobes and long exserted stamens creating a spidery appearance; borne in umbels on a solid scape. A bulbous herb that flowers in a leafless state.",
-  colour: "Bright golden yellow",
+  description: "Medium-sized, bright golden-yellow funnelform flower with a short tube opening into curved lobes, and long exserted stamens, creating a spidery appearance; borne in umbels on a solid scape. A bulbous herb that flowers in a leafless state.",
+  colour: "Bright golden-yellow",
   size: "Medium-sized",
-  place: "Found in China, Taiwan, Japan, Ryukyu Island, Indochina",
+  place: "Found in China, Taiwan, Japan, Ryukyu Island, and Indochina",
   climate: "Tropical and subtropical",
   image_url: "golden_hurricane_lily.jpg",
   thumbnail_url: "golden_hurricane_lily_thumbnail.jpg",
@@ -635,11 +635,11 @@ daffodil = Flower.create!(
   family: "Amaryllidaceae",
   significance: "Power of Beauty",
   comment: "Beauty acquires its power only when it is surrendered to the Divine.",
-  description: "Large mildly fragrant striking yellow flowers with a prominent trumpet surrounded by six spreading petals; borne singly on sturdy scapes. A spring-blooming bulb.",
+  description: "Large, mildly fragrant, striking yellow flowers with a prominent trumpet surrounded by six spreading petals; borne singly on sturdy scapes. A spring-blooming bulb.",
   colour: "Yellow",
   petals: "Six",
   size: "Large",
-  place: "Native to meadows and woods in southwest Europe and North Africa with a center of diversity in the Western Mediterranean",
+  place: "Native to meadows and woods in southwest Europe and North Africa, with a center of diversity in the Western Mediterranean",
   climate: "Mediterranean and subtropical",
   image_url: "daffodil.jpg",
   thumbnail_url: "daffodil_thumbnail.jpg",
@@ -654,11 +654,11 @@ poets_narcissus = Flower.create!(
   family: "Amaryllidaceae",
   significance: "Beauty Aspiring for the Supramental Realisation",
   comment: "Beauty is no longer sufficient unto itself; it wants to become divine.",
-  description: "Medium-sized very fragrant snow white flower with six rounded or pointed petals and a small orange or yellow central cup; borne singly or in umbels on scapes. A spring-blooming bulb.",
-  colour: "Snow white, orange or yellow",
+  description: "Medium-sized, very fragrant, snow-white flower with six rounded or pointed petals, and a small orange or yellow central cup; borne singly or in umbels on scapes. A spring-blooming bulb.",
+  colour: "Snow-white, orange or yellow",
   petals: "Six",
   size: "Medium-sized",
-  place: "Native to central Europe, naturalized in Great Britain, Belgium, Germany, the Czech Republic, Turkey, New Zealand, British Columbia, Washington State, Oregon, Ontario, Quebec, Newfoundland, and much of the eastern United States from Louisiana and Georgia north to Maine and Wisconsin (Europe and North America)",
+  place: "Native to central Europe; naturalized in Great Britain, Belgium, Germany, the Czech Republic, Turkey, New Zealand, British Columbia, Washington State, Oregon, Ontario, Quebec, Newfoundland, and much of the eastern United States from Louisiana and Georgia north to Maine and Wisconsin",
   climate: "Subtropical to temperate",
   image_url: "poets_narcissus.jpg",
   thumbnail_url: "poets_narcissus_thumbnail.jpg",
@@ -672,11 +672,11 @@ rain_flower = Flower.create!(
   family: "Amaryllidaceae",
   significance: "Occultism",
   comment: "Truly blossoms only when it is surrendered to the Divine.",
-  description: "Medium-sized highly fragrant white funnelform flower with six pointed petals, a large central cup and a long narrow green corolla tube; borne in one- to three-flowered umbels very close to the ground. A low perennial bulbous plant with narrow linear leaves.",
-  colour: "White",
+  description: "Medium-sized, highly fragrant, white funnelform flower with six pointed petals, a large central cup, and a long narrow green corolla tube; borne in one- to three-flowered umbels very close to the ground. A low perennial bulbous plant with narrow, linear leaves.",
+  colour: "White, green",
   petals: "Six",
   size: "Medium-sized",
-  place: "Found in India and on the islands of the Indian Ocean east to insular Southeast Asia (India, Sri Lanka, the Maldive Islands, the Laccadive Islands, Borneo, Java, Maluku, Sulawesi and the Philippines)",
+  place: "Found in India and on the islands of the Indian Ocean east to insular Southeast Asia (India, Sri Lanka, the Maldive Islands, the Laccadive Islands, Borneo, Java, Maluku, Sulawesi, and the Philippines)",
   climate: "Tropical and subtropical",
   image_url: "rain_flower.jpg",
   thumbnail_url: "rain_flower_thumbnail.jpg",
@@ -690,11 +690,11 @@ brisbane_lily = Flower.create!(
   family: "Amaryllidaceae",
   significance: "Silver",
   comment: "Manifold and white, it aspires for spirituality.",
-  description: "Medium-sized glistening white salverform flowers with a long narrow light green corolla tube that divides abruptly into six narrow pointed separated segments; borne in many-flowered umbels. A bulbous plant with numerous large rounded leaves.",
-  colour: "White",
+  description: "Medium-sized, glistening white salverform flowers with a long, narrow light green corolla tube that divides abruptly into six narrow pointed, separated segments; borne in many-flowered umbels. A bulbous plant with numerous large, rounded leaves.",
+  colour: "White, light green",
   petals: "Six",
   size: "Medium-sized",
-  place: "Native to Thailand, Indonesia (Maluku, Sulawesi, Bali, Lombok, Timor), the Philippines, the Bismark Archipelago, Vanuatu, New Guinea, Queensland and Western Australia, also naturalized in Seychelles, Sri Lanka, Solomon Islands, Niue, Society Islands, Caroline Islands and Mariana Islands",
+  place: "Native to Thailand, Indonesia (Maluku, Sulawesi, Bali, Lombok, Timor), the Philippines, the Bismark Archipelago, Vanuatu, New Guinea, Queensland, and Western Australia; also naturalized in Seychelles, Sri Lanka, Solomon Islands, Niue, Society Islands, Caroline Islands, and Mariana Islands",
   climate: "Tropical and subtropical",
   image_url: "brisbane_lily.jpg",
   thumbnail_url: "brisbane_lily_thumbnail.jpg",
@@ -709,10 +709,10 @@ blood_lily = Flower.create!(
   family: "Amaryllidaceae",
   significance: "Supramental Manifestation",
   comment: "It will be welcome.",
-  description: "Very large striking ball-like head composed of numerous stalked flowers with six narrow coral pink petals and prominent light red stamens; borne on a thick scape before the leaves appear. A bulbous plant with fleshy green leaves spotted reddish at the base.",
-  colour: "Red",
+  description: "Very large, striking ball-like head composed of numerous stalked flowers with six narrow coral pink petals and prominent light red stamens; borne on a thick scape before the leaves appear. A bulbous plant with fleshy green leaves spotted reddish at the base.",
+  colour: "Coral pink, light red",
   size: "Very large",
-  place: "Native to most of sub-Saharan Africa from Senegal to Somalia to South Africa, also native to Arabian Peninsula (Saudi Arabia, Yemen, Oman) and to the Seychelles; naturalized in Mexico and in the Chagos Archipelago",
+  place: "Native to most of sub-Saharan Africa from Senegal to Somalia to South Africa; also native to Arabian Peninsula (Saudi Arabia, Yemen, Oman) and to the Seychelles; naturalized in Mexico and in the Chagos Archipelago",
   climate: "Mostly tropical",
   image_url: "blood_lily.jpg",
   thumbnail_url: "blood_lily_thumbnail.jpg",
@@ -723,15 +723,15 @@ blood_lily = Flower.create!(
 amazon_lily = Flower.create!(
   name: "Amazon Lily",
   other_names: "Eucharist Lily, Madonna Lily",
-  bot_name: "Eucharis X grandiflora",
+  bot_name: "Eucharis x grandiflora",
   family: "Amaryllidaceae",
-  significance: "Light without obscurity",
+  significance: "Light without Obscurity",
   comment: "All-powerful in its simplicity.",
-  description: "Medium-sized pure white fragrant nodding salverform flower with six spreading petal-like lobes that surround a pale green corona; borne in few-flowered umbels on long scapes. A bulbous plant with broad glossy deep green leaves.",
-  colour: "White",
+  description: "Medium-sized, pure white, fragrant, nodding salverform flower with six spreading petal-like lobes that surround a pale green corona; borne in few-flowered umbels on long scapes. A bulbous plant with broad, glossy, deep green leaves.",
+  colour: "Pure white, pale green",
   petals: "Six",
   size: "Medium-sized",
-  place: "Native to Central America and South America (native to western Colombia and western Ecuador and widely cultivated as an ornamental in other regions)",
+  place: "Native to Central America and South America (western Colombia and western Ecuador); widely cultivated as an ornamental in other regions",
   climate: "Tropical and subtropical",
   image_url: "amazon_lily.jpg",
   thumbnail_url: "amazon_lily_thumbnail.jpg",
@@ -746,11 +746,11 @@ snowdrop = Flower.create!(
   family: "Amaryllidaceae",
   significance: "Promise of Renewal",
   comment: "May ugliness disappear from the world.",
-  description: "Small dainty white campanulate flower with three elongated outer petals and inner petals that are edged with green and overlapped to form a short tube; borne singly on a short scape. A small spring-flowering bulb.",
-  colour: "White",
-  petals: "Three",
+  description: "Small, dainty, white campanulate flower with three elongated outer petals, and inner petals that are edged with green and overlapped to form a short tube; borne singly on a short scape. A small spring-flowering bulb.",
+  colour: "White, green",
+  petals: "Three (outer)",
   size: "Small",
-  place: "Native to a large area of Europe, cultivated in North America",
+  place: "Native to a large area of Europe; cultivated in North America",
   climate: "Subtropical to temperate",
   image_url: "snowdrop.jpg",
   thumbnail_url: "snowdrop_thumbnail.jpg",
@@ -765,11 +765,11 @@ winter_daffodil = Flower.create!(
   family: "Amaryllidaceae",
   significance: "Supramental Invocation",
   comment: "The spontaneous attitude of the Supermind before the Divine.",
-  description: "Large golden yellow funnel-shaped flowers with six pointed petals, borne singly on scapes. A small bulbous herb with grasslike leaves.",
-  colour: "Golden yellow",
+  description: "Large, golden-yellow funnel-shaped flowers with six pointed petals, borne singly on scapes. A small bulbous herb with grass-like leaves.",
+  colour: "Golden-yellow",
   petals: "Six",
   size: "Large",
-  place: "Has a wide distribution from the Balearic Islands in the Western Mediterranean through to Tajikistan in Central Asia",
+  place: "Has a wide distribution, from the Balearic Islands in the Western Mediterranean to Tajikistan in Central Asia",
   climate: "Temperate",
   image_url: "winter_daffodil.jpg",
   thumbnail_url: "winter_daffodil_thumbnail.jpg",
@@ -783,11 +783,11 @@ kaffir_lily = Flower.create!(
   family: "Amaryllidaceae",
   significance: "Conversion of the Aim of Life from the Ego to the Divine",
   comment: "Instead of seeking one’s own satisfaction, to have service of the Divine as the aim of life.",
-  description: "Medium-sized bright orange funnelform flowers with the limb divided into six lobes, a yellow or apricot throat and exserted stamens; borne in many-flowered umbels on erect scapes. A perennial bulb with straplike leaves.",
-  colour: "Bright orange",
+  description: "Medium-sized, bright orange funnelform flowers with the limb divided into six lobes, a yellow or apricot throat, and exserted stamens; borne in many-flowered umbels on erect scapes. A perennial bulb with strap-like leaves.",
+  colour: "Bright orange, yellow or apricot",
   petals: "Six",
   size: "Medium-sized",
-  place: "Native to damp woodland habitats in South Africa and Swaziland, also naturalized in Mexico",
+  place: "Native to damp woodland habitats in South Africa and Swaziland; also naturalized in Mexico",
   climate: "Tropical and subtropical",
   image_url: "kaffir_lily.jpg",
   thumbnail_url: "kaffir_lily_thumbnail.jpg",
@@ -801,11 +801,11 @@ guernsey_lily = Flower.create!(
   family: "Amaryllidaceae",
   significance: "Exclusivism",
   comment: "The inability to do several things at the same time.",
-  description: "Small bright red funnelform flower with a short tube, six slightly recurved wavy segments and long bright red stamens; borne in umbels on scapes. A bulbous plant with linear leaves that develop after the flowers appear.",
+  description: "Small, bright red funnelform flower with a short tube, six slightly recurved, wavy segments, and long bright red stamens; borne in umbels on scapes. A bulbous plant with linear leaves that develop after the flowers appear.",
   colour: "Bright red",
   petals: "Six",
   size: "Small",
-  place: "Native to the Northern and Western Cape Provinces of South Africa, though it is now naturalized in France, Madeira and Azores",
+  place: "Native to the Northern and Western Cape Provinces of South Africa; now naturalized in France, Madeira, and Azores",
   climate: "Subtropical to temperate",
   image_url: "guernsey_lily.jpg",
   thumbnail_url: "guernsey_lily_thumbnail.jpg",
@@ -819,8 +819,8 @@ ylang_ylang = Flower.create!(
   family: "Annonaceae",
   significance: "Correct Perception",
   comment: "A perception that does not deform the Truth.",
-  description: "Large very fragrant greenish golden pendulous flower with six long narrow twisting petals; borne in clusters along the branches. A medium-sized tree.",
-  colour: "Greenish golden",
+  description: "Large, very fragrant, greenish-golden pendulous flower with six long, narrow, twisting petals; borne in clusters along the branches. A medium-sized tree.",
+  colour: "Greenish-golden",
   petals: "Six",
   size: "Large",
   place: "Native to the Philippines",
@@ -837,7 +837,7 @@ forest_aganosma = Flower.create!(
   family: "Apocynaceae",
   significance: "Rising Star",
   comment: "Let us hope it is the right one.",
-  description: "Small fragrant white salverform flower with five overlapping petal-like lobes forming a pinwheel and a narrow yellow tube arising from a prominent star-shaped calyx; borne in large rounded terminal corymbs. A moderately large vine with red-veined leaves.",
+  description: "Small, fragrant, white salverform flower with five overlapping petal-like lobes forming a pinwheel, and a narrow yellow tube arising from a prominent star-shaped calyx; borne in large rounded terminal corymbs. A moderately large vine with red-veined leaves.",
   colour: "White",
   petals: "Five",
   size: "Small",
@@ -854,9 +854,9 @@ purple_allamanda = Flower.create!(
   bot_name: "Allamanda blanchetti",
   family: "Apocynaceae",
   significance: "Victory in the Vital",
-  comment: "In the vital even a little victory has great consequences.",
-  description: "Medium-sized soft pinkish purple funnelform flower with five wavy overlapping lobes; slightly fragrant; borne in few-flowered terminal cymes. A scandent shrub.",
-  colour: "Pinkish purple",
+  comment: "In the vital, even a little victory has great consequences.",
+  description: "Medium-sized, soft pinkish-purple funnelform flower with five wavy, overlapping lobes; slightly fragrant; borne in few-flowered terminal cymes. A scandent shrub.",
+  colour: "Pinkish-purple",
   petals: "Five",
   size: "Medium-sized",
   place: "Native to Brazil",
@@ -874,8 +874,8 @@ common_allamanda = Flower.create!(
   family: "Apocynaceae",
   significance: "Victory",
   comment: "Will triumph over all obstacles.",
-  description: "Large mildly fragrant bright yellow salverform flower with a narrow abruptly expanding corolla tube, a broad limb with five rounded lobes and a throat finely striped with golden brown; borne in few-flowered terminal cymes. A vigorous scandent shrub.",
-  colour: "Yellow",
+  description: "Large, mildly fragrant, bright yellow salverform flower with a narrow, abruptly expanding corolla tube, a broad limb with five rounded lobes, and a throat finely striped with golden-brown; borne in few-flowered terminal cymes. A vigorous scandent shrub.",
+  colour: "Bright yellow, golden-brown",
   petals: "Five",
   size: "Large",
   place: "Native to Brazil",
@@ -893,8 +893,8 @@ nepal_trumpet_flower = Flower.create!(
   family: "Apocynaceae",
   significance: "Unselfishness",
   comment: "Deeply open so as not to refuse anything.",
-  description: "Large fragrant white funnelform flower that has five sharply recurved lobes with wavy edges, a small yellow green centre and prominent stamens united at the anthers; borne in axillary and terminal corymbs. A heavy woody vine with large glossy leaves.",
-  colour: "White, yellow green",
+  description: "Large, fragrant, white funnelform flower that has five sharply recurved lobes with wavy edges, a small yellow-green center, and prominent stamens united at the anthers; borne in axillary and terminal corymbs. A heavy woody vine with large, glossy leaves.",
+  colour: "White, yellow-green",
   petals: "Five",
   size: "Large",
   place: "Native to Southern India, the Andaman Islands, and Myanmar",
@@ -911,11 +911,11 @@ frangipani_vine = Flower.create!(
   family: "Apocynaceae",
   significance: "Perfect Radiating Psychology",
   comment: "Can be obtained by acquiring the Divine vision.",
-  description: "Large very fragrant cream white pinwheel-like salverform flower with a golden yellow centre and a golden ray on each of the five separate pinwheel-like petals; borne in few-flowered clusters. A rampant vine with large hairy leaves.",
-  colour: "Cream white, golden yellow",
+  description: "Large, very fragrant, cream-white pinwheel-like salverform flower with a golden-yellow center and a golden ray on each of the five separate pinwheel-like petals; borne in few-flowered clusters. A rampant vine with large, hairy leaves.",
+  colour: "Cream-white, golden-yellow",
   petals: "Five",
   size: "Large",
-  place: "Native to India, Sri Lanka (Southeast Asia), the Philippines and South China",
+  place: "Native to India, Sri Lanka (Southeast Asia), the Philippines, and South China",
   climate: "Mostly tropical",
   image_url: "frangipani_vine.jpg",
   thumbnail_url: "frangipani_vine_thumbnail.jpg",
@@ -930,7 +930,7 @@ easter_tree = Flower.create!(
   family: "Apocynaceae",
   significance: "Psychic Peace",
   comment: "It is spontaneous and does not make a fuss.",
-  description: "Small fragrant white salverform flower with five oblong, slightly recurved lobes; borne many-flowered cymes. A small deciduous tree.",
+  description: "Small, fragrant, white salverform flower with five oblong, slightly recurved lobes; borne in many-flowered cymes. A small deciduous tree.",
   colour: "White",
   petals: "Five",
   size: "Small",
@@ -948,8 +948,8 @@ shrub_vinca = Flower.create!(
   family: "Apocynaceae",
   significance: "Determination",
   comment: "Knows what it wants and does it.",
-  description: "Medium-sized light pink star-shaped flower with a deep rose pink centre and narrow corolla tube divided into five rounded petal-like segments; blooms sparsely in terminal clusters. A medium- sized evergreen shrub with glossy leaves.",
-  colour: "Light pink, deep rose",
+  description: "Medium-sized, light pink star-shaped flower with a deep rose-pink center, and a narrow corolla tube divided into five rounded petal-like segments; blooms sparsely in terminal clusters. A medium-sized evergreen shrub with glossy leaves.",
+  colour: "Light pink, deep rose-pink",
   petals: "Five",
   size: "Medium-sized",
   place: "Found in India, Myanmar, Indonesia, Malaysia, the Philippines, and Thailand",
@@ -966,11 +966,11 @@ milky_way_tree = Flower.create!(
   family: "Apocynaceae",
   significance: "Purity in Action",
   comment: "When action is initiated by the Divine Will, it is pure.",
-  description: "Medium-sized delicate fragrant white salverform flower with five rounded overlapping lobes that form a pinwheel and a narrow yellow throat; borne in erect few-flowered clusters above the leaves. A small attractive flowering tree.",
-  colour: "White",
+  description: "Medium-sized, delicate, fragrant, white salverform flower with five rounded, overlapping lobes that form a pinwheel, and a narrow yellow throat; borne in erect few-flowered clusters above the leaves. A small attractive flowering tree.",
+  colour: "White, yellow",
   petals: "Five",
   size: "Medium-sized",
-  place: "Native to Central and South America, also found in California, Texas, Florida (USA)",
+  place: "Native to Central and South America; found in California, Texas, and Florida",
   climate: "Tropical and subtropical",
   image_url: "milky_way_tree.jpg",
   thumbnail_url: "milky_way_tree_thumbnail.jpg",
@@ -985,11 +985,11 @@ twisted_cord_flower = Flower.create!(
   family: "Apocynaceae",
   significance: "Radiation of the Manifestation",
   comment: "The Divine Manifestation is spreading.",
-  description: "Medium to large white funnelform flower with a short corolla tube and five petal-like lobes that elongate into thin purple ribbons; borne in loose cymes. An extremely vigorous heavy climber with large leaves and large woody paired seed capsules.",
-  colour: "White, with purple ribbons",
+  description: "Medium to large white funnelform flower with a short corolla tube, and five petal-like lobes that elongate into thin purple ribbons; borne in loose cymes. An extremely vigorous, heavy climber with large leaves and large woody paired seed capsules.",
+  colour: "White, purple",
   petals: "Five",
   size: "Medium to large",
-  place: "Native primarily to tropical Africa, extending to South Africa, with a few species in Asia, from southern India to New Guinea and southern China.",
+  place: "Native primarily to tropical Africa, extending to South Africa, with a few species in Asia, from southern India to New Guinea and southern China",
   climate: "Tropical and subtropical",
   image_url: "twisted_cord_flower.jpg",
   thumbnail_url: "twisted_cord_flower_thumbnail.jpg",
@@ -1003,11 +1003,11 @@ climbing_oleander = Flower.create!(
   family: "Apocynaceae",
   significance: "Radiating Vital Purity",
   comment: "It is possible only through perfect consecration of the vital.",
-  description: "Medium-sized mildly fragrant salverform flower with a wide waxy maroon corolla tube, a corolla divided into five pale pink petal-like lobes blotched with lavender pink and a prominent lavender pink corona that turns rust with age; borne in terminal clusters. A winter-flowering scandent shrub with glossy leaves.",
-  colour: "Pale pink with a maroon corolla",
+  description: "Medium-sized, mildly fragrant salverform flower with a wide waxy maroon corolla tube, a corolla divided into five pale pink petal-like lobes blotched with lavender-pink, and a prominent lavender-pink corona that turns rust with age; borne in terminal clusters. A winter-flowering scandent shrub with glossy leaves.",
+  colour: "Pale pink, maroon, lavender-pink, rust",
   petals: "Five",
   size: "Medium-sized",
-  place: "Native to Liberia, Burkina Faso, Ivory Coast, Ghana, Nigeria, Cameroon, Equatorial Guinea, Gabon and also naturalized in Taiwan",
+  place: "Native to Liberia, Burkina Faso, Ivory Coast, Ghana, Nigeria, Cameroon, Equatorial Guinea, and Gabon; also naturalized in Taiwan",
   climate: "Mostly tropical",
   image_url: "climbing_oleander.jpg",
   thumbnail_url: "climbing_oleander_thumbnail.jpg",
@@ -1021,11 +1021,11 @@ bread_flower = Flower.create!(
   family: "Apocynaceae",
   significance: "Psychic Tranquility",
   comment: "By its very nature the psychic is tranquil.",
-  description: "Small fragrant white open campanulate flower with the edge of the corolla crimped and wavy; borne in many-flowered cymes. A dense vigorous vine with light green leaves and milky sap.",
+  description: "Small, fragrant, white open campanulate flower with the edge of the corolla crimped and wavy; borne in many-flowered cymes. A dense, vigorous vine with light green leaves and milky sap.",
   colour: "White",
   petals: "Five",
   size: "Small",
-  place: "Found in India, Sri Lanka, Pakistan, Nepal, Bhutan, Bangladesh, Cambodia, Laos, Myanmar, Thailand, Vietnam, Hainan; naturalized in the Andaman Islands",
+  place: "Found in India, Sri Lanka, Pakistan, Nepal, Bhutan, Bangladesh, Cambodia, Laos, Myanmar, Thailand, Vietnam, and Hainan; naturalized in the Andaman Islands",
   climate: "Tropical and subtropical",
   image_url: "bread_flower.jpg",
   thumbnail_url: "bread_flower_thumbnail.jpg",
@@ -1039,7 +1039,7 @@ pala_indigo_plant = Flower.create!(
   family: "Apocynaceae",
   significance: "Religious Thoughts",
   comment: "Can only be utilised when it is freed from the influence of religions.",
-  description: "Small fragrant white star-shaped flower with a delicate fringed corona; borne in many-flowered cymes. A small to medium-sized deciduous tree with milky sap and thin beanlike pendulous fruits.",
+  description: "Small, fragrant, white star-shaped flower with a delicate fringed corona; borne in many-flowered cymes. A small to medium-sized deciduous tree with milky sap and thin, bean-like pendulous fruits.",
   colour: "White",
   petals: "Five",
   size: "Small",
@@ -1057,7 +1057,7 @@ holly = Flower.create!(
   family: "Aquifoliaceae",
   significance: "Courageous Goodwill",
   comment: "Is solid and resistant, fearing neither inclemency nor the cold.",
-  description: "Shrubs or trees with tiny white rotate flowers borne singly or in axillary cymes, shiny red berries and stiff glossy evergreen, often toothed or spiny leaves.",
+  description: "Shrubs or trees with tiny, white rotate flowers borne singly or in axillary cymes, shiny red berries, and stiff glossy evergreen, often toothed or spiny, leaves.",
   colour: "White",
   size: "Tiny",
   place: "Native to the Mediterranean region",
@@ -1075,10 +1075,10 @@ elephants_ear = Flower.create!(
   family: "Araceae",
   significance: "Transformed Sex Centre",
   comment: "No longer has desires and offers itself to the Divine.",
-  description: "Medium-sized mildly fragrant flower consisting of an erect white spadix partly enfolded by a hooded greenish white spathe; borne singly on a slender stalk. A tuberous perennial herb with large colourful patterned leaves.",
-  colour: "White, greenish white",
+  description: "Medium-sized, mildly fragrant flower consisting of an erect white spadix partly enfolded by a hooded greenish-white spathe; borne singly on a slender stalk. A tuberous perennial herb with large colourful, patterned leaves.",
+  colour: "White, greenish-white",
   size: "Medium-sized",
-  place: "Native to South America and Central America, cultivated in India, parts of Africa and many tropical islands",
+  place: "Native to South America and Central America; cultivated in India, parts of Africa, and many tropical islands",
   climate: "Tropical",
   image_url: "elephants_ear.jpg",
   thumbnail_url: "elephants_ear_thumbnail.jpg",
@@ -1093,8 +1093,8 @@ peace_lily = Flower.create!(
   family: "Araceae",
   significance: "Aspiration for Purity",
   comment: "Purity is perfect sincerity and one can obtain it only when the being is entirely consecrated to the Divine.",
-  description: "Medium to large cream white to pale green leaflike spathe with a shorter erect white spadix arising from the base; borne singly on long stems. A rhizomatous perennial herb cultivated for its decorative foliage as well as its flowers.",
-  colour: "Cream white to pale green",
+  description: "Medium to large cream-white to pale green leaf-like spathe with a shorter erect white spadix arising from the base; borne singly on long stems. A rhizomatous perennial herb cultivated for its decorative foliage, as well as its flowers.",
+  colour: "Cream-white to pale green, white",
   size: "Medium to large",
   place: "Native to tropical regions of the Americas and southeastern Asia",
   climate: "Tropical",
@@ -1106,15 +1106,14 @@ peace_lily = Flower.create!(
 
 divaricate_typhonium = Flower.create!(
   name: "Divaricate Typhonium",
-  other_names: "",
   bot_name: "Typhonium blumei",
   family: "Araceae",
   significance: "Gossip",
   comment: "Dark and pointed, this is a flower that wounds more than it charms.",
-  description: "Large firm spathe, bulbous and green tinged with brown at the base, widening to become ovate in shape and a deep maroon colour, and a thin tapering spadix with a rough pink segment near the base; the flower arises directly from the round. A poisonous tuberous herb with sagittate shallowly three-lobed leaves.",
-  colour: "Deep maroon",
+  description: "Large, firm spathe, bulbous and green tinged with brown at the base, widening to become ovate in shape and a deep maroon colour, and a thin tapering spadix with a rough pink segment near the base; the flower arises directly from the ground. A poisonous tuberous herb with sagittate shallowly three-lobed leaves.",
+  colour: "Green, brown, deep maroon, pink",
   size: "Large",
-  place: "Found in Japan, Taiwan, Ryukyu Islands, much of China, Bangladesh, Laos, Cambodia, Myanmar, Thailand, Vietnam; nautralized in Madagascar, Mauritius, Comoros, Borneo, the Philippines, West Indies",
+  place: "Found in Japan, Taiwan, Ryukyu Islands, much of China, Bangladesh, Laos, Cambodia, Myanmar, Thailand, and Vietnam; nautralized in Madagascar, Mauritius, Comoros, Borneo, the Philippines, and the West Indies",
   climate: "Tropical and subtropical",
   image_url: "divaricate_typhonium.jpg",
   thumbnail_url: "divaricate_typhonium_thumbnail.jpg",
@@ -1128,8 +1127,8 @@ ivy = Flower.create!(
   family: "Araliaceae",
   significance: "Lasting Attachment",
   comment: "Modest, unostentatious, but persistent.",
-  description: "All species of woody vines that have prominently lobed glossy evergreen leaves and the ability to attach themselves to almost any surface.",
-  place: "Native to western, central and southern Europe, Macaronesia, northwestern Africa and across central-southern Asia east to Japan and Taiwan",
+  description: "All species of woody vines that have prominently lobed, glossy evergreen leaves, and the ability to attach themselves to almost any surface.",
+  place: "Native to western, central, and southern Europe, Macaronesia, northwestern Africa, and across central-southern Asia east to Japan and Taiwan",
   climate: "Subtropical to temperate",
   image_url: "ivy.jpg",
   thumbnail_url: "ivy_thumbnail.jpg",
@@ -1143,11 +1142,11 @@ australian_ivy_palm = Flower.create!(
   bot_name: "Schefflera actinophylla [Brassaia actinophylla]",
   family: "Araliaceae",
   significance: "Organised Material Energy",
-  comment: "Clustered, compact and methodical, it is powerful through its organisation.",
-  description: "Tiny round dull red flowers in tight ball-like clusters studding long stalks which rise like a fountain spray above the leaves. An evergreen tree with glossy leaves.",
+  comment: "Clustered, compact, and methodical, it is powerful through its organisation.",
+  description: "Tiny, round, dull red flowers in tight ball-like clusters studding long stalks which rise like a fountain spray above the leaves. An evergreen tree with glossy leaves.",
   colour: "Dull red",
   size: "Tiny",
-  place: "Native to tropical rainforests and gallery forests in Australia (eastern Queensland and the Northern Territory), New Guinea and Java",
+  place: "Native to tropical rainforests and gallery forests in Australia (eastern Queensland and the Northern Territory), New Guinea, and Java",
   climate: "Tropical",
   image_url: "australian_ivy_palm.jpg",
   thumbnail_url: "australian_ivy_palm_thumbnail.jpg",
@@ -1161,10 +1160,10 @@ calico_flower = Flower.create!(
   family: "Aristolochiaceae",
   significance: "Inspiration",
   comment: "Brings its manifold gifts to him who knows how to receive them.",
-  description: "Unique medium-sized cream white cup-shaped flower heavily spotted maroon with a maroon centre, a greenish yellow throat and an acutely bent and inflated corolla tube; borne singly. A slender graceful vine with kidney-shaped leaves.",
-  colour: "Cream-white, maroon",
+  description: "Unique, medium-sized, cream-white cup-shaped flower heavily spotted maroon, with a maroon center, a greenish-yellow throat, and an acutely bent and inflated corolla tube; borne singly. A slender, graceful vine with kidney-shaped leaves.",
+  colour: "Cream-white, maroon, greenish-yellow",
   size: "Medium-sized",
-  place: "Native to Brazil and Northern Argentina, grown in many tropical and subtropical regions",
+  place: "Native to Brazil and Northern Argentina; grown in many tropical and subtropical regions",
   climate: "Tropical and subtropical",
   image_url: "calico_flower.jpg",
   thumbnail_url: "calico_flower_thumbnail.jpg",
@@ -1179,10 +1178,10 @@ dutchmans_pipe = Flower.create!(
   family: "Aristolochiaceae",
   significance: "Lasting Inspiration",
   comment: "Waits patiently to be received.",
-  description: "Large uniquely shaped yellow green flower with an inflated pouch covered with dark reddish brown veins, a long curving lower petal heavily marked with reddish brown and a shorter somewhat hood-shaped upper petal; borne singly. The flower has an unpleasant odor. A moderately large vine with large heart-shaped leaves and dried seed pods that resemble parachutes.",
-  colour: "Yellow green, dark reddish brown",
+  description: "Large, uniquely-shaped yellow-green flower with an inflated pouch covered with dark reddish-brown veins, a long curving lower petal heavily marked with reddish-brown, and a shorter, somewhat hood-shaped, upper petal; borne singly. The flower has an unpleasant odour. A moderately large vine with large heart-shaped leaves and dried seed pods that resemble parachutes.",
+  colour: "Yellow-green, dark reddish-brown",
   size: "Large",
-  place: "Native to Central America, Colombia and Venezuela",
+  place: "Native to Central America, Colombia, and Venezuela",
   climate: "Tropical and subtropical",
   image_url: "dutchmans_pipe.jpg",
   thumbnail_url: "dutchmans_pipe_thumbnail.jpg",
@@ -1197,11 +1196,11 @@ cowslip_creeper = Flower.create!(
   family: "Asclepiadaceae",
   significance: "Vital Plentitude",
   comment: "Can only be obtained through conversion.",
-  description: "Small very fragrant greenish yellow salverform flower with the limb divided into five lobes creating a starlike appearance; borne in discreet clusters. A small slender vine with heart-shaped leaves.",
-  colour: "Greenish yellow",
+  description: "Small, very fragrant greenish-yellow salverform flower with the limb divided into five lobes, creating a star-like appearance; borne in discreet clusters. A small, slender vine with heart-shaped leaves.",
+  colour: "Greenish-yellow",
   petals: "Five",
   size: "Small",
-  place: "Native to India, Pakistan, China and Burma",
+  place: "Native to India, Pakistan, China, and Burma",
   climate: "Tropical and subtropical",
   image_url: "cowslip_creeper.jpg",
   thumbnail_url: "cowslip_creeper_thumbnail.jpg",
@@ -1216,10 +1215,10 @@ starfish_flower = Flower.create!(
   family: "Asclepiadaceae",
   significance: "Conquest of the Armies",
   comment: "Brutal and material, it does not bring joy.",
-  description: "Large malodorous purple brown star-shaped flower covered with dense hairs and yellow transverse lines; borne singly or in few-flowered clusters near the base of the plant. A succulent perennial herb with thick fleshy usually four-angled stems branching from the base.",
-  colour: "Purple brown",
+  description: "Large, malodorous purple-brown star-shaped flower covered with dense hairs and yellow transverse lines; borne singly or in few-flowered clusters near the base of the plant. A succulent perennial herb with thick fleshy usually four-angled stems branching from the base.",
+  colour: "Purple brown, yellow",
   size: "Large",
-  place: "Predominantly from South Africa with a few from other parts of Africa",
+  place: "Predominantly from South Africa, with a few species from other parts of Africa",
   climate: "Tropical and subtropical",
   image_url: "starfish_flower.jpg",
   thumbnail_url: "starfish_flower_thumbnail.jpg",
@@ -1234,7 +1233,7 @@ wax_plant = Flower.create!(
   family: "Asclepiadaceae",
   significance: "Power of Collective Aspiration",
   comment: "A harmonious collective aspiration can change the course of circumstances.",
-  description: "Small pale pink star-shaped flower with a smaller white star and red spot in the centre; the texture of the flower gives the impression of being carved from wax; borne in dense umbels. A light vine with succulent leaves.",
+  description: "Small pale pink star-shaped flower with a smaller white star and red spot in the center; the texture of the flower gives the impression of being carved from wax; borne in dense umbels. A light vine with succulent leaves.",
   colour: "Pale pink, white, red",
   size: "Small",
   place: "Native to Eastern Asia and Australia",
@@ -1254,8 +1253,9 @@ patience_plant = Flower.create!(
   comment: "The best condition for work.",
   description: "Small flat flower with a very narrow spur and five broad irregular overlapping petals that often have an iridescent sheen; in all shades except blue and yellow, often variegated; borne singly or in axillary or terminal racemes. A succulent perennial herb.",
   colour: "Many different colours, except blue and yellow",
+  petals: "Five",
   size: "Small",
-  place: "Native to eastern Africa from Kenya to Mozambique",
+  place: "Native to eastern Africa, from Kenya to Mozambique",
   climate: "Tropical",
   image_url: "patience_plant.jpg",
   thumbnail_url: "patience_plant_thumbnail.jpg",
@@ -1290,7 +1290,7 @@ catuaba = Flower.create!(
   colour: "Yellow, cream white",
   petals: "Five",
   size: "Medium-sized",
-  place: "Native to tropical and subtropical America including the West Indies",
+  place: "Native to the tropical and subtropical Americas, including the West Indies",
   climate: "Tropical and subtropical",
   image_url: "catuaba.jpg",
   thumbnail_url: "catuaba_thumbnail.jpg",
@@ -1309,7 +1309,7 @@ yellow_trumpet_vine = Flower.create!(
   colour: "Golden yellow",
   petals: "Five",
   size: "Large",
-  place: "Native to tropical and subtropical America including the West Indies",
+  place: "Native to the tropical and subtropical Americas, including the West Indies",
   climate: "Tropical and subtropical",
   image_url: "yellow_trumpet_vine.jpg",
   thumbnail_url: "yellow_trumpet_vine_thumbnail.jpg",
@@ -1324,9 +1324,9 @@ heliotrope = Flower.create!(
   family: "Bignoniaceae",
   significance: "Vital Consecration",
   comment: "Delightfully modest and fragrant, it smiles at life without wanting to draw attention to itself.",
-  description: "Tiny fragrant starlike flowers in pale to deep purple, borne in dense terminal cymes. A bushy perennial herb with very hairy leaves.",
+  description: "Tiny fragrant star-like flowers in pale to deep purple, borne in dense terminal cymes. A bushy perennial herb with very hairy leaves.",
   colour: "Pale to deep purple",
-  petals: "Five",
+  petals: "Four to five",
   size: "Tiny",
   place: "Native to Peru",
   climate: "Tropical",
@@ -1343,10 +1343,10 @@ green_ebony = Flower.create!(
   significance: "Attempt at Vital Goodwill",
   comment: "An attempt is a small thing but it can be a promise for the future.",
   description: "Medium-sized mildly fragrant lavender blue salverform flowers with a curved and flattened corolla tube, a limb divided into five irregular lobes and a white patch on one side of the throat; borne in terminal panicles. A medium-sized tree with a soft feathery foliage.",
-  colour: "Lavender blue",
+  colour: "Lavender blue, white",
   petals: "Five",
   size: "Medium-sized",
-  place: "Native to tropical and subtropical regions of Central America, South America, Cuba, Hispaniola, Jamaica and the Bahamas, also cultivated widely in Asia",
+  place: "Native to tropical and subtropical regions of Central America, South America, Cuba, Hispaniola, Jamaica, and the Bahamas; also cultivated widely in Asia",
   climate: "Tropical and subtropical",
   image_url: "green_ebony.jpg",
   thumbnail_url: "green_ebony_thumbnail.jpg",
@@ -1360,7 +1360,7 @@ sausage_tree = Flower.create!(
   family: "Bignoniaceae",
   significance: "First Response of the Inconscient to the Divine Force",
   comment: "The first step towards transformation.",
-  description: "Large fleshy dull maroon irregularly funnelform flower with crinkled recurved lobes; borne in large racemes on very long pendulous stalks. A medium-sized spreading tree that bears curious sausagelike fruits.",
+  description: "Large fleshy dull maroon irregularly funnelform flower with crinkled recurved lobes; borne in large racemes on very long pendulous stalks. A medium-sized spreading tree that bears curious sausage-like fruits.",
   colour: "Dull maroon",
   size: "Large",
   place: "Occurs throughout tropical Africa",
@@ -1382,7 +1382,7 @@ cats_claw = Flower.create!(
   colour: "Deep golden yellow",
   petals: "Five",
   size: "Medium-sized",
-  place: "Native to the tropical dry forest of Central America, South America and the Caribbean",
+  place: "Native to the tropical dry forest of Central America, South America, and the Caribbean",
   climate: "Tropical", 
   image_url: "cats_claw.jpg",
   thumbnail_url: "cats_claw_thumbnail.jpg",
@@ -1401,7 +1401,7 @@ garlic_vine = Flower.create!(
   colour: "Light purple, white",
   petals: "Five",
   size: "Medium-sized",
-  place: "Native to Northern South America, has spread to Central America and Brasil",
+  place: "Native to Northern South America; has spread to Central America and Brazil",
   climate: "Tropical",
   image_url: "garlic_vine.jpg",
   thumbnail_url: "garlic_vine_thumbnail.jpg",
@@ -1420,7 +1420,7 @@ indian_cork_tree = Flower.create!(
   colour: "White",
   petals: "Four",
   size: "Medium-sized",
-  place: "Native to South Asia & South East Asia",
+  place: "Native to South Asia and South East Asia",
   climate: "Tropical and subtropical",
   image_url: "indian_cork_tree.jpg",
   thumbnail_url: "indian_cork_tree_thumbnail.jpg",
@@ -1435,11 +1435,11 @@ bower_vine = Flower.create!(
   family: "Bignoniaceae",
   significance: "Opening of the Emotional Centre to the Light",
   comment: "An important event in human development.",
-  description: "Medium-sized sweetly fragrant white salverform flower with a flattened corolla tube, five deeply cut rounded lobes and a pinkish lavender throat covered with fine hairs; borne in terminal panicles. A light vine with attractive glossy foliage.",
-  colour: "White, pinkish lavender",
+  description: "Medium-sized sweetly fragrant white salverform flower with a flattened corolla tube, five deeply cut rounded lobes and a pinkish-lavender throat covered with fine hairs; borne in terminal panicles. A light vine with attractive glossy foliage.",
+  colour: "White, pinkish-lavender",
   petals: "Five",
   size: "Medium-sized",
-  place: "Native to New South Wales and Queensland, Australia, also cultivated in America",
+  place: "Native to New South Wales and Queensland, Australia; also cultivated in America",
   climate: "Tropical and subtropical",
   image_url: "bower_vine.jpg",
   thumbnail_url: "bower_vine_thumbnail.jpg",
@@ -1451,10 +1451,10 @@ pink_trumpet_vine = Flower.create!(
   name: "Pink Trumpet Vine",
   bot_name: "Podranea ricasoliana",
   family: "Bignoniaceae",
-  significance: "To Know How to Listen",
+  significance: "To Know how to Listen",
   comment: "To be attentive and silent.",
   description: "Medium-sized light pink to lavender pink salverform flower with a wide limb divided into five rounded wavy-edged lobes and a cream white throat covered with fine hairs and veined in deep pink; borne in large terminal panicles. A medium-sized vine with decorative glossy deep green compound leaves.",
-  colour: "Light pink to lavender pink, white and deep pink throat",
+  colour: "Light to lavender pink, cream white, deep pink",
   petals: "Five",
   size: "Medium-sized",
   place: "Possibly indigenous to southern Africa",
@@ -1476,7 +1476,7 @@ orange_trumpet = Flower.create!(
   colour: "Bright orange",
   petals: "Four",
   size: "Medium-sized",
-  place: "Endemic to Brazil, cultivated in other tropical regions",
+  place: "Endemic to Brazil; cultivated in other tropical regions",
   climate: "Tropical",
   image_url: "orange_trumpet.jpg",
   thumbnail_url: "orange_trumpet_thumbnail.jpg",
@@ -1491,7 +1491,7 @@ glow_vine = Flower.create!(
   significance: "Vital Opening",
   comment: "The vital is ready to receive the Divine influence.",
   description: "Clusters of fragrant medium-sized rose purple trumpet-shaped salverform flowers with five rounded lobes, a flattened corolla tube and a white throat streaked with fine parallel lines. A scandent shrub with smooth leathery obovate leaves.",
-  colour: "Rose purple",
+  colour: "Rose purple, white",
   petals: "Five",
   size: "Medium-sized",
   place: "Native to Colombia and Ecuador",
@@ -1509,8 +1509,8 @@ african_tulip_tree = Flower.create!(
   family: "Bignoniaceae",
   significance: "Passion",
   comment: "It is a force, but it is dangerous and can only be useful if it is perfectly surrendered to the Divine.",
-  description: "Large reddish orange curved bell-shaped flower with a golden orange throat, five somewhat separated lobes finely edged with bright yellow and a leathery calyx; borne in large tight terminal clusters in which the outer flowers open first. A large handsome evergreen tree with a rounded crown.",
-  colour: "Reddish orange",
+  description: "Large reddish-orange curved bell-shaped flower with a golden orange throat, five somewhat separated lobes finely edged with bright yellow and a leathery calyx; borne in large tight terminal clusters in which the outer flowers open first. A large handsome evergreen tree with a rounded crown.",
+  colour: "Reddish-orange, golden orange, bright yellow",
   petals: "Five",
   size: "Large",
   place: "Native to tropical dry forests of Africa",
@@ -1532,7 +1532,7 @@ yellow_bells = Flower.create!(
   colour: "Bright yellow",
   size: "Small",
   place: "Native to the Americas",
-  climate: "Found across temperate, subtropical and tropical regions",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "yellow_bells.jpg",
   thumbnail_url: "yellow_bells_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1541,7 +1541,7 @@ yellow_bells = Flower.create!(
 
 trumpet_bush = Flower.create!(
   name: "Trumpet Bush",
-  bot_name: "Tecoma X smithii [Tecoma alata]",
+  bot_name: "Tecoma x smithii [Tecoma alata]",
   family: "Bignoniaceae",
   significance: "Physical Mind",
   comment: "Becomes a good instrument of action when it is content to be that alone.",
@@ -1564,10 +1564,10 @@ cape_honeysuckle = Flower.create!(
   significance: "Power of Truth in the Subconscient",
   comment: "It can act only when sincerity is perfect.",
   description: "Medium-sized bright orange salverform flower with a limb divided into five irregular lobes; borne in terminal racemes. A rambling evergreen shrub.",
-  colour: "Orange",
+  colour: "Bright orange",
   petals: "Five",
   size: "Medium-sized",
-  place: "Native to southern Africa, Swaziland and southern Mozambique, cultivated in other areas of the world, such as in South-east Asia, Hawaii and California",
+  place: "Native to southern Africa, Swaziland, and southern Mozambique; cultivated in other areas of the world, such as in South-east Asia, Hawaii, and California",
   climate: "Tropical and subtropical",
   image_url: "cape_honeysuckle.jpg",
   thumbnail_url: "cape_honeysuckle_thumbnail.jpg",
@@ -1582,8 +1582,8 @@ annatto = Flower.create!(
   family: "Bixaceae",
   significance: "New World",
   comment: "The result of transformation.",
-  description: "Medium-sized pale lavender pink flower with five rounded widely separated petals and a centre of numerous golden stamens with prominent lavender anthers; borne in few-flowered clusters. A large shrub or small tree bearing ornamental seed pods in red, green or yellow with bright orange seeds.",
-  colour: "Pale lavender pink",
+  description: "Medium-sized pale lavender pink flower with five rounded widely separated petals and a center of numerous golden stamens with prominent lavender anthers; borne in few-flowered clusters. A large shrub or small tree bearing ornamental seed pods in red, green, or yellow with bright orange seeds.",
+  colour: "Pale lavender pink, golden, lavender",
   petals: "Five",
   size: "Medium-sized",
   place: "Native to the tropical Americas",
@@ -1600,9 +1600,9 @@ yellow_silk_cotton_tree = Flower.create!(
   bot_name: "Cochlospermum religiosum",
   family: "Bixaceae",
   significance: "Success in Supramental Work",
-  comment: "The result of a patient labour and perfect consecration.",
-  description: "Medium-sized golden yellow saucer-shaped flower with five petals and a prominent centre of numerous curving yellow stamens shaded red at the base; borne in few-flowered panicles. A small tree with deeply lobed leaves.",
-  colour: "Golden yellow",
+  comment: "The result of patient labour and perfect consecration.",
+  description: "Medium-sized golden yellow saucer-shaped flower with five petals and a prominent center of numerous curving yellow stamens shaded red at the base; borne in few-flowered panicles. A small tree with deeply lobed leaves.",
+  colour: "Golden yellow, red",
   petals: "Five",
   size: "Medium-sized",
   place: "Native to the tropical region of Southeast Asia and the Indian Subcontinent",
@@ -1620,7 +1620,7 @@ geiger_tree = Flower.create!(
   family: "Boraginaceae",
   significance: "Adoration",
   comment: "Manifold, smiling, regular, it offers itself tirelessly.",
-  description: "Small orange six-lobed salverform flower with elongated brownish green tomentose calyces; borne in terminal clusters. A small ornamental tree in bloom most of the year.",
+  description: "Small orange six-lobed salverform flower with elongated brownish-green tomentose calyces; borne in terminal clusters. A small ornamental tree in bloom most of the year.",
   colour: "Orange",
   petals: "Six",
   size: "Small",
@@ -1656,11 +1656,11 @@ garden_forget_me_not = Flower.create!(
   family: "Boraginaceae",
   significance: "Lasting Remembrance",
   comment: "The remembrance of that which has helped the being to progress.",
-  description: "Tiny exquisite sky blue salverform flower with five rounded lobes and a prominent yellow centre; borne in airy terminal clusters. A small biennial herb.",
-  colour: "Sky blue",
+  description: "Tiny exquisite sky blue salverform flower with five rounded lobes and a prominent yellow center; borne in airy terminal clusters. A small biennial herb.",
+  colour: "Sky blue, yellow",
   petals: "Five",
   size: "Tiny",
-  place: "Native to Europe, widely cultivated throughout the temperate world",
+  place: "Native to Europe; widely cultivated throughout the temperate world",
   climate: "Temperate",
   image_url: "garden_forget_me_not.jpg",
   thumbnail_url: "garden_forget_me_not_thumbnail.jpg",
@@ -1675,10 +1675,10 @@ summer_torch = Flower.create!(
   family: "Bromeliaceae",
   significance: "Control",
   comment: "Control over the lower impulses is the first step towards realisation.",
-  description: "Small bright red tubular flowers closely spaced on short erect spikes. A succulent perennial with stiff narrow leaves in a rosettelike arrangement.",
+  description: "Small bright red tubular flowers closely spaced on short erect spikes. A succulent perennial with stiff narrow leaves in a rosette-like arrangement.",
   colour: "Bright red",
   size: "Small",
-  place: "Found in Colombia, Peru and Brazil, also in areas from Cuba and Mexico south to Argentina",
+  place: "Found in Colombia, Peru, and Brazil, and also in areas from Cuba and Mexico south to Argentina",
   climate: "Tropical",
   image_url: "summer_torch.jpg",
   thumbnail_url: "summer_torch_thumbnail.jpg",
@@ -1692,7 +1692,7 @@ cactus = Flower.create!(
   family: "Cactaceae",
   significance: "Riches",
   comment: "It is the Divine to whom all the riches belong, it is the Divine who lends them to living beings, it is He to whom they must naturally return.",
-  description: "All cactus flowers (except Cereus, Selenicereus and Echinopsis oxygona). Flowers are many petalled with numerous stamens in white and shades of yellow, orange, red, pink and purple. Usually spiny succulent perennial herbs, shrubs and climbers.",
+  description: "All cactus flowers (except Cereus, Selenicereus and Echinopsis oxygona). Flowers are many petalled with numerous stamens; in white and shades of yellow, orange, red, pink and purple. Usually spiny succulent perennial herbs, shrubs, and climbers.",
   colour: "White or shades of yellow, orange, red, pink, or purple",
   size: "Medium-sized",
   place: "Native to the Americas, but found in many regions",
@@ -1728,10 +1728,10 @@ barrel_cactus = Flower.create!(
   family: "Cactaceae",
   significance: "Richness of Feelings",
   comment: "No false show - sincere and concentrated.",
-  description: "Very large fragrant light pink funnelform flower with numerous petals; borne singly. A low growing cactus with needlelike spines and many thick stems.",
+  description: "Very large fragrant light pink funnelform flower with numerous petals; borne singly. A low growing cactus with needle-like spines and many thick stems.",
   colour: "Light pink",
   size: "Very large",
-  place: "Native to South Brazil, Uruguay and northern Argentina",
+  place: "Native to South Brazil, Uruguay, and northern Argentina",
   climate: "Tropical and subtropical",
   image_url: "barrel_cactus.jpg",
   thumbnail_url: "barrel_cactus_thumbnail.jpg",
@@ -1747,7 +1747,7 @@ leaf_cactus = Flower.create!(
   significance: "Never Tell a Lie",
   comment: "The absolute condition for safety on the path.",
   description: "Medium-sized cup-shaped pink flower with flat satiny slightly recurved petals and a central tuft of numerous yellow stamens; borne in few-flowered terminal clusters. A shrub or vine with thin sharp spines and fleshy leaves.",
-  colour: "Pink, with yellow stamens",
+  colour: "Pink, yellow",
   size: "Medium-sized",
   place: "Native to the region between Brazil and Mexico",
   climate: "Tropical",
@@ -1765,10 +1765,10 @@ night_blooming_cereus = Flower.create!(
   significance: "Supramental Riches",
   comment: "Riches that are at the disposal of the supramental being and still unknown to man.",
   description: "Large fragrant pure white nocturnal funnelform flowers with numerous pointed petals and a central cluster of curving stamens; borne singly on pendulous stems from the nodes on the margins of the leaves. A scandent succulent with long narrow pendulous fleshy leaves.",
-  colour: "White",
+  colour: "Pure white",
   petals: "Numerous",
   size: "Large",
-  place: "Found in Central America, the Caribbean and northern South America",
+  place: "Found in Central America, the Caribbean, and northern South America",
   climate: "Tropical",
   image_url: "night_blooming_cereus.jpg",
   thumbnail_url: "night_blooming_cereus_thumbnail.jpg",
@@ -1786,7 +1786,7 @@ cup_and_saucer = Flower.create!(
   description: "Medium-sized blue campanulate flowers in open racemes. A hairy biennial herb with rosette leaves.",
   colour: "Blue",
   size: "Medium-sized",
-  place: "Native to southern Europe, cultivated in North America and European countries",
+  place: "Native to southern Europe; cultivated in North America and European countries",
   climate: "Temperate",
   image_url: "cup_and_saucer.jpg",
   thumbnail_url: "cup_and_saucer_thumbnail.jpg",
@@ -1800,7 +1800,7 @@ edging_lobelia = Flower.create!(
   family: "Campanulaceae",
   significance: "Remembrance of Sri Aurobindo",
   comment: "Let us strive to realise the ideal of life he has set before us.",
-  description: "Tiny delicate blue half-salverform flower with three distinct lobes; borne in loose racemes. A very pretty low annual or perennial herb often used for beds, borders and hanging planters.",
+  description: "Tiny delicate blue half-salverform flower with three distinct lobes; borne in loose racemes. A very pretty low annual or perennial herb often used for beds, borders, and hanging planters.",
   colour: "Blue",
   petals: "Three",
   size: "Tiny",
@@ -1821,14 +1821,13 @@ balloon_flower = Flower.create!(
   comment: "It does not attract attention or try to convince anyone.",
   description: "Medium-sized double open funnelform lavender blue flower with deeper coloured veins; borne singly. A low spreading perennial herb.",
   colour: "Lavender blue",
-  petals: "Five to six",
   size: "Medium-sized",
-  place: "Native to East Asia (China, Korea, Japan and East Siberia)",
+  place: "Native to East Asia (China, Korea, Japan, and East Siberia)",
   climate: "Subtropical to temperate",
   image_url: "balloon_flower.jpg",
   thumbnail_url: "balloon_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Platycodon_grandiflorus.jpg"
+  url: "https://commons.wikimedia.org/wiki/File:Platycodon_grandiflorus_(Samoenss).jpg"
 )
 
 spider_flower = Flower.create!(
@@ -1838,7 +1837,7 @@ spider_flower = Flower.create!(
   family: "Capparaceae",
   significance: "Elan of Aspiration",
   comment: "Nothing is too high, nothing is too far for its insatiable ardour.",
-  description: "Small flowers that open pink and fade to pinkish white, with three erect partially rolled petals and long exserted pistil and stamens; white buds turn pink before opening; borne in ball-like terminal clusters on long erect racemes. A tall strongly scented annual herb with digitate leaves.",
+  description: "Small flowers that open pink and fade to pinkish-white, with three erect partially rolled petals and long exserted pistil and stamens; white buds turn pink before opening; borne in ball-like terminal clusters on long erect racemes. A tall strongly scented annual herb with digitate leaves.",
   colour: "Pink to pinkish white",
   petals: "Three",
   size: "Small",
@@ -1856,8 +1855,8 @@ thorn_straggler = Flower.create!(
   family: "Capparidaceae",
   significance: "Triple Aspiration",
   comment: "Love, life, and light, recognising their Master, respond to Sachchidananda.",
-  description: "Medium-sized white flower with two elongated horizontal petals, two overlapping lower petals prominently shaded deep yellow (changing to maroon) and a centre of numerous exserted stamens; borne singly from the leaf axils. A spiny shrub with glossy dark leaves.",
-  colour: "White, yellow, maroon",
+  description: "Medium-sized white flower with two elongated horizontal petals, two overlapping lower petals prominently shaded deep yellow (changing to maroon), and a center of numerous exserted stamens; borne singly from the leaf axils. A spiny shrub with glossy dark leaves.",
+  colour: "White, deep yellow, maroon",
   petals: "Four",
   size: "Medium-sized",
   place: "Found mainly in southern India",
@@ -1875,10 +1874,10 @@ caper_tree = Flower.create!(
   significance: "Working of the Enlightened Mind",
   comment: "It is very powerful in leading the being to the Divine and can be very useful for progress.",
   description: "Medium-sized fragrant flowers, opening white and turning cream with age, composed of numerous long stamens surrounded on one side by four oval petals; clustered in short racemes along the leafless branches. A small to medium-sized deciduous tree.",
-  colour: "White, turns cream with age",
+  colour: "White to cream",
   petals: "Four",
   size: "Medium-sized",
-  place: "Native to Japan, Australia, much of Southeast Asia and several South Pacific islands, also cultivated in Africa",
+  place: "Native to Japan, Australia, much of Southeast Asia, and several South Pacific islands; also cultivated in Africa",
   climate: "Found across a wide range of climates",
   image_url: "caper_tree.jpg",
   thumbnail_url: "caper_tree_thumbnail.jpg",
@@ -1897,7 +1896,7 @@ japanese_honeysuckle = Flower.create!(
   colour: "Ivory white to yellow",
   petals: "Five",
   size: "Small",
-  place: "Native to eastern Asia including China, Japan and Korea",
+  place: "Native to eastern Asia including China, Japan, and Korea",
   climate: "Subtropical to temperate",
   image_url: "japanese_honeysuckle.jpg",
   thumbnail_url: "japanese_honeysuckle_thumbnail.jpg",
@@ -1912,11 +1911,11 @@ elder = Flower.create!(
   family: "Caprifoliaceae",
   significance: "Charm",
   comment: "Envelops and conquers by its unfailing sweetness.",
-  description: "Tiny lightly fragrant cream white flowers with five slightly recurved petals and five radiating stamens creating a starlike effect; borne in large terminal cymes. A shrub or small tree with pithy stems.",
+  description: "Tiny lightly fragrant cream white flowers with five slightly recurved petals and five radiating stamens creating a star-like effect; borne in large terminal cymes. A shrub or small tree with pithy stems.",
   colour: "Cream white",
   petals: "Five",
   size: "Tiny",
-  place: "Occurs in temperate to subtropical regions of the world. More widespread in the Northern Hemisphere, its Southern Hemisphere occurrence is restricted to parts of Australasia and South America",
+  place: "Occurs in temperate to subtropical regions of the world; more widespread in the Northern Hemisphere, with its Southern Hemisphere occurrence restricted to parts of Australasia and South America",
   climate: "Subtropical to temperate",
   image_url: "elder.jpg",
   thumbnail_url: "elder_thumbnail.jpg",
@@ -1948,7 +1947,7 @@ sweet_william = Flower.create!(
   family: "Caryophyllaceae",
   significance: "Detailed Obedience",
   comment: "The obedience to the Divine Will ought to be total.",
-  description: "Small single slightly fragrant rotate flowers with fringed petals in white and shades of red, purple and pink, often variegated; borne in dense corymbs. An annual, biennial or short-lived perennial.",
+  description: "Small single slightly fragrant rotate flowers with fringed petals in white and shades of red, purple, and pink, often variegated; borne in dense corymbs. An annual, biennial or short-lived perennial.",
   colour: "White and shades of red, purple, and pink",
   size: "Small",
   place: "Native to southern Europe and parts of Asia",
@@ -1966,7 +1965,7 @@ carnation = Flower.create!(
   family: "Caryophyllaceae",
   significance: "Collaboration",
   comment: "Always ready to help and knows how to do it.",
-  description: "Medium-sized fully double flowers with soft fringed petals and a sweet clovelike fragrance; in white and shades of purple, pink, red, yellow and apricot orange; borne in clusters of two to five flowers on long stems. A popular garden perennial.",
+  description: "Medium-sized fully double flowers with soft fringed petals and a sweet clove-like fragrance; in white and shades of purple, pink, red, yellow, and apricot orange; borne in clusters of two to five flowers on long stems. A popular garden perennial.",
   colour: "White and shades of purple, pink, red, yellow, and apricot orange",
   size: "Medium-sized",
   place: "Native to the Mediterranean region, but cultivated widely across temperate regions",
@@ -2006,7 +2005,7 @@ soap_won = Flower.create!(
   colour: "White or pink",
   petals: "Five",
   size: "Small",
-  place: "Native range extends throughout Europe, and in Asia till western Siberia",
+  place: "Native range extends throughout Europe, and till western Siberia in Asia",
   climate: "Temperate",
   image_url: "soap_won.jpg",
   thumbnail_url: "soap_won_thumbnail.jpg",
@@ -2020,7 +2019,7 @@ flame_vine = Flower.create!(
   family: "Combretaceae",
   significance: "True Action in the Material Vital",
   comment: "Graceful and simple in its spontaneity.",
-  description: "Large dense branching brushlike clusters of small bright crimson five-petalled flowers with exserted stamens. A vine or twining shrub of moderate growth with bronze-coloured new leaves.",
+  description: "Large dense branching brush-like clusters of small bright crimson five-petalled flowers with exserted stamens. A vine or twining shrub of moderate growth with bronze-coloured new leaves.",
   colour: "Bright crimson",
   petals: "Five",
   size: "Small",
@@ -2038,7 +2037,7 @@ burning_bush = Flower.create!(
   family: "Combretaceae",
   significance: "Organisation of Action in Life",
   comment: "Clustered, compact, its action is irresistible.",
-  description: "Large dense horizontal spikes of yellow to orange tubular flowers whose numerous long stamens create a soft brushlike appearance. A scandent shrub.",
+  description: "Large dense horizontal spikes of yellow to orange tubular flowers whose numerous long stamens create a soft brush-like appearance. A scandent shrub.",
   colour: "Yellow to orange",
   size: "Large",
   place: "Native to Central America and South America",
@@ -2055,7 +2054,7 @@ rangoon_creeper = Flower.create!(
   family: "Combretaceae",
   significance: "Faithfulness",
   comment: "We can count on You; You never fail us when we need You.",
-  description: "Medium-sized fragrant flower with five separated petals and a long thin green tube; borne in dense pendulous clusters; flowers open white, turn pink and finally red with all colours appearing in the clusters at the same time. A rampant vine with soft light green pubescent leaves.",
+  description: "Medium-sized fragrant flower with five separated petals and a long thin green tube; borne in dense pendulous clusters; flowers open white, turn pink and finally red, with all colours appearing in the clusters at the same time. A rampant vine with soft light green pubescent leaves.",
   colour: "White, pink, red",
   petals: "Five",
   size: "Medium-sized",
@@ -2074,7 +2073,7 @@ tropical_almond = Flower.create!(
   family: "Combretaceae",
   significance: "Spiritual Aspiration",
   comment: "Rises like an arrow without caring for obstacles or laggards.",
-  description: "Tiny white starlike flowers with numerous short stamens; borne in long thin dense racemes resembling catkins. A large tree with thick leathery obovate leaves that often turn red before falling.",
+  description: "Tiny white star-like flowers with numerous short stamens; borne in long thin dense racemes resembling catkins. A large tree with thick leathery obovate leaves that often turn red before falling.",
   colour: "White",
   petals: "Five",
   size: "Tiny",
@@ -2093,7 +2092,7 @@ purple_heart = Flower.create!(
   significance: "The Vital Governed by the Presence",
   comment: "The vital force made peaceful and disciplined by the Divine presence.",
   description: "Small mauve pink three-petalled flower with prominent yellow anthers, set in two narrow horizontal half-folded purple bracts. A sprawling succulent perennial herb with violet purple foliage.",
-  colour: "Mauve pink",
+  colour: "Mauve pink, yellow",
   petals: "Three",
   size: "Small",
   place: "Native to the Gulf Coast region of eastern Mexico",
@@ -2111,7 +2110,7 @@ oyster_plant = Flower.create!(
   family: "Commelinaceae",
   significance: "Divine Presence",
   comment: "It hides from the ignorant eye its ever-present magnificence!",
-  description: "Tiny white flower that barely protrudes from the centre of two reddish purple overlapping boat-shaped bracts set among the leaves. A succulent perennial herb with swordlike leaves, green above and purplish beneath.",
+  description: "Tiny white flower that barely protrudes from the center of two reddish-purple overlapping boat-shaped bracts set among the leaves. A succulent perennial herb with sword-like leaves, green above and purplish beneath.",
   colour: "White",
   size: "Tiny",
   place: "Native to the Caribbean and Central America",
@@ -2127,13 +2126,13 @@ wandering_jew = Flower.create!(
   other_names: "Inch Plant",
   bot_name: "Tradescantia zebrina [Zebrina pendula]",
   family: "Commelinaceae",
-  significance: "Quite Strength in the Vital",
+  significance: "Quiet Strength in the Vital",
   comment: "Does not like to attract attention.",
   description: "Tiny magenta pink three-petalled flower set in two opposite horizontal unequal bracts that are green with a dark green central stripe and dull purple on the reverse; borne singly. A trailing perennial succulent herb with metallic green leaves that have purple edges and a purple central stripe, and turn dark green with age.",
   colour: "Magenta pink",
   petals: "Three",
   size: "Tiny",
-  place: "Native to Mexico, Central America and Colombia, and naturalized in parts of Asia, Africa, Australia, South America, and various oceanic islands",
+  place: "Native to Mexico, Central America, and Colombia; naturalized in parts of Asia, Africa, Australia, South America, and various oceanic islands",
   climate: "Tropical",
   image_url: "wandering_jew.jpg",
   thumbnail_url: "wandering_jew_thumbnail.jpg",
@@ -2148,7 +2147,7 @@ flossflower = Flower.create!(
   family: "Compositae",
   significance: "Vital Patience",
   comment: "Indispensable for all progress.",
-  description: "Very tiny deep lavender flowers forming soft brushlike heads in compact medium-sized clusters. An annual herb with hairy ovate-cordate leaves.",
+  description: "Very tiny deep lavender flowers forming soft brush-like heads in compact medium-sized clusters. An annual herb with hairy ovate-cordate leaves.",
   colour: "Deep lavender",
   size: "Very tiny",
   place: "Native to Central America and adjacent parts of Mexico",
@@ -2166,7 +2165,7 @@ stemless_carline_thistle = Flower.create!(
   family: "Compositae",
   significance: "Incorruptible Faithfulness",
   comment: "Nothing can turn you from the duty you have chosen.",
-  description: "Large solitary everlasting white or reddish compositae flower with a broad centre of soft brushlike disc florets surrounded by a single row of narrow silky ray florets. A low perennial herb with rosette leaves.",
+  description: "Large solitary everlasting white or reddish flower with a broad center of soft brush-like disc florets surrounded by a single row of narrow silky ray florets. A low perennial herb with rosette leaves.",
   colour: "White or reddish",
   size: "Large",
   place: "Native to alpine regions of central and southern Europe",
@@ -2184,10 +2183,10 @@ cornflower = Flower.create!(
   family: "Compositae",
   significance: "Idealism",
   comment: "Delicate and harmonious, it gives elegance to life.",
-  description: "Small soft mildly fragrant semi-double compositae flowers composed of tiny tubular frilled ray florets in blue, purple, pink and white; borne singly. A slender annual herb with greyish cottony hairs on leaves.",
+  description: "Small soft mildly fragrant semi-double flowers composed of tiny tubular frilled ray florets in blue, purple, pink, and white; borne singly. A slender annual herb with greyish cottony hairs on leaves.",
   colour: "Blue, purple, pink, or white",
   size: "Tiny",
-  place: "Native to Europe, cultivated in North America and many parts of Australia",
+  place: "Native to Europe; cultivated in North America and many parts of Australia",
   climate: "Temperate",
   image_url: "cornflower.jpg",
   thumbnail_url: "cornflower_thumbnail.jpg",
@@ -2201,7 +2200,7 @@ treasure_flower = Flower.create!(
   family: "Compositae",
   significance: "Seeking for Clarity",
   comment: "Likes to say clearly what it says.",
-  description: "Medium-sized striking compositae flowers in white and shades of yellow, orange or scarlet with basal spots that form a dark band near the yellow centre; borne singly. A rhizomatous perennial and, rarely, an annual herb.",
+  description: "Medium-sized striking flowers in white and shades of yellow, orange, or scarlet with basal spots that form a dark band near the yellow center; borne singly. A rhizomatous perennial and, rarely, an annual herb.",
   colour: "White and shades of yellow, orange, or scarlet",
   size: "Medium-sized",
   place: "Native to southern Africa",
@@ -2219,7 +2218,7 @@ barberton_daisy = Flower.create!(
   family: "Compositae",
   significance: "Frankness",
   comment: "Says frankly what it has to say without caring for the result.",
-  description: "Medium to large single or double compositae flower with numerous long slender ray florets in white and shades of pink, red, orange and yellow; borne singly on a long thin scape. A low perennial herb.",
+  description: "Medium to large single or double flower with numerous long slender ray florets in white and shades of pink, red, orange, and yellow; borne singly on a long thin scape. A low perennial herb.",
   colour: "Shades of pink, red, orange, and yellow",
   petals: "Numerous",
   size: "Medium-sized",
@@ -2238,7 +2237,7 @@ strawflower = Flower.create!(
   family: "Compositae",
   significance: "Supramental Immortality upon Earth",
   comment: "This still remains to be realised.",
-  description: "Small everlasting compositae flower with several rows of stiff papery ray florets and a large buttonlike tuft of golden disc florets; in yellow, orange, red or white; borne singly or in few-flowered terminal clusters. A perennial herb usually grown as an annual.",
+  description: "Small everlasting flower with several rows of stiff papery ray florets and a large button-like tuft of golden disc florets; in yellow, orange, red, or white; borne singly or in few-flowered terminal clusters. A perennial herb usually grown as an annual.",
   colour: "Yellow, orange, red, or white",
   petals: "Several",
   size: "Small",
@@ -2256,10 +2255,10 @@ edelweiss = Flower.create!(
   family: "Compositae",
   significance: "Spiritual Beauty",
   comment: "Immaculate whiteness, sweetness and purity, you seem to come from another world.",
-  description: "Small tight terminal clusters of white or yellowish white starlike flowers with a tufted centre surrounded by greyish white petal-like bracts. A low woolly perennial herb with greyish leaves.",
-  colour: "White or yellowish white",
+  description: "Small tight terminal clusters of white or yellowish-white star-like flowers with a tufted center surrounded by greyish-white petal-like bracts. A low woolly perennial herb with greyish leaves.",
+  colour: "White or yellowish-white, greyish-white",
   size: "Small",
-  place: "Native to the mountains of Europe, cultivated in other regions of Eurasia",
+  place: "Native to the mountains of Europe; cultivated in other regions of Eurasia",
   climate: "Temperate",
   image_url: "edelweiss.jpg",
   thumbnail_url: "edelweiss_thumbnail.jpg",
@@ -2272,12 +2271,12 @@ ox_eye_daisy = Flower.create!(
   other_names: "Moon Daisy, Marguerite",
   bot_name: "Leucanthemum vulgare [Chrysanthemum leucanthemum]",
   family: "Compositae",
-  significance: "Spontaneous Aspiration of Nature Towards the Divine",
+  significance: "Spontaneous Aspiration of Nature towards the Divine",
   comment: "Wide open, spontaneous, irrevocable in its spontaneous power.",
-  description: "Medium-sized single white compositae flower with a yellow centre, borne singly on a long stalk. A slender erect rhizomatous perennial.",
+  description: "Medium-sized single white flower with a yellow center, borne singly on a long stalk. A slender erect rhizomatous perennial.",
   colour: "White, yellow",
   size: "Medium-sized",
-  place: "Native to Europe and the temperate regions of Asia, introduced to North America, Australia and New Zealand",
+  place: "Native to Europe and the temperate regions of Asia; introduced to North America, Australia, and New Zealand",
   climate: "Temperate",
   image_url: "ox_eye_daisy.jpg",
   thumbnail_url: "ox_eye_daisy_thumbnail.jpg",
@@ -2291,8 +2290,8 @@ gold_medallion_flower = Flower.create!(
   family: "Compositae",
   significance: "Birth of True Mental Sincerity",
   comment: "With its birth the mind will understand that it is only an intermediary and not an end in itself.",
-  description: "Small single yellow compositae flower with a dark brown centre; borne in leafy cymes. A long-blooming perennial herb.",
-  colour: "Yellow, brown",
+  description: "Small single yellow flower with a dark brown center; borne in leafy cymes. A long-blooming perennial herb.",
+  colour: "Yellow, dark brown",
   size: "Small",
   place: "Native to the tropical to subtropical regions that include Central America, Southwestern United States, California, Florida, the Caribbean, and South America",
   climate: "Tropical and subtropical",
@@ -2307,10 +2306,10 @@ black_eyed_susan = Flower.create!(
   other_names: "Marguerite Jaune",
   bot_name: "Rudbeckia hirta 'Gloriosa Daisy'",
   family: "Compositae",
-  significance: "First Turning of the Vital Towards the Divine",
+  significance: "First Turning of the Vital towards the Divine",
   comment: "The vital prepares itself to be transformed.",
-  description: "Medium to large single compositae flower with elongated yellow ray florets that are often banded or suffused with brown or maroon near the base and a dome-shaped centre composed of green or brown disc florets; borne singly. A hairy perennial herb.",
-  colour: "Yellow",
+  description: "Medium to large single flower with elongated yellow ray florets that are often banded or suffused with brown or maroon near the base and a dome-shaped center composed of green or brown disc florets; borne singly. A hairy perennial herb.",
+  colour: "Yellow, brown or maroon",
   size: "Medium to large",
   place: "Native to the Eastern and Central United States",
   climate: "Subtropical to temperate",
@@ -2326,11 +2325,11 @@ groundsel = Flower.create!(
   family: "Compositae",
   significance: "Observation",
   comment: "Likes to prolong its attention in order to see better.",
-  description: "Tiny yellow green salverform flowers with a star shaped limb; borne in tassel-like heads on an erect stalk. A perennial herb with succulent leaves.",
+  description: "Tiny yellow green salverform flowers with a star-shaped limb; borne in tassel-like heads on an erect stalk. A perennial herb with succulent leaves.",
   colour: "Yellow green",
   size: "Tiny",
   place: "Found across many different regions",
-  climate: "Found across temperate, subtropical and tropical climates",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "groundsel.jpg",
   thumbnail_url: "groundsel_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2343,11 +2342,11 @@ marigold = Flower.create!(
   family: "Compositae",
   significance: "Plasticity",
   comment: "Always ready for the necessary progress.",
-  description: "Medium to large compact double compositae flowers with convoluted petals, in cream white and shades of yellow, orange and rust; borne singly or in few-flowered clusters. An annual or perennial herb with strongly aromatic leaves.",
-  colour: "Cream white and shades of yellow",
+  description: "Medium to large compact double flowers with convoluted petals, in cream white and shades of yellow, orange, and rust; borne singly or in few-flowered clusters. An annual or perennial herb with strongly aromatic leaves.",
+  colour: "Cream white and shades of yellow, orange, and rust",
   size: "Medium to large",
   place: "Native to North and South America, some species having been naturalized around the world",
-  climate: "Found across temperate, subtropical and tropical regions",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "marigold.jpg",
   thumbnail_url: "marigold_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2361,10 +2360,10 @@ golden_fleece = Flower.create!(
   family: "Compositae",
   significance: "Mental Simplicity",
   comment: "Does not like complications.",
-  description: "Tiny compositae flower with yellow ray florets and a yellow centre; borne singly among finely cut aromatic leaves. A low bushy annual herb.",
+  description: "Tiny flower with yellow ray florets and a yellow center; borne singly among finely-cut aromatic leaves. A low bushy annual herb.",
   colour: "Yellow",
   size: "Tiny",
-  place: "Native to south central Texas and northern Mexico, naturalized in Queensland, Australia",
+  place: "Native to south central Texas and northern Mexico; naturalized in Queensland, Australia",
   climate: "Tropical",
   image_url: "golden_fleece.jpg",
   thumbnail_url: "golden_fleece_thumbnail.jpg",
@@ -2378,11 +2377,11 @@ creeping_daisy = Flower.create!(
   family: "Asteraceae",
   significance: "Integral Simplicity",
   comment: "The simplicity that comes from perfect sincerity.",
-  description: "Small compositae flower with a double row of numerous narrow rounded white ray florets and a buttonlike centre of yellow disc forets; borne singly on thin stems. A small floriferous perennial herb or subshrub.",
+  description: "Small flower with a double row of numerous narrow rounded white ray florets and a button-like center of yellow disc forets; borne singly on thin stems. A small floriferous perennial herb or subshrub.",
   colour: "White, yellow",
   petals: "Numerous",
   size: "Small",
-  place: "Found in Queensland, New South Wales, Victoria (Northern, Southern and Western Australia), Tasmania",
+  place: "Found in Queensland, New South Wales, Victoria (Northern, Southern and Western Australia), and Tasmania",
   climate: "Subtropical to temperate",
   image_url: "creeping_daisy.jpg",
   thumbnail_url: "creeping_daisy_thumbnail.jpg",
@@ -2396,10 +2395,10 @@ blue_eyed_african_daisy = Flower.create!(
   family: "Compositae",
   significance: "Cheerful Endeavour",
   comment: "The joy that one finds in the effort towards the Divine.",
-  description: "Medium-sized compositae flower with white ray florets and a centre of intense purplish blue disc florets; borne singly on long scapes. A perennial with white woolly leaves; usually grown as an annual.",
-  colour: "White",
+  description: "Medium-sized flower with white ray florets and a center of intense purplish-blue disc florets; borne singly on long scapes. A perennial with white woolly leaves; usually grown as an annual.",
+  colour: "White, purplish-blue",
   size: "Medium-sized",
-  place: "Native to the western coast of South Africa, cultivated in many other tropical regions across the world",
+  place: "Native to the western coast of South Africa; cultivated in many other tropical regions across the world",
   climate: "Tropical",
   image_url: "blue_eyed_african_daisy.jpg",
   thumbnail_url: "blue_eyed_african_daisy_thumbnail.jpg",
@@ -2414,10 +2413,10 @@ common_marigold = Flower.create!(
   family: "Compositae",
   significance: "Perseverance",
   comment: "The decision to go to the very end.",
-  description: "Medium-sized single or double compositae flower with soft narrow delicately fringed petals in yellow or orange and a dark brown central disc. A popular garden annual.",
+  description: "Medium-sized single or double flower with soft narrow delicately fringed petals in yellow or orange, and a dark brown central disc. A popular garden annual.",
   colour: "Yellow, orange, dark brown",
   size: "Medium-sized",
-  place: "Native to southern Europe, cultivated widely across warm temperate regions",
+  place: "Native to southern Europe; cultivated widely across warm temperate regions",
   climate: "Warm temperate",
   image_url: "common_marigold.jpg",
   thumbnail_url: "common_marigold_thumbnail.jpg",
@@ -2431,7 +2430,7 @@ chrysanthemum = Flower.create!(
   family: "Compositae",
   significance: "Specialised Detailed Energy",
   comment: "Nothing is too small to merit its attention.",
-  description: "Small mainly single compositae flowers in white and shades of pink, yellow, bronze and red; borne singly or in corymbs in great profusion. A perennial herb or subshrub.",
+  description: "Small mainly single flowers in white and shades of pink, yellow, bronze, and red; borne singly or in corymbs in great profusion. A perennial herb or subshrub.",
   colour: "White and shades of pink, yellow, bronze, and red",
   size: "Small",
   place: "Native to Asia (China) and northeastern Europe",
@@ -2448,10 +2447,10 @@ tickweed = Flower.create!(
   family: "Compositae",
   significance: "Cheerfulness in Work for the Divine",
   comment: "Work for the Divine and you will find an ineffable joy filling your being.",
-  description: "Small single or double compositae flower whose ray florets may be yellow, maroon red or bicoloured in yellow with brown or maroon red; borne in loose terminal panicles. A floriferous garden annual with very narrow leaves.",
+  description: "Small single or double flower whose ray florets may be yellow, maroon red, or bicoloured in yellow with brown or maroon red; borne in loose terminal panicles. A floriferous garden annual with very narrow leaves.",
   colour: "Yellow, maroon red, brown, or bicoloured",
   size: "Small",
-  place: "Found in Canada, Northeast Mexico, much of the United States, especially the Great Plains and Southern states",
+  place: "Found in Canada, Northeast Mexico, and much of the United States, especially the Great Plains and Southern states",
   climate: "Subtropical to temperate",
   image_url: "tickweed.jpg",
   thumbnail_url: "tickweed_thumbnail.jpg",
@@ -2465,7 +2464,7 @@ chinese_lavender = Flower.create!(
   family: "Compositae",
   significance: "Thirst to Understand",
   comment: "Very useful for transformation.",
-  description: "Small rounded heads of tiny dusty yellow compositae flowers in terminal racemes. A low perennial herb with silvery grey leaves.",
+  description: "Small rounded heads of tiny dusty yellow flowers in terminal racemes. A low perennial herb with silvery grey leaves.",
   colour: "Yellow",
   size: "Tiny",
   place: "Native to China, India, Vietnam, and the Philippines",
@@ -2478,11 +2477,11 @@ chinese_lavender = Flower.create!(
 
 shasta_daisy = Flower.create!(
   name: "Shasta Daisy",
-  bot_name: "Leucanthemum X superbum [Chrysanthemum X superbum]",
+  bot_name: "Leucanthemum x superbum [Chrysanthemum x superbum]",
   family: "Compositae",
   significance: "Creative Word",
   comment: "Belongs only to the Divine.",
-  description: "Large single compositae flower with white ray florets that are often crested or frilled and a prominent yellow centre of disc florets. A robust perennial.",
+  description: "Large single flower with white ray florets that are often crested or frilled and a prominent yellow center of disc florets. A robust perennial.",
   colour: "White, yellow",
   size: "Large",
   place: "Originally from the subtropical and temperate Americas",
@@ -2499,10 +2498,10 @@ curtain_creeper = Flower.create!(
   family: "Asteraceae",
   significance: "Aspiration for the Divine Consciousness",
   comment: "Blossom, O precious flower, and never close again.",
-  description: "Small clusters of tiny brushlike flowers that open pale mauve and become white with age. A vigorous climber that may form a dense curtain; the pendulous stems are white when young.",
+  description: "Small clusters of tiny brush-like flowers that open pale mauve and become white with age. A vigorous climber that may form a dense curtain; the pendulous stems are white when young.",
   colour: "Pale mauve to white",
   size: "Tiny",
-  place: "Native to India, Burma and Thailand and naturalised in southern Taiwan and Queensland, Australia",
+  place: "Native to India, Burma, and Thailand; naturalised in southern Taiwan and Queensland, Australia",
   climate: "Tropical and subtropical",
   image_url: "curtain_creeper.jpg",
   thumbnail_url: "curtain_creeper_thumbnail.jpg",
@@ -2516,8 +2515,8 @@ west_indian_creeper = Flower.create!(
   bot_name: "Wedelia",
   family: "Asteraceae",
   significance: "Detailed Perseverance",
-  comment: "One continues the work begun for as long as necessary. ",
-  description: "Small fully double bright yellow compositae flowers; borne singly. A light scandent shrub or low creeping perennial with serrate leaves.",
+  comment: "One continues the work begun for as long as necessary.",
+  description: "Small fully double bright yellow flowers; borne singly. A light scandent shrub or low creeping perennial with serrate leaves.",
   colour: "Bright yellow",
   size: "Small",
   place: "Generally found in tropical and subtropical regions of the world",
@@ -2534,15 +2533,15 @@ creeping_zinnia = Flower.create!(
   family: "Asteraceae",
   significance: "Detailed Endurance",
   comment: "Nothing is too small to be neglected; all circumstances are met with the same care.",
-  description: "Small compositae flowers with eight rounded ray florets and a small yellow or orange central disc, in yellow, white or orange with a yellow stripe near the centre; borne singly. A low erect annual herb with linear leaves.",
+  description: "Small flowers with eight rounded ray florets and a small yellow or orange central disc, in yellow, white, or orange, with a yellow stripe near the center; borne singly. A low erect annual herb with linear leaves.",
   colour: "Yellow, white, or orange",
   size: "Small",
-  place: "Native to northern and western Mexico, naturalized in parts of the Southwestern United States",
+  place: "Native to northern and western Mexico; naturalized in parts of Southwestern United States",
   climate: "Tropical and subtropical",
   image_url: "creeping_zinnia.jpg",
   thumbnail_url: "creeping_zinnia_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Zinnia_angustifolia_%27Pette_Land_White%272.jpg"
+  url: "https://commons.wikimedia.org/wiki/File:Flowers_-_Uncategorised_Garden_plants_100.JPG"
 )
 
 slender_dwarf_morning_glory = Flower.create!(
@@ -2551,10 +2550,10 @@ slender_dwarf_morning_glory = Flower.create!(
   family: "Convolvulaceae",
   significance: "First Sign of Krishna’s Light in Matter",
   comment: "It is the indication of the coming transformation.",
-  description: "Tiny sky blue saucer-shaped flower with a white centre and anthers; borne singly or in few-flowered clusters. A prostrate spreading perennial countryside herb.",
+  description: "Tiny sky blue saucer-shaped flower with a white center and anthers; borne singly or in few-flowered clusters. A prostrate spreading perennial countryside herb.",
   colour: "Sky blue, white",
   size: "Tiny",
-  place: "Found in tropical and warm-temperate regions of Australasia, Indomalaya, Polynesia, Sub-Saharan Africa and the Americas",
+  place: "Found in tropical and warm-temperate regions of Australasia, Indomalaya, Polynesia, Sub-Saharan Africa, and the Americas",
   climate: "Tropical and warm temperate",
   image_url: "slender_dwarf_morning_glory.jpg",
   thumbnail_url: "slender_dwarf_morning_glory_thumbnail.jpg",
@@ -2567,7 +2566,7 @@ moonflower = Flower.create!(
   other_names: "Belle de Nuit",
   bot_name: "Ipomoea alba",
   family: "Convolvulaceae",
-  significance: "Entire Self-Giving",
+  significance: "Entire Self-giving",
   comment: "Completely open, clear and pure.",
   description: "Large fragrant white nocturnal salverform flower with a wide limb and a long narrow corolla tube; borne singly or in few-flowered clusters. A strong perennial climber.",
   colour: "White",
@@ -2578,16 +2577,16 @@ moonflower = Flower.create!(
   thumbnail_url: "moonflower_thumbnail.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Ipomoea_alba270483816.jpg"
-å)
+)
 
 railway_creeper = Flower.create!(
   name: "Railway Creeper",
   bot_name: "Ipomoea cairica",
   family: "Convolvulaceae",
   significance: "Detachment from all that is not the Divine",
-  comment: "A single occupation, a single aim, a single joy-the Divine.",
-  description: "Medium-sized light rose purple or light mauve funnelform flower with a deep rose purple centre; blooms singly. An extremely vigorous and hardy perennial vine with palmate leaves.",
-  colour: "Light rose purple or light mauve",
+  comment: "A single occupation, a single aim, a single joy - the Divine.",
+  description: "Medium-sized light rose purple or light mauve funnelform flower with a deep rose purple center; blooms singly. An extremely vigorous and hardy perennial vine with palmate leaves.",
+  colour: "Light rose purple or light mauve, deep rose purple",
   size: "Medium-sized",
   place: "Found in tropical and subtropical regions across the world",
   climate: "Tropical and subtropical",
@@ -2604,7 +2603,7 @@ pink_morning_glory = Flower.create!(
   significance: "Gratitude",
   comment: "It is you who open all the closed doors and allow the saving Grace to enter.",
   description: "Large white to pale pink extremely sheer funnelform flower with a lavender pink throat; borne singly; flowers close rapidly towards mid-day. A straggling shrub that blooms profusely most of the year.",
-  colour: "White to pale pink",
+  colour: "White to pale pink, lavender pink",
   size: "Large",
   place: "Found in tropical and subtropical regions across the world",
   climate: "Tropical and subtropical",
@@ -2637,8 +2636,8 @@ princess_vine = Flower.create!(
   family: "Convolvulaceae",
   significance: "Heroic Thought",
   comment: "To the conquest of the unknown without fear of difficulty or incomprehension.",
-  description: "Medium-sized intense magenta salverform flower with a long waxy corolla tube, white anthers and a purple stigma; the limb is divided into five segments with a clearly impressed star in the centre; borne in loose clusters. A moderately large vine with palmately lobed leaves.",
-  colour: "Magenta",
+  description: "Medium-sized intense magenta salverform flower with a long waxy corolla tube, white anthers and a purple stigma; the limb is divided into five segments with a clearly impressed star in the center; borne in loose clusters. A moderately large vine with palmately lobed leaves.",
+  colour: "Intense magenta, white, purple",
   petals: "Five",
   size: "Medium-sized",
   place: "Native to the Caribbean and Brazil",
@@ -2655,7 +2654,7 @@ blue_dawn_flower = Flower.create!(
   family: "Convolvulaceae",
   significance: "Artistic Taste",
   comment: "Is pleased with beautiful things and is itself beautiful.",
-  description: "Large showy intense blue funnelform flower with a pinkish purple star at the centre and a lavender pink tube becoming white at the base; borne singly or in few-flowered clusters. A robust perennial vine.",
+  description: "Large showy intense blue funnelform flower with a pinkish-purple star at the center and a lavender pink tube becoming white at the base; borne singly or in few-flowered clusters. A robust perennial vine.",
   colour: "Intense blue, pink, lavender",
   size: "Large",
   place: "Native to tropical habitats throughout the world",
@@ -2689,9 +2688,9 @@ cypress_vine = Flower.create!(
   bot_name: "Ipomoea quamoclit",
   family: "Convolvulaceae",
   significance: "Love in the Physical for the Divine",
-  comment: "Modest in appearance, but tenacious and charming; it does not make a fuss, but is very faithful. ",
-  description: "Small intense red starlike salverform flower with a long narrow tube and conspicuous white anthers; borne singly or in few-flowered clusters from the leaf axils. A soft light climber with threadlike leaves.",
-  colour: "Intense red",
+  comment: "Modest in appearance, but tenacious and charming; it does not make a fuss, but is very faithful.",
+  description: "Small intense red star-like salverform flower with a long narrow tube and conspicuous white anthers; borne singly or in few-flowered clusters from the leaf axils. A soft light climber with thread-like leaves.",
+  colour: "Intense red, white",
   size: "Small",
   place: "Native to tropical regions of the New World from northern South America north to Mexico",
   climate: "Tropical",
@@ -2707,8 +2706,8 @@ skyblue_clustervine = Flower.create!(
   family: "Convolvulaceae",
   significance: "Hope",
   comment: "Paves life’s way.",
-  description: "Small violet-blue five-lobed saucer-shaped flower with a lighter blue central star and a prominent tiny white centre; borne in cymes. A delicate twiner.",
-  colour: "Violet blue",
+  description: "Small violet-blue five-lobed saucer-shaped flower with a lighter blue central star and a prominent tiny white center; borne in cymes. A delicate twiner.",
+  colour: "Violet blue, white",
   petals: "Five",
   size: "Small",
   place: "Found in tropical regions, like Floride and Louisiana in the USA",
@@ -2765,7 +2764,7 @@ bridal_bouquet = Flower.create!(
   description: "Tiny white mildly fragrant salverform flowers borne in delicate many-flowered panicles that form large airy sprays. A rampant vine with large ovate-cordate leaves that are white-pubescent beneath.",
   colour: "White",
   size: "Tiny",
-  place: "Found in India, America (Florida), Madagascar, Venezuela, Ecuador, Honduras",
+  place: "Found in India, America (Florida), Madagascar, Venezuela, Ecuador, and Honduras",
   climate: "Tropical and subtropical",
   image_url: "bridal_bouquet.jpg",
   thumbnail_url: "bridal_bouquet_thumbnail.jpg",
@@ -2779,7 +2778,7 @@ bridal_creeper = Flower.create!(
   bot_name: "Porana volubilis",
   family: "Convolvulaceae",
   significance: "Water",
-  comment: "Fluid, abundant and pure.",
+  comment: "Fluid, abundant, and pure.",
   description: "Tiny fragrant white bell-shaped flowers borne in dense snowy cascading racemes. A vigorous vine with small glabrous ovate-cordate leaves.",
   colour: "White",
   size: "Tiny",
@@ -2801,7 +2800,7 @@ lemonia = Flower.create!(
   colour: "Bright rose pink",
   petals: "Five",
   size: "Small",
-  place: "Native to Central and South America and the Caribbean Islands, but also naturalized in India, Pakistan and Bangladesh",
+  place: "Native to Central and South America, and the Caribbean Islands; also naturalized in India, Pakistan, and Bangladesh",
   climate: "Tropical and subtropical",
   image_url: "lemonia.jpg",
   thumbnail_url: "lemonia_thumbnail.jpg",
@@ -2835,10 +2834,10 @@ air_plant = Flower.create!(
   significance: "Light in Fairyland",
   comment: "The fairies are ready to let themselves be guided by the Divine.",
   description: "Small pendulous yellow green narrow tubular calyces shaded purple red at the base; the four pointed green petals tinged light red are barely visible at the tip of the calyx; borne in dense clusters. A succulent perennial herb with thick fleshy leaves that produce young plants at their tips.",
-  colour: "Yellow, green, red",
+  colour: "Yellow, green, purple red",
   petals: "Four",
   size: "Small",
-  place: "Native to Madagascar, also cultivated in other tropical and subtropical regions",
+  place: "Native to Madagascar; also cultivated in other tropical and subtropical regions",
   climate: "Tropical and subtropical",
   image_url: "air_plant.jpg",
   thumbnail_url: "air_plant_thumbnail.jpg",
@@ -2857,7 +2856,7 @@ wallflower = Flower.create!(
   colour: "Yellow to orange",
   petals: "Four",
   size: "Small",
-  place: "Native to Europe but widespread as an introduced species elsewhere",
+  place: "Native to Europe; widespread as an introduced species elsewhere",
   climate: "Temperate",
   image_url: "wallflower.jpg",
   thumbnail_url: "wallflower_thumbnail.jpg",
@@ -2871,7 +2870,7 @@ candytuft = Flower.create!(
   family: "Cruciferae",
   significance: "Equanimity",
   comment: "Immutable peace and calm.",
-  description: "Small very dense rounded heads of tiny irregular four-petalled flowers; in white and shades of pink, purple and red. A floriferous low bushy annual or perennial herb.",
+  description: "Small very dense rounded heads of tiny irregular four-petalled flowers; in white and shades of pink, purple, and red. A floriferous low bushy annual or perennial herb.",
   colour: "White and shades of pink, purple, and red",
   petals: "Four",
   size: "Small",
@@ -2894,7 +2893,7 @@ sweet_alison = Flower.create!(
   colour: "White",
   petals: "Four",
   size: "Tiny",
-  place: "Native to the Mediterranean region, Macaronesia (Canary Islands, Azores) and in France in the Bay of Biscay, widely naturalized elsewhere in the temperate world",
+  place: "Native to the Mediterranean region, Macaronesia (Canary Islands, Azores), and in France in the Bay of Biscay; widely naturalized elsewhere in the temperate world",
   climate: "Temperate",
   image_url: "sweet_alison.jpg",
   thumbnail_url: "sweet_alison_thumbnail.jpg",
@@ -2909,11 +2908,11 @@ pumpkin = Flower.create!(
   family: "Cucurbitaceae",
   significance: "Abundance",
   comment: "All at once Nature gives much to us and we have the joy of abundance.",
-  description: "Large golden yellow somewhat fleshy funnel-shaped flower with a spreading limb divided into six pointed lobes, a throat covered with fine hairs and the back of the flower prominently ribbed with green; borne singly. A vigorous annual vine.",
+  description: "Large golden yellow somewhat fleshy funnel-shaped flower with a spreading limb divided into five or six pointed lobes, a throat covered with fine hairs and the back of the flower prominently ribbed with green; borne singly. A vigorous annual vine.",
   colour: "Golden yellow",
-  petals: "Six",
+  petals: "Five or six",
   size: "Large",
-  place: "Native to South America, cultivated across the United States, India and many other regions",
+  place: "Native to South America; cultivated across the United States, India, and many other regions",
   climate: "Tropical and subtropical",
   image_url: "pumpkin.jpg",
   thumbnail_url: "pumpkin_thumbnail.jpg",
@@ -2966,8 +2965,8 @@ bitter_gourd = Flower.create!(
   family: "Cucurbitaceae",
   significance: "Sweetness",
   comment: "Adds its smiling touch to life without making a fuss.",
-  description: "Small slightly fragrant light yellow saucer-shaped flower with five soft rounded petals and a tiny centre of light orange anthers; borne singly from the leaf axils. An annual vine with deeply lobed leaves and warty edible fruit.",
-  colour: "Light yellow",
+  description: "Small slightly fragrant light yellow saucer-shaped flower with five soft rounded petals and a tiny center of light orange anthers; borne singly from the leaf axils. An annual vine with deeply lobed leaves and warty edible fruits.",
+  colour: "Light yellow, light orange",
   petals: "Five",
   size: "Small",
   place: "Widely grown in Asia, Africa, and the Caribbean",
@@ -2982,10 +2981,10 @@ simpoh_ayer = Flower.create!(
   name: "Simpoh Ayer",
   bot_name: "Dillenia suffruticosa",
   family: "Dilleniaceae",
-  significance: "Effort Towards the Truth",
+  significance: "Effort towards the Truth",
   comment: "Should exist in all men of goodwill.",
-  description: "Medium-sized lemon yellow saucer-shaped flower with five softly crinkled petals and a central white crown composed of tightly clustered stamens; blooming singly in short racemes. An evergreen shrub with large stiff glossy leaves.",
-  colour: "Lemon yellow",
+  description: "Medium-sized lemon yellow saucer-shaped flower with five softly crinkled petals and a central white crown composed of tightly-clustered stamens; blooming singly in short racemes. An evergreen shrub with large stiff glossy leaves.",
+  colour: "Lemon yellow, white",
   petals: "Five",
   size: "Medium-sized",
   place: "Found in tropical South East Asia and other tropical regions",
@@ -3003,7 +3002,7 @@ ling = Flower.create!(
   family: "Ericaceae",
   significance: "Blossoming of Nature",
   comment: "Abundant and strong, nothing can stop its growth.",
-  description: "Tiny fragrant rose pink bell-shaped flowers densely borne in one-sided spikelike terminal racemes. A small evergreen shrub.",
+  description: "Tiny fragrant rose pink bell-shaped flowers densely borne in one-sided spike-like terminal racemes. A small evergreen shrub.",
   colour: "Rose pink",
   size: "Tiny",
   place: "Found in most parts of Europe and North America",
@@ -3021,11 +3020,11 @@ rhododendron = Flower.create!(
   family: "Ericaceae",
   significance: "Abundance of Beauty",
   comment: "A beauty that blossoms freely and abundantly.",
-  description: "Small to medium, occasionally large, delicate open bell-shaped or funnelform flowers with five deeply cut overlapping petal-like lobes and long exserted stamens; borne in dense clusters in a great variety of colours. There are more than 800 species of shrubs(or rarely small trees).",
+  description: "Small to medium, occasionally large, delicate open bell-shaped or funnelform flowers with five deeply cut overlapping petal-like lobes and long exserted stamens; borne in dense clusters in a great variety of colours. There are more than 800 species of shrubs (or, rarely, small trees).",
   colour: "Great variety of colours",
   petals: "Five",
   size: "Comes in all sizes",
-  place: "Found mainly in Asia, although it is also widespread throughout the Southern Highlands of the Appalachian Mountains of North America",
+  place: "Found mainly in Asia; also widespread throughout the Southern Highlands of the Appalachian Mountains of North America",
   climate: "Tropical and subtropical",
   image_url: "rhododendron.jpg",
   thumbnail_url: "rhododendron_thumbnail.jpg",
@@ -3055,9 +3054,9 @@ croton = Flower.create!(
   bot_name: "Codiaeum variegatum",
   family: "Euphorbiaceae",
   significance: "Power to Reject Adverse Suggestions",
-  comment: "The power that comes from conscious union with the Divine. ",
+  comment: "The power that comes from conscious union with the Divine.",
   description: "Tiny rounded cream white flowers composed of many yellow-tipped stamens; borne in erect spikes. A medium-sized evergreen shrub with variegated leaves in a multitude of shapes and colours.",
-  colour: "Cream white",
+  colour: "Cream white, yellow",
   size: "Medium-sized",
   place: "Native to Indonesia, Malaysia, and the western Pacific Ocean islands",
   climate: "Tropical",
@@ -3090,10 +3089,10 @@ peregrina = Flower.create!(
   other_names: "Spicy Jatropha",
   bot_name: "Jatropha integerrima",
   family: "Euphorbiaceae",
-  significance: "Awakening of the first Response of the Nature to the Supramental Manifestation",
+  significance: "Awakening and First Response of Nature to the Supramental Manifestation",
   comment: "Interested, she opens herself and tries to understand.",
-  description: "Small reddish pink flower with five narrow rounded separated petals and conspicuous anthers; borne in long-stemmed terminal cymes. A shrub with variable leaf forms which are often fiddle-shaped. Another form is a small light pink cup-shaped flower with rounded petals and conspicuous yellow anthers.",
-  colour: "Light to reddish pink",
+  description: "Small reddish-pink flower with five narrow rounded separated petals and conspicuous anthers; borne in long-stemmed terminal cymes. A shrub with variable leaf forms which are often fiddle-shaped. Another form is a small light pink cup-shaped flower with rounded petals and conspicuous yellow anthers.",
+  colour: "Light to reddish pink, yellow",
   petals: "Five",
   size: "Small",
   place: "Native to Cuba and Hispaniola",
@@ -3111,7 +3110,7 @@ coral_plant = Flower.create!(
   family: "Euphorbiaceae",
   significance: "First Appearance of the Psychic in Matter",
   comment: "A messenger of beauty.",
-  description: "Tiny red or deep pink flowers with five separated rounded petals and a reddish pink stalk; borne in compound cymes. A medium to large shrub with large palmate leaves having eight to twelve deep lobes.",
+  description: "Tiny red or deep pink flowers with five separated rounded petals and a reddish-pink stalk; borne in compound cymes. A medium to large shrub with large palmate leaves having eight to twelve deep lobes.",
   colour: "Red or deep pink",
   petals: "Five",
   size: "Tiny",
@@ -3134,7 +3133,7 @@ gout_plant = Flower.create!(
   colour: "Bright orange",
   petals: "Five",
   size: "Tiny",
-  place: "Native to the tropical Americas, cultivated in many other regions",
+  place: "Native to the tropical Americas; cultivated in many other regions",
   climate: "Tropical",
   image_url: "gout_plant.jpg",
   thumbnail_url: "gout_plant_thumbnail.jpg",
@@ -3147,10 +3146,10 @@ calabur = Flower.create!(
   other_names: "Jamaican Cherry",
   bot_name: "Muntingia calabura",
   family: "Euphorbiaceae",
-  significance: "Primitive succulence",
+  significance: "Primitive Succulence",
   comment: "Pleasing to a simple taste.",
   description: "Small white saucer-shaped flower with five delicate separated petals and a small green cone-shaped pistil surrounded by numerous tiny yellow-tipped stamens; borne singly. The small round pinkish edible fruit is included in the significance. An extremely fast-growing but short-lived tree with an umbrella crown and tomentose leaves.",
-  colour: "White",
+  colour: "White, green, yellow",
   petals: "Five",
   size: "Small",
   place: "Native to southern Mexico, the Caribbean, Central America, and western South America south to Peru and Bolivia",
@@ -3168,7 +3167,7 @@ snuff_box_tree = Flower.create!(
   family: "Salicaceae",
   significance: "Mental Chastity",
   comment: "Precious and magnificent in its purity.",
-  description: "Medium-sized fragrant white saucer-shaped flower with a large prominent centre of innumerable soft yellow stamens; borne singly. A small tree with long sharp spines.",
+  description: "Medium-sized fragrant white saucer-shaped flower with a large prominent center of innumerable soft yellow stamens; borne singly. A small tree with long sharp spines.",
   colour: "White, yellow",
   size: "Medium-sized",
   place: "Widely distributed along the eastern side of Africa as far as South Africa, its northernmost limit is reached on the eastern side of the Red Sea in Arabia",
@@ -3186,11 +3185,11 @@ geranium = Flower.create!(
   family: "Geraniaceae",
   significance: "Spiritual Happiness",
   comment: "Calm and smiling nothing can disturb it.",
-  description: "Small to medium-sized single flowers with five sepals and five petals, the upper pair usually larger; in white and shades of red, pink and purple, also in many double forms; borne in umbels above the foliage. A perennial herb or shrub with aromatic leaves.",
+  description: "Small to medium-sized single flowers with five sepals and five petals, the upper pair usually larger; in white and shades of red, pink, and purple; also in many double forms; borne in umbels above the foliage. A perennial herb or shrub with aromatic leaves.",
   colour: "White and shades of red, pink, and purple",
   petals: "Five",
   size: "Small to medium-sized",
-  place: "Indigenous to Southern Africa, also cultivated in temperate regions",
+  place: "Indigenous to Southern Africa; also cultivated in temperate regions",
   climate: "Tropical to warm temperate",
   image_url: "geranium.jpg",
   thumbnail_url: "geranium_thumbnail.jpg",
@@ -3223,11 +3222,11 @@ goldenrod = Flower.create!(
   family: "Asteraceae",
   significance: "Mental Sincerity",
   comment: "The essential condition for integral honesty.",
-  description: "Tiny yellow starlike flowers borne in tall feathery branching racemes. A vigorous rhizomatous perennial herb.",
+  description: "Tiny yellow star-like flowers borne in tall feathery branching racemes. A vigorous rhizomatous perennial herb.",
   colour: "Yellow",
   size: "Tiny",
   place: "Native to North America, including Mexico; a few species are native to South America and Eurasia. Some American species have also been introduced into Europe and other parts of the world.",
-  climate: "Found across temperate, subtropical and tropical regions",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "goldenrod.jpg",
   thumbnail_url: "goldenrod_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3239,9 +3238,9 @@ dropseed = Flower.create!(
   bot_name: "Agrostis nebulosa [Sporobolus capillaris]",
   family: "Gramineae",
   significance: "Humility",
-  comment: "Adorable in its simplicity. ",
-  description: "Erect airy panicles of branching spikelets bearing minute flowers that open pale greenish white and change to maroon as they mature. An annual grass.",
-  colour: "Pale greenish white to maroon",
+  comment: "Adorable in its simplicity.",
+  description: "Erect airy panicles of branching spikelets bearing minute flowers that open pale greenish-white and change to maroon as they mature. An annual grass.",
+  colour: "Pale greenish-white to maroon",
   size: "Minute",
   place: "Native to Portugal and Spain",
   climate: "Temperate",
@@ -3257,8 +3256,8 @@ finger_grass = Flower.create!(
   family: "Gramineae",
   significance: "Repentance",
   comment: "The first step towards correcting mistakes.",
-  description: "Thin fingerlike spikelets bearing minute inconspicuous flowers and reddish-brown hairs aggregated at the tip of a thin erect stem. An annual grass.",
-  colour: "Reddish brown",
+  description: "Thin finger-like spikelets bearing minute inconspicuous flowers and reddish-brown hairs aggregated at the tip of a thin erect stem. An annual grass.",
+  colour: "Reddish-brown",
   size: "Minute",
   place: "Found mainly in the tropical and subtropical regions of the Southern Hemisphere",
   climate: "Tropical and subtropical",
@@ -3273,9 +3272,9 @@ lemongrass = Flower.create!(
   bot_name: "Cymbopogon citratus",
   family: "Gramineae",
   significance: "Help",
-  comment: "You bring help to him who knows how to use you. ",
-  description: "Tall multi-branched inflorescence bearing clusters of dense greenish purple brushlike spikelets. An aromatic oil-yielding grass.",
-  colour: "Greenish purple",
+  comment: "You bring help to him who knows how to use you.",
+  description: "Tall multi-branched inflorescence bearing clusters of dense greenish-purple brush-like spikelets. An aromatic oil-yielding grass.",
+  colour: "Greenish-purple",
   place: "Native to tropical Southeast Asia",
   climate: "Tropical",
   image_url: "lemongrass.jpg",
@@ -3292,7 +3291,7 @@ alexandrian_laurel = Flower.create!(
   significance: "Peace in the Physical",
   comment: "To want what God wants is the best condition for it.",
   description: "Small fragrant waxy white flower with round cupped petals and a prominent central tuft of yellow stamens; borne in terminal panicles. A medium-sized evergreen tree with glossy leathery leaves.",
-  colour: "White",
+  colour: "White, yellow",
   petals: "Five or six",
   size: "Small",
   place: "Native from East Africa, southern coastal India to Malesia and Australia",
@@ -3309,12 +3308,12 @@ hydrangea = Flower.create!(
   family: "Hydrangeaceae",
   significance: "Collective Harmony",
   comment: "Collective harmony is the work undertaken by the Divine Consciousness; it alone has the power to realise it.",
-  description: "Large dense rounded heads of small flat four- or five-petalled flowers in white, pink, lavender, purple, red and blue. An erect rounded deciduous or evergreen shrub; rarely a climber.",
+  description: "Large dense rounded heads of small flat four- or five-petalled flowers in white, pink, lavender, purple, red, and blue. An erect rounded deciduous or evergreen shrub; rarely a climber.",
   colour: "White, pink, lavender, purple, red, or blue",
   petals: "Four or five",
   size: "Large",
-  place: "Native to southern and eastern Asia (China, Japan, Korea, the Himalayas, and Indonesia) and the Americas",
-  climate: "Tropical and subtropical",
+  place: "Native to southern and eastern Asia (China, Japan, Korea, the Himalayas, and Indonesia), and the Americas",
+  climate: "Mostly subtropical",
   image_url: "hydrangea.jpg",
   thumbnail_url: "hydrangea_thumbnail.jpg",
   source: "Eric Skiff",
@@ -3332,7 +3331,7 @@ golden_eye_grass = Flower.create!(
   colour: "Golden yellow",
   petals: "Six",
   size: "Small",
-  place: "Native to China, Japan, Indian Subcontinent, Papuasia, Micronesia",
+  place: "Native to China, Japan, the Indian Subcontinent, Papuasia, and Micronesia",
   climate: "Tropical and subtropical",
   image_url: "golden_eye_grass.jpg",
   thumbnail_url: "golden_eye_grass_thumbnail.jpg",
@@ -3346,11 +3345,11 @@ blackberry_lily = Flower.create!(
   bot_name: "Belamcanda chinensis [Iris domestica]",
   family: "Iridaceae",
   significance: "Attachment to the Divine",
-  description: "Small deep orange flower with six narrow widely separated petals covered with bright red spots; borne in loose corymbs on long narrow stems. A rhizomatous perennial herb with broad swordlike leaves.",
+  description: "Small deep orange flower with six narrow widely separated petals covered with bright red spots; borne in loose corymbs on long narrow stems. A rhizomatous perennial herb with broad sword-like leaves.",
   colour: "Deep orange, bright red",
   petals: "Six",
   size: "Small",
-  place: "Native to China, found in other subtropical regions",
+  place: "Native to China; found in other subtropical regions",
   climate: "Subtropical",
   image_url: "blackberry_lily.jpg",
   thumbnail_url: "blackberry_lily_thumbnail.jpg",
@@ -3363,12 +3362,12 @@ african_iris = Flower.create!(
   bot_name: "Dietes iridioides",
   family: "Iridaceae",
   significance: "Aristocracy of Beauty",
-  comment: "So perfectly formed that it compels  admiration.",
-  description: "Medium-sized iris-like flower with a centre of three erect incurving lavender crests and six flat rounded white petals, three of which are wider and have a prominent golden orange mark from the base to the centre, and three alternate petals, narrower and spotted brown at the base; blooming singly at the ends of branching spikes. A rhizomatous herb with bladelike leaves.",
-  colour: "White",
+  comment: "So perfectly formed that it compels admiration.",
+  description: "Medium-sized iris-like flower with a center of three erect incurving lavender crests and six flat rounded white petals, three of which are wider and have a prominent golden orange mark from the base to the center, and three alternate petals, narrower and spotted brown at the base; blooming singly at the ends of branching spikes. A rhizomatous herb with blade-like leaves.",
+  colour: "Lavender, white, golden orange, brown",
   petals: "Six",
   size: "Medium-sized",
-  place: "Native to southern and central Africa, cultivated in some other parts of the world",
+  place: "Native to southern and central Africa; cultivated in some other parts of the world",
   climate: "Tropical and subtropical",
   image_url: "african_iris.jpg",
   thumbnail_url: "african_iris_thumbnail.jpg",
@@ -3381,7 +3380,7 @@ peacock_orchid = Flower.create!(
   bot_name: "Gladiolus murielae",
   family: "Iridaceae",
   significance: "The Vital’s Possibility of Perfection",
-  comment: "The day the vital will be converted it will have much to give.",
+  comment: "The day the vital will be converted, it will have much to give.",
   description: "Fragrant medium-sized white flower with six graceful pointed petals, the lower three petals marked with a triangular maroon spot at the base; borne in loose spikes. A rhizomatous perennial herb with sword-shaped leaves.",
   colour: "White, maroon",
   petals: "Six",
@@ -3422,7 +3421,7 @@ lily_of_the_valley = Flower.create!(
   description: "Small fragrant waxy white nodding campanulate flowers borne in one-sided terminal racemes. A low perennial rhizomatous herb that forms dense masses.",
   colour: "White",
   size: "Small",
-  place: "Native throughout the cool temperateNorthern Hemisphere in Asia, and Europe",
+  place: "Native throughout the cool temperate Northern Hemisphere in Asia, and Europe",
   climate: "Temperate",
   image_url: "lily_of_the_valley.jpg",
   thumbnail_url: "lily_of_the_valley_thumbnail.jpg",
@@ -3435,11 +3434,11 @@ lions_ear = Flower.create!(
   bot_name: "Leonotis nepetifolia",
   family: "Labiatae",
   significance: "Ascension",
-  comment: "Stage by stage one climbs towards the Consciousness. ",
+  comment: "Stage by stage one climbs towards the Consciousness.",
   description: "Small velvety orange bilabiate flowers set in a ring around balls of spiny green bracts that are borne in ascending tiers on tall erect four-sided stems. An annual wayside herb with toothed leaves.",
   colour: "Orange",
   size: "Small",
-  place: "Native to tropical Africa and southern India, cultivated abundantly in much of Latin America and the West Indies",
+  place: "Native to tropical Africa and southern India; cultivated abundantly in much of Latin America and the West Indies",
   climate: "Tropical",
   image_url: "lions_ear.jpg",
   thumbnail_url: "lions_ear_thumbnail.jpg",
@@ -3473,7 +3472,7 @@ hoary_basil = Flower.create!(
   description: "Very tiny white bilabiate flowers tinged pink with a green calyx shaded purple towards the tip and green lemon-scented stems and leaves. A shrubby annual or perennial culinary herb with aromatic leaves.",
   colour: "White, pink",
   size: "Very tiny",
-  place: "Native to Africa, the Indian Subcontinent, China, Southeast Asia, naturalized in Queensland, Christmas Island, and parts of tropical America",
+  place: "Native to Africa, the Indian Subcontinent, China, and Southeast Asia; naturalized in Queensland, Christmas Island, and parts of tropical America",
   climate: "Tropical and subtropical",
   image_url: "hoary_basil.jpg",
   thumbnail_url: "hoary_basil_thumbnail.jpg",
@@ -3488,10 +3487,10 @@ holy_basil = Flower.create!(
   family: "Labiatae",
   significance: "Devotion",
   comment: "Modest and fragrant, it gives itself without seeking for anything in return.",
-  description: "One form, the Ram tulsi, has very tiny pale greenish white bilabiate flowers with green calyces closely tiered on thin racemes, green stems and small softly pubescent green leaves. Another form, the Krishna tuisi, has very tiny pale purple bilabiate flowers with greenish purple calyces closely tiered on thin racemes, deep purple stems and leaves that are greenish purple above and green beneath. A shrubby annual or perennial culinary herb with aromatic leaves.",
-  colour: "Pale greenish white or pale purple",
+  description: "One form, the Ram tulsi, has very tiny pale greenish-white bilabiate flowers with green calyces closely tiered on thin racemes, green stems and small softly pubescent green leaves. Another form, the Krishna tuisi, has very tiny pale purple bilabiate flowers with greenish-purple calyces closely tiered on thin racemes, deep purple stems and leaves that are greenish-purple above and green beneath. A shrubby annual or perennial culinary herb with aromatic leaves.",
+  colour: "Pale greenish-white or pale purple",
   size: "Tiny",
-  place: "Native to the Indian subcontinent and widespread as a cultivated plant throughout the Southeast Asian tropics",
+  place: "Native to the Indian subcontinent; widespread as a cultivated plant throughout the Southeast Asian tropics",
   climate: "Tropical and subtropical",
   image_url: "holy_basil.jpg",
   thumbnail_url: "holy_basil_thumbnail.jpg",
@@ -3506,7 +3505,7 @@ sweet_marjoram = Flower.create!(
   family: "Labiatae",
   significance: "The New Birth",
   comment: "Birth into the true consciousness, that of the Divine Presence in us.",
-  description: "Very tiny white or mauve starlike flowers with exserted stamens set in ball-like overlapping green bracts that arise from the leaf axils. Included in the significance are the small rounded very aromatic greyish green leaves. A perennial culinary herb.",
+  description: "Very tiny white or mauve star-like flowers with exserted stamens set in ball-like overlapping green bracts that arise from the leaf axils. Included in the significance are the small rounded very aromatic greyish-green leaves. A perennial culinary herb.",
   colour: "White or mauve",
   size: "Very tiny",
   place: "Indigenous to Cyprus and southern Turkey",
@@ -3524,10 +3523,10 @@ mealy_sage = Flower.create!(
   family: "Labiatae",
   significance: "Krishna’s Light in the Overmind",
   comment: "The Overmind ready to be Divinised.",
-  description: "Small lavender blue bilabiate flower with a broadly extended lower lip marked with a white patch in the centre and light grey blue calyces; borne in whorls in erect terminal spikes. A branching lightly pubescent perennial herb.",
+  description: "Small lavender blue bilabiate flower with a broadly extended lower lip marked with a white patch in the center and light grey blue calyces; borne in whorls in erect terminal spikes. A branching lightly pubescent perennial herb.",
   colour: "Lavender blue, white",
   size: "Small",
-  place: "Native to Mexico and parts of the United States including Texas",
+  place: "Native to Mexico and parts of the United States, including Texas",
   climate: "Tropical and subtropical",
   image_url: "mealy_sage.jpg",
   thumbnail_url: "mealy_sage_thumbnail.jpg",
@@ -3542,11 +3541,11 @@ sage = Flower.create!(
   family: "Labiatae",
   significance: "Aspiration for Spirituality",
   comment: "Conscious of the advantages of spiritualisation.",
-  description: "Small tubular bilabiate flowers in white and shades of blue, pink, purple and red; borne in erect spikes or curving racemes. A herb, subshrub or shrub.",
+  description: "Small tubular bilabiate flowers in white and shades of blue, pink, purple, and red; borne in erect spikes or curving racemes. A herb, subshrub, or shrub.",
   colour: "White and shades of blue, pink, purple, and red",
   size: "Small",
-  place: "Found in Central and South America, Central Asia and Mediterranean, Eastern Asia",
-  climate: "Found across temperate, subtropical and tropical regions",
+  place: "Found in Central and South America, Central Asia and the Mediterranean region, and Eastern Asia",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "sage.jpg",
   thumbnail_url: "sage_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3560,7 +3559,7 @@ mexican_bush_sage = Flower.create!(
   significance: "Vital Consenting to Be Spiritualised",
   comment: "A great victory over the lower nature.",
   description: "Small velvety white to pale mauve tubular bilabiate flower half enclosed by a very soft velvety purple calyx; borne in tiers on long arching racemes. A subshrub with a silvery pubescence on the stems and backs of the lanceolate leaves.",
-  colour: "White to pale mauve",
+  colour: "White to pale mauve, purple",
   size: "Small",
   place: "Native to subtropical and tropical conifer forests in central and eastern Mexico",
   climate: "Tropical and subtropical",
@@ -3578,8 +3577,9 @@ scarlet_sage = Flower.create!(
   comment: "The beginning of wisdom.",
   description: "Small bright red softly pubescent narrow tubular flower with the tube divided into four irregular shallow lobes, emerging from a conspicuous crinkled bright red pubescent calyx; borne in large very dense three-sided terminal racemes with bright red pubescent stems. A long-blooming perennial.",
   colour: "Bright red",
+  petals: "Four",
   size: "Small",
-  place: "Native to Brazil, cultivated in many other tropical regions",
+  place: "Native to Brazil; cultivated in many other tropical regions",
   climate: "Tropical",
   image_url: "scarlet_sage.jpg",
   thumbnail_url: "scarlet_sage_thumbnail.jpg",
@@ -3593,8 +3593,8 @@ fish_poison_tree = Flower.create!(
   family: "Lecythidaceae",
   significance: "Supramental Action",
   comment: "An action that is not exclusive but total.",
-  description: "Medium-sized fragrant white four-petaled flower filled with numerous stamens tinged with purplish pink; borne on short erect racemes; the flower opens in the evening and fades in the morning. A small tree with very large glossy leaves.",
-  colour: "White, purplish pink",
+  description: "Medium-sized fragrant white four-petaled flower filled with numerous stamens tinged with purplish-pink; borne on short erect racemes; the flower opens in the evening and fades in the morning. A small tree with very large glossy leaves.",
+  colour: "White, purplish-pink",
   petals: "Four",
   size: "Medium-sized",
   place: "Native to mangrove habitats on the tropical coasts and islands of the Indian Ocean and western Pacific Ocean",
@@ -3611,8 +3611,8 @@ dwarf_white_bauhinia = Flower.create!(
   family: "Fabaceae",
   significance: "Purified Gold",
   comment: "It is purified by being placed at the service of the Divine.",
-  description: "Medium-sized pure white saucer-shaped flower with five broad petals and conspicuous golden anthers; borne in very short racemes. A medium to large shrub with the camels-foot leaves; typical of the genus.",
-  colour: "White",
+  description: "Medium-sized pure white saucer-shaped flower with five broad petals and conspicuous golden anthers; borne in very short racemes. A medium to large shrub with the camels-foot leaves typical of the genus.",
+  colour: "Pure white, golden",
   petals: "Five",
   size: "Medium-sized",
   place: "Native to tropical southeastern Asia",
@@ -3634,7 +3634,7 @@ st_thomas_tree = Flower.create!(
   colour: "Light yellow, dark maroon",
   petals: "Five",
   size: "Medium-sized",
-  place: "Native to tropical Africa, found in many other tropical regions",
+  place: "Native to tropical Africa; found in many other tropical regions",
   climate: "Tropical",
   image_url: "st_thomas_tree.jpg",
   thumbnail_url: "st_thomas_tree_thumbnail.jpg",
@@ -3648,8 +3648,8 @@ orchid_tree = Flower.create!(
   bot_name: "Bauhinia variegata",
   family: "Fabaceae",
   significance: "Vital Contentment",
-  description: "Large mildly fragrant white flower with five broad irregular slightly overlapping petals, the central petal marked and streaked reddish purple; three prominent sharply recurved stamens arise from the centre; borne in few-flowered racemes. A small to medium-sized tree.",
-  colour: "White, reddish purple",
+  description: "Large mildly fragrant white flower with five broad irregular slightly overlapping petals, the central petal marked and streaked reddish-purple; three prominent sharply recurved stamens arise from the center; borne in few-flowered racemes. A small to medium-sized tree.",
+  colour: "White, reddish-purple",
   petals: "Five",
   size: "Large",
   place: "Native to India and Burma",
@@ -3666,8 +3666,8 @@ divi_divi = Flower.create!(
   family: "Fabaceae",
   significance: "Intuitive Knowledge",
   comment: "Innumerable and vast for exploration, it is pure and fragrant.",
-  description: "Tiny very fragrant cream to greenish white cup-shaped flowers with reddish brown exserted stamens; borne in dense branching axillary clusters. A small spreading tree with finely pinnate leaves.",
-  colour: "Cream to greenish white",
+  description: "Tiny very fragrant cream to greenish-white cup-shaped flowers with reddish-brown exserted stamens; borne in dense branching axillary clusters. A small spreading tree with finely pinnate leaves.",
+  colour: "Cream to greenish-white, reddish-brown",
   size: "Tiny",
   place: "Native to the Caribbean, Mexico, Central America, and northern South America",
   climate: "Tropical",
@@ -3707,7 +3707,7 @@ pink_shower = Flower.create!(
   colour: "Deep pink to white",
   petals: "Five",
   size: "Small",
-  place: "Native to Southeast Asia, cultivated in other tropical regions",
+  place: "Native to Southeast Asia; cultivated in other tropical regions",
   climate: "Mostly tropical",
   image_url: "pink_shower.jpg",
   thumbnail_url: "pink_shower_thumbnail.jpg",
@@ -3740,7 +3740,7 @@ white_gulmohar = Flower.create!(
   significance: "Mental Fantasy",
   comment: "Disorderly, it too often lacks coordination.",
   description: "Medium-sized cream white flower with four frilled rounded petals, a smaller raised and curled lemon yellow lip and ten very long conspicuous orange stamens; the flower fades to soft gold with age; borne in terminal corymbs. A medium-sized spreading tree with feathery foliage.",
-  colour: "White to gold, lemon yellow, orange",
+  colour: "Cream White to gold, lemon yellow, orange",
   petals: "Five",
   size: "Medium-sized",
   place: "Found in East Africa, southern Arabia east to western India",
@@ -3759,11 +3759,11 @@ peacock_flower = Flower.create!(
   significance: "Realisation",
   comment: "The goal of our efforts.",
   description: "Large striking pale orange to deep red flowers with four widely separated clawed petals and one larger petal that is white to cream or yellow, splashed and edged with red or orange red; borne in terminal corymbs. A beautiful spreading tree of medium size.",
-  colour: "Pale orange to deep red, white to cream yellow",
+  colour: "Pale orange to deep red, white to cream or yellow",
   petals: "Five",
   size: "Large",
-  place: "Native to Madagascar",
-  climate: "Tropical",
+  place: "Native to Madagascar; found in other tropical and subtropical regions",
+  climate: "Tropical and subtropical",
   image_url: "peacock_flower.jpg",
   thumbnail_url: "peacock_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3777,7 +3777,7 @@ logwood = Flower.create!(
   family: "Fabaceae",
   significance: "Fairy Freshness",
   comment: "Charming, it refreshes the eyes.",
-  description: "Small fragrant light yellow star-shaped flowers with numerous soft exserted stamens; borne in dense racemes along the branches. A shrub or small tree with irregularly arranged branches and with occasional spines.",
+  description: "Small fragrant light yellow star-shaped flowers with numerous soft exserted stamens; borne in dense racemes along the branches. A shrub or small tree with irregularly arranged branches, and with occasional spines.",
   colour: "Light yellow",
   size: "Small",
   place: "Native to southern Mexico and northern Central America",
@@ -3795,12 +3795,12 @@ jerusalem_thorn = Flower.create!(
   family: "Fabaceae",
   significance: "Lightness",
   comment: "Charming, but prickly at times.",
-  description: "Small delicate fragrant light yellow flower with five separated petals, the uppermost lightly spotted with reddish brown on opening and gradually changing entirely to rust; borne in loose axillary racemes. A small extremely spiny tree with long needlelike leaves bearing tiny leaflets.",
-  colour: "Light yellow, reddish brown",
+  description: "Small delicate fragrant light yellow flower with five separated petals, the uppermost lightly spotted with reddish-brown on opening and gradually changing entirely to rust; borne in loose axillary racemes. A small extremely spiny tree with long needle-like leaves bearing tiny leaflets.",
+  colour: "Light yellow, reddish-brown to rust",
   petals: "Five",
   size: "Small",
-  place: "Native to the Sonoran and Chihuahan Deserts of southwestern United States (western Texas, southern New Mexico southern Arizona), and northern Mexico (Sonora and Chihuahua) as well as the Galápagos Islands; has been moved by humans into the Caribbean, South America south to northern Argentina, and Hawaii; also has been introduced in Europe, is widespread in Australia",
-  climate: "Tropical and subtropical",
+  place: "Native to the Sonoran and Chihuahan Deserts of southwestern United States (western Texas, southern New Mexico, southern Arizona), and northern Mexico (Sonora and Chihuahua) as well as the Galápagos Islands; has been moved by humans into the Caribbean, South America south to northern Argentina, and Hawaii; has also been introduced to Europe, and is widespread in Australia",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "jerusalem_thorn.jpg",
   thumbnail_url: "jerusalem_thorn_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3818,7 +3818,7 @@ copper_pod = Flower.create!(
   colour: "Yellow, rust",
   petals: "Five",
   size: "Small",
-  place: "Native to tropical southeastern Asia, a popular ornamental tree grown around the world",
+  place: "Native to tropical southeastern Asia; a popular ornamental tree grown around the world",
   climate: "Tropical",
   image_url: "copper_pod.jpg",
   thumbnail_url: "copper_pod_thumbnail.jpg",
@@ -3834,7 +3834,7 @@ asoka = Flower.create!(
   significance: "Without Grief",
   comment: "The contemplation that leads you beyond suffering.",
   description: "Large compact panicles of small mildly fragrant orange and pale orange four-lobed salverform flowers with elongated crimson stamens. A small ornamental tree with translucent pinkish tan new leaves.",
-  colour: "Orange, pale orange",
+  colour: "Orange, pale orange, crimson",
   petals: "Four",
   size: "Large",
   place: "Native to the central areas of the Deccan plateau, as well as the middle section of the Western Ghats in the western coastal zone of the Indian subcontinent",
@@ -3852,11 +3852,11 @@ christmas_candle = Flower.create!(
   family: "Fabaceae",
   significance: "Idea",
   comment: "Essential for all organisers, on its quality depends the quality of the organisation.",
-  description: "Tall erect candelabra like racemes of small bright golden yellow flowers with five sharply incurved petals; the open flowers appear at the base of the raceme below compact buds covered with a soft rubbery rusty gold sheath. A large open shrub with very large pinnate leaves.",
+  description: "Tall erect candelabra-like racemes of small bright golden yellow flowers with five sharply incurved petals; the open flowers appear at the base of the raceme, below compact buds covered with a soft rubbery rusty gold sheath. A large open shrub with very large pinnate leaves.",
   colour: "Bright golden yellow",
   petals: "Five",
   size: "Small",
-  place: "Native to Mexico, and can be found in diverse habitats, mostly tropical",
+  place: "Native to Mexico; can be found in diverse, mostly tropical, habitats",
   climate: "Mostly tropical",
   image_url: "christmas_candle.jpg",
   thumbnail_url: "christmas_candle_thumbnail.jpg",
@@ -3875,7 +3875,7 @@ mimosa_bush = Flower.create!(
   colour: "Deep yellow",
   size: "Small",
   place: "Found in many regions",
-  climate: "Wide range of climates",
+  climate: "Found across a wide range of climates",
   image_url: "mimosa_bush.jpg",
   thumbnail_url: "mimosa_bush_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3887,7 +3887,7 @@ white_bark_acacia = Flower.create!(
   bot_name: "Acacia leucophloea",
   family: "Fabaceae",
   significance: "Knowledge of Details",
-  comment: "Manifold and minute it forgets nothing.",
+  comment: "Manifold and minute, it forgets nothing.",
   description: "Tiny cream white pineapple scented fluffy balls of soft stamens borne in terminal panicles. An extremely thorny tree with yellowish bark.",
   colour: "Cream white",
   size: "Tiny",
@@ -3909,7 +3909,7 @@ siris_tree = Flower.create!(
   description: "Very fragrant medium-sized tassel-like head composed of numerous long cream white stamens with yellow green tips; borne in axillary clusters. A large spreading deciduous tree.",
   colour: "Cream white, yellow green",
   size: "Medium-sized",
-  place: "Native to Indomalaya, New Guinea and Northern Australia and widely cultivated in other tropical and subtropical regions",
+  place: "Native to Indomalaya, New Guinea, and Northern Australia; widely cultivated in other tropical and subtropical regions",
   climate: "Tropical and subtropical",
   image_url: "siris_tree.jpg",
   thumbnail_url: "siris_tree_thumbnail.jpg",
@@ -3927,7 +3927,7 @@ rain_tree = Flower.create!(
   description: "Medium-sized soft delicate powderpuff head composed of inconspicuous flowers with numerous pink stamens that are white at the base; borne in clusters from the leaf axils. A very large spreading tree with dark grey almost black bark, and leaves that close at night and at the approach of rain.",
   colour: "Pink, white",
   size: "Medium-sized",
-  place: "Native to West Indies and Central America",
+  place: "Native to the West Indies and Central America",
   climate: "Tropical and subtropical",
   image_url: "rain_tree.jpg",
   thumbnail_url: "rain_tree_thumbnail.jpg",
@@ -3940,10 +3940,10 @@ powderpuff = Flower.create!(
   other_names: "Powderpuff Tree",
   bot_name: "Calliandra",
   family: "Fabaceae",
-  significance: "Striving Towards Wisdom",
+  significance: "Striving towards Wisdom",
   comment: "A bit of wisdom is welcome.",
-  description: "Small to medium-sized powderpuff heads composed of numerous stamens in white, greenish white, pink, red or purple; borne singly or in clusters from the leaf axils. A shrub or small tree with pinnate leaves.",
-  colour: "White, greenish white, pink, red, or purple",
+  description: "Small to medium-sized powderpuff heads composed of numerous stamens in white, greenish-white, pink, red, or purple; borne singly or in clusters from the leaf axils. A shrub or small tree with pinnate leaves.",
+  colour: "White, greenish-white, pink, red, or purple",
   size: "Small to medium-sized",
   place: "Native to the tropical and subtropical Americas",
   climate: "Tropical and subtropical",
@@ -3974,7 +3974,7 @@ white_powderpuff = Flower.create!(
   name: "White Powderpuff",
   bot_name: "Calliandra portoricensis",
   family: "Fabaceae",
-  significance: "Striving Towards Integral Wisdom",
+  significance: "Striving towards Integral Wisdom",
   comment: "Like everything that belongs to creation, wisdom is progressive.",
   description: "Medium-sized powderpuff head composed of white stamens; borne from the leaf axils. A tall spreading shrub.",
   colour: "White",
@@ -3994,10 +3994,10 @@ lead_tree = Flower.create!(
   family: "Fabaceae",
   significance: "Knowledge",
   comment: "Is conversant with all sides of a question, whatever it may be.",
-  description: "Small mildly fragrant cream white Huffy balls of soft stamens borne singly from the leaf axils on sturdy narrow stalks. A small tree often seen with an abundance of flat dark brown brittle pods.",
+  description: "Small mildly fragrant cream white huffy balls of soft stamens borne singly from the leaf axils on sturdy narrow stalks. A small tree often seen with an abundance of flat dark brown brittle pods.",
   colour: "Cream white",
   size: "Small",
-  place: "Native to southern Mexico and northern Central America (Belize and Guatemala), naturalized throughout the tropics",
+  place: "Native to southern Mexico and northern Central America (Belize and Guatemala); naturalized throughout the tropics",
   climate: "Tropical",
   image_url: "lead_tree.jpg",
   thumbnail_url: "lead_tree_thumbnail.jpg",
@@ -4016,7 +4016,7 @@ mungo_tree = Flower.create!(
   colour: "Brownish, cream white",
   size: "Medium-sized",
   place: "Native to Asia",
-  climate: "Found across temperate, subtropical and tropical regions",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "mungo_tree.jpg",
   thumbnail_url: "mungo_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4025,12 +4025,12 @@ mungo_tree = Flower.create!(
 
 honey_mesquite = Flower.create!(
   name: "Honey Mesquite",
-  bot_name: "Prosopis glandulosa",
+  bot_name: "Prosopis glandulosa [Prosopis juliflora var. glandulosa]",
   family: "Fabaceae",
   significance: "Logic in Thoughts",
   comment: "Likes coherent discourse.",
-  description: "Long fragrant greenish yellow catkins borne on a short stalk along the branches. A large spiny shrub or small tree with feathery leaves.",
-  colour: "Greenish yellow",
+  description: "Long fragrant greenish-yellow catkins borne on a short stalk along the branches. A large spiny shrub or small tree with feathery leaves.",
+  colour: "Greenish-yellow",
   size: "Long",
   place: "Native to the Southwestern United States and Mexico, growing as far north as southern Kansas and as far east as the eastern fifth of Texas",
   climate: "Tropical and subtropical",
@@ -4046,9 +4046,9 @@ flame_of_the_forest = Flower.create!(
   bot_name: "Butea monosperma [Erythrina monosperma]",
   family: "Fabaceae",
   significance: "Beginning of the Supramental Realisation",
-  comment: "Of charming beauty it is the herald of victory.",
+  comment: "Of charming beauty, it is the herald of victory.",
   description: "Dense racemes of medium-sized bright red-orange papilionaceous flowers; small to medium-sized tree.",
-  colour: "Bright red orange",
+  colour: "Bright red-orange",
   size: "Medium-sized",
   place: "Native to tropical and subtropical parts of the Indian Subcontinent and Southeast Asia",
   climate: "Tropical and subtropical",
@@ -4065,8 +4065,8 @@ moreton_bay_chestnut = Flower.create!(
   family: "Fabaceae",
   significance: "Mind of Light Acting in Matter",
   comment: "A powerful aid to progress.",
-  description: "Small golden yellow to orange or reddish orange papilionaceous flower with long exserted stamens; borne on short lateral racemes on old wood. A medium-sized evergreen tree with dark green foliage.",
-  colour: "Golden yellow to orange or reddish orange",
+  description: "Small golden yellow to orange or reddish-orange papilionaceous flower with long exserted stamens; borne on short lateral racemes on old wood. A medium-sized evergreen tree with dark green foliage.",
+  colour: "Golden yellow to orange or reddish-orange",
   size: "Small",
   place: "Native to the east coast of Australia in Queensland and New South Wales, and to the Pacific islands of Vanuatu and New Caledonia",
   climate: "Subtropical to temperate",
@@ -4085,7 +4085,7 @@ sunn_hemp = Flower.create!(
   description: "Small bright yellow papilionaceous flower; borne in terminal racemes. A shrub with trifoliate leaves and grooved striated stems commonly cultivated for its fibre.",
   colour: "Bright yellow",
   size: "Small",
-  place: "Possibly native to India, also found in other tropical regions of the world",
+  place: "Possibly native to India; also found in other tropical regions of the world",
   climate: "Mostly tropical",
   image_url: "sunn_hemp.jpg",
   thumbnail_url: "sunn_hemp_thumbnail.jpg",
@@ -4099,8 +4099,8 @@ madre_de_cacao = Flower.create!(
   bot_name: "Gliricidia sepium",
   family: "Fabaceae",
   significance: "Refinement of Habits",
-  comment: "Orderly, clean and well-organised.",
-  description: "Small pink papilionaceous flowers, each with a pale yellow band in the centre of the broad recurved upper petal and a conspicuous waxy maroon calyx; borne in dense racemes along the branches. A small fast-growing tree with pinnate leaves.",
+  comment: "Orderly, clean, and well-organised.",
+  description: "Small pink papilionaceous flowers, each with a pale yellow band in the center of the broad recurved upper petal and a conspicuous waxy maroon calyx; borne in dense racemes along the branches. A small fast-growing tree with pinnate leaves.",
   colour: "Pink, pale yellow, maroon",
   size: "Small",
   place: "Found on volcanic soils in its native range in Central America and Mexico",
@@ -4118,10 +4118,10 @@ scarlet_wistaria_tree = Flower.create!(
   family: "Fabaceae",
   significance: "Beginning of Realisation",
   comment: "Full of promise and hope, it radiates joy and confidence.",
-  description: "Medium-sized, occasionally large, pendulous white, pink or red clawlike papilionaceous flowers held in glossy light green calyces; borne in clusters of two to four. A small short-lived tree with pinnate leaves.",
+  description: "Medium-sized, occasionally large, pendulous white, pink, or red claw-like papilionaceous flowers held in glossy light green calyces; borne in clusters of two to four. A small short-lived tree with pinnate leaves.",
   colour: "White, pink, or red",
   size: "Medium to large",
-  place: "Indigenous from Malaysia to North Australia, cultivated in many parts of India",
+  place: "Indigenous from Malaysia to North Australia; cultivated in many parts of India",
   climate: "Mostly tropical",
   image_url: "scarlet_wistaria_tree.jpg",
   thumbnail_url: "scarlet_wistaria_tree_thumbnail.jpg",
@@ -4135,7 +4135,7 @@ chinese_wisteria = Flower.create!(
   family: "Fabaceae",
   significance: "Poetic Ecstasy",
   comment: "Rare and charming is your presence.",
-  description: "Small lavender papilionaceous flowers with a yellow mark in the centre of the upper petal; borne in long dense pendant racemes. A large deciduous woody vine with flowers that appear before the leaves.",
+  description: "Small lavender papilionaceous flowers with a yellow mark in the center of the upper petal; borne in long dense pendant racemes. A large deciduous woody vine with flowers that appear before the leaves.",
   colour: "Lavender, yellow",
   size: "Small",
   place: "Native to China in the provinces of Guangxi, Guizhou, Hebei, Henan, Hubei, Shaanxi, and Yunnan",
@@ -4153,7 +4153,7 @@ senna = Flower.create!(
   family: "Fabaceae",
   significance: "Attentive Mind",
   comment: "The mind attains its full utility when it knows how to listen to the higher inspiration.",
-  description: "Small yellow cup-shaped flowers with five obovate petals; borne in axillary or terminal clusters. Shrubs or small to medium-sized trees. All yellow-flowered Cassias except Cassia alata and Cassia fistula are included in this significance.",
+  description: "Small yellow cup-shaped flowers with five obovate petals; borne in axillary or terminal clusters. Shrubs or small to medium-sized trees. All yellow-flowered Cassias, except Cassia alata and Cassia fistula, are included in this significance.",
   colour: "Yellow",
   petals: "Five",
   size: "Small",
@@ -4173,7 +4173,7 @@ black_wattle = Flower.create!(
   comment: "Let us offer our work to the Divine, this is the sure way of progressing.",
   description: "Fragrant slender deep yellow catkins up to 10 cm long; borne in pairs from the leaf axils. A small tree with coiled seed-pods and sickle-shaped leaves.",
   colour: "Deep yellow",
-  place: "Native to Australia, Indonesia, and Papua New Guinea, cultivated in southeast Asia, Oceania and in Sudan",
+  place: "Native to Australia, Indonesia, and Papua New Guinea; cultivated in southeast Asia, Oceania, and in Sudan",
   climate: "Tropical and subtropical",
   image_url: "black_wattle.jpg",
   thumbnail_url: "black_wattle_thumbnail.jpg",
@@ -4191,7 +4191,7 @@ touch_me_not = Flower.create!(
   description: "Small pale lavender pink soft globose heads, borne singly or in few-flowered axillary clusters. A low subshrub with spiny stems and exceedingly sensitive leaves that fold immediately when touched.",
   colour: "Pale lavender pink",
   size: "Small",
-  place: "Native to South America and Central America, but is now a pantropical weed",
+  place: "Native to South America and Central America; now a pantropical weed",
   climate: "Tropical and subtropical",
   image_url: "touch_me_not.jpg",
   thumbnail_url: "touch_me_not_thumbnail.jpg",
@@ -4241,11 +4241,11 @@ clover = Flower.create!(
   family: "Fabaceae",
   significance: "Kindness of Nature",
   comment: "She is kind when she is loving.",
-  description: "Small fragrant dense rounded heads of tiny papilionaceous flowers in white and shades of purple, pink or yellow. An annual or perennial herb with leaves composed of usually three but occasionally four leaflets.",
+  description: "Small fragrant dense rounded heads of tiny papilionaceous flowers in white and shades of purple, pink, or yellow. An annual or perennial herb with leaves composed of usually three but occasionally four leaflets.",
   colour: "White and shades of purple, pink, or yellow",
   size: "Small",
-  place: "Has a cosmopolitan distribution; the highest diversity is found in the temperate Northern Hemisphere, but many species also occur in South America and Africa, including at high altitudes on mountains in the tropics",
-  climate: "Found across temperate, subtropical and tropical regions",
+  place: "Has a cosmopolitan distribution; the highest diversity is found in the temperate Northern Hemisphere, but many species also occur in South America and Africa, including at high altitudes on mountains in the tropics.",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "clover.jpg",
   thumbnail_url: "clover_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4264,7 +4264,7 @@ garden_lupine = Flower.create!(
   petals: "Three",
   size: "Small",
   place: "Found in many different regions of the world",
-  climate: "Found across temperate, subtropical and tropical regions",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "garden_lupine.jpg",
   thumbnail_url: "garden_lupine_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4280,7 +4280,7 @@ scarlet_flame_bean = Flower.create!(
   description: "Large striking dense rounded clusters of numerous brilliant orange red cup-shaped flowers with exserted stamens. A small to medium-sized tree with soft pendulous translucent new leaves.",
   colour: "Orange red",
   size: "Medium-sized",
-  place: "Native to Guyana, Venezuela, Brazil and Trinidad and Tobago, cultivated in other tropical and subtropical regions",
+  place: "Native to Guyana, Venezuela, Brazil, and Trinidad and Tobago; cultivated in other tropical and subtropical regions",
   climate: "Tropical and subtropical",
   image_url: "scarlet_flame_bean.jpg",
   thumbnail_url: "scarlet_flame_bean_thumbnail.jpg",
@@ -4313,7 +4313,7 @@ sprengers_asparagus = Flower.create!(
   family: "Asparagaceae",
   significance: "Spiritual Speech",
   comment: "All-powerful in its simplicity.",
-  description: "Tiny white mildly fragrant starlike flowers with orange-tipped stamens; occurring in small clusters amidst the foliage or sometimes forming dense sprays. A fernlike perennial herb with gracefully arching stems.",
+  description: "Tiny white mildly fragrant star-like flowers with orange-tipped stamens; occurring in small clusters amidst the foliage or sometimes forming dense sprays. A fern-like perennial herb with gracefully arching stems.",
   colour: "White, orange",
   size: "Tiny",
   place: "Native to southern Africa from Mozambique to South Africa",
@@ -4331,10 +4331,10 @@ satavar = Flower.create!(
   family: "Asparagaceae",
   significance: "Beauty Arising from Consecration",
   comment: "Be sincere and absolute in your consecration to the divine and your life will become harmonious and beautiful.",
-  description: "Small delicate snowy racemes of highly fragrant tiny starlike white flowers. A light thorny vine with drooping stems and curved needlelike leaves.",
+  description: "Small delicate snowy racemes of highly fragrant tiny star-like white flowers. A light thorny vine with drooping stems and curved needle-like leaves.",
   colour: "White",
   size: "Small",
-  place: "Common throughout Nepal, Sri Lanka, India and the Himalayas",
+  place: "Common throughout Nepal, Sri Lanka, India, and the Himalayas",
   climate: "Tropical and subtropical",
   image_url: "satavar.jpg",
   thumbnail_url: "satavar_thumbnail.jpg",
@@ -4350,10 +4350,10 @@ spider_ivy = Flower.create!(
   significance: "Care",
   comment: "To be careful in what one does.",
   description: "Small white star-shaped flower with six narrow petals and six yellow-tipped stamens, blooming sparsely on a long thin erect scape. A perennial rhizomatous decorative herb with recurved leaves that have a central white stripe.",
-  colour: "White",
+  colour: "White, yellow",
   petals: "Six",
   size: "Small",
-  place: "Native to tropical and southern Africa, naturalized in other parts of the world, including western Australia",
+  place: "Native to tropical and southern Africa; naturalized in other parts of the world, including western Australia",
   climate: "Mostly tropical",
   image_url: "spider_ivy.jpg",
   thumbnail_url: "spider_ivy_thumbnail.jpg",
@@ -4368,7 +4368,7 @@ giant_squill = Flower.create!(
   significance: "Road to the Divine",
   comment: "Always long, apparently dry at times, but always abundant in its results!",
   description: "Tiny flower with three narrow white incurved sepals surrounding three pale green petals which remain closed in a ball-like shape hiding the stamens and pistil; borne on short spikes. A small bulbous succulent plant with heavily spotted leaves.",
-  colour: "White",
+  colour: "White, pale green",
   petals: "Three",
   size: "Tiny",
   place: "Native to South Africa",
@@ -4381,17 +4381,17 @@ giant_squill = Flower.create!(
 
 glory_lily = Flower.create!(
   name: "Glory Lily",
-  other_names: "Climbing lily",
+  other_names: "Climbing Lily",
   bot_name: "Gloriosa superba",
   family: "Liliaceae",
   significance: "No Quarrels",
   comment: "A very important condition to fulfil in order to facilitate the advent of the Supermind.",
-  description: "Medium-sized pendulous flower with six acutely recurved narrow petals with very wavy edges and pointed tips, and six spreading horizontal stamens beneath; the flower opens with the lower half of the petals yellow green and the upper half dull pink, then changes to greenish yellow flecked with orange and orange red, and finally at maturity turns deep orange red; borne singly on firm horizontal stalks. A tuberous climbing perennial herb with leaf tips that curl into tendrils.",
-  colour: "Six",
-  petals: "Yellow green, dull pink, orange, red",
+  description: "Medium-sized pendulous flower with six acutely recurved narrow petals with very wavy edges and pointed tips, and six spreading horizontal stamens beneath; the flower opens with the lower half of the petals yellow green and the upper half dull pink, then changes to greenish-yellow flecked with orange and orange red, and finally at maturity turns deep orange red; borne singly on firm horizontal stalks. A tuberous climbing perennial herb with leaf tips that curl into tendrils.",
+  colour: "Yellow green, dull pink, orange, red",
+  petals: "Six",
   size: "Medium-sized",
   place: "Native to much of Africa and Asia",
-  climate: "Found across temperate, subtropical and tropical regions",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "glory_lily.jpg",
   thumbnail_url: "glory_lily_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4405,11 +4405,11 @@ hyacinth = Flower.create!(
   family: "Liliaceae",
   significance: "Pride of Beauty",
   comment: "Likes to show itself and be admired.",
-  description: "Small intensely fragrant narrow funnelform flowers with six spreading to reflexed lobes, in white, yellow, pink, red, purple or blue; borne in a dense raceme on a short scape. A spring-flowering bulb.",
+  description: "Small intensely fragrant narrow funnelform flowers with six spreading to reflexed lobes, in white, yellow, pink, red, purple, or blue; borne in a dense raceme on a short scape. A spring-flowering bulb.",
   colour: "White, yellow, pink, red, purple, or blue",
   petals: "Six",
   size: "Small",
-  place: "Native to southwestern Asia, southern and central Turkey, northwestern Syria, Lebanon and northern Israel, also widely cultivated in Europe and other temperate regions",
+  place: "Native to southwestern Asia, southern and central Turkey, northwestern Syria, Lebanon, and northern Israel; also widely cultivated in Europe and other temperate regions",
   climate: "Temperate",
   image_url: "hyacinth.jpg",
   thumbnail_url: "hyacinth_thumbnail.jpg",
@@ -4425,10 +4425,10 @@ madonna_lily = Flower.create!(
   significance: "Purity Arising from Perfect Consecration",
   comment: "If one lives only for the Divine and by the Divine, the result is perfect purity.",
   description: "Large fragrant waxy pearl white trumpet-shaped flower with gently recurved segments and prominent golden anthers; borne on tall many-flowered racemes. A bulbous perennial herb with lanceolate leaves.",
-  colour: "Pearl white",
+  colour: "Pearl white, golden",
   size: "Large",
-  place: "Native to Greece, the western Balkans and the Middle East, and naturalized in other parts of Europe (France, Italy, Ukraine, etc.) as well as in North Africa, the Canary Islands, Mexico, and other places",
-  climate: "Found across temperate, subtropical and tropical regions",
+  place: "Native to Greece, the western Balkans, and the Middle East; naturalized in other parts of Europe (France, Italy, Ukraine, etc.) as well as in North Africa, the Canary Islands, Mexico, and other places",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "madonna_lily.jpg",
   thumbnail_url: "madonna_lily_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4446,7 +4446,7 @@ star_of_bethlehem = Flower.create!(
   colour: "White",
   petals: "Six",
   size: "Small",
-  place: "Native throughout most of southern and central Europe, north-western Africa and south-western Asia, also found in North America",
+  place: "Native throughout most of southern and central Europe, north-western Africa, and south-western Asia; also found in North America",
   climate: "Subtropical to temperate",
   image_url: "star_of_bethlehem.jpg",
   thumbnail_url: "star_of_bethlehem_thumbnail.jpg",
@@ -4461,10 +4461,10 @@ tulip = Flower.create!(
   significance: "Blossoming",
   comment: "The result of trust and success.",
   description: "Medium to large showy erect cup-shaped flower with six overlapping petals, in all colours; borne singly on sturdy stems. A spring-flowering bulb.",
-  colour: "In many different colours",
+  colour: "Many different colours",
   petals: "Six",
   size: "Medium to large",
-  place: "Its native range extends west to the Iberian Peninsula, through North Africa to Greece, the Balkans, Turkey, throughout the Levant (Syria, Israel, Palestinian Territories, Lebanon, Jordan) and Iran, north to Ukraine, southern Siberia and Mongolia, and east to the Northwest of China.",
+  place: "Its native range extends west to the Iberian Peninsula, through North Africa to Greece, the Balkans, Turkey, throughout the Levant (Syria, Israel, Palestinian Territories, Lebanon, Jordan), and Iran, north to Ukraine, southern Siberia and Mongolia, and east to Northwest China.",
   climate: "Mostly subtropical",
   image_url: "tulip.jpg",
   thumbnail_url: "tulip_thumbnail.jpg",
@@ -4478,10 +4478,10 @@ flowering_flax = Flower.create!(
   bot_name: "Linum grandiflorum",
   family: "Liliaceae",
   significance: "Good Temper",
-  description: "Small to medium-sized dainty cup-shaped bright crimson flower with delicately fringed petals and a tufted centre; the petals are two to three times as long as the pointed ovate sepals which have a conspicuous mid-vein; borne in erect terminal racemes. A prolific graceful annual with narrow linear needlelike leaves.",
+  description: "Small to medium-sized dainty cup-shaped bright crimson flower with delicately fringed petals and a tufted center; the petals are two to three times as long as the pointed ovate sepals which have a conspicuous mid-vein; borne in erect terminal racemes. A prolific graceful annual with narrow linear needle-like leaves.",
   colour: "Bright crimson",
   size: "Small to medium-sized",
-  place: "Native to Algeria, but it is known elsewhere in Northern Africa, Southern Europe and in several locations in North America as an introduced species",
+  place: "Native to Algeria; also introduced to Northern Africa, Southern Europe, and several locations in North America",
   climate: "Subtropical to temperate",
   image_url: "flowering_flax.jpg",
   thumbnail_url: "flowering_flax_thumbnail.jpg",
@@ -4494,12 +4494,12 @@ madamfate = Flower.create!(
   bot_name: "Hippobroma longiflora [Isotoma longiflora, Laurentia longiflora]",
   family: "Campanulaceae",
   significance: "Divine Purity",
-  comment: "It is happy just to be, in all simplicity. ",
+  comment: "It is happy just to be, in all simplicity.",
   description: "Medium-sized pure white star-shaped salverform flower with a long slender corolla tube. A low perennial herb with poisonous milky sap and sharply dentate leaves.",
   colour: "Pure white",
   petals: "Five",
   size: "Medium-sized",
-  place: "Endemic to the West Indies, but has become naturalized across the American tropics and Oceania",
+  place: "Endemic to the West Indies; naturalized across the American tropics and Oceania",
   climate: "Tropical",
   image_url: "madamfate.jpg",
   thumbnail_url: "madamfate_thumbnail.jpg",
@@ -4514,11 +4514,11 @@ summer_lilac = Flower.create!(
   family: "Scrophulariaceae",
   significance: "Refinement",
   comment: "Little by little, coarseness is eliminated from the being.",
-  description: "Tiny fragrant four-lobed tubular flowers in white and shades of pink, purple, yellow and orange; borne in dense terminal spikes. A medium to large shrub.",
+  description: "Tiny fragrant four-lobed tubular flowers in white and shades of pink, purple, yellow, and orange; borne in dense terminal spikes. A medium to large shrub.",
   colour: "White and shades of pink, purple, yellow, and orange",
   petals: "Four",
   size: "Tiny",
-  place: "Native to Japan, and central China",
+  place: "Native to Japan and central China",
   climate: "Subtropical to temperate",
   image_url: "summer_lilac.jpg",
   thumbnail_url: "summer_lilac_thumbnail.jpg",
@@ -4533,7 +4533,7 @@ honey_suckled_mistletoe = Flower.create!(
   significance: "Mental Spirit of Imitation",
   comment: "What you cannot find for yourself, you imitate.",
   description: "Medium-sized pale orange yellow narrow tubular flower with exserted stamens tipped with bright red anthers and a corolla tube that ends in five narrow green recurved lobes resembling a star; borne in axillary clusters along the branches of trees. A parasitic plant.",
-  colour: "Pale orange yellow, bright red",
+  colour: "Pale orange yellow, bright red, green",
   size: "Medium-sized",
   place: "Found in tropical Africa, Asia, and Australia",
   climate: "Tropical",
@@ -4549,10 +4549,10 @@ mistletoe = Flower.create!(
   family: "Santalaceae (Viscaceae)",
   significance: "Sign of the Spirit",
   comment: "The Spirit says, \“I am here\”.",
-  description: "Tiny translucent white globose berries in large clusters. A yellowish green parasitic shrub.",
+  description: "Tiny translucent white globose berries in large clusters. A yellowish-green parasitic shrub.",
   colour: "White",
   size: "Tiny",
-  place: "Native to Europe and western and southern Asia",
+  place: "Native to Europe, and western and southern Asia",
   climate: "Subtropical to temperate",
   image_url: "mistletoe.jpg",
   thumbnail_url: "mistletoe_thumbnail.jpg",
@@ -4564,12 +4564,12 @@ tall_cigar_plant = Flower.create!(
   name: "Tall Cigar Plant",
   bot_name: "Cuphea micropetala",
   family: "Lythraceae",
-  significance: "Vegetal Goodwill Towards the Supramental Forces",
+  significance: "Vegetal Goodwill towards the Supramental Forces",
   comment: "Each does what it can.",
   description: "Small cream yellow tubular flower tinged orange at the base, borne in leafy terminal racemes. A many-stemmed subshrub with lanceolate leaves.",
   colour: "Cream yellow, orange",
   size: "Small",
-  place: "Native to Mexico, cultivated as a garden plant in many other regions",
+  place: "Native to Mexico; cultivated as a garden plant in many other regions",
   climate: "Tropical",
   image_url: "tall_cigar_plant.jpg",
   thumbnail_url: "tall_cigar_plant_thumbnail.jpg",
@@ -4642,7 +4642,7 @@ slender_golden_shower = Flower.create!(
   colour: "Yellow",
   petals: "Five",
   size: "Small",
-  place: "Native to Mexico, cultivated in tropical regions",
+  place: "Native to Mexico; cultivated in tropical regions",
   climate: "Tropical",
   image_url: "slender_golden_shower.jpg",
   thumbnail_url: "slender_golden_shower_thumbnail.jpg",
@@ -4660,7 +4660,7 @@ hiptage = Flower.create!(
   colour: "White, yellow",
   petals: "Five",
   size: "Small",
-  place: "Native to India, Southeast Asia and the Philippines",
+  place: "Native to India, Southeast Asia, and the Philippines",
   climate: "Tropical and subtropical",
   image_url: "hiptage.jpg",
   thumbnail_url: "hiptage_thumbnail.jpg",
@@ -4679,7 +4679,7 @@ barbados_cherry = Flower.create!(
   colour: "Rose pink",
   petals: "Five",
   size: "Small",
-  place: "Found in south Texas, Mexico, Central America, the Caribbean, South America as far as Peru and Brazil",
+  place: "Found in south Texas, Mexico, Central America, the Caribbean, and in South America as far as Peru and Brazil",
   climate: "Tropical",
   image_url: "barbados_cherry.jpg",
   thumbnail_url: "barbados_cherry_thumbnail.jpg",
@@ -4694,11 +4694,11 @@ miniature_holly = Flower.create!(
   family: "Malpighiaceae",
   significance: "Sensitivity",
   comment: "One of the results of refinement of the being.",
-  description: "Small delicate white rotate flower with widely separated rounded petals, a greenish centre and yellow anthers; borne singly or in axillary clusters. A highly attractive evergreen shrub with small hollylike leaves.",
+  description: "Small delicate white rotate flower with widely separated rounded petals, a greenish center and yellow anthers; borne singly or in axillary clusters. A highly attractive evergreen shrub with small holly-like leaves.",
   colour: "White, green, yellow",
   petals: "Five",
   size: "Small",
-  place: "Found in south Texas, Mexico, Central America, the Caribbean, South America as far as Peru and Brazil",
+  place: "Found in south Texas, Mexico, Central America, the Caribbean, and in South America as far as Peru and Brazil",
   climate: "Tropical",
   image_url: "miniature_holly.jpg",
   thumbnail_url: "miniature_holly_thumbnail.jpg",
@@ -4712,7 +4712,7 @@ maidens_jealousy = Flower.create!(
   bot_name: "Tristellateia australasiae",
   family: "Malpighiaceae",
   significance: "Mental Honesty",
-  comment: "One does not try to deceive others nor to deceive itself.",
+  comment: "One does not try to deceive others nor to deceive oneself.",
   description: "Small bright yellow flower with five narrow separated petals and tiny red stamens; borne in short racemes. An almost ever-blooming woody vine of moderate growth.",
   colour: "Bright yellow, red",
   petals: "Five",
@@ -4755,7 +4755,7 @@ white_silk_cotton_tree = Flower.create!(
   colour: "Cream white",
   petals: "Five",
   size: "Medium-sized",
-  place: "Native to Mexico, Central America and the Caribbean, northern South America and to tropical west Africa, cultivated in south-east Asia",
+  place: "Native to Mexico, Central America and the Caribbean, northern South America, and tropical west Africa; cultivated in south-east Asia",
   climate: "Tropical",
   image_url: "white_silk_cotton_tree.jpg",
   thumbnail_url: "white_silk_cotton_tree_thumbnail.jpg",
@@ -4772,7 +4772,7 @@ tree_cotton = Flower.create!(
   description: "Medium-sized dark red cup-shaped flower with twisted tightly overlapping satiny petals set in three large dull green bracts tinged with red; borne singly in the leaf axils. A medium to large shrub with deeply lobed leaves and ripe seed capsules that open into conspicuous rounded white cotton balls.",
   colour: "Dark red, dull green",
   size: "Medium-sized",
-  place: "Native to India, Pakistan and other tropical and subtropical regions of the world",
+  place: "Native to India, Pakistan, and other tropical and subtropical regions of the world",
   climate: "Tropical and subtropical",
   image_url: "tree_cotton.jpg",
   thumbnail_url: "tree_cotton_thumbnail.jpg",
@@ -4785,9 +4785,9 @@ cotton = Flower.create!(
   bot_name: "Gossypium",
   family: "Malvaceae",
   significance: "Material Abundance",
-  comment: "Nature always shows us what true abundance is-one is overwhelmed!",
+  comment: "Nature always shows us what true abundance is. One is overwhelmed!",
   description: "Medium-sized yellow or cream white somewhat cup-shaped flower with five sheer overlapping petals, occasionally with a purple red spot at the base; set in conspicuous green fringed bracts on short stems in the leaf axils. An annual or perennial herb or shrub.",
-  colour: "Yellow or cream white",
+  colour: "Yellow or cream white, purple red",
   petals: "Five",
   size: "Medium-sized",
   place: "Native to the tropical and subtropical regions of the world",
@@ -4808,7 +4808,7 @@ japanese_hibiscus = Flower.create!(
   description: "Medium-sized single pendulous light red flower streaked with white; the separated petals are deeply indented and fully recurved.",
   colour: "Light red, white",
   size: "Medium-sized",
-  place: "Native to tropical eastern Africa in Kenya, Tanzania and Mozambique",
+  place: "Native to tropical eastern Africa in Kenya, Tanzania, and Mozambique",
   climate: "Tropical",
   image_url: "japanese_hibiscus.jpg",
   thumbnail_url: "japanese_hibiscus_thumbnail.jpg",
@@ -4822,7 +4822,7 @@ portia_tree = Flower.create!(
   family: "Malvaceae",
   significance: "Health",
   comment: "Not to be preoccupied with it, but to leave it to the Divine.",
-  description: "Medium-sized bright yellow flower with five tightly overlapping slightly crinkled petals that form a deep cup, each petal spotted with red at the base; borne singly. A medium-sized tree with ovate-cordate leaves.",
+  description: "Medium-sized bright yellow flower with five tightly overlapping slightly crinkled petals that form a deep cup, and each petal spotted with red at the base; borne singly. A medium-sized tree with ovate-cordate leaves.",
   colour: "Bright yellow, red",
   petals: "Five",
   size: "Medium-sized",
@@ -4841,8 +4841,8 @@ unicorn_plant = Flower.create!(
   family: "Martyniaceae",
   significance: "Regularity",
   comment: "Indispensable for all serious accomplishment.",
-  description: "Small flattened tubular flower with five irregular recurved lobes; the white tube is tinged pink and covered outside with fine hairs, the pale pink lobes are blotched with rose and deep reddish purple and the throat is spotted with golden orange; borne in racemes among the leaves. A viscid hairy annual herb.",
-  colour: "White, pink, rose, deep reddish purple, golden orange",
+  description: "Small flattened tubular flower with five irregular recurved lobes; the white tube is tinged pink and covered outside with fine hairs, the pale pink lobes are blotched with rose and deep reddish-purple and the throat is spotted with golden orange; borne in racemes among the leaves. A viscid hairy annual herb.",
+  colour: "White, pink, rose, deep reddish-purple, golden orange",
   petals: "Five",
   size: "Small",
   place: "Endemic to Mexico",
@@ -4863,7 +4863,7 @@ ironwood = Flower.create!(
   colour: "Intense blue, cream white, rose pink",
   petals: "Four",
   size: "Tiny",
-  place: "Found in India, the Andaman Islands and the coastal region of the Deccan, and also in Sri Lanka",
+  place: "Found in India, the Andaman Islands, the coastal region of the Deccan, and also in Sri Lanka",
   climate: "Mostly tropical",
   image_url: "ironwood.jpg",
   thumbnail_url: "ironwood_thumbnail.jpg",
@@ -4895,7 +4895,7 @@ neem = Flower.create!(
   bot_name: "Azadirachta indica",
   family: "Meliaceae",
   significance: "Spiritual Atmosphere",
-  comment: "Light, fluid, clear, transparent and so clean.",
+  comment: "Light, fluid, clear, transparent, and so clean.",
   description: "Tiny fragrant white star-shaped flowers with a narrow corona; borne in airy panicles. A medium-sized tree with dense foliage.",
   colour: "White",
   petals: "Five",
@@ -4914,8 +4914,8 @@ chinaberry = Flower.create!(
   bot_name: "Melia azedarach",
   family: "Meliaceae",
   significance: "Distinction of the Vital",
-  comment: "Light and graceful, of refined elegance; Distinction is the result of refinement, aristocracy, measure and artistic fineness.",
-  description: "Small fragrant star-shaped flower with a narrow deep purple stamina tube and five narrow recurved white petals tinged with mauve; borne in axillary panicles. A medium-sized spreading ornamental tree.",
+  comment: "Light and graceful, of refined elegance; Distinction is the result of refinement, aristocracy, measure, and artistic fineness.",
+  description: "Small fragrant star-shaped flower with a narrow deep purple staminal tube and five narrow recurved white petals tinged with mauve; borne in axillary panicles. A medium-sized spreading ornamental tree.",
   colour: "White, mauve to deep purple",
   petals: "Five",
   size: "Small",
@@ -4934,11 +4934,11 @@ horse_radish_tree = Flower.create!(
   family: "Moringaceae",
   significance: "Hygienic Organisation",
   comment: "Cleanliness, order, utility.",
-  description: "Small fragrant cream white flower with four lower recurved petals, an erect central petal behind the conspicuous yellow anthers and five white sepals that curve downward below the petals; borne in axillary panicles. A commonly cultivated small tree with rounded pinnate leaves and long narrow pods, used as a vegetable in an unripe state.",
+  description: "Small fragrant cream white flower with four lower recurved petals, an erect central petal behind the conspicuous yellow anthers, and five white sepals that curve downward below the petals; borne in axillary panicles. A commonly cultivated small tree with rounded pinnate leaves and long narrow pods, used as a vegetable in an unripe state.",
   colour: "Cream white, yellow",
   petals: "Five",
   size: "Small",
-  place: "Native to the southern foothills of the Himalayas in northwestern India, and widely cultivated in tropical and subtropical areas",
+  place: "Native to the southern foothills of the Himalayas in northwestern India; widely cultivated in tropical and subtropical areas",
   climate: "Tropical and subtropical",
   image_url: "horse_radish_tree.jpg",
   thumbnail_url: "horse_radish_tree_thumbnail.jpg",
@@ -4954,9 +4954,9 @@ false_bird_of_paradise = Flower.create!(
   significance: "Bird of Paradise",
   comment: "A bird that never flies away.",
   description: "Large sturdy erect orange red bracts, somewhat boat-shaped or resembling a lobster claw, enclosing small inconspicuous pale green flowers and arranged alternately in a terminal inflorescence. A clumping rhizomatous herb with leaves that are similar to those of the banana plant.",
-  colour: "Orange and red, pale green",
+  colour: "Orange red, pale green",
   size: "Small",
-  place: "Native to the tropical Americas, but a few are indigenous to certain islands of the western Pacific and Maluku",
+  place: "Native to the tropical Americas, but a few species are indigenous to certain islands of the western Pacific and Maluku",
   climate: "Tropical",
   image_url: "false_bird_of_paradise.jpg",
   thumbnail_url: "false_bird_of_paradise_thumbnail.jpg",
@@ -4972,9 +4972,9 @@ bird_of_paradise = Flower.create!(
   significance: "Supramental Bird",
   comment: "It remains where it has descended.",
   description: "Large spectacular orange yellow flower with a dark blue \"tongue\" that emerges from a folded bract, the whole inflorescence resembling the head of a crested bird; borne on long sturdy stalks. A rhizomatous clumping perennial herb with leaves that are similar to those of the banana plant.",
-  colour: "Yellow, blue",
+  colour: "Orange yellow, dark blue",
   size: "Large",
-  place: "Native to South Africa, naturalized in Mexico, Belize, Bangladesh, Madeira Islands and Juan Fernández Islands off the coast of Chile",
+  place: "Native to South Africa; naturalized in Mexico, Belize, Bangladesh, Madeira Islands, and Juan Fernández Islands off the coast of Chile",
   climate: "Tropical and subtropical",
   image_url: "bird_of_paradise.jpg",
   thumbnail_url: "bird_of_paradise_thumbnail.jpg",
@@ -4988,9 +4988,9 @@ bottlebrush = Flower.create!(
   family: "Myrtaceae",
   significance: "Joy of Vegetal Nature in Answer to the New Light",
   comment: "It dances with joy and laughs happily.",
-  description: "All species with long showy bright red exserted stamens and tiny inconspicuous greenish white petals set among linear lanceolate leaves; borne in spikes resembling a bottlebrush. A shrub or small tree with aromatic leaves.",
-  colour: "Red",
-  place: "Endemic to the temperate regions of Australia, widely cultivated in many other regions",
+  description: "All species with long showy bright red exserted stamens and tiny inconspicuous greenish-white petals set among linear lanceolate leaves; borne in spikes resembling a bottlebrush. A shrub or small tree with aromatic leaves.",
+  colour: "Red, greenish-white",
+  place: "Endemic to the temperate regions of Australia; widely cultivated in many other regions",
   climate: "Subtropical to temperate",
   image_url: "bottlebrush.jpg",
   thumbnail_url: "bottlebrush_thumbnail.jpg",
@@ -5005,10 +5005,10 @@ eucalyptus = Flower.create!(
   family: "Myrtaceae",
   significance: "Abolition of the Ego",
   comment: "One exists only by the Divine and for the Divine.",
-  description: "All species that have small cream white brushlike flowers composed of stamens with a concave centre and are borne in axillary clusters of three or more. Over 500 species of evergreen trees with aromatic leaves.",
+  description: "All species that have small cream white brush-like flowers composed of stamens with a concave center and are borne in axillary clusters of three or more. Over 500 species of evergreen trees with aromatic leaves.",
   colour: "Cream white",
   size: "Small",
-  place: "Native to Australia, also cultivated in other tropical and temperate regions",
+  place: "Native to Australia; also cultivated in other tropical and temperate regions",
   climate: "Tropical to temperate",
   image_url: "eucalyptus.jpg",
   thumbnail_url: "eucalyptus_thumbnail.jpg",
@@ -5023,10 +5023,10 @@ rose_apple = Flower.create!(
   family: "Myrtaceae",
   significance: "Mastery",
   comment: "Know what the Divine wants and you will have mastery.",
-  description: "Medium-sized fragrant flower composed of numerous long showy white to greenish white stamens; borne in few-flowered terminal clusters. A medium-sized evergreen tree with fragrant edible fruits.",
-  colour: "White to greenish white",
+  description: "Medium-sized fragrant flower composed of numerous long showy white to greenish-white stamens; borne in few-flowered terminal clusters. A medium-sized evergreen tree with fragrant edible fruits.",
+  colour: "White to greenish-white",
   size: "Medium-sized",
-  place: "Native to Southeast Asia, occurs widely elsewhere",
+  place: "Native to Southeast Asia; occurs widely elsewhere",
   climate: "Tropical and subtropical",
   image_url: "rose_apple.jpg",
   thumbnail_url: "rose_apple_thumbnail.jpg",
@@ -5039,7 +5039,7 @@ myrtle = Flower.create!(
   other_names: "Greek Myrtle, Swedish Myrtle",
   bot_name: "Myrtus communis",
   family: "Myrtaceae",
-  significance: "To Live Only For the Divine",
+  significance: "To Live Only for the Divine",
   comment: "This means to have overcome all the difficulties of the individual life.",
   description: "Small very fragrant pure white flower with four spreading rounded petals and a central tuft of delicate stamens; borne singly or in few-flowered cymes. An evergreen shrub with dark green glossy leaves that have a spicy fragrance when bruised.",
   colour: "Pure white",
@@ -5060,11 +5060,11 @@ common_guava = Flower.create!(
   family: "Myrtaceae",
   significance: "Steadfastness",
   comment: "What it has chosen it keeps and does not like to change.",
-  description: "Medium-sized mildly fragrant white saucer-shaped flower with five petals and a prominent centre of numerous stamens; borne in pairs in few-flowered clusters. A small to medium-sized evergreen fruit tree.",
+  description: "Medium-sized mildly fragrant white saucer-shaped flower with five petals and a prominent center of numerous stamens; borne in pairs in few-flowered clusters. A small to medium-sized evergreen fruit tree.",
   colour: "White",
   petals: "Five",
   size: "Medium-sized",
-  place: "Native to the Caribbean, Central America and South America",
+  place: "Native to the Caribbean, Central America, and South America",
   climate: "Tropical",
   image_url: "common_guava.jpg",
   thumbnail_url: "common_guava_thumbnail.jpg",
@@ -5083,8 +5083,8 @@ indian_red_water_lily = Flower.create!(
   colour: "Magenta pink",
   petals: "Numerous",
   size: "Large",
-  place: "Found throughout temperate and tropical Asia: Bangladesh, India, Sri Lanka, Yunnan, Taiwan, the Philippines, Cambodia, Laos, Myanmar, Thailand, Vietnam, Indonesia and Malaysia. It is also found in northeastern Australia and Papua New Guinea",
-  climate: "Found across temperate, subtropical and tropical regions",
+  place: "Found throughout temperate and tropical Asia: Bangladesh, India, Sri Lanka, Yunnan, Taiwan, the Philippines, Cambodia, Laos, Myanmar, Thailand, Vietnam, Indonesia, and Malaysia; also found in northeastern Australia and Papua New Guinea",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "indian_red_water_lily.jpg",
   thumbnail_url: "indian_red_water_lily_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5099,9 +5099,9 @@ birds_eye_bush = Flower.create!(
   significance: "Greed for Money",
   comment: "The surest way to diminish one’s consciousness and narrow one’s nature.",
   description: "Small glossy jet black oval fruits that protrude from waxy red sepals; borne in short panicles. A decorative woody shrub with narrow leathery leaves and delicate evanescent yellow flowers.",
-  colour: "Red, black",
+  colour: "Red, black, yellow",
   size: "Small",
-  place: "Native to tropical woodlands of Africa, Madagascar, the Mascarenes and Asia",
+  place: "Native to tropical woodlands of Africa, Madagascar, the Mascarenes, and Asia",
   climate: "Tropical",
   image_url: "birds_eye_bush.jpg",
   thumbnail_url: "birds_eye_bush_thumbnail.jpg",
@@ -5113,13 +5113,13 @@ italian_yellow_jasmine = Flower.create!(
   name: "Italian Yellow Jasmine",
   bot_name: "Jasminum humile",
   family: "Oleaceae",
-  significance: "Correct Self-Evaluation/Self-Estimation",
+  significance: "Correct Self-evaluation / Self-estimation",
   comment: "Simple and modest, does not try to put itself forward.",
   description: "Small fragrant yellow salverform flower with five rounded petals; borne in sparse umbellate clusters. A scandent shrub or loose vine with compound leaves.",
   colour: "Yellow",
   petals: "Five",
   size: "Small",
-  place: "Native to Afghanistan, Tajikistan, Nepal, Burma (Myanmar), the Himalayas and south west China",
+  place: "Native to Afghanistan, Tajikistan, Nepal, Burma (Myanmar), the Himalayas, and south west China",
   climate: "Mostly subtropical",
   image_url: "italian_yellow_jasmine.jpg",
   thumbnail_url: "italian_yellow_jasmine_thumbnail.jpg",
@@ -5133,11 +5133,11 @@ lilac = Flower.create!(
   family: "Oleaceae",
   significance: "Distinction",
   comment: "Of a refined beauty, sufficient to itself.",
-  description: "Tiny very fragrant salverform flowers with a limb composed of four spreading lobes, in white and shades of purple, pink, red, blue and yellow, also bicoloured; borne in dense many-flowered terminal or axillary panicles. A deciduous shrub or small tree.",
-  colour: "White and shades of purple, pink, red, blue, and yellow",
+  description: "Tiny very fragrant salverform flowers with a limb composed of four spreading lobes, in white and shades of purple, pink, red, blue, and yellow, also bicoloured; borne in dense many-flowered terminal or axillary panicles. A deciduous shrub or small tree.",
+  colour: "White and shades of purple, pink, red, blue, and yellow, or bicoloured",
   petals: "Four",
   size: "Tiny",
-  place: "Native to woodland and scrub from southeastern Europe to eastern Asia, and widely and commonly cultivated in temperate areas elsewhere",
+  place: "Native to woodlands and scrubs from southeastern Europe to eastern Asia; widely cultivated in temperate areas elsewhere",
   climate: "Mostly temperate",
   image_url: "lilac.jpg",
   thumbnail_url: "lilac_thumbnail.jpg",
@@ -5151,7 +5151,7 @@ farewell_to_spring = Flower.create!(
   bot_name: "Clarkia unguiculata",
   family: "Onagraceae",
   significance: "Glad Remembrance",
-  comment: "In activity and in silence, in taking and in giving, always the glad remembrance of Thee. ",
+  comment: "In activity and in silence, in taking and in giving, always the glad remembrance of Thee.",
   description: "Erect racemes of small double flowers with soft delicate ruffled petals, in white and shades of purple and pink. A slender branching showy garden annual.",
   colour: "White and shades of purple and pink",
   size: "Small",
@@ -5168,9 +5168,9 @@ ladys_eardrops = Flower.create!(
   bot_name: "Fuchsia",
   family: "Onagraceae",
   significance: "Art",
-  comment: "Living only to express beauty. ",
-  description: "Small to medium-sized pendulous flower that resembles a lantern or a ballerina's skirt, with four usually recurved and colourful sepals that spread above four tightly overlapping rounded petals and prominent exserted stamens; in white and shades of pink, red and purple, often bicoloured and double; borne singly from the leaf axils or in terminal racemes or panicles. A small shrub to small tree.",
-  colour: "White and shades of pink, red, and purple; may be bicoloured",
+  comment: "Living only to express beauty.",
+  description: "Small to medium-sized pendulous flower that resembles a lantern or a ballerina's skirt, with four usually recurved and colourful sepals that spread above four tightly overlapping rounded petals and prominent exserted stamens; in white and shades of pink, red, and purple, often bicoloured and double; borne singly from the leaf axils or in terminal racemes or panicles. A small shrub to small tree.",
+  colour: "White and shades of pink, red, and purple, or bicoloured",
   petals: "Four",
   size: "Small to medium-sized",
   place: "Native to South America, but with a few occurring north through Central America to Mexico, and also several from New Zealand to Tahiti",
@@ -5184,11 +5184,11 @@ ladys_eardrops = Flower.create!(
 scarlet_orchid = Flower.create!(
   name: "Scarlet Orchid",
   other_names: "Butterfly Orchid, Baby Orchid",
-  bot_name: "Epidendrum X obrienianum",
+  bot_name: "Epidendrum x obrienianum",
   family: "Orchidaceae",
   significance: "Attachment of the Cells to the Divine",
   comment: "They know how to expect everything from Him and to rely only on Him.",
-  description: "Numerous small deep red star-shaped flowers that have a prominent uniquely shaped fringed lip with a golden yellow spot; borne in terminal clusters on long stems. A tall slender epiphytic orchid.",
+  description: "Numerous small deep red star-shaped flowers that have a prominent uniquely-shaped fringed lip with a golden yellow spot; borne in terminal clusters on long stems. A tall slender epiphytic orchid.",
   colour: "Deep red, golden yellow",
   size: "Small",
   place: "Found in the United States",
@@ -5205,11 +5205,11 @@ blue_orchid = Flower.create!(
   family: "Orchidaceae",
   significance: "Attachment in the Emotional Vital to the Divine",
   comment: "An artistic and graceful attachment, perhaps a little fanciful.",
-  description: "Medium-sized light lavender-blue flower with a small violet lip and five obovate widely separated petals; borne in racemes on erect scapes. An epiphyte with straplike leaves.",
-  colour: "Light lavender-blue",
+  description: "Medium-sized light lavender-blue flower with a small violet lip and five obovate widely separated petals; borne in racemes on erect scapes. An epiphyte with strap-like leaves.",
+  colour: "Light lavender-blue, violet",
   petals: "Five",
   size: "Medium-sized",
-  place: "Found in Assam and neighbouring Khasi hills with its range extending to China (southern Yunnan)",
+  place: "Found in Assam and neighbouring Khasi hills, with its range extending to China (southern Yunnan)",
   climate: "Subtropical",
   image_url: "blue_orchid.jpg",
   thumbnail_url: "blue_orchid_thumbnail.jpg",
@@ -5222,9 +5222,9 @@ starfruit = Flower.create!(
   other_names: "Carambola Tree",
   bot_name: "Averrhoa carambola",
   family: "Oxalidaceae",
-  significance: "Organised Team-Work",
+  significance: "Organised Team-work",
   comment: "Each in his place and all together.",
-  description: "Tiny mildly fragrant rose purple flowers with five acutely recurved petals edged in white; borne in short dense axillary and terminal panicles. A small tree with edible fruit.",
+  description: "Tiny mildly fragrant rose purple flowers with five acutely recurved petals edged in white; borne in short dense axillary and terminal panicles. A small tree with edible fruits.",
   colour: "Rose purple, white",
   petals: "Five",
   size: "Tiny",
@@ -5243,12 +5243,12 @@ sorrel = Flower.create!(
   family: "Oxalidaceae",
   significance: "Candid Simplicity in the Vital",
   comment: "One of the most difficult qualities for the vital to acquire.",
-  description: "Small lavender pink to rose purple cup-shaped flower with five rounded petals and a light green centre with a yellow-tipped pistil and stamens; borne in few-flowered umbels. A small bulbous perennial herb with usually trifoliate leaves.",
+  description: "Small lavender pink to rose purple cup-shaped flower with five rounded petals and a light green center with a yellow-tipped pistil and stamens; borne in few-flowered umbels. A small bulbous perennial herb with usually trifoliate leaves.",
   colour: "Lavender pink to rose purple, light green, yellow",
   petals: "Five",
   size: "Small",
-  place: "Occurs throughout most of the world, except for the polar areas; species diversity is particularly rich in tropical Brazil, Mexico and South Africa.",
-  climate: "Found across temperate, subtropical and tropical regions",
+  place: "Occurs throughout most of the world, except for the polar areas; species diversity is particularly rich in tropical Brazil, Mexico, and South Africa",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "sorrel.jpg",
   thumbnail_url: "sorrel_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5261,12 +5261,12 @@ peony = Flower.create!(
   family: "Paeoniaceae",
   significance: "Beauty in Art",
   comment: "A beauty that displays itself and allows itself to be contemplated.",
-  description: "Large showy fragrant single or double bowl-shaped flowers with broad slightly recurved and often frilled petals; in white, yellow, purple, red and pink; borne terminally, one to many. A floriferous perennial herb or shrub that is among the most popular garden plants in temperate climates.",
+  description: "Large showy fragrant single or double bowl-shaped flowers with broad slightly recurved and often frilled petals; in white, yellow, purple, red, and pink; borne terminally, one to many. A floriferous perennial herb or shrub that is among the most popular garden plants in temperate climates.",
   colour: "White, yellow, purple, red, or pink",
   petals: "Numerous",
   size: "Large",
-  place: "Native to Asia, Southern Europe and Western North America",
-  climate: "Found across temperate, subtropical and tropical regions",
+  place: "Native to Asia, Southern Europe, and Western North America",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "peony.jpg",
   thumbnail_url: "peony_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5317,7 +5317,7 @@ pandanus_palm = Flower.create!(
   family: "Pandanaceae",
   significance: "Spiritual Perfume",
   comment: "It has an extraordinary power of attraction.",
-  description: "Highly fragrant tiny woolly cream yellow flowers borne on very dense spikes that are enclosed in folded leaflike triangular sheaths with sharp barbed thorns on the margins, the whole resembling an ear of corn. A large shrub with aerial prop roots and stiff spiny leaves.",
+  description: "Highly fragrant tiny woolly cream yellow flowers borne on very dense spikes that are enclosed in folded leaf-like triangular sheaths with sharp barbed thorns on the margins, the whole resembling an ear of corn. A large shrub with aerial prop roots and stiff spiny leaves.",
   colour: "Cream yellow",
   size: "Tiny",
   place: "Native to Malesia, eastern Australia, and the Pacific Islands",
@@ -5338,7 +5338,7 @@ bleeding_heart = Flower.create!(
   colour: "Rose pink, white",
   petals: "Four",
   size: "Small",
-  place: "Native to Siberia, northern China, Korea and Japan",
+  place: "Native to Siberia, northern China, Korea, and Japan",
   climate: "Temperate",
   image_url: "bleeding_heart.jpg",
   thumbnail_url: "bleeding_heart_thumbnail.jpg",
@@ -5353,11 +5353,11 @@ corn_poppy = Flower.create!(
   family: "Papaveraceae",
   significance: "Spontaneous Joy of Nature",
   comment: "It is man who has made Nature sorrowful.",
-  description: "Medium-sized showy cup-shaped usually single flower with four wide delicately crinkled satiny petals and a central tuft of numerous stamens; in shades of red, purple, pink, orange and occasionally white; borne singly on long stems. A small erect branching annual herb.",
+  description: "Medium-sized showy cup-shaped usually single flower with four wide delicately crinkled satiny petals and a central tuft of numerous stamens; in shades of red, purple, pink, orange, and occasionally white; borne singly on long stems. A small erect branching annual herb.",
   colour: "Shades of red, purple, pink, orange, and occasionally white",
   petals: "Four",
   size: "Medium-sized",
-  place: "Native range includes West Asia, North Africa and Europe",
+  place: "Native range includes West Asia, North Africa, and Europe",
   climate: "Subtropical to temperate",
   image_url: "corn_poppy.jpg",
   thumbnail_url: "corn_poppy_thumbnail.jpg",
@@ -5375,7 +5375,7 @@ running_pop = Flower.create!(
   description: "Small delicate white flower backed by three viscid hairy green bracts and filled with numerous curled filaments; the pale green anthers and styles arise from a short staminal column; borne singly or in pairs from the leaf axils. A small perennial wayside vine with densely hairy stems and soft downy leaves that are shallowly three-lobed.",
   colour: "White, green",
   size: "Small",
-  place: "Native to the southwestern United States (southern Texas and Arizona), Mexico, the Caribbean, Central America, and much of South America. It has been introduced to tropical regions around the world, such as Southeast Asia and Hawaii",
+  place: "Native to the southwestern United States (southern Texas and Arizona), Mexico, the Caribbean, Central America, and much of South America; has been introduced to tropical regions around the world, such as Southeast Asia and Hawaii",
   climate: "Tropical",
   image_url: "running_pop.jpg",
   thumbnail_url: "running_pop_thumbnail.jpg",
@@ -5386,12 +5386,12 @@ running_pop = Flower.create!(
 passion_flower = Flower.create!(
   name: "Passion Flower",
   other_names: "Passion Vine",
-  bot_name: "Passiflora Incarnata X cincinnata 'Incense'",
+  bot_name: "Passiflora Incarnata x cincinnata 'Incense'",
   family: "Passifloraceae",
   significance: "Silence",
   comment: "The ideal condition for progress.",
-  description: "Striking royal purple intensely fragrant medium-sized flower composed of two rings of numerous filaments banded with white towards the rose pink centre; the three prominent styles and five anthers arise from the centre on a short staminal column; borne singly or in pairs from the leaf axils. A robust perennial vine with deeply cut three-lobed leaves.",
-  colour: "Royal purple",
+  description: "Striking royal purple intensely fragrant medium-sized flower composed of two rings of numerous filaments banded with white towards the rose pink center; the three prominent styles and five anthers arise from the center on a short staminal column; borne singly or in pairs from the leaf axils. A robust perennial vine with deeply cut three-lobed leaves.",
+  colour: "Royal purple, white, rose pink",
   petals: "Numerous",
   size: "Medium-sized",
   place: "Found in tropical and subtropical regions of America and other places",
@@ -5404,7 +5404,7 @@ passion_flower = Flower.create!(
 
 perfumed_passion_flower = Flower.create!(
   name: "Perfumed Passion Flower",
-  other_names: "Vine-Leaf Passion Flower, Crimson Passion Flower",
+  other_names: "Vine-leaf Passion Flower, Crimson Passion Flower",
   bot_name: "Passiflora vitifolia",
   family: "Passifloraceae",
   significance: "Power Aspiring to become an Instrument for the Divine Work",
@@ -5413,7 +5413,7 @@ perfumed_passion_flower = Flower.create!(
   colour: "Bright red, white, yellow green",
   petals: "Five",
   size: "Large",
-  place: "Native to southern Central America (Costa Rica, Nicaragua, Panama) and northwestern South America (Venezuela, Colombia, Ecuador, Peru)",
+  place: "Native to southern Central America (Costa Rica, Nicaragua, Panama), and northwestern South America (Venezuela, Colombia, Ecuador, Peru)",
   climate: "Tropical",
   image_url: "perfumed_passion_flower.jpg",
   thumbnail_url: "perfumed_passion_flower_thumbnail.jpg",
@@ -5428,11 +5428,11 @@ sesame = Flower.create!(
   family: "Pedaliaceae",
   significance: "Concilliation",
   comment: "Likes smooth contacts.",
-  description: "Small white finely pubescent tubular flower with five shallow irregular lobes and a very light pink centre; borne singly in the leaf axils. An erect annual herb with softly pubescent ovate leaves.",
+  description: "Small white finely pubescent tubular flower with five shallow irregular lobes and a very light pink center; borne singly in the leaf axils. An erect annual herb with softly pubescent ovate leaves.",
   colour: "White, light pink",
   petals: "Five",
   size: "Small",
-  place: "Native to India, widely naturalized in tropical regions around the world",
+  place: "Native to India; widely naturalized in tropical regions around the world",
   climate: "Mostly tropical",
   image_url: "sesame.jpg",
   thumbnail_url: "sesame_thumbnail.jpg",
@@ -5446,8 +5446,8 @@ indian_leadwort = Flower.create!(
   family: "Plumbaginaceae",
   significance: "Organisation of the Being around the Psychic",
   comment: "The first stage of transformation.",
-  description: "Small pinkish red salverform flower with five rounded lobes and a thin corolla tube, set in a dark red tubular calyx covered with hairs; borne in spikelike racemes. A semi-scandent evergreen shrub.",
-  colour: "Pinkish red, dark red",
+  description: "Small pinkish-red salverform flower with five rounded lobes and a thin corolla tube, set in a dark red tubular calyx covered with hairs; borne in spike-like racemes. A semi-scandent evergreen shrub.",
+  colour: "Pinkish-red, dark red",
   petals: "Five",
   size: "Small",
   place: "Native to south east Asia",
@@ -5501,7 +5501,7 @@ rock_purslane = Flower.create!(
   family: "Portulacaceae",
   significance: "Material Power to Heal",
   comment: "Demands a great sincerity in one’s goodwill.",
-  description: "Small bright pink flower with a centre of numerous tiny yellow anthers; borne in loose racemes but usually opens singly. A low fleshy perennial herb with three-sided stems and edible leaves.",
+  description: "Small bright pink flower with a center of numerous tiny yellow anthers; borne in loose racemes but usually opens singly. A low fleshy perennial herb with three-sided stems and edible leaves.",
   colour: "Bright pink, yellow",
   size: "Small",
   place: "Found in western North America, Chile, and western Australia, all areas with Mediterranean climates.",
@@ -5519,7 +5519,7 @@ rose_moss = Flower.create!(
   family: "Portulacaceae",
   significance: "Sri Aurobindo’s Compassion",
   comment: "Innumerable, ever present and effective in every instance.",
-  description: "Small single or double roselike flower with delicately frilled petals and a small central tuft of yellow stamens; borne singly in a wide range of colours. A low spreading annual or perennial groundcover.",
+  description: "Small single or double rose-like flower with delicately frilled petals and a small central tuft of yellow stamens; borne singly in a wide range of colours. A low spreading annual or perennial groundcover.",
   colour: "Wide range of colours",
   size: "Small",
   place: "Widely grown in tropical and temperate regions",
@@ -5542,7 +5542,7 @@ jewels_of_opar = Flower.create!(
   petals: "Five",
   size: "Tiny",
   place: "Native to much of the western hemisphere",
-  climate: "Found across temperate, subtropical and tropical regions",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "jewels_of_opar.jpg",
   thumbnail_url: "jewels_of_opar_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5574,11 +5574,11 @@ primrose = Flower.create!(
   family: "Primulaceae",
   significance: "Growth",
   comment: "It will multiply and assert its right to be.",
-  description: "Small showy salverform flowers in all colours, usually with five somewhat scalloped lobes and a contrasting centre; borne in compact heads. A popular garden perennial with basal leaves.",
-  colour: "In all colours",
+  description: "Small showy salverform flowers in all colours, usually with five somewhat scalloped lobes and a contrasting center; borne in compact heads. A popular garden perennial with basal leaves.",
+  colour: "Many different colours",
   petals: "Five",
   size: "Small",
-  place: "Native to the temperate northern hemisphere, south into tropical mountains in Ethiopia, Indonesia and New Guinea, and in temperate southern South America. Almost half of the known species are from the Himalayas",
+  place: "Native to the temperate northern hemisphere south into tropical mountains in Ethiopia, Indonesia, and New Guinea, and in temperate southern South America; almost half of the known species are from the Himalayas.",
   climate: "Tropical (mountainous) and temperate",
   image_url: "primrose.jpg",
   thumbnail_url: "primrose_thumbnail.jpg",
@@ -5593,7 +5593,7 @@ windflower = Flower.create!(
   family: "Ranunclaceae",
   significance: "Fragile Elegance",
   comment: "Easily troubled, needs to take care of itself.",
-  description: "Medium-sized solitary somewhat saucer-shaped flower with delicate overlapping sepals (petals absent) and a striking centre. White and shades of yellow, red, rose, purple and blue; borne singly on thin stems. A perennial herb with tuberous rhizomes.",
+  description: "Medium-sized solitary somewhat saucer-shaped flower with delicate overlapping sepals (petals absent) and a striking center. In white and shades of yellow, red, rose, purple, and blue; borne singly on thin stems. A perennial herb with tuberous rhizomes.",
   colour: "White and shades of yellow, red, rose, purple, and blue",
   size: "Medium-sized",
   place: "Native to the Mediterranean region",
@@ -5629,7 +5629,7 @@ larkspur = Flower.create!(
   family: "Ranunclaceae",
   significance: "Soaring",
   comment: "Take your flight towards the heights.",
-  description: "Small single or double cupped flowers with irregular overlapping petals and a conspicuous wrinkled and hooked spur; in white and many shades of blue and pink, rarely red and yellow; borne in tall dense racemes above the leaves. Annual, biennial or perennial herb with deeply cut palmate leaves.",
+  description: "Small single or double cupped flowers with irregular overlapping petals and a conspicuous wrinkled and hooked spur; in white and many shades of blue and pink, rarely red or yellow; borne in tall dense racemes above the leaves. Annual, biennial or perennial herb with deeply cut palmate leaves.",
   colour: "White and many shades of blue and pink",
   size: "Small",
   place: "Native throughout the Northern Hemisphere and also on the high mountains of tropical Africa",
@@ -5637,7 +5637,7 @@ larkspur = Flower.create!(
   image_url: "larkspur.jpg",
   thumbnail_url: "larkspur_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Delphinium_cv2.jpg"
+  url: "https://commons.wikimedia.org/wiki/File:Flowers_in_the_English_Garden_Guelph_Arboretum.jpg"
 )
 
 mignonette = Flower.create!(
@@ -5647,11 +5647,11 @@ mignonette = Flower.create!(
   family: "Resedaceae",
   significance: "Benevolence",
   comment: "Makes life fragrant without attracting attention.",
-  description: "Small heads of tiny very fragrant yellowish white or greenish yellow flowers with six sepals, six petals and prominent orange anthers; borne in dense erect racemes. A branching spreading annual.",
-  colour: "Yellowish white or greenish yellow",
+  description: "Small heads of tiny very fragrant yellowish-white or greenish-yellow flowers with six sepals, six petals, and prominent orange anthers; borne in dense erect racemes. A branching spreading annual.",
+  colour: "Yellowish-white or greenish-yellow, orange",
   petals: "Six",
   size: "Tiny",
-  place: "Probably native to the Mediterranean Basin, also found growing elsewhere",
+  place: "Probably native to the Mediterranean Basin; also found elsewhere",
   climate: "Mediterranean",
   image_url: "mignonette.jpg",
   thumbnail_url: "mignonette_thumbnail.jpg",
@@ -5670,7 +5670,7 @@ hawthorn = Flower.create!(
   colour: "White",
   petals: "Five",
   size: "Small",
-  place: "Native to temperate regions of the Northern Hemisphere in Europe, Asia and North America",
+  place: "Native to temperate regions of the Northern Hemisphere in Europe, Asia, and North America",
   climate: "Temperate",
   image_url: "hawthorn.jpg",
   thumbnail_url: "hawthorn_thumbnail.jpg",
@@ -5704,9 +5704,9 @@ oriental_cherry = Flower.create!(
   significance: "Smile of Beauty",
   comment: "Nature is happy to be beautiful.",
   description: "Small delicate white to pink single or double flowers with rounded petals and many stamens; borne in clusters of three to five. A medium-sized very ornamental tree covered with flowers in spring.",
-  colour: "White or pink",
+  colour: "White to pink",
   size: "Small",
-  place: "Native to Japan, Korea and China",
+  place: "Native to Japan, Korea, and China",
   climate: "Subtropical to temperate",
   image_url: "oriental_cherry.jpg",
   thumbnail_url: "oriental_cherry_thumbnail.jpg",
@@ -5722,10 +5722,10 @@ dog_rose = Flower.create!(
   significance: "Psychic Soaring of Nature",
   comment: "Nature has a soul which blossoms in a lovely way.",
   description: "Medium-sized single light pink flower with five petals and conspicuous yellow stamens; borne in few-flowered clusters. A climbing shrub often grown as a hedge or over a bower.",
-  colour: "Light pink",
+  colour: "Light pink, yellow",
   petals: "Five",
-  size: "Medium-sizedh",
-  place: "Native to Europe, northwest Africa and western Asia",
+  size: "Medium-sized",
+  place: "Native to Europe, northwest Africa, and western Asia",
   climate: "Subtropical to temperate",
   image_url: "dog_rose.jpg",
   thumbnail_url: "dog_rose_thumbnail.jpg",
@@ -5735,7 +5735,7 @@ dog_rose = Flower.create!(
 
 polyantha_rose = Flower.create!(
   name: "Polyantha Rose",
-  bot_name: "Rosa X rehderana",
+  bot_name: "Rosa x rehderana",
   family: "Rosaceae",
   significance: "Communion with the Divine",
   comment: "For one who truly has it, all circumstances can become an occasion for it.",
@@ -5774,8 +5774,8 @@ lily_thorn = Flower.create!(
   family: "Rubiaceae",
   significance: "Certitude of Victory",
   comment: "It is not noisy, but it is sure.",
-  description: "Medium-sized greenish yellow pendulous funnel shaped flower with a long narrow corolla tube and the limb split into four waxy pointed lobes; borne singly. A spiny shrub with small glossy leaves.",
-  colour: "Greenish yellow",
+  description: "Medium-sized greenish-yellow pendulous funnel-shaped flower with a long narrow corolla tube and the limb split into four waxy pointed lobes; borne singly. A spiny shrub with small glossy leaves.",
+  colour: "Greenish-yellow",
   petals: "Four",
   size: "Medium-sized",
   place: "Native to Cuba and the Bahamas",
@@ -5811,7 +5811,7 @@ scarlet_bush = Flower.create!(
   family: "Rubiaceae",
   significance: "Matter under the Supramental Guidance",
   comment: "The condition required for its transformation.",
-  description: "Small orange narrow tubular candlelike flower borne in terminal cymes. A shrub or small tree with oblong lanceolate leaves in whorls.",
+  description: "Small orange narrow tubular candle-like flower borne in terminal cymes. A shrub or small tree with oblong lanceolate leaves in whorls.",
   colour: "Orange",
   size: "Small",
   place: "Native to the American subtropics and tropics",
@@ -5847,7 +5847,7 @@ white_ixora = Flower.create!(
   family: "Rubiaceae",
   significance: "Peace in the Cells",
   comment: "The indispensable condition for the body’s progress.",
-  description: "Small fragrant white salverform flower with a starlike limb divided into four curled narrow lobes; borne in dense corymbs. A tall glossy-leaved shrub that produces numerous root suckers.",
+  description: "Small fragrant white salverform flower with a star-like limb divided into four curled narrow lobes; borne in dense corymbs. A tall glossy-leaved shrub that produces numerous root suckers.",
   colour: "White",
   petals: "Four",
   size: "Small",
@@ -5866,7 +5866,7 @@ indian_mulberry = Flower.create!(
   family: "Rubiaceae",
   significance: "Peace in the Sex Centre",
   comment: "Indispensable for beginning the Yoga.",
-  description: "Small highly fragrant white salverform flower with five fleshy recurved lobes that create a starlike appearance; borne in terminal or axillary heads from a hard rounded base. A small tree.",
+  description: "Small highly fragrant white salverform flower with five fleshy recurved lobes that create a star-like appearance; borne in terminal or axillary heads from a hard rounded base. A small tree.",
   colour: "White",
   petals: "Five",
   size: "Small",
@@ -5885,7 +5885,7 @@ egyptian_star_cluster = Flower.create!(
   family: "Rubiaceae",
   significance: "Mental Goodwill",
   comment: "Likes to show off a little, but is very useful.",
-  description: "Small lemon yellow or yellow funnel-shaped flower with five petals embossed with a star; the base of the flower is surrounded by one to five conspicuous sepals of various forms and sizes in cream white, pink or red which form the attractive part of the flower; borne in sparse terminal clusters. An erect decorative shrub.",
+  description: "Small lemon yellow or yellow funnel-shaped flower with five petals embossed with a star; the base of the flower is surrounded by one to five conspicuous sepals of various forms and sizes in cream white, pink, or red which form the attractive part of the flower; borne in sparse terminal clusters. An erect decorative shrub.",
   colour: "Yellow or lemon yellow",
   petals: "Five",
   size: "Small",
@@ -5904,10 +5904,10 @@ indian_pavetta = Flower.create!(
   significance: "Radiating Peace in the Cells",
   comment: "A happy contagion.",
   description: "Tiny fragrant white salverform flowers with four petal-like lobes, a narrow green corolla tube and an exserted style; borne in cymes. A shrub or small tree.",
-  colour: "White",
+  colour: "White, green",
   petals: "Four",
   size: "Tiny",
-  place: "Found in woodlands, grasslands and thickets in sub-tropical and tropical Asia and Africa",
+  place: "Found in woodlands, grasslands, and thickets in subtropical and tropical Asia and Africa",
   climate: "Tropical and subtropical",
   image_url: "indian_pavetta.jpg",
   thumbnail_url: "indian_pavetta_thumbnail.jpg",
@@ -5920,11 +5920,11 @@ indigoberry = Flower.create!(
   bot_name: "Randia speciosa",
   family: "Rubiaceae",
   significance: "Order",
-  comment: "To put a thing in its place gives its true value.\n An apparently insignificant thing takes on its full value when put in its true place.",
+  comment: "To put a thing in its place gives its true value.<br/>An apparently insignificant thing takes on its full value when put in its true place.",
   description: "Fragrant corymbs of somewhat saucer-shaped cream white flowers changing to light yellow with age, each flower with a long erect style. A shrub or small tree.",
   colour: "Cream white to light yellow",
   size: "Small",
-  place: "Found in French Guinea, Guyana, Suriname, Venezuela, Colombia, Brazil, Ecuador, Peru, Paraguay",
+  place: "Found in French Guinea, Guyana, Suriname, Venezuela, Colombia, Brazil, Ecuador, Peru, and Paraguay",
   climate: "Tropical and subtropical",
   image_url: "indigoberry.jpg",
   thumbnail_url: "indigoberry_thumbnail.jpg",
@@ -5940,7 +5940,7 @@ rondeletia = Flower.create!(
   significance: "Mahasaraswati’s Perfection in Work",
   comment: "It is not satisfied with makeshift.",
   description: "Small bright orange or deep pink salverform flowers with a limb divided into six rounded lobes and a conspicuous yellow central ring; borne in cymes. A small loosely branched shrub.",
-  colour: "Bright orange or deep pink",
+  colour: "Bright orange or deep pink, yellow",
   petals: "Six",
   size: "Small",
   place: "Native to Cuba and Panama, also cultivated elsewhere",
@@ -5961,7 +5961,7 @@ asiatic_tarenna = Flower.create!(
   colour: "Cream",
   petals: "Five",
   size: "Tiny",
-  place: "Native to peninsular India, Sri Lanka and Malayasia",
+  place: "Native to peninsular India, Sri Lanka, and Malayasia",
   climate: "Tropical",
   image_url: "asiatic_tarenna.jpg",
   thumbnail_url: "asiatic_tarenna_thumbnail.jpg",
@@ -5979,7 +5979,7 @@ coffee = Flower.create!(
   colour: "White",
   petals: "Five",
   size: "Small",
-  place: "Native to tropical and southern Africa and tropical Asia",
+  place: "Native to tropical and southern Africa, and tropical Asia",
   climate: "Tropical",
   image_url: "coffee.jpg",
   thumbnail_url: "coffee_thumbnail.jpg",
@@ -5992,12 +5992,12 @@ ixora = Flower.create!(
   bot_name: "Ixora chinensis",
   family: "Rubiaceae",
   significance: "Psychic Aspiration",
-  comment: "Constant, regular, organised, gentle and patient at the same time, resists all opposition, overcomes all difficulties.",
+  comment: "Constant, regular, organised, gentle, and patient at the same time, resists all opposition, overcomes all difficulties.",
   description: "Small pink salverform flower with the limb divided into four somewhat diamond-shaped lobes; borne in dense corymbs. A slightly fragrant medium-sized erect shrub.",
   colour: "Pink",
   petals: "Four",
   size: "Small",
-  place: "Native to the tropical and subtropical areas throughout the world, its centre of diversity is in Tropical Asia",
+  place: "Native to the tropical and subtropical areas throughout the world, its center of diversity is in Tropical Asia",
   climate: "Tropical and subtropical",
   image_url: "ixora.jpg",
   thumbnail_url: "ixora_thumbnail.jpg",
@@ -6016,7 +6016,7 @@ javanese_ixora = Flower.create!(
   colour: "Golden orange to red orange",
   petals: "Four",
   size: "Small",
-  place: "Found in East Asia - northeast India, Myanmar, Thailand, Cambodia, Vietnam, Malaysia, Indonesia",
+  place: "Found in East Asia - northeast India, Myanmar, Thailand, Cambodia, Vietnam, Malaysia, and Indonesia",
   climate: "Tropical and subtropical",
   image_url: "javanese_ixora.jpg",
   thumbnail_url: "javanese_ixora_thumbnail.jpg",
@@ -6053,7 +6053,7 @@ orange_jessamine = Flower.create!(
   colour: "White",
   petals: "Five",
   size: "Small",
-  place: "Native to southern China, Taiwan, the Indian sub-continent (i.e. India, Nepal, north-eastern Pakistan and Sri Lanka), south-eastern Asia (i.e. Cambodia, Laos, Myanmar, Thailand, Vietnam, Indonesia, Malaysia and the Philippines) and northern Australia (i.e. the northern parts of the Northern Territory, far northern Queensland and northern Western Australia",
+  place: "Native to southern China, Taiwan, the Indian subcontinent (i.e. India, Nepal, north-eastern Pakistan, and Sri Lanka), south-eastern Asia (i.e. Cambodia, Laos, Myanmar, Thailand, Vietnam, Indonesia, Malaysia, and the Philippines), and northern Australia (i.e. the northern parts of the Northern Territory, far northern Queensland and northern Western Australia)",
   climate: "Tropical and subtropical",
   image_url: "orange_jessamine.jpg",
   thumbnail_url: "orange_jessamine_thumbnail.jpg",
@@ -6068,8 +6068,8 @@ bael_tree = Flower.create!(
   family: "Rutaceae",
   significance: "Devotional Attitude",
   comment: "Modest and self-effacing, it yields remarkable fruit.",
-  description: "Small greenish white star-shaped flower with four or five fleshy recurved petals and a centre filled with numerous short brownish white anthers; borne in axillary panicles. The significance also includes the trifoliate leaf and a large hard-shelled edible fruit. Small trees with sharp needlelike thorns.",
-  colour: "Greenish white",
+  description: "Small greenish-white star-shaped flower with four or five fleshy recurved petals and a center filled with numerous short brownish-white anthers; borne in axillary panicles. The significance also includes the trifoliate leaf and a large hard-shelled edible fruit. Small trees with sharp needle-like thorns.",
+  colour: "Greenish-white, brownish-white",
   petals: "Four or five",
   size: "Small",
   place: "Native to India, cultivated across southeast Asia",
@@ -6086,10 +6086,10 @@ lemon = Flower.create!(
   family: "Rutaceae",
   significance: "Chastity",
   comment: "A little proud and austere, it is very reserved.",
-  description: "Small highly fragrant white star-shaped flower with fleshy petals, prominent yellow stamens and lavender pink buds; borne in small clusters among the leaves. A small generally thorny tree with strongly scented leaves and acidic edible fruits.",
+  description: "Small highly fragrant white star-shaped flower with fleshy petals, prominent yellow stamens and lavender pink buds; borne in small clusters among the leaves. A small, generally thorny tree with strongly scented leaves and acidic edible fruits.",
   colour: "White, yellow, lavender pink",
   size: "Small",
-  place: "Native to Asia (India and Pakistan), cultivated worlwide in warm regions",
+  place: "Native to Asia (India and Pakistan); cultivated worlwide in warm regions",
   climate: "Tropical to warm temperate",
   image_url: "lemon.jpg",
   thumbnail_url: "lemon_thumbnail.jpg",
@@ -6122,9 +6122,9 @@ pussy_willow = Flower.create!(
   significance: "The Future",
   comment: "A promise not yet realised.",
   description: "Small downy erect pearl grey catkins that turn bright yellow with age; borne singly along the branches before the leaves appear. A large shrub or small tree that flowers in early spring in temperate climates.",
-  colour: "Pearl grey, bright yellow",
+  colour: "Pearl grey to bright yellow",
   size: "Small",
-  place: "Native to North America (northern forests and wetlands of Canada (British Columbia east to Newfoundland), and is also found in the northern portions of the contiguous United States (Idaho east to Maine, and south to Maryland))",
+  place: "Native to North America in the northern forests and wetlands of Canada (British Columbia east to Newfoundland); also found in the northern portions of the contiguous United States (Idaho east to Maine, and south to Maryland)",
   climate: "Temperate",
   image_url: "pussy_willow.jpg",
   thumbnail_url: "pussy_willow_thumbnail.jpg",
@@ -6140,9 +6140,9 @@ hopbush = Flower.create!(
   significance: "Psychic Awakening in Matter",
   comment: "Matter opens itself to the spiritual life.",
   description: "Small green papery three-winged seed-capsules tinged with light maroon, turning brown when ripe; borne in clusters among the leaves. A medium-sized shrub or slender tree with ovate-lanceolate leaves.",
-  colour: "Green, light maroon, brown",
+  colour: "Green, light maroon to brown",
   size: "Small",
-  place: "Found in tropical, subtropical and warm temperate regions of Africa, the Americas, southern Asia (particularly in the South India State Tamil Nadu) and Australasia",
+  place: "Found in tropical, subtropical and warm temperate regions of Africa, the Americas, southern Asia (particularly in the South Indian state of Tamil Nadu), and Australasia",
   climate: "Tropical to warm temperate",
   image_url: "hopbush.jpg",
   thumbnail_url: "hopbush_thumbnail.jpg",
@@ -6156,11 +6156,11 @@ common_foxglove = Flower.create!(
   family: "Scrophulariacea",
   significance: "Regularity",
   comment: "Indispensable for all serious accomplishment.",
-  description: "Medium-sized graceful nodding bell-shaped bilabiate flowers in shades of purple and pink varying to white; the tubular corolla is four-lobed, the upper segment shorter and the protruding lower lip dotted maroon towards the centre; borne in long terminal racemes. A showy biennial or perennial herb.",
-  colour: "Shades of purple and pink",
+  description: "Medium-sized graceful nodding bell-shaped bilabiate flowers in shades of purple and pink varying to white; the tubular corolla is four-lobed, the upper segment shorter and the protruding lower lip dotted maroon towards the center; borne in long terminal racemes. A showy biennial or perennial herb.",
+  colour: "Shades of purple, pink, and white, with maroon dots",
   petals: "Four",
   size: "Medium-sized",
-  place: "Native to western and southwestern Europe, western and central Asia, Australasia and northwestern Africa",
+  place: "Native to western and southwestern Europe, western and central Asia, Australasia, and northwestern Africa",
   climate: "Subtropical to temperate",
   image_url: "common_foxglove.jpg",
   thumbnail_url: "common_foxglove_thumbnail.jpg",
@@ -6175,11 +6175,11 @@ toadflax = Flower.create!(
   family: "Scrophulariacea",
   significance: "Expressive Silence",
   comment: "Certain silences are revealing and more expressive than words.",
-  description: "Small bilabiate flowers with a short pointed spur, an erect upper lip that is shallowly divided into two rounded lobes and a lower lip that is crimped, then spreading and slightly scalloped and ruffled; in shades of blue, pink, purple and gold; borne in erect terminal racemes. A slender- stemmed annual herb with narrow linear leaves.",
+  description: "Small bilabiate flowers with a short pointed spur, an erect upper lip that is shallowly divided into two rounded lobes and a lower lip that is crimped, then spreading and slightly scalloped and ruffled; in shades of blue, pink, purple, and gold; borne in erect terminal racemes. A slender-stemmed annual herb with narrow linear leaves.",
   colour: "In shades of blue, pink, purple, and gold",
   petals: "Three",
   size: "Small",
-  place: "Native to Morocco, can be found elsewhere growing wild as an introduced species, such as California",
+  place: "Native to Morocco; can be found elsewhere growing wild as an introduced species, such as California",
   climate: "Subtropical",
   image_url: "toadflax.jpg",
   thumbnail_url: "toadflax_thumbnail.jpg",
@@ -6194,7 +6194,7 @@ fountain_plant = Flower.create!(
   family: "Scrophulariacea",
   significance: "Aspiration in the Physical for the Divine Love",
   comment: "Manifold, ecstatic, difficult to satisfy.",
-  description: "Small bright coral narrow tubular flowers with five tiny rounded lobes; borne in light cascading clusters. A small subshrub with rushlike angled, arching or pendulous stems.",
+  description: "Small bright coral narrow tubular flowers with five tiny rounded lobes; borne in light cascading clusters. A small subshrub with rush-like angled, arching, or pendulous stems.",
   colour: "Bright coral",
   petals: "Five",
   size: "Small",
@@ -6215,7 +6215,7 @@ antiqua_sage = Flower.create!(
   description: "Tiny crimson tubular flower borne in many-flowered clusters. A floriferous subshrub with four to six angled stems and ovate-ferrate leaves.",
   colour: "Crimson",
   size: "Tiny",
-  place: "Found in Central America, Jamaica, Cuba, southern India, northwestern Australia and other tropical regions",
+  place: "Found in Central America, Jamaica, Cuba, southern India, northwestern Australia, and other tropical regions",
   climate: "Tropical",
   image_url: "antiqua_sage.jpg",
   thumbnail_url: "antiqua_sage_thumbnail.jpg",
@@ -6230,10 +6230,10 @@ bitter_wood = Flower.create!(
   family: "Simaroubaceae",
   significance: "Splendour and Opulence in the Material Life",
   comment: "Can become widespread only through transformation.",
-  description: "Medium-sized glowing scarlet tubular flower with yellow anthers that protrude beyond the petals; borne in racemes. A shrub or small tree with uniquely shaped leaves; new leaves are glossy copper red.",
+  description: "Medium-sized glowing scarlet tubular flower with yellow anthers that protrude beyond the petals; borne in racemes. A shrub or small tree with uniquely-shaped leaves; new leaves are glossy copper red.",
   colour: "Scarlet, yellow",
   size: "Medium-sized",
-  place: "Native to Costa Rica, Nicaragua, Panama, Brasil, Peru, Venezuela, Suriname, Colombia, Argentina, French Guiana and Guyana. Q. amara is widely planted outside its native range",
+  place: "Native to Costa Rica, Nicaragua, Panama, Brazil, Peru, Venezuela, Suriname, Colombia, Argentina, French Guiana and Guyana; also widely planted outside its native range",
   climate: "Tropical",
   image_url: "bitter_wood.jpg",
   thumbnail_url: "bitter_wood_thumbnail.jpg",
@@ -6248,8 +6248,8 @@ yesterday_today_and_tomorrow = Flower.create!(
   family: "Solanaceae",
   significance: "Refinement of Emotions",
   comment: "With progress even the emotions become refined.",
-  description: "Small fragrant salverform flower with a short corolla tube and a limb divided into five wavy overlapping lobes; flower opens purple with a white eye and changes from purple to lavender on the second day and to white on the third; borne singly. A small shrub.",
-  colour: "Purple, white, lavender",
+  description: "Small fragrant salverform flower with a short corolla tube and a limb divided into five wavy overlapping lobes; flower opens purple with a white eye, and changes from purple to lavender on the second day, and to white on the third; borne singly. A small shrub.",
+  colour: "Purple, lavender, white",
   petals: "Five",
   size: "Small",
   place: "Native to tropical South America",
@@ -6287,7 +6287,7 @@ night_jessamine = Flower.create!(
   description: "Small fragrant white narrow tubular flower with a tiny recurved limb; borne in axillary clusters. A medium to tall shrub with glossy leaves.",
   colour: "White",
   size: "Small",
-  place: "Native to West Indies, widely cultivated throughout India",
+  place: "Native to the West Indies, widely cultivated throughout India",
   climate: "Tropical and subtropical",
   image_url: "night_jessamine.jpg",
   thumbnail_url: "night_jessamine_thumbnail.jpg",
@@ -6319,12 +6319,12 @@ queen_of_the_night = Flower.create!(
   bot_name: "Cestrum nocturnum",
   family: "Solanaceae",
   significance: "Air",
-  comment: "Light, subtle almost invisible.",
-  description: "Small light green narrow tubular flower with five long greenish white lobes, intensely fragrant at night; borne in spraylike clusters. A scandent shrub.",
-  colour: "Light green, white",
+  comment: "Light, subtle, almost invisible.",
+  description: "Small light green narrow tubular flower with five long greenish-white lobes, intensely fragrant at night; borne in spray-like clusters. A scandent shrub.",
+  colour: "Light green, greenish-white",
   petals: "Five",
   size: "Small",
-  place: "Native to the West Indies, but naturalized in South Asia",
+  place: "Native to the West Indies; naturalized in South Asia",
   climate: "Tropical and subtropical",
   image_url: "queen_of_the_night.jpg",
   thumbnail_url: "queen_of_the_night_thumbnail.jpg",
@@ -6357,8 +6357,8 @@ jasmine_tobacco = Flower.create!(
   family: "Solanaceae",
   significance: "Common Sense",
   comment: "It is very practical and avoids making mistakes, but lacks flight.",
-  description: "Medium-sized fragrant greenish yellow salverform flower with a long corolla tube that is white within and expands into five broad pointed lobes; borne in few-flowered racemes. There are also many ornamental forms in several colours. A perennial herb with large soft pubescent leaves and viscid hairy stalks.",
-  colour: "Greenish yellow, white",
+  description: "Medium-sized fragrant greenish-yellow salverform flower with a long corolla tube that is white within and expands into five broad pointed lobes; borne in few-flowered racemes. There are also many ornamental forms in several colours. A perennial herb with large soft pubescent leaves and viscid hairy stalks.",
+  colour: "Greenish-yellow, white; also in many different colours",
   petals: "Five",
   size: "Medium-sized",
   place: "Native to warm-temperate South America",
@@ -6410,10 +6410,10 @@ chinese_lantern = Flower.create!(
   other_names: "Winter Cherry, Bladder Cherry",
   bot_name: "Physalis alkekengi",
   family: "Solanaceae",
-  significance: "Sun-Drop",
+  significance: "Sun-drop",
   comment: "Luminous and lovely, it brings joy.",
   description: "Small showy orange red lantern-shaped persistent calyx surrounding a globose berry; borne singly in the leaf axils. A herbaceous perennial, sometimes grown as an annual.",
-  colour: "Orange-red",
+  colour: "Orange red",
   size: "Small",
   place: "Native from southern Europe east across southern Asia to Japan",
   climate: "Subtropical to temperate",
@@ -6430,8 +6430,8 @@ chalice_vine = Flower.create!(
   family: "Solanaceae",
   significance: "Absolute Truthfulness",
   comment: "Must govern one’s life if one wants to be close to the Divine.",
-  description: "Very large solitary mildly fragrant cream to light yellow chalicelike flower with five purple lines extending from the base to the edge of the limb. A woody climbing shrub with glabrous leaves.",
-  colour: "Cream to light yellow with purple lines",
+  description: "Very large solitary mildly fragrant cream to light yellow chalice-like flower with five purple lines extending from the base to the edge of the limb. A woody climbing shrub with glabrous leaves.",
+  colour: "Cream to light yellow, purple",
   petals: "Five",
   size: "Very large",
   place: "Endemic to Mexico and Central America",
@@ -6448,11 +6448,11 @@ angels_trumpet = Flower.create!(
   family: "Solanaceae",
   significance: "Perfect Tapasya",
   comment: "That which will reach its goal.",
-  description: "Very large double pendulous trumpet-shaped white flower with the edge of the limb pleated into five pointed recurved lobes, yellow green corolla tube and the base of the flower set in a large glabrous inflated tubular green calyx. A small to medium-sized tree.",
-  colour: "White",
+  description: "Very large double pendulous trumpet-shaped white flower with the edge of the limb pleated into five pointed recurved lobes, yellow green corolla tube, and the base of the flower set in a large glabrous inflated tubular green calyx. A small to medium-sized tree.",
+  colour: "White, yellow green",
   petals: "Five",
   size: "Very large",
-  place: "Native to coastal rainforests of south-east Brazil, also found across South America, and parts of North America",
+  place: "Native to the coastal rainforests of south-east Brazil; also found across South America, and parts of North America",
   climate: "Tropical and subtropical",
   image_url: "angels_trumpet.jpg",
   thumbnail_url: "angels_trumpet_thumbnail.jpg",
@@ -6467,10 +6467,10 @@ lady_of_the_night = Flower.create!(
   significance: "Resolution",
   comment: "Nothing can stop its development.",
   description: "Fragrant medium-sized salverform flower with a long corolla tube and a limb divided into five wavy lobes; flower opens white and turns light yellow with age; borne in few-flowered clusters. A small shrub.",
-  colour: "White, light yellow",
+  colour: "White to light yellow",
   petals: "Five",
   size: "Medium-sized",
-  place: "Native to the tropical Americas, cultivated in other tropical regions",
+  place: "Native to the tropical Americas; cultivated in other tropical regions",
   climate: "Tropical",
   image_url: "lady_of_the_night.jpg",
   thumbnail_url: "lady_of_the_night_thumbnail.jpg",
@@ -6484,10 +6484,10 @@ blue_potato_bush = Flower.create!(
   family: "Solanaceae",
   significance: "Remembrance",
   comment: "Constant remembrance of the Divine is indispensable for transformation.",
-  description: "Small delicately fragrant mauve saucer-shaped flower with a raised rose violet star in the centre and prominent yellow anthers; borne in axillary clusters. A medium-sized shrub with ovate-lanceolate leaves.",
-  colour: "Mauve, rose-violet",
+  description: "Small delicately fragrant mauve saucer-shaped flower with a raised rose violet star in the center and prominent yellow anthers; borne in axillary clusters. A medium-sized shrub with ovate-lanceolate leaves.",
+  colour: "Mauve, rose violet, yellow",
   size: "Small",
-  place: "Found in tropical and subtropical America (California, Illinois, Arizona, Georgia, New York, Nevada, South Carolina, Texas, Washington, Pennsylvania)",
+  place: "Found in tropical and subtropical America (California, Illinois, Arizona, Georgia, New York, Nevada, South Carolina, Texas, Washington, and Pennsylvania)",
   climate: "Tropical and subtropical",
   image_url: "blue_potato_bush.jpg",
   thumbnail_url: "blue_potato_bush_thumbnail.jpg",
@@ -6501,8 +6501,8 @@ st_vincents_lilac = Flower.create!(
   bot_name: "Solanum seaforthianum",
   family: "Solanaceae",
   significance: "Seeking for Support only in the Divine",
-  comment: "The Divine is the only support that never fails. ",
-  description: "Delicate pendulous clusters of small light lavender star-shaped flowers with yellow anthers, accompanied by lavender buds. A slender long-flowering vine with deeply cut leaves and ornamental clusters of round shiny green berrylike fruits that turn orange to bright red when mature.",
+  comment: "The Divine is the only support that never fails.",
+  description: "Delicate pendulous clusters of small light lavender star-shaped flowers with yellow anthers, accompanied by lavender buds. A slender long-flowering vine with deeply cut leaves and ornamental clusters of round shiny green berry-like fruits that turn orange to bright red when mature.",
   colour: "Light lavender, yellow",
   size: "Small",
   place: "Native to tropical South America, cultivated in other tropical regions",
@@ -6522,7 +6522,7 @@ turkey_berry = Flower.create!(
   description: "Small white star-shaped flower with a central column of elongated yellow anthers; borne in compact few-flowered cymes along the stems. A tall straggly wayside shrub with large irregular acutely lobed leaves and clusters of shiny round green and yellow berries.",
   colour: "White, yellow",
   size: "Small",
-  place: "Native from Florida and southern Alabama through the West Indies and from Mexico through Central America and South America through Brazil, has been introduced and naturalized throughout tropical Africa, Asia, Australia, and the Pacific Islands including Hawaii, Guam, and American Samoa",
+  place: "Native from Florida and southern Alabama through the West Indies, and from Mexico through Central America and South America through Brazil; has been introduced and naturalized throughout tropical Africa, Asia, Australia, and the Pacific Islands, including Hawaii, Guam, and American Samoa",
   climate: "Tropical",
   image_url: "turkey_berry.jpg",
   thumbnail_url: "turkey_berry_thumbnail.jpg",
@@ -6559,7 +6559,7 @@ guest_tree = Flower.create!(
   colour: "Pale pink, yellow",
   petals: "Five",
   size: "Small",
-  place: "Native to Indonesia, Malaysia and other parts of tropical Asia",
+  place: "Native to Indonesia, Malaysia, and other parts of tropical Asia",
   climate: "Tropical",
   image_url: "guest_tree.jpg",
   thumbnail_url: "guest_tree_thumbnail.jpg",
@@ -6574,7 +6574,7 @@ midday_flower = Flower.create!(
   family: "Sterculiaceae",
   significance: "Vigilance",
   comment: "Indispensable for all true progress.",
-  description: "Small red orange saucer-shaped flower with five rounded petals and five narrow elongated anthers that protrude from the centre; borne singly on very short stems from the leaf axils. A narrow annual herb with lanceolate leaves that have irregularly toothed edges.",
+  description: "Small red orange saucer-shaped flower with five rounded petals and five narrow elongated anthers that protrude from the center; borne singly on very short stems from the leaf axils. A narrow annual herb with lanceolate leaves that have irregularly toothed edges.",
   colour: "Red orange",
   petals: "Five",
   size: "Small",
@@ -6592,11 +6592,11 @@ maple_leaved_bayur = Flower.create!(
   family: "Sterculiaceae",
   significance: "Realisation of the Supramental Riches",
   comment: "Can manifest only after the transformation of human consciousness.",
-  description: "Large fragrant white flower with five long narrow twisting petals and prominent fleshy cream white sepals that are hairy within a yellow brown without; borne singly or in flowered cymes from the leaf axils. A medium to large ornamental tree with very large leaves, green above and silvery white beneath.",
-  colour: "White, cream white",
+  description: "Large fragrant white flower with five long narrow twisting petals and prominent fleshy cream white sepals that are hairy within and yellow brown without; borne singly or in flowered cymes from the leaf axils. A medium to large ornamental tree with very large leaves, green above and silvery white beneath.",
+  colour: "White, cream white, yellow brown",
   petals: "Five",
   size: "Large",
-  place: "Indigenous to Southeast Asia, from India to Burma",
+  place: "Indigenous to Southeast Asia from India to Burma",
   climate: "Tropical and subtropical",
   image_url: "maple_leaved_bayur.jpg",
   thumbnail_url: "maple_leaved_bayur_thumbnail.jpg",
@@ -6610,11 +6610,11 @@ common_camellia = Flower.create!(
   family: "Theaceae",
   significance: "Static Beauty",
   comment: "Transfixed in an immutable beauty.",
-  description: "Medium to large showy sessile flowers with few to many rows of delicately sculpted rounded petals symmetrically arranged in a circular form; white through pink to red and bicoloured. A large evergreen shrub with glossy leathery leaves.",
+  description: "Medium to large showy sessile flowers with few to many rows of delicately sculpted rounded petals symmetrically arranged in a circular form; white through pink to red, and bicoloured. A large evergreen shrub with glossy leathery leaves.",
   colour: "White, pink, red, or bicoloured",
   petals: "Many",
   size: "Medium to large",
-  place: "Native to mainland China, Taiwan, southern Korea and southern Japan",
+  place: "Native to mainland China, Taiwan, southern Korea, and southern Japan",
   climate: "Temperate",
   image_url: "common_camellia.jpg",
   thumbnail_url: "common_camellia_thumbnail.jpg",
@@ -6628,11 +6628,11 @@ wood_halmilla = Flower.create!(
   family: "Tiliaceae",
   significance: "Liberation in the Vital",
   comment: "Another result of conversion",
-  description: "Small greenish brown papery six-winged seeds borne in large erect racemes above the leaves. A medium to large tree with tiny white flowers.",
-  colour: "Greenish brown",
+  description: "Small greenish-brown papery six-winged seeds borne in large erect racemes above the leaves. A medium to large tree with tiny white flowers.",
+  colour: "Greenish-brown, white",
   petals: "Six",
   size: "Small",
-  place: "Native to much of Southeast Asia and introduced to Africa",
+  place: "Native to much of Southeast Asia; introduced to Africa",
   climate: "Tropical",
   image_url: "wood_halmilla.jpg",
   thumbnail_url: "wood_halmilla_thumbnail.jpg",
@@ -6647,7 +6647,7 @@ coriander = Flower.create!(
   family: "Umbelliferae",
   significance: "Delicacy",
   comment: "Charming to those of refined taste.",
-  description: "Tiny white flowers with four narrow petals that emerge from one side of the centre; borne in compound umbels. An annual culinary herb with highly aromatic, finely cut bright green leaves.",
+  description: "Tiny white flowers with four narrow petals that emerge from one side of the center; borne in compound umbels. An annual culinary herb with highly aromatic, finely-cut, bright green leaves.",
   colour: "White",
   petals: "Four",
   size: "Tiny",
@@ -6669,7 +6669,7 @@ greater_burnet_saxifrage = Flower.create!(
   description: "Minute white flowers in small flat lacy umbels clustered together to form larger umbels. A tall ungainly annual herb with sparse pinnate leaves.",
   colour: "White",
   size: "Minute",
-  place: "Widespread in central Europe and in the Caucasus and it is naturalized in North America",
+  place: "Widespread in central Europe and in the Caucasus; naturalized in North America",
   climate: "Subtropical to temperate",
   image_url: "greater_burnet_saxifrage.jpg",
   thumbnail_url: "greater_burnet_saxifrage_thumbnail.jpg",
@@ -6683,11 +6683,11 @@ blue_lace_flower = Flower.create!(
   bot_name: "Trachymene coerulea",
   family: "Umbelliferae.",
   significance: "Perfect Working of the Mind",
-  comment: "Can happen when the mind is determined exclusively to fulfill its role.",
+  comment: "Can happen when the mind is determined exclusively to fulfil its role.",
   description: "Tiny blue or light lavender blue flowers with unequal petals; borne in small dense umbels. An annual herb with hairy leaves divided into linear segments.",
-  colour: "Blue or light lavender",
+  colour: "Blue or light lavender blue",
   size: "Tiny",
-  place: "Native to Australia, Malesia, New Caledonia and Fiji",
+  place: "Native to Australia, Malesia, New Caledonia, and Fiji",
   climate: "Tropical and subtropical",
   image_url: "blue_lace_flower.jpg",
   thumbnail_url: "blue_lace_flower_thumbnail.jpg",
@@ -6702,7 +6702,7 @@ turks_turban = Flower.create!(
   family: "Verbenaceae",
   significance: "Divine Will Acting in the Subconscient",
   comment: "The rare moments when the Divine asserts Himself visibly.",
-  description: "Small very delicate white salverform flower with a long thin corolla tube, an irregularly shaped limb with scalloped edges and long thin rose violet stamens; the striking curled buds elongate and unfurl; borne in clusters.",
+  description: "Small very delicate white salverform flower with a long thin corolla tube, an irregularly shaped limb with scalloped edges, and long thin rose violet stamens; the striking curled buds elongate and unfurl; borne in clusters.",
   colour: "White, rose violet",
   size: "Small",
   place: "Native to tropical and warm temperate regions of the world",
@@ -6720,11 +6720,11 @@ glory_bower = Flower.create!(
   family: "Verbenaceae",
   significance: "Integrally Equal Basis in the Physical",
   comment: "What you have, I have; what you can do, I can do; what you express, I express - we are all alike.",
-  description: "Compact terminal clusters of small fragrant white roselike flowers with red calyces. A small to medium-sized shrub with large pungent leaves.",
+  description: "Compact terminal clusters of small fragrant white rose-like flowers with red calyces. A small to medium-sized shrub with large pungent leaves.",
   colour: "White, red",
   size: "Small",
   place: "Native to Asia",
-  climate: "Found across tropical, subtropical and temperate regions",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "glory_bower.jpg",
   thumbnail_url: "glory_bower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6737,11 +6737,11 @@ butterfly_bush = Flower.create!(
   family: "Verbenaceae",
   significance: "Repose",
   comment: "Opens out in calm relaxation. The true repose is that of perfect surrender to the Divine.",
-  description: "Small dainty flower with four pale blue lobes resembling the wings of a butterfly, a lovely cupped deep lavender blue lip and white stamens that curve upward above the flower; borne in terminal panicles. A tall narrow shrub of open habit.",
-  colour: "Pale blue",
+  description: "Small dainty flower with four pale blue lobes resembling the wings of a butterfly, a lovely cupped deep lavender blue lip, and white stamens that curve upward above the flower; borne in terminal panicles. A tall narrow shrub of open habit.",
+  colour: "Pale blue, deep lavender blue, white",
   petals: "Five",
   size: "Small",
-  place: "Native to Africa, widely cultivated elsewhere",
+  place: "Native to Africa; widely cultivated elsewhere",
   climate: "Tropical and subtropical",
   image_url: "butterfly_bush.jpg",
   thumbnail_url: "butterfly_bush_thumbnail.jpg",
@@ -6760,7 +6760,7 @@ purple_wreath = Flower.create!(
   colour: "Violet, pale lilac, white",
   petals: "Five",
   size: "Small",
-  place: "Native to Mexico and Central America, found in other tropical regions",
+  place: "Native to Mexico and Central America; found in other tropical regions",
   climate: "Tropical",
   image_url: "purple_wreath.jpg",
   thumbnail_url: "purple_wreath_thumbnail.jpg",
@@ -6773,8 +6773,8 @@ fiddle_wood = Flower.create!(
   other_names: "Zitherwood",
   bot_name: "Citharexylum",
   family: "Verbenaceae",
-  significance: "Spiritual Ascension ",
-  comment: "Fearless, regular, uninterrupted. ",
+  significance: "Spiritual Ascension",
+  comment: "Fearless, regular, uninterrupted.",
   description: "Tiny highly fragrant white five-petalled flowers in slender pendulous racemes. A small to medium-sized tree with four-angled stems and opposite leaves.",
   colour: "White",
   petals: "Five",
@@ -6793,11 +6793,11 @@ indian_privet = Flower.create!(
   family: "Verbenaceae",
   significance: "Perfect Planning of Work",
   comment: "Can only be obtained with the consciousness of the Divine.",
-  description: "Small white salverform flower with a very thin corolla tube, five rounded separated lobes and conspicuous pinkish purple exserted stamens; borne singly or in clusters of two or three from the leaf axils. A shrub with bright green oval leaves, usually grown as a hedge.",
-  colour: "White, pinkish purple",
+  description: "Small white salverform flower with a very thin corolla tube, five rounded separated lobes and conspicuous pinkish-purple exserted stamens; borne singly or in clusters of two or three from the leaf axils. A shrub with bright green oval leaves, usually grown as a hedge.",
+  colour: "White, pinkish-purple",
   petals: "Five",
   size: "Small",
-  place: "Found in Australia, Asia, Malesia and the Pacific islands",
+  place: "Found in Australia, Asia, Malesia, and the Pacific islands",
   climate: "Tropical and subtropical",
   image_url: "indian_privet.jpg",
   thumbnail_url: "indian_privet_thumbnail.jpg",
@@ -6829,8 +6829,8 @@ pagoda_flower = Flower.create!(
   family: "Verbenaceae",
   significance: "Grouping",
   comment: "Indispensable for collective action.",
-  description: "Small reddish orange salverform flower with exserted stamens and five rounded lobes shaded light orange at the edges; borne in large erect rounded terminal panicles with reddish orange stems. A small to medium-sized shrub with large stiff cordate leaves.",
-  colour: "Reddish orange",
+  description: "Small reddish-orange salverform flower with exserted stamens and five rounded lobes shaded light orange at the edges; borne in large erect rounded terminal panicles with reddish-orange stems. A small to medium-sized shrub with large stiff cordate leaves.",
+  colour: "Light to reddish orange",
   petals: "Five",
   size: "Small",
   place: "Native to tropical Asia and Papuasia, and other tropical regions",
@@ -6847,11 +6847,11 @@ javanese_glory_bower = Flower.create!(
   family: "Verbenaceae",
   significance: "Right Attitude",
   comment: "Simple and open, without complications.",
-  description: "Small bright orange one-sided salverform flower with five irregular lobes spread fanlike above the exserted stamens; borne in short loose terminal panicles with secondary stems arising in opposite pairs from the four-sided main stem. An erect shrub with heavily pubescent leaves.",
+  description: "Small bright orange one-sided salverform flower with five irregular lobes spread fan-like above the exserted stamens; borne in short loose terminal panicles with secondary stems arising in opposite pairs from the four-sided main stem. An erect shrub with heavily pubescent leaves.",
   colour: "Bright orange",
   petals: "Five",
   size: "Small",
-  place: "Native to Indonesia and Papuasia, naturalized in parts of Latin America, Africa, the Caribbean, Seychelles, and Florida",
+  place: "Native to Indonesia and Papuasia; naturalized in parts of Latin America, Africa, the Caribbean, Seychelles, and Florida",
   climate: "Tropical",
   image_url: "javanese_glory_bower.jpg",
   thumbnail_url: "javanese_glory_bower.jpg",
@@ -6884,11 +6884,11 @@ bleeding_heart_vine = Flower.create!(
   family: "Verbenaceae",
   significance: "Aspiration for the Right Attitude",
   comment: "Energetic, willing, determined.",
-  description: "Small deep red salver form flower with long exserted stamens and a limb divided into five irregular lobes that protrude from the end of a milk white bell-shaped calyx; borne in axillary cymes. A light twining shrub.",
-  colour: "Red, white",
+  description: "Small deep red salverform flower with long exserted stamens and a limb divided into five irregular lobes that protrude from the end of a milk white bell-shaped calyx; borne in axillary cymes. A light twining shrub.",
+  colour: "Red, milk white",
   petals: "Five",
   size: "Small",
-  place: "Native to tropical west Africa",
+  place: "Native to tropical Western Africa",
   climate: "Tropical",
   image_url: "bleeding_heart_vine.jpg",
   thumbnail_url: "bleeding_heart_vine_thumbnail.jpg",
@@ -6898,12 +6898,12 @@ bleeding_heart_vine = Flower.create!(
 
 java_glory_bean = Flower.create!(
   name: "Java Glory Bean",
-  bot_name: "Clerodendrum X speciosum",
+  bot_name: "Clerodendrum x speciosum",
   family: "Verbenaceae",
   significance: "Aspiration for the Right Attitude",
   comment: "Energetic, willing, determined.",
-  description: "Small purplish red salverform flower with long exserted bright red stamens and a limb divided into five irregular lobes that protrude from the end of a green bell-shaped calyx; borne in axillary cymes. A light twining shrub.",
-  colour: "Purplish red, green",
+  description: "Small purplish-red salverform flower with long exserted bright red stamens and a limb divided into five irregular lobes that protrude from the end of a green bell-shaped calyx; borne in axillary cymes. A light twining shrub.",
+  colour: "Purplish-red, bright red, green",
   petals: "Five",
   size: "Small",
   place: "Native to tropical Africa",
@@ -6939,7 +6939,7 @@ tree_of_sadness = Flower.create!(
   family: "Verbenaceae",
   significance: "Aspiration",
   comment: "Innumerable, obstinate, repeating itself tirelessly.",
-  description: "Small fragrant salverform flower with a prominent orange corolla tube and a flat abruptly expanding white limb divided into five to eight irregular lobes; borne in few-flowered terminal cymes. A medium-sized shrub or small tree with flowers that open at night and fall by early morning carpeting the ground.",
+  description: "Small fragrant salverform flower with a prominent orange corolla tube and a flat abruptly expanding white limb divided into five to eight irregular lobes; borne in few-flowered terminal cymes. A medium-sized shrub or small tree with flowers that open at night and fall by early morning, carpeting the ground.",
   colour: "White, orange",
   petals: "Five to eight",
   size: "Small",
@@ -6958,8 +6958,8 @@ blue_snakeweed = Flower.create!(
   family: "Verbenaceae",
   significance: "Spiritual Ascension in the Vital",
   comment: "It is more fanciful and less regular.",
-  description: "Tiny light lavender blue salverform flowers with a white centre, sparsely arranged on long thin spikes. A medium to large perennial herb or subshrub.",
-  colour: "Lavender blue, white",
+  description: "Tiny light lavender blue salverform flowers with a white center, sparsely arranged on long thin spikes. A medium to large perennial herb or subshrub.",
+  colour: "Light lavender blue, white",
   petals: "Four or five",
   size: "Tiny",
   place: "Native throughout the Caribbean",
@@ -6977,11 +6977,11 @@ teak = Flower.create!(
   family: "Verbenaceae",
   significance: "Renunciation of Desires",
   comment: "The essential condition for realisation.",
-  description: "Mildly fragrant tiny cream white flowers with six rounded lobes and six exserted stamens; borne in large airy cloudlike panicles. A large ornamental tree with large stiff leaves.",
+  description: "Mildly fragrant tiny cream white flowers with six rounded lobes and six exserted stamens; borne in large airy cloud-like panicles. A large ornamental tree with large stiff leaves.",
   colour: "Cream white",
   petals: "Six",
   size: "Tiny",
-  place: "Native to south and southeast Asia, mainly India, Sri Lanka, Indonesia, Malaysia, Thailand and Burma, but is naturalized and cultivated in many countries in Africa and the Caribbean",
+  place: "Native to south and southeast Asia, mainly India, Sri Lanka, Indonesia, Malaysia, Thailand, and Burma; naturalized and cultivated in many countries in Africa and the Caribbean",
   climate: "Tropical and subtropical",
   image_url: "teak.jpg",
   thumbnail_url: "teak_thumbnail.jpg",
@@ -7000,8 +7000,8 @@ sweet_violet = Flower.create!(
   colour: "Deep violet",
   petals: "Five",
   size: "Small",
-  place: "Native to Europe and Asia, but has also been introduced to North America and Australia",
-  climate: "Found across temperate, subtropical and tropical regions",
+  place: "Native to Europe and Asia; has also been introduced to North America and Australia",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "sweet_violet.jpg",
   thumbnail_url: "sweet_violet_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7015,10 +7015,10 @@ common_grape_vine = Flower.create!(
   family: "Vitaceae",
   significance: "Divine Ananda",
   comment: "Abundant, succulent, nourishing, full of vigour.",
-  description: "Large compact clusters of small round succulent fruits in shades of yellow, green, purple and red. A woody deciduous vine with ornamental deeply lobed leaves.",
+  description: "Large compact clusters of small round succulent fruits in shades of yellow, green, purple, and red. A woody deciduous vine with ornamental deeply lobed leaves.",
   colour: "Shades of yellow, green, purple, and red",
   size: "Small",
-  place: "Native to the Mediterranean region, central Europe, and southwestern Asia, from Morocco and Portugal north to southern Germany and east to northern Iran",
+  place: "Native to the Mediterranean region, central Europe, and southwestern Asia from Morocco and Portugal north to southern Germany and east to northern Iran",
   climate: "Mediterranean, temperate",
   image_url: "common_grape_vine.jpg",
   thumbnail_url: "common_grape_vine_thumbnail.jpg",
@@ -7031,7 +7031,7 @@ siamese_ginger = Flower.create!(
   other_names: "Galangal",
   bot_name: "Alpinia galanga",
   family: "Zingiberaceae",
-  significance: "To Know How to Say What is Needed",
+  significance: "To Know how to Say what is Needed",
   comment: "Neither too many words nor too few - just what is needed.",
   description: "Small white tubular flower with a large prominent cream white lip heavily striped with maroon red; borne on short dense panicles. A tall rhizomatous perennial herb with leaves and stems that give off a fragrance when bruised.",
   colour: "White, cream white, maroon red",
@@ -7069,10 +7069,10 @@ zeodary = Flower.create!(
   family: "Zingiberaceae",
   significance: "Peace",
   comment: "To want what You want always and in every circumstance is the only way to enjoy an unshakable peace.",
-  description: "Small yellow tubular flowers set in larger greenish pink bracts on a long sturdy spike. A large tuberous perennial with green leaves that have a chocolate brown midrib.",
-  colour: "Yellow, greenish pink",
+  description: "Small yellow tubular flowers set in larger greenish-pink bracts on a long sturdy spike. A large tuberous perennial with green leaves that have a chocolate brown midrib.",
+  colour: "Yellow, greenish-pink",
   size: "Small",
-  place: "Native to India and Indonesia, cultivated in Florida",
+  place: "Native to India and Indonesia; also cultivated in Florida",
   climate: "Tropical and subtropical",
   image_url: "zeodary.jpg",
   thumbnail_url: "zeodary_thumbnail.jpg",
@@ -7087,7 +7087,7 @@ ginger_lily = Flower.create!(
   family: "Zingiberaceae",
   significance: "Sachchidananda",
   comment: "Strong and pure, it stands erect with its creative power.",
-  description: "Small to medium-sized highly fragrant waxy flower with a long narrow corolla tube and three petal-like lobes, the upper larger and deeply split; in white and shades of orange, red, yellow and pink; borne in dense terminal spikes from a tight cluster of sturdy green bracts. A robust rhizomatous perennial with reed like leafy stems.",
+  description: "Small to medium-sized highly fragrant waxy flower with a long narrow corolla tube and three petal-like lobes, the upper larger and deeply split; in white and shades of orange, red, yellow, and pink; borne in dense terminal spikes from a tight cluster of sturdy green bracts. A robust rhizomatous perennial with reed-like leafy stems.",
   colour: "White and shades of orange, red, yellow, and pink",
   petals: "Three",
   size: "Small to medium-sized",
@@ -7105,8 +7105,8 @@ peacock_ginger = Flower.create!(
   family: "Zingiberaceae",
   significance: "Refined Taste",
   comment: "Pleasing and delicate, always avoids mistakes of bad taste.",
-  description: "Small three-petalled flower with a large bilabiate lip in pinkish lavender with a white centre and sparkling sheen; blooms singly on a short scape between two beautifully marked leaves. A stemless perennial with tuberous roots.",
-  colour: "Pinkish lavender, white",
+  description: "Small three-petalled flower with a large bilabiate lip in pinkish-lavender with a white center and sparkling sheen; blooms singly on a short scape between two beautifully marked leaves. A stemless perennial with tuberous roots.",
+  colour: "Pinkish-lavender, white",
   petals: "Three",
   size: "Small",
   place: "Found in Thailand and Peninsular Malaysia",
@@ -7124,11 +7124,11 @@ resurrection_lily = Flower.create!(
   family: "Zingiberaceae",
   significance: "Vital Honesty",
   comment: "Not to allow our sensations and desires to falsify our judgment and determine our actions.",
-  description: "Small to medium-sized fragrant white flower with a prominent lavender lip divided into two large rounded lobes, and three long narrow white sepals arising from the base; the flower spikes arise from the leafless rhizome in spring. A tuberous herb that bears two leaves, variegated above and purple beneath. Another form has pale lavender outer petals and rose lavender inner petals with deep purple veins.",
+  description: "Small to medium-sized fragrant white flower with a prominent lavender lip divided into two large rounded lobes, and three long, narrow white sepals arising from the base; the flower spikes arise from the leafless rhizome in spring. A tuberous herb that bears two leaves, variegated above and purple beneath. Another form has pale lavender outer petals and rose-lavender inner petals with deep purple veins.",
   colour: "White, lavender",
   petals: "Two",
   size: "Small to medium-sized",
-  place: "Native to China, India, Nepal, Assam, Bangladesh, Indochina, and widely cultivated elsewhere",
+  place: "Native to China, India, Nepal, Assam, Bangladesh, and Indochina; widely cultivated elsewhere",
   climate: "Tropical and subtropical",
   image_url: "resurrection_lily.jpg",
   thumbnail_url: "resurrection_lily_thumbnail.jpg",
@@ -7143,7 +7143,7 @@ caltrop = Flower.create!(
   family: "Zygophyllaceae",
   significance: "First Mental Awakening in Matter",
   comment: "It has preceded and prepared man's future upon earth.",
-  description: "Small yellow saucer-shaped rotate wayside flower with five spreading overlapping petals; borne singly from the leaf axils. A mostly prostrate annual or perennial herb bearing hard nutlets with sharp spines.",
+  description: "Small yellow saucer-shaped rotate wayside flower with five spreading, overlapping petals; borne singly from the leaf axils. A mostly prostrate annual or perennial herb bearing hard nutlets with sharp spines.",
   colour: "Yellow",
   petals: "Five",
   size: "Small",
@@ -7163,7 +7163,7 @@ conifers = Flower.create!(
   comment: "A vitality that is not affected by external influences.",
   description: "Majestic cone-bearing trees or shrubs with evergreen needles.",
   place: "Dominant plants over huge areas of land, most notably the boreal forests of the northern hemisphere, but also in similar cool climates in mountains further south",
-  climate: "Found across temperate, subtropical and tropical regions",
+  climate: "Found across temperate, subtropical, and tropical climates (generally mountainous)",
   image_url: "conifers.jpg",
   thumbnail_url: "conifers_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7176,7 +7176,7 @@ dill = Flower.create!(
   family: "Umbelliferae",
   significance: "Light in the Blood",
   comment: "When the blood becomes receptive to the higher consciousness.",
-  description: "Tiny yellow five-petalled flowers in compound umbels. A culinary herb with soft feathery strongly aromatic leaves.",
+  description: "Tiny yellow five-petalled flowers in compound umbels. A culinary herb with soft, feathery, strongly aromatic leaves.",
   colour: "Yellow",
   petals: "Five",
   size: "Tiny",
@@ -7194,11 +7194,11 @@ fennel = Flower.create!(
   family: "Umbelliferae",
   significance: "Light in the Blood",
   comment: "When the blood becomes receptive to the higher consciousness.",
-  description: "Sturdy compound umbels of numerous tiny slightly cup-shaped greenish yellow flowers. A culinary herb with soft finely divided aromatic leaves.",
-  colour: "Greenish yellow",
+  description: "Sturdy compound umbels of numerous tiny, slightly cup-shaped greenish-yellow flowers. A culinary herb with soft, finely-divided aromatic leaves.",
+  colour: "Greenish-yellow",
   size: "Tiny",
-  place: "Indigenous to the shores of the Mediterranean, has become widely naturalized in many parts of the world, especially on dry soils near the sea-coast and on riverbanks.",
-  climate: "Mediterranean, temperate",
+  place: "Indigenous to the shores of the Mediterranean; has become widely naturalized in many parts of the world, especially on dry soils near the sea-coast and on riverbanks",
+  climate: "Subtropical to Mediterranean",
   image_url: "fennel.jpg",
   thumbnail_url: "fennel_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7211,11 +7211,11 @@ cosmos = Flower.create!(
   family: "Asteraceae",
   significance: "Supramental Influence in the Sex Centre",
   comment: "It is the assurance of the coming conquest of desires.",
-  description: "Medium-sized single compositae flower with eight overlapping delicately toothed ray florets and a tufted centre, in shades of rose, pink and purple; borne singly or in panicles. An annual herb with finely cut leaves.",
+  description: "Medium-sized single flower with eight overlapping, delicately-toothed ray florets and a tufted center; in shades of rose, pink, and purple; borne singly or in panicles. An annual herb with finely-cut leaves.",
   colour: "Shades of rose, pink, and purple",
   petals: "Eight",
   size: "Medium-sized",
-  place: "Native to scrub and meadowland in Mexico, southern United States, Arizona, Central America, and to South America as far south as Paraguay",
+  place: "Native to scrubs and meadowlands in Mexico, southern United States, Arizona, Central America, and to South America as far south as Paraguay",
   climate: "Tropical and subtropical",
   image_url: "cosmos.jpg",
   thumbnail_url: "cosmos_thumbnail.jpg",
@@ -7230,11 +7230,11 @@ garden_cosmos = Flower.create!(
   family: "Asteraceae",
   significance: "Tranquility of the Sex Centre when it is under the Influence of the Supramental Light",
   comment: "The Supramental influence liberates man from all that binds him to the animal.",
-  description: "Medium-sized single white compositae flower with eight overlapping delicately toothed ray florets and a tufted centre; borne singly or in panicles. An annual herb with finely cut leaves.",
+  description: "Medium-sized single white flower with eight overlapping, delicately-toothed ray florets and a tufted center; borne singly or in panicles. An annual herb with finely-cut leaves.",
   colour: "White",
   petals: "Eight",
   size: "Medium-sized",
-  place: "Native to Mexico, naturalized in scattered locations across North America, South America, West Indies, Italy, Australia, and Asia",
+  place: "Native to Mexico; naturalized in scattered locations across North America, South America, the West Indies, Italy, Australia, and Asia",
   climate: "Tropical and subtropical",
   image_url: "garden_cosmos.jpg",
   thumbnail_url: "garden_cosmos_thumbnail.jpg",
@@ -7248,11 +7248,11 @@ sulfur_cosmos = Flower.create!(
   bot_name: "Cosmos sulphureus",
   family: "Asteraceae",
   significance: "Supramental Light in the Sex Centre",
-  description: "Medium-sized single yellow compositae flower with eight overlapping delicately toothed ray florets and a tufted centre; borne singly or in panicles. An annual herb with finely cut leaves.",
+  description: "Medium-sized single yellow flower with eight overlapping, delicately-toothed ray florets and a tufted center; borne singly or in panicles. An annual herb with finely-cut leaves.",
   colour: "Yellow",
   petals: "Eight",
   size: "Medium-sized",
-  place: "Native to Mexico, Central America, and northern South America, naturalized in other parts of North and South America as well as in Europe, Asia, and Australia",
+  place: "Native to Mexico, Central America, and northern South America; naturalized in other parts of North and South America as well as in Europe, Asia, and Australia",
   climate: "Found across a wide range of climates",
   image_url: "sulfur_cosmos.jpg",
   thumbnail_url: "sulfur_cosmos_thumbnail.jpg",
@@ -7267,8 +7267,8 @@ water_hyacinth = Flower.create!(
   family: "Pontederiaceae",
   significance: "Krishna’s Play in the Vital",
   comment: "In His midst it has all its charm.",
-  description: "Medium-sized light lavender six-petalled flower with one upper petal that has a yellow spot surrounded by blue and rose lavender and resembles a peacock feather; borne on a dense erect spike. A prolific aquatic herb with inflated leaf-bases and feathery roots.",
-  colour: "Light lavender, yellow, blue, rose lavender",
+  description: "Medium-sized light lavender six-petalled flower with one upper petal that has a yellow spot surrounded by blue and rose-lavender, resembling a peacock feather; borne on a dense, erect spike. A prolific aquatic herb with inflated leaf-bases and feathery roots.",
+  colour: "Light lavender, yellow, blue, rose-lavender",
   petals: "Six",
   size: "Medium-sized",
   place: "Native to the Amazon basin",
@@ -7285,16 +7285,16 @@ flame_violet = Flower.create!(
   family: "Gesneriaceae",
   significance: "Will Manifested in Life",
   comment: "Concentrated and precise.",
-  description: "Bright coral pink flower with a yellow throat and petals with fringed edges; horizontal corolla tube and a limb divided into five rounded oblique lobes; borne singly or in pairs. A creeping perennial herb dark greenish brown leaves and with olive green midribs.",
+  description: "Bright coral pink flower with a yellow throat, a horizontal corolla tube, and a limb divided into five rounded oblique lobes with fringed edges; borne singly or in pairs. A creeping perennial herb with dark greenish-brown leaves and olive-green midribs.",
   colour: "Bright coral pink, yellow",
   petals: "Five",
   size: "Small",
-  place: "Native to the tropical regions of Central America and South America, cultivated in other tropical regions of the world",
+  place: "Native to the tropical regions of Central America and South America; cultivated in other tropical regions of the world",
   climate: "Tropical",
   image_url: "flame_violet.jpg",
   thumbnail_url: "flame_violet_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Episcia_cupreata-flower_close.JPG"
+  url: "https://commons.wikimedia.org/wiki/File:1_Plant_sp._-_Kew_3.jpg"
 )
 
 red_violet = Flower.create!(
@@ -7304,11 +7304,11 @@ red_violet = Flower.create!(
   family: "Gesneriaceae",
   significance: "Vital Will Manifested in Life",
   comment: "It is often the cause of the greatest disorders.",
-  description: "Small intense orange red salverform flower with a horizontal corolla tube and a limb divided into five rounded oblique lobes; borne singly or in pairs. A creeping perennial herb that has heavily embossed green leaves with silvery green midribs and veins.",
-  colour: "Intense orange red",
+  description: "Small intense orange-red salverform flower with a horizontal corolla tube and a limb divided into five rounded oblique lobes; borne singly or in pairs. A creeping perennial herb that has heavily embossed green leaves with silvery green midribs and veins.",
+  colour: "Intense orange-red",
   petals: "Five",
   size: "Small",
-  place: "Native to the tropical regions of Central America and South America, cultivated in other tropical regions of the world",
+  place: "Native to the tropical regions of Central America and South America; cultivated in other tropical regions of the world",
   climate: "Tropical",
   image_url: "red_violet.jpg",
   thumbnail_url: "red_violet_thumbnail.jpg",
@@ -7323,11 +7323,11 @@ painted_leaf = Flower.create(
   family: "Euphorbiaceae",
   significance: "Opening of the Vital to the Divine Love",
   comment: "Little by little it is no longer the ego that governs, but the Divine.",
-  description: "Terminal clusters of tiny inconspicuous flowers with yellow stamens surrounded by striking ovate to fiddle-shaped leaves and bracts that are bright red orange at the base. A gregarious annual herb.",
-  colour: "Yellow, bright red orange",
+  description: "Terminal clusters of tiny inconspicuous flowers with yellow stamens surrounded by striking ovate to fiddle-shaped leaves and bracts that are bright red-orange at the base. A gregarious annual herb.",
+  colour: "Yellow, bright red-orange",
   size: "Tiny",
-  place: "Native to North and South America, naturalized elsewhere",
-  climate: "Found across temperate, subtropical and tropical climates",
+  place: "Native to North and South America; naturalized elsewhere",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "painted_leaf.jpg",
   thumbnail_url: "painted_leaf_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7341,8 +7341,8 @@ poinsettia = Flower.create(
   family: "Euphorbiaceae",
   significance: "Opening of the Vital to the Divine Love",
   comment: "Little by little it is no longer the ego that governs, but the Divine.",
-  description: "Large showy ovate-lanceolate floral bracts which vary from red through pink to white surrounding clusters of small round green flowers with red tops and golden yellow protuberances in the centres. A well-known striking winter-flowering shrub with milky latex.",
-  colour: "Green, golden yellow, red, pink, or white",
+  description: "Large, showy ovate-lanceolate floral bracts which vary from red through pink to white, surrounding clusters of small, round green flowers with red tops and golden-yellow protuberances in the center. A well-known striking winter-flowering shrub with milky latex.",
+  colour: "Green, golden-yellow, and red, pink, or white",
   size: "Small",
   place: "Indigenous to Mexico and Central America",
   climate: "Tropical",
@@ -7358,8 +7358,8 @@ canterbury_bells = Flower.create!(
   family: "Gesneriaceae",
   significance: "Broadening of the Emotional Centre",
   comment: "It opens and widens itself in order to receive better.",
-  description: "Medium-sized fragrant purplish blue downy campanulate flower with a darker throat, borne singly from the leaf axil on a sparse terminal raceme. A rhizomatous perennial herb with fleshy spotted stems and waxy heart-shaped leaves.",
-  colour: "Purplish blue",
+  description: "Medium-sized fragrant purplish-blue downy campanulate flower with a darker throat; borne singly from the leaf axil on a sparse terminal raceme. A rhizomatous perennial herb with fleshy spotted stems, and waxy heart-shaped leaves.",
+  colour: "Purplish-blue",
   size: "Medium-sized",
   place: "Found in a wide range in Central and South America (primarily the Andes)",
   climate: "Tropical",
@@ -7375,7 +7375,7 @@ tiny_flower_hibiscus = Flower.create!(
   family: "Malvaceae",
   significance: "Eternal Smile",
   comment: "A gift that only the Divine can give.",
-  description: "Very small delicate single white flower with five separated slightly twisted petals and a nearly horizontal staminal column with pale yellow anthers.",
+  description: "Very small, delicate single white flower with five separated, slightly twisted petals, and a nearly horizontal staminal column with pale yellow anthers.",
   colour: "White, pale yellow",
   petals: "Five",
   size: "Very small",
@@ -7393,11 +7393,11 @@ lesser_mallow = Flower.create!(
   family: "Malvaceae",
   significance: "Eternal Youth",
   comment: "It is a gift the Divine gives to us when we unite with Him.",
-  description: "Small single salmon orange saucer-shaped flower with five rounded overlapping petals and a nearly horizontal staminal column with yellow anthers.",
-  colour: "Salmon orange, yellow",
+  description: "Small single salmon-orange saucer-shaped flower with five rounded, overlapping petals, and a nearly horizontal staminal column with yellow anthers.",
+  colour: "Salmon-orange, yellow",
   petals: "Five",
   size: "Small",
-  place: "Found in Comoros, Mascarenes, Seychelles, Africa, Asia",
+  place: "Found in Comoros, Mascarenes, Seychelles, Africa, and Asia",
   climate: "Tropical and subtropical",
   image_url: "lesser_mallow.jpg",
   thumbnail_url: "lesser_mallow_thumbnail.jpg",
@@ -7412,7 +7412,7 @@ white_champaca = Flower.create!(
   family: "Magnoliaceae",
   significance: "Divine Smile",
   comment: "We can contemplate the smiles of the Divine when we have conquered our ego.",
-  description: "Medium-sized ivory white flower with long slender pointed petals and a strong fruity fragrance; borne singly among the leaves. A small to medium-sized evergreen tree.",
+  description: "Medium-sized ivory white flower with long, slender, pointed petals, and a strong fruity fragrance; borne singly among the leaves. A small to medium-sized evergreen tree.",
   colour: "Ivory white",
   petals: "Twelve",
   size: "Medium-sized",
@@ -7431,11 +7431,11 @@ champaca = Flower.create!(
   family: "Magnoliaceae",
   significance: "Supramentalised Psychological Perfection",
   comment: "A psychological perfection aspiring to be Divinised.",
-  description: "Medium-sized highly fragrant flower with twelve separated pointed petals of cream yellow to golden orange; borne singly among the leaves. A tall handsome evergreen tree.",
-  colour: "Cream yellow to golden orange",
+  description: "Medium-sized highly fragrant flower with twelve separated pointed petals of cream-yellow to golden-orange; borne singly among the leaves. A tall, handsome evergreen tree.",
+  colour: "Cream-yellow to golden-orange",
   petals: "Twelve",
   size: "Medium-sized",
-  place: "Native to the Indomalaya ecozone (consisting of South Asia, Southeast Asia and some parts of China)",
+  place: "Native to the Indomalaya ecozone (consisting of South Asia, Southeast Asia, and some parts of China)",
   climate: "Tropical and subtropical",
   image_url: "champaca.jpg",
   thumbnail_url: "champaca_thumbnail.jpg",
@@ -7475,8 +7475,8 @@ fairy_rose = Flower.create!(
   climate: "Subtropical",
   image_url: "fairy_rose.jpg",
   thumbnail_url: "fairy_rose_thumbnail.jpg",
-  source: "Whisteling petals",
-  url: "http://whistelingpetals.blogspot.in/p/my-flower-collections.html"
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Rosa_chinensis_(2).JPG"
 )
 
 green_rose = Flower.create!(
@@ -7484,7 +7484,7 @@ green_rose = Flower.create!(
   bot_name: "Rosa chinensis 'Viridiflora'",
   family: "Rosaceae",
   significance: "Timidity in Attachment to the Divine",
-  comment: "Full of life, but not knowing how to change this life into an offering to the Divine.\n The attachment is not complete and unreserved; there are some parts of the being that question and hold back because they do not have total trust; one might say that it is a conditional attachment, such as: \"If the Divine does what I want, I will remain attached to Him.\"",
+  comment: "Full of life, but not knowing how to change this life into an offering to the Divine.<br/>The attachment is not complete and unreserved; there are some parts of the being that question and hold back because they do not have total trust; one might say that it is a conditional attachment, such as: \"If the Divine does what I want, I will remain attached to Him.\"",
   description: "Small double green flower. A small shrub.",
   colour: "Green",
   size: "Small",
@@ -7501,12 +7501,12 @@ tree_marigold = Flower.create!(
   other_names: "Mexican Tournesol, Mexican Sunflower, Japanese Sunflower, Nitobe Chrysanthemum",
   bot_name: "Tithonia diversifolia",
   family: "Asteraceae",
-  significance: "First Movement of Riches Towards the Divine",
+  significance: "First Movement of Riches towards the Divine",
   comment: "The sure sign of conversion.",
-  description: "Large slightly fragrant compositae flower with long narrow deep golden yellow ray florets; borne singly on long stalks. A robust perennial or tall subshrub.",
-  colour: "Deep golden",
+  description: "Large slightly fragrant flower with long, narrow deep golden-yellow ray florets; borne singly on long stalks. A robust perennial or tall subshrub.",
+  colour: "Deep golden-yellow",
   size: "Large",
-  place: "Native to eastern Mexico and Central America, has a nearly pantropical distribution as an introduced species",
+  place: "Native to eastern Mexico and Central America; has a nearly pantropical distribution as an introduced species",
   climate: "Tropical and subtropical",
   image_url: "tree_marigold.jpg",
   thumbnail_url: "tree_marigold_thumbnail.jpg",
@@ -7520,10 +7520,10 @@ mexican_sunflower = Flower.create!(
   family: "Asteraceae",
   significance: "Physical Consciousness entirely turned towards the Divine",
   comment: "It thirsts for the Divine and wants nothing but Him.",
-  description: "Medium-sized compositae flower with bright reddish orange ray florets and a tufted yellow centre; borne singly on a long stem. A robust erect bushy annual herb.",
-  colour: "Bright reddish orange, yellow",
+  description: "Medium-sized flower with bright reddish-orange ray florets and a tufted yellow center; borne singly on a long stem. A robust, erect, bushy annual herb.",
+  colour: "Bright reddish-orange, yellow",
   size: "Medium-sized",
-  place: "Native to Florida, Louisiana, Mexico, Central America and the West Indies",
+  place: "Native to Florida, Louisiana, Mexico, Central America, and the West Indies",
   climate: "Tropical and subtropical",
   image_url: "mexican_sunflower.jpg",
   thumbnail_url: "mexican_sunflower_thumbnail.jpg",
@@ -7537,9 +7537,9 @@ white_alder = Flower.create!(
   bot_name: "Turnera subulata",
   family: "Passifloraceae",
   significance: "Awakening of the Physical Mind",
-  comment: "It wants to know and opens itself wide in order to understand.",
-  description: "Medium-sized cream white saucer-shaped flower with five rounded petals crimped at outer edge, a tiny maroon streaked centre with an yellow aura; borne singly from the leaf axils. A perennial herb with serrate pubescent leaves.",
-  colour: "Cream white, maroon, yellow",
+  comment: "It wants to know, and opens itself wide in order to understand.",
+  description: "Medium-sized cream-white saucer-shaped flower with five rounded petals crimped at the outer edge, and a tiny maroon-streaked center with a yellow aura; borne singly from the leaf axils. A perennial herb with serrate, pubescent leaves.",
+  colour: "Cream-white, maroon, yellow",
   petals: "Five",
   size: "Medium-sized",
   place: "Native to Central and South America, from Panama south to Brazil; well known in many other places as an introduced species, such as Malaysia, Indonesia, several other Pacific Islands, the Caribbean, and Florida in the United States",
@@ -7557,7 +7557,7 @@ yellow_alder = Flower.create!(
   family: "Passifloraceae",
   significance: "Awakening in the Mind",
   comment: "Let it turn to the Light and to the Light alone.",
-  description: "Small yellow saucer-shaped flower with five slightly separated rounded petals; borne singly from the leaf axils. A subshrub with pubescent heavily serrated lanceolate leaves.",
+  description: "Small yellow saucer-shaped flower with five slightly separated, rounded petals; borne singly from the leaf axils. A subshrub with pubescent, heavily serrated, lanceolate leaves.",
   colour: "Yellow",
   petals: "Five",
   size: "Small",
@@ -7584,7 +7584,7 @@ wild_ginger = Flower.create!(
   family: "Zingiberaceae",
   petals: "Several",
   size: "Medium to large",
-  place: "Native to southeast Asia and surrounding regions, from India to China to Queensland and Indonesia, also found in many tropical regions across the world",
+  place: "Native to southeast Asia and surrounding regions, from India to China to Queensland and Indonesia; also found in many tropical regions across the world",
   climate: "Tropical and subtropical",
   image_url: "wild_ginger.jpg",
   thumbnail_url: "wild_ginger_thumbnail.jpg",
@@ -7593,8 +7593,8 @@ wild_ginger = Flower.create!(
 )
 
 wild_ginger.child_flowers.create!(
-  description: "Medium to large fragrant rose purple tubular flower with a petal-like lip  spotted purple at the base, emerging from a waxy white three pointed calyx which in turn emerges from striking waxy deep red bracts; borne in terminal spikes. A tall rhizomatous perennial herb with slender aromatic reedlike leafy stems.",
-  colour: "Rose purple",
+  description: "Medium to large fragrant rose purple tubular flower with a petal-like lip  spotted purple at the base, emerging from a waxy white three pointed calyx which in turn emerges from striking waxy deep red bracts; borne in terminal spikes. A tall rhizomatous perennial herb with slender aromatic reed-like leafy stems.",
+  colour: "Rose purple, white, deep red",
   significance: "Revelation",
   comment: "The true revelation is the revelation of the Divine.",
   image_url: "wild_ginger_red.jpg",
@@ -7603,8 +7603,8 @@ wild_ginger.child_flowers.create!(
 )
 
 wild_ginger.child_flowers.create!(
-  description: "Medium to large fragrant white flower with a golden yellow throat and calyx edged with pale pink which in turn emerges from striking, waxy deep red bracts; borne in terminal spikes. A tall rhizomatous perennial herb with slender aromatic reedlike leafy stems.",
-  colour: "White, golden yellow, pale pink",
+  description: "Medium to large fragrant white flower with a golden yellow throat and calyx edged with pale pink which in turn emerges from striking, waxy deep red bracts; borne in terminal spikes. A tall rhizomatous perennial herb with slender aromatic reed-like leafy stems.",
+  colour: "White, golden yellow, pale pink, deep red",
   significance: "Integral Revelation",
   comment: "Half-way to transformation.",
   image_url: "wild_ginger_white.jpg",
@@ -7617,9 +7617,9 @@ wild_ginger.child_flowers.create!(
 flowering_maple = Flower.create!(
   name: "Flowering Maple",
   other_names: "Chinese Lantern, Parlor Maple, Indian Mallow",
-  bot_name: "Abutilon X hybridum",
+  bot_name: "Abutilon x hybridum",
   family: "Malvaceae",
-  size: "Small to medium",
+  size: "Small to medium-sized",
   place: "Occurs in a number of tropical and subtropical zones",
   climate: "Tropical and subtropical",
   image_url: "flowering_maple.jpg",
@@ -7629,8 +7629,8 @@ flowering_maple = Flower.create!(
 )
 
 flowering_maple.child_flowers.create!(
-  description: "Small to medium-sized pendant bell-shaped flowers with stamens united in a central tubular column; in various shades and patterns of white, yellow, orange or reddish purple; borne singly and often nodding on axillary peduncles. A perennial herb or small shrub.",
-  colour: "In shades of white, yellow, orange, or reddish purple",
+  description: "Small to medium-sized pendant bell-shaped flowers with stamens united in a central tubular column; in various shades and patterns of white, yellow, orange, or reddish-purple; borne singly and often nodding on axillary peduncles. A perennial herb or small shrub.",
+  colour: "Shades of white, yellow, orange, or reddish-purple",
   significance: "Promise",
   comment: "The future is full of promise.",
   image_url: "flowering_maple_mix.jpg",
@@ -7649,8 +7649,8 @@ flowering_maple.child_flowers.create!(
 )
 
 flowering_maple.child_flowers.create!(
-  description: "Small to medium-sized pendant bell-shaped deep redish purple flowers with stamens united in a central tubular column; borne singly and often nodding on axillary peduncles. A perennial herb or small shrub.",
-  colour: "Deep reddish purple",
+  description: "Small to medium-sized pendant bell-shaped deep reddish-purple flowers with stamens united in a central tubular column; borne singly and often nodding on axillary peduncles. A perennial herb or small shrub.",
+  colour: "Deep reddish-purple",
   significance: "Vital Promise",
   comment: "The vital is full of possibilities ready to develop.",
   image_url: "flowering_maple_red_purple.jpg",
@@ -7674,8 +7674,8 @@ copperleaf = Flower.create!(
 )
 
 copperleaf.child_flowers.create!(
-  description: "Soft, erect or drooping, axillary or terminal catkins of various sizes, in shades of red, pink or green; borne on a shrub with striking, often multicoloured leaves.",
-  colour: "In shades of red, pink, or green",
+  description: "Soft, erect or drooping, axillary or terminal catkins of various sizes, in shades of red, pink, or green; borne on a shrub with striking, often multicoloured leaves.",
+  colour: "Shades of red, pink, or green",
   significance: "Continuity", 
   comment: "To know how to persist in one's effort.",
   image_url: "copperleaf_mix.jpg",
@@ -7689,7 +7689,7 @@ copperleaf.child_flowers.create!(
   description: "Short pale green catkins tinged with red; borne in pairs or small clusters from the leaf axils. A shrub with somewhat drooping green oblong leaves with irregularly cut white margins.",
   colour: "Pale green, red",
   significance: "Attempt towards Continuity",
-  comment: "Vigorous and repeated but not lasting.",
+  comment: "Vigorous and repeated, but not lasting.",
   image_url: "copperleaf_green_red.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Acalypha_wilkesiana_Musa%C3%AFca_3.JPG"
@@ -7697,8 +7697,8 @@ copperleaf.child_flowers.create!(
 
 copperleaf.child_flowers.create!(
   bot_name: "Acalypha wilkesiana",
-  description: "A shrub with partly curled multicoloured leaves in shades of green, yellow green and pink with pink veins.",
-  colour: "Multicoloured green, yellow green, and pink",
+  description: "A shrub with partly curled multicoloured leaves in shades of green, yellow green, and pink, with pink veins.",
+  colour: "Multicoloured, green, yellow green, and pink",
   significance: "Vital Continuity",
   comment: "Rich, abundant, persistent.",
   image_url: "copperleaf_leaf.jpg",
@@ -7708,7 +7708,7 @@ copperleaf.child_flowers.create!(
 
 copperleaf.child_flowers.create!(
   bot_name: "Acalypha wilkesiana",
-  description: "Long thin hard erect dull red catkins. A shrub having large russet leaves with pink patches.",
+  description: "Long, thin, hard, erect, dull red catkins. A shrub having large russet leaves with pink patches.",
   colour: "Dull red",
   significance: "Material Continuity",
   comment: "Powerful, enduring, solid.",
@@ -7724,8 +7724,8 @@ hollyhock = Flower.create!(
   bot_name: "Alcea rosea",
   family: "Malvaceae",
   size: "Medium to large",
-  place: "Originally from China, cultivated in Europe and other temperate regions",
-  climate: "Temperate",
+  place: "Originally from China; cultivated in Europe and other temperate regions",
+  climate: "Subtropical to temperate",
   image_url: "hollyhock.jpg",
   thumbnail_url: "hollyhock_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7733,7 +7733,7 @@ hollyhock = Flower.create!(
 )
 
 hollyhock.child_flowers.create!(
-  description: "Medium to large funnel-shaped flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; in white and shades of pink, purple and yellow; borne on tall spirelike stems. There are also many double forms, often with scalloped or frilled edges. A tall biennial herb with rough hairy leaves.",
+  description: "Medium to large funnel-shaped flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; in white and shades of pink, purple, and yellow; borne on tall spire-like stems. There are also many double forms, often with scalloped or frilled edges. A tall biennial herb with rough hairy leaves.",
   colour: "White and shades of pink, purple, and yellow",
   significance: "Offering",
   comment: "The only offering that truly enriches is the one that is made to the Divine.",
@@ -7743,9 +7743,9 @@ hollyhock.child_flowers.create!(
 )
 
 hollyhock.child_flowers.create!(
-  description: "Medium to large single or double funnel-shaped dark purple, almost black flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spirelike stems. A tall biennial herb with rough hairy leaves.",
-  colour: "Dark purple to black",
-  significance: "Offering of All Obscurities",
+  description: "Medium to large single or double funnel-shaped dark purple, almost black flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
+  colour: "Dark purple to black, yellow",
+  significance: "Offering of all Obscurities",
   comment: "Offer your obscurities sincerely to the Divine and you will be able to receive the Light.",
   image_url: "hollyhock_purple_black.jpg",
   source: "Wikimedia Commons",
@@ -7753,8 +7753,8 @@ hollyhock.child_flowers.create!(
 )
 
 hollyhock.child_flowers.create!(
-  description: "Medium to large single or double funnel-shaped light pink flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spirelike stems. A tall biennial herb with rough hairy leaves.",
-  colour: "Light pink",
+  description: "Medium to large single or double funnel-shaped light pink flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
+  colour: "Light pink, yellow",
   significance: "Psychic Offering",
   comment: "This is the spontaneous attitude of the psychic towards the Divine.",
   image_url: "hollyhock_light_pink.jpg",
@@ -7763,8 +7763,8 @@ hollyhock.child_flowers.create!(
 )
 
 hollyhock.child_flowers.create!(
-  description: "Medium to large single or double funnel-shaped lavender pink flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spirelike stems. A tall biennial herb with rough hairy leaves.",
-  colour: "Lavender pink",
+  description: "Medium to large single or double funnel-shaped lavender pink flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
+  colour: "Lavender pink, yellow",
   significance: "Offering of the Emotions",
   comment: "Emotions placed at the service of progress.",
   image_url: "hollyhock_lavender_pink.jpg",
@@ -7773,8 +7773,8 @@ hollyhock.child_flowers.create!(
 )
 
 hollyhock.child_flowers.create!(
-  description: "Medium to large single or double funnel-shaped dark red flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spirelike stems. A tall biennial herb with rough hairy leaves.",
-  colour: "Dark red",
+  description: "Medium to large single or double funnel-shaped dark red flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
+  colour: "Dark red, yellow",
   significance: "Offering of the Vital",
   comment: "The immediate result of conversion.",
   image_url: "hollyhock_dark_red.jpg",
@@ -7783,8 +7783,8 @@ hollyhock.child_flowers.create!(
 )
 
 hollyhock.child_flowers.create!(
-  description: "Medium to large single or double funnel-shaped white flowers with a lavender centre; satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spirelike stems. A tall biennial herb with rough hairy leaves.",
-  colour: "White, lavender",
+  description: "Medium to large single or double funnel-shaped white flowers with a lavender center, satiny overlapping lobes, and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
+  colour: "White, lavender, yellow",
   significance: "Integral Offering of the Vital",
   comment: "An important stage on the way to transformation.",
   image_url: "hollyhock_white_lavender.jpg",
@@ -7793,8 +7793,8 @@ hollyhock.child_flowers.create!(
 )
 
 hollyhock.child_flowers.create!(
-  description: "Medium to large single or double funnel-shaped reddish violet flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spirelike stems. A tall biennial herb with rough hairy leaves.",
-  colour: "Reddish violet",
+  description: "Medium to large single or double funnel-shaped reddish-violet flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
+  colour: "Reddish-violet, yellow",
   significance: "Offering of the Material Vital",
   comment: "Indispensable for conversion.",
   image_url: "hollyhock_red_violet.jpg",
@@ -7803,8 +7803,8 @@ hollyhock.child_flowers.create!(
 )
 
 hollyhock.child_flowers.create!(
-  description: "Medium to large single or double funnel-shaped very dark red flowers with a blackish sheen; with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spirelike stems. A tall biennial herb with rough hairy leaves.",
-  colour: "Dark red to black",
+  description: "Medium to large single or double funnel-shaped very dark red flowers with a blackish sheen, satiny overlapping lobes, and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
+  colour: "Dark red to black, yellow",
   significance: "Offering of the Most Material Vital",
   comment: "The first step towards transformation.",
   image_url: "hollyhock_red_black.jpg",
@@ -7813,8 +7813,8 @@ hollyhock.child_flowers.create!(
 )
 
 hollyhock.child_flowers.create!(
-  description: "Medium to large single or double funnel-shaped red flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spirelike stems. A tall biennial herb with rough hairy leaves.",
-  colour: "Red",
+  description: "Medium to large single or double funnel-shaped red flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
+  colour: "Red, yellow",
   significance: "Offering of the Physical",
   comment: "The proof of the resolution to liberate oneself from the ego. Let the physical offer itself sincerely to the Divine and it will be transformed.",
   image_url: "hollyhock_red.jpg",
@@ -7823,7 +7823,7 @@ hollyhock.child_flowers.create!(
 )
 
 hollyhock.child_flowers.create!(
-  description: "Medium to large single or double funnel-shaped bicoloured flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spirelike stems. A tall biennial herb with rough hairy leaves.",
+  description: "Medium to large single or double funnel-shaped bicoloured flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
   colour: "Bicoloured",
   significance: "Combined Offering of Two Parts of the Being",
   comment: "This heralds the progress and effectiveness of the being.",
@@ -7833,8 +7833,8 @@ hollyhock.child_flowers.create!(
 )
 
 hollyhock.child_flowers.create!(
-  description: "Medium to large single or double funnel-shaped white flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spirelike stems. A tall biennial herb with rough hairy leaves.",
-  colour: "White",
+  description: "Medium to large single or double funnel-shaped white flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
+  colour: "White, yellow",
   significance: "Integral Offering",
   comment: "The surest road to realisation.",
   image_url: "hollyhock_white.jpg",
@@ -7850,7 +7850,7 @@ velvet_flower = Flower.create!(
   bot_name: "Amaranthus caudatus",
   family: "Amaranthaceae",
   size: "Long",
-  place: "Originally from tropical Americas, found in various other tropical regions",
+  place: "Originally from tropical Americas; found in various other tropical regions",
   climate: "Mostly tropical",
   image_url: "velvet_flower.jpg",
   thumbnail_url: "velvet_flower_thumbnail.jpg",
@@ -7862,14 +7862,14 @@ velvet_flower.child_flowers.create!(
   description: "Long tapering pendulous catkins densely covered with minute stiff dull magenta flowers, the heavy catkins weighing down the stems. A coarse annual herb with magenta stems and green leaves tinged magenta.",
   colour: "Dull magenta",
   significance: "Fearlessness in Action",
-  comment: "Manifold, unfettered and fearless.",
+  comment: "Manifold, unfettered, and fearless.",
   image_url: "velvet_flower_magenta.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:3834_-_Amaranthus_caudatus_(Zieramaranth).JPG"
 )
 
 velvet_flower.child_flowers.create!(
-  description: "Long tapering pendulous or erect catkins densely covered with tiny off-white flowers. An annual herb with brilliant coloured leaves either red or a combination of red, green and yellow.",
+  description: "Long tapering pendulous or erect catkins densely covered with tiny off-white flowers. An annual herb with brilliant coloured leaves either red or a combination of red, green, and yellow.",
   colour: "Off-white",
   significance: "Illumined Strength in the Vital",
   image_url: "velvet_flower_off_white.jpg",
@@ -7885,7 +7885,7 @@ willowleaf_angelon = Flower.create!(
   family: "Scrophulariaceae",
   petals: "Five",
   size: "Small",
-  place: "Found in Mexico, Argentina, Texas and other subtropical regions",
+  place: "Found in Mexico, Argentina, Texas, and other subtropical regions",
   climate: "Subtropical",
   image_url: "willowleaf_angelon.jpg",
   thumbnail_url: "willowleaf_angelon_thumbnail.jpg",
@@ -7942,7 +7942,7 @@ flamingo_flower = Flower.create!(
 flamingo_flower.child_flowers.create!(
   description: "Firm waxy heart-shaped large to very large pink spathe and a prominent thick erect pink and white spadix; borne singly on a long stiff stem. A perennial herb with large leathery somewhat heart-shaped leaves.",
   colour: "Pink, white",
-  significance: "Sex centre Aspiring to be Purified",
+  significance: "Sex Centre Aspiring to be Purified",
   comment: "The awakening of the consciousness to a higher life.",
   image_url: "flamingo_flower_pink.jpg",
   source: "Wikimedia Commons",
@@ -7986,7 +7986,7 @@ coral_vine = Flower.create!(
 )
 
 coral_vine.child_flowers.create!(
-  description: "Tiny delicate lantern-shaped white, pink, deep pink and bicoloured pink flowers in small racemes forming long trailing sprays. A dense fast growing vine with heavily veined lanceolate or ovate-cordate leaves.",
+  description: "Tiny delicate lantern-shaped white, pink, deep pink, and bicoloured pink flowers in small racemes forming long trailing sprays. A dense fast growing vine with heavily veined lanceolate or ovate-cordate leaves.",
   colour: "White, pink, deep pink, and bicoloured pink",
   significance: "Harmony",
   comment: "Let us work for the day when this will become both the means and the end.",
@@ -8041,7 +8041,7 @@ snapdragon = Flower.create!(
 )
 
 snapdragon.child_flowers.create!(
-  description: "Small bilabiate flowers in white and shades of yellow, orange, pink and red with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised centre of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
+  description: "Small bilabiate flowers in white and shades of yellow, orange, pink, and red with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
   colour: "White and shades of yellow, orange, pink, and red",
   significance: "Power of Expression",
   comment: "It has the power to manifest that which is latent.",
@@ -8051,7 +8051,7 @@ snapdragon.child_flowers.create!(
 )
 
 snapdragon.child_flowers.create!(
-  description: "Small bilabiate pink flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised centre of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
+  description: "Small bilabiate pink flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
   colour: "Pink",
   significance: "Power of Psychic Expression",
   comment: "The psychic obtains its power of expression when it governs the whole being.",
@@ -8061,7 +8061,7 @@ snapdragon.child_flowers.create!(
 )
 
 snapdragon.child_flowers.create!(
-  description: "Small bilabiate yellow flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised centre of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
+  description: "Small bilabiate yellow flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
   colour: "Yellow",
   significance: "Power of Mental Expression",
   comment: "Has no value unless it is at the service of the Divine.",
@@ -8071,7 +8071,7 @@ snapdragon.child_flowers.create!(
 )
 
 snapdragon.child_flowers.create!(
-  description: "Small bilabiate purple to violet flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised centre of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
+  description: "Small bilabiate purple to violet flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
   colour: "Purple to violet",
   significance: "Power of Vital Expression",
   comment: "It is useful only when the vital is converted.",
@@ -8081,7 +8081,7 @@ snapdragon.child_flowers.create!(
 )
 
 snapdragon.child_flowers.create!(
-  description: "Small bilabiate red flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised centre of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
+  description: "Small bilabiate red flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
   colour: "Red",
   significance: "Power of Physical Expression",
   comment: "One of the benefits of conversion.",
@@ -8091,7 +8091,7 @@ snapdragon.child_flowers.create!(
 )
 
 snapdragon.child_flowers.create!(
-  description: "Small bilabiate white flowers with yellow throat; with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised centre of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
+  description: "Small bilabiate white flowers with yellow throat; with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
   colour: "White, yellow",
   significance: "Power of Integral Expression",
   comment: "Nothing is too difficult for it to say.",
@@ -8101,7 +8101,7 @@ snapdragon.child_flowers.create!(
 )
 
 snapdragon.child_flowers.create!(
-  description: "Small bilabiate multicoloured flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised centre of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
+  description: "Small bilabiate multicoloured flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
   colour: "Multicoloured",
   significance: "Power of Manifold Expression",
   comment: "The result of suppleness and plasticity.",
@@ -8139,8 +8139,8 @@ climbing_lang_lang = Flower.create!(
 )
 
 climbing_lang_lang.child_flowers.create!(
-  description: "Medium-sized pendulous flower with six thick fleshy tapering petals and a fruitlike fragrance; flowers open greenish yellow and become yellow with age; borne singly or in clusters. A vigorous climbing shrub.",
-  colour: "Greenish yellow to yellow",
+  description: "Medium-sized pendulous flower with six thick fleshy tapering petals and a fruit-like fragrance; flowers open greenish-yellow and become yellow with age; borne singly or in clusters. A vigorous climbing shrub.",
+  colour: "Greenish-yellow to yellow",
   significance: "Clear Mind",
   comment: "The first step on the way to conversion.",
   image_url: "climbing_lang_lang_flower.jpg",
@@ -8177,7 +8177,7 @@ blood_flower = Flower.create!(
 
 blood_flower.child_flowers.create!(
   description: "Tiny flowers with five yellow petals that curve back towards the stalk and a prominent central golden crown; borne in terminal cymes. A perennial herb with milky sap.",
-  colour: "Yellow",
+  colour: "Yellow, golden",
   significance: "Response of the Mind to the Supramental Light",
   comment: "Represents an important step towards realisation.",
   image_url: "blood_flower_yellow.jpg",
@@ -8187,7 +8187,7 @@ blood_flower.child_flowers.create!(
 
 blood_flower.child_flowers.create!(
   description: "Tiny flowers with five orange red petals that curve back towards the stalk and a prominent central orange crown; borne in terminal cymes. A perennial herb with milky sap.",
-  colour: "Orange red",
+  colour: "Orange red, orange",
   significance: "Response of the Physical Mind to the Supramental Light",
   comment: "The physical mind eager to understand and be transformed.",
   image_url: "blood_flower_orange_red.jpg",
@@ -8202,7 +8202,7 @@ italian_aster = Flower.create!(
   bot_name: "Aster amellus",
   family: "Compositae",
   size: "Small",
-  place: "Found on the European mountains, and in Western and Central Asia, Siberia and Caucasus",
+  place: "Found on European mountains, and in Western and Central Asia, Siberia, and Caucasus",
   climate: "Subtropical to temperate",
   image_url: "italian_aster.jpg",
   thumbnail_url: "italian_aster_thumbnail.jpg",
@@ -8211,31 +8211,31 @@ italian_aster = Flower.create!(
 )
 
 italian_aster.child_flowers.create!(
-  description: "Small single compositae flower with narrow white ray florets and a centre of tiny yellow disc florets; borne in corymbs. An attractive perennial herb.",
+  description: "Small single flower with narrow white ray florets and a center of tiny yellow disc florets; borne in corymbs. An attractive perennial herb.",
   colour: "White, yellow",
   significance: "Simple Sincerity",
   comment: "The beginning of all progress.",
-  image_url: "italian_aster_white_yellow.jpg",
+  image_url: "italian_aster_white.jpg",
   source: "Swamy Nursery & Florist",
   url: "http://www.swamynursery.in/category/flowering-shrubs/"
 )
 
 italian_aster.child_flowers.create!(
-  description: "Small single compositae flower with narrow lavender pink ray florets and a centre of tiny yellow disc florets; borne in corymbs. An attractive perennial herb.",
+  description: "Small single flower with narrow lavender pink ray florets and a center of tiny yellow disc florets; borne in corymbs. An attractive perennial herb.",
   colour: "Lavender pink, yellow",
   significance: "Emotional Sincerity",
   comment: "Does not try to falsify the emotions.",
-  image_url: "italian_aster_lavender_pink_yellow.jpg",
+  image_url: "italian_aster_lavender_pink.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Aster_amellus-IMG_6178.jpg"
 )
 
 italian_aster.child_flowers.create!(
-  description: "Small single compositae flower with narrow lavender blue ray florets and a centre of tiny yellow disc florets; borne in corymbs. An attractive perennial herb.",
+  description: "Small single flower with narrow lavender blue ray florets and a center of tiny yellow disc florets; borne in corymbs. An attractive perennial herb.",
   colour: "Lavender blue, yellow",
   significance: "Sincerity in the Vital",
   comment: "The sure way to realisation.",
-  image_url: "italian_aster_lavender_blue_yellow.jpg",
+  image_url: "italian_aster_lavender_blue.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:European_Michaelmas_Daisy_-_Aster_amellus_(12831629843).jpg"
 )
@@ -8348,7 +8348,7 @@ philippine_violet.child_flowers.create!(
   description: "Small striped white and lavender salverform flowers with five rounded separated lobes that emerge from a spiny bracted spike. An erect spiny shrub and herb.",
   colour: "White, lavender",
   significance: "Emotional Opening",
-  comment: "The progress of emotions towars the Divine.",
+  comment: "The progress of emotions towards the Divine.",
   image_url: "philippine_violet_white_lavender.jpg",
   source: "TopTropicals",
   url: "https://toptropicals.com/catalog/uid/BARLERIA_STRIPED.htm"
@@ -8392,8 +8392,8 @@ butterfly_tree = Flower.create!(
 )
 
 butterfly_tree.child_flowers.create!(
-  description: "Large mildly fragrant flowers in various shades of light pink to reddish violet, with five irregular separated petals, the central petal with a more deeply coloured splash; recurved stamens arise from the centre; borne in few-flowered racemes. A small to medium-sized tree.",
-  colour: "Light pink to reddish violet",
+  description: "Large mildly fragrant flowers in various shades of light pink to reddish-violet, with five irregular separated petals, the central petal with a more deeply coloured splash; recurved stamens arise from the center; borne in few-flowered racemes. A small to medium-sized tree.",
+  colour: "Light pink to reddish-violet",
   significance: "Stability in the Vital",
   comment: "One of the important results of conversion.",
   image_url: "butterfly_tree_violet.jpg",
@@ -8402,7 +8402,7 @@ butterfly_tree.child_flowers.create!(
 )
 
 butterfly_tree.child_flowers.create!(
-  description: "Large mildly fragrant light mauve flowers with five irregular separated petals, the central petal with a more deeply coloured splash; recurved stamens arise from the centre; borne in few-flowered racemes. A small to medium-sized tree.",
+  description: "Large mildly fragrant light mauve flowers with five irregular separated petals, the central petal with a more deeply coloured splash; recurved stamens arise from the center; borne in few-flowered racemes. A small to medium-sized tree.",
   colour: "Light to dark mauve",
   significance: "Stability in the Higher Vital",
   image_url: "butterfly_tree_mauve.jpg",
@@ -8417,7 +8417,7 @@ begonia = Flower.create!(
   bot_name: "Begonia",
   family: "Begoniaceae",
   petals: "Two or more",
-  size: "Tiny",
+  size: "Tiny or medium-sized",
   place: "Native to moist subtropical and tropical regions",
   climate: "Tropical and subtropical",
   image_url: "begonia.jpg",
@@ -8427,7 +8427,7 @@ begonia = Flower.create!(
 )
 
 begonia.child_flowers.create!(
-  description: "Tiny waxy flowers in white and shades of pink, red and yellow with two prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
+  description: "Tiny waxy flowers in white and shades of pink, red, and yellow, with two prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
   colour: "White and shades of pink, red, and yellow",
   significance: "Balance",
   comment: "Each seeks his own balance in order to stabilise himself.",
@@ -8437,7 +8437,7 @@ begonia.child_flowers.create!(
 )
 
 begonia.child_flowers.create!(
-  description: "Medium-sized single or double flowers in white and shades of pink, red and yellow with two or more prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
+  description: "Medium-sized single or double flowers in white and shades of pink, red, and yellow, with two or more prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
   colour: "White and shades of pink, red, and yellow",
   significance: "Perfect Balance",
   comment: "One of the most important conditions of a growing peace.",
@@ -8450,7 +8450,7 @@ begonia.child_flowers.create!(
   description: "Tiny pink waxy flowers with two prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
   colour: "Pink, yellow",
   significance: "Psychic Balance",
-  comment: "Under the psychic influence all activity becomes balanced.",
+  comment: "Under the psychic influence, all activity becomes balanced.",
   image_url: "begonia_single_pink_yellow.jpg",
   source: "Wikimedia Commons",
   url: "https://de.wikipedia.org/wiki/Datei:Begonia.naumoniensis.7083.jpg"
@@ -8523,8 +8523,8 @@ bougainvillea = Flower.create!(
 )
 
 bougainvillea.child_flowers.create!(
-  description: "Clusters of showy ovate bracts in groups of three or more that enfold tiny white to greenish white salverform flowers; in many colours. A shrub, vine or small tree, usually armed with spines.",
-  colour: "White to greenish white, many colours",
+  description: "Clusters of showy ovate bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers; in many colours. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, many colours",
   significance: "Protection",
   comment: "Let us give ourselves entirely and sincerely to the Divine and we shall enjoy His protection.",
   image_url: "bougainvillea_mix.jpg",
@@ -8534,8 +8534,8 @@ bougainvillea.child_flowers.create!(
 
 bougainvillea.child_flowers.create!(
   bot_name: "Bougainvillea ‘Mahara’",
-  description: "Clusters of showy small semi-double ovate bright magenta bracts in dense clusters that enfold tiny white to greenish white salverform flowers. A shrub, vine or small tree, usually armed with spines.",
-  colour: "White to greenish white, bright magenta",
+  description: "Clusters of showy small semi-double ovate bright magenta bracts in dense clusters that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, bright magenta",
   significance: "Attempt towards Protection",
   comment: "Irregular and not always effective efforts.",
   image_url: "bougainvillea_magenta.jpg",
@@ -8545,8 +8545,8 @@ bougainvillea.child_flowers.create!(
 
 bougainvillea.child_flowers.create!(
   bot_name: "Bougainvillea ‘Trinidad’",
-  description: "Clusters of showy very pale lavender ovate bracts in groups of three or more that enfold tiny white to greenish white salverform flowers. A shrub, vine or small tree, usually armed with spines.",
-  colour: "White to greenish white, pale lavender",
+  description: "Clusters of showy very pale lavender ovate bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, pale lavender",
   significance: "Discreet Protection",
   comment: "Does its work discreetly without drawing attention.",
   image_url: "bougainvillea_lavender.jpg",
@@ -8555,8 +8555,8 @@ bougainvillea.child_flowers.create!(
 )
 
 bougainvillea.child_flowers.create!(
-  description: "Clusters of showy ovate pink bracts in groups of three or more that enfold tiny white to greenish white salverform flowers. A shrub, vine or small tree, usually armed with spines.",
-  colour: "White to greenish white, pink",
+  description: "Clusters of showy ovate pink bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, pink",
   significance: "Psychic Protection",
   comment: "The protection resulting from surrender to the Divine.",
   image_url: "bougainvillea_pink.jpg",
@@ -8565,8 +8565,8 @@ bougainvillea.child_flowers.create!(
 )
 
 bougainvillea.child_flowers.create!(
-  description: "Clusters of showy ovate light lavender pink bracts in groups of three or more that enfold tiny white to greenish white salverform flowers. A shrub, vine or small tree, usually armed with spines.",
-  colour: "White to greenish white, light lavender pink",
+  description: "Clusters of showy ovate light lavender pink bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, light lavender pink",
   significance: "Emotional Protection",
   comment: "Surrender to the Divine is the best emotional protection.",
   image_url: "bougainvillea_lavender_pink.jpg",
@@ -8575,8 +8575,8 @@ bougainvillea.child_flowers.create!(
 )
 
 bougainvillea.child_flowers.create!(
-  description: "Clusters of showy ovate violet bracts in groups of three or more that enfold tiny white to greenish white salverform flowers. A shrub, vine or small tree, usually armed with spines.",
-  colour: "White to greenish white, violet",
+  description: "Clusters of showy ovate violet bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, violet",
   significance: "Vital Protection",
   comment: "Surrender to the Divine is the best vital protection.",
   image_url: "bougainvillea_violet.jpg",
@@ -8585,8 +8585,8 @@ bougainvillea.child_flowers.create!(
 )
 
 bougainvillea.child_flowers.create!(
-  description: "Clusters of showy ovate red bracts in groups of three or more that enfold tiny white to greenish white salverform flowers. A shrub, vine or small tree, usually armed with spines.",
-  colour: "White to greenish white, red",
+  description: "Clusters of showy ovate red bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, red",
   significance: "Physical Protection",
   comment: "Is possible only with a total surrender to the divine and absence of all desire.",
   image_url: "bougainvillea_red.jpg",
@@ -8596,8 +8596,8 @@ bougainvillea.child_flowers.create!(
 
 bougainvillea.child_flowers.create!(
   bot_name: "Bougainvillea 'Blondie'",
-  description: "Clusters of showy ovate bracts in subtle shadings of pale lavender pink to soft orange on each bract; borne in groups of three or more that enfold tiny white to greenish white salverform flowers. A shrub, vine or small tree, usually armed with spines.",
-  colour: "White to greenish white, pale lavender pink to soft orange",
+  description: "Clusters of showy ovate bracts in subtle shadings of pale lavender pink to soft orange on each bract; borne in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, pale lavender pink to soft orange",
   significance: "Triple Protection",
   comment: "Protection in the mind, the vital, and the physical.",
   image_url: "bougainvillea_blondie.jpg",
@@ -8606,8 +8606,8 @@ bougainvillea.child_flowers.create!(
 )
 
 bougainvillea.child_flowers.create!(
-  description: "Clusters of showy ovate white bracts in groups of three or more that enfold tiny white to greenish white salverform flowers. A shrub, vine or small tree, usually armed with spines.",
-  colour: "White to greenish white",
+  description: "Clusters of showy ovate white bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white",
   significance: "Integral Protection",
   comment: "That which can be given only by the Divine.",
   image_url: "bougainvillea_white.jpg",
@@ -8617,8 +8617,8 @@ bougainvillea.child_flowers.create!(
 
 bougainvillea.child_flowers.create!(
   bot_name: "Bougainvillea ‘Mary Palmer’",
-  description: "Clusters of showy ovate bracts in groups of three or more that enfold tiny white to greenish white salverform flowers; bright purple pink bracts and white bracts in each cluster. A shrub, vine or small tree, usually armed with spines.",
-  colour: "White to greenish white, bright purple pink",
+  description: "Clusters of showy ovate bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers; bright purple pink bracts and white bracts in each cluster. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, bright purple pink",
   significance: "Manifold Protection",
   comment: "A protection working not only on life as a whole but on each of its details.",
   image_url: "bougainvillea_purple_pink.jpg",
@@ -8627,8 +8627,8 @@ bougainvillea.child_flowers.create!(
 )
 
 bougainvillea.child_flowers.create!(
-  description: "Clusters of showy ovate predominantly yellow and golden bracts in groups of three or more that enfold tiny white to greenish white salverform flowers. A shrub, vine or small tree, usually armed with spines.",
-  colour: "White to greenish white, yellow, golden",
+  description: "Clusters of showy ovate predominantly yellow and golden bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, yellow, golden",
   significance: "Protection of the Gods",
   comment: "Luminous and clear-visioned.",
   image_url: "bougainvillea_yellow_golden.jpg",
@@ -8653,7 +8653,7 @@ bush_violet = Flower.create!(
 )
 
 bush_violet.child_flowers.create!(
-  description: "Small delicate salverform flower with an irregularly shaped five-lobed limb; in light blue shades with a tiny yellow spot in the centre; borne singly in the leaf axils. An annual or perennial herb.",
+  description: "Small delicate salverform flower with an irregularly shaped five-lobed limb; in light blue shades with a tiny yellow spot in the center; borne singly in the leaf axils. An annual or perennial herb.",
   colour: "Light blue, yellow",
   significance: "Consent of the Vital",
   comment: "Friendly, smiling, always ready for action, with a great goodwill.",
@@ -8663,8 +8663,8 @@ bush_violet.child_flowers.create!(
 )
 
 bush_violet.child_flowers.create!(
-  description: "Small delicate salverform flower with an irregularly shaped five-lobed limb; in Pale lilac lined with white borne singly in the leaf axils. An annual or perennial herb.",
-  colour: "Pale lilac",
+  description: "Small delicate salverform flower with an irregularly shaped five-lobed limb; in pale lilac lined with white borne singly in the leaf axils. An annual or perennial herb.",
+  colour: "Pale lilac, white",
   significance: "Enthusiastic Vital Consent",
   comment: "Here all the resources of its enthusiasm are placed at the service of its consent.",
   image_url: "bush_violet_lilac.jpg",
@@ -8681,7 +8681,7 @@ barbados_pride = Flower.create!(
   family: "Fabaceae",
   petals: "Four",
   size: "Small",
-  place: "Native to the tropics and subtropics of the Americas, widely cultivated throughout the world",
+  place: "Native to the tropics and subtropics of the Americas; widely cultivated throughout the world",
   climate: "Tropical and subtropical",
   image_url: "barbados_pride.jpg",
   thumbnail_url: "barbados_pride_thumbnail.jpg",
@@ -8690,8 +8690,8 @@ barbados_pride = Flower.create!(
 )
 
 barbados_pride.child_flowers.create!(
-  description: "Small striking flower with four equal petals, a smaller lip and very long prominent stamens; in orange red with a yellow to orange yellow border; borne in erect racemes. A large somewhat prickly shrub.",
-  colour: "Orange red, yellow",
+  description: "Small striking flower with four equal petals, a smaller lip and very long, prominent stamens; in orange red with a yellow to orange yellow border; borne in erect racemes. A large, somewhat prickly shrub.",
+  colour: "Orange red, yellow to orange yellow",
   significance: "Fire",
   comment: "Fears no obstacle.",
   image_url: "barbados_pride_orange_red_yellow.jpg",
@@ -8700,7 +8700,7 @@ barbados_pride.child_flowers.create!(
 )
 
 barbados_pride.child_flowers.create!(
-  description: "Small striking golden yellow flower with four equal petals, a smaller lip and very long prominent stamens; borne in erect racemes. A large somewhat prickly shrub.",
+  description: "Small striking golden yellow flower with four equal petals, a smaller lip and very long, prominent stamens; borne in erect racemes. A large, somewhat prickly shrub.",
   colour: "Golden yellow",
   significance: "Fire in the Mind",
   comment: "An ardour that sets ideas ablaze.",
@@ -8718,7 +8718,7 @@ china_aster = Flower.create!(
   family: "Compositae",
   petals: "Several",
   size: "Medium-sized",
-  place: "Native to China and Korea, cultivated worldwide",
+  place: "Native to China and Korea; cultivated worldwide",
   climate: "Mostly temperate",
   image_url: "china_aster.jpg",
   thumbnail_url: "china_aster_thumbnail.jpg",
@@ -8727,7 +8727,7 @@ china_aster = Flower.create!(
 )
 
 china_aster.child_flowers.create!(
-  description: "Medium-sized slightly scented semi-double to double compositae flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; in white, pale yellow and shades of blue, purple, pink and red; borne singly. A compact bushy annual.",
+  description: "Medium-sized slightly scented semi-double to double flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; in white, pale yellow, and shades of blue, purple, pink, and red; borne singly. A compact bushy annual.",
   colour: "White, yellow, and shades of blue, purple, pink, and red",
   significance: "Transparency",
   comment: "Can come only as a result of perfect sincerity.",
@@ -8737,17 +8737,17 @@ china_aster.child_flowers.create!(
 )
 
 china_aster.child_flowers.create!(
-  description: "Medium-sized slightly scented semi-double compositae pink flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
+  description: "Medium-sized slightly scented semi-double pink flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
   colour: "Pink, yellow",
   significance: "Psychic Transparency",
   comment: "Manifests fully only when the psychic is perfectly developed.",
-  image_url: "china_aster_single_pink.jpg",
+  image_url: "china_aster_pink.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Callistephus_or_china_aster_1950.JPG"
 )
 
 china_aster.child_flowers.create!(
-  description: "Medium-sized slightly scented double compositae pink flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
+  description: "Medium-sized slightly scented double pink flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
   colour: "Pink, yellow",
   significance: "Supramentalised Psychic Activity",
   comment: "Luminous, manifold, balanced, it meets all needs.",
@@ -8757,7 +8757,7 @@ china_aster.child_flowers.create!(
 )
 
 china_aster.child_flowers.create!(
-  description: "Medium-sized slightly scented semi-double compositae light mauve flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
+  description: "Medium-sized slightly scented semi-double light mauve flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
   colour: "Light mauve, yellow",
   significance: "Transparency of the Emotional Vital",
   comment: "At once the condition and result of the abolition of the ego.",
@@ -8767,7 +8767,7 @@ china_aster.child_flowers.create!(
 )
 
 china_aster.child_flowers.create!(
-  description: "Medium-sized slightly scented semi-double compositae deep mauve to violet flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
+  description: "Medium-sized slightly scented semi-double deep mauve to violet flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
   colour: "Deep mauve to violet, yellow",
   significance: "Vital Transparency",
   comment: "Indispensable for conversion.",
@@ -8777,27 +8777,27 @@ china_aster.child_flowers.create!(
 )
 
 china_aster.child_flowers.create!(
-  description: "Medium-sized slightly scented double compositae violet flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
+  description: "Medium-sized slightly scented double violet flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
   colour: "Violet, yellow",
   significance: "Supramentalised Vital Transparency",
   comment: "One of the results of conversion.",
-  image_url: "china_aster_violet_yellow.jpg",
+  image_url: "china_aster_violet.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Callistephus_chinensis_1.0_R.jpg"
 )
 
 china_aster.child_flowers.create!(
-  description: "Medium-sized slightly scented semi-double compositae red flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
+  description: "Medium-sized slightly scented semi-double red flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
   colour: "Red, yellow",
   significance: "Transparency in the Physical",
   comment: "The physical is preparing itself to be transformed.",
-  image_url: "china_aster_red_yellow.jpg",
+  image_url: "china_aster_red.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:%EA%B3%BC%EA%BD%83_%EA%B0%80%EA%B9%8C%EC%9D%B4.JPG"
 )
 
 china_aster.child_flowers.create!(
-  description: "Medium-sized slightly scented double compositae white flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
+  description: "Medium-sized slightly scented double white flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
   colour: "White, yellow",
   significance: "Integral Transparency",
   comment: "It is the result of goodwill and perfect sincerity.",
@@ -8807,11 +8807,11 @@ china_aster.child_flowers.create!(
 )
 
 china_aster.child_flowers.create!(
-  description: "Medium-sized slightly scented semi-double compositae white flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
+  description: "Medium-sized slightly scented semi-double white flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
   colour: "White, yellow",
   significance: "Illumined Transparency",
   comment: "An effect of the Divine Grace.",
-  image_url: "china_aster_semi_double_white_yellow.jpg",
+  image_url: "china_aster_white.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Flowers_-_Uncategorised_Garden_plants_75.JPG"
 )
@@ -8834,7 +8834,7 @@ mudar = Flower.create!(
 )
 
 mudar.child_flowers.create!(
-  description: "Small mauve star-shaped flower with fleshy petals and a beautifully sculpted crown-like centre; buds are greenish grey and waxy; borne in dense terminal clusters. A large shrub with whitish woolly leaf surfaces.",
+  description: "Small mauve star-shaped flower with fleshy petals and a beautifully sculpted crown-like center; buds are greenish-grey and waxy; borne in dense terminal clusters. A large shrub with whitish woolly leaf surfaces.",
   colour: "Mauve",
   significance: "Courage",
   comment: "Bold, it faces all dangers.",
@@ -8844,7 +8844,7 @@ mudar.child_flowers.create!(
 )
 
 mudar.child_flowers.create!(
-  description: "Small white star-shaped flower with fleshy petals and a beautifully sculpted crown-like centre; buds are greenish grey and waxy; borne in dense terminal clusters. A large shrub with whitish woolly leaf surfaces.",
+  description: "Small white star-shaped flower with fleshy petals and a beautifully sculpted crown-like center; buds are greenish-grey and waxy; borne in dense terminal clusters. A large shrub with whitish woolly leaf surfaces.",
   colour: "White",
   significance: "Integral Courage",
   comment: "Whatever the domain, whatever the danger, the attitude remains the same - calm and assured.",
@@ -8862,7 +8862,7 @@ indian_shot = Flower.create!(
   family: "Cannacceae",
   size: "Small to medium-sized",
   place: "Native to the Americas, but found in many regions",
-  climate: "Found across temperate, subtropical and tropical climates",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "indian_shot.jpg",
   thumbnail_url: "indian_shot_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -8880,8 +8880,8 @@ indian_shot.child_flowers.create!(
 )
 
 indian_shot.child_flowers.create!(
-  description: "Small to medium-sized bright reddish orange flower with slender petals slightly wider than those of Friendship with the Divine, and yellow streaks on two petals. Leaves are edged and veined with purple. An erect perennial rhizomatous herb with lush foliage.",
-  colour: "Bright reddish orange, yellow",
+  description: "Small to medium-sized bright reddish-orange flower with slender petals slightly wider than those of Friendship with the Divine, and yellow streaks on two petals. Leaves are edged and veined with purple. An erect perennial rhizomatous herb with lush foliage.",
+  colour: "Bright reddish-orange, yellow",
   significance: "Progressive Friendship with the Divine",
   comment: "As we progress and purify ourselves of our egoism, our friendship with the Divine becomes clearer and more conscious.",
   image_url: "indian_shot_red_orange.jpg",
@@ -8903,7 +8903,7 @@ indian_shot.child_flowers.create!(
 
 canna_lily = Flower.create!(
   name: "Canna Lily",
-  bot_name: "Canna X generalis",
+  bot_name: "Canna x generalis",
   family: "Cannacceae",
   petals: "Three",
   size: "Large",
@@ -8976,7 +8976,7 @@ canna_lily.child_flowers.create!(
 )
 
 canna_lily.child_flowers.create!(
-  description: "Large showy light or dark yellow flowers having a few red specks towards the centre with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
+  description: "Large showy light or dark yellow flowers having a few red specks towards the center, with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
   colour: "Light or dark yellow, red",
   significance: "Intuitive Mind Centre",
   comment: "The activity of correct perception.",
@@ -9006,7 +9006,7 @@ canna_lily.child_flowers.create!(
 )
 
 canna_lily.child_flowers.create!(
-  description: "Large showy cream white flower having a red centre with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
+  description: "Large showy cream white flower having a red center with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
   colour: "Cream white, red",
   significance: "Ananda in the Physical Body",
   comment: "Purified of all desire and all repulsion, with perfect equality and surrender, the physical body is ready to enjoy the Divine Ananda.",
@@ -9019,7 +9019,7 @@ canna_lily.child_flowers.create!(
   description: "Large showy flowers with three soft round irregular petals, all bicoloured yellow and red flowers; borne in terminal clusters on sturdy stems erect perennial rhizomatous herb with lush foliage.",
   colour: "Bicoloured, yellow, red",
   significance: "Connection between the Light and Physical",
-  comment: "Physical centre touched by the Light. Awakens to the necessity of growth and blossoming.",
+  comment: "Physical centre, touched by the Light, awakens to the necessity of growth and blossoming.",
   image_url: "canna_lily_bicoloured_yellow_red.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:La_llama_de_tu_amor.jpg"
@@ -9029,7 +9029,7 @@ canna_lily.child_flowers.create!(
   description: "Large showy flowers with three soft round irregular petals, all bicoloured orange and red flowers; borne in terminal clusters on sturdy stems erect perennial rhizomatous herb with lush foliage.",
   colour: "Bicoloured, orange, red",
   significance: "Connection between the Supermind and the Physical",
-  comment: "Physical centre open and full of the Supramental Light. On the way to transformation, generous and powerful.",
+  comment: "Physical centre open and full of the Supramental Light, on the way to transformation, generous and powerful.",
   image_url: "canna_lily_bicoloured_orange_red.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Canna_cultivar.jpg"
@@ -9063,7 +9063,7 @@ madagascar_periwinkle.child_flowers.create!(
 )
 
 madagascar_periwinkle.child_flowers.create!(
-  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; light pink-violet; borne singly in the leaf axils. A long-blooming perennial herb.",
+  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; light pink violet; borne singly in the leaf axils. A long-blooming perennial herb.",
   colour: "Light pink violet",
   significance: "Vital Progress",
   comment: "Organisation around the Divine Will and progressive surrender to that Will.",
@@ -9073,7 +9073,7 @@ madagascar_periwinkle.child_flowers.create!(
 )
 
 madagascar_periwinkle.child_flowers.create!(
-  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; white with violet centre; borne singly in the leaf axils. A long-blooming perennial herb.",
+  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; white with violet center; borne singly in the leaf axils. A long-blooming perennial herb.",
   colour: "White, violet",
   significance: "Integral Progress in the Vital",
   comment: "The vital consents to be purified.",
@@ -9083,7 +9083,7 @@ madagascar_periwinkle.child_flowers.create!(
 )
 
 madagascar_periwinkle.child_flowers.create!(
-  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; light pink with red centre; borne singly in the leaf axils. A long-blooming perennial herb.",
+  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; light pink with red center; borne singly in the leaf axils. A long-blooming perennial herb.",
   colour: "Light pink, red",
   significance: "Constant Progress in Matter",
   comment: "The result of an ardent aspiration.",
@@ -9093,7 +9093,7 @@ madagascar_periwinkle.child_flowers.create!(
 )
 
 madagascar_periwinkle.child_flowers.create!(
-  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; white with red centre; borne singly in the leaf axils. A long-blooming perennial herb.",
+  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; white with red center; borne singly in the leaf axils. A long-blooming perennial herb.",
   colour: "White, red",
   significance: "Integral Progress in Matter",
   comment: "Matter awakens to consciousness.",
@@ -9113,7 +9113,7 @@ madagascar_periwinkle.child_flowers.create!(
 )
 
 madagascar_periwinkle.child_flowers.create!(
-  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; light pink-violet, streaked white; borne singly in the leaf axils. A long-blooming perennial herb.",
+  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; light pink violet, streaked white; borne singly in the leaf axils. A long-blooming perennial herb.",
   colour: "Light pink violet, white",
   significance: "Uninterrupted but Spasmodic Progress",
   comment: "Now here, now there, apparently very impulsive.",
@@ -9129,11 +9129,11 @@ orchid = Flower.create!(
   family: "Orchidaceae",
   significance: "Attachment to the Divine",
   comment: "Wraps itself around the Divine and takes all its support in Him, so as to be sure of never leaving Him. Offers itself spontaneously to the Divine.",
-  description: "Considered to be the largest family of flowering plants and the most highly evolved, orchids are found in every colour of the spectrum and encompass an extraordinary range of size and form. They are usually epiphytic in tropical regions where they are the most numerous, and terrestrial in temperate and arctic regions.",
-  petals: "Three",
+  description: "Considered to be the largest family of flowering plants and the most highly evolved, orchids are found in every colour of the spectrum and encompass an extraordinary range of size and form. They are usually epiphytic in tropical regions where they are most numerous, and terrestrial in temperate and arctic regions.",
+  petals: "Three or more",
   size: "Medium to large",
   place: "Found in many different regions",
-  climate: "Found across temperate, subtropical and tropical climates, but mostly tropical",
+  climate: "Found across temperate, subtropical, and tropical climates, but mostly tropical",
   image_url: "orchid.jpg",
   thumbnail_url: "orchid_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -9165,7 +9165,7 @@ orchid.child_flowers.create!(
 orchid.child_flowers.create!(
   bot_name: "Dendrobium moschatum",
   description: "Medium-sized fragrant pale golden orange flower with one erect and two lower sepals, two wider horizontal petals and a prominent fuzzy, pouch-like lip with two maroon spots near the base; borne in pendulous racemes. A showy epiphyte.",
-  colour: "Pale golden orange",
+  colour: "Pale golden orange, maroon",
   significance: "Mental Attachment to the Divine",
   comment: "Beautiful in form and in expression.",
   image_url: "orchid_golden_orange.jpg",
@@ -9175,8 +9175,8 @@ orchid.child_flowers.create!(
 
 orchid.child_flowers.create!(
   bot_name: "Papilionanthe teres [Vanda teres]",
-  description: "Medium-sized flower with five ovate widely separated pale pinkish lavender petals and a central arched golden yellow lip with the lower edge extended to form two rounded pinkish lavender lobes; borne in erect racemes. An erect epiphyte with terete leaves.",
-  colour: "Pale pinkish lavender, golden yellow",
+  description: "Medium-sized flower with five ovate widely separated pale pinkish-lavender petals and a central arched golden yellow lip with the lower edge extended to form two rounded pinkish-lavender lobes; borne in erect racemes. An erect epiphyte with terete leaves.",
+  colour: "Pale pinkish-lavender, golden yellow",
   significance: "Emotional Attachment to the Divine",
   comment: "Cups of flowery feeling offered to the Divine",
   image_url: "orchid_pink_golden.jpg",
@@ -9186,8 +9186,8 @@ orchid.child_flowers.create!(
 
 orchid.child_flowers.create!(
   bot_name: "Vanda tessellata",
-  description: "Medium-sized fragrant flower with five stiff separated olive green petals with crinkled edges and marked with greenish yellow, and a prominent lavender lip; widely spaced on erect racemes. A heat-loving epiphyte with narrow straplike leaves.",
-  colour: "Olive green, greenish yellow, lavender",
+  description: "Medium-sized fragrant flower with five stiff separated olive green petals with crinkled edges and marked with greenish-yellow, and a prominent lavender lip; widely spaced on erect racemes. A heat-loving epiphyte with narrow strap-like leaves.",
+  colour: "Olive green, greenish-yellow, lavender",
   significance: "Detailed Attachment to the Divine",
   comment: "Manifold, scrupulous, neglecting nothing, always ready to make an effort, meticulous.",
   image_url: "orchid_green_lavender.jpg",
@@ -9226,13 +9226,13 @@ feathered_amaranth.child_flowers.create!(
   significance: "Joyful Expression",
   comment: "It enjoys itself and gives enjoyment to others.",
   image_url: "feathered_amaranth_golden_orange.jpg",
-  source: "Nargil - Plant Database",
-  url: "http://nargil.ir/plant/houseplants.aspx?pid=107"
+  source: "Horticulture 131, PennState",
+  url: "http://www.personal.psu.edu/rdb4/hort131/weekly-lessons/week-4/week-4-plants/celosia/"
 )
 
 feathered_amaranth.child_flowers.create!(
-  description: "Long erect branching spikes of tiny greenish white loosely arranged everlasting flowers that form soft feathery plumes. A showy floriferous garden annual.",
-  colour: "Greenish white",
+  description: "Long erect branching spikes of tiny greenish-white loosely arranged everlasting flowers that form soft feathery plumes. A showy floriferous garden annual.",
+  colour: "Greenish-white",
   significance: "Attempt towards Immortality",
   comment: "Persistent and coordinated.",
   image_url: "feathered_amaranth_green_white.jpg",
@@ -9241,18 +9241,18 @@ feathered_amaranth.child_flowers.create!(
 )
 
 feathered_amaranth.child_flowers.create!(
-  description: "Long erect branching spikes of loosely arranged everlasting flowers that form soft feathery plumes; all colours except greenish white, purplish pink and red. A showy floriferous garden annual.",
+  description: "Long erect branching spikes of loosely arranged everlasting flowers that form soft feathery plumes; all colours except greenish-white, purplish-pink, and red. A showy floriferous garden annual.",
   colour: "All colours",
   significance: "Aspiration for Immortality",
   comment: "Pure, soaring, full of trust.",
   image_url: "feathered_amaranth_mix.jpg",
-  source: "Horticulture 131, PennState",
-  url: "http://www.personal.psu.edu/rdb4/hort131/weekly-lessons/week-4/week-4-plants/celosia/"
+  source: "Nargil - Plant Database",
+  url: "http://nargil.ir/plant/houseplants.aspx?pid=107"
 )
 
 feathered_amaranth.child_flowers.create!(
-  description: "Long erect branching spikes of tiny purplish pink loosely arranged everlasting flowers that form soft feathery plumes. A showy floriferous garden annual.",
-  colour: "Purplish pink",
+  description: "Long erect branching spikes of tiny purplish-pink loosely arranged everlasting flowers that form soft feathery plumes. A showy floriferous garden annual.",
+  colour: "Purplish-pink",
   significance: "Vital Aspiration for Immortality",
   comment: "Clustered, intense, but short-lived.",
   image_url: "feathered_amaranth_purple_pink.jpg",
@@ -9285,7 +9285,7 @@ common_cockscomb = Flower.create!(
   name: "Common Cockscomb",
   bot_name: "Celosia argentea var. cristata",
   family: "Amaranthaceae",
-  place: "India, China, Burma",
+  place: "Found in India, China, and Burma",
   climate: "Tropical and subtropical",
   image_url: "common_cockscomb.jpg",
   thumbnail_url: "common_cockscomb_thumbnail.jpg",
@@ -9294,7 +9294,7 @@ common_cockscomb = Flower.create!(
 )
 
 common_cockscomb.child_flowers.create!(
-  description: "Colourful compact velvety rounded or flared floral heads with intricate convolutions; the tiny inconspicuous flowers are sparsely arranged on the stem below; in white and shades of yellow, orange, pink, purple and red. A bold striking annual.",
+  description: "Colourful compact velvety rounded or flared floral heads with intricate convolutions; the tiny inconspicuous flowers are sparsely arranged on the stem below; in white and shades of yellow, orange, pink, purple, and red. A bold striking annual.",
   colour: "White and shades of yellow, orange, pink, purple, and red",
   significance: "Boldness",
   comment: "Do fearlessly what has to be done, dreading no difficulty.",
@@ -9359,7 +9359,7 @@ bag_flower = Flower.create!(
 )
 
 bag_flower.child_flowers.create!(
-  description: "Small very delicate white salverform flower with a long thin corolla tube, an irregularly shaped limb with scalloped edges and long thin rose violet stamens; borne in clusters. A small shrub or woody herb.",
+  description: "Small very delicate white salverform flower with a long thin corolla tube, an irregularly shaped limb with scalloped edges, and long thin rose violet stamens; borne in clusters. A small shrub or woody herb.",
   colour: "White, rose violet",
   significance: "Belief",
   comment: "Simple and candid, does not question.",
@@ -9369,7 +9369,7 @@ bag_flower.child_flowers.create!(
 )
 
 bag_flower.child_flowers.create!(
-  description: "Small mildly fragrant white salverform flower with exserted white stamens, a thin corolla tube and five narrow lobes with up-curving edges; borne in axillary panicles. A small to medium-sized shrub with ovate irregularly serrate leaves.",
+  description: "Small mildly fragrant white salverform flower with exserted white stamens, a thin corolla tube, and five narrow lobes with up-curving edges; borne in axillary panicles. A small to medium-sized shrub with ovate irregularly serrate leaves.",
   colour: "White",
   significance: "Divine Will Acting in the Inconscient",
   comment: "Is all-powerful even when we are not aware of it.",
@@ -9386,7 +9386,7 @@ blue_pea = Flower.create!(
   bot_name: "Clitoria ternatea",
   family: "Fabaceae",
   size: "Medium-sized",
-  place: "Native to tropical equatorial Asia, has been introduced to Africa, Australia and America",
+  place: "Native to tropical equatorial Asia; has been introduced to Africa, Australia, and America",
   climate: "Mostly tropical",
   image_url: "blue_pea.jpg",
   thumbnail_url: "blue_pea_thumbnail.jpg",
@@ -9395,7 +9395,7 @@ blue_pea = Flower.create!(
 )
 
 blue_pea.child_flowers.create!(
-  description: "Medium-sized single or double ultramarine blue papilionaceous flower that has a broad oval central petal with a yellow centre and wing petals edged with pale blue; borne singly on a short stem. A slender perennial vine with beanlike pods.",
+  description: "Medium-sized single or double ultramarine blue papilionaceous flower that has a broad oval central petal with a yellow center and wing petals edged with pale blue; borne singly on a short stem. A slender perennial vine with bean-like pods.",
   colour: "Ultramarine blue, yellow, pale blue",
   significance: "Radha’s Consciousness",
   comment: "Symbolises perfect attachment to the Divine.",
@@ -9405,7 +9405,7 @@ blue_pea.child_flowers.create!(
 )
 
 blue_pea.child_flowers.create!(
-  description: "Medium-sized single light purple or mauve papilionaceous flower that has a broad oval central petal with a yellow centre and wing petals edged with pale blue; borne singly on a short stem. A slender perennial vine with beanlike pods.",
+  description: "Medium-sized single light purple or mauve papilionaceous flower that has a broad oval central petal with a yellow center and wing petals edged with pale blue; borne singly on a short stem. A slender perennial vine with bean-like pods.",
   colour: "Light purple or mauve, yellow, pale blue",
   significance: "Radha’s Consciousness in the Vital",
   comment: "Perfect attachment to the Divine replaces all vital attractions and passions.",
@@ -9415,7 +9415,7 @@ blue_pea.child_flowers.create!(
 )
 
 blue_pea.child_flowers.create!(
-  description: "Medium-sized single papilionaceous flower that has a broad oval pale blue central petal with a yellow centre and wing petals edged with pale blue; borne singly on a short stem. A slender perennial vine with beanlike pods.",
+  description: "Medium-sized single papilionaceous flower that has a broad oval pale blue central petal with a yellow center and wing petals edged with pale blue; borne singly on a short stem. A slender perennial vine with bean-like pods.",
   colour: "Pale blue, yellow",
   significance: "Krishna’s Light in the Senses",
   comment: "A first step towards transformation.",
@@ -9425,7 +9425,7 @@ blue_pea.child_flowers.create!(
 )
 
 blue_pea.child_flowers.create!(
-  description: "Medium-sized single papilionaceous flower that has a broad oval white central petal with a yellow centre and white wing petals; borne singly on a short stem. A slender perennial vine with beanlike pods.",
+  description: "Medium-sized single papilionaceous flower that has a broad oval white central petal with a yellow center and white wing petals; borne singly on a short stem. A slender perennial vine with bean-like pods.",
   colour: "White, yellow",
   significance: "Purified Senses",
   comment: "Can only be obtained by total surrender to the Truth.",
@@ -9443,8 +9443,8 @@ dayflower = Flower.create!(
   family: "Commelinaceae",
   petals: "Three",
   size: "Small to tiny",
-  place: "Found in Asia, Europe and Eastern North America",
-  climate: "Found across temperate, subtropical and tropical climates",
+  place: "Found in Asia, Europe, and Eastern North America",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "dayflower.jpg",
   thumbnail_url: "dayflower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -9452,7 +9452,7 @@ dayflower = Flower.create!(
 )
 
 dayflower.child_flowers.create!(
-  description: "Small clear sky blue flower with two prominent clawed slightly ruffled opposite winglike petals, a third petal that is tiny and inconspicuous and four bright yellow anthers; borne singly from a folded green bract. An annual or perennial succulent herb.",
+  description: "Small clear sky blue flower with two prominent clawed slightly ruffled opposite wing-like petals, a third petal that is tiny and inconspicuous, and four bright yellow anthers; borne singly from a folded green bract. An annual or perennial succulent herb.",
   colour: "Sky blue, bright yellow",
   significance: "Charity",
   comment: "Simple and sweet, attentive to the needs of all.",
@@ -9462,8 +9462,8 @@ dayflower.child_flowers.create!(
 )
 
 dayflower.child_flowers.create!(
-  description: "Tiny blue to lavender flower with two upper clawed petals, one lower inconspicuous petal and three smaller whitish sepals; emerging singly or in pairs from a folded green bract. A perennial succulent herb.",
-  colour: "Blue to lavender, white, green",
+  description: "Tiny blue to lavender flower with two upper clawed petals, one lower inconspicuous petal, and three smaller whitish sepals; emerging singly or in pairs from a folded green bract. A perennial succulent herb.",
+  colour: "Blue to lavender, white",
   significance: "First Conscious Reception of the Light in Nature",
   comment: "The origin or starting-point of the will to progress. Nature has an instinctive thirst for Light.",
   image_url: "dayflower_lavender.jpg",
@@ -9479,7 +9479,7 @@ cannonball_tree = Flower.create!(
   family: "Lecythidaceae",
   petals: "Six",
   size: "Large",
-  place: "Native to the rainforests of Central and South America, cultivated in many other places",
+  place: "Native to the rainforests of Central and South America; cultivated in many other places",
   climate: "Tropical",
   image_url: "cannonball_tree.jpg",
   thumbnail_url: "cannonball_tree_thumbnail.jpg",
@@ -9488,7 +9488,7 @@ cannonball_tree = Flower.create!(
 )
 
 cannonball_tree.child_flowers.create!(
-  description: "Large very fragrant light to deep red flowers with six wide fleshy satiny petals and a prominent central hood ending in numerous yellow-tipped stamens; borne in long pendulous racemes directly from the trunk and main branches. A moderately large tree with unique cannonball shaped fruits.",
+  description: "Large very fragrant light to deep red flowers with six wide fleshy satiny petals and a prominent central hood ending in numerous yellow-tipped stamens; borne in long pendulous racemes directly from the trunk and main branches. A moderately large tree with unique cannonball-shaped fruits.",
   colour: "Light to deep red, yellow",
   significance: "Prosperity",
   comment: "Remains only with him who offers it to the Divine.",
@@ -9498,7 +9498,7 @@ cannonball_tree.child_flowers.create!(
 )
 
 cannonball_tree.child_flowers.create!(
-  description: "Large very fragrant pink and white flowers with six wide fleshy satiny petals and a prominent central hood ending in numerous yellow-tipped stamens; borne in long pendulous racemes directly from the trunk and main branches. A moderately large tree with unique cannonball shaped fruits.",
+  description: "Large very fragrant pink and white flowers with six wide fleshy satiny petals and a prominent central hood ending in numerous yellow-tipped stamens; borne in long pendulous racemes directly from the trunk and main branches. A moderately large tree with unique cannonball-shaped fruits.",
   colour: "Pink, white, yellow",
   significance: "Unselfish Prosperity",
   comment: "He who receives it abundantly gives all that he has as he receives it.",
@@ -9525,8 +9525,8 @@ crinum_lily = Flower.create!(
 )
 
 crinum_lily.child_flowers.create!(
-  description: "Large fragrant white salverform flower with six narrow or broad partly recurved lobes, a long narrow green tube and prominent reddish purple stamens; borne in umbels on long scapes. A large bulbous plant with straplike leaves.",
-  colour: "White, reddish purple",
+  description: "Large fragrant white salverform flower with six narrow or broad partly recurved lobes, a long narrow green tube, and prominent reddish-purple stamens; borne in umbels on long scapes. A large bulbous plant with strap-like leaves.",
+  colour: "White, reddish-purple",
   significance: "Disinterested Work Done for the Divine",
   comment: "The surest way to progress.",
   image_url: "crinum_lily_white_reddish_purple.jpg",
@@ -9535,8 +9535,8 @@ crinum_lily.child_flowers.create!(
 )
 
 crinum_lily.child_flowers.create!(
-  description: "Very large white salverform flower with long tapering fleshy recurved petal-like lobes, whitish above and reddish purple beneath, and six long erect reddish purple stamens; borne in umbels on long scapes. A bulbous plant with straplike leaves.",
-  colour: "White, reddish purple, purple",
+  description: "Very large white salverform flower with long tapering fleshy recurved petal-like lobes, whitish above and reddish-purple beneath, and six long erect reddish-purple stamens; borne in umbels on long scapes. A bulbous plant with strap-like leaves.",
+  colour: "White, reddish-purple",
   significance: "Disinterested Work Done for the Divine in the Vital",
   comment: "Calm and powerful, it reaches its goal.",
   image_url: "crinum_lily_white_purple.jpg",
@@ -9545,7 +9545,7 @@ crinum_lily.child_flowers.create!(
 )
 
 crinum_lily.child_flowers.create!(
-  description: "Large fragrant white lily like flower with a long narrow green tube and six widely separated slightly recurved petal-like lobes, each with a light pink band down the centre; borne in umbels on long sturdy scapes. A large bulb with straplike leaves.",
+  description: "Large fragrant white lily-like flower with a long narrow green tube and six widely separated slightly recurved petal-like lobes, each with a light pink band down the center; borne in umbels on long sturdy scapes. A large bulb with strap-like leaves.",
   colour: "White, green, light pink",
   significance: "Joy of Integral Peace",
   comment: "Calm and tranquil, an unfailing smile.",
@@ -9571,7 +9571,7 @@ firecracker_flower = Flower.create!(
 )
 
 firecracker_flower.child_flowers.create!(
-  description: "Small showy bright orange half-salverform flower with a tiny yellow centre and a limb divided into five irregular rounded lobes; borne in dense four-sided bracted spikes. A low perennial herb.",
+  description: "Small showy bright orange half-salverform flower with a tiny yellow center and a limb divided into five irregular rounded lobes; borne in dense four-sided bracted spikes. A low perennial herb.",
   colour: "Bright orange, yellow",
   significance: "Supramental Influence in the Subconscient",
   comment: "Under its modest appearance, it is a great force of transformation.",
@@ -9651,8 +9651,8 @@ dahlia = Flower.create!(
 )
 
 dahlia.child_flowers.create!(
-  description: "Very large (over 16 cm) fully double flowers with somewhat narrow, pointed and variously twisted ray florets; in white and shades of red, pink, lavender, purple, orange and yellow, also bicoloured; borne singly. A tender tuberous-rooted perennial herb.",
-  colour: "White and shades of red, pink, lavender, purple, orange, and yellow",
+  description: "Very large (over 16 cm) fully double flowers with somewhat narrow, pointed, and variously twisted ray florets; in white and shades of red, pink, lavender, purple, orange, and yellow, also bicoloured; borne singly. A tender tuberous-rooted perennial herb.",
+  colour: "Bicoloured or white and shades of red, pink, lavender, purple, orange, and yellow",
   significance: "Aristocracy",
   comment: "Incapable of baseness and pettiness, it asserts itself with dignity and authority.",
   image_url: "dahlia_double_xl.jpg",
@@ -9661,7 +9661,7 @@ dahlia.child_flowers.create!(
 )
 
 dahlia.child_flowers.create!(
-  description: "Medium to large (10-15 cm) fully double flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded or cupped) and many colours (except pink, orange yellow, mauve, and intense red).",
+  description: "Medium to large (10-15 cm) fully double flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded, or cupped) and many colours (except pink, orange yellow, mauve, and intense red).",
   colour: "Many colours",
   significance: "Dignity",
   comment: "Affirms its worth, but asks for nothing.",
@@ -9671,7 +9671,7 @@ dahlia.child_flowers.create!(
 )
 
 dahlia.child_flowers.create!(
-  description: "Medium to large (10-15 cm) fully double pink flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded or cupped).",
+  description: "Medium to large (10-15 cm) fully double pink flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded, or cupped).",
   colour: "Pink",
   significance: "Psychic Dignity",
   comment: "Refuses all that lowers or debases.",
@@ -9681,7 +9681,7 @@ dahlia.child_flowers.create!(
 )
 
 dahlia.child_flowers.create!(
-  description: "Medium to large (10-15 cm) fully double orange yellow flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded or cupped).",
+  description: "Medium to large (10-15 cm) fully double orange yellow flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded, or cupped).",
   colour: "Orange yellow",
   significance: "Supramentalised Mental Dignity",
   comment: "Tolerates no pettiness in thought turned towards the Truth.",
@@ -9691,7 +9691,7 @@ dahlia.child_flowers.create!(
 )
 
 dahlia.child_flowers.create!(
-  description: "Medium to large (10-15 cm) fully double mauve pink flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded or cupped).",
+  description: "Medium to large (10-15 cm) fully double mauve pink flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded, or cupped).",
   colour: "Mauve pink",
   significance: "Dignity of the Emotions",
   comment: "Not to allow one’s emotions to contradict the inner Divinity.",
@@ -9701,7 +9701,7 @@ dahlia.child_flowers.create!(
 )
 
 dahlia.child_flowers.create!(
-  description: "Medium to large (10-15 cm) fully double intense red flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded or cupped).",
+  description: "Medium to large (10-15 cm) fully double intense red flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded, or cupped).",
   colour: "Intense red",
   significance: "Dignity in the Physical",
   comment: "Above bargaining.",
@@ -9711,7 +9711,7 @@ dahlia.child_flowers.create!(
 )
 
 dahlia.child_flowers.create!(
-  description: "Very large (over 16 cm) fully double showy deep wine red flower with broadly cupped ray florets symmetrically arranged in a dense rounded cushionlike head; borne singly. A tender tuberous-rooted perennial herb.",
+  description: "Very large (over 16 cm) fully double showy deep wine red flower with broadly cupped ray florets symmetrically arranged in a dense rounded cushion-like head; borne singly. A tender tuberous-rooted perennial herb.",
   colour: "Deep wine red",
   significance: "Nobility",
   comment: "The incapacity for any pettiness of feeling or action.",
@@ -9721,7 +9721,7 @@ dahlia.child_flowers.create!(
 )
 
 dahlia.child_flowers.create!(
-  description: "Very large (over 16 cm.) double pure white compositae flower showing no disc florets. The ray florets are regularly arranged, their edges usually slightly incurved and their tips either broadly pointed or rounded; borne singly. A tender tuberous-rooted perennial herb.",
+  description: "Very large (over 16 cm) double pure white flower showing no disc florets. The ray florets are regularly arranged, their edges usually slightly incurved, and their tips either broadly pointed or rounded; borne singly. A tender tuberous-rooted perennial herb.",
   colour: "Pure white",
   significance: "Superhumanity",
   comment: "The aim of our aspirations.",
@@ -9731,7 +9731,7 @@ dahlia.child_flowers.create!(
 )
 
 dahlia.child_flowers.create!(
-  description: "Medium-sized single compositae flower, in all colours, with eight overlapping ray florets somewhat recurved at their tips, which can be round or pointed; the rays surround a disc of tubular yellow florets that form a hard centre; borne singly or in clusters. A tender tuberous-rooted perennial herb.",
+  description: "Medium-sized single flower, in all colours, with eight overlapping ray florets somewhat recurved at their tips, which can be round or pointed; the rays surround a disc of tubular yellow florets that form a hard center; borne singly or in clusters. A tender tuberous-rooted perennial herb.",
   colour: "All colours",
   significance: "Vanity",
   comment: "One of the most frequent forms of falsehood.",
@@ -9741,8 +9741,8 @@ dahlia.child_flowers.create!(
 )
 
 dahlia.child_flowers.create!(
-  description: "Medium-sized semi-double compositae flowers with two or three rows of ray florets and a central yellow disc; in white and shades of red, pink, lavender, purple, orange, yellow and bicoloured; borne singly or in clusters.",
-  colour: "White and shades of red, pink, lavender, purple, orange, and yellow",
+  description: "Medium-sized semi-double flowers with two or three rows of ray florets and a central yellow disc; in white and shades of red, pink, lavender, purple, orange, yellow, or bicoloured; borne singly or in clusters.",
+  colour: "Bicoloured or white and shades of red, pink, lavender, purple, orange, and yellow",
   significance: "Pride",
   comment: "A great obstacle to progress.",
   image_url: "dahlia_semi_double_mix.jpg",
@@ -9751,7 +9751,7 @@ dahlia.child_flowers.create!(
 )
 
 dahlia.child_flowers.create!(
-  description: "Medium-sized semi-double yellow compositae flowers with two or three rows of ray florets and a central yellow disc; borne singly or in clusters.",
+  description: "Medium-sized semi-double yellow flowers with two or three rows of ray florets and a central yellow disc; borne singly or in clusters.",
   colour: "Yellow",
   significance: "Mental Pride ",
   image_url: "dahlia_semi_double_yellow.jpg",
@@ -9806,7 +9806,7 @@ thorn_apple.child_flowers.create!(
 
 thorn_apple.child_flowers.create!(
   description: "Large double mildly fragrant erect trumpet-shaped white flower with corolla tube partly encased in a large velvety inflated green calyx; borne singly from the leaf axils. A highly poisonous annual or short-lived perennial herb with large dark green tomentose leaves.",
-  colour: "White",
+  colour: "White. green",
   significance: "Integral Tapasya",
   comment: "The whole being lives only to know and serve the Divine.",
   image_url: "thorn_apple_double_white.jpg",
@@ -9818,7 +9818,7 @@ thorn_apple.child_flowers.create!(
 
 florists_chrysanthemum = Flower.create!(
   name: "Florists' Chrysanthemum",
-  bot_name: "Dendranthema X grandiflorum [Chrysanthemum X morifolium]",
+  bot_name: "Dendranthema x grandiflorum [Chrysanthemum x morifolium]",
   family: "Compositae",
   size: "Medium to large",
   place: "Native to Asia and northeastern Europe",
@@ -9830,7 +9830,7 @@ florists_chrysanthemum = Flower.create!(
 )
 
 florists_chrysanthemum.child_flowers.create!(
-  description: "Medium to large double compositae flowers in a variety of forms with variously shaped ray florets; in white and shades of yellow, bronze, pink, red and mauve; borne singly or in loose corymbs. A bushy perennial with aromatic leaves and flowers.",
+  description: "Medium to large double flowers in a variety of forms with variously shaped ray florets; in white and shades of yellow, bronze, pink, red, and mauve; borne singly or in loose corymbs. A bushy perennial with aromatic leaves and flowers.",
   colour: "White and shades of yellow, bronze, pink, red, and mauve",
   significance: "Life Energy",
   comment: "Powerful and manifold, meets all needs.",
@@ -9840,7 +9840,7 @@ florists_chrysanthemum.child_flowers.create!(
 )
 
 florists_chrysanthemum.child_flowers.create!(
-  description: "Medium to large double compositae white flowers in a variety of forms with variously shaped ray florets; borne singly or in loose corymbs. A bushy perennial with aromatic leaves and flowers.",
+  description: "Medium to large double white flowers in a variety of forms with variously shaped ray florets; borne singly or in loose corymbs. A bushy perennial with aromatic leaves and flowers.",
   colour: "White",
   significance: "Purified Dynamic Life Energy",
   comment: "Superb, indomitable, all-powerful in its purity.",
@@ -9850,7 +9850,7 @@ florists_chrysanthemum.child_flowers.create!(
 )
 
 florists_chrysanthemum.child_flowers.create!(
-  description: "Medium to large double compositae orange yellow flowers in a variety of forms with variously shaped ray florets; borne singly or in loose corymbs. A bushy perennial with aromatic leaves and flowers.",
+  description: "Medium to large double orange yellow flowers in a variety of forms with variously shaped ray florets; borne singly or in loose corymbs. A bushy perennial with aromatic leaves and flowers.",
   colour: "Orange yellow",
   significance: "Supramentalised Life Energy",
   comment: "Manifold and supple, it has an immortal resistance.",
@@ -9860,7 +9860,7 @@ florists_chrysanthemum.child_flowers.create!(
 )
 
 florists_chrysanthemum.child_flowers.create!(
-  description: "Medium to large double compositae light mauve flowers in a variety of forms with variously shaped ray florets; borne singly or in loose corymbs. A bushy perennial with aromatic leaves and flowers.",
+  description: "Medium to large double light mauve flowers in a variety of forms with variously shaped ray florets; borne singly or in loose corymbs. A bushy perennial with aromatic leaves and flowers.",
   colour: "Light mauve",
   significance: "Life Energy in the Vital",
   comment: "Supple and resistant, it is tireless.",
@@ -9870,7 +9870,7 @@ florists_chrysanthemum.child_flowers.create!(
 )
 
 florists_chrysanthemum.child_flowers.create!(
-  description: "Medium to large double compositae golden red flowers in a variety of forms with variously shaped ray florets; borne singly or in loose corymbs. A bushy perennial with aromatic leaves and flowers.",
+  description: "Medium to large double golden red flowers in a variety of forms with variously shaped ray florets; borne singly or in loose corymbs. A bushy perennial with aromatic leaves and flowers.",
   colour: "Golden red",
   significance: "Life Energy in the Material",
   image_url: "florists_chrysanthemum_golden_red.jpg",
@@ -9896,7 +9896,7 @@ rainbow_pink = Flower.create!(
 )
 
 rainbow_pink.child_flowers.create!(
-  description: "Small single mildly fragrant rotate flowers with four to six broad slightly overlapping petals that have smooth or cut-and-fringed edges and are gathered at the base into a strong tubular green calyx; in white and shades of pink and red, sometimes variegated; borne in branching few-flowered clusters. An annual, biennial or short-lived perennial garden plant.",
+  description: "Small single mildly fragrant rotate flowers with four to six broad slightly overlapping petals that have smooth or cut-and-fringed edges and are gathered at the base into a strong tubular green calyx; in white and shades of pink and red, sometimes variegated; borne in branching few-flowered clusters. An annual, biennial, or short-lived perennial garden plant.",
   colour: "White and shades of pink and red",
   significance: "Obedience",
   comment: "To learn to obey is good; to obey only the Divine is better.",
@@ -9906,7 +9906,7 @@ rainbow_pink.child_flowers.create!(
 )
 
 rainbow_pink.child_flowers.create!(
-  description: "Small double mildly fragrant rotate flowers with petals that have smooth or cut-and-fringed edges and are gathered at the base into a strong tubular green calyx; in white and shades of pink and red, sometimes variegated; borne in branching few-flowered clusters. An annual, biennial or short-lived perennial garden plant.",
+  description: "Small double mildly fragrant rotate flowers with petals that have smooth or cut-and-fringed edges and are gathered at the base into a strong tubular green calyx; in white and shades of pink and red, sometimes variegated; borne in branching few-flowered clusters. An annual, biennial, or short-lived perennial garden plant.",
   colour: "White and shades of pink and red",
   significance: "Perfect Obedience",
   comment: "Without reserve or hesitation, joyous obedience in every sphere to the Divine command.",
@@ -9923,7 +9923,7 @@ pigeon_berry = Flower.create!(
   bot_name: "Duranta erecta [Duranta repens]",
   family: "Verbenaceae",
   size: "Tiny",
-  place: "Native from Mexico to South America and the Caribbean, also found in other tropical regions",
+  place: "Native from Mexico to South America and the Caribbean; also found in other tropical regions",
   climate: "Tropical",
   image_url: "pigeon_berry.jpg",
   thumbnail_url: "pigeon_berry_thumbnail.jpg",
@@ -9932,7 +9932,7 @@ pigeon_berry = Flower.create!(
 )
 
 pigeon_berry.child_flowers.create!(
-  description: "Tiny sweetly scented lavender salverform flower with a white centre, borne on small racemes. A large ornamental shrub or small tree.",
+  description: "Tiny sweetly scented lavender salverform flower with a white center, borne on small racemes. A large ornamental shrub or small tree.",
   colour: "Lavender, white",
   significance: "Aspiration for Vital Purity",
   comment: "Delicate, modest, insistent.",
@@ -9968,7 +9968,7 @@ floras_paintbrush = Flower.create!(
 )
 
 floras_paintbrush.child_flowers.create!(
-  description: "Small scarlet soft tassel-like head of Compositae flowers in loose corymbs. A low annual herb with sagittate leaves, the base of the leaves clasping the stems.",
+  description: "Small scarlet soft tassel-like head of flowers in loose corymbs. A low annual herb with sagittate leaves, the base of the leaves clasping the stems.",
   colour: "Scarlet",
   significance: "Prudence",
   comment: "Very useful for weakness since weakness needs prudence; strength does not need it.",
@@ -9979,7 +9979,7 @@ floras_paintbrush.child_flowers.create!(
 
 floras_paintbrush.child_flowers.create!(
   bot_name: "Emilia sonchifolia 'Lutea' (Javanica)",
-  description: "Small golden yellow soft tassel-like head of Compositae flowers in loose corymbs. A low annual herb with sagittate leaves, the base of the leaves clasping the stems.",
+  description: "Small golden yellow soft tassel-like head of flowers in loose corymbs. A low annual herb with sagittate leaves, the base of the leaves clasping the stems.",
   colour: "Golden yellow",
   significance: "Enlightened Prudence",
   comment: "Looks carefully before going forward.",
@@ -10064,8 +10064,8 @@ coral_tree.child_flowers.create!(
 
 coral_tree.child_flowers.create!(
   description: "Medium-sized bright orange flowers with long exserted orange red stamens; the leaves are heavily variegated with yellow along the veins and midrib. A large deciduous tree.",
-  colour: "Bright orange, red, yellow",
-  significance: "Matter Prepares Itself to Receive the Supramental",
+  colour: "Bright orange, orange red",
+  significance: "Matter Prepares itself to Receive the Supramental",
   comment: "Matter strives to free itself from old habits in order to prepare for the new realisation.",
   image_url: "coral_tree_bright_orange.jpg",
   source: "Wikimedia Commons",
@@ -10089,8 +10089,8 @@ indian_blanket = Flower.create!(
 
 indian_blanket.child_flowers.create!(
   bot_name: "Gaillardia 'Fanfare'",
-  description: "Medium-sized single or double compositae flower with prominent trumpet-shaped ray florets encircling the convex central disc; in shades of red, yellow, orange or multicoloured; borne singly. A commonly cultivated garden annual.",
-  colour: "Multicoloured, shades of red, yellow, orange",
+  description: "Medium-sized single or double flower with prominent trumpet-shaped ray florets encircling the convex central disc; in shades of red, yellow, orange, or multicoloured; borne singly. A commonly cultivated garden annual.",
+  colour: "Multicoloured or shades of red, yellow, or orange",
   significance: "Successful Future",
   comment: "Full of promise and joyful surprises.",
   image_url: "indian_blanket_single.jpg",
@@ -10100,7 +10100,7 @@ indian_blanket.child_flowers.create!(
 
 indian_blanket.child_flowers.create!(
   bot_name: "Gaillardia pulchella 'Sundance Bicolor'",
-  description: "Medium-sized double compositae red flower heavily tipped with yellow trumpet-shaped ray florets encircling the convex central disc; borne singly. A commonly cultivated garden annual.",
+  description: "Medium-sized double red flower heavily tipped with yellow trumpet-shaped ray florets encircling the convex central disc; borne singly. A commonly cultivated garden annual.",
   colour: "Red, yellow",
   significance: "Successful Future under the Supramental Influence",
   image_url: "indian_blanket_double.jpg",
@@ -10110,7 +10110,7 @@ indian_blanket.child_flowers.create!(
 
 indian_blanket.child_flowers.create!(
   bot_name: "Gaillardia pulchella 'Picta (Sweet)'",
-  description: "Medium-sized single compositae flower with flat three-lobed ray florets which are orange red tipped with yellow, slightly recurved when fully open and encircle the convex central disc. A commonly cultivated garden annual.",
+  description: "Medium-sized single flower with flat three-lobed ray florets which are orange red tipped with yellow, slightly recurved when fully open and encircle the convex central disc. A commonly cultivated garden annual.",
   colour: "Orange red, yellow",
   significance: "Cheerfulness",
   comment: "A joyful smile of nature.",
@@ -10121,7 +10121,7 @@ indian_blanket.child_flowers.create!(
 
 indian_blanket.child_flowers.create!(
   bot_name: "Gaillardia pulchella 'Picta (Sweet)'",
-  description: "Medium-sized single compositae yellow flower with flat three-lobed ray florets, slightly recurved when fully open and encircle the convex central disc. A commonly cultivated garden annual.",
+  description: "Medium-sized single yellow flower with flat three-lobed ray florets, slightly recurved when fully open and encircle the convex central disc. A commonly cultivated garden annual.",
   colour: "Yellow",
   significance: "Mental Cheerfulness",
   comment: "It knows how to enjoy everything.",
@@ -10139,8 +10139,8 @@ cape_jasmine = Flower.create!(
   family: "Rubiaceae",
   petals: "Six or several",
   size: "Medium to large",
-  place: "Native to Asia, most commonly found growing wild in Vietnam, Southern China, Taiwan, Japan, Myanmar and India",
-  climate: "Native to Asia, most commonly found growing wild in Vietnam, Southern China, Taiwan, Japan, Myanmar and India. Cultivated from subtropical to warm temperate regions",
+  place: "Native to Asia; most commonly found growing wild in Vietnam, Southern China, Taiwan, Japan, Myanmar, and India",
+  climate: "Cultivated from subtropical to warm temperate regions",
   image_url: "cape_jasmine.jpg",
   thumbnail_url: "cape_jasmine_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -10171,11 +10171,11 @@ cape_jasmine.child_flowers.create!(
 
 garden_gladiolus = Flower.create!(
   name: "Garden Gladiolus",
-  bot_name: "Gladiolus X hortulanus",
+  bot_name: "Gladiolus x hortulanus",
   family: "Iridaceae",
   petals: "Six",
   size: "Small to medium-sized",
-  place: "Found in tropical and subtropical regions in the United States, cultivated elsewhere",
+  place: "Found in tropical and subtropical regions in the United States; also cultivated elsewhere",
   climate: "Tropical and subtropical",
   image_url: "garden_gladiolus.jpg",
   thumbnail_url: "garden_gladiolus_thumbnail.jpg",
@@ -10184,7 +10184,7 @@ garden_gladiolus = Flower.create!(
 )
 
 garden_gladiolus.child_flowers.create!(
-  description: "Tall elegant compact one-sided spike of graceful small to medium-sized flowers with six flared petals that are often ruffled and frilled; in white and shades of yellow, red, pink, lavender and purple, variously blotched and striped; a bulbous plant with sword-shaped leaves.",
+  description: "Tall elegant compact one-sided spike of graceful small to medium-sized flowers with six flared petals that are often ruffled and frilled; in white and shades of yellow, red, pink, lavender, and purple, variously blotched and striped; a bulbous plant with sword-shaped leaves.",
   colour: "White and shades of yellow, red, pink, lavender, and purple",
   significance: "Receptivity",
   comment: "Conscious of the Divine Will and surrendered to it.",
@@ -10311,7 +10311,7 @@ globe_amaranth.child_flowers.create!(
 
 globe_amaranth.child_flowers.create!(
   description: "Small rounded everlasting heads of magenta purple papery bracts enfolding minute star-shaped cream white flowers; borne singly on slender stems. An erect branching annual herb.",
-  colour: "Magenta purple",
+  colour: "Magenta purple, cream white",
   significance: "Vital Immortality",
   comment: "It exists in its own domain, but depends on surrender to the Divine.",
   image_url: "globe_amaranth_magenta.jpg",
@@ -10321,7 +10321,7 @@ globe_amaranth.child_flowers.create!(
 
 globe_amaranth.child_flowers.create!(
   description: "Small rounded everlasting heads of pale lavender pink papery bracts enfolding minute star-shaped cream white flowers; borne singly on slender stems. An erect branching annual herb.",
-  colour: "Pale lavender pink",
+  colour: "Pale lavender pink, cream white",
   significance: "Conscious Vital Immortality",
   comment: "The immortality of an organised and conscious vital being.",
   image_url: "globe_amaranth_lavender_pink.jpg",
@@ -10331,7 +10331,7 @@ globe_amaranth.child_flowers.create!(
 
 globe_amaranth.child_flowers.create!(
   description: "Small rounded everlasting heads of white papery bracts enfolding minute star-shaped cream white flowers; borne singly on slender stems. An erect branching annual herb.",
-  colour: "White",
+  colour: "White, cream white",
   significance: "Integral Immortality",
   comment: "It is a promise! When will it be a material fact?",
   image_url: "globe_amaranth_white.jpg",
@@ -10341,7 +10341,7 @@ globe_amaranth.child_flowers.create!(
 
 globe_amaranth.child_flowers.create!(
   description: "Small rounded everlasting heads of bright orange bracts shaded salmon pink at the base papery bracts enfolding minute star-shaped cream white flowers; borne singly on slender stems. An erect branching annual herb.",
-  colour: "Bright orange, salmon pink",
+  colour: "Bright orange, salmon pink, cream white",
   significance: "Supramental Immortality",
   comment: "It is an established fact, but few human beings have experienced it.",
   image_url: "globe_amaranth_orange.jpg",
@@ -10365,8 +10365,8 @@ sunflower = Flower.create!(
 )
 
 sunflower.child_flowers.create!(
-  description: "Large dark brownish red flower with a golden yellow glow at the tips and backs of the ray florets, and a dark brown central disc flecked with yellow; borne singly or in clusters. An annual or perennial herb.",
-  colour: "Dark brownish red, golden yellow, dark brown",
+  description: "Large dark brownish-red flower with a golden yellow glow at the tips and backs of the ray florets, and a dark brown central disc flecked with yellow; borne singly or in clusters. An annual or perennial herb.",
+  colour: "Dark brownish-red, golden yellow, dark brown",
   significance: "Supramental Artistic Genius",
   comment: "It blossoms in the Light and knows how to manifest it.",
   image_url: "sunflower_brown_yellow.jpg",
@@ -10375,8 +10375,8 @@ sunflower.child_flowers.create!(
 )
 
 sunflower.child_flowers.create!(
-  description: "Medium to large single compositae flowers with a prominent centre of brown or green disc florets and light to deep yellow ray florets; borne singly. An annual or perennial herb.",
-  colour: "Brown or green, deep yellow",
+  description: "Medium to large single flowers with a prominent center of brown or green disc florets and light to deep yellow ray florets; borne singly. An annual or perennial herb.",
+  colour: "Brown or green, light to deep yellow",
   significance: "Consciousness turned towards the Light",
   comment: "It thirsts for Light and cannot live without it.",
   image_url: "sunflower_yellow.jpg",
@@ -10385,17 +10385,17 @@ sunflower.child_flowers.create!(
 )
 
 sunflower.child_flowers.create!(
-  description: "Medium to large single compositae flowers with a prominent centre of brown or green disc florets and yellow orange ray florets; borne singly. An annual or perennial herb.",
+  description: "Medium to large single flowers with a prominent center of brown or green disc florets and yellow orange ray florets; borne singly. An annual or perennial herb.",
   colour: "Brown or green, yellow orange",
   significance: "Consciousness turned towards the Supramental Light",
-  comment: "It thirsts for truth and will find its satisfaction only in the truth.",
+  comment: "It thirsts for Truth and will find its satisfaction only in the Truth.",
   image_url: "sunflower_yellow_orange.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Sonnenblumen_im_Bund.JPG"
 )
 
 sunflower.child_flowers.create!(
-  description: "Medium to large fully double yellow compositae flowers; borne singly or in corymbs. An annual or perennial herb.",
+  description: "Medium to large fully double yellow flowers; borne singly or in corymbs. An annual or perennial herb.",
   colour: "Yellow",
   significance: "Intensity of the Consciousness in the Full Supramental Light",
   comment: "It is radiant and shining in order to illuminate the world.",
@@ -10405,9 +10405,9 @@ sunflower.child_flowers.create!(
 )
 
 sunflower.child_flowers.create!(
-  description: "Large striking compositae flower with sienna ray florets streaked with golden yellow and a golden aura that radiates from a large dark brown central disc; borne singly or in clusters. An annual or perennial herb.",
+  description: "Large striking flower with sienna ray florets streaked with golden yellow and a golden aura that radiates from a large dark brown central disc; borne singly or in clusters. An annual or perennial herb.",
   colour: "Sienna, golden yellow, dark brown",
-  significance: "Body-Consciousness undergoing the Supramental Transformation",
+  significance: "Body-consciousness undergoing the Supramental Transformation",
   comment: "Solid and resolute, it faces all difficulties.",
   image_url: "sunflower_sienna.jpg",
   source: "Wikimedia Commons",
@@ -10444,7 +10444,7 @@ cotton_rosemallow.child_flowers.create!(
   description: "Large double glowing pink flower with soft delicate petals; flowers open pink and stay pink.",
   colour: "Pink",
   significance: "Victorious Love",
-  comment: "Sure of itself, fearless, generous and smiling.",
+  comment: "Sure of itself, fearless, generous, and smiling.",
   image_url: "cotton_rosemallow_pink.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Hibiscus_mutabilis_(2).JPG"
@@ -10467,7 +10467,7 @@ chinese_hibiscus = Flower.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Medium-sized double light salmon pink flower with fine red veins and a deep red centre.",
+  description: "Medium-sized double light salmon pink flower with fine red veins and a deep red center.",
   colour: "Light salmon pink, red",
   significance: "Agni",
   comment: "The flame of purification which ought to precede all contact with the invisible worlds.",
@@ -10477,17 +10477,17 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Small delicate single flower with soft slightly crinkled cream petals and a pure white centre.",
+  description: "Small delicate single flower with soft slightly crinkled cream petals and a pure white center.",
   colour: "Cream, pure white",
   significance: "Ananda",
-  comment: "Calm, tranquil, equal, smiling and very sweet in its truly simple austerity.",
+  comment: "Calm, tranquil, equal, smiling, and very sweet in its truly simple austerity.",
   image_url: "chinese_hibiscus_cream_white.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Starr_070403-6477_Hibiscus_rosa-sinensis.jpg"
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Small delicate single flower with soft slightly crinkled cream petals, a deep red centre and a pure white aura.",
+  description: "Small delicate single flower with soft slightly crinkled cream petals, a deep red center, and a pure white aura.",
   colour: "Cream, deep red, pure white",
   significance: "Ananda in the Physical",
   comment: "May it be welcome, even if it manifests itself rarely.",
@@ -10508,7 +10508,7 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Small single coral pink flower with deeper pink veins and an intense red centre; the backs of the petals are edged in cream.",
+  description: "Small single coral pink flower with deeper pink veins and an intense red center; the backs of the petals are edged in cream.",
   colour: "Coral pink, intense red, cream",
   significance: "Enlightened Individual Power",
   comment: "Limited in its action, but of a very high capacity.",
@@ -10518,7 +10518,7 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Medium to large double bright rose pink flower with ruffled petals and a deep red centre.",
+  description: "Medium to large double bright rose pink flower with ruffled petals and a deep red center.",
   colour: "Bright rose pink, deep red",
   significance: "Power of the Psychic Consciousness",
   comment: "Psychic power organises the activities of the nature to make them progress.",
@@ -10528,8 +10528,8 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Medium-sized single light pink flower that has slightly separated petals with wavy edges and a small deep red centre surrounded by a light red aura. A second form is a medium-sized single pink pendulous flower that has widely separated petals with deeply scalloped edges and a deep red centre; the leaves are three-lobed. A third form is a medium-sized single lilac pink flower with more deeply shaded veins and centre, and slightly separated petals having one edge striped with white on the reverse.",
-  colour: "Pink to lilac pink, deep red",
+  description: "Medium-sized single light pink flower that has slightly separated petals with wavy edges and a small deep red center surrounded by a light red aura. A second form is a medium-sized single pink pendulous flower that has widely separated petals with deeply scalloped edges and a deep red center; the leaves are three-lobed. A third form is a medium-sized single lilac pink flower with more deeply shaded veins and center, and slightly separated petals having one edge striped with white on the reverse.",
+  colour: "Light pink to lilac pink, deep red",
   significance: "Psychic Power in Existence",
   comment: "Manifold, imperious, irresistible in its understanding sweetness.",
   image_url: "chinese_hibiscus_lilac_pink_red.jpg",
@@ -10539,7 +10539,7 @@ chinese_hibiscus.child_flowers.create!(
 
 chinese_hibiscus.child_flowers.create!(
   bot_name: "Hibiscus rosa-sinensis 'Viceroy'",
-  description: "Small, medium or large single lemon yellow flowers with strikingly contrasting bright red or maroon centre.",
+  description: "Small, medium or large single lemon yellow flowers with strikingly contrasting bright red or maroon center.",
   colour: "Lemon yellow, bright red or maroon",
   significance: "Mentalised Power",
   comment: "Power becomes utilisable.",
@@ -10560,7 +10560,7 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Large single light gold to apricot yellow flower with crinkled petals and a striking white to light pink pinwheel centre.",
+  description: "Large single light gold to apricot yellow flower with crinkled petals and a striking white to light pink pinwheel center.",
   colour: "Light gold to apricot yellow, white to light pink",
   significance: "Sweetness of Power Surrendered to the Divine (Sweetness of Auroville)",
   comment: "Sweetness itself becomes powerful when it is at the service of the Divine.",
@@ -10581,7 +10581,7 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Small or large single white flower with long separated petals and a bright red or vermilion centre. Another form is also white with long separated petals but is medium-sized and has a bright red pinwheel centre.",
+  description: "Small or large single white flower with long separated petals and a bright red or vermilion center. Another form is also white with long separated petals but is medium-sized and has a bright red pinwheel center.",
   colour: "White, bright red or vermilion",
   significance: "Power of Integral Purity",
   comment: "The power of accepting only the Divine influence.",
@@ -10591,18 +10591,18 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Medium to large single flowers with bright golden yellow or light yellow petals, either crinkled or smooth, and a centre that may be pink, light or deep red, or light orange.",
+  description: "Medium to large single flowers with bright golden yellow or light yellow petals, either crinkled or smooth, and a center that may be pink, light or deep red, or light orange.",
   colour: "Bright golden yellow or light yellow, and pink, light or deep red, or light orange",
   significance: "Power of Harmony",
-  comment: "Simple, noble, dignified, powerful and charming.",
+  comment: "Simple, noble, dignified, powerful, and charming.",
   image_url: "chinese_hibiscus_yellow_red.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Hibiscus_Cultivar_2010-7-11_TorreLaMata.jpg"
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Large single reddish pink flower with a dark red centre and smooth separated petals, each petal splashed with white on one lower edge. Another form is smaller.",
-  colour: "Reddish pink, dark red, white",
+  description: "Large single reddish-pink flower with a dark red center and smooth separated petals, each petal splashed with white on one lower edge. Another form is smaller.",
+  colour: "Reddish-pink, dark red, white",
   significance: "Aesthetic Power",
   comment: "Beauty is a great power.",
   image_url: "chinese_hibiscus_pink_red_white.jpg",
@@ -10630,8 +10630,8 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Medium-sized single bright cardinal red flower with firm petals, with or without reddish purple centre.",
-  colour: "Cardinal red, reddish purple",
+  description: "Medium-sized single bright cardinal red flower with firm petals, with or without a reddish-purple center.",
+  colour: "Bright cardinal red, reddish-purple",
   significance: "Power of Action",
   comment: "The power resulting from true surrender to the Divine.",
   image_url: "chinese_hibiscus_cardinal_red.jpg",
@@ -10650,7 +10650,7 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Large single orange to red orange flower often tinged rose at the edges of the smooth or slightly crinkled petals and a deep red centre.",
+  description: "Large single orange to red orange flower often tinged rose at the edges of the smooth or slightly crinkled petals and a deep red center.",
   colour: "Orange to red orange, rose, deep red",
   significance: "Power of Perseverance (Continued Perseverance and Action)",
   comment: "The perseverance that overcomes all obstacles.",
@@ -10660,7 +10660,7 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Large single grey lavender to deep lavender with delicate petals and a magenta purple centre.",
+  description: "Large single grey lavender to deep lavender with delicate petals and a magenta purple center.",
   colour: "Grey lavender to deep lavender, magenta purple",
   significance: "Power of Effort (Effort of Auroville)",
   comment: "Efforts well-directed break down all obstacles.",
@@ -10670,8 +10670,8 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Large single pink to light red or reddish orange flowers with smooth petals that are often crimson pink at the edges and a white centre shading to lavender pink. Another form is pinkish orange with a white centre.",
-  colour: "Pink to light red or reddish orange, crimson pink, white to lavender pink",
+  description: "Large single pink to light red or reddish-orange flowers with smooth petals that are often crimson pink at the edges and a white center shading to lavender pink. Another form is pinkish-orange with a white center.",
+  colour: "Pink to light red or reddish-orange, crimson pink, white to lavender pink",
   significance: "Power of Progress",
   comment: "Power is the sign of the Divine influence in creation.",
   image_url: "chinese_hibiscus_pink_orange_white.jpg",
@@ -10681,7 +10681,7 @@ chinese_hibiscus.child_flowers.create!(
 
 chinese_hibiscus.child_flowers.create!(
   bot_name: "Hibiscus rosa-sinensis 'Sweetheart'",
-  description: "Small to medium-sized single cream white flower with a large prominent deep pink centre and veins which extend towards the edges of the petals, and orange stigma pads.",
+  description: "Small to medium-sized single cream white flower with a large prominent deep pink center and veins which extend towards the edges of the petals, and orange stigma pads.",
   colour: "Cream white, deep pink, orange",
   significance: "Power to Progress",
   comment: "Precious because it is rare, it must be cultivated with care.",
@@ -10691,7 +10691,7 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Large single cream white flower with crinkled petals and a deep rose pink or magenta pinwheel centre.",
+  description: "Large single cream white flower with crinkled petals and a deep rose pink or magenta pinwheel center.",
   colour: "Cream white, deep rose pink or magenta",
   significance: "Power of Success (Success of Auroville)",
   comment: "The power of those who know how to continue their effort.",
@@ -10701,7 +10701,7 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Large sturdy single bright orange red flower with firm crinkled petals. Another form is a medium to large single flower with slightly recurved reddish orange petals with yellow orange beginning at the edges and gradually spreading towards the centre as the flower ages, and a grey lavender centre shading to deep lavender pink.",
+  description: "Large sturdy single bright orange red flower with firm crinkled petals. Another form is a medium to large single flower with slightly recurved reddish-orange petals with yellow orange beginning at the edges and gradually spreading towards the center as the flower ages, and a grey lavender center shading to deep lavender pink.",
   colour: "Bright orange red, yellow orange, grey lavender",
   significance: "Power of Realisation",
   comment: "With realisation all obstacles will be overcome.",
@@ -10733,7 +10733,7 @@ chinese_hibiscus.child_flowers.create!(
 
 chinese_hibiscus.child_flowers.create!(
   bot_name: "Hibiscus rosa-sinensis 'Rukmini'",
-  description: "Medium to large double flower in deep gold shading to apricot with a red or deep orange centre. Another form is a medium to large double golden orange flower suffused with deeper orange towards the centre, often with a deep red centre.",
+  description: "Medium to large double flower in deep gold shading to apricot with a red or deep orange center. Another form is a medium to large double golden orange flower suffused with deeper orange towards the center, often with a deep red center.",
   colour: "Deep gold to apricot, red or deep orange",
   significance: "Power of the Supramental Consciousness",
   comment: "Organising and active, irresistible in its influence.",
@@ -10743,8 +10743,8 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Large single open cup-shaped flower with a large deep pink centre shading to light orange towards the outer edges of the petals.",
-  colour: "Deep pink, light orange",
+  description: "Large single open cup-shaped flower with a large deep pink center shading to light orange towards the outer edges of the petals.",
+  colour: "Deep pink to light orange",
   significance: "Effective Power of the Supermind",
   comment: "All-powerful, it imposes itself on all in the certitude of its knowledge.",
   image_url: "chinese_hibiscus_orange_pink.jpg",
@@ -10764,9 +10764,9 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Medium-sized or large single salmon-orange to golden-yellow flower with soft crinkled petals, deep magenta centre and silver-white aura.",
-  colour: "Salmon orange to golden yellow, deep magenta",
-  significance: "Power of Spiritual Beauty (Spiritual beauty of Auroville)",
+  description: "Medium-sized or large single salmon-orange to golden yellow flower with soft crinkled petals, deep magenta center and silver white aura.",
+  colour: "Salmon orange to golden yellow, deep magenta, silver white",
+  significance: "Power of Spiritual Beauty (Spiritual Beauty of Auroville)",
   comment: "Spiritual beauty has a contagious power.",
   image_url: "chinese_hibiscus_salmon_magenta.jpg",
   source: "Wikimedia Commons",
@@ -10784,8 +10784,8 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Medium-sized single light golden orange flower with orange veins and a deep red centre. Another form is a large single deep salmon pink flower changing to cream yellow at the edges of the petals, with a deep red centre.",
-  colour: "Light golden orange, deep red, deep salmon pink to cream yellow",
+  description: "Medium-sized single light golden orange flower with orange veins and a deep red center. Another form is a large single deep salmon pink flower changing to cream yellow at the edges of the petals, with a deep red center.",
+  colour: "Light golden orange, deep red, or deep salmon pink to cream yellow",
   significance: "Supramental Beauty in the Physical",
   comment: "Its promise is charming.",
   image_url: "chinese_hibiscus_golden_orange_red.jpg",
@@ -10794,7 +10794,7 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Large single salmon pink flower with broadly overlapping rounded petals, a small pink centre and a pale pink aura. Another form is medium to large with each petal delicately shaded yellow and a pale pink aura.",
+  description: "Large single salmon pink flower with broadly overlapping rounded petals, a small pink center and a pale pink aura. Another form is medium to large with each petal delicately shaded yellow and a pale pink aura.",
   colour: "Salmon pink, pink, yellow",
   significance: "Beauty of Supramental Love (Flower of Auroville)",
   comment: "It invites us to live at its height",
@@ -10804,7 +10804,7 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Medium-sized single flower with recurved soft salmon orange petals specked with pale yellow, reddish veins and a red centre.",
+  description: "Medium-sized single flower with recurved soft salmon orange petals specked with pale yellow, reddish veins and a red center.",
   colour: "Salmon orange, pale yellow, red",
   significance: "Beauty of Supramental Youth",
   comment: "Exquisite in its freshness, powerful in its undeniable beauty.",
@@ -10815,8 +10815,8 @@ chinese_hibiscus.child_flowers.create!(
 
 chinese_hibiscus.child_flowers.create!(
   bot_name: "Hibiscus rosa-sinensis 'Debbie Ann'",
-  description: "Large single crimson pink flower with soft heavily crinkled petals that shade to pale pink on the edges and a dark red centre.",
-  colour: "Crimson pink, pale pink, dark red",
+  description: "Large single crimson pink flower with soft heavily crinkled petals that shade to pale pink on the edges and a dark red center.",
+  colour: "Crimson pink to pale pink, dark red",
   significance: "Beauty of the New Creation (Beauty of Auroville)",
   comment: "The new creation strives to better manifest the Divine.",
   image_url: "chinese_hibiscus_crimson_pink.jpg",
@@ -10825,7 +10825,7 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Large single flowers in light or bright orange shades, with or without a variously coloured, but not white, centre; the flowers open pinkish orange and change into yellow orange during the day.",
+  description: "Large single flowers in light or bright orange shades, with or without a variously coloured, but not white, center; the flowers open pinkish-orange and change into yellow orange during the day.",
   colour: "Light or bright orange shades",
   significance: "Beauty of Tomorrow",
   comment: "The beauty that will express Divine Power.",
@@ -10835,8 +10835,8 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Large single flowers in shades of orange, with a striking white centre and often with a pale pink aura.",
-  colour: "Shades of orange, and a white centre",
+  description: "Large single flowers in shades of orange, with a striking white center and often with a pale pink aura.",
+  colour: "White, pale pink, shades of orange",
   significance: "Beauty of Tomorrow Manifesting the Divine",
   comment: "A beauty that exists only by and for the Divine.",
   image_url: "chinese_hibiscus_orange_white.jpg",
@@ -10846,8 +10846,8 @@ chinese_hibiscus.child_flowers.create!(
 
 chinese_hibiscus.child_flowers.create!(
   bot_name: "Hibiscus rosa-sinensis 'Grace Goo'",
-  description: "Large single flower with crinkled petals in golden ochre to mustard with a very deep red or vermilion centre and a silver grey or pale lavender aura.",
-  colour: "Golden ochre to mustard, deep red or vermilion",
+  description: "Large single flower with crinkled petals in golden ochre to mustard with a very deep red or vermilion center and a silver grey or pale lavender aura.",
+  colour: "Golden ochre to mustard, deep red or vermilion, silver grey or pale lavender",
   significance: "Victorious Beauty",
   comment: "When it has removed the ugliness of life.",
   image_url: "chinese_hibiscus_gold_vermilion.jpg",
@@ -10856,7 +10856,7 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Large semi-double flower of the cup-and-saucer type with rounded outer petals and a tufted centre, in bright orange or bright yellow with a fire red centre.",
+  description: "Large semi-double flower of the cup-and-saucer type with rounded outer petals and a tufted center, in bright orange or bright yellow with a fire red center.",
   colour: "Bright orange or bright yellow, fire red",
   significance: "Blossoming of the New Creation (Blossoming of Auroville)",
   comment: "The more we concentrate on the goal, the more it blossoms forth and becomes precise.",
@@ -10866,8 +10866,8 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Large single light pink flower with crinkled petals and a centre that varies from white through dark pink.",
-  colour: "Light pink, white to dark pink centre",
+  description: "Large single light pink flower with crinkled petals and a center that varies from white through dark pink.",
+  colour: "Light pink, white to dark pink",
   significance: "Charm of the New Creation (Charm of Auroville)",
   comment: "The New Creation is attractive to all those who want to progress.",
   image_url: "chinese_hibiscus_light_pink.jpg",
@@ -10876,7 +10876,7 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Medium-sized single cup-shaped flower with thick crinkled yellow petals with orange blotches and red orange at the edges, and a light yellow centre.",
+  description: "Medium-sized single cup-shaped flower with thick crinkled yellow petals with orange blotches and red orange at the edges, and a light yellow center.",
   colour: "Yellow, orange, red orange, light yellow",
   significance: "Concentration of the New Creation (Concentration of Auroville)",
   comment: "Concentration on a precise goal is helpful to development.",
@@ -10886,8 +10886,8 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Large single yellow flower intricately veined with orange, the small veins gradually fading to yellow, with a striking deep red or bright pink pinwheel centre and a radiating pink aura. Another form is a large single yellow flower speckled orange with orange on the edge of each petal and a large tricoloured pinwheel centre that is bright red shading to grey lavender, then to rose; the mature flower loses its orange colour and turns solid golden yellow while the centre remains the same.",
-  colour: "Yellow, orange, deep red or bright pink",
+  description: "Large single yellow flower intricately veined with orange, the small veins gradually fading to yellow, with a striking deep red or bright pink pinwheel center and a radiating pink aura. Another form is a large single yellow flower speckled orange with orange on the edge of each petal and a large tricoloured pinwheel center that is bright red shading to grey lavender, then to rose; the mature flower loses its orange colour and turns solid golden yellow while the center remains the same.",
+  colour: "Yellow, orange, yellow, deep red or bright pink, or bright red to grey lavender",
   significance: "Firmness of the New Creation (Firmness of Auroville)",
   comment: "The new creation wants to be steadfast in its manifestation.",
   image_url: "chinese_hibiscus_yellow_orange_red_lavender_rose.jpg",
@@ -10896,7 +10896,7 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Medium-sized single cup-shaped flower with delicately or heavily crinkled petals of violet mauve with nearly white edges and an intense pale mauve or violet centre.",
+  description: "Medium-sized single cup-shaped flower with delicately or heavily crinkled petals of violet mauve with nearly white edges and an intense pale mauve or violet center.",
   colour: "Violet, mauve, white",
   significance: "Ideal of the New Creation (Ideal of Auroville)",
   comment: "The ideal should be progressive so that it can be realised in the future.",
@@ -10906,8 +10906,8 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Sturdy medium-sized single cup-shaped flower with a frilled yellow border and a firelike reddish orange centre that radiates out over much of the petals.",
-  colour: "Yellow, reddish orange",
+  description: "Sturdy medium-sized single cup-shaped flower with a frilled yellow border and a fire-like reddish-orange center that radiates out over much of the petals.",
+  colour: "Yellow, reddish-orange",
   significance: "Progress of the New Creation (Progress of Auroville)",
   comment: "Each must find the activity favourable to his progress.",
   image_url: "chinese_hibiscus_yellow_orange_red.jpg",
@@ -10917,8 +10917,8 @@ chinese_hibiscus.child_flowers.create!(
 
 chinese_hibiscus.child_flowers.create!(
   bot_name: "Hibiscus rosa-sinensis 'Vasco'",
-  description: "Large single lemon yellow flower with a white centre. Another form is a large bright yellow flower with a white centre tinged pink.",
-  colour: "Lemon or bright yellow, white",
+  description: "Large single lemon yellow flower with a white center. Another form is a large bright yellow flower with a white center tinged pink.",
+  colour: "Lemon or bright yellow, white, pink",
   significance: "Realisation of the New Creation (Realisation of Auroville)",
   comment: "It is for this that we must prepare.",
   image_url: "chinese_hibiscus_lemon_yellow_white.jpg",
@@ -10927,8 +10927,8 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Medium to large solid single deep pink flower with flat rounded petals and a reddish pink center.",
-  colour: "Deep pink, reddish pink",
+  description: "Medium to large solid single deep pink flower with flat rounded petals and a reddish-pink center.",
+  colour: "Deep pink, reddish-pink",
   significance: "Usefulness of the New Creation (Usefulness of Auroville)",
   comment: "A creation which aims at teaching men to surpass themselves.",
   image_url: "chinese_hibiscus_pink_red.jpg",
@@ -10937,7 +10937,7 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Large double flower with light pink petals shading to deeper pink towards the dark red centre and fading to cream at the outer edges.",
+  description: "Large double flower with light pink petals shading to deeper pink towards the dark red center and fading to cream at the outer edges.",
   colour: "Light to deep pink, dark red, cream",
   significance: "Consciousness One with the Divine Consciousness",
   comment: "Smiling and happy, it no longer knows any shadows.",
@@ -10947,8 +10947,8 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Large double bright yellow or golden yellow flowers. Another form has a red centre.",
-  colour: "Yellow or golden yellow, red",
+  description: "Large double bright yellow or golden yellow flowers. Another form has a red center.",
+  colour: "Bright yellow or golden yellow, red",
   significance: "Supramental Consciousness",
   comment: "Gloriously awake and powerful. Luminous, sure of itself, infallible in its movements.",
   image_url: "chinese_hibiscus_double_yellow.jpg",
@@ -10959,7 +10959,7 @@ chinese_hibiscus.child_flowers.create!(
 chinese_hibiscus.child_flowers.create!(
   description: "Medium-sized double cream white flower.",
   colour: "Cream white",
-  significance: "Will in Course of Uniting Itself with the Divine Will",
+  significance: "Will in the Course of Uniting itself with the Divine Will",
   comment: "On the way to perfection.",
   image_url: "chinese_hibiscus_double_cream_white.jpg",
   source: "Wikimedia Commons",
@@ -10967,7 +10967,7 @@ chinese_hibiscus.child_flowers.create!(
 )
 
 chinese_hibiscus.child_flowers.create!(
-  description: "Large single shell white or very pale yellow gold flower with crinkled petals, a pink centre, and golden anthers and stamens.",
+  description: "Large single shell white or very pale yellow gold flower with crinkled petals, a pink center, and golden anthers and stamens.",
   colour: "Shell white or pale yellow gold, pink, golden",
   significance: "Godhead",
   comment: "Pure and perfect, puts forth its force in the world.",
@@ -10993,7 +10993,7 @@ rose_of_sharon = Flower.create!(
 )
 
 rose_of_sharon.child_flowers.create!(
-  description: "Medium-sized single funnel-shaped lavender flower changing to blue, with a magenta centre and white anthers.",
+  description: "Medium-sized single funnel-shaped lavender flower changing to blue, with a magenta center and white anthers.",
   colour: "Lavender to blue, magenta, white",
   significance: "Power in the Higher Vital",
   comment: "Power that wants to be at the service of the Divine.",
@@ -11022,7 +11022,7 @@ amaryllis = Flower.create!(
   family: "Amraryllidaceae",
   petals: "Six",
   size: "Large",
-  place: "Native to tropical and subtropical regions of the Americas from Argentina north to Mexico and the Caribbean",
+  place: "Native to tropical and subtropical regions of the Americas, from Argentina north to Mexico and the Caribbean",
   climate: "Tropical and subtropical",
   image_url: "amaryllis.jpg",
   thumbnail_url: "amaryllis_thumbnail.jpg",
@@ -11061,8 +11061,8 @@ amaryllis.child_flowers.create!(
 )
 
 amaryllis.child_flowers.create!(
-  description: "Large trumpet-shaped light pink flowers with reddish pink lines and a white streak through the middle of each petal; flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
-  colour: "Light pink, reddish pink, white",
+  description: "Large trumpet-shaped light pink flowers with reddish-pink lines and a white streak through the middle of each petal; flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
+  colour: "Light pink, reddish-pink, white",
   significance: "Conversion of the Emotional Being",
   comment: "It blossoms in a harmonious receptivity.",
   image_url: "amaryllis_pink_red_white.jpg",
@@ -11071,7 +11071,7 @@ amaryllis.child_flowers.create!(
 )
 
 amaryllis.child_flowers.create!(
-  description: "Large trumpet-shaped dark red flowers with or without a red centre and with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
+  description: "Large trumpet-shaped dark red flowers with or without a red center and with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
   colour: "Dark red",
   significance: "Conversion of the Vital",
   comment: "Enthusiastic and spontaneous, it gives itself unstintingly.",
@@ -11081,7 +11081,7 @@ amaryllis.child_flowers.create!(
 )
 
 amaryllis.child_flowers.create!(
-  description: "Large trumpet-shaped bright red flowers with or without a white centre; flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
+  description: "Large trumpet-shaped bright red flowers with or without a white center; flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
   colour: "Bright red, white",
   significance: "Conversion of the Physical",
   comment: "Compact and stable, without any fluctuations.",
@@ -11091,7 +11091,7 @@ amaryllis.child_flowers.create!(
 )
 
 amaryllis.child_flowers.create!(
-  description: "Large trumpet-shaped fragrant white flowers with or without a green centre; flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
+  description: "Large trumpet-shaped fragrant white flowers with or without a green center; flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
   colour: "White, green",
   significance: "Integral Conversion",
   comment: "Above all conflicts and struggles, in a harmonious blossoming.",
@@ -11111,7 +11111,7 @@ amaryllis.child_flowers.create!(
 )
 
 amaryllis.child_flowers.create!(
-  description: "Large trumpet-shaped very large light red flowers with thick fleshy petals; flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap like leaves that appear after the blooming season.",
+  description: "Large trumpet-shaped very large light red flowers with thick fleshy petals; flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
   colour: "Light red",
   significance: "Total Conversion",
   comment: "The whole being has given itself in all its movements.",
@@ -11128,7 +11128,7 @@ cup_and_saucer_plant = Flower.create!(
   bot_name: "Holmskioldia sanguinea",
   family: "Verbenaceae",
   size: "Small",
-  place: "Native to the Himalayas (India, Pakistan, Nepal, Bhutan, Bangladesh, Myanmar) but widely cultivated as an ornamental and naturalized in many places (Southeast Asia, New Caledonia, Hawaii, Mexico, West Indies, Venezuela, etc.)",
+  place: "Native to the Himalayas (India, Pakistan, Nepal, Bhutan, Bangladesh, Myanmar); widely cultivated as an ornamental and naturalized in many places (Southeast Asia, New Caledonia, Hawaii, Mexico, the West Indies, Venezuela, etc.)",
   climate: "Tropical and subtropical",
   image_url: "cup_and_saucer_plant.jpg",
   thumbnail_url: "cup_and_saucer_plant_thumbnail.jpg",
@@ -11137,8 +11137,8 @@ cup_and_saucer_plant = Flower.create!(
 )
 
 cup_and_saucer_plant.child_flowers.create!(
-  description: "Small narrow tubular flowers in shades of yellow, red and lavender arising from open parasol-like calyces; borne in clusters in short axillary racemes. A straggling evergreen shrub.",
-  colour: "In shades of yellow, red, and lavender",
+  description: "Small narrow tubular flowers in shades of yellow, red, and lavender arising from open parasol-like calyces; borne in clusters in short axillary racemes. A straggling evergreen shrub.",
+  colour: "Shades of yellow, red, and lavender",
   significance: "Curiosity",
   comment: "If we want to be exceptional, let it be through our qualities.",
   image_url: "cup_and_saucer_plant_mix.jpg",
@@ -11173,7 +11173,7 @@ garden_balsam = Flower.create!(
   other_names: "Rose Balsam",
   bot_name: "Impatiens balsamina",
   family: "Balsaminaceae",
-  place: "Native to southern Asia in India and Burma, cultivated in tropical and subtropical regions",
+  place: "Native to southern Asia in India and Burma; cultivated in tropical and subtropical regions",
   climate: "Tropical and subtropical",
   image_url: "garden_balsam.jpg",
   thumbnail_url: "garden_balsam_thumbnail.jpg",
@@ -11182,10 +11182,10 @@ garden_balsam = Flower.create!(
 )
 
 garden_balsam.child_flowers.create!(
-  description: "Small to medium-sized single or double flowers with irregular wavy petals and a long thin spur; in shades of red, pink, purple and white, often variegated; borne singly in the leaf axils on very thin stalks. A bushy garden annual with succulent stems and serrate leaves.",
+  description: "Small to medium-sized single or double flowers with irregular wavy petals and a long thin spur; in shades of red, pink, purple, and white, often variegated; borne singly in the leaf axils on very thin stalks. A bushy garden annual with succulent stems and serrate leaves.",
   colour: "Shades of red, pink, purple, and white",
   significance: "Generosity",
-  comment: "Gives and gives itself without bargaining. ",
+  comment: "Gives and gives itself without bargaining.",
   image_url: "garden_balsam_mix.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Balsam_flower_at_lalbagh7353.JPG"
@@ -11222,8 +11222,8 @@ garden_balsam.child_flowers.create!(
 
 garden_balsam.child_flowers.create!(
   description: "Small to medium-sized bicoloured pink and red single or double flowers with irregular wavy petals and a long thin spur; borne singly in the leaf axils on very thin stalks. A bushy garden annual with succulent stems and serrate leaves.",
-  colour: "Bicoloured pink and red",
-  significance: "Psycho-Physical Generosity",
+  colour: "Bicoloured, pink and red",
+  significance: "Psycho-physical Generosity",
   comment: "Generosity of thought and act.",
   image_url: "garden_balsam_bicoloured.jpg",
   source: "Wikimedia Commons",
@@ -11256,9 +11256,9 @@ morning_glory = Flower.create!(
 
 morning_glory.child_flowers.create!(
   bot_name: "Ipomoea",
-  description: "Small to large showy, usually funnelform flowers in white and shades of red, pink, purple and blue; borne singly. Mostly climbing annual or perennial herbs. The significance includes all Ipomoeas not specifically named by the Mother.",
+  description: "Small to large showy, usually funnelform flowers in white and shades of red, pink, purple, and blue; borne singly. Mostly climbing annual or perennial herbs. The significance includes all Ipomoeas not specifically named by the Mother.",
   colour: "White and shades of red, pink, purple, and blue",
-  significance: "Nature Makes an Offering of Her Beauty",
+  significance: "Nature makes an Offering of Her Beauty",
   comment: "It is a spontaneous and effortless offering.",
   image_url: "morning_glory_mix.jpg",
   source: "Wikimedia Commons",
@@ -11267,7 +11267,7 @@ morning_glory.child_flowers.create!(
 
 morning_glory.child_flowers.create!(
   bot_name: "Ipomoea tricolor 'Pearly Gates'",
-  description: "Large radiant translucent white funnelform flower with a cream yellow throat. An annual climber.",
+  description: "Large, radiant, translucent white funnelform flower with a cream yellow throat. An annual climber.",
   colour: "White, cream yellow",
   significance: "Integral Unconditional Offering",
   comment: "The joy of self-offering without asking anything in return.",
@@ -11341,7 +11341,7 @@ jungle_geranium.child_flowers.create!(
   description: "Small light yellow salverform flower with a long thin corolla tube and the limb divided into four narrow diamond-shaped lobes; borne in large corymbs. A small to medium-sized shrub with leathery leaves.",
   colour: "Light yellow",
   significance: "Mental Aspiration",
-  comment: "Its expression is clear precise and very reasonable.",
+  comment: "Its expression is clear, precise, and very reasonable.",
   image_url: "jungle_geranium_yellow.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Ixora_coccinea,_yellow.jpg"
@@ -11351,7 +11351,7 @@ jungle_geranium.child_flowers.create!(
   description: "Small deep red salverform flower with a long thin corolla tube and the limb divided into four narrow diamond-shaped lobes; borne in large corymbs. A small to medium-sized shrub with leathery leaves.",
   colour: "Deep red",
   significance: "Aspiration in the Physical",
-  comment: "Manifold, simple and joyful.",
+  comment: "Manifold, simple, and joyful.",
   image_url: "jungle_geranium_red.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:%E0%B4%9A%E0%B5%86%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%82.jpg"
@@ -11365,7 +11365,7 @@ jasmine = Flower.create!(
   bot_name: "Jasminum",
   family: "Oleaceae",
   size: "Small",
-  place: "Native to tropical and warm temperate regions of the Eurasia, Australasia and Oceania",
+  place: "Native to tropical and warm temperate regions of the Eurasia, Australasia, and Oceania",
   climate: "Tropical to warm temperate",
   image_url: "jasmine.jpg",
   thumbnail_url: "jasmine_thumbnail.jpg",
@@ -11395,7 +11395,7 @@ jasmine.child_flowers.create!(
 
 jasmine.child_flowers.create!(
   bot_name: "Jasminum sambac 'Grand Duke of Tuscany'",
-  description: "Intensely fragrant fully double white roselike salverform flowers with a slender tube; the flowers are typically highly fragrant; borne in terminal or axillary cymes. Shrubs or vines.",
+  description: "Intensely fragrant fully double white rose-like salverform flowers with a slender tube; the flowers are typically highly fragrant; borne in terminal or axillary cymes. Shrubs or vines.",
   colour: "White",
   significance: "Integral Purity",
   comment: "The whole being is purified of the ego.",
@@ -11412,7 +11412,7 @@ crape_myrtle = Flower.create!(
   bot_name: "Lagerstroemia indica",
   family: "Lythraceae",
   size: "Medium-sized",
-  place: "Native to China, Korea, Japan and the Indian Subcontinent",
+  place: "Native to China, Korea, Japan, and the Indian Subcontinent",
   climate: "Tropical to warm temperate",
   image_url: "crape_myrtle.jpg",
   thumbnail_url: "crape_myrtle_thumbnail.jpg",
@@ -11421,7 +11421,7 @@ crape_myrtle = Flower.create!(
 )
 
 crape_myrtle.child_flowers.create!(
-  description: "Medium-sized mildly fragrant flower, in a variety of colours, with delicate deeply crinkled petals and a conspicuous central tuft of yellow anthers; borne in dense terminal panicles. A floriferous shrub or small tree.",
+  description: "Medium-sized mildly fragrant flower in a variety of colours, with delicate deeply crinkled petals and a conspicuous central tuft of yellow anthers; borne in dense terminal panicles. A floriferous shrub or small tree.",
   colour: "Various colours",
   significance: "Intimacy with the Divine",
   comment: "Complete surrender to the Divine and total receptivity to His influence are the conditions for this intimacy.",
@@ -11451,8 +11451,8 @@ crape_myrtle.child_flowers.create!(
 )
 
 crape_myrtle.child_flowers.create!(
-  description: "Medium-sized mildly fragrant pinkish red flower, with delicate deeply crinkled petals and a conspicuous central tuft of yellow anthers; borne in dense terminal panicles. A floriferous shrub or small tree.",
-  colour: "Pinkish red, yellow",
+  description: "Medium-sized mildly fragrant pinkish-red flower, with delicate deeply crinkled petals and a conspicuous central tuft of yellow anthers; borne in dense terminal panicles. A floriferous shrub or small tree.",
+  colour: "Pinkish-red, yellow",
   significance: "Intimacy with the Divine in the Physical",
   comment: "Is possible only for him who lives exclusively by the Divine and for the Divine.",
   image_url: "crape_myrtle_pink_red_yellow.jpg",
@@ -11477,7 +11477,7 @@ shrub_verbena = Flower.create!(
   bot_name: "Lantana",
   family: "Verbenaceae",
   size: "Tiny",
-  place: "Native to tropical regions of the Americas and Africa, introduced in numerous areas, especially in the Australian-Pacific region",
+  place: "Native to tropical regions of the Americas and Africa; introduced in numerous areas, especially in the Australian-Pacific region",
   climate: "Tropical",
   image_url: "shrub_verbena.jpg",
   thumbnail_url: "shrub_verbena_thumbnail.jpg",
@@ -11486,7 +11486,7 @@ shrub_verbena = Flower.create!(
 )
 
 shrub_verbena.child_flowers.create!(
-  description: "Tiny multicoloured and often changeable shades of red, orange, gold and lavender salverform flowers in round compact axillary or terminal heads. A vigorous shrub with coarse strongly scented leaves and a long blooming season.",
+  description: "Tiny multicoloured and often changeable shades of red, orange, gold, and lavender salverform flowers in round compact axillary or terminal heads. A vigorous shrub with coarse strongly scented leaves and a long blooming season.",
   colour: "Multicoloured, red, orange, gold, and lavender",
   significance: "Supramental Influence in the Cells",
   comment: "Unexpected variety in colours and qualities.",
@@ -11533,7 +11533,7 @@ sweet_pea = Flower.create!(
   family: "Fabaceae",
   petals: "Three",
   size: "Small",
-  place: "Native to Sicily, southern Italy and the Aegean Islands",
+  place: "Native to Sicily, southern Italy, and the Aegean Islands",
   climate: "Temperate",
   image_url: "sweet_pea.jpg",
   thumbnail_url: "sweet_pea_thumbnail.jpg",
@@ -11542,7 +11542,7 @@ sweet_pea = Flower.create!(
 )
 
 sweet_pea.child_flowers.create!(
-  description: "Small sweetly fragrant papilionaceous flowers with a broad erect upper petal and two lower petals that enfold a curved \"beak\"; in white and many shades of pink, red, salmon and lavender; borne in few-flowered clusters from the leaf axils. A delicate annual climber.",
+  description: "Small, sweetly fragrant papilionaceous flowers with a broad, erect upper petal and two lower petals that enfold a curved \"beak\"; in white and many shades of pink, red, salmon, and lavender; borne in few-flowered clusters from the leaf axils. A delicate annual climber.",
   colour: "White and shades of pink, red, salmon, and lavender",
   significance: "Gentleness",
   comment: "Always gracious and loves to please.",
@@ -11552,7 +11552,7 @@ sweet_pea.child_flowers.create!(
 )
 
 sweet_pea.child_flowers.create!(
-  description: "Small sweetly fragrant papilionaceous mauve flowers with a broad erect upper petal and two lower petals that enfold a curved \"beak\"; borne in few-flowered clusters from the leaf axils. A delicate annual climber.",
+  description: "Small, sweetly fragrant papilionaceous mauve flowers with a broad, erect upper petal and two lower petals that enfold a curved \"beak\"; borne in few-flowered clusters from the leaf axils. A delicate annual climber.",
   colour: "Mauve",
   significance: "Vital Gentleness ",
   image_url: "sweet_pea_mauve.jpg",
@@ -11568,7 +11568,7 @@ turks_cap = Flower.create!(
   bot_name: "Malvaviscus arboreus",
   family: "Malvaceae",
   petals: "Five",
-  size: "Small",
+  size: "Small to medium-sized",
   place: "Native to the Southeastern United States, Mexico, Central America, and South America",
   climate: "Mostly tropical",
   image_url: "turks_cap.jpg",
@@ -11579,7 +11579,7 @@ turks_cap = Flower.create!(
 
 turks_cap.child_flowers.create!(
   bot_name: "Malvaviscus arboreus var. drummondii",
-  description: "Small bright red erect candlelike flower with five twisted overlapping petals and a long exserted staminal column; borne in few-flowered terminal clusters. A low evergreen shrub.",
+  description: "Small bright red erect candle-like flower with five twisted overlapping petals and a long exserted staminal column; borne in few-flowered terminal clusters. A low evergreen shrub.",
   colour: "Bright red",
   significance: "Divine Help",
   comment: "Modest in appearance, powerful in action.",
@@ -11618,7 +11618,7 @@ mango = Flower.create!(
   family: "Anacardiaceae",
   petals: "Five",
   size: "Tiny",
-  place: "Found in the wild in India, cultivated varieties having been introduced to other warm regions of the world",
+  place: "Found in the wild in India; cultivated varieties have been introduced to other warm regions of the world",
   climate: "Tropical and subtropical",
   image_url: "mango.jpg",
   thumbnail_url: "mango_thumbnail.jpg",
@@ -11627,7 +11627,7 @@ mango = Flower.create!(
 )
 
 mango.child_flowers.create!(
-  description: "Tiny cream to pale pink five-petalled flowers with a fruitlike fragrance, borne in large pink-stalked terminal panicles. A handsome medium to large evergreen tree.",
+  description: "Tiny cream to pale pink five-petalled flowers with a fruit-like fragrance, borne in large pink-stalked terminal panicles. A handsome, medium to large evergreen tree.",
   colour: "Cream to pale pink",
   significance: "Nature's Hope for Realisation",
   comment: "Nature knows that one day she will be able to realise.",
@@ -11654,7 +11654,7 @@ spanish_cherry = Flower.create!(
   bot_name: "Mimusops elengi",
   family: "Sapotaceae",
   size: "Small",
-  place: "Native to India, Sri Lanka, the Andaman Islands, and the Indochinese peninsula. Found in tropical forests in South Asia, Southeast Asia and northern Australia",
+  place: "Native to India, Sri Lanka, the Andaman Islands, and the Indochinese peninsula; found in tropical forests in South Asia, Southeast Asia, and northern Australia",
   climate: "Mostly tropical",
   image_url: "spanish_cherry.jpg",
   thumbnail_url: "spanish_cherry_thumbnail.jpg",
@@ -11691,7 +11691,7 @@ marvel_of_peru = Flower.create!(
   family: "Nyctaginaceae",
   petals: "Five",
   size: "Small",
-  place: "Originally from tropical South America, has become naturalised throughout tropical and warm temperate regions",
+  place: "Originally from tropical South America; naturalised throughout tropical and warm temperate regions",
   climate: "Tropical to warm temperate",
   image_url: "marvel_of_peru.jpg",
   thumbnail_url: "marvel_of_peru_thumbnail.jpg",
@@ -11757,8 +11757,8 @@ sacred_lotus = Flower.create!(
 
 sacred_lotus.child_flowers.create!(
   bot_name: "Nelumbo nucifera 'Alba'",
-  description: "Very large fragrant chalice-shaped white flower with several rows of loosely arranged cupped translucent petals surrounding a unique centre of numerous golden stamens that encircle a raised yellow disc; borne singly on sturdy stems high above the water. A vigorous aquatic rhizomatous plant with large, concave orbicular leaves that repel water.",
-  colour: "White",
+  description: "Very large fragrant chalice-shaped white flower with several rows of loosely arranged cupped translucent petals surrounding a unique center of numerous golden stamens that encircle a raised yellow disc; borne singly on sturdy stems high above the water. A vigorous aquatic rhizomatous plant with large, concave orbicular leaves that repel water.",
+  colour: "White, golden, yellow",
   significance: "Aditi - the Divine Consciousness",
   comment: "Pure, immaculate, gloriously powerful.",
   image_url: "sacred_lotus_white.jpg",
@@ -11767,8 +11767,8 @@ sacred_lotus.child_flowers.create!(
 )
 
 sacred_lotus.child_flowers.create!(
-  description: "Very large fragrant chalice-shaped pink flower with several rows of loosely arranged cupped translucent petals surrounding a unique centre of numerous golden stamens that encircle a raised yellow disc; borne singly on sturdy stems high above the water. A vigorous aquatic rhizomatous plant with large, concave orbicular leaves that repel water.",
-  colour: "Pink",
+  description: "Very large fragrant chalice-shaped pink flower with several rows of loosely arranged cupped translucent petals surrounding a unique center of numerous golden stamens that encircle a raised yellow disc; borne singly on sturdy stems high above the water. A vigorous aquatic rhizomatous plant with large, concave orbicular leaves that repel water.",
+  colour: "Pink, golden, yellow",
   significance: "Avatar - the Supreme Manifested in a Body upon Earth",
   comment: "The pink lotus is the flower of Sri Aurobindo.",
   image_url: "sacred_lotus_pink.jpg",
@@ -11785,7 +11785,7 @@ oleander = Flower.create!(
   family: "Apocynaceae",
   petals: "Five",
   place: "Found in many different regions of the world",
-  climate: "Found across temperate, subtropical and tropical climates",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "oleander.jpg",
   thumbnail_url: "oleander_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -11793,18 +11793,18 @@ oleander = Flower.create!(
 )
 
 oleander.child_flowers.create!(
-  description: "Sweetly fragrant single salverform flower with five separated lobes that are pink fading to pale pink on the edges and twisted suggesting a pinwheel, and a light yellow centre with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
+  description: "Sweetly fragrant single salverform flower with five separated lobes that are pink fading to pale pink on the edges, and twisted, suggesting a pinwheel, and a light yellow center with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
   colour: "Pink to pale pink, light yellow",
-  significance: "Sweetness of Thought Turned Exclusively Towards the Divine",
-  comment: "Lovely, joyful, sweet and calm, sheltered from all conflicts.",
+  significance: "Sweetness of Thought turned exclusively towards the Divine",
+  comment: "Lovely, joyful, sweet, and calm, sheltered from all conflicts.",
   image_url: "oleander_pink_yellow.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:An_oleander_(Nerium_oleander)_flower.JPG"
 )
 
 oleander.child_flowers.create!(
-  description: "Sweetly fragrant single reddish pink salverform flower with five separated petals, with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
-  colour: "Reddish pink",
+  description: "Sweetly fragrant single reddish-pink salverform flower with five separated petals, with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
+  colour: "Reddish-pink",
   significance: "Changing of Wrong Movements into Right",
   comment: "A supreme goodwill always ready to be transformed.",
   image_url: "oleander_reddish_pink.jpg",
@@ -11813,7 +11813,7 @@ oleander.child_flowers.create!(
 )
 
 oleander.child_flowers.create!(
-  description: "Mildly fragrant single salverform flower with five separated petals that are light pink with white on one edge and with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
+  description: "Mildly fragrant single salverform flower with five separated petals that are light pink with white on one edge, and with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
   colour: "Light pink, white",
   significance: "Contemplation of the Divine",
   comment: "Occupied exclusively with its joyful contemplation.",
@@ -11855,7 +11855,7 @@ oleander.child_flowers.create!(
 oleander.child_flowers.create!(
   description: "Sweetly fragrant double bright rose pink salverform flower with five separated petals, with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
   colour: "Bright rose pink",
-  significance: "Surrender of All Falsehood",
+  significance: "Surrender of all Falsehood",
   comment: "Let us offer all our falsehoods to the Divine so that He may change them into joyous truths.",
   image_url: "oleander_double_rose_pink.jpg",
   source: "Wikimedia Commons",
@@ -11869,8 +11869,9 @@ water_lily = Flower.create!(
   bot_name: "Nymphaea",
   family: "Nymphaeaceae",
   size: "Large",
+  petals: "Numerous",
   place: "Found in many different regions of the world",
-  climate: "Found across temperate, subtropical and tropical climates",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "water_lily.jpg",
   thumbnail_url: "water_lily_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -11878,7 +11879,7 @@ water_lily = Flower.create!(
 )
 
 water_lily.child_flowers.create!(
-  description: "Large showy usually very fragrant flowers with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; in white and shades of yellow, red, pink, blue, lavender and purple; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
+  description: "Large, showy, usually very fragrant flowers with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; in white and shades of yellow, red, pink, blue, lavender, and purple; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
   colour: "White and shades of yellow, red, pink, blue, lavender, and purple",
   significance: "Wealth",
   comment: "True wealth is the wealth that one offers to the Divine.",
@@ -11888,7 +11889,7 @@ water_lily.child_flowers.create!(
 )
 
 water_lily.child_flowers.create!(
-  description: "Large showy usually very fragrant pink flowers with a prominent golden yellow centre and with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
+  description: "Large, showy, usually very fragrant pink flowers with a prominent golden yellow center and with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
   colour: "Pink, golden yellow",
   significance: "Supramentalised Wealth",
   comment: "Wealth placed at the service of the Divine.",
@@ -11898,17 +11899,17 @@ water_lily.child_flowers.create!(
 )
 
 water_lily.child_flowers.create!(
-  description: "Large showy usually very fragrant blue flowers with golden centre and with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
+  description: "Large, showy, usually very fragrant blue flowers with golden center and with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
   colour: "Blue, golden",
   significance: "Wealth in the Mind of Light",
   comment: "Open to all higher ideas.",
   image_url: "water_lily_blue.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Fioriture_Estive_a_Parco_Giardino_Sigurt%C3%A0.jpg"
+  url: "https://commons.wikimedia.org/wiki/File:Water_Lily_Purple.jpg"
 )
 
 water_lily.child_flowers.create!(
-  description: "Large showy usually very fragrant white flowers shaded pink and with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
+  description: "Large, showy, usually very fragrant white flowers shaded pink, and with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
   colour: "White, pink",
   significance: "Wealth under the Psychic Influence",
   comment: "Wealth ready to return to its true possessor, the Divine.",
@@ -11918,7 +11919,7 @@ water_lily.child_flowers.create!(
 )
 
 water_lily.child_flowers.create!(
-  description: "Large showy usually very fragrant lavender flowers with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
+  description: "Large, showy, usually very fragrant lavender flowers with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
   colour: "Lavender",
   significance: "Emotional Wealth",
   comment: "The only true emotional wealth is love for the Divine.",
@@ -11928,7 +11929,7 @@ water_lily.child_flowers.create!(
 )
 
 water_lily.child_flowers.create!(
-  description: "Large showy usually very fragrant deep rose red flowers with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
+  description: "Large, showy, usually very fragrant deep rose red flowers with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
   colour: "Deep rose red",
   significance: "Wealth in the Most Material Vital",
   comment: "Can be stable only after conversion.",
@@ -11938,7 +11939,7 @@ water_lily.child_flowers.create!(
 )
 
 water_lily.child_flowers.create!(
-  description: "Large showy usually very fragrant yellow flowers with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
+  description: "Large, showy, usually very fragrant yellow flowers with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
   colour: "Yellow",
   significance: "Generous Wealth",
   comment: "Likes to be given and spread far and wide.",
@@ -11948,10 +11949,10 @@ water_lily.child_flowers.create!(
 )
 
 water_lily.child_flowers.create!(
-  description: "Large showy usually very fragrant pure white flowers with a golden centre and with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
+  description: "Large, showy, usually very fragrant pure white flowers with a golden center and with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
   colour: "Pure white, golden",
   significance: "Integral Wealth of Mahalakshmi",
-  comment: "Wealth in all domains and all activities, intellectual, psychological, material, in feeling and action.",
+  comment: "Wealth in all domains and all activities, intellectual, psychological, material, in feeling, and action.",
   image_url: "water_lily_pure_white.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:White_Waterlily.jpg"
@@ -11965,7 +11966,7 @@ common_basil = Flower.create!(
   bot_name: "Ocimum basilicum",
   family: "Labiatae",
   size: "Tiny",
-  place: "Possibly native to India, cultivated in other warm, tropical regions",
+  place: "Possibly native to India; cultivated in other warm, tropical regions",
   climate: "Tropical",
   image_url: "common_basil.jpg",
   thumbnail_url: "common_basil_thumbnail.jpg",
@@ -11974,7 +11975,7 @@ common_basil = Flower.create!(
 )
 
 common_basil.child_flowers.create!(
-  description: "Tiny white bilabiate flowers lightly tinged pink with green leaves and a greenish purple calyx and stem, the latter becoming entirely purple towards the tip of the raceme. A shrubby annual or perennial culinary herb with aromatic leaves.",
+  description: "Tiny white bilabiate flowers lightly tinged pink with green leaves, and a greenish-purple calyx and stem, the latter becoming entirely purple towards the tip of the raceme. A shrubby annual or perennial culinary herb with aromatic leaves.",
   colour: "White, pink",
   significance: "Discipline",
   comment: "Sets the example and hopes to be followed.",
@@ -12001,7 +12002,7 @@ wooden_rose = Flower.create!(
   family: "Convolvulaceae",
   petals: "Five",
   size: "Large",
-  place: "Endemic to India, commonly found in North Circars and the Deccan region up to 3000 ft.",
+  place: "Endemic to India; commonly found in the Northern Circars, and the Deccan region up to 3000 ft",
   climate: "Tropical",
   image_url: "wooden_rose.jpg",
   thumbnail_url: "wooden_rose_thumbnail.jpg",
@@ -12010,8 +12011,8 @@ wooden_rose = Flower.create!(
 )
 
 wooden_rose.child_flowers.create!(
-  description: "Large white funnelform flower with five shallow irregularly rounded lobes, a light greenish yellow throat and a corolla tube enclosed in light green enlarged sepals; borne singly or in few-flowered cymes from the leaf axils. A rampant vine with attractive seed capsules.",
-  colour: "White, light greenish yellow, light green",
+  description: "Large white funnelform flower with five shallow irregularly rounded lobes, a light greenish-yellow throat and a corolla tube enclosed in light green enlarged sepals; borne singly or in few-flowered cymes from the leaf axils. A rampant vine with attractive seed capsules.",
+  colour: "White, light greenish-yellow, light green",
   significance: "Integral Gratitude",
   comment: "The whole being offers itself to the Lord in absolute trust.",
   image_url: "wooden_rose_white.jpg",
@@ -12020,7 +12021,7 @@ wooden_rose.child_flowers.create!(
 )
 
 wooden_rose.child_flowers.create!(
-  description: "Light brown rattlelike seed capsules shaped like a wooden rose but thinner and more delicate than the true Wooden rose (Merremia tuberosa).",
+  description: "Light brown rattle-like seed capsules shaped like a wooden rose but thinner and more delicate than the true wooden rose (Merremia tuberosa).",
   colour: "Light brown",
   significance: "Call of the Divine Grace",
   comment: "Not loud, but persistent and very perceptible to those who know how to listen.",
@@ -12048,7 +12049,7 @@ cats_whiskers.child_flowers.create!(
   description: "Small rose purple salverform flower with a very thin corolla tube, two irregular opposite lobes, one spreading and one narrow, and long graceful exserted upward curving stamens; borne in elongated terminal racemes. A weak-stemmed perennial with dark green serrated leaves.",
   colour: "Rose purple",
   significance: "Spiritual Intensity",
-  comment: "It is an intensity without violence. The ardour it gives you is expressed without grand gesture and big words.",
+  comment: "It is an intensity without violence. The ardour it gives you is expressed without grand gestures and big words.",
   image_url: "cats_whiskers_rose_purple.jpg",
   source: "ahmaja2009",
   url: "https://www.flickr.com/photos/roma-/3768522410"
@@ -12082,7 +12083,7 @@ star_cluster = Flower.create!(
 )
 
 star_cluster.child_flowers.create!(
-  description: "Small white salverform five-pointed star-shaped limb; airy thin corolla tube; borne in terminal clusters. An almost ever blooming subshrub pubescent ovate to lanceolate leaves.",
+  description: "Small white salverform five-pointed star-shaped limb with an airy, thin corolla tube; borne in terminal clusters. An almost ever-blooming subshrub with pubescent ovate to lanceolate leaves.",
   colour: "White",
   significance: "Movements in the Light",
   comment: "This is possible only with a great sincerity.",
@@ -12092,7 +12093,7 @@ star_cluster.child_flowers.create!(
 )
 
 star_cluster.child_flowers.create!(
-  description: "Small salverform flowers in shaded of mauve with a five-pointed star-shaped limb; airy thin corolla tube; borne in terminal clusters. An almost ever blooming subshrub pubescent ovate to lanceolate leaves.",
+  description: "Small salverform flowers in shades of mauve with a five-pointed star-shaped limb with an airy, thin corolla tube; borne in terminal clusters. An almost ever-blooming subshrub with pubescent ovate to lanceolate leaves.",
   colour: "Mauve",
   significance: "Light in the Vital Movements",
   comment: "This certainly means the beginning of wisdom.",
@@ -12102,7 +12103,7 @@ star_cluster.child_flowers.create!(
 )
 
 star_cluster.child_flowers.create!(
-  description: "Small vivid pink salverform five-pointed star-shaped limb; airy thin corolla tube; borne in terminal clusters. An almost ever blooming subshrub pubescent ovate to lanceolate leaves.",
+  description: "Small vivid pink salverform five-pointed star-shaped limb with an airy, thin corolla tube; borne in terminal clusters. An almost ever-blooming subshrub with pubescent ovate to lanceolate leaves.",
   colour: "Vivid pink",
   significance: "Psychic Light in the Physical Movements",
   comment: "The first step towards the transformation of the physical.",
@@ -12112,7 +12113,7 @@ star_cluster.child_flowers.create!(
 )
 
 star_cluster.child_flowers.create!(
-  description: "Small bright red salverform five-pointed star-shaped limb; airy thin corolla tube; borne in terminal clusters. An almost ever blooming subshrub pubescent ovate to lanceolate leaves.",
+  description: "Small bright red salverform five-pointed star-shaped limb with an airy, thin corolla tube; borne in terminal clusters. An almost ever-blooming subshrub with pubescent ovate to lanceolate leaves.",
   colour: "Bright red",
   significance: "Psychic Light in the Material Movements",
   comment: "Essential condition for transformation.",
@@ -12137,7 +12138,7 @@ petunia = Flower.create!(
 )
 
 petunia.child_flowers.create!(
-  description: "Medium to large scented single or double salverform flowers with a narrow hairy tube and a broad soft often velvety limb, usually with a slightly scalloped edge; in most shades except orange; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems and leaves.",
+  description: "Medium to large scented single or double salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; in most shades except orange; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
   colour: "Wide range of colours",
   significance: "Enthusiasm",
   comment: "True enthusiasm is full of a peaceful endurance.",
@@ -12147,8 +12148,8 @@ petunia.child_flowers.create!(
 )
 
 petunia.child_flowers.create!(
-  description: "Medium to large scented all double salverform flowers with a narrow hairy tube and a broad soft often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems and leaves.",
-  colour: "Double flowers in all colours",
+  description: "All medium to large scented double salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "Wide range of colours",
   significance: "Cheerful Enthusiasm",
   comment: "The best way of facing life. Joy unites with enthusiasm in action.",
   image_url: "petunia_double_mix.jpg",
@@ -12157,7 +12158,7 @@ petunia.child_flowers.create!(
 )
 
 petunia.child_flowers.create!(
-  description: "Medium to large scented all single bicoloured salverform flowers with a narrow hairy tube and a broad soft often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems and leaves.",
+  description: "All medium to large scented single bicoloured salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
   colour: "Bicoloured",
   significance: "Enthusiasm in Action",
   comment: "All actions are done with energy and ardour.",
@@ -12167,7 +12168,7 @@ petunia.child_flowers.create!(
 )
 
 petunia.child_flowers.create!(
-  description: "Medium to large scented all double bicoloured salverform flowers with a narrow hairy tube and a broad soft often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems and leaves.",
+  description: "All medium to large scented double bicoloured salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
   colour: "Bicoloured",
   significance: "Cheerful Enthusiasm in Action",
   comment: "Action will become joyfully enthusiastic when it is governed by the Supermind.",
@@ -12177,7 +12178,7 @@ petunia.child_flowers.create!(
 )
 
 petunia.child_flowers.create!(
-  description: "Medium to large scented single light pink salverform flowers with a narrow hairy tube and a broad soft often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems and leaves.",
+  description: "Medium to large scented single light pink salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
   colour: "Light pink",
   significance: "Psychic Enthusiasm",
   comment: "A state that only the Divine can awaken.",
@@ -12187,7 +12188,7 @@ petunia.child_flowers.create!(
 )
 
 petunia.child_flowers.create!(
-  description: "Medium to large scented double light pink salverform flowers with a narrow hairy tube and a broad soft often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems and leaves.",
+  description: "Medium to large scented double light pink salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
   colour: "Light pink",
   significance: "Cheerful Psychic Enthusiasm",
   comment: "An assurance of success in spite of obstacles.",
@@ -12197,8 +12198,8 @@ petunia.child_flowers.create!(
 )
 
 petunia.child_flowers.create!(
-  description: "Medium to large scented single pale lavender blue salverform flowers with deeper veins of the same colour; with a narrow hairy tube and a broad soft often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems and leaves.",
-  colour: "Pale and deep lavender",
+  description: "Medium to large scented single pale lavender blue salverform flowers with deeper veins of the same colour; with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "Pale to lavender blue",
   significance: "Enthusiasm in Higher Vital",
   comment: "The vital being takes a lively interest in what it does.",
   image_url: "petunia_single_lavender.jpg",
@@ -12207,8 +12208,8 @@ petunia.child_flowers.create!(
 )
 
 petunia.child_flowers.create!(
-  description: "Medium to large scented double pale lavender blue salverform flowers with deeper veins of the same colour; with a narrow hairy tube and a broad soft often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems and leaves.",
-  colour: "Pale and deep lavender",
+  description: "Medium to large scented double pale lavender blue salverform flowers with deeper veins of the same colour; with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "Pale to deep lavender",
   significance: "Cheerful Enthusiasm in the Higher Vital",
   comment: "The result of perfect surrender to the Divine.",
   image_url: "petunia_double_lavender.jpg",
@@ -12217,8 +12218,8 @@ petunia.child_flowers.create!(
 )
 
 petunia.child_flowers.create!(
-  description: "Medium to large scented single pinkish mauve salverform flowers with a narrow hairy tube and a broad soft often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems and leaves.",
-  colour: "Pinkish mauve",
+  description: "Medium to large scented single pinkish-mauve salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "Pinkish-mauve",
   significance: "Vital Enthusiasm",
   comment: "Care must be taken that it is in the right direction.",
   image_url: "petunia_single_pink_mauve.jpg",
@@ -12227,8 +12228,8 @@ petunia.child_flowers.create!(
 )
 
 petunia.child_flowers.create!(
-  description: "Medium to large scented double pinkish mauve salverform flowers with a narrow hairy tube and a broad soft often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems and leaves.",
-  colour: "Pinkish mauve",
+  description: "Medium to large scented double pinkish-mauve salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "Pinkish-mauve",
   significance: "Cheerful Vital Enthusiasm",
   comment: "Very precious if it persists in spite of difficulties.",
   image_url: "petunia_double_pink_mauve.jpg",
@@ -12237,7 +12238,7 @@ petunia.child_flowers.create!(
 )
 
 petunia.child_flowers.create!(
-  description: "Medium to large scented single velvety rich deep purple salverform flowers with a narrow hairy tube and a broad soft often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems and leaves.",
+  description: "Medium to large scented single velvety rich deep purple salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
   colour: "Deep purple",
   significance: "Enthusiasm in the Most Material Vital",
   comment: "Needed to face the difficulties of life successfully.",
@@ -12247,7 +12248,7 @@ petunia.child_flowers.create!(
 )
 
 petunia.child_flowers.create!(
-  description: "Medium to large scented double velvety rich deep purple salverform flowers with a narrow hairy tube and a broad soft often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems and leaves.",
+  description: "Medium to large scented double velvety rich deep purple salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
   colour: "Deep purple",
   significance: "Cheerful Enthusiasm in the Most Material Vital",
   comment: "The most material vital will find its joy in enthusiastic action when it is governed by the Supermind.",
@@ -12257,7 +12258,7 @@ petunia.child_flowers.create!(
 )
 
 petunia.child_flowers.create!(
-  description: "Medium to large scented single red salverform flowers with a narrow hairy tube and a broad soft often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems and leaves.",
+  description: "Medium to large scented single red salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
   colour: "Red",
   significance: "Physical Enthusiasm",
   comment: "The body takes a lively interest in life and action.",
@@ -12267,7 +12268,7 @@ petunia.child_flowers.create!(
 )
 
 petunia.child_flowers.create!(
-  description: "Medium to large scented double red salverform flowers with a narrow hairy tube and a broad soft often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems and leaves.",
+  description: "Medium to large scented double red salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
   colour: "Red",
   significance: "Cheerful Physical Enthusiasm",
   comment: "The whole being lives only to serve the Divine.",
@@ -12277,7 +12278,7 @@ petunia.child_flowers.create!(
 )
 
 petunia.child_flowers.create!(
-  description: "Medium to large scented single white salverform flowers with a narrow hairy tube and a broad soft often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems and leaves.",
+  description: "Medium to large scented single white salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
   colour: "White",
   significance: "Integral Enthusiasm",
   comment: "The whole being does whatever it does with ardour.",
@@ -12287,7 +12288,7 @@ petunia.child_flowers.create!(
 )
 
 petunia.child_flowers.create!(
-  description: "Medium to large scented double white salverform flowers with a narrow hairy tube and a broad soft often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems and leaves.",
+  description: "Medium to large scented double white salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
   colour: "White",
   significance: "Cheerful Integral Enthusiasm",
   comment: "To ardour is added the joy of doing things well.",
@@ -12305,7 +12306,7 @@ annual_phlox = Flower.create!(
   family: "Polemoniaceae",
   petals: "Five",
   size: "Small",
-  place: "Native to Texas, widely distributed in the southeastern United States",
+  place: "Native to Texas; widely distributed in the southeastern United States",
   climate: "Mostly tropical",
   image_url: "annual_phlox.jpg",
   thumbnail_url: "annual_phlox_thumbnail.jpg",
@@ -12314,7 +12315,7 @@ annual_phlox = Flower.create!(
 )
 
 annual_phlox.child_flowers.create!(
-  description: "Small salverform flowers with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; in white, pale yellow and shades of red, pink and purple; borne in dense terminal clusters. A long-flowering garden annual.",
+  description: "Small salverform flowers with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; in white, pale yellow, and shades of red, pink, and purple; borne in dense terminal clusters. A long-flowering garden annual.",
   colour: "White, pale yellow, and shades of red, pink, and purple",
   significance: "Skill in Work",
   comment: "Must be used consciously.",
@@ -12344,7 +12345,7 @@ annual_phlox.child_flowers.create!(
 )
 
 annual_phlox.child_flowers.create!(
-  description: "Small white salverform flowers with a mauve centre; with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
+  description: "Small white salverform flowers with a mauve center; with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
   colour: "White, mauve",
   significance: "Emotional Skill in Work",
   comment: "When work becomes attractive and is done with joy, how much better it is done.",
@@ -12374,7 +12375,7 @@ annual_phlox.child_flowers.create!(
 )
 
 annual_phlox.child_flowers.create!(
-  description: "Small brigt red salverform flowers with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
+  description: "Small bright red salverform flowers with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
   colour: "Bright red",
   significance: "Skill in Material Work",
   comment: "Skillful hands, precise care, a sustained attention, and one compels matter to obey the spirit.",
@@ -12395,7 +12396,7 @@ annual_phlox.child_flowers.create!(
 
 annual_phlox.child_flowers.create!(
   description: "Small very light pink salverform flowers with indented petals; with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
-  colour: "Light pink",
+  colour: "Very light pink",
   significance: "Artistic Work",
   comment: "Work at the service of beauty.",
   image_url: "annual_phlox_light_pink.jpg",
@@ -12404,11 +12405,11 @@ annual_phlox.child_flowers.create!(
 )
 
 annual_phlox.child_flowers.create!(
-  description: "Small salverform flowers with a central star and fringed petals; with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; in white, pale yellow and shades of red, pink and purple; borne in dense terminal clusters. A long-flowering garden annual.",
+  description: "Small salverform flowers with a central star and fringed petals; with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; in white, pale yellow, and shades of red, pink, and purple; borne in dense terminal clusters. A long-flowering garden annual.",
   colour: "White, pale yellow, and shades of red, pink, and purple",
   significance: "Radiating Skill in Work",
-  comment: "When the instruments of work (hands, eyes etc.) become conscious and the attention is controlled, the capacity for work seems to be limitless.",
-  image_url: "annual_phlox_bicoloured.jpg",
+  comment: "When the instruments of work (hands, eyes, etc.) become conscious and the attention is controlled, the capacity for work seems to be limitless.",
+  image_url: "annual_phlox_fringed.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Flowers_(214).jpg"
 )
@@ -12430,7 +12431,7 @@ cape_leadwort = Flower.create!(
 )
 
 cape_leadwort.child_flowers.create!(
-  description: "Small soft pale lavender blue salverform flower with a very thin long corolla tube and a limb divided into five widely separated lobes; borne in terminal clusters. An evergreen shrub with semi-scandent stems.",
+  description: "Small, soft, pale lavender blue salverform flower with a very thin long corolla tube and a limb divided into five widely separated lobes; borne in terminal clusters. An evergreen shrub with semi-scandent stems.",
   colour: "Pale lavender blue",
   significance: "Krishna’s Ananda",
   comment: "Manifold, abundant, and so full of charm",
@@ -12441,7 +12442,7 @@ cape_leadwort.child_flowers.create!(
 
 cape_leadwort.child_flowers.create!(
   bot_name: "Plumbago auriculata 'Alba'",
-  description: "Small soft pure white salverform flower with a very thin long corolla tube and a limb divided into five widely separated lobes; borne in short spikes. An evergreen shrub with long arching semi-scandent stems.",
+  description: "Small, soft, pure white salverform flower with a very thin long corolla tube and a limb divided into five widely separated lobes; borne in short spikes. An evergreen shrub with long arching semi-scandent stems.",
   colour: "Pure white",
   significance: "Presence",
   comment: "Consciousness seeking for the presence.",
@@ -12458,7 +12459,7 @@ frangipani = Flower.create!(
   family: "Apocynaceae",
   petals: "Five",
   size: "Medium to large",
-  place: "Native to West Indies, Central America and Mexico. Cultivated in tropical and subtropical regions across the world",
+  place: "Native to the West Indies, Central America, and Mexico; cultivated in tropical and subtropical regions across the world",
   climate: "Tropical and subtropical",
   image_url: "frangipani.jpg",
   thumbnail_url: "frangipani_thumbnail.jpg",
@@ -12468,10 +12469,10 @@ frangipani = Flower.create!(
 
 frangipani.child_flowers.create!(
   bot_name: "Plumeria rubra",
-  description: "Medium-sized fragrant five-petalled flowers borne in large terminal clusters on small to medium-sized trees with stiff leathery leaves, thick weak branches and milky sap. Psychological perfection is the general significance given for all Plumerias and also for two specific flowers, one flower predominantly yellow with a white edge, and another very fragrant white flower with five rounded petals and a large yellow centre.",
+  description: "Medium-sized fragrant five-petalled flowers borne in large terminal clusters on small to medium-sized trees with stiff leathery leaves, thick weak branches and milky sap. Psychological Perfection is the general significance given for all Plumerias and also for two specific flowers, one flower predominantly yellow with a white edge, and another very fragrant white flower with five rounded petals and a large yellow center.",
   colour: "Yellow, white",
   significance: "Psychological Perfection",
-  comment: "There is not one psychological perfection but five. They are sincerity, faith, devotion, aspiration and surrender.",
+  comment: "There is not one psychological perfection but five. They are sincerity, faith, devotion, aspiration, and surrender.",
   image_url: "frangipani_yellow_white.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Frangipani_flowers.jpg"
@@ -12479,9 +12480,9 @@ frangipani.child_flowers.create!(
 
 frangipani.child_flowers.create!(
   bot_name: "Plumeria rubra",
-  description: "Medium-sized fragrant five-pettaled multicoloured flower, predominantly deep rose to purplish red often shaded with deep yellow to orange. A small tree with broad stiff obovate leaves.",
-  colour: "Deep rose to purplish red, deep yellow to orange",
-  significance: "Psychological Perfection on the Way to Fulfilment",
+  description: "Medium-sized fragrant five-petalled multicoloured flower, predominantly deep rose to purplish-red often shaded with deep yellow to orange. A small tree with broad stiff obovate leaves.",
+  colour: "Multicoloured, deep rose to purplish-red, deep yellow to orange",
+  significance: "Psychological Perfection on the way to Fulfilment",
   comment: "The state of those who take up the Yoga seriously.",
   image_url: "frangipani_deep_rose.jpg",
   source: "Wikimedia Commons",
@@ -12490,7 +12491,7 @@ frangipani.child_flowers.create!(
 
 frangipani.child_flowers.create!(
   bot_name: "Plumeria rubra forma tricolor",
-  description: "Medium-sized fragrant predominantly white flower edged with rose pink, with a rose pink band on the back of each petal and a tiny deep yellow centre. A small tree with broad stiff obovate leaves.",
+  description: "Medium-sized fragrant predominantly white flower edged with rose pink, with a rose pink band on the back of each petal, and a tiny deep yellow center. A small tree with broad stiff obovate leaves.",
   colour: "White, rose pink, deep yellow",
   significance: "Psychological Perfection in Matter",
   comment: "The first step towards transformation.",
@@ -12501,7 +12502,7 @@ frangipani.child_flowers.create!(
 
 frangipani.child_flowers.create!(
   bot_name: "Plumeria obtusa",
-  description: "Large fragrant white flower with five long slender widely separated petals and a small yellow centre; borne in large terminal clusters, a shrub with large stiff oblong leaves.",
+  description: "Large fragrant white flower with five long, slender, widely separated petals and a small yellow center; borne in large terminal clusters, a shrub with large stiff oblong leaves.",
   colour: "White, yellow",
   significance: "Integral Psychological Perfection",
   comment: "One of the conditions indispensable for transformation.",
@@ -12512,7 +12513,7 @@ frangipani.child_flowers.create!(
 
 frangipani.child_flowers.create!(
   bot_name: "Plumeria obtusa",
-  description: "Large fragrant white flower with five long slightly overlapping petals and a small yellow centre; borne in large terminal clusters, a shrub with broad stiff oblong leaves.",
+  description: "Large fragrant white flower with five long, slightly overlapping petals and a small yellow center; borne in large terminal clusters, a shrub with broad stiff oblong leaves.",
   colour: "White, yellow",
   significance: "Perfect Psychological Perfection",
   comment: "Psychological perfection in all the parts of the being.",
@@ -12529,7 +12530,7 @@ tuberose = Flower.create!(
   family: "Agavaceae",
   petals: "Six",
   size: "Medium-sized",
-  place: "Native to Mexico, cultivated in other tropical and subtropical regions",
+  place: "Native to Mexico; cultivated in other tropical and subtropical regions",
   climate: "Tropical and subtropical",
   image_url: "tuberose.jpg",
   thumbnail_url: "tuberose_thumbnail.jpg",
@@ -12538,20 +12539,20 @@ tuberose = Flower.create!(
 )
 
 tuberose.child_flowers.create!(
-  description: "Highly fragrant medium-sized tubular white flower with six separated lobes; borne in long spikelike racemes. A bulbous perennial herb with narrow fleshy basal leaves.",
+  description: "Highly fragrant medium-sized tubular white flower with six separated lobes; borne in long spike-like racemes. A bulbous perennial herb with narrow fleshy basal leaves.",
   colour: "White",
   significance: "New Creation",
-  comment: "Strong, lasting and fragrant, it rises straight towards the sky.",
+  comment: "Strong, lasting, and fragrant, it rises straight towards the sky.",
   image_url: "tuberose_single.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Tuberose_-_Flickr_-_Swami_Stream.jpg"
 )
 
 tuberose.child_flowers.create!(
-  description: "Highly fragrant medium-sized tubular double white flower with six separated lobes; borne in long spikelike racemes. A bulbous perennial herb with narrow fleshy basal leaves.",
+  description: "Highly fragrant medium-sized tubular double white flower with six separated lobes; borne in long spike-like racemes. A bulbous perennial herb with narrow fleshy basal leaves.",
   colour: "White",
   significance: "Perfect New Creation",
-  comment: "Clustered, manifold and complete, it asserts its right to be.",
+  comment: "Clustered, manifold, and complete, it asserts its right to be.",
   image_url: "tuberose_double.jpg",
   source: "Van Berkel",
   url: "http://www.jmvanberkel.nl/nl/polianthes-tuberosa-06-20101004.html"
@@ -12574,7 +12575,7 @@ bell_flower = Flower.create!(
 )
 
 bell_flower.child_flowers.create!(
-  description: "Large fragrant waxy pure white trumpet-shaped flower with a limb divided into seven pointed lobes; borne singly. A glossy-leaved evergreen shrub.",
+  description: "Large fragrant, waxy, pure white trumpet-shaped flower with a limb divided into seven pointed lobes; borne singly. A glossy-leaved evergreen shrub.",
   colour: "Pure white",
   significance: "Peace of Integral Faithfulness",
   comment: "Be faithful to the Divine and you will enjoy a constant peace.",
@@ -12584,7 +12585,7 @@ bell_flower.child_flowers.create!(
 )
 
 bell_flower.child_flowers.create!(
-  description: "Large fragrant waxy white flower finely edged with pink; trumpet-shaped flower with a limb divided into seven pointed lobes; borne singly. A glossy-leaved evergreen shrub.",
+  description: "Large fragrant, waxy, white trumpet-shaped flower finely edged with pink, with a limb divided into seven pointed lobes; borne singly. A glossy-leaved evergreen shrub.",
   colour: "White, pink",
   significance: "Joy of Integral Faithfulness",
   comment: "That bond of love which makes all faithfulness so easy.",
@@ -12620,8 +12621,8 @@ pastel_flower.child_flowers.create!(
 )
 
 pastel_flower.child_flowers.create!(
-  description: "White flower with a reddish purple centre and a few reddish purple dots on the lower central lobe; with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A medium-sized shrub with narrow green lanceolate leaves.",
-  colour: "White, reddish purple",
+  description: "White flower with a reddish-purple center and a few reddish-purple dots on the lower central lobe; with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A medium-sized shrub with narrow green lanceolate leaves.",
+  colour: "White, reddish-purple",
   significance: "Aspiration for Organisation",
   comment: "Clear and methodical, order at the expense of multiplicity.",
   image_url: "pastel_flower_white_reddish_purple.jpg",
@@ -12630,7 +12631,7 @@ pastel_flower.child_flowers.create!(
 )
 
 pastel_flower.child_flowers.create!(
-  description: "White flower heavily overlaid with pink, streaked and spotted magenta with a magenta centre and corolla tube; with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A medium-sized shrub with variegated leaves and purple on the reverse.",
+  description: "White flower heavily overlaid with pink, streaked and spotted magenta, with a magenta center and corolla tube; with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A medium-sized shrub with variegated leaves and purple on the reverse.",
   colour: "White, pink, magenta",
   significance: "Organisation in the Vital",
   comment: "Indispensable for all realisation.",
@@ -12640,8 +12641,8 @@ pastel_flower.child_flowers.create!(
 )
 
 pastel_flower.child_flowers.create!(
-  description: "Small white salverform flowers speckled with purplish red dots and a purplish red centre; with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A small shrub with leaves often variegated or strongly coloured in maroon to dark purple.",
-  colour: "White, purplish red",
+  description: "Small white salverform flowers speckled with purplish-red dots and a purplish-red center; with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A small shrub with leaves often variegated or strongly coloured in maroon to dark purple.",
+  colour: "White, purplish-red",
   significance: "Material Organisation",
   comment: "Manifold and well-arranged in order to face difficulties.",
   image_url: "pastel_flower_white_purple.jpg",
@@ -12660,8 +12661,8 @@ pastel_flower.child_flowers.create!(
 )
 
 pastel_flower.child_flowers.create!(
-  description: "Small white salverform flowers a reddish purple centre and a few reddish purple dots extending outward into the lobes; with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A small shrub with leaves often variegated or strongly coloured in maroon to dark purple.",
-  colour: "White, reddish purple",
+  description: "Small white salverform flowers a reddish-purple center and a few reddish-purple dots extending outward into the lobes; with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A small shrub with leaves often variegated or strongly coloured in maroon to dark purple.",
+  colour: "White, reddish-purple",
   significance: "Organisation of Details",
   comment: "Indispensable for all lasting accomplishment.",
   image_url: "pastel_flower_purple_white.jpg",
@@ -12670,8 +12671,8 @@ pastel_flower.child_flowers.create!(
 )
 
 pastel_flower.child_flowers.create!(
-  description: "White flower with reddish purple dots mostly towards the outer edge of the lobes, the lower central lobe heavily dotted reddish purple with a large maroon centre and a long corolla tube. A small herbaceous shrub with green ovate-lanceolate leaves.",
-  colour: "White, reddish purple",
+  description: "White flower with reddish-purple dots mostly towards the outer edge of the lobes, the lower central lobe heavily dotted reddish-purple, with a large maroon center, and a long corolla tube. A small herbaceous shrub with green ovate-lanceolate leaves.",
+  colour: "White, reddish-purple",
   significance: "Result of Harmonious Organisation",
   comment: "More effective than showy. An effective simplicity.",
   image_url: "pastel_flower_white_purple_maroon.jpg",
@@ -12686,7 +12687,8 @@ pomegranate = Flower.create!(
   bot_name: "Punica granatum",
   family: "Punicaceae",
   size: "Small to medium",
-  place: "Widely cultivated throughout the Middle East and Caucasus region, north Africa and tropical Africa, the Indian subcontinent, Central Asia, and the drier parts of southeast Asia. It is also cultivated in parts of California and Arizona",
+  petals: "Six or more",
+  place: "Widely cultivated throughout the Middle East and Caucasus region, north and tropical Africa, the Indian subcontinent, Central Asia, and the drier parts of southeast Asia; also cultivated in parts of California and Arizona",
   climate: "Tropical and subtropical",
   image_url: "pomegranate.jpg",
   thumbnail_url: "pomegranate_thumbnail.jpg",
@@ -12695,8 +12697,8 @@ pomegranate = Flower.create!(
 )
 
 pomegranate.child_flowers.create!(
-  description: "Medium-sized double orange red flower with innumerable tightly held crinkled petals; borne singly or in small clusters. A spiny shrub or small tree with many stems and glossy leaves.",
-  colour: "Orange",
+  description: "Medium-sized double orange-red flower with innumerable tightly-held, crinkled petals; borne singly or in small clusters. A spiny shrub or small tree with many stems and glossy leaves.",
+  colour: "Orange-red",
   significance: "Divine Love",
   comment: "A flower reputed to bloom even in the desert.",
   image_url: "pomegranate_double_orange.jpg",
@@ -12705,8 +12707,8 @@ pomegranate.child_flowers.create!(
 )
 
 pomegranate.child_flowers.create!(
-  description: "Small single brilliant orange flower with six rounded crinkled petals and a centre composed of numerous cream yellow anthers, held in a thick waxy orange six-pointed calyx that covers the base of the flower. A shrub or small tree.",
-  colour: "Orange, cream yellow",
+  description: "Small single brilliant orange flower with six rounded, crinkled petals and a center composed of numerous cream-yellow anthers, held in a thick waxy orange six-pointed calyx that covers the base of the flower. A shrub or small tree.",
+  colour: "Orange, cream-yellow",
   significance: "Divine Sacrifice",
   comment: "Is it not a supreme sacrifice for the Divine to renounce the beatitude of His unity in order to create the painful multiplicity of the world?",
   image_url: "pomegranate_single_orange.jpg",
@@ -12715,9 +12717,9 @@ pomegranate.child_flowers.create!(
 )
 
 pomegranate.child_flowers.create!(
-  description: "Medium to large nearly round thick-skinned fruit that is yellow tinged with red when ripe and contains many seeds enclosed in a juicy reddish edible pulp; A shrub or small tree.",
+  description: "Medium to large nearly round, thick-skinned fruit that is yellow tinged with red when ripe, and contains many seeds enclosed in a juicy reddish edible pulp; A shrub or small tree.",
   colour: "Yellow, red",
-  significance: "Divine Love Spreading Over the World",
+  significance: "Divine Love spreading over the World",
   comment: "Innumerable, succulent, it gives strength and life untiringly.",
   image_url: "pomegranate_fruit.jpg",
   source: "Wikimedia Commons",
@@ -12725,7 +12727,7 @@ pomegranate.child_flowers.create!(
 )
 
 pomegranate.child_flowers.create!(
-  description: "Medium-sized double white flower with innumerable tightly held crinkled petals; borne singly or in small clusters. A spiny shrub or small tree with many stems and glossy leaves.",
+  description: "Medium-sized double white flower with innumerable tightly-held, crinkled petals; borne singly or in small clusters. A spiny shrub or small tree with many stems, and glossy leaves.",
   colour: "White",
   significance: "Unmanifest Divine Love",
   comment: "The splendour of that marvellous love which the Divine keeps for the pure heart.",
@@ -12763,7 +12765,7 @@ rose.child_flowers.create!(
   description: "Medium to large solitary pure white flower. A large shrub.",
   colour: "Pure white",
   significance: "Integral Love for the Divine",
-  comment: "Pure, complete and irrevocable, it is a love that gives itself for ever.",
+  comment: "Pure, complete, and irrevocable, it is a love that gives itself forever.",
   image_url: "rose_pure_white.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Flickr_-_Michael_Gwyther-Jones_-_White_Rose.jpg"
@@ -12802,7 +12804,7 @@ rose.child_flowers.create!(
 rose.child_flowers.create!(
   description: "Medium to large red flower. A large shrub.",
   colour: "Red",
-  significance: "Human Passions Changed into Love for the Divine",
+  significance: "Human Passions changed into Love for the Divine",
   comment: "Let them become a real fact, and their abundance will save the world.",
   image_url: "rose_red.jpg",
   source: "Wikimedia Commons",
@@ -12812,7 +12814,7 @@ rose.child_flowers.create!(
 rose.child_flowers.create!(
   description: "All medium-sized bicoloured flowers. A large shrub.",
   colour: "Bicoloured",
-  significance: "Balance of the Nature in the Love for the Divine",
+  significance: "Balance of Nature in the Love for the Divine",
   comment: "Passive and active, calm and ardent, sweet and strong, silent and expressed.",
   image_url: "rose_bicoloured.jpg",
   source: "Wikimedia Commons",
@@ -12843,9 +12845,9 @@ rose.child_flowers.create!(
   bot_name: "Rosa ‘Confidence’",
   description: "Medium to large salmon coloured flower. A large shrub.",
   colour: "Salmon",
-  significance: "Beauty Offers Itself in Service to the Divine",
+  significance: "Beauty Offers itself in Service to the Divine",
   comment: "Incomparable splendour, it becomes a modest servitor.",
-  image_url: "rose_salmon.jpg",
+  image_url: "rose_confidence.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Hybrid_Tea_-_Confidence_3_(cr).JPG"
 )
@@ -12863,7 +12865,7 @@ rose.child_flowers.create!(
 
 rose.child_flowers.create!(
   bot_name: "Rosa ‘Edward’",
-  description: "Medium-sized double highly fragrant pink flower. A large shrub.",
+  description: "Medium-sized double, highly fragrant pink flower. A large shrub.",
   colour: "Pink",
   significance: "Surrender",
   comment: "To will what the Divine wills is the supreme wisdom.",
@@ -12894,7 +12896,7 @@ rose.child_flowers.create!(
 
 rose.child_flowers.create!(
   bot_name: "Rosa ‘Paul Neyron’",
-  description: "Large double highly fragrant deep pink flower. A medium to large shrub.",
+  description: "Large double, highly fragrant deep pink flower. A medium to large shrub.",
   colour: "Deep pink",
   significance: "Perfect Surrender",
   comment: "The indispensable condition for identification.",
@@ -12905,11 +12907,11 @@ rose.child_flowers.create!(
 
 rose.child_flowers.create!(
   bot_name: "Rosa 'Prosperity'",
-  description: "Small very fragrant semi-double ivory white flower tinged with pink; borne in full pendulous sprays. A vigorous climber.",
+  description: "Small very fragrant, semi-double ivory white flower tinged with pink; borne in full pendulous sprays. A vigorous climber.",
   colour: "Ivory white, pink",
   significance: "Pure Spiritual Surrender",
   comment: "Candid, simple, spontaneous, and complete in its multiplicity.",
-  image_url: "rose_prosperity_white_pink.jpg",
+  image_url: "rose_prosperity.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Rosa_%27Prosperity%27_01.jpg"
 )
@@ -12918,9 +12920,9 @@ rose.child_flowers.create!(
   bot_name: "Rosa ‘Peace’",
   description: "Medium to large cream or yellow flower tinged with pink. A medium to large shrub.",
   colour: "Cream or yellow, pink",
-  significance: "Mental Love Under the Psychic Influence",
+  significance: "Mental Love under the Psychic Influence",
   comment: "The mind influenced by the psychic knows how to express its love for the Divine in magnificent terms.",
-  image_url: "rose_peace_cream_pink.jpg",
+  image_url: "rose_peace.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Rosa_Peace_1945.jpg"
 )
@@ -12943,8 +12945,8 @@ african_violet = Flower.create!(
 )
 
 african_violet.child_flowers.create!(
-  description: "Small dainty flowers with five spreading petal-like lobes and a tiny centre of yellow anthers; in white and shades of blue, purple and pink; there are also many double and ruffled forms, usually with a sparkling iridescent sheen to the petals; borne singly or in clusters on short stems above the leaves. A small compact plant with fleshy rounded pubescent leaves.",
-  colour: "White, and shades of blue, purple, and pink, a yellow centre",
+  description: "Small dainty flowers with five spreading petal-like lobes and a tiny center of yellow anthers; in white, and shades of blue, purple, and pink; there are also many double and ruffled forms, usually with a sparkling iridescent sheen to the petals; borne singly or in clusters on short stems above the leaves. A small, compact plant with fleshy, rounded pubescent leaves.",
+  colour: "White, and shades of blue, purple, and pink, a yellow center",
   significance: "Correct Movements",
   comment: "All movements are under the right inspiration.",
   image_url: "african_violet_mix.jpg",
@@ -12953,7 +12955,7 @@ african_violet.child_flowers.create!(
 )
 
 african_violet.child_flowers.create!(
-  description: "Small dainty single purple flowers with five spreading petal-like lobes and a tiny centre of yellow anthers; there are also many double and ruffled forms, usually with a sparkling iridescent sheen to the petals; borne singly or in clusters on short stems above the leaves. A small compact plant with fleshy rounded pubescent leaves.",
+  description: "Small dainty, single purple flowers with five spreading petal-like lobes and a tiny center of yellow anthers; there are also many double and ruffled forms, usually with a sparkling iridescent sheen to the petals; borne singly or in clusters on short stems above the leaves. A small, compact plant with fleshy, rounded pubescent leaves.",
   colour: "Purple, yellow",
   significance: "Correct Movements in the Vital",
   comment: "At once the cause and the result of conversion.",
@@ -12971,7 +12973,7 @@ bowstring_hemp = Flower.create!(
   family: "Agavaceae",
   petals: "Six",
   size: "Small",
-  place: "Native to Africa, Madagascar and southern Asia",
+  place: "Native to Africa, Madagascar, and southern Asia",
   climate: "Tropical and subtropical",
   image_url: "bowstring_hemp.jpg",
   thumbnail_url: "bowstring_hemp_thumbnail.jpg",
@@ -12980,7 +12982,7 @@ bowstring_hemp = Flower.create!(
 )
 
 bowstring_hemp.child_flowers.create!(
-  description: "Small white to dusty white scented tubular flowers with a narrow corolla tube, six narrow recurved lobes and six erect exserted stamens; borne in dense clusters on a very long stalk. A perennial herb with thick cylindrical leaves marked with very thin dark green stripes.",
+  description: "Small white to dusty white scented tubular flowers with a narrow corolla tube, six narrow recurved lobes, and six erect exserted stamens; borne in dense clusters on a very long stalk. A perennial herb with thick cylindrical leaves marked with very thin dark green stripes.",
   colour: "White to dusty white",
   significance: "Power of Spirituality",
   comment: "True spirituality transforms life.",
@@ -12990,7 +12992,7 @@ bowstring_hemp.child_flowers.create!(
 )
 
 bowstring_hemp.child_flowers.create!(
-  description: "Small white to dusty white scented tubular flowers with a narrow corolla tube, six narrow recurved lobes and six erect exserted stamens; borne in small clusters sparsely arranged along the erect stalks. A perennial herb with flat swordlike leaves strikingly mottled with contrasting shades of green.",
+  description: "Small white to dusty white scented tubular flowers with a narrow corolla tube, six narrow recurved lobes, and six erect exserted stamens; borne in small clusters sparsely arranged along the erect stalks. A perennial herb with flat sword-like leaves strikingly mottled with contrasting shades of green.",
   colour: "White to dusty white",
   significance: "Joy of Spirituality",
   comment: "The reward of sincere efforts.",
@@ -13006,8 +13008,8 @@ pincushion_flower = Flower.create!(
   other_names: "Mournful Widow, Sweet Scabius, Egyptian Rose",
   bot_name: "Scabiosa atropurpurea",
   family: "Dipsacaceae",
-  size: "Small",
-  place: "Native to northern Africa (northern Algeria, northern Libya, Morocco and Tunisia), the Azores, the Madeira Islands, the Canary Islands, southern Europe (France, Portugal, Spain, Albania, Bulgaria, Greece, Italy and Yugoslavia) and western Asia (Turkey), also found in subtropical America and temperate Australia",
+  size: "Tiny",
+  place: "Native to northern Africa (northern Algeria, northern Libya, Morocco, and Tunisia), the Azores, the Madeira Islands, the Canary Islands, southern Europe (France, Portugal, Spain, Albania, Bulgaria, Greece, Italy, and Yugoslavia), and western Asia (Turkey); also found in subtropical America and temperate Australia",
   climate: "Subtropical to temperate",
   image_url: "pincushion_flower.jpg",
   thumbnail_url: "pincushion_flower_thumbnail.jpg",
@@ -13016,8 +13018,8 @@ pincushion_flower = Flower.create!(
 )
 
 pincushion_flower.child_flowers.create!(
-  description: "Small rounded heads composed of tiny mildly fragrant pinkish lavender flowers with numerous white stamens resembling a pincushion, the outer row with larger rounded lobes; borne singly on long stems. An erect annual with somewhat leathery leaves.",
-  colour: "Pinkish lavender, white",
+  description: "Small rounded heads composed of tiny, mildly fragrant pinkish-lavender flowers with numerous white stamens, resembling a pincushion, the outer row with larger rounded lobes; borne singly on long stems. An erect annual with somewhat leathery leaves.",
+  colour: "Pinkish-lavender, white",
   significance: "Blessings",
   comment: "Pure and innumerable, manifesting themselves infinitely.",
   image_url: "pincushion_flower_lavender.jpg",
@@ -13026,7 +13028,7 @@ pincushion_flower.child_flowers.create!(
 )
 
 pincushion_flower.child_flowers.create!(
-  description: "Small rounded heads composed of tiny mildly fragrant deep purple flowers with numerous white stamens resembling a pincushion, the outer row with larger rounded lobes; borne singly on long stems. An erect annual with somewhat leathery leaves.",
+  description: "Small rounded heads composed of tiny, mildly fragrant deep purple flowers with numerous white stamens, resembling a pincushion, the outer row with larger rounded lobes; borne singly on long stems. An erect annual with somewhat leathery leaves.",
   colour: "Deep purple, white",
   significance: "Blessings on the Material World",
   comment: "Puissant and innumerable, they answer all needs.",
@@ -13053,8 +13055,8 @@ florists_gloxinia = Flower.create!(
 )
 
 florists_gloxinia.child_flowers.create!(
-  description: "Showy medium-sized single or double velvety bell-shaped flowers with a spreading limb divided into five to twelve lobes with ruffled edges; in many colours; borne singly or in small clusters on long stems. A low tuberous perennial herb with broad pubescent leaves.",
-  colour: "In many colours",
+  description: "Showy, medium-sized, single or double, velvety, bell-shaped flowers with a spreading limb divided into five to twelve lobes with ruffled edges; in many colours; borne singly or in small clusters on long stems. A low tuberous perennial herb with broad pubescent leaves.",
+  colour: "Many colours",
   significance: "Broadening of the Being",
   comment: "All the parts of the being broaden in order to progress.",
   image_url: "florists_gloxinia_mix.jpg",
@@ -13063,7 +13065,7 @@ florists_gloxinia.child_flowers.create!(
 )
 
 florists_gloxinia.child_flowers.create!(
-  description: "Showy medium-sized single velvety bell-shaped white flower with numerous purple dots and with a spreading limb divided into five to twelve lobes with ruffled edges; borne singly or in small clusters on long stems. A low tuberous perennial herb with broad pubescent leaves.",
+  description: "Showy, medium-sized, single, velvety, bell-shaped white flower with numerous purple dots and with a spreading limb divided into five to twelve lobes with ruffled edges; borne singly or in small clusters on long stems. A low tuberous perennial herb with broad pubescent leaves.",
   colour: "White, purple",
   significance: "Organised Emotional Broadening",
   comment: "The broadening should not be the result of an instinctive impulse but of a conscious organisation.",
@@ -13073,7 +13075,7 @@ florists_gloxinia.child_flowers.create!(
 )
 
 florists_gloxinia.child_flowers.create!(
-  description: "Showy medium-sized single velvety purple bell-shaped flowers with a spreading limb divided into five to twelve lobes with ruffled edges; borne singly or in small clusters on long stems. A low tuberous perennial herb with broad pubescent leaves.",
+  description: "Showy, medium-sized, single, velvety, bell-shaped purple flowers with a spreading limb divided into five to twelve lobes with ruffled edges; borne singly or in small clusters on long stems. A low tuberous perennial herb with broad pubescent leaves.",
   colour: "Purple",
   significance: "Broadening of the Most Material Vital",
   comment: "The limitations of the ego begin to be shaken.",
@@ -13083,7 +13085,7 @@ florists_gloxinia.child_flowers.create!(
 )
 
 florists_gloxinia.child_flowers.create!(
-  description: "Showy medium-sized single white velvety bell-shaped flower with a spreading limb divided into five to twelve lobes with ruffled edges; borne singly or in small clusters on long stems. A low tuberous perennial herb with broad pubescent leaves.",
+  description: "Showy, medium-sized, single, velvety, bell-shaped white flower with a spreading limb divided into five to twelve lobes with ruffled edges; borne singly or in small clusters on long stems. A low tuberous perennial herb with broad pubescent leaves.",
   colour: "White",
   significance: "Balanced Use of Integral Power",
   comment: "In truth, power can only become integral when it is used in a balanced way.",
@@ -13120,7 +13122,7 @@ eggplant.child_flowers.create!(
 )
 
 eggplant.child_flowers.create!(
-  description: "Small purple star-shaped flower with a prominent yellow centre of five erect anthers; borne in few flowered cymes. An extremely prickly scandent subshrub.",
+  description: "Small purple star-shaped flower with a prominent yellow center of five erect anthers; borne in few flowered cymes. An extremely prickly scandent subshrub.",
   colour: "Purple, yellow",
   significance: "Vital Courage",
   comment: "Must be controlled to be beneficial.",
@@ -13134,7 +13136,7 @@ eggplant.child_flowers.create!(
 coleus = Flower.create!(
   name: "Coleus",
   other_names: "Painted Nettle",
-  bot_name: "Solenostemon scutellarioides [Coleus X hybridus]",
+  bot_name: "Solenostemon scutellarioides [Coleus x hybridus]",
   family: "Labiatae",
   petals: "Two",
   size: "Tiny",
@@ -13173,9 +13175,9 @@ terrestrial_orchid = Flower.create!(
   other_names: "Orchid",
   bot_name: "Spathoglottis plicata",
   family: "Orchidaceae",
-  petals: "Three",
+  petals: "Two",
   size: "Small",
-  place: "Found from tropical and subtropical Asia to the western Pacific including Hawaii, Tonga and Samoa, also occurs in Australia from Cooktown to the Jardine River on Cape York Peninsula",
+  place: "Found from tropical and subtropical Asia to the western Pacific, including Hawaii, Tonga, and Samoa; also occurs in Australia from Cooktown to the Jardine River on Cape York Peninsula",
   climate: "Tropical and subtropical",
   image_url: "terrestrial_orchid.jpg",
   thumbnail_url: "terrestrial_orchid_thumbnail.jpg",
@@ -13184,8 +13186,8 @@ terrestrial_orchid = Flower.create!(
 )
 
 terrestrial_orchid.child_flowers.create!(
-  description: "Small pale to deep lavender pink flower with three petal-like sepals, two similar but slightly broader petals and a small uniquely shaped centre and lip; borne in clusters on leafless stems. A free-flowering terrestrial orchid with ovoid pseudo-bulbs.",
-  colour: "Pale to deep lavender pink",
+  description: "Small pale to deep lavender-pink flower with three petal-like sepals, two similar but slightly broader petals, and a small uniquely-shaped center and lip; borne in clusters on leafless stems. A free-flowering terrestrial orchid with ovoid pseudo-bulbs.",
+  colour: "Pale to deep lavender-pink",
   significance: "Vital Attachment to the Divine",
   comment: "Manifold and abundant in its multiplicity.",
   image_url: "terrestrial_orchid_lavender_pink.jpg",
@@ -13194,7 +13196,7 @@ terrestrial_orchid.child_flowers.create!(
 )
 
 terrestrial_orchid.child_flowers.create!(
-  description: "Small white flower with three petal-like sepals, two similar but slightly broader petals and a small uniquely shaped centre and lip; borne in clusters on leafless stems. A free-flowering terrestrial orchid with ovoid pseudo-bulbs.",
+  description: "Small white flower with three petal-like sepals, two similar but slightly broader petals, and a small uniquely-shaped center and lip; borne in clusters on leafless stems. A free-flowering terrestrial orchid with ovoid pseudo-bulbs.",
   colour: "White",
   significance: "Integral Attachment to the Divine",
   comment: "On the right way towards realisation",
@@ -13211,8 +13213,8 @@ crepe_jasmine = Flower.create!(
   bot_name: "Tabernaemontana divaricata",
   family: "Apocynaceae",
   petals: "Five or several",
-  size: "Small to medium",
-  place: "Native to India, cultivated throughout South East Asia and the warmer regions of continental Asia",
+  size: "Small to medium-sized",
+  place: "Native to India; cultivated throughout South East Asia and the warmer regions of continental Asia",
   climate: "Tropical and subtropical",
   image_url: "crepe_jasmine.jpg",
   thumbnail_url: "crepe_jasmine_thumbnail.jpg",
@@ -13221,7 +13223,7 @@ crepe_jasmine = Flower.create!(
 )
 
 crepe_jasmine.child_flowers.create!(
-  description: "Small single white salverform flower with five rotate lobes resembling a pinwheel, and a yellow centre; borne in compound clusters. A large handsome almost ever-blooming shrub with glossy dark green leaves.",
+  description: "Small single white salverform flower with five rotate lobes resembling a pinwheel, and a yellow center; borne in compound clusters. A large handsome, almost ever-blooming shrub with glossy dark green leaves.",
   colour: "White, yellow",
   significance: "Mental Purity",
   comment: "A mirror that does not distort.",
@@ -13232,7 +13234,7 @@ crepe_jasmine.child_flowers.create!(
 
 crepe_jasmine.child_flowers.create!(
   bot_name: "Tabernaemontana divaricata 'Flore-pleno'",
-  description: "Medium-sized slightly fragrant semi-double white salverform flower with curling slightly crinkled petal-like lobes. A medium-sized shrub with glossy leaves.",
+  description: "Medium-sized slightly fragrant, semi-double white salverform flower with curling, slightly crinkled petal-like lobes. A medium-sized shrub with glossy leaves.",
   colour: "White",
   significance: "Integral Mental Purity",
   comment: "Silent, attentive, receptive, concentrated on the Divine - such is the path of purity.",
@@ -13243,7 +13245,7 @@ crepe_jasmine.child_flowers.create!(
 
 crepe_jasmine.child_flowers.create!(
   bot_name: "Tabernaemontana divaricata 'Flore-pleno'",
-  description: "Medium-sized fragrant double white salverform flower with heavily crinkled petal-like lobes. A medium-sized shrub with glossy leaves.",
+  description: "Medium-sized fragrant, double white salverform flower with heavily crinkled petal-like lobes. A medium-sized shrub with glossy leaves.",
   colour: "White",
   significance: "Perfect Mental Purity",
   comment: "A spotless mirror turned constantly towards the Divine.",
@@ -13269,7 +13271,7 @@ african_marigold = Flower.create!(
 )
 
 african_marigold.child_flowers.create!(
-  description: "Medium to large compact double compositae yellow flowers with convoluted petals; borne singly or in few-flowered clusters. An annual or perennial herb with strongly aromatic leaves.",
+  description: "Medium to large compact, double yellow flowers with convoluted petals; borne singly or in few-flowered clusters. An annual or perennial herb with strongly aromatic leaves.",
   colour: "Yellow",
   significance: "Mental Plasticity",
   comment: "Indispensable for true knowledge.",
@@ -13280,7 +13282,7 @@ african_marigold.child_flowers.create!(
 
 african_marigold.child_flowers.create!(
   bot_name: "Tagetes erecta 'Spun Yellow'",
-  description: "Medium to large compact double compositae bright yellow flower with finely frilled incurved petals; borne singly or in few-flowered clusters. An annual or perennial herb with strongly aromatic leaves.",
+  description: "Medium to large compact, double bright yellow flower with finely frilled incurved petals; borne singly or in few-flowered clusters. An annual or perennial herb with strongly aromatic leaves.",
   colour: "Bright yellow",
   significance: "Energy of a Plastic Mind",
   comment: "Does not draw back from any effort to progress.",
@@ -13290,8 +13292,8 @@ african_marigold.child_flowers.create!(
 )
 
 african_marigold.child_flowers.create!(
-  description: "Medium to large compact double compositae orange to orange yellow flowers with convoluted petals; borne singly or in few-flowered clusters. An annual or perennial herb with strongly aromatic leaves.",
-  colour: "Orange to orange yellow",
+  description: "Medium to large compact, double orange to orange-yellow flowers with convoluted petals; borne singly or in few-flowered clusters. An annual or perennial herb with strongly aromatic leaves.",
+  colour: "Orange to orange-yellow",
   significance: "Supramentalised Plasticity",
   comment: "One of the stages on the way to transformation.",
   image_url: "african_marigold_orange.jpg",
@@ -13305,9 +13307,9 @@ french_marigold = Flower.create!(
   name: "French Marigold",
   bot_name: "Tagetes patula",
   family: "Compositae",
-  size: "Small to medium",
-  place: "Native to the Americas with several naturalised populations around the world",
-  climate: "Found across temperate, subtropical and tropical regions",
+  size: "Small to medium-sized",
+  place: "Native to the Americas; naturalised around the world",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "french_marigold.jpg",
   thumbnail_url: "french_marigold_thumbnail.jpg",
   source: "Benery",
@@ -13315,7 +13317,7 @@ french_marigold = Flower.create!(
 )
 
 french_marigold.child_flowers.create!(
-  description: "Medium-sized compositae yellow or orange flower streaked with maroon; borne singly or in few-flowered clusters. A low bushy annual with strongly aromatic leaves.",
+  description: "Medium-sized yellow or orange flower streaked with maroon; borne singly or in few-flowered clusters. A low bushy annual with strongly aromatic leaves.",
   colour: "Yellow or orange, maroon",
   significance: "Physical Plasticity",
   comment: "One of the important conditions for transformation.",
@@ -13325,7 +13327,7 @@ french_marigold.child_flowers.create!(
 )
 
 french_marigold.child_flowers.create!(
-  description: "Small compact compositae yellow flowers with convoluted petals, in shades of yellow, orange and rust; borne singly or in few-flowered clusters. A low bushy annual with strongly aromatic leaves.",
+  description: "Small, compact flowers with convoluted petals in shades of yellow, orange, and rust; borne singly or in few-flowered clusters. A low bushy annual with strongly aromatic leaves.",
   colour: "Shades of yellow, orange, and rust",
   significance: "Detailed Plasticity",
   comment: "The plasticity needed to constantly progress.",
@@ -13342,7 +13344,7 @@ yellow_oleander = Flower.create!(
   bot_name: "Thevetia peruviana [Cascabela thevetia]",
   family: "Apocynaceae",
   size: "Medium-sized",
-  place: "Native to central and southern Mexico and Central America, and cultivated widely as an ornamental",
+  place: "Native to central and southern Mexico, and Central America; cultivated widely as an ornamental",
   climate: "Tropical",
   image_url: "yellow_oleander.jpg",
   thumbnail_url: "yellow_oleander_thumbnail.jpg",
@@ -13351,7 +13353,7 @@ yellow_oleander = Flower.create!(
 )
 
 yellow_oleander.child_flowers.create!(
-  description: "Medium-sized fragrant yellow narrow funnel-shaped flower with swirled petals; borne in few-flowered cymes. A large shrub or small tree with glossy linear lanceolate leaves and highly poisonous fruits.",
+  description: "Medium-sized fragrant, narrow, yellow funnel-shaped flower with swirled petals; borne in few-flowered cymes. A large shrub or small tree with glossy linear lanceolate leaves and highly poisonous fruits.",
   colour: "Yellow",
   significance: "Mind",
   comment: "Its true value depends on its surrender to the Divine.",
@@ -13362,7 +13364,7 @@ yellow_oleander.child_flowers.create!(
 
 yellow_oleander.child_flowers.create!(
   bot_name: "Thevetia peruviana 'Alba'",
-  description: "Medium-sized fragrant white narrow funnel-shaped flower with swirled petals; borne in few-flowered cymes. A large shrub or small tree with glossy linear lanceolate leaves and highly poisonous fruits.",
+  description: "Medium-sized fragrant, narrow, white funnel-shaped flower with swirled petals; borne in few-flowered cymes. A large shrub or small tree with glossy linear lanceolate leaves and highly poisonous fruits.",
   colour: "White",
   significance: "Purified Mind",
   comment: "Mind ready to surrender to the Divine.",
@@ -13372,7 +13374,7 @@ yellow_oleander.child_flowers.create!(
 )
 
 yellow_oleander.child_flowers.create!(
-  description: "Medium-sized fragrant orange narrow funnel-shaped flower with swirled petals; borne singly. A large shrub or small tree with glossy linear lanceolate leaves and highly poisonous fruits.",
+  description: "Medium-sized fragrant, narrow, orange funnel-shaped flower with swirled petals; borne singly. A large shrub or small tree with glossy linear lanceolate leaves and highly poisonous fruits.",
   colour: "Orange",
   significance: "Supramentalised Mind",
   comment: "Mind has become an instrument for transformation.",
@@ -13387,7 +13389,9 @@ black_eyed_susan_vine = Flower.create!(
   name: "Black-eyed Susan Vine",
   bot_name: "Thunbergia alata",
   family: "Acanthaceae",
-  place: "Native to Eastern Africa, naturalized in other parts of the world (found in Cerrado vegetation of Brazil and Hawaii, along with eastern Australia and the southern USA in the states of Texas and Florida)",
+  petals: "Five",
+  size: "Small to medium-sized",
+  place: "Native to Eastern Africa; found in Cerrado vegetation of Brazil and Hawaii, along with eastern Australia and the southern USA in the states of Texas and Florida",
   climate: "Tropical and subtropical",
   image_url: "black_eyed_susan_vine.jpg",
   thumbnail_url: "black_eyed_susan_vine_thumbnail.jpg",
@@ -13396,24 +13400,24 @@ black_eyed_susan_vine = Flower.create!(
 )
 
 black_eyed_susan_vine.child_flowers.create!(
-  description: "Small yellow orange to orange salverform flowers with a limb composed of five broad some what squared lobes, a dark maroon or green throat and a curved corolla tube that emerges from two enlarged inflated bracts; usually borne singly from the leaf axils. A light annual or perennial vine.",
-  colour: "Yellow orange to orange, dark maroon or green",
-  significance: "Obscurity Offers Itself to be Transformed",
+  description: "Small yellow-orange to orange salverform flower with a limb composed of five broad, somewhat squared lobes, a dark maroon or green throat, and a curved corolla tube that emerges from two enlarged inflated bracts; usually borne singly from the leaf axils. A light annual or perennial vine.",
+  colour: "Yellow-orange to orange, dark maroon or green",
+  significance: "Obscurity Offers itself to be Transformed",
   comment: "Obscurity tired of being obscure.",
-  image_url: "black_eyed_susan_vine_yellow.jpg",
+  image_url: "black_eyed_susan_vine_mix.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_071024-0311_Thunbergia_alata.jpg"
+  url: "https://commons.wikimedia.org/wiki/File:Starr_080716-9361_Thunbergia_alata.jpg"
 )
 
 black_eyed_susan_vine.child_flowers.create!(
   bot_name: "Thunbergia alata ‘Julietta’",
-  description: "Medium-sized golden yellow to deep orange flower salverform flowers with a limb composed of five broad some what squared lobes, without a dark maroon throat and a curved corolla tube that emerges from two enlarged inflated bracts; usually borne singly from the leaf axils. A light annual or perennial vine.",
-  colour: "Golden yellow to deep orange, dark maroon",
+  description: "Medium-sized golden-yellow to deep orange salverform flower with a limb composed of five broad, somewhat squared lobes, a throat that is not dark maroon, and a curved corolla tube that emerges from two enlarged inflated bracts; usually borne singly from the leaf axils. A light annual or perennial vine.",
+  colour: "Golden-yellow to deep orange",
   significance: "Transformation Dispels Obscurity",
   comment: "Obscurity will disappear more and more as the transformation progresses.",
-  image_url: "black_eyed_susan_vine_orange.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Thunbergia_alata_-_blossom_(aka).jpg"
+  image_url: "black_eyed_susan_vine_julietta.jpg",
+  source: "Ray Cui",
+  url: "https://www.flickr.com/photos/melop/63174711/"
 )
 
 # King's Mantle
@@ -13434,8 +13438,8 @@ kings_mantle = Flower.create!(
 )
 
 kings_mantle.child_flowers.create!(
-  description: "Medium-sized salverform flowers in lavender blue, purple and white with a bright yellow throat, a curved corolla tube and a limb divided into five rounded lobes. An erect or sometimes scandent shrub.",
-  colour: "Lavender blue, purple, white, yellow",
+  description: "Medium-sized salverform flowers in lavender blue, purple, and white, with a bright yellow throat, a curved corolla tube, and a limb divided into five rounded lobes. An erect or sometimes scandent shrub.",
+  colour: "Lavender blue, purple, white, bright yellow",
   significance: "Opening to the Light",
   comment: "Harmonises with all that can lead towards the Light.",
   image_url: "kings_mantle_mix.jpg",
@@ -13444,8 +13448,8 @@ kings_mantle.child_flowers.create!(
 )
 
 kings_mantle.child_flowers.create!(
-  description: "Medium-sized variegated lavender and white salverform flowers with a bright yellow throat, a curved corolla tube and a limb divided into five rounded lobes. An erect or sometimes scandent shrub.",
-  colour: "Variegated lavender, white, bright yellow",
+  description: "Medium-sized variegated lavender and white salverform flowers with a bright yellow throat, a curved corolla tube, and a limb divided into five rounded lobes. An erect or sometimes scandent shrub.",
+  colour: "Lavender and white, bright yellow",
   significance: "Opening of the Higher Vital to the Light",
   comment: "The vital existing only for the Divine. The vital knowing no other master than the Divine.",
   image_url: "kings_mantle_variegated.jpg",
@@ -13454,7 +13458,7 @@ kings_mantle.child_flowers.create!(
 )
 
 kings_mantle.child_flowers.create!(
-  description: "Medium-sized deep violet salverform flowers with a bright yellow throat, a curved corolla tube and a limb divided into five rounded lobes. An erect or sometimes scandent shrub.",
+  description: "Medium-sized deep violet salverform flowers with a bright yellow throat, a curved corolla tube, and a limb divided into five rounded lobes. An erect or sometimes scandent shrub.",
   colour: "Deep violet, bright yellow",
   significance: "Opening of the Material Vital to the Light",
   comment: "One of the essential conditions for peace.",
@@ -13465,7 +13469,7 @@ kings_mantle.child_flowers.create!(
 
 kings_mantle.child_flowers.create!(
   bot_name: "Thunbergia erecta 'Alba'",
-  description: "Medium-sized white salverform flowers with a bright yellow throat; a curved corolla tube and a limb divided into five rounded lobes. An erect or sometimes scandent shrub.",
+  description: "Medium-sized white salverform flowers with a bright yellow throat; a curved corolla tube, and a limb divided into five rounded lobes. An erect or sometimes scandent shrub.",
   colour: "White, bright yellow",
   significance: "Integral Opening to the Light",
   comment: "The assurance of the coming peace and joy.",
@@ -13483,7 +13487,7 @@ wishbone_flower = Flower.create!(
   family: "Scrophulariacea",
   petals: "Four",
   size: "Small",
-  place: "Found in tropical and subtropical regions of Aisa and the Americas",
+  place: "Found in tropical and subtropical regions of Asia and the Americas",
   climate: "Tropical and subtropical",
   image_url: "wishbone_flower.jpg",
   thumbnail_url: "wishbone_flower_thumbnail.jpg",
@@ -13492,8 +13496,8 @@ wishbone_flower = Flower.create!(
 )
 
 wishbone_flower.child_flowers.create!(
-  description: "Small salverform flowers with a flattened corolla tube and a limb irregularly divided into one larger crimped upper lobe and three smaller lower lobes; hybrid forms in white, mauve or lavender; the prominent calyx is light green and ribbed; borne singly in the leaf axils or in few-flowered terminal racemes. A low delicate annual herb.",
-  colour: "In white, mauve or lavender, and light green",
+  description: "Small salverform flowers with a flattened corolla tube and a limb irregularly divided into one larger crimped upper lobe and three smaller lower lobes; hybrid forms are in white, mauve, or lavender; the prominent calyx is light green and ribbed; borne singly in the leaf axils or in few-flowered terminal racemes. A low delicate annual herb.",
+  colour: "White, mauve, or lavender, and light green",
   significance: "Krishna’s Play",
   comment: "A power of progress veiling itself behind appearances.",
   image_url: "wishbone_flower_mix.jpg",
@@ -13502,18 +13506,18 @@ wishbone_flower.child_flowers.create!(
 )
 
 wishbone_flower.child_flowers.create!(
-  description: "Small salverform flowers with a flattened corolla tube and a limb irregularly divided into one larger crimped upper lobe and three smaller lower lobes; hybrid form in pale lavender edged with deep velvety purple and an yellow spot in the centre of the lower lobe; the prominent calyx is light green and ribbed; borne singly in the leaf axils or in few-flowered terminal racemes. A low delicate annual herb.",
-  colour: "Pale lavender, deep purple, yellow",
+  description: "Small salverform flowers with a flattened corolla tube and a limb irregularly divided into one larger crimped upper lobe and three smaller lower lobes; a hybrid form is pale lavender, edged with deep velvety purple, with a yellow spot in the center of the lower lobe; the prominent calyx is light green and ribbed; borne singly in the leaf axils or in few-flowered terminal racemes. A low delicate annual herb.",
+  colour: "Pale lavender, deep purple, yellow, light green",
   significance: "Krishna’s Play in Matter",
-  comment: "Beauty, love and joy are His companions. A play that widens and makes us progress.",
+  comment: "Beauty, love, and joy are His companions. A play that widens and makes us progress.",
   image_url: "wishbone_flower_lavender.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Torenia_at_lalbagh_7361.JPG"
 )
 
 wishbone_flower.child_flowers.create!(
-  description: "Small salverform white flowers with pale pinkish tan; flattened corolla tube and a limb irregularly divided into one larger crimped upper lobe and three smaller lower lobes with a yellow spot in the centre of the lower lobe; the prominent calyx is light green and ribbed; borne singly in the leaf axils or in few-flowered terminal racemes. A low delicate annual herb.",
-  colour: "White, pale pink, yellow",
+  description: "Small salverform white flowers with a pale pinkish tan, a flattened corolla tube, and a limb irregularly divided into one larger crimped upper lobe and three smaller lower lobes, with a yellow spot in the center of the lower lobe; the prominent calyx is light green and ribbed; borne singly in the leaf axils or in few-flowered terminal racemes. A low delicate annual herb.",
+  colour: "White, pale pink, yellow, light green",
   significance: "Krishna’s Integral Play",
   comment: "All the parts of the being respond to His influence.",
   image_url: "wishbone_flower_pink.jpg",
@@ -13530,7 +13534,7 @@ nasturtium = Flower.create!(
   family: "Tropaeolaceae",
   petals: "Five",
   size: "Medium-sized",
-  place: "Native to the Andes from Bolivia north to Colombia, naturalized in parts of the United States (California, New York, Pennsylvania, New Hampshire, Massachusetts and Connecticut)",
+  place: "Native to the Andes from Bolivia north to Colombia; naturalized in parts of the United States (California, New York, Pennsylvania, New Hampshire, Massachusetts, and Connecticut)",
   climate: "Tropical and subtropical",
   image_url: "nasturtium.jpg",
   thumbnail_url: "nasturtium_thumbnail.jpg",
@@ -13539,8 +13543,8 @@ nasturtium = Flower.create!(
 )
 
 nasturtium.child_flowers.create!(
-  description: "Medium-sized mildly fragrant showy flowers with two upper and three lower contrasting petals and a prominent spur, in white and shades of yellow, salmon pink, orange and red, often variegated; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
-  colour: "White and shades of yellow, salmon pink, orange, and red",
+  description: "Medium-sized mildly fragrant, showy flowers with two upper and three lower contrasting petals, and a prominent spur, in white, and shades of yellow, salmon pink, orange, and red, often variegated; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
+  colour: "White, and shades of yellow, salmon pink, orange, and red",
   significance: "Promise of Realisation",
   comment: "The best encouragement.",
   image_url: "nasturtium_mix.jpg",
@@ -13549,7 +13553,7 @@ nasturtium.child_flowers.create!(
 )
 
 nasturtium.child_flowers.create!(
-  description: "Medium-sized mildly fragrant dark red to maroon flowers with two upper and three lower contrasting petals and a prominent spur; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
+  description: "Medium-sized mildly fragrant dark red to maroon flowers with two upper and three lower contrasting petals, and a prominent spur; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
   colour: "Dark red to maroon",
   significance: "Promise of Realisation in Matter",
   comment: "The best encouragement for doing what is necessary.",
@@ -13559,7 +13563,7 @@ nasturtium.child_flowers.create!(
 )
 
 nasturtium.child_flowers.create!(
-  description: "Medium-sized mildly fragrant yellow flowers with two upper and three lower contrasting petals and a prominent spur; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
+  description: "Medium-sized mildly fragrant yellow flowers with two upper and three lower contrasting petals, and a prominent spur; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
   colour: "Yellow",
   significance: "Promise of Realisation in the Mind",
   comment: "The mind must be silent to allow the Supramental consciousness to take its place.",
@@ -13569,7 +13573,7 @@ nasturtium.child_flowers.create!(
 )
 
 nasturtium.child_flowers.create!(
-  description: "Medium-sized mildly fragrant light yellow flower with a red centre with two upper and three lower contrasting petals and a prominent spur; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
+  description: "Medium-sized mildly fragrant light yellow flower with a red center with two upper and three lower contrasting petals, and a prominent spur; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
   colour: "Light yellow, red",
   significance: "Promise of Realisation in the Physical Mind",
   comment: "A good encouragement for the necessary effort.",
@@ -13579,8 +13583,8 @@ nasturtium.child_flowers.create!(
 )
 
 nasturtium.child_flowers.create!(
-  description: "Medium-sized mildly fragrant bicoloured yellow and maroon flowers with two upper and three lower contrasting petals and a prominent spur; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
-  colour: "Bicoloured. yellow and maroon",
+  description: "Medium-sized, mildly fragrant, bicoloured, yellow and maroon flowers with two upper and three lower contrasting petals, and a prominent spur; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
+  colour: "Bicoloured, yellow and maroon",
   significance: "Promise of Realisation in the Physical",
   comment: "Courage to face the long labour.",
   image_url: "nasturtium_yellow_maroon",
@@ -13596,7 +13600,7 @@ moss_verbena = Flower.create!(
   family: "Verbenaceae",
   petals: "Five",
   size: "Small",
-  place: "Native to southern South America, naturalized from Georgia to Florida",
+  place: "Native to southern South America; naturalized from Georgia to Florida",
   climate: "Tropical and subtropical",
   image_url: "moss_verbena.jpg",
   thumbnail_url: "moss_verbena_thumbnail.jpg",
@@ -13605,8 +13609,8 @@ moss_verbena = Flower.create!(
 )
 
 moss_verbena.child_flowers.create!(
-  description: "Elongated spikes of small light pink salverform flowers with five irregular rounded lobes. A low perennial herb with deeply cut somewhat lacy leaves.",
-  colour: "Pink",
+  description: "Elongated spikes of small light pink salverform flowers with five irregular rounded lobes. A low perennial herb with deeply cut, somewhat lacy leaves.",
+  colour: "Light pink",
   significance: "Aspiration for Conquest of Enemies in the Vital",
   comment: "A concentrated and unobtrusive will acting quietly but effectively.",
   image_url: "moss_verbena_pink.jpg",
@@ -13615,8 +13619,8 @@ moss_verbena.child_flowers.create!(
 )
 
 moss_verbena.child_flowers.create!(
-  description: "Elongated spikes of small rose purple salverform flowers with five irregular rounded lobes. A low perennial herb with deeply cut somewhat lacy leaves.",
-  colour: "Rose purple",
+  description: "Elongated spikes of small rose-purple salverform flowers with five irregular rounded lobes. A low perennial herb with deeply cut, somewhat lacy leaves.",
+  colour: "Rose-purple",
   significance: "Will to Conquer the Vital Enemies",
   comment: "Indispensable for the mastery over desires.",
   image_url: "moss_verbena_rose_purple.jpg",
@@ -13625,7 +13629,7 @@ moss_verbena.child_flowers.create!(
 )
 
 moss_verbena.child_flowers.create!(
-  description: "Elongated spikes of small white salverform flowers with five irregular rounded lobes. A low perennial herb with deeply cut somewhat lacy leaves.",
+  description: "Elongated spikes of small white salverform flowers with five irregular rounded lobes. A low perennial herb with deeply cut, somewhat lacy leaves.",
   colour: "White",
   significance: "Conquest over the Vital Enemies",
   comment: "The appearance is modest, but the power is lasting.",
@@ -13639,9 +13643,10 @@ moss_verbena.child_flowers.create!(
 common_garden_verbena = Flower.create!(
   name: "Common Garden Verbena",
   other_names: "Florists' Verbena",
-  bot_name: "Verbena x Hybrida [Glandularia × hybrida]",
+  bot_name: "Verbena x Hybrida [Glandularia x hybrida]",
   family: "Verbenaceae",
   size: "Small",
+  petals: "Five",
   place: "Cultivated in tropical and subtropical regions",
   climate: "Tropical and subtropical",
   image_url: "common_garden_verbena.jpg",
@@ -13651,8 +13656,8 @@ common_garden_verbena = Flower.create!(
 )
 
 common_garden_verbena.child_flowers.create!(
-  description: "Small salverform flowers with irregular rounded lobes, in many colours and often with a contrasting, usually white centre; borne in flat-topped terminal spikes. A creeping matlike perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
-  colour: "Many colours, usually white centre",
+  description: "Small salverform flowers with irregular rounded lobes, in many colours and often with a contrasting, usually white center; borne in flat-topped terminal spikes. A creeping mat-like perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
+  colour: "Many colours, usually white center",
   significance: "Thoroughness",
   comment: "Indispensable for all true progress.",
   image_url: "common_garden_verbena_mix.jpg",
@@ -13661,7 +13666,7 @@ common_garden_verbena.child_flowers.create!(
 )
 
 common_garden_verbena.child_flowers.create!(
-  description: "Small pink salverform flowers with irregular rounded lobes; borne in flat-topped terminal spikes. A creeping matlike perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
+  description: "Small pink salverform flowers with irregular rounded lobes; borne in flat-topped terminal spikes. A creeping mat-like perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
   colour: "Pink",
   significance: "Psychic Thoroughness",
   comment: "With tireless patience it works for the perfection of the being.",
@@ -13671,7 +13676,7 @@ common_garden_verbena.child_flowers.create!(
 )
 
 common_garden_verbena.child_flowers.create!(
-  description: "Small mauve salverform flowers with irregular rounded lobes; borne in flat-topped terminal spikes. A creeping matlike perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
+  description: "Small mauve salverform flowers with irregular rounded lobes; borne in flat-topped terminal spikes. A creeping mat-like perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
   colour: "Mauve",
   significance: "Vital Thoroughness",
   comment: "The vital must become calm and docile.",
@@ -13681,7 +13686,7 @@ common_garden_verbena.child_flowers.create!(
 )
 
 common_garden_verbena.child_flowers.create!(
-  description: "Small dark red salverform flowers with irregular rounded lobes; borne in flat-topped terminal spikes. A creeping matlike perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
+  description: "Small dark red salverform flowers with irregular rounded lobes; borne in flat-topped terminal spikes. A creeping mat-like perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
   colour: "Dark red",
   significance: "Physical Thoroughness",
   comment: "Takes great care of details in the execution of work.",
@@ -13691,7 +13696,7 @@ common_garden_verbena.child_flowers.create!(
 )
 
 common_garden_verbena.child_flowers.create!(
-  description: "Small white salverform flowers with irregular rounded lobes; borne in flat-topped terminal spikes. A creeping matlike perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
+  description: "Small white salverform flowers with irregular rounded lobes; borne in flat-topped terminal spikes. A creeping mat-like perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
   colour: "White",
   significance: "Integral Thoroughness",
   comment: "Nothing is neglected in order to reach the Divine Goal.",
@@ -13701,7 +13706,7 @@ common_garden_verbena.child_flowers.create!(
 )
 
 common_garden_verbena.child_flowers.create!(
-  description: "Small soft red with cream centre salverform flowers with irregular rounded lobes; borne in flat- topped terminal spikes. A creeping matlike perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
+  description: "Small, soft red salverform flowers with a cream center, and with irregular rounded lobes; borne in flat-topped terminal spikes. A creeping mat-like perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
   colour: "Red, cream",
   significance: "Artistic Thoroughness",
   comment: "Neglects nothing in its search for perfection.",
@@ -13715,7 +13720,7 @@ common_garden_verbena.child_flowers.create!(
 pansy = Flower.create!(
   name: "Pansy",
   other_names: "Ladies' Delight, Heart's Ease, Stepmother's Flower",
-  bot_name: "Viola X wittrockiana",
+  bot_name: "Viola x wittrockiana",
   family: "Violaceae",
   place: "Found in Europe and western Asia",
   climate: "Subtropical to temperate",
@@ -13728,9 +13733,9 @@ pansy = Flower.create!(
 )
 
 pansy.child_flowers.create!(
-  description: "Medium to large soft velvety flower with five rounded irregularly overlapping petals, the lower three usually having darker patches suggesting a face; in white and shades of yellow, cream, orange, pink, reddish brown, purple and blue~ borne singly. A lovely low annual or short-lived perennial.",
-  colour: "White and shades of yellow, cream, orange, pink, reddish brown, purple, and blue",
-  significance: "Thoughts Turned Towards the Divine",
+  description: "Medium to large soft, velvety flower with five rounded, irregularly overlapping petals, the lower three usually having darker patches suggesting a face; in white, and shades of yellow, cream, orange, pink, reddish-brown, purple, and blue; borne singly. A lovely low annual or short-lived perennial.",
+  colour: "White, and shades of yellow, cream, orange, pink, reddish-brown, purple, and blue",
+  significance: "Thoughts turned towards the Divine",
   comment: "A certitude of beauty.",
   image_url: "pansy_purple.jpg",
   source: "Wikimedia Commons",
@@ -13738,8 +13743,8 @@ pansy.child_flowers.create!(
 )
 
 pansy.child_flowers.create!(
-  description: "Medium to large soft velvety cream yellow flower with five rounded irregularly overlapping petals; borne singly. A lovely low annual or short-lived perennial.",
-  colour: "Cream yellow",
+  description: "Medium to large soft, velvety, cream-yellow flower with five rounded, irregularly overlapping petals; borne singly. A lovely low annual or short-lived perennial.",
+  colour: "Cream-yellow",
   significance: "Integrally Pure Thoughts",
   comment: "An effect of the Divine Grace.",
   image_url: "pansy_cream.jpg",
@@ -13755,9 +13760,9 @@ zephyr_flower = Flower.create!(
   bot_name: "Zephyranthes",
   family: "Amaryllidaceae",
   petals: "Six",
-  size: "Small to medium",
+  size: "Small to medium-sized",
   place: "Native to the tropical and temperate Western Hemisphere",
-  climate: "Found across temperate, subtropical and tropical climates",
+  climate: "Found across temperate, subtropical, and tropical climates",
   image_url: "zephyr_flower.jpg",
   thumbnail_url: "zephyr_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -13765,8 +13770,8 @@ zephyr_flower = Flower.create!(
 )
 
 zephyr_flower.child_flowers.create!(
-  description: "Small to medium-sized funnel-shaped flowers with six pointed petals, in several colours; borne singly on scapes. A small bulbous herb with grass like leaves.",
-  colour: "In several colours",
+  description: "Small to medium-sized funnel-shaped flowers with six pointed petals in several colours; borne singly on scapes. A small bulbous herb with grass-like leaves.",
+  colour: "Several colours",
   significance: "Prayer",
   comment: "Self-giving is true prayer.",
   image_url: "zephyr_flower_mix.jpg",
@@ -13775,7 +13780,7 @@ zephyr_flower.child_flowers.create!(
 )
 
 zephyr_flower.child_flowers.create!(
-  description: "Medium-sized funnel-shaped light pink flowers with six pointed petals. A small bulbous herb with grasslike leaves.",
+  description: "Medium-sized funnel-shaped light pink flowers with six pointed petals. A small bulbous herb with grass-like leaves.",
   colour: "Light pink",
   significance: "Psychic Prayer",
   comment: "Spontaneous and fervent.",
@@ -13785,7 +13790,7 @@ zephyr_flower.child_flowers.create!(
 )
 
 zephyr_flower.child_flowers.create!(
-  description: "Small to medium-sized funnel-shaped fragrant yellow flowers with six pointed petals. A small bulbous herb with grasslike leaves.",
+  description: "Small to medium-sized funnel-shaped, fragrant yellow flowers with six pointed petals. A small bulbous herb with grass-like leaves.",
   colour: "Yellow",
   significance: "Mental Prayer",
   comment: "Spontaneous in a mind that is aspiring for transformation.",
@@ -13795,7 +13800,7 @@ zephyr_flower.child_flowers.create!(
 )
 
 zephyr_flower.child_flowers.create!(
-  description: "Small funnel-shaped fragrant deep pink flowers with six pointed petals. A small bulbous herb with grasslike leaves.",
+  description: "Small funnel-shaped, fragrant deep pink flowers with six pointed petals. A small bulbous herb with grass-like leaves.",
   colour: "Deep pink",
   significance: "Vital Prayer",
   comment: "The vital prays to be purified.",
@@ -13805,7 +13810,7 @@ zephyr_flower.child_flowers.create!(
 )
 
 zephyr_flower.child_flowers.create!(
-  description: "Small to medium-sized funnel-shaped white flowers with six pointed petals. A small bulbous herb with grasslike leaves.",
+  description: "Small to medium-sized funnel-shaped white flowers with six pointed petals. A small bulbous herb with grass-like leaves.",
   colour: "White",
   significance: "Integral Prayer",
   comment: "The whole being is concentrated in a single prayer to the Divine.",
@@ -13831,8 +13836,8 @@ common_zinnia = Flower.create!(
 )
 
 common_zinnia.child_flowers.create!(
-  description: "Large usually double compositae flowers with firm spatulate ray florets in a wide range of colours; borne singly on sturdy stems. A long-blooming garden annual.",
-  colour: "In a wide range of colours",
+  description: "Large, usually double, flowers with firm spatulate ray florets in a wide range of colours; borne singly on sturdy stems. A long-blooming garden annual.",
+  colour: "Wide range of colours",
   significance: "Endurance",
   comment: "Going to the end of the effort without fatigue or relaxation.",
   image_url: "common_zinnia_mix.jpg",
@@ -13841,7 +13846,7 @@ common_zinnia.child_flowers.create!(
 )
 
 common_zinnia.child_flowers.create!(
-  description: "Large, usually double compositae royal purple flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
+  description: "Large, usually double, royal purple flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Royal purple",
   significance: "Courageous Endurance",
   comment: "Strong and energetic, never complains.",
@@ -13851,7 +13856,7 @@ common_zinnia.child_flowers.create!(
 )
 
 common_zinnia.child_flowers.create!(
-  description: "Large, usually double compositae orange flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
+  description: "Large, usually double, orange flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Orange",
   significance: "Victorious Endurance",
   comment: "It will endure till the end of the battle.",
@@ -13861,7 +13866,7 @@ common_zinnia.child_flowers.create!(
 )
 
 common_zinnia.child_flowers.create!(
-  description: "Large, usually double compositae light green flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
+  description: "Large, usually double, light green flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Light green",
   significance: "Spontaneous Endurance",
   comment: "Natural, effortless, smiling.",
@@ -13871,7 +13876,7 @@ common_zinnia.child_flowers.create!(
 )
 
 common_zinnia.child_flowers.create!(
-  description: "Large, usually double compositae bright coral pink flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
+  description: "Large, usually double, bright coral pink flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Bright coral pink",
   significance: "Joyful Endurance",
   comment: "Whatever happens, it keeps on smiling.",
@@ -13881,7 +13886,7 @@ common_zinnia.child_flowers.create!(
 )
 
 common_zinnia.child_flowers.create!(
-  description: "Large, usually double compositae cream flowers with a red centre and with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
+  description: "Large, usually double, cream flowers with a red center and with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Cream, red",
   significance: "Ananda of Endurance",
   comment: "To know how to bear and endure undoubtedly creates a strong and lasting joy.",
@@ -13891,8 +13896,8 @@ common_zinnia.child_flowers.create!(
 )
 
 common_zinnia.child_flowers.create!(
-  description: "Large, usually double compositae golden yellow flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
-  colour: "Golden yellow",
+  description: "Large, usually double, golden-yellow flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
+  colour: "Golden-yellow",
   significance: "Supramentalised Endurance",
   comment: "The attitude is such that difficulties lose their power to harass.",
   image_url: "common_zinnia_golden_yellow.jpg",
@@ -13901,7 +13906,7 @@ common_zinnia.child_flowers.create!(
 )
 
 common_zinnia.child_flowers.create!(
-  description: "Large, usually double compositae pnk flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
+  description: "Large, usually double, pink flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Pink",
   significance: "Psychic Endurance",
   comment: "It will smile at life whatever its difficulties may be.",
@@ -13911,7 +13916,7 @@ common_zinnia.child_flowers.create!(
 )
 
 common_zinnia.child_flowers.create!(
-  description: "Large, usually double compositae yellow flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
+  description: "Large, usually double, yellow flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Yellow",
   significance: "Mental Endurance",
   comment: "The difficulty of the problems to be solved will never discourage it.",
@@ -13921,8 +13926,8 @@ common_zinnia.child_flowers.create!(
 )
 
 common_zinnia.child_flowers.create!(
-  description: "Large, usually double compositae pinkish mauve flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
-  colour: "Pinkish mauve",
+  description: "Large, usually double, pinkish-mauve flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
+  colour: "Pinkish-mauve",
   significance: "Endurance of the Higher Vital",
   comment: "Whatever the circumstances, it never fails.",
   image_url: "common_zinnia_mauve.jpg",
@@ -13931,8 +13936,8 @@ common_zinnia.child_flowers.create!(
 )
 
 common_zinnia.child_flowers.create!(
-  description: "Large, usually double compositae violet red flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
-  colour: "Violet red",
+  description: "Large, usually double, violet-red flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
+  colour: "Violet-red",
   significance: "Vital Endurance",
   comment: "Whatever the obstacles, we shall always go forward!",
   image_url: "common_zinnia_violet_red.jpg",
@@ -13941,7 +13946,7 @@ common_zinnia.child_flowers.create!(
 )
 
 common_zinnia.child_flowers.create!(
-  description: "Large, usually double compositae dark red flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
+  description: "Large, usually double, dark red flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Dark red",
   significance: "Physical Endurance",
   comment: "Knows neither fatigue nor exhaustion.",
@@ -13951,7 +13956,7 @@ common_zinnia.child_flowers.create!(
 )
 
 common_zinnia.child_flowers.create!(
-  description: "Large, usually double compositae white flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
+  description: "Large, usually double, white flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "White",
   significance: "Integral Endurance",
   comment: "It will go on unfailingly till the end of its task.",
@@ -13961,7 +13966,7 @@ common_zinnia.child_flowers.create!(
 )
 
 common_zinnia.child_flowers.create!(
-  description: "Large, usually double compositae variegated or multicoloured flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
+  description: "Large, usually double, variegated or multicoloured flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Variegated or multicoloured",
   significance: "Manifold Endurance",
   comment: "Whatever the endurance needed, it is always there to do its duty.",
