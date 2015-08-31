@@ -3,10 +3,29 @@ class FlowersController < ApplicationController
 	def index
 		if params[:query].present?
 			@query = params[:query]
-			result = Flower.es.search(@query)
-			response = result.raw_response
-			@size = result.size
-			@flowers = Flower.es.search(@query, page: params[:page])
+			results_per_page = 9
+			query = {
+				body: {
+					query: {
+						query_string: {
+							query: @query
+						}
+					},
+					highlight: {
+          	fields: {
+            	name: {}
+          	}
+        	},
+					size: results_per_page
+				}
+			}
+			from_page = (params[:page].to_i - 1) * results_per_page unless params[:page].nil?
+			query[:body][:from] = from_page unless from_page.nil?
+		  # result = Flower.es.search(@query)
+			# response = result.raw_response
+			@flowers = Flower.es.search(query, page: params[:page])
+			#AA
+			@size = @flowers.count
 		else
 			@flowers = Flower.asc(:name).page params[:page]
 			respond_to do |format|
@@ -18,8 +37,8 @@ class FlowersController < ApplicationController
 
 	def show
 		@flower = Flower.find(params[:id])
-		@previous = Flower.where(:name.lt => @flower.name).desc(:name).limit(1).first
-		@next = Flower.where(:name.gt => @flower.name).asc(:name).limit(1).first
+		@previous = Flower.where(:_slugs.lt => @flower._slugs[0]).desc(:_slugs).first
+		@next = Flower.where(:_slugs.gt => @flower._slugs[0]).asc(:_slugs).first
 		respond_to do |format|
 			format.html
 			format.json { render json: @flower }
@@ -47,6 +66,7 @@ class FlowersController < ApplicationController
 	def update
 		@flower = Flower.find(params[:id])
 		if @flower.update_attributes(flower_params)
+			#HEHE
 			flash[:success] = "Flower updated"
 			redirect_to @flower
 		else
@@ -66,7 +86,8 @@ class FlowersController < ApplicationController
 			params.require(:flower).permit(:name, :bot_name, :significance,
 																		 :petals, :colour, :description,
 																		 :place, :climate, :season, :size,
-																		 :image_url)
+																		 :image_url, :variants_attributes)
+			#HEHE
 		end
 
 		def logged_in_user

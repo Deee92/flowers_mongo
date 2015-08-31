@@ -19,4 +19,5 @@
 //= require jquery.color
 //= require turbolinks
 //= require bootstrap-sprockets
+// require lightbox
 //= require_tree .

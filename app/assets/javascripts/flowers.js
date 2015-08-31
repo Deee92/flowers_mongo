@@ -7,7 +7,17 @@
   };
 
   var ready = function () {
-    get$([attrs.mainImg, attrs.variantImg]).on('load', function(){
+    // $('img').attr('rel', 'lightbox');
+    // $('img').click(function () {
+    //     $(this).wrap('<a href="' + $(this).attr("src") + '" rel="lightbox" />');
+    //     $(this).parent('a').trigger('click');
+    // });
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    });
+
+    get$(attrs.mainImg).on('load', function(){
       blendBackgroundColour(this);
     });
 
@@ -15,14 +25,17 @@
       blendBackgroundColour(event.relatedTarget.children[0]);
     });
 
-    get$(attrs.affixSidebar).affix({
-      offset: {
-        top: 200,
-        bottom: function () {
-          return (this.bottom = $('.variant').height());
+    if ($('.variant-img').length) {
+      get$(attrs.affixSidebar).show().affix({
+        offset: {
+          top: 200,
+          // bottom: function () {
+          //   return (this.bottom = $('.details').height());
+          // }
         }
-      }
-    })
+      });
+    //   console.log($('.details').height())
+    }
   }
 
   var blendBackgroundColour = function (img) {

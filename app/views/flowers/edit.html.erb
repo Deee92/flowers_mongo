@@ -4,13 +4,38 @@
 <div class="row">
 	<div class="col-md-6 col-md-offset-3">
 		<%= form_for(@flower) do |f| %>
-			<%= render 'fields', f: f %>
+			<%= render 'flower_fields', f: f %>
 			
 			<%= image_tag(@flower.image_url, class: "photo img-responsive", style: "margin: 2em 0;") %>
 
 			<%= f.label :image_url, "New image URL", class: "form_field" %>
 			<!-- Use file_field to choose file -->
 			<%= f.text_field :image_url, class: "form-control" %>
+
+			<% if @flower.variants %>
+				<hr>
+				<h1 class="nice_heading">Variants</h1>
+					<%= f.fields_for :variants do |builder|%>
+						
+						<%= builder.label :bot_name, "Botanical name", class: "form_field" %>
+						<%= builder.text_field :bot_name, class: "form-control" %>
+
+						<%= builder.label :significance, class: "form_field"%>
+						<%= builder.text_area :significance, rows: 6, class: "form-control" %>
+
+						<%= builder.label :colour, class: "form_field" %>
+						<%= builder.text_field :colour, class: "form-control" %>
+
+						<%= builder.label :description, class: "form_field" %>
+						<%= builder.text_area :description, rows: 6, class: "form-control" %>
+
+						<%= builder.label :image_url, "New image URL", class: "form_field" %>
+						<!-- Use file_field to choose file -->
+						<%= builder.text_field :image_url, class: "form-control" %>
+						<hr/>
+					<% end %>
+			<% end %>
+
 			<div class="row">
 				<div class="col-md-6", style="margin-top: 1em;">
 					<%= f.submit "Update", class: "btn btn-lg btn-primary" %>
@@ -19,8 +44,6 @@
 					<%= link_to "Cancel", flowers_path, class: "btn btn-lg btn-danger", style: "width: 100%;" %>
 				</div>
 			</div>
-
 		<% end %>
 	</div>
 </div>
-
