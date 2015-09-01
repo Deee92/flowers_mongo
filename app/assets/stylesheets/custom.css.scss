@@ -317,23 +317,41 @@ input {
 	display: none;
 }
 
-.flower_nav_button {
-	z-index: 99;
-	color: #fff;
-	background: rgba(0, 0, 0, 0.4);
-	padding: 0.5em;
-	border: 1px solid #666;
-}
-
-#left {
-	position: fixed;
-	top: 50%;
-	left: 1em;
-} 
-#right {
-	position: fixed;
-	top: 50%;
-	right: 1em;
+.flower_nav {
+	.flower_nav_button {
+		z-index: 99;
+		color: #fff;
+		background: rgba(0, 0, 0, 0.4);
+		padding: 0.5em;
+		border: 1px solid #666;
+	}
+	#left {
+		position: fixed;
+		top: 50%;
+		left: 1em;
+	} 
+	#right {
+		position: fixed;
+		top: 50%;
+		right: 1em;
+	}
+	.nav_text {
+		padding: 0.3em;
+		display: none;
+	}
+	#left-text {
+		position: fixed;
+		top: 50%;
+		left: 3em;
+	}
+	#right-text {
+		position: fixed;
+		top: 50%;
+		right: 3em;
+	}
+	&:hover .nav_text {
+		display: block;
+	}
 }
 
 .flower_nav_text {

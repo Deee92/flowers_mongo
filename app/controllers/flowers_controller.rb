@@ -11,11 +11,6 @@ class FlowersController < ApplicationController
 							query: @query
 						}
 					},
-					highlight: {
-          	fields: {
-            	name: {}
-          	}
-        	},
 					size: results_per_page
 				}
 			}
