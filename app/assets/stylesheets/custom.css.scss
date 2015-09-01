@@ -323,7 +323,6 @@ input {
 		color: #fff;
 		background: rgba(0, 0, 0, 0.4);
 		padding: 0.5em;
-		border: 1px solid #666;
 	}
 	#left {
 		position: fixed;
@@ -337,7 +336,11 @@ input {
 	}
 	.nav_text {
 		padding: 0.3em;
-		display: none;
+		opacity: 0;
+		-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 	}
 	#left-text {
 		position: fixed;
@@ -350,7 +353,11 @@ input {
 		right: 3em;
 	}
 	&:hover .nav_text {
-		display: block;
+		opacity: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 	}
 }
 
