@@ -1,4 +1,5 @@
 (function() {
+  Turbolinks.enableProgressBar();
   var attrs = {
     mainImg: '.main-img',
     variantImg: '.variant-img',
@@ -7,23 +8,37 @@
   };
 
   var ready = function () {
-    // $('img').attr('rel', 'lightbox');
-    // $('img').click(function () {
-    //     $(this).wrap('<a href="' + $(this).attr("src") + '" rel="lightbox" />');
-    //     $(this).parent('a').trigger('click');
-    // });
     lightbox.option({
       'resizeDuration': 200,
       'wrapAround': true
     });
 
-    get$(attrs.mainImg).on('load', function(){
-      blendBackgroundColour(this);
+    $(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 50) {
+          if ($('.navbar-custom').hasClass('navbar-custom-hide')) {
+            $('.navbar-custom').removeClass('navbar-custom-hide').addClass('navbar-custom-show')
+          }
+        } else {
+          if ($('.navbar-custom').hasClass('navbar-custom-show')) {
+            $('.navbar-custom').addClass('navbar-custom-hide').removeClass('navbar-custom-show')            
+          }
+        }
+        if ($(this).scrollTop() > 240) {
+          $('.brand').text($('.flower_heading').text());
+        } else {
+          $('.brand').text('Flowers');
+        }
+      });
     });
 
-    get$(attrs.flowersCarousel).on('slide.bs.carousel', function (event) {
-      blendBackgroundColour(event.relatedTarget.children[0]);
-    });
+    get$(attrs.mainImg).on('load', function(){
+      blendBackgroundColour(this)
+    }).attr('src', window.image_url);
+
+    // get$(attrs.flowersCarousel).on('slide.bs.carousel', function (event) {
+    //   blendBackgroundColour(event.relatedTarget.children[0]);
+    // });
 
     if ($('.variant-img').length) {
       get$(attrs.affixSidebar).show().affix({
@@ -34,7 +49,6 @@
           // }
         }
       });
-    //   console.log($('.details').height())
     }
   }
 
@@ -43,6 +57,9 @@
       var color = new ColorThief().getColor(img);
       $('body').animate({
         backgroundColor: 'rgb(' + color.toString() + ')'
+      }, 1500);
+      $('#logo').animate({
+        color: 'rgb(' + color.toString() + ')'
       }, 1500);
     } catch (e) {}
   }

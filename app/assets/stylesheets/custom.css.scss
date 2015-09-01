@@ -10,17 +10,21 @@ $lightgrey: lightgrey;
 body {
 	padding-top: 100px;
 	position: relative;
-	background-color: $lightgrey;
+	// background-color: $lightgrey;
+	
+	// background-color: #fdf9f9;
+	// a {
+	// 	color: #fff;
+	// }
+}
+
+body, #logo {
 	background: url(green_bokeh.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-blend-mode: screen;
-	// background-color: #fdf9f9;
-	// a {
-	// 	color: #fff;
-	// }
 }
 
 section {
@@ -50,14 +54,19 @@ textarea {
 	float: left;
 	margin: 0 6px;
 	font-size: 1.7em;
-	color: #ff4e50;
+	// color: darken(rgb(161, 162, 131), 20);
+	// color: #fff;
 	// letter-spacing: 2px;
 	padding-top: 3px;
 	/*text-transform: uppercase;*/
 	font-weight: bold;
+	color-blend-mode: screen;
 	&:hover {
 		text-decoration: none;
 	}
+	position: absolute;
+  // -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 /* home */
@@ -343,6 +352,7 @@ input {
     -o-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
 	}
+
 	#left-text {
 		position: fixed;
 		top: 50%;
@@ -379,4 +389,40 @@ input {
 
 .affix-bottom {
     position: relative
+}
+
+html.turbolinks-progress-bar::before {
+  background-color: darken(rgb(161, 162, 131), 15) !important;
+  // height: 5px !important;
+}
+
+.navbar-custom {
+	@extend .details;
+	padding: 0;
+	margin-bottom: 0;
+	border: none;
+	// background-color: transparent;
+	color: darken(rgb(161, 162, 131), 20) !important;
+}
+
+// .
+
+.navbar-custom-hide {
+	background-color: transparent;
+	-webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.navbar-custom-show {
+	border-bottom: 1px solid #bababa;
+	-webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.navbar-right {
+	color: darken(rgb(161, 162, 131), 20) !important;
 }
