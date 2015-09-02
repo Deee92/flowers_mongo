@@ -302,6 +302,7 @@ input {
 	}
 
 .main-img {
+	display: none;
 	margin: 40px 0 5px 0;
 }
 
@@ -437,3 +438,19 @@ html.turbolinks-progress-bar::before {
 .navbar-right {
 	color: darken(rgb(161, 162, 131), 20) !important;
 }
+
+@media only screen and (max-width: 766px) {
+	.navbar-default {
+		background: #fff;
+	}
+	.collapsing, .in {
+		background-color: #f7f7f7;
+	}
+	.collapsing ul li a, .in ul li a {
+		color: #555! important;
+	}
+	.collapsing ul li a:hover, .in ul li a:hover {
+		color: #000 !important;
+	}
+}
+

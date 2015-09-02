@@ -32,7 +32,7 @@
 
     get$(attrs.mainImg).on('load', function(){
       blendBackgroundColour(this)
-    }).attr('src', window.image_url);
+    }).attr('src', window.image_url).fadeIn('slow');
 
     // get$(attrs.flowersCarousel).on('slide.bs.carousel', function (event) {
     //   blendBackgroundColour(event.relatedTarget.children[0]);
