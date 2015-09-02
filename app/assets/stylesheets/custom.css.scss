@@ -9,13 +9,6 @@ $lightgrey: lightgrey;
 
 body {
 	padding-top: 100px;
-	position: relative;
-	// background-color: $lightgrey;
-	
-	// background-color: #fdf9f9;
-	// a {
-	// 	color: #fff;
-	// }
 }
 
 body {
@@ -454,3 +447,19 @@ html.turbolinks-progress-bar::before {
 	}
 }
 
+.variant {
+  padding-top: 1em;
+}
+
+.variant-anchor:before { 
+  display: block; 
+  content: ""; 
+  margin-top: -100px; 
+  height: 100px; 
+  visibility: hidden;
+}
+
+.variant-anchor, .variant-anchor:active, .variant-anchor:focus {
+  outline: none;
+  cursor: default;
+}

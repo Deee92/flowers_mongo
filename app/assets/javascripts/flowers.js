@@ -60,10 +60,7 @@
       });
       $('body').animate({
         backgroundColor: 'rgb(' + color.toString() + ')'
-      }, 1500);
-      $('#logo').animate({
-        color: 'rgb(' + color.toString() + ')'
-      }, 1500);
+      }, 800);
     } catch (e) {}
   }
 
