@@ -79,7 +79,7 @@
           <% end %>
 
           <div class="row variant">
-          <% variant_anchor = variant.significance ? variant.significance.to_url : colour.to_url %>
+          <% variant_anchor = variant.significance ? variant.significance.to_url : variant.colour.to_url %>
           <a class="variant-anchor" href="#<%= variant_anchor %>" id="<%= variant_anchor %>"></a>
             <% if variant.bot_name.present? %>
               <p class="botanical_name">(<%= variant.bot_name %>)</p>

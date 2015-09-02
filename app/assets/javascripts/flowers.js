@@ -52,14 +52,28 @@
 
   var blendBackgroundColour = function (img) {
     try {
-      var color = new ColorThief().getColor(img);
+      var colorThief = new ColorThief();
+      var palette = colorThief.getPalette(img, 2);
+      if (palette.length == 3) {
+        palette = palette.slice(0, 2);
+      }
+      var brightness, colour;
+      palette.forEach(function (p) {
+        var sum = p[0] + p[1] + p[2];
+        if (!brightness || sum > brightness) {
+          // assuming the flower is brighter than surroundings
+          brightness = sum;
+          colour = p;
+        }
+      });
+
       $.ajax({
-        url: '/flowers/colour/' + color,
+        url: '/flowers/colour/' + colour,
         success: function () {},
         error: function () {}
       });
       $('body').animate({
-        backgroundColor: 'rgb(' + color.toString() + ')'
+        backgroundColor: 'rgb(' + colour.toString() + ')'
       }, 800);
     } catch (e) {}
   }
