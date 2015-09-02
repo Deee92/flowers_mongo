@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   get 'users/show'
 
-  get 'origin' => 'static_pages#about'
+  get 'about' => 'static_pages#about'
 
   get 'signin' => 'sessions#new'
   get 'signout' => 'sessions#destroy'

@@ -18,7 +18,7 @@ body {
 	// }
 }
 
-body, #logo {
+body {
 	background: url(green_bokeh.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -94,12 +94,12 @@ textarea {
 		// letter-spacing: 0.7px;
 		font-size: 1.3em;
 		font-weight: 300;
-		padding-bottom: 1em;
+		// padding-bottom: 1em;
 	}
 	.source {
-		font-size: 0.9em;
+		// font-size: 0.9em;
 		font-style: italic;
-		font-weight: 200;
+		// font-weight: 200;
 	}
 }
 
@@ -131,8 +131,10 @@ textarea {
 
 /* footer */
 
-footer {
-	padding-top: 2em;
+.footer {
+	margin-top: 2.5em;
+	border-top: 1px solid #fff;
+	padding-top: 1em;
 	padding-bottom: 100px;
 }
 
@@ -321,9 +323,15 @@ input {
 }
 
 .scroll {
-	// position: unset;
+	position: fixed;
 	bottom: 50px;
 	display: none;
+	top: inherit;
+	right: 1em;
+	// -webkit-transition: all 0.1s ease-in-out;
+ //  -moz-transition: all 0.1s ease-in-out;
+ //  -o-transition: all 0.1s ease-in-out;
+ //  transition: all 0.1s ease-in-out;
 }
 
 .flower_nav {
@@ -395,14 +403,24 @@ html.turbolinks-progress-bar::before {
   background-color: darken(rgb(161, 162, 131), 15) !important;
   // height: 5px !important;
 }
+.navbar-custom-show {
+	border-bottom: 1px solid #bababa;
+	-webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
 
 .navbar-custom {
-	@extend .details;
-	padding: 0;
-	margin-bottom: 0;
-	border: none;
+	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 0.7);
+	// @extend .details;
+	// @extend .navbar-custom-show;
+	// padding: 0;
+	// margin-bottom: 0;
+	// border: none;
 	// background-color: transparent;
-	color: darken(rgb(161, 162, 131), 20) !important;
+	// color: darken(rgb(161, 162, 131), 20) !important;
 }
 
 // .
@@ -415,13 +433,6 @@ html.turbolinks-progress-bar::before {
   transition: all 0.1s ease-in-out;
 }
 
-.navbar-custom-show {
-	border-bottom: 1px solid #bababa;
-	-webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
-  -o-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;
-}
 
 .navbar-right {
 	color: darken(rgb(161, 162, 131), 20) !important;

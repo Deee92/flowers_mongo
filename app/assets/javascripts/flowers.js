@@ -13,21 +13,19 @@
       'wrapAround': true
     });
 
+    $('.js-scroll-top').click(function (e) {
+      e.preventDefault();
+      $('html, body').stop().animate({
+        scrollTop: parseInt(0)
+      }, 300);
+    })
+
     $(function () {
       $(window).scroll(function () {
-        if ($(this).scrollTop() > 50) {
-          if ($('.navbar-custom').hasClass('navbar-custom-hide')) {
-            $('.navbar-custom').removeClass('navbar-custom-hide').addClass('navbar-custom-show')
-          }
-        } else {
-          if ($('.navbar-custom').hasClass('navbar-custom-show')) {
-            $('.navbar-custom').addClass('navbar-custom-hide').removeClass('navbar-custom-show')            
-          }
-        }
         if ($(this).scrollTop() > 240) {
-          $('.brand').text($('.flower_heading').text());
+          $('.scroll').fadeIn(100);
         } else {
-          $('.brand').text('Flowers');
+          $('.scroll').fadeOut(100);
         }
       });
     });
@@ -40,16 +38,16 @@
     //   blendBackgroundColour(event.relatedTarget.children[0]);
     // });
 
-    if ($('.variant-img').length) {
-      get$(attrs.affixSidebar).show().affix({
-        offset: {
-          top: 200,
-          // bottom: function () {
-          //   return (this.bottom = $('.details').height());
-          // }
-        }
-      });
-    }
+    // if ($('.variant-img').length) {
+    //   get$(attrs.affixSidebar).show().affix({
+    //     offset: {
+    //       top: 200,
+    //       // bottom: function () {
+    //       //   return (this.bottom = $('.details').height());
+    //       // }
+    //     }
+    //   });
+    // }
   }
 
   var blendBackgroundColour = function (img) {
