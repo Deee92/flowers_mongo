@@ -53,6 +53,11 @@
   var blendBackgroundColour = function (img) {
     try {
       var color = new ColorThief().getColor(img);
+      $.ajax({
+        url: '/flowers/colour/' + color,
+        success: function () {},
+        error: function () {}
+      });
       $('body').animate({
         backgroundColor: 'rgb(' + color.toString() + ')'
       }, 1500);

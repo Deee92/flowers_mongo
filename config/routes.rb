@@ -10,6 +10,12 @@ Rails.application.routes.draw do
   get 'auth/:provider/callback', to: 'sessions#create'
   get 'auth/failure', to: redirect('/')
 
+  get 'flowers/colour/:colour', to: 'flowers#colour'
+
+  # get '/flowers', to: 'flowers#index'
+
+  # get ':id', to: 'flowers#show'
+
   # get 'static_pages/home'
 
   # The priority is based upon order of creation: first created -> highest priority.

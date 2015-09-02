@@ -9,7 +9,7 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/816cf3a7-8b29-41ac-ab5d-cee67acce7f3.css"/>
   </head>
-  <body class="content">
+  <body class="content" <%if session['colour'] %>style="background-color: rgb(<%=session['colour']%>);"<% end %>>
     <%= render 'layouts/header' %>
     <div class="container">
       <% flash.each do |message_type, message| %>
