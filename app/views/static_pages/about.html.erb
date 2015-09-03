@@ -1,7 +1,7 @@
 <% provide(:title, "Origin") %>
 <div class="row">
   <div class="col-md-10 col-md-offset-1">
-    <%= image_tag 'mother_flowers_collage_2.png', class: "img-responsive" %>
+    <%= image_tag(ENV['AMAZON_IMAGE_PATH'] + "mother_flowers_collage_2.png", class: "img-responsive") %>
   </div>
 </div>
 

@@ -10,15 +10,15 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-    	<%= image_tag('slide_1.jpg', class: "slide") %>
+    	<%= image_tag(ENV['AMAZON_IMAGE_PATH'] + "slide_1.jpg", class: "slide") %>
   	</div>
 
   	<div class="item">
-  		<%= image_tag('slide_2.jpg', class: "slide") %>
+  		<%= image_tag(ENV['AMAZON_IMAGE_PATH'] + "slide_2.jpg", class: "slide") %>
   	</div>
 
   	<div class="item">
-  		<%= image_tag('slide_3.jpg', class: "slide") %>
+  		<%= image_tag(ENV['AMAZON_IMAGE_PATH'] + "slide_3.jpg", class: "slide") %>
   	</div>
 	</div>
 
