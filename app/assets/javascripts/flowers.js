@@ -1,10 +1,9 @@
 (function() {
   Turbolinks.enableProgressBar();
+
   var attrs = {
     mainImg: '.main-img',
-    variantImg: '.variant-img',
-    flowersCarousel: '#flowers-carousel',
-    affixSidebar: '.scroll'
+    scrollUp: '.scroll'
   };
 
   var ready = function () {
@@ -13,69 +12,62 @@
       'wrapAround': true
     });
 
-    $('.js-scroll-top').click(function (e) {
+    get$(attrs.scrollUp).click(function (e) {
       e.preventDefault();
       $('html, body').stop().animate({
-        scrollTop: parseInt(0)
+        scrollTop: 0
       }, 300);
-    })
+    });
 
     $(function () {
       $(window).scroll(function () {
         if ($(this).scrollTop() > 240) {
-          $('.scroll').fadeIn(100);
+          get$(attrs.scrollUp).fadeIn(100);
         } else {
-          $('.scroll').fadeOut(100);
+          get$(attrs.scrollUp).fadeOut(100);
         }
       });
     });
 
     get$(attrs.mainImg).on('load', function(){
-      blendBackgroundColour(this)
-    }).attr('src', window.image_url).fadeIn('slow');
-
-    // get$(attrs.flowersCarousel).on('slide.bs.carousel', function (event) {
-    //   blendBackgroundColour(event.relatedTarget.children[0]);
-    // });
-
-    // if ($('.variant-img').length) {
-    //   get$(attrs.affixSidebar).show().affix({
-    //     offset: {
-    //       top: 200,
-    //       // bottom: function () {
-    //       //   return (this.bottom = $('.details').height());
-    //       // }
-    //     }
-    //   });
-    // }
+      blendBackgroundColour(this);
+    })
+    .attr('crossOrigin', 'Anonymous') // fix S3 issue
+    .attr('src', window.image_url).fadeIn('slow');
   }
 
   var blendBackgroundColour = function (img) {
     try {
       var colorThief = new ColorThief();
       var palette = colorThief.getPalette(img, 2);
+
       if (palette.length == 3) {
+        // fix weird color-thief behaviour
         palette = palette.slice(0, 2);
       }
-      var brightness, colour;
-      palette.forEach(function (p) {
-        var sum = p[0] + p[1] + p[2];
-        if (!brightness || sum > brightness) {
-          // assuming the flower is brighter than surroundings
-          brightness = sum;
-          colour = p;
-        }
-      });
 
-      $.ajax({
-        url: '/flowers/colour/' + colour,
-        success: function () {},
-        error: function () {}
-      });
+      // assuming the flower is brighter than surroundings
+      var colour;
+      if (colourBrightness(palette[0]) > colourBrightness(palette[1])) {
+        colour = palette[0];
+      } else {
+        colour = palette[1];
+      }
+
       $('body').animate({
         backgroundColor: 'rgb(' + colour.toString() + ')'
-      }, 800);
-    } catch (e) {}
+      }, 400);
+
+      $.ajax({
+        url: '/flowers/colour/' + colour
+      });
+    } catch (e) {
+      console.error(e.message);
+    }
+  }
+
+  var colourBrightness = function (rgb) {
+    return (rgb[0]/255.0)*0.3 + (rgb[1]/255.0)*0.59 + (rgb[2]/255.0)*0.11;
   }
 
   var get$ = function (selector) {
