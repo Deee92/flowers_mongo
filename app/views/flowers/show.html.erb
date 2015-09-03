@@ -11,6 +11,7 @@
   </div>
 </div> -->
 <!-- <div class="fb-share-button" data-href="<%= request.original_url %>" data-layout="button"></div> -->
+
 <div class="hidden-xs hidden-sm">
   <% if !@previous.nil? %>
     <%= link_to flower_path(@previous), class: "flower_nav" do %>
@@ -40,10 +41,11 @@
       <% end %>
       
       <% if @flower.image_url %>
+        <% flower_url = ENV['AMAZON_IMAGE_PATH'] + @flower.image_url %>
         <script type="text/javascript">
-          window.image_url = "<%= image_url(@flower.image_url) %>";
+          window.image_url = "<%= flower_url %>";
         </script>
-        <%= link_to image_tag('', :class => "img-responsive main-img"), image_url(@flower.image_url),:rel => "lightbox", :data => {lightbox: @flower.name.to_url, title: @flower.name}%>
+        <%= link_to image_tag('', :class => "img-responsive main-img"), flower_url,:rel => "lightbox", :data => {lightbox: @flower.name.to_url, title: @flower.name}%>
         <a href="<%= @flower.url %>" target="_blank" class="img-source" style="padding-bottom: 30px;"><%= @flower.source %></a>
       <% end %>
 
@@ -79,6 +81,7 @@
           <% end %>
 
           <div class="row variant">
+          <% variant_url = ENV['AMAZON_IMAGE_PATH'] + variant.image_url %>
           <% variant_anchor = variant.significance ? variant.significance.to_url : variant.colour.to_url %>
           <a class="variant-anchor" href="#<%= variant_anchor %>" id="<%= variant_anchor %>"></a>
             <% if variant.bot_name.present? %>
@@ -87,7 +90,7 @@
             <div class="<%= i % 2 == 0 ? 'col-md-8' : 'col-md-8 col-md-push-4' %>">
               <div class="row">
                 <div class="col-xs-12">
-                  <%= link_to image_tag(variant.image_url, :class => "img-responsive variant-img"), image_url(variant.image_url),:rel => "lightbox", :data => {lightbox: @flower.name.to_url, title: @flower.name + " &mdash; " + variant.colour}%>
+                  <%= link_to image_tag(variant_url, :class => "img-responsive variant-img"), variant_url,:rel => "lightbox", :data => {lightbox: @flower.name.to_url, title: @flower.name + " &mdash; " + variant.colour}%>
                   <a href="<%= variant.url %>" target="_blank" class="img-source"><%= variant.source %></a>
                 </div>
               </div>

@@ -1,2 +1,3 @@
 APP_ID: "app id here"
 APP_SECRET: "app secret here"
+AMAZON_IMAGE_PATH: "https://flowers-assets.s3-ap-southeast-1.amazonaws.com/images/"

@@ -10051,7 +10051,7 @@ thorn_apple_03 = {
 
 thorn_apple_04 = {
   description: "Large double mildly fragrant erect trumpet-shaped white flower with corolla tube partly encased in a large velvety inflated green calyx; borne singly from the leaf axils. A highly poisonous annual or short-lived perennial herb with large dark green tomentose leaves.",
-  colour: "White. green",
+  colour: "White, green",
   significance: "Integral Tapasya",
   comment: "The whole being lives only to know and serve the Divine.",
   image_url: "thorn_apple_double_white.jpg",
