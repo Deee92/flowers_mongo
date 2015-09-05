@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   get 'auth/:provider/callback', to: 'sessions#create'
   get 'auth/failure', to: redirect('/')
 
-  get 'flowers/colour/:colour', to: 'flowers#colour'
+  get 'colour/:colour', to: 'application#colour'
 
   # get '/flowers', to: 'flowers#index'
 

@@ -29,11 +29,15 @@
       });
     });
 
-    get$(attrs.mainImg).on('load', function(){
-      blendBackgroundColour(this);
-    })
-    .attr('crossOrigin', 'Anonymous') // fix S3 issue
-    .attr('src', window.image_url).fadeIn('slow');
+    if (get$(attrs.mainImg).length) {
+      get$(attrs.mainImg).on('load', function(){
+        blendBackgroundColour(this);
+      })
+      .attr('crossOrigin', 'Anonymous') // fix S3 issue
+      .attr('src', window.image_url).fadeIn('slow');
+    } else {
+      animateBackgroundColour('0,0,0');
+    }
   }
 
   var blendBackgroundColour = function (img) {
@@ -54,13 +58,7 @@
         colour = palette[1];
       }
 
-      $('body').animate({
-        backgroundColor: 'rgb(' + colour.toString() + ')'
-      }, 400);
-
-      $.ajax({
-        url: '/flowers/colour/' + colour
-      });
+      animateBackgroundColour(colour.toString());
     } catch (e) {
       console.error(e.message);
     }
@@ -68,6 +66,16 @@
 
   var colourBrightness = function (rgb) {
     return (rgb[0]/255.0)*0.3 + (rgb[1]/255.0)*0.59 + (rgb[2]/255.0)*0.11;
+  }
+
+  var animateBackgroundColour = function (colour) {
+    $('body').animate({
+      backgroundColor: 'rgb(' + colour + ')'
+    }, 800);
+
+    $.ajax({
+      url: '/colour/' + colour
+    });
   }
 
   var get$ = function (selector) {

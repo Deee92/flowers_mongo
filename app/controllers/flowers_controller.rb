@@ -75,11 +75,6 @@ class FlowersController < ApplicationController
 		redirect_to flowers_url
 	end
 
-	def colour
-		session['colour'] = params[:colour]
-		render nothing: true
-	end
-
 	private
 
 		def flower_params
