@@ -12,7 +12,7 @@ body {
 }
 
 body {
-	background: url(green_bokeh.jpeg) no-repeat center center fixed;
+	background: url(green_bokeh.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -462,4 +462,10 @@ html.turbolinks-progress-bar::before {
 .variant-anchor, .variant-anchor:active, .variant-anchor:focus {
   outline: none;
   cursor: default;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color: transparent;
 }
