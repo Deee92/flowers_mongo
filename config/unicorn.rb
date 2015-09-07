@@ -6,7 +6,7 @@
 # See also http://unicorn.bogomips.org/examples/unicorn.conf.rb for
 # a more verbose configuration using more features.
 
-listen 3000 # by default Unicorn listens on port 8080
+# listen 3000 # by default Unicorn listens on port 8080
 worker_processes 3 # this should be >= nr_cpus
 
 APP_PATH = Rails.root.to_s
