@@ -6,40 +6,25 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+# Flower.create!(name: "",
+#                other_names: "",
+#                bot_name: "",
+#                family: "",
+#                petals: "",
+#                size: "",
+#                place: "",
+#                climate: "",
+#                image_url: "",
+#                thumbnail_url: "",
+#                source: ""
+#               )
 
-# flower_01 = {
-#   description: "",
-#   colour: "",
-#   significance: "",
-#   comment: "",
-#   image_url: ""
-# }
-
-# flower_02 = {
-#   description: "",
-#   colour: "",
-#   significance: "",
-#   comment: "",
-#   image_url: ""
-# }
-
-# Flower.create!(
-#  name: "",
-#  other_names: "",
-#  bot_name: "",
-#  family: "",
-#  petals: "",
-#  size: "",
-#  place: "",
-#  climate: "",
-#  image_url: "",
-#  thumbnail_url: "",
-#  source: "",
-#  variants: [
-#    flower_01,
-#    flower_02
-#  ]
-# )
+# .child_flowers.create!(description: "",
+#                        colour: "",
+#                        significance: "",
+#                        comment: "",
+#                        image_url: ""
+#                       )
 
 ######################################################################################################################
 
@@ -1524,8 +1509,8 @@ african_tulip_tree = Flower.create!(
   family: "Bignoniaceae",
   significance: "Passion",
   comment: "It is a force, but it is dangerous and can only be useful if it is perfectly surrendered to the Divine.",
-  description: "Large reddish-orange curved bell-shaped flower with a golden-orange throat, five somewhat separated lobes finely edged with bright yellow and a leathery calyx; borne in large tight terminal clusters in which the outer flowers open first. A large handsome evergreen tree with a rounded crown.",
-  colour: "Reddish-orange, golden-orange, bright yellow",
+  description: "Large reddish-orange curved bell-shaped flower with a golden orange throat, five somewhat separated lobes finely edged with bright yellow and a leathery calyx; borne in large tight terminal clusters in which the outer flowers open first. A large handsome evergreen tree with a rounded crown.",
+  colour: "Reddish-orange, golden orange, bright yellow",
   petals: "Five",
   size: "Large",
   place: "Native to tropical dry forests of Africa",
@@ -1597,8 +1582,8 @@ annatto = Flower.create!(
   family: "Bixaceae",
   significance: "New World",
   comment: "The result of transformation.",
-  description: "Medium-sized pale lavender-pink flower with five rounded widely separated petals and a center of numerous golden stamens with prominent lavender anthers; borne in few-flowered clusters. A large shrub or small tree bearing ornamental seed pods in red, green, or yellow, with bright orange seeds.",
-  colour: "Pale lavender-pink, golden, lavender",
+  description: "Medium-sized pale lavender pink flower with five rounded widely separated petals and a center of numerous golden stamens with prominent lavender anthers; borne in few-flowered clusters. A large shrub or small tree bearing ornamental seed pods in red, green, or yellow with bright orange seeds.",
+  colour: "Pale lavender pink, golden, lavender",
   petals: "Five",
   size: "Medium-sized",
   place: "Native to the tropical Americas",
@@ -2159,7 +2144,7 @@ flossflower = Flower.create!(
   name: "Flossflower",
   other_names: "Pussy Foot",
   bot_name: "Ageratum houstonianum",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   significance: "Vital Patience",
   comment: "Indispensable for all progress.",
   description: "Very tiny deep lavender flowers forming soft brush-like heads in compact medium-sized clusters. An annual herb with hairy ovate-cordate leaves.",
@@ -2177,7 +2162,7 @@ stemless_carline_thistle = Flower.create!(
   name: "Stemless Carline Thistle",
   other_names: "Carline Thistle",
   bot_name: "Carlina acaulis",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   significance: "Incorruptible Faithfulness",
   comment: "Nothing can turn you from the duty you have chosen.",
   description: "Large solitary everlasting white or reddish flower with a broad center of soft brush-like disc florets surrounded by a single row of narrow silky ray florets. A low perennial herb with rosette leaves.",
@@ -2195,7 +2180,7 @@ cornflower = Flower.create!(
   name: "Cornflower",
   other_names: "Blue-bottle, Bachelor's Button",
   bot_name: "Centaurea cyanus",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   significance: "Idealism",
   comment: "Delicate and harmonious, it gives elegance to life.",
   description: "Small soft mildly fragrant semi-double flowers composed of tiny tubular frilled ray florets in blue, purple, pink, and white; borne singly. A slender annual herb with greyish cottony hairs on leaves.",
@@ -2212,7 +2197,7 @@ cornflower = Flower.create!(
 treasure_flower = Flower.create!(
   name: "Treasure Flower",
   bot_name: "Gazania",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   significance: "Seeking for Clarity",
   comment: "Likes to say clearly what it says.",
   description: "Medium-sized striking flowers in white and shades of yellow, orange, or scarlet with basal spots that form a dark band near the yellow center; borne singly. A rhizomatous perennial and, rarely, an annual herb.",
@@ -2230,7 +2215,7 @@ barberton_daisy = Flower.create!(
   name: "Barberton Daisy",
   other_names: "Transvaal Daisy, African Daisy",
   bot_name: "Gerbera jamesonii",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   significance: "Frankness",
   comment: "Says frankly what it has to say without caring for the result.",
   description: "Medium to large single or double flower with numerous long slender ray florets in white and shades of pink, red, orange, and yellow; borne singly on a long thin scape. A low perennial herb.",
@@ -2249,7 +2234,7 @@ strawflower = Flower.create!(
   name: "Strawflower",
   other_names: "Golden Everlasting, Yellow Paper Daisy",
   bot_name: "Helichrysum bracteatum",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   significance: "Supramental Immortality upon Earth",
   comment: "This still remains to be realised.",
   description: "Small everlasting flower with several rows of stiff papery ray florets and a large button-like tuft of golden disc florets; in yellow, orange, red, or white; borne singly or in few-flowered terminal clusters. A perennial herb usually grown as an annual.",
@@ -2267,7 +2252,7 @@ strawflower = Flower.create!(
 edelweiss = Flower.create!(
   name: "Edelweiss",
   bot_name: "Leontopodium alpinum",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   significance: "Spiritual Beauty",
   comment: "Immaculate whiteness, sweetness, and purity, you seem to come from another world.",
   description: "Small tight terminal clusters of white or yellowish-white star-like flowers with a tufted center surrounded by greyish-white petal-like bracts. A low woolly perennial herb with greyish leaves.",
@@ -2285,7 +2270,7 @@ ox_eye_daisy = Flower.create!(
   name: "Ox-eye Daisy",
   other_names: "Moon Daisy, Marguerite",
   bot_name: "Leucanthemum vulgare [Chrysanthemum leucanthemum]",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   significance: "Spontaneous Aspiration of Nature towards the Divine",
   comment: "Wide open, spontaneous, irrevocable in its spontaneous power.",
   description: "Medium-sized single white flower with a yellow center, borne singly on a long stalk. A slender erect rhizomatous perennial.",
@@ -2302,7 +2287,7 @@ ox_eye_daisy = Flower.create!(
 gold_medallion_flower = Flower.create!(
   name: "Gold Medallion Flower",
   bot_name: "Melampodium paludosum",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   significance: "Birth of True Mental Sincerity",
   comment: "With its birth the mind will understand that it is only an intermediary and not an end in itself.",
   description: "Small single yellow flower with a dark brown center; borne in leafy cymes. A long-blooming perennial herb.",
@@ -2320,7 +2305,7 @@ black_eyed_susan = Flower.create!(
   name: "Black-eyed Susan",
   other_names: "Marguerite Jaune",
   bot_name: "Rudbeckia hirta 'Gloriosa Daisy'",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   significance: "First Turning of the Vital towards the Divine",
   comment: "The vital prepares itself to be transformed.",
   description: "Medium to large single flower with elongated yellow ray florets that are often banded or suffused with brown or maroon near the base and a dome-shaped center composed of green or brown disc florets; borne singly. A hairy perennial herb.",
@@ -2337,7 +2322,7 @@ black_eyed_susan = Flower.create!(
 groundsel = Flower.create!(
   name: "Groundsel",
   bot_name: "Senecio",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   significance: "Observation",
   comment: "Likes to prolong its attention in order to see better.",
   description: "Tiny yellow green salverform flowers with a star-shaped limb; borne in tassel-like heads on an erect stalk. A perennial herb with succulent leaves.",
@@ -2354,7 +2339,7 @@ groundsel = Flower.create!(
 marigold = Flower.create!(
   name: "Marigold",
   bot_name: "Tagetes",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   significance: "Plasticity",
   comment: "Always ready for the necessary progress.",
   description: "Medium to large compact double flowers with convoluted petals, in cream white and shades of yellow, orange, and rust; borne singly or in few-flowered clusters. An annual or perennial herb with strongly aromatic leaves.",
@@ -2372,7 +2357,7 @@ golden_fleece = Flower.create!(
   name: "Golden Fleece",
   other_names: "Dahlberg Daisy",
   bot_name: "Thymophylla tenuiloba [Dysodia tenuiloba]",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   significance: "Mental Simplicity",
   comment: "Does not like complications.",
   description: "Tiny flower with yellow ray florets and a yellow center; borne singly among finely-cut aromatic leaves. A low bushy annual herb.",
@@ -2389,7 +2374,7 @@ golden_fleece = Flower.create!(
 creeping_daisy = Flower.create!(
   name: "Creeping Daisy",
   bot_name: "Vittadinia triloba [Erigeron karvinskianus]",
-  family: "Asteraceae (Compositae)",
+  family: "Asteraceae",
   significance: "Integral Simplicity",
   comment: "The simplicity that comes from perfect sincerity.",
   description: "Small flower with a double row of numerous narrow rounded white ray florets and a button-like center of yellow disc forets; borne singly on thin stems. A small floriferous perennial herb or subshrub.",
@@ -2407,7 +2392,7 @@ creeping_daisy = Flower.create!(
 blue_eyed_african_daisy = Flower.create!(
   name: "Blue-eyed African Daisy",
   bot_name: "Arctotis venusta",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   significance: "Cheerful Endeavour",
   comment: "The joy that one finds in the effort towards the Divine.",
   description: "Medium-sized flower with white ray florets and a center of intense purplish-blue disc florets; borne singly on long scapes. A perennial with white woolly leaves; usually grown as an annual.",
@@ -2425,7 +2410,7 @@ common_marigold = Flower.create!(
   name: "Common Marigold",
   other_names: "Ruddles, Scotch Marigold, Pot Marigold",
   bot_name: "Calendula officinalis",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   significance: "Perseverance",
   comment: "The decision to go to the very end.",
   description: "Medium-sized single or double flower with soft narrow delicately fringed petals in yellow or orange, and a dark brown central disc. A popular garden annual.",
@@ -2442,7 +2427,7 @@ common_marigold = Flower.create!(
 chrysanthemum = Flower.create!(
   name: "Chrysanthemum",
   bot_name: "Chrysanthemum",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   significance: "Specialised Detailed Energy",
   comment: "Nothing is too small to merit its attention.",
   description: "Small mainly single flowers in white and shades of pink, yellow, bronze, and red; borne singly or in corymbs in great profusion. A perennial herb or subshrub.",
@@ -2459,7 +2444,7 @@ chrysanthemum = Flower.create!(
 tickweed = Flower.create!(
   name: "Tickweed",
   bot_name: "Coreopsis tinctoria",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   significance: "Cheerfulness in Work for the Divine",
   comment: "Work for the Divine and you will find an ineffable joy filling your being.",
   description: "Small single or double flower whose ray florets may be yellow, maroon red, or bicoloured in yellow with brown or maroon red; borne in loose terminal panicles. A floriferous garden annual with very narrow leaves.",
@@ -2476,7 +2461,7 @@ tickweed = Flower.create!(
 chinese_lavender = Flower.create!(
   name: "Chinese Lavender",
   bot_name: "Crossostephium artemisioides",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   significance: "Thirst to Understand",
   comment: "Very useful for transformation.",
   description: "Small rounded heads of tiny dusty yellow flowers in terminal racemes. A low perennial herb with silvery grey leaves.",
@@ -2493,7 +2478,7 @@ chinese_lavender = Flower.create!(
 shasta_daisy = Flower.create!(
   name: "Shasta Daisy",
   bot_name: "Leucanthemum x superbum [Chrysanthemum x superbum]",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   significance: "Creative Word",
   comment: "Belongs only to the Divine.",
   description: "Large single flower with white ray florets that are often crested or frilled and a prominent yellow center of disc florets. A robust perennial.",
@@ -2510,7 +2495,7 @@ shasta_daisy = Flower.create!(
 curtain_creeper = Flower.create!(
   name: "Curtain Creeper",
   bot_name: "Vernonia elaeagnifolia [Tarlmounia elliptica]",
-  family: "Asteraceae (Compositae)",
+  family: "Asteraceae",
   significance: "Aspiration for the Divine Consciousness",
   comment: "Blossom, O precious flower, and never close again.",
   description: "Small clusters of tiny brush-like flowers that open pale mauve and become white with age. A vigorous climber that may form a dense curtain; the pendulous stems are white when young.",
@@ -2528,7 +2513,7 @@ west_indian_creeper = Flower.create!(
   name: "West Indian Creeper",
   other_names: "Creeping Daisy",
   bot_name: "Wedelia",
-  family: "Asteraceae (Compositae)",
+  family: "Asteraceae",
   significance: "Detailed Perseverance",
   comment: "One continues the work begun for as long as necessary.",
   description: "Small fully double bright yellow flowers; borne singly. A light scandent shrub or low creeping perennial with serrate leaves.",
@@ -2545,7 +2530,7 @@ west_indian_creeper = Flower.create!(
 creeping_zinnia = Flower.create!(
   name: "Creeping Zinnia",
   bot_name: "Zinnia angustifolia",
-  family: "Asteraceae (Compositae)",
+  family: "Asteraceae",
   significance: "Detailed Endurance",
   comment: "Nothing is too small to be neglected; all circumstances are met with the same care.",
   description: "Small flowers with eight rounded ray florets and a small yellow or orange central disc, in yellow, white, or orange, with a yellow stripe near the center; borne singly. A low erect annual herb with linear leaves.",
@@ -2725,7 +2710,7 @@ skyblue_clustervine = Flower.create!(
   colour: "Violet blue, white",
   petals: "Five",
   size: "Small",
-  place: "Found in tropical regions, like Florida and Louisiana in the USA",
+  place: "Found in tropical regions, like Floride and Louisiana in the USA",
   climate: "Tropical",
   image_url: "skyblue_clustervine.jpg",
   thumbnail_url: "skyblue_clustervine_thumbnail.jpg",
@@ -3234,7 +3219,7 @@ monkey_faced_pansy = Flower.create!(
 goldenrod = Flower.create!(
   name: "Goldenrod",
   bot_name: "Solidago",
-  family: "Asteraceae (Compositae)",
+  family: "Asteraceae",
   significance: "Mental Sincerity",
   comment: "The essential condition for integral honesty.",
   description: "Tiny yellow star-like flowers borne in tall feathery branching racemes. A vigorous rhizomatous perennial herb.",
@@ -3378,8 +3363,8 @@ african_iris = Flower.create!(
   family: "Iridaceae",
   significance: "Aristocracy of Beauty",
   comment: "So perfectly formed that it compels admiration.",
-  description: "Medium-sized iris-like flower with a center of three erect incurving lavender crests and six flat rounded white petals, three of which are wider and have a prominent golden-orange mark from the base to the center, and three alternate petals, narrower and spotted brown at the base; blooming singly at the ends of branching spikes. A rhizomatous herb with blade-like leaves.",
-  colour: "Lavender, white, golden-orange, brown",
+  description: "Medium-sized iris-like flower with a center of three erect incurving lavender crests and six flat rounded white petals, three of which are wider and have a prominent golden orange mark from the base to the center, and three alternate petals, narrower and spotted brown at the base; blooming singly at the ends of branching spikes. A rhizomatous herb with blade-like leaves.",
+  colour: "Lavender, white, golden orange, brown",
   petals: "Six",
   size: "Medium-sized",
   place: "Native to southern and central Africa; cultivated in some other parts of the world",
@@ -4968,8 +4953,8 @@ false_bird_of_paradise = Flower.create!(
   family: "Musaceae",
   significance: "Bird of Paradise",
   comment: "A bird that never flies away.",
-  description: "Large sturdy erect orange-red bracts, somewhat boat-shaped or resembling a lobster claw, enclosing small inconspicuous pale green flowers and arranged alternately in a terminal inflorescence. A clumping rhizomatous herb with leaves that are similar to those of the banana plant.",
-  colour: "Orange-red, pale green",
+  description: "Large sturdy erect orange red bracts, somewhat boat-shaped or resembling a lobster claw, enclosing small inconspicuous pale green flowers and arranged alternately in a terminal inflorescence. A clumping rhizomatous herb with leaves that are similar to those of the banana plant.",
+  colour: "Orange red, pale green",
   size: "Small",
   place: "Native to the tropical Americas, but a few species are indigenous to certain islands of the western Pacific and Maluku",
   climate: "Tropical",
@@ -4986,8 +4971,8 @@ bird_of_paradise = Flower.create!(
   family: "Musaceae",
   significance: "Supramental Bird",
   comment: "It remains where it has descended.",
-  description: "Large spectacular orange-yellow flower with a dark blue \"tongue\" that emerges from a folded bract, the whole inflorescence resembling the head of a crested bird; borne on long sturdy stalks. A rhizomatous clumping perennial herb with leaves that are similar to those of the banana plant.",
-  colour: "Orange-yellow, dark blue",
+  description: "Large spectacular orange yellow flower with a dark blue \"tongue\" that emerges from a folded bract, the whole inflorescence resembling the head of a crested bird; borne on long sturdy stalks. A rhizomatous clumping perennial herb with leaves that are similar to those of the banana plant.",
+  colour: "Orange yellow, dark blue",
   size: "Large",
   place: "Native to South Africa; naturalized in Mexico, Belize, Bangladesh, Madeira Islands, and Juan Fernández Islands off the coast of Chile",
   climate: "Tropical and subtropical",
@@ -6463,8 +6448,8 @@ angels_trumpet = Flower.create!(
   family: "Solanaceae",
   significance: "Perfect Tapasya",
   comment: "That which will reach its goal.",
-  description: "Very large double pendulous trumpet-shaped white flower with the edge of the limb pleated into five pointed recurved lobes, yellow-green corolla tube, and the base of the flower set in a large glabrous inflated tubular green calyx. A small to medium-sized tree.",
-  colour: "White, yellow-green",
+  description: "Very large double pendulous trumpet-shaped white flower with the edge of the limb pleated into five pointed recurved lobes, yellow green corolla tube, and the base of the flower set in a large glabrous inflated tubular green calyx. A small to medium-sized tree.",
+  colour: "White, yellow green",
   petals: "Five",
   size: "Very large",
   place: "Native to the coastal rainforests of south-east Brazil; also found across South America, and parts of North America",
@@ -7223,7 +7208,7 @@ fennel = Flower.create!(
 cosmos = Flower.create!(
   name: "Cosmos",
   bot_name: "Cosmos",
-  family: "Asteraceae (Compositae)",
+  family: "Asteraceae",
   significance: "Supramental Influence in the Sex Centre",
   comment: "It is the assurance of the coming conquest of desires.",
   description: "Medium-sized single flower with eight overlapping, delicately-toothed ray florets and a tufted center; in shades of rose, pink, and purple; borne singly or in panicles. An annual herb with finely-cut leaves.",
@@ -7242,7 +7227,7 @@ garden_cosmos = Flower.create!(
   name: "Garden Cosmos",
   other_names: "Mexican Aster",
   bot_name: "Cosmos bipinnatus",
-  family: "Asteraceae (Compositae)",
+  family: "Asteraceae",
   significance: "Tranquility of the Sex Centre when it is under the Influence of the Supramental Light",
   comment: "The Supramental influence liberates man from all that binds him to the animal.",
   description: "Medium-sized single white flower with eight overlapping, delicately-toothed ray florets and a tufted center; borne singly or in panicles. An annual herb with finely-cut leaves.",
@@ -7261,7 +7246,7 @@ sulfur_cosmos = Flower.create!(
   name: "Sulfur Cosmos",
   other_names: "Yellow Cosmos",
   bot_name: "Cosmos sulphureus",
-  family: "Asteraceae (Compositae)",
+  family: "Asteraceae",
   significance: "Supramental Light in the Sex Centre",
   description: "Medium-sized single yellow flower with eight overlapping, delicately-toothed ray florets and a tufted center; borne singly or in panicles. An annual herb with finely-cut leaves.",
   colour: "Yellow",
@@ -7515,7 +7500,7 @@ tree_marigold = Flower.create!(
   name: "Tree Marigold",
   other_names: "Mexican Tournesol, Mexican Sunflower, Japanese Sunflower, Nitobe Chrysanthemum",
   bot_name: "Tithonia diversifolia",
-  family: "Asteraceae (Compositae)",
+  family: "Asteraceae",
   significance: "First Movement of Riches towards the Divine",
   comment: "The sure sign of conversion.",
   description: "Large slightly fragrant flower with long, narrow deep golden-yellow ray florets; borne singly on long stalks. A robust perennial or tall subshrub.",
@@ -7532,7 +7517,7 @@ tree_marigold = Flower.create!(
 mexican_sunflower = Flower.create!(
   name: "Mexican Sunflower",
   bot_name: "Tithonia rotundifolia",
-  family: "Asteraceae (Compositae)",
+  family: "Asteraceae",
   significance: "Physical Consciousness entirely turned towards the Divine",
   comment: "It thirsts for the Divine and wants nothing but Him.",
   description: "Medium-sized flower with bright reddish-orange ray florets and a tufted yellow center; borne singly on a long stem. A robust, erect, bushy annual herb.",
@@ -7586,31 +7571,11 @@ yellow_alder = Flower.create!(
 
 ######################################################################################################################
 
-#                                             Flowers with variants                                                  #
+# Flowers with variants
 
 ######################################################################################################################
 
 # Wild Ginger
-
-wild_ginger_01 = {
-  description: "Medium to large fragrant rose purple tubular flower with a petal-like lip  spotted purple at the base, emerging from a waxy white three pointed calyx which in turn emerges from striking waxy deep red bracts; borne in terminal spikes. A tall rhizomatous perennial herb with slender aromatic reed-like leafy stems.",
-  colour: "Rose purple, white, deep red",
-  significance: "Revelation",
-  comment: "The true revelation is the revelation of the Divine.",
-  image_url: "wild_ginger_red.jpg",
-  source: "ruurmo",
-  url: "https://www.flickr.com/photos/rufino_uribe/231707862/"
-}
-
-wild_ginger_02 = {
-  description: "Medium to large fragrant white flower with a golden yellow throat and calyx edged with pale pink which in turn emerges from striking, waxy deep red bracts; borne in terminal spikes. A tall rhizomatous perennial herb with slender aromatic reed-like leafy stems.",
-  colour: "White, golden yellow, pale pink, deep red",
-  significance: "Integral Revelation",
-  comment: "Half-way to transformation.",
-  image_url: "wild_ginger_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Crepe_Ginger_(Costus_speciosus)_1.jpg"
-}
 
 wild_ginger = Flower.create!(
   name: "Wild Ginger",
@@ -7624,44 +7589,30 @@ wild_ginger = Flower.create!(
   image_url: "wild_ginger.jpg",
   thumbnail_url: "wild_ginger_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Costus_speciosus_Guadeloupe.JPG",
-  variants: [
-    wild_ginger_01,
-    wild_ginger_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Costus_speciosus_Guadeloupe.JPG"
+)
+
+wild_ginger.child_flowers.create!(
+  description: "Medium to large fragrant rose purple tubular flower with a petal-like lip  spotted purple at the base, emerging from a waxy white three pointed calyx which in turn emerges from striking waxy deep red bracts; borne in terminal spikes. A tall rhizomatous perennial herb with slender aromatic reed-like leafy stems.",
+  colour: "Rose purple, white, deep red",
+  significance: "Revelation",
+  comment: "The true revelation is the revelation of the Divine.",
+  image_url: "wild_ginger_red.jpg",
+  source: "ruurmo",
+  url: "https://www.flickr.com/photos/rufino_uribe/231707862/"
+)
+
+wild_ginger.child_flowers.create!(
+  description: "Medium to large fragrant white flower with a golden yellow throat and calyx edged with pale pink which in turn emerges from striking, waxy deep red bracts; borne in terminal spikes. A tall rhizomatous perennial herb with slender aromatic reed-like leafy stems.",
+  colour: "White, golden yellow, pale pink, deep red",
+  significance: "Integral Revelation",
+  comment: "Half-way to transformation.",
+  image_url: "wild_ginger_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Crepe_Ginger_(Costus_speciosus)_1.jpg"
 )
 
 # Flowering Maple
-
-flowering_maple_01 = {
-  description: "Small to medium-sized pendant bell-shaped flowers with stamens united in a central tubular column; in various shades and patterns of white, yellow, orange, or reddish-purple; borne singly and often nodding on axillary peduncles. A perennial herb or small shrub.",
-  colour: "Shades of white, yellow, orange, or reddish-purple",
-  significance: "Promise",
-  comment: "The future is full of promise.",
-  image_url: "flowering_maple_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Abutilon_hybridum_cultivar-002.jpg"
-}
-
-flowering_maple_02 = {
-  description: "Small to medium-sized pendant bell-shaped bright yellow flowers with stamens united in a central tubular column; borne singly and often nodding on axillary peduncles. A perennial herb or small shrub.",
-  colour: "Bright yellow",
-  significance: "Mental Promise",
-  comment: "The assurance that the Supramental goal will be realised.",
-  image_url: "flowering_maple_yellow.jpg",
-  source: "Botanical Gardens Riviera Côte d'Azur",
-  url: "http://violapinnata.blogspot.in/2012/10/abutilon-x-hybridum-malvaceae-cultivars.html"
-}
-
-flowering_maple_03 = {
-  description: "Small to medium-sized pendant bell-shaped deep reddish-purple flowers with stamens united in a central tubular column; borne singly and often nodding on axillary peduncles. A perennial herb or small shrub.",
-  colour: "Deep reddish-purple",
-  significance: "Vital Promise",
-  comment: "The vital is full of possibilities ready to develop.",
-  image_url: "flowering_maple_red_purple.jpg",
-  source: "Bernard Spragg. NZ",
-  url: "https://www.flickr.com/photos/volvob12b/11394506506"
-}
 
 flowering_maple = Flower.create!(
   name: "Flowering Maple",
@@ -7674,58 +7625,40 @@ flowering_maple = Flower.create!(
   image_url: "flowering_maple.jpg",
   thumbnail_url: "flowering_maple_thumbnail.jpg",
   source: "Sids1",
-  url: "https://www.flickr.com/photos/sids1/2219163831/",
-  variants: [
-    flowering_maple_01,
-    flowering_maple_02,
-    flowering_maple_03
-  ]
+  url: "https://www.flickr.com/photos/sids1/2219163831/"
+)
+
+flowering_maple.child_flowers.create!(
+  description: "Small to medium-sized pendant bell-shaped flowers with stamens united in a central tubular column; in various shades and patterns of white, yellow, orange, or reddish-purple; borne singly and often nodding on axillary peduncles. A perennial herb or small shrub.",
+  colour: "Shades of white, yellow, orange, or reddish-purple",
+  significance: "Promise",
+  comment: "The future is full of promise.",
+  image_url: "flowering_maple_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Abutilon_hybridum_cultivar-002.jpg"
+)
+
+flowering_maple.child_flowers.create!(
+  description: "Small to medium-sized pendant bell-shaped bright yellow flowers with stamens united in a central tubular column; borne singly and often nodding on axillary peduncles. A perennial herb or small shrub.",
+  colour: "Bright yellow",
+  significance: "Mental Promise",
+  comment: "The assurance that the Supramental goal will be realised.",
+  image_url: "flowering_maple_yellow.jpg",
+  source: "Botanical Gardens Riviera Côte d'Azur",
+  url: "http://violapinnata.blogspot.in/2012/10/abutilon-x-hybridum-malvaceae-cultivars.html"
+)
+
+flowering_maple.child_flowers.create!(
+  description: "Small to medium-sized pendant bell-shaped deep reddish-purple flowers with stamens united in a central tubular column; borne singly and often nodding on axillary peduncles. A perennial herb or small shrub.",
+  colour: "Deep reddish-purple",
+  significance: "Vital Promise",
+  comment: "The vital is full of possibilities ready to develop.",
+  image_url: "flowering_maple_red_purple.jpg",
+  source: "Bernard Spragg. NZ",
+  url: "https://www.flickr.com/photos/volvob12b/11394506506"
 )
 
 # Copperleaf
-
-copperleaf_01 = {
-  description: "Soft, erect or drooping, axillary or terminal catkins of various sizes, in shades of red, pink, or green; borne on a shrub with striking, often multicoloured leaves.",
-  colour: "Shades of red, pink, or green",
-  significance: "Continuity", 
-  comment: "To know how to persist in one's effort.",
-  image_url: "copperleaf_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Copper_Leaf_Plant_-_%E0%B4%AA%E0%B5%82%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%B5%E0%B4%BE%E0%B5%BD_01.JPG"
-}
-
-copperleaf_02 = {
-  bot_name: "Acalypha wilkesiana",
-  description: "Short pale green catkins tinged with red; borne in pairs or small clusters from the leaf axils. A shrub with somewhat drooping green oblong leaves with irregularly cut white margins.",
-  colour: "Pale green, red",
-  significance: "Attempt towards Continuity",
-  comment: "Vigorous and repeated, but not lasting.",
-  image_url: "copperleaf_green_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Acalypha_wilkesiana_Musa%C3%AFca_3.JPG"
-}
-
-copperleaf_03 = {
-  bot_name: "Acalypha wilkesiana",
-  description: "A shrub with partly curled multicoloured leaves in shades of green, yellow green, and pink, with pink veins.",
-  colour: "Multicoloured, green, yellow green, and pink",
-  significance: "Vital Continuity",
-  comment: "Rich, abundant, persistent.",
-  image_url: "copperleaf_leaf.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Acalypha_wilkesiana1.JPG"
-}
-
-copperleaf_04 = {
-  bot_name: "Acalypha wilkesiana",
-  description: "Long, thin, hard, erect, dull red catkins. A shrub having large russet leaves with pink patches.",
-  colour: "Dull red",
-  significance: "Material Continuity",
-  comment: "Powerful, enduring, solid.",
-  image_url: "copperleaf_dull_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:P%C3%A1jara_Costa_Calma_-_FV-2_-_Carretera_a_Morro_Jable_-_Acalypha_wilkesiana_04_ies.jpg"
-}
 
 copperleaf = Flower.create!(
   name: "Copperleaf",
@@ -7737,126 +7670,53 @@ copperleaf = Flower.create!(
   image_url: "copperleaf.jpg",
   thumbnail_url: "copperleaf_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Acalypha_wilkesiana_Musa%C3%AFca_2.JPG",
-  variants: [
-    copperleaf_01,
-    copperleaf_02,
-    copperleaf_03,
-    copperleaf_04
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Acalypha_wilkesiana_Musa%C3%AFca_2.JPG"
+)
+
+copperleaf.child_flowers.create!(
+  description: "Soft, erect or drooping, axillary or terminal catkins of various sizes, in shades of red, pink, or green; borne on a shrub with striking, often multicoloured leaves.",
+  colour: "Shades of red, pink, or green",
+  significance: "Continuity", 
+  comment: "To know how to persist in one's effort.",
+  image_url: "copperleaf_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Copper_Leaf_Plant_-_%E0%B4%AA%E0%B5%82%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%B5%E0%B4%BE%E0%B5%BD_01.JPG"
+)
+
+copperleaf.child_flowers.create!(
+  bot_name: "Acalypha wilkesiana",
+  description: "Short pale green catkins tinged with red; borne in pairs or small clusters from the leaf axils. A shrub with somewhat drooping green oblong leaves with irregularly cut white margins.",
+  colour: "Pale green, red",
+  significance: "Attempt towards Continuity",
+  comment: "Vigorous and repeated, but not lasting.",
+  image_url: "copperleaf_green_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Acalypha_wilkesiana_Musa%C3%AFca_3.JPG"
+)
+
+copperleaf.child_flowers.create!(
+  bot_name: "Acalypha wilkesiana",
+  description: "A shrub with partly curled multicoloured leaves in shades of green, yellow green, and pink, with pink veins.",
+  colour: "Multicoloured, green, yellow green, and pink",
+  significance: "Vital Continuity",
+  comment: "Rich, abundant, persistent.",
+  image_url: "copperleaf_leaf.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Acalypha_wilkesiana1.JPG"
+)
+
+copperleaf.child_flowers.create!(
+  bot_name: "Acalypha wilkesiana",
+  description: "Long, thin, hard, erect, dull red catkins. A shrub having large russet leaves with pink patches.",
+  colour: "Dull red",
+  significance: "Material Continuity",
+  comment: "Powerful, enduring, solid.",
+  image_url: "copperleaf_dull_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:P%C3%A1jara_Costa_Calma_-_FV-2_-_Carretera_a_Morro_Jable_-_Acalypha_wilkesiana_04_ies.jpg"
 )
 
 # Hollyhock
-
-hollyhock_01 = {
-  description: "Medium to large funnel-shaped flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; in white and shades of pink, purple, and yellow; borne on tall spire-like stems. There are also many double forms, often with scalloped or frilled edges. A tall biennial herb with rough hairy leaves.",
-  colour: "White and shades of pink, purple, and yellow",
-  significance: "Offering",
-  comment: "The only offering that truly enriches is the one that is made to the Divine.",
-  image_url: "hollyhock_mix.jpg",
-  source: "Fleuroselect",
-  url: "http://www.fleuroselect.com/awarded-varieties/halo-mixed"
-}
-
-hollyhock_02 = {
-  description: "Medium to large single or double funnel-shaped dark purple, almost black flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
-  colour: "Dark purple to black, yellow",
-  significance: "Offering of all Obscurities",
-  comment: "Offer your obscurities sincerely to the Divine and you will be able to receive the Light.",
-  image_url: "hollyhock_purple_black.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Alcea_rosea.JPG"
-}
-
-hollyhock_03 = {
-  description: "Medium to large single or double funnel-shaped light pink flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
-  colour: "Light pink, yellow",
-  significance: "Psychic Offering",
-  comment: "This is the spontaneous attitude of the psychic towards the Divine.",
-  image_url: "hollyhock_light_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Alcea_rosea_(Korea).jpg"
-}
-
-hollyhock_04 = {
-  description: "Medium to large single or double funnel-shaped lavender pink flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
-  colour: "Lavender pink, yellow",
-  significance: "Offering of the Emotions",
-  comment: "Emotions placed at the service of progress.",
-  image_url: "hollyhock_lavender_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Alcea_rosea_with_bee.JPG"
-}
-
-hollyhock_05 = {
-  description: "Medium to large single or double funnel-shaped dark red flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
-  colour: "Dark red, yellow",
-  significance: "Offering of the Vital",
-  comment: "The immediate result of conversion.",
-  image_url: "hollyhock_dark_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Alcea_rosea_0.0_R.jpg"
-}
-
-hollyhock_06 = {
-  description: "Medium to large single or double funnel-shaped white flowers with a lavender center, satiny overlapping lobes, and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
-  colour: "White, lavender, yellow",
-  significance: "Integral Offering of the Vital",
-  comment: "An important stage on the way to transformation.",
-  image_url: "hollyhock_white_lavender.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:ALTHAEA_ROSEA_-_TOR%C3%80_-_IB-175_(Malva_real).JPG"
-}
-
-hollyhock_07 = {
-  description: "Medium to large single or double funnel-shaped reddish-violet flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
-  colour: "Reddish-violet, yellow",
-  significance: "Offering of the Material Vital",
-  comment: "Indispensable for conversion.",
-  image_url: "hollyhock_red_violet.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Flower_with_water_droplets.JPG"
-}
-
-hollyhock_08 = {
-  description: "Medium to large single or double funnel-shaped very dark red flowers with a blackish sheen, satiny overlapping lobes, and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
-  colour: "Dark red to black, yellow",
-  significance: "Offering of the Most Material Vital",
-  comment: "The first step towards transformation.",
-  image_url: "hollyhock_red_black.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Alcea_rosea_L..JPG"
-}
-
-hollyhock_09 = {
-  description: "Medium to large single or double funnel-shaped red flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
-  colour: "Red, yellow",
-  significance: "Offering of the Physical",
-  comment: "The proof of the resolution to liberate oneself from the ego. Let the physical offer itself sincerely to the Divine and it will be transformed.",
-  image_url: "hollyhock_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Fleur_%C3%A9panouie_de_rose_tr%C3%A9mi%C3%A8re_(12).JPG"
-}
-
-hollyhock_10 = {
-  description: "Medium to large single or double funnel-shaped bicoloured flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
-  colour: "Bicoloured",
-  significance: "Combined Offering of Two Parts of the Being",
-  comment: "This heralds the progress and effectiveness of the being.",
-  image_url: "hollyhock_bicoloured.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:ALTHAEA_ROSEA_-_TOR%C3%80_-_IB-173_(Malva_reial).JPG"
-}
-
-hollyhock_11 = {
-  description: "Medium to large single or double funnel-shaped white flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
-  colour: "White, yellow",
-  significance: "Integral Offering",
-  comment: "The surest road to realisation.",
-  image_url: "hollyhock_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Ab_plant_1354.jpg"
-}
 
 hollyhock = Flower.create!(
   name: "Hollyhock",
@@ -7868,42 +7728,120 @@ hollyhock = Flower.create!(
   image_url: "hollyhock.jpg",
   thumbnail_url: "hollyhock_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Roses_tr%C3%A9miaires.JPG",
-  variants: [
-    hollyhock_01,
-    hollyhock_02,
-    hollyhock_03,
-    hollyhock_04,
-    hollyhock_05,
-    hollyhock_06,
-    hollyhock_07,
-    hollyhock_08,
-    hollyhock_09,
-    hollyhock_10,
-    hollyhock_11
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Roses_tr%C3%A9miaires.JPG"
+)
+
+hollyhock.child_flowers.create!(
+  description: "Medium to large funnel-shaped flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; in white and shades of pink, purple, and yellow; borne on tall spire-like stems. There are also many double forms, often with scalloped or frilled edges. A tall biennial herb with rough hairy leaves.",
+  colour: "White and shades of pink, purple, and yellow",
+  significance: "Offering",
+  comment: "The only offering that truly enriches is the one that is made to the Divine.",
+  image_url: "hollyhock_mix.jpg",
+  source: "Fleuroselect",
+  url: "http://www.fleuroselect.com/awarded-varieties/halo-mixed"
+)
+
+hollyhock.child_flowers.create!(
+  description: "Medium to large single or double funnel-shaped dark purple, almost black flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
+  colour: "Dark purple to black, yellow",
+  significance: "Offering of all Obscurities",
+  comment: "Offer your obscurities sincerely to the Divine and you will be able to receive the Light.",
+  image_url: "hollyhock_purple_black.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Alcea_rosea.JPG"
+)
+
+hollyhock.child_flowers.create!(
+  description: "Medium to large single or double funnel-shaped light pink flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
+  colour: "Light pink, yellow",
+  significance: "Psychic Offering",
+  comment: "This is the spontaneous attitude of the psychic towards the Divine.",
+  image_url: "hollyhock_light_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Alcea_rosea_(Korea).jpg"
+)
+
+hollyhock.child_flowers.create!(
+  description: "Medium to large single or double funnel-shaped lavender pink flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
+  colour: "Lavender pink, yellow",
+  significance: "Offering of the Emotions",
+  comment: "Emotions placed at the service of progress.",
+  image_url: "hollyhock_lavender_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Alcea_rosea_with_bee.JPG"
+)
+
+hollyhock.child_flowers.create!(
+  description: "Medium to large single or double funnel-shaped dark red flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
+  colour: "Dark red, yellow",
+  significance: "Offering of the Vital",
+  comment: "The immediate result of conversion.",
+  image_url: "hollyhock_dark_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Alcea_rosea_0.0_R.jpg"
+)
+
+hollyhock.child_flowers.create!(
+  description: "Medium to large single or double funnel-shaped white flowers with a lavender center, satiny overlapping lobes, and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
+  colour: "White, lavender, yellow",
+  significance: "Integral Offering of the Vital",
+  comment: "An important stage on the way to transformation.",
+  image_url: "hollyhock_white_lavender.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:ALTHAEA_ROSEA_-_TOR%C3%80_-_IB-175_(Malva_real).JPG"
+)
+
+hollyhock.child_flowers.create!(
+  description: "Medium to large single or double funnel-shaped reddish-violet flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
+  colour: "Reddish-violet, yellow",
+  significance: "Offering of the Material Vital",
+  comment: "Indispensable for conversion.",
+  image_url: "hollyhock_red_violet.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Flower_with_water_droplets.JPG"
+)
+
+hollyhock.child_flowers.create!(
+  description: "Medium to large single or double funnel-shaped very dark red flowers with a blackish sheen, satiny overlapping lobes, and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
+  colour: "Dark red to black, yellow",
+  significance: "Offering of the Most Material Vital",
+  comment: "The first step towards transformation.",
+  image_url: "hollyhock_red_black.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Alcea_rosea_L..JPG"
+)
+
+hollyhock.child_flowers.create!(
+  description: "Medium to large single or double funnel-shaped red flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
+  colour: "Red, yellow",
+  significance: "Offering of the Physical",
+  comment: "The proof of the resolution to liberate oneself from the ego. Let the physical offer itself sincerely to the Divine and it will be transformed.",
+  image_url: "hollyhock_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Fleur_%C3%A9panouie_de_rose_tr%C3%A9mi%C3%A8re_(12).JPG"
+)
+
+hollyhock.child_flowers.create!(
+  description: "Medium to large single or double funnel-shaped bicoloured flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
+  colour: "Bicoloured",
+  significance: "Combined Offering of Two Parts of the Being",
+  comment: "This heralds the progress and effectiveness of the being.",
+  image_url: "hollyhock_bicoloured.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:ALTHAEA_ROSEA_-_TOR%C3%80_-_IB-173_(Malva_reial).JPG"
+)
+
+hollyhock.child_flowers.create!(
+  description: "Medium to large single or double funnel-shaped white flowers with satiny overlapping lobes and a short staminal column covered with loose yellow pollen; borne on tall spire-like stems. A tall biennial herb with rough hairy leaves.",
+  colour: "White, yellow",
+  significance: "Integral Offering",
+  comment: "The surest road to realisation.",
+  image_url: "hollyhock_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Ab_plant_1354.jpg"
 )
 
 # Velvet Flower
-
-velvet_flower_01 = {
-  description: "Long tapering pendulous catkins densely covered with minute stiff dull magenta flowers, the heavy catkins weighing down the stems. A coarse annual herb with magenta stems and green leaves tinged magenta.",
-  colour: "Dull magenta",
-  significance: "Fearlessness in Action",
-  comment: "Manifold, unfettered, and fearless.",
-  image_url: "velvet_flower_magenta.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:3834_-_Amaranthus_caudatus_(Zieramaranth).JPG"
-}
-
-velvet_flower_02 = {
-  description: "Long tapering pendulous or erect catkins densely covered with tiny off-white flowers. An annual herb with brilliant coloured leaves either red or a combination of red, green, and yellow.",
-  colour: "Off-white",
-  significance: "Illumined Strength in the Vital",
-  image_url: "velvet_flower_off_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Unidentified_plant_serres_du_Jardin_du_Luxembourg_2.JPG"
-}
 
 velvet_flower = Flower.create!(
   name: "Velvet Flower",
@@ -7916,44 +7854,29 @@ velvet_flower = Flower.create!(
   image_url: "velvet_flower.jpg",
   thumbnail_url: "velvet_flower_thumbnail.jpg",
   source: "M a n u e l",
-  url: "https://www.flickr.com/photos/martius/15160085552/",
-  variants: [
-    velvet_flower_01,
-    velvet_flower_02
-  ]
+  url: "https://www.flickr.com/photos/martius/15160085552/"
+)
+
+velvet_flower.child_flowers.create!(
+  description: "Long tapering pendulous catkins densely covered with minute stiff dull magenta flowers, the heavy catkins weighing down the stems. A coarse annual herb with magenta stems and green leaves tinged magenta.",
+  colour: "Dull magenta",
+  significance: "Fearlessness in Action",
+  comment: "Manifold, unfettered, and fearless.",
+  image_url: "velvet_flower_magenta.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:3834_-_Amaranthus_caudatus_(Zieramaranth).JPG"
+)
+
+velvet_flower.child_flowers.create!(
+  description: "Long tapering pendulous or erect catkins densely covered with tiny off-white flowers. An annual herb with brilliant coloured leaves either red or a combination of red, green, and yellow.",
+  colour: "Off-white",
+  significance: "Illumined Strength in the Vital",
+  image_url: "velvet_flower_off_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Unidentified_plant_serres_du_Jardin_du_Luxembourg_2.JPG"
 )
 
 # Willowleaf Angelon
-
-willowleaf_angelon_01 = {
-  description: "Small fragrant purple bilabiate flowers with two upper and three lower recurved rounded lobes; borne in terminal racemes. A perennial herb with viscid aromatic leaves.",
-  colour: "Purple",
-  significance: "Renunciation of Vital Desires",
-  comment: "It has understood the futility of desires.",
-  image_url: "willowleaf_angelon_purple.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Angelonia_salicariifolia_06.jpg"
-}
-
-willowleaf_angelon_02 = {
-  description: "Small fragrant white bilabiate flowers with two upper and three lower recurved rounded lobes; borne in terminal racemes. A perennial herb with viscid aromatic leaves.",
-  colour: "White",
-  significance: "Integral Renunciation of Vital Desires",
-  comment: "An indispensable condition for true progress.",
-  image_url: "willowleaf_angelon_white.jpg",
-  source: "Kauchipoteto Garden",
-  url: "http://couchpotate.blog9.fc2.com/blog-date-20061008.html"
-}
-
-willowleaf_angelon_03 = {
-  description: "Small fragrant bilabiate flowers with two upper and three lower recurved rounded lobes; white with purple markings; borne in terminal racemes. A perennial herb with viscid aromatic leaves.",
-  colour: "White, purple",
-  significance: "Renunciation of Emotional Desires",
-  comment: "Indispensable for transformation.",
-  image_url: "willowleaf_angelon_white_purple.jpg",
-  source: "Kauchipoteto Garden",
-  url: "http://couchpotate.blog9.fc2.com/blog-date-20061008.html"
-}
 
 willowleaf_angelon = Flower.create!(
   name: "Willowleaf Angelon",
@@ -7966,45 +7889,40 @@ willowleaf_angelon = Flower.create!(
   image_url: "willowleaf_angelon.jpg",
   thumbnail_url: "willowleaf_angelon_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Angelonia_salicariifolia_07.jpg",
-  variants: [
-    willowleaf_angelon_01,
-    willowleaf_angelon_02,
-    willowleaf_angelon_03
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Angelonia_salicariifolia_07.jpg"
+)
+
+willowleaf_angelon.child_flowers.create!(
+  description: "Small fragrant purple bilabiate flowers with two upper and three lower recurved rounded lobes; borne in terminal racemes. A perennial herb with viscid aromatic leaves.",
+  colour: "Purple",
+  significance: "Renunciation of Vital Desires",
+  comment: "It has understood the futility of desires.",
+  image_url: "willowleaf_angelon_purple.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Angelonia_salicariifolia_06.jpg"
+)
+
+willowleaf_angelon.child_flowers.create!(
+  description: "Small fragrant white bilabiate flowers with two upper and three lower recurved rounded lobes; borne in terminal racemes. A perennial herb with viscid aromatic leaves.",
+  colour: "White",
+  significance: "Integral Renunciation of the Vital Desires",
+  comment: "An indispensable condition for true progress.",
+  image_url: "willowleaf_angelon_white.jpg",
+  source: "Kauchipoteto Garden",
+  url: "http://couchpotate.blog9.fc2.com/blog-date-20061008.html"
+)
+
+willowleaf_angelon.child_flowers.create!(
+  description: "Small fragrant bilabiate flowers with two upper and three lower recurved rounded lobes; white with purple markings; borne in terminal racemes. A perennial herb with viscid aromatic leaves.",
+  colour: "White, purple",
+  significance: "Renunciation of Emotional Desires",
+  comment: "Indispensable for transformation.",
+  image_url: "willowleaf_angelon_white_purple.jpg",
+  source: "Kauchipoteto Garden",
+  url: "http://couchpotate.blog9.fc2.com/blog-date-20061008.html"
 )
 
 # Flamingo Flower
-
-flamingo_flower_01 = {
-  description: "Firm waxy heart-shaped large to very large pink spathe and a prominent thick erect pink and white spadix; borne singly on a long stiff stem. A perennial herb with large leathery somewhat heart-shaped leaves.",
-  colour: "Pink, white",
-  significance: "Sex Centre Aspiring to be Purified",
-  comment: "The awakening of the consciousness to a higher life.",
-  image_url: "flamingo_flower_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Anthurium_1.jpg"
-}
-
-flamingo_flower_02 = {
-  description: "Firm waxy heart-shaped large to very large white spathe and a prominent thick erect white spadix; borne singly on a long stiff stem. A perennial herb with large leathery somewhat heart-shaped leaves.",
-  colour: "White",
-  significance: "Purified Sex Centre",
-  comment: "Is transformed into a force for progress.",
-  image_url: "flamingo_flower_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:WhiteAnthurium2.jpg"
-}
-
-flamingo_flower_03 = {
-  description: "Firm waxy heart-shaped large to very large red spathe and a prominent thick erect red spadix; borne singly on a long stiff stem. A perennial herb with large leathery somewhat heart-shaped leaves.",
-  colour: "Red",
-  significance: "Mastery of Sex",
-  comment: "Instead of being dominated by sexual impulses, one must put them under the control of the highest will.",
-  image_url: "flamingo_flower_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Anthurium_at_lalbagh_flower_show_7101.JPG"
-}
 
 flamingo_flower = Flower.create!(
   name: "Flamingo Flower",
@@ -8017,55 +7935,40 @@ flamingo_flower = Flower.create!(
   image_url: "flamingo_flower.jpg",
   thumbnail_url: "flamingo_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Anthurium_at_lalbagh_flower_show_7108.JPG",
-  variants: [
-    flamingo_flower_01,
-    flamingo_flower_02,
-    flamingo_flower_03
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Anthurium_at_lalbagh_flower_show_7108.JPG"
+)
+
+flamingo_flower.child_flowers.create!(
+  description: "Firm waxy heart-shaped large to very large pink spathe and a prominent thick erect pink and white spadix; borne singly on a long stiff stem. A perennial herb with large leathery somewhat heart-shaped leaves.",
+  colour: "Pink, white",
+  significance: "Sex Centre Aspiring to be Purified",
+  comment: "The awakening of the consciousness to a higher life.",
+  image_url: "flamingo_flower_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Anthurium_1.jpg"
+)
+
+flamingo_flower.child_flowers.create!(
+  description: "Firm waxy heart-shaped large to very large white spathe and a prominent thick erect white spadix; borne singly on a long stiff stem. A perennial herb with large leathery somewhat heart-shaped leaves.",
+  colour: "White",
+  significance: "Purified Sex Centre",
+  comment: "Is transformed into a force for progress.",
+  image_url: "flamingo_flower_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:WhiteAnthurium2.jpg"
+)
+
+flamingo_flower.child_flowers.create!(
+  description: "Firm waxy heart-shaped large to very large red spathe and a prominent thick erect red spadix; borne singly on a long stiff stem. A perennial herb with large leathery somewhat heart-shaped leaves.",
+  colour: "Red",
+  significance: "Mastery of Sex",
+  comment: "Instead of being dominated by sexual impulses, one must put them under the control of the highest will.",
+  image_url: "flamingo_flower_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Anthurium_at_lalbagh_flower_show_7101.JPG"
 )
 
 # Coral Vine
-
-coral_vine_01 = {
-  description: "Tiny delicate lantern-shaped white, pink, deep pink, and bicoloured pink flowers in small racemes forming long trailing sprays. A dense fast growing vine with heavily veined lanceolate or ovate-cordate leaves.",
-  colour: "White, pink, deep pink, and bicoloured pink",
-  significance: "Harmony",
-  comment: "Let us work for the day when this will become both the means and the end.",
-  image_url: "coral_vine_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:CoralVine.JPG"
-}
-
-coral_vine_02 = {
-  description: "Tiny delicate lantern-shaped deep pink flowers in small racemes forming long trailing sprays. A dense fast growing vine with heavily veined lanceolate or ovate-cordate leaves.",
-  colour: "Deep pink",
-  significance: "Harmony in the Material Vital",
-  comment: "No disputes, no quarrels - the sweetness of a life without clashes.",
-  image_url: "coral_vine_deep_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Honey_bee_(10555025375).jpg"
-}
-
-coral_vine_03 = {
-  description: "Tiny delicate lantern-shaped bright pink flowers in small racemes forming long trailing sprays. A dense fast growing vine with heavily veined lanceolate or ovate-cordate leaves.",
-  colour: "Bright pink",
-  significance: "Harmony in the Vital",
-  comment: "To harmonise the vital is a psychological masterpiece; happy is the one who accomplishes it.",
-  image_url: "coral_vine_bright_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Antigonon_leptopus_flower_(5731619434).jpg"
-}
-
-coral_vine_04 = {
-  description: "Tiny delicate lantern-shaped white flowers in small racemes forming long trailing sprays. A dense fast growing vine with heavily veined lanceolate or ovate-cordate leaves.",
-  colour: "White",
-  significance: "Integral Harmony",
-  comment: "Harmony between things, harmony between persons, harmony of circumstances and, above all, harmony of aspirations — all leading towards the Supreme Truth.",
-  image_url: "coral_vine_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Antigonon_leptopus_white2.JPG"
-}
 
 coral_vine = Flower.create!(
   name: "Coral Vine",
@@ -8078,97 +7981,50 @@ coral_vine = Flower.create!(
   image_url: "coral_vine.jpg",
   thumbnail_url: "coral_vine_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Coral_Vine_Antigonon_leptopus_flower_at_Thiruvanathapuram_1.JPG",
-  variants: [
-    coral_vine_01,
-    coral_vine_02,
-    coral_vine_03,
-    coral_vine_04
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Coral_Vine_Antigonon_leptopus_flower_at_Thiruvanathapuram_1.JPG"
+)
+
+coral_vine.child_flowers.create!(
+  description: "Tiny delicate lantern-shaped white, pink, deep pink, and bicoloured pink flowers in small racemes forming long trailing sprays. A dense fast growing vine with heavily veined lanceolate or ovate-cordate leaves.",
+  colour: "White, pink, deep pink, and bicoloured pink",
+  significance: "Harmony",
+  comment: "Let us work for the day when this will become both the means and the end.",
+  image_url: "coral_vine_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:CoralVine.JPG"
+)
+
+coral_vine.child_flowers.create!(
+  description: "Tiny delicate lantern-shaped deep pink flowers in small racemes forming long trailing sprays. A dense fast growing vine with heavily veined lanceolate or ovate-cordate leaves.",
+  colour: "Deep pink",
+  significance: "Harmony in the Material Vital",
+  comment: "No disputes, no quarrels - the sweetness of a life without clashes.",
+  image_url: "coral_vine_deep_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Honey_bee_(10555025375).jpg"
+)
+
+coral_vine.child_flowers.create!(
+  description: "Tiny delicate lantern-shaped bright pink flowers in small racemes forming long trailing sprays. A dense fast growing vine with heavily veined lanceolate or ovate-cordate leaves.",
+  colour: "Bright pink",
+  significance: "Harmony in the Vital",
+  comment: "To harmonise the vital is a psychological masterpiece; happy is the one who accomplishes it.",
+  image_url: "coral_vine_bright_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Antigonon_leptopus_flower_(5731619434).jpg"
+)
+
+coral_vine.child_flowers.create!(
+  description: "Tiny delicate lantern-shaped white flowers in small racemes forming long trailing sprays. A dense fast growing vine with heavily veined lanceolate or ovate-cordate leaves.",
+  colour: "White",
+  significance: "Integral Harmony",
+  comment: "Harmony between things, harmony between persons, harmony of circumstances and, above all, harmony of aspirations — all leading towards the Supreme Truth.",
+  image_url: "coral_vine_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Antigonon_leptopus_white2.JPG"
 )
 
 # Snapdragon
-
-snapdragon_01 = {
-  description: "Small bilabiate flowers in white and shades of yellow, orange, pink, and red with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
-  colour: "White and shades of yellow, orange, pink, and red",
-  significance: "Power of Expression",
-  comment: "It has the power to manifest that which is latent.",
-  image_url: "snapdragon_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:File-Snapdragons.JPG"
-}
-
-snapdragon_02 = {
-  description: "Small bilabiate pink flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
-  colour: "Pink",
-  significance: "Power of Psychic Expression",
-  comment: "The psychic obtains its power of expression when it governs the whole being.",
-  image_url: "snapdragon_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Amboise,_fleur_d%27un_parterre_4.jpg"
-}
-
-snapdragon_03 = {
-  description: "Small bilabiate yellow flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
-  colour: "Yellow",
-  significance: "Power of Mental Expression",
-  comment: "Has no value unless it is at the service of the Divine.",
-  image_url: "snapdragon_yellow.jpg",
-  source: "Toshihiro Gamo",
-  url: "https://www.flickr.com/photos/dakiny/8886798584/"
-}
-
-snapdragon_04 = {
-  description: "Small bilabiate purple to violet flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
-  colour: "Purple to violet",
-  significance: "Power of Vital Expression",
-  comment: "It is useful only when the vital is converted.",
-  image_url: "snapdragon_purple.jpg",
-  source: "Joan Simon",
-  url: "https://www.flickr.com/photos/simonjoan/16743218481/"
-}
-
-snapdragon_05 = {
-  description: "Small bilabiate red flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
-  colour: "Red",
-  significance: "Power of Physical Expression",
-  comment: "One of the benefits of conversion.",
-  image_url: "snapdragon_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:20140627Antirrhinum_majus2.jpg"
-}
-
-snapdragon_06 = {
-  description: "Small bilabiate white flowers with yellow throat; with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
-  colour: "White, yellow",
-  significance: "Power of Integral Expression",
-  comment: "Nothing is too difficult for it to say.",
-  image_url: "snapdragon_white_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B0%D1%81%D1%82%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B2_%D0%A1%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE_253.jpg"
-}
-
-snapdragon_07 = {
-  description: "Small bilabiate multicoloured flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
-  colour: "Multicoloured",
-  significance: "Power of Manifold Expression",
-  comment: "The result of suppleness and plasticity.",
-  image_url: "snapdragon_multicoloured.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Antirrhinum_aka_Snap_dragon_at_lalbagh_7118.JPG"
-}
-
-snapdragon_08 = {
-  bot_name: "Antirrhinum majus ‘Butterfly hybrid’",
-  description: "A variation of the common snapdragon in which the lower lip is flattened, opening the \"mouth\" of the flower into a somewhat trumpet shape; borne in erect racemes. A colourful annual or perennial.",
-  colour: "Pink",
-  significance: "Progressive Expression",
-  comment: "What you cannot say today, you will know how to say tomorrow!",
-  image_url: "snapdragon_butterfly.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Kissing_bugs_with_voyeur_find_it.jpg"
-}
 
 snapdragon = Flower.create!(
   name: "Snapdragon",
@@ -8180,40 +8036,91 @@ snapdragon = Flower.create!(
   image_url: "snapdragon.jpg",
   thumbnail_url: "snapdragon_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Antirrhinum_majus_Snapdragon_%E1%83%93%E1%83%94%E1%83%95%E1%83%98%E1%83%A1%E1%83%9E%E1%83%98%E1%83%A0%E1%83%90.JPG",
-  variants: [
-    snapdragon_01,
-    snapdragon_02,
-    snapdragon_03,
-    snapdragon_04,
-    snapdragon_05,
-    snapdragon_06,
-    snapdragon_07,
-    snapdragon_08
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Antirrhinum_majus_Snapdragon_%E1%83%93%E1%83%94%E1%83%95%E1%83%98%E1%83%A1%E1%83%9E%E1%83%98%E1%83%A0%E1%83%90.JPG"
+)
+
+snapdragon.child_flowers.create!(
+  description: "Small bilabiate flowers in white and shades of yellow, orange, pink, and red with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
+  colour: "White and shades of yellow, orange, pink, and red",
+  significance: "Power of Expression",
+  comment: "It has the power to manifest that which is latent.",
+  image_url: "snapdragon_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:File-Snapdragons.JPG"
+)
+
+snapdragon.child_flowers.create!(
+  description: "Small bilabiate pink flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
+  colour: "Pink",
+  significance: "Power of Psychic Expression",
+  comment: "The psychic obtains its power of expression when it governs the whole being.",
+  image_url: "snapdragon_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Amboise,_fleur_d%27un_parterre_4.jpg"
+)
+
+snapdragon.child_flowers.create!(
+  description: "Small bilabiate yellow flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
+  colour: "Yellow",
+  significance: "Power of Mental Expression",
+  comment: "Has no value unless it is at the service of the Divine.",
+  image_url: "snapdragon_yellow.jpg",
+  source: "Toshihiro Gamo",
+  url: "https://www.flickr.com/photos/dakiny/8886798584/"
+)
+
+snapdragon.child_flowers.create!(
+  description: "Small bilabiate purple to violet flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
+  colour: "Purple to violet",
+  significance: "Power of Vital Expression",
+  comment: "It is useful only when the vital is converted.",
+  image_url: "snapdragon_purple.jpg",
+  source: "Joan Simon",
+  url: "https://www.flickr.com/photos/simonjoan/16743218481/"
+)
+
+snapdragon.child_flowers.create!(
+  description: "Small bilabiate red flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
+  colour: "Red",
+  significance: "Power of Physical Expression",
+  comment: "One of the benefits of conversion.",
+  image_url: "snapdragon_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:20140627Antirrhinum_majus2.jpg"
+)
+
+snapdragon.child_flowers.create!(
+  description: "Small bilabiate white flowers with yellow throat; with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
+  colour: "White, yellow",
+  significance: "Power of Integral Expression",
+  comment: "Nothing is too difficult for it to say.",
+  image_url: "snapdragon_white_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B0%D1%81%D1%82%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B2_%D0%A1%D0%B5%D0%B4%D0%BE%D0%B2%D0%BE_253.jpg"
+)
+
+snapdragon.child_flowers.create!(
+  description: "Small bilabiate multicoloured flowers with a short flattened corolla tube; the upper lip has two broad recurved lobes, the raised center of the lower lip closes the \"mouth\" of the flower, the lower edge is lobed and somewhat ruffled; borne in erect racemes. A colourful annual or perennial.",
+  colour: "Multicoloured",
+  significance: "Power of Manifold Expression",
+  comment: "The result of suppleness and plasticity.",
+  image_url: "snapdragon_multicoloured.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Antirrhinum_aka_Snap_dragon_at_lalbagh_7118.JPG"
+)
+
+snapdragon.child_flowers.create!(
+  bot_name: "Antirrhinum majus ‘Butterfly hybrid’",
+  description: "A variation of the common snapdragon in which the lower lip is flattened, opening the \"mouth\" of the flower into a somewhat trumpet shape; borne in erect racemes. A colourful annual or perennial.",
+  colour: "Pink",
+  significance: "Progressive Expression",
+  comment: "What you cannot say today, you will know how to say tomorrow!",
+  image_url: "snapdragon_butterfly.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Kissing_bugs_with_voyeur_find_it.jpg"
 )
 
 # Climbing Lang-lang
-
-climbing_lang_lang_01 = {
-  description: "Medium-sized pendulous flower with six thick fleshy tapering petals and a fruit-like fragrance; flowers open greenish-yellow and become yellow with age; borne singly or in clusters. A vigorous climbing shrub.",
-  colour: "Greenish-yellow to yellow",
-  significance: "Clear Mind",
-  comment: "The first step on the way to conversion.",
-  image_url: "climbing_lang_lang_flower.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Artabotrys_hexapetalus02.JPG"
-}
-
-climbing_lang_lang_02 = {
-  description: "Small oval fragrant yellow fruit; borne singly or in clusters.",
-  colour: "Yellow",
-  significance: "Reason",
-  comment: "An excellent instrument when it is at the service of the Divine.",
-  image_url: "climbing_lang_lang_fruit.jpg",
-  source: "TopTropicals",
-  url: "https://toptropicals.com/catalog/uid/artabotrys_hexapetalus.htm"
-}
 
 climbing_lang_lang = Flower.create!(
   name: "Climbing Lang-lang",
@@ -8227,34 +8134,30 @@ climbing_lang_lang = Flower.create!(
   image_url: "climbing_lang_lang.jpg",
   thumbnail_url: "climbing_lang_lang_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Ylang_Ylang_vine_01.JPG",
-  variants: [
-    climbing_lang_lang_01,
-    climbing_lang_lang_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Ylang_Ylang_vine_01.JPG"
+)
+
+climbing_lang_lang.child_flowers.create!(
+  description: "Medium-sized pendulous flower with six thick fleshy tapering petals and a fruit-like fragrance; flowers open greenish-yellow and become yellow with age; borne singly or in clusters. A vigorous climbing shrub.",
+  colour: "Greenish-yellow to yellow",
+  significance: "Clear Mind",
+  comment: "The first step on the way to conversion.",
+  image_url: "climbing_lang_lang_flower.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Artabotrys_hexapetalus02.JPG"
+)
+
+climbing_lang_lang.child_flowers.create!(
+  description: "Small oval fragrant yellow fruit; borne singly or in clusters.",
+  colour: "Yellow",
+  significance: "Reason",
+  comment: "An excellent instrument when it is at the service of the Divine.",
+  image_url: "climbing_lang_lang_fruit.jpg",
+  source: "TopTropicals",
+  url: "https://toptropicals.com/catalog/uid/artabotrys_hexapetalus.htm"
 )
 
 # Blood Flower
-
-blood_flower_01 = {
-  description: "Tiny flowers with five yellow petals that curve back towards the stalk and a prominent central golden crown; borne in terminal cymes. A perennial herb with milky sap.",
-  colour: "Yellow, golden",
-  significance: "Response of the Mind to the Supramental Light",
-  comment: "Represents an important step towards realisation.",
-  image_url: "blood_flower_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Blood_Flower_(Asclepias_curassavica)_4.jpg"
-}
-
-blood_flower_02 = {
-  description: "Tiny flowers with five orange red petals that curve back towards the stalk and a prominent central orange crown; borne in terminal cymes. A perennial herb with milky sap.",
-  colour: "Orange red, orange",
-  significance: "Response of the Physical Mind to the Supramental Light",
-  comment: "The physical mind eager to understand and be transformed.",
-  image_url: "blood_flower_orange_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Mexican_Milkweed_Asclepias_curassavica_Flowers_Closeup_3008px.jpg"
-}
 
 blood_flower = Flower.create!(
   name: "Blood Flower",
@@ -8268,16 +8171,45 @@ blood_flower = Flower.create!(
   image_url: "blood_flower.jpg",
   thumbnail_url: "blood_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Asclepias_curassavica_1854.jpg",
-  variants: [
-    blood_flower_01,
-    blood_flower_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Asclepias_curassavica_1854.jpg"
+)
+
+blood_flower.child_flowers.create!(
+  description: "Tiny flowers with five yellow petals that curve back towards the stalk and a prominent central golden crown; borne in terminal cymes. A perennial herb with milky sap.",
+  colour: "Yellow, golden",
+  significance: "Response of the Mind to the Supramental Light",
+  comment: "Represents an important step towards realisation.",
+  image_url: "blood_flower_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Blood_Flower_(Asclepias_curassavica)_4.jpg"
+)
+
+blood_flower.child_flowers.create!(
+  description: "Tiny flowers with five orange red petals that curve back towards the stalk and a prominent central orange crown; borne in terminal cymes. A perennial herb with milky sap.",
+  colour: "Orange red, orange",
+  significance: "Response of the Physical Mind to the Supramental Light",
+  comment: "The physical mind eager to understand and be transformed.",
+  image_url: "blood_flower_orange_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Mexican_Milkweed_Asclepias_curassavica_Flowers_Closeup_3008px.jpg"
 )
 
 # Italian Aster
 
-italian_aster_01 = {
+italian_aster = Flower.create!(
+  name: "Italian Aster",
+  bot_name: "Aster amellus",
+  family: "Compositae",
+  size: "Small",
+  place: "Found on European mountains, and in Western and Central Asia, Siberia, and Caucasus",
+  climate: "Subtropical to temperate",
+  image_url: "italian_aster.jpg",
+  thumbnail_url: "italian_aster_thumbnail.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Aster_amellus_-_blooms_(aka).jpg"
+)
+
+italian_aster.child_flowers.create!(
   description: "Small single flower with narrow white ray florets and a center of tiny yellow disc florets; borne in corymbs. An attractive perennial herb.",
   colour: "White, yellow",
   significance: "Simple Sincerity",
@@ -8285,9 +8217,9 @@ italian_aster_01 = {
   image_url: "italian_aster_white.jpg",
   source: "Swamy Nursery & Florist",
   url: "http://www.swamynursery.in/category/flowering-shrubs/"
-}
+)
 
-italian_aster_02 = {
+italian_aster.child_flowers.create!(
   description: "Small single flower with narrow lavender pink ray florets and a center of tiny yellow disc florets; borne in corymbs. An attractive perennial herb.",
   colour: "Lavender pink, yellow",
   significance: "Emotional Sincerity",
@@ -8295,9 +8227,9 @@ italian_aster_02 = {
   image_url: "italian_aster_lavender_pink.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Aster_amellus-IMG_6178.jpg"
-}
+)
 
-italian_aster_03 = {
+italian_aster.child_flowers.create!(
   description: "Small single flower with narrow lavender blue ray florets and a center of tiny yellow disc florets; borne in corymbs. An attractive perennial herb.",
   colour: "Lavender blue, yellow",
   significance: "Sincerity in the Vital",
@@ -8305,87 +8237,9 @@ italian_aster_03 = {
   image_url: "italian_aster_lavender_blue.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:European_Michaelmas_Daisy_-_Aster_amellus_(12831629843).jpg"
-}
-
-italian_aster = Flower.create!(
-  name: "Italian Aster",
-  bot_name: "Aster amellus",
-  family: "Asteraceae (Compositae)",
-  size: "Small",
-  place: "Found on European mountains, and in Western and Central Asia, Siberia, and Caucasus",
-  climate: "Subtropical to temperate",
-  image_url: "italian_aster.jpg",
-  thumbnail_url: "italian_aster_thumbnail.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Aster_amellus_-_blooms_(aka).jpg",
-  variants: [
-    italian_aster_01,
-    italian_aster_02,
-    italian_aster_03
-  ]
 )
 
 # Chinese Violet
-
-chinese_violet_01 = {
-  description: "Small funnelform flowers in several colours with a short corolla tube and a limb divided into five rounded overlapping lobes; borne in one-sided racemes. Spreading lightly pubescent perennial herbs with opposite ovate leaves.",
-  colour: "Several colours",
-  significance: "Trust in the Divine",
-  comment: "Most indispensable for the impulsive vital.",
-  image_url: "chinese_violet_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Coromandel_(Asystasia_gangetica).jpg"
-}
-
-chinese_violet_02 = {
-  description: "Small cream yellow funnelform flowers with a short corolla tube and a limb divided into five rounded overlapping lobes; borne in one-sided racemes. Spreading lightly pubescent perennial herbs with opposite ovate leaves.",
-  colour: "Cream yellow",
-  significance: "Mental Trust in the Divine",
-  comment: "Firm and definitive, does not question.",
-  image_url: "chinese_violet_cream_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Coromandel_(Asystasia_gangetica_%27Alba%27).jpg"
-}
-
-chinese_violet_03 = {
-  description: "Small pale yellow funnelform flower with a light lavender spot on the throat; with a short corolla tube and a limb divided into five rounded overlapping lobes; borne in one-sided racemes. Spreading lightly pubescent perennial herbs with opposite ovate leaves.",
-  colour: "Pale yellow, light lavender",
-  significance: "Trust in the Vital Mind for the Divine",
-  comment: "Opens itself to the Divine Consciousness, without trying to hide anything from It.",
-  image_url: "chinese_violet_pale_yellow_lavender.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Asystasia_gangetica_(nom),_d,_Walter_Sisulu_NBT.jpg"
-}
-
-chinese_violet_04 = {
-  description: "Small white funnelform flower with a lavender spot on the throat; with a short corolla tube and a limb divided into five rounded overlapping lobes; borne in one-sided racemes. Spreading lightly pubescent perennial herbs with opposite ovate leaves.",
-  colour: "White, lavender",
-  significance: "Trust of the Emotional Vital in the Divine",
-  comment: "Smiling and sweet, it is sheltered from grief.",
-  image_url: "chinese_violet_white_lavender.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Ara_Songsang.jpg"
-}
-
-chinese_violet_05 = {
-  description: "Small predominantly lavender shaded funnelform flowers with a short corolla tube and a limb divided into five rounded overlapping lobes; borne in one-sided racemes. Spreading lightly pubescent perennial herbs with opposite ovate leaves.",
-  colour: "Lavender",
-  significance: "Vital Trust in the Divine",
-  comment: "Full of courage and energy, it no longer fears anything.",
-  image_url: "chinese_violet_lavender.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_030415-0001_Asystasia_gangetica.jpg"
-}
-
-chinese_violet_06 = {
-  description: "Small white funnelform flowers with a short corolla tube and a limb divided into five rounded overlapping lobes; borne in one-sided racemes. Spreading lightly pubescent perennial herbs with opposite ovate leaves.",
-  colour: "White",
-  significance: "Integral Trust in the Divine",
-  comment: "The trust that gives the true support to life.",
-  image_url: "chinese_violet_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Asystasia_gangetica_9400.jpg"
-}
 
 chinese_violet = Flower.create!(
   name: "Chinese Violet",
@@ -8399,58 +8253,70 @@ chinese_violet = Flower.create!(
   image_url: "chinese_violet.jpg",
   thumbnail_url: "chinese_violet_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Asystasia_gangetica_09277.jpg",
-  variants: [
-    chinese_violet_01,
-    chinese_violet_02,
-    chinese_violet_03,
-    chinese_violet_04,
-    chinese_violet_05,
-    chinese_violet_06
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Asystasia_gangetica_09277.jpg"
+)
+
+chinese_violet.child_flowers.create!(
+  description: "Small funnelform flowers in several colours with a short corolla tube and a limb divided into five rounded overlapping lobes; borne in one-sided racemes. Spreading lightly pubescent perennial herbs with opposite ovate leaves.",
+  colour: "Several colours",
+  significance: "Trust in the Divine",
+  comment: "Most indispensable for the impulsive vital.",
+  image_url: "chinese_violet_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Coromandel_(Asystasia_gangetica).jpg"
+)
+
+chinese_violet.child_flowers.create!(
+  description: "Small cream yellow funnelform flowers with a short corolla tube and a limb divided into five rounded overlapping lobes; borne in one-sided racemes. Spreading lightly pubescent perennial herbs with opposite ovate leaves.",
+  colour: "Cream yellow",
+  significance: "Mental Trust in the Divine",
+  comment: "Firm and definitive, does not question.",
+  image_url: "chinese_violet_cream_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Coromandel_(Asystasia_gangetica_%27Alba%27).jpg"
+)
+
+chinese_violet.child_flowers.create!(
+  description: "Small pale yellow funnelform flower with a light lavender spot on the throat; with a short corolla tube and a limb divided into five rounded overlapping lobes; borne in one-sided racemes. Spreading lightly pubescent perennial herbs with opposite ovate leaves.",
+  colour: "Pale yellow, light lavender",
+  significance: "Trust in the Vital Mind for the Divine",
+  comment: "Opens itself to the Divine Consciousness, without trying to hide anything from It.",
+  image_url: "chinese_violet_pale_yellow_lavender.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Asystasia_gangetica_(nom),_d,_Walter_Sisulu_NBT.jpg"
+)
+
+chinese_violet.child_flowers.create!(
+  description: "Small white funnelform flower with a lavender spot on the throat; with a short corolla tube and a limb divided into five rounded overlapping lobes; borne in one-sided racemes. Spreading lightly pubescent perennial herbs with opposite ovate leaves.",
+  colour: "White, lavender",
+  significance: "Trust of the Emotional Vital in the Divine",
+  comment: "Smiling and sweet, it is sheltered from grief.",
+  image_url: "chinese_violet_white_lavender.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Ara_Songsang.jpg"
+)
+
+chinese_violet.child_flowers.create!(
+  description: "Small predominantly lavender shaded funnelform flowers with a short corolla tube and a limb divided into five rounded overlapping lobes; borne in one-sided racemes. Spreading lightly pubescent perennial herbs with opposite ovate leaves.",
+  colour: "Lavender",
+  significance: "Vital Trust in the Divine",
+  comment: "Full of courage and energy, it no longer fears anything.",
+  image_url: "chinese_violet_lavender.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_030415-0001_Asystasia_gangetica.jpg"
+)
+
+chinese_violet.child_flowers.create!(
+  description: "Small white funnelform flowers with a short corolla tube and a limb divided into five rounded overlapping lobes; borne in one-sided racemes. Spreading lightly pubescent perennial herbs with opposite ovate leaves.",
+  colour: "White",
+  significance: "Integral Trust in the Divine",
+  comment: "The trust that gives the true support to life.",
+  image_url: "chinese_violet_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Asystasia_gangetica_9400.jpg"
 )
 
 # Philippine Violet
-
-philippine_violet_01 = {
-  description: "Small lavender salverform flower, with five rounded separated lobes that emerge from a spiny bracted spike. Erect occasionally spiny shrub and herb.",
-  colour: "Lavender",
-  significance: "Elegance in the Emotions",
-  comment: "Delicate and refined, does not permit itself any vulgarity.",
-  image_url: "philippine_violet_lavender.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Barleria_cristata.JPG"
-}
-
-philippine_violet_02 = {
-  description: "Small striped white and lavender salverform flowers with five rounded separated lobes that emerge from a spiny bracted spike. An erect spiny shrub and herb.",
-  colour: "White, lavender",
-  significance: "Emotional Opening",
-  comment: "The progress of emotions towards the Divine.",
-  image_url: "philippine_violet_white_lavender.jpg",
-  source: "TopTropicals",
-  url: "https://toptropicals.com/catalog/uid/BARLERIA_STRIPED.htm"
-}
-
-philippine_violet_03 = {
-  description: "Small white salverform flowers with five rounded separated lobes that emerge from a spiny bracted spike. An erect spiny shrub and herb.",
-  colour: "White",
-  significance: "Integral Opening of the Being to the Divine",
-  comment: "The first step of the ascent.",
-  image_url: "philippine_violet_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Parvathi_Flower_01356.JPG"
-}
-
-philippine_violet_04 = {
-  description: "Small pink salverform flowers with five rounded separated lobes that emerge from a spiny bracted spike. An erect spiny shrub and herb.",
-  colour: "Pink",
-  significance: "Opening of the Emotional Vital",
-  comment: "One of the first steps on the way to transformation.",
-  image_url: "philippine_violet_pink.jpg",
-  source: "Flower Photos",
-  url: "http://oazis-cvetov.ru/photo/ehkzoticheskie_cvety/barlerija/116-0-4590"
-}
 
 philippine_violet = Flower.create!(
   name: "Philippine Violet",
@@ -8464,35 +8330,50 @@ philippine_violet = Flower.create!(
   image_url: "philippine_violet.jpg",
   thumbnail_url: "philippine_violet_thumbnail.jpg",
   source: "scott.zona",
-  url: "https://www.flickr.com/photos/scottzona/6442045831",
-  variants: [
-    philippine_violet_01,
-    philippine_violet_02,
-    philippine_violet_03,
-    philippine_violet_04
-  ]
+  url: "https://www.flickr.com/photos/scottzona/6442045831"
+)
+
+philippine_violet.child_flowers.create!(
+  description: "Small lavender salverform flower, with five rounded separated lobes that emerge from a spiny bracted spike. Erect occasionally spiny shrub and herb.",
+  colour: "Lavender",
+  significance: "Elegance in the Emotions",
+  comment: "Delicate and refined, does not permit itself any vulgarity.",
+  image_url: "philippine_violet_lavender.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Barleria_cristata.JPG"
+)
+
+philippine_violet.child_flowers.create!(
+  description: "Small striped white and lavender salverform flowers with five rounded separated lobes that emerge from a spiny bracted spike. An erect spiny shrub and herb.",
+  colour: "White, lavender",
+  significance: "Emotional Opening",
+  comment: "The progress of emotions towards the Divine.",
+  image_url: "philippine_violet_white_lavender.jpg",
+  source: "TopTropicals",
+  url: "https://toptropicals.com/catalog/uid/BARLERIA_STRIPED.htm"
+)
+
+philippine_violet.child_flowers.create!(
+  description: "Small white salverform flowers with five rounded separated lobes that emerge from a spiny bracted spike. An erect spiny shrub and herb.",
+  colour: "White",
+  significance: "Integral Opening of the Being to the Divine",
+  comment: "The first step of the ascent.",
+  image_url: "philippine_violet_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Parvathi_Flower_01356.JPG"
+)
+
+philippine_violet.child_flowers.create!(
+  description: "Small pink salverform flowers with five rounded separated lobes that emerge from a spiny bracted spike. An erect spiny shrub and herb.",
+  colour: "Pink",
+  significance: "Opening of the Emotional Vital",
+  comment: "One of the first steps on the way to transformation.",
+  image_url: "philippine_violet_pink.jpg",
+  source: "Flower Photos",
+  url: "http://oazis-cvetov.ru/photo/ehkzoticheskie_cvety/barlerija/116-0-4590"
 )
 
 # Butterfly Tree
-
-butterfly_tree_01 = {
-  description: "Large mildly fragrant flowers in various shades of light pink to reddish-violet, with five irregular separated petals, the central petal with a more deeply coloured splash; recurved stamens arise from the center; borne in few-flowered racemes. A small to medium-sized tree.",
-  colour: "Light pink to reddish-violet",
-  significance: "Stability in the Vital",
-  comment: "One of the important results of conversion.",
-  image_url: "butterfly_tree_violet.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Bauhinia_purpurea.jpg"
-}
-
-butterfly_tree_02 = {
-  description: "Large mildly fragrant light mauve flowers with five irregular separated petals, the central petal with a more deeply coloured splash; recurved stamens arise from the center; borne in few-flowered racemes. A small to medium-sized tree.",
-  colour: "Light to dark mauve",
-  significance: "Stability in the Higher Vital",
-  image_url: "butterfly_tree_mauve.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Bauhinia_purpurea2.JPG"
-}
 
 butterfly_tree = Flower.create!(
   name: "Butterfly Tree",
@@ -8506,94 +8387,29 @@ butterfly_tree = Flower.create!(
   image_url: "butterfly_tree.jpg",
   thumbnail_url: "butterfly_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Bauhinia_purpurea_(Kaniar)_in_Hyderabad,_AP_W_IMG_2573.jpg",
-  variants: [
-    butterfly_tree_01,
-    butterfly_tree_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Bauhinia_purpurea_(Kaniar)_in_Hyderabad,_AP_W_IMG_2573.jpg"
+)
+
+butterfly_tree.child_flowers.create!(
+  description: "Large mildly fragrant flowers in various shades of light pink to reddish-violet, with five irregular separated petals, the central petal with a more deeply coloured splash; recurved stamens arise from the center; borne in few-flowered racemes. A small to medium-sized tree.",
+  colour: "Light pink to reddish-violet",
+  significance: "Stability in the Vital",
+  comment: "One of the important results of conversion.",
+  image_url: "butterfly_tree_violet.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Bauhinia_purpurea.jpg"
+)
+
+butterfly_tree.child_flowers.create!(
+  description: "Large mildly fragrant light mauve flowers with five irregular separated petals, the central petal with a more deeply coloured splash; recurved stamens arise from the center; borne in few-flowered racemes. A small to medium-sized tree.",
+  colour: "Light to dark mauve",
+  significance: "Stability in the Higher Vital",
+  image_url: "butterfly_tree_mauve.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Bauhinia_purpurea2.JPG"
 )
 
 # Begonia
-
-begonia_01 = {
-  description: "Tiny waxy flowers in white and shades of pink, red, and yellow, with two prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
-  colour: "White and shades of pink, red, and yellow",
-  significance: "Balance",
-  comment: "Each seeks his own balance in order to stabilise himself.",
-  image_url: "begonia_single_mix.jpg",
-  source: "JJL GREENHOUSE, INC.",
-  url: "https://www.flickr.com/photos/jjl_greenhouse/5755199756"
-}
-
-begonia_02 = {
-  description: "Medium-sized single or double flowers in white and shades of pink, red, and yellow, with two or more prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
-  colour: "White and shades of pink, red, and yellow",
-  significance: "Perfect Balance",
-  comment: "One of the most important conditions of a growing peace.",
-  image_url: "begonia_double_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Begonia_%C3%97_tuberhybrida%E3%80%81_tuberous_begonia_%E7%90%83%E6%A0%B9%E3%83%99%E3%82%B4%E3%83%8B%E3%82%A2_2024880.JPG"
-}
-
-begonia_03 = {
-  description: "Tiny pink waxy flowers with two prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
-  colour: "Pink, yellow",
-  significance: "Psychic Balance",
-  comment: "Under the psychic influence, all activity becomes balanced.",
-  image_url: "begonia_single_pink_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://de.wikipedia.org/wiki/Datei:Begonia.naumoniensis.7083.jpg"
-}
-
-begonia_04 = {
-  description: "Medium-sized single or double pink flowers with two or more prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
-  colour: "Pink, yellow",
-  significance: "Perfect Psychic Balance",
-  comment: "On the way to transformation.",
-  image_url: "begonia_double_pink_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Begonia_x_tuberhybrida_1005Pink1.JPG"
-}
-
-begonia_05 = {
-  description: "Tiny yellow waxy flowers with two prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
-  colour: "Yellow",
-  significance: "Mental Balance",
-  comment: "Mind governed by reason.",
-  image_url: "begonia_single_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Begonia_prismatocarpa_Bioko_2013.jpg"
-}
-
-begonia_06 = {
-  description: "Medium-sized single or double yellow flowers with two or more prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
-  colour: "Yellow",
-  significance: "Perfect Mental Balance",
-  comment: "Indispensable for facing the difficulties of life.",
-  image_url: "begonia_double_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Fotky_kv%C4%9Bt%C5%AF_(06).jpg"
-}
-
-begonia_07 = {
-  description: "Tiny white waxy flowers with two prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
-  colour: "White, yellow",
-  significance: "Integral Balance",
-  comment: "It multiplies itself so as not to be static.",
-  image_url: "begonia_single_white_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Begonia_floccifera_-_JBM.jpg"
-}
-
-begonia_08 = {
-  description: "Medium-sized single or double white flowers with two or more prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
-  colour: "White, yellow",
-  significance: "Perfect Integral Balance",
-  comment: "One is ready for transformation.",
-  image_url: "begonia_double_white_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:JB_Metz_-_13082011_-_004.jpg"
-}
 
 begonia = Flower.create!(
   name: "Begonia",
@@ -8606,134 +8422,90 @@ begonia = Flower.create!(
   image_url: "begonia.jpg",
   thumbnail_url: "begonia_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Begonia_semperflorens_-_Alipore_-_Kolkata_2013-02-10_4784.JPG",
-  variants: [
-    begonia_01,
-    begonia_02,
-    begonia_03,
-    begonia_04,
-    begonia_05,
-    begonia_06,
-    begonia_07,
-    begonia_08
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Begonia_semperflorens_-_Alipore_-_Kolkata_2013-02-10_4784.JPG"
+)
+
+begonia.child_flowers.create!(
+  description: "Tiny waxy flowers in white and shades of pink, red, and yellow, with two prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
+  colour: "White and shades of pink, red, and yellow",
+  significance: "Balance",
+  comment: "Each seeks his own balance in order to stabilise himself.",
+  image_url: "begonia_single_mix.jpg",
+  source: "JJL GREENHOUSE, INC.",
+  url: "https://www.flickr.com/photos/jjl_greenhouse/5755199756"
+)
+
+begonia.child_flowers.create!(
+  description: "Medium-sized single or double flowers in white and shades of pink, red, and yellow, with two or more prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
+  colour: "White and shades of pink, red, and yellow",
+  significance: "Perfect Balance",
+  comment: "One of the most important conditions of a growing peace.",
+  image_url: "begonia_double_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Begonia_%C3%97_tuberhybrida%E3%80%81_tuberous_begonia_%E7%90%83%E6%A0%B9%E3%83%99%E3%82%B4%E3%83%8B%E3%82%A2_2024880.JPG"
+)
+
+begonia.child_flowers.create!(
+  description: "Tiny pink waxy flowers with two prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
+  colour: "Pink, yellow",
+  significance: "Psychic Balance",
+  comment: "Under the psychic influence, all activity becomes balanced.",
+  image_url: "begonia_single_pink_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://de.wikipedia.org/wiki/Datei:Begonia.naumoniensis.7083.jpg"
+)
+
+begonia.child_flowers.create!(
+  description: "Medium-sized single or double pink flowers with two or more prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
+  colour: "Pink, yellow",
+  significance: "Perfect Psychic Balance",
+  comment: "On the way to transformation.",
+  image_url: "begonia_double_pink_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Begonia_x_tuberhybrida_1005Pink1.JPG"
+)
+
+begonia.child_flowers.create!(
+  description: "Tiny yellow waxy flowers with two prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
+  colour: "Yellow",
+  significance: "Mental Balance",
+  comment: "Mind governed by reason.",
+  image_url: "begonia_single_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Begonia_prismatocarpa_Bioko_2013.jpg"
+)
+
+begonia.child_flowers.create!(
+  description: "Medium-sized single or double yellow flowers with two or more prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
+  colour: "Yellow",
+  significance: "Perfect Mental Balance",
+  comment: "Indispensable for facing the difficulties of life.",
+  image_url: "begonia_double_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Fotky_kv%C4%9Bt%C5%AF_(06).jpg"
+)
+
+begonia.child_flowers.create!(
+  description: "Tiny white waxy flowers with two prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
+  colour: "White, yellow",
+  significance: "Integral Balance",
+  comment: "It multiplies itself so as not to be static.",
+  image_url: "begonia_single_white_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Begonia_floccifera_-_JBM.jpg"
+)
+
+begonia.child_flowers.create!(
+  description: "Medium-sized single or double white flowers with two or more prominent petals and yellow anthers and stigmas; borne in delicately balanced cymes. A succulent perennial herb often with beautifully coloured leaves.",
+  colour: "White, yellow",
+  significance: "Perfect Integral Balance",
+  comment: "One is ready for transformation.",
+  image_url: "begonia_double_white_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:JB_Metz_-_13082011_-_004.jpg"
 )
 
 # Bougainvillea
-
-bougainvillea_01 = {
-  description: "Clusters of showy ovate bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers; in many colours. A shrub, vine, or small tree, usually armed with spines.",
-  colour: "White to greenish-white, many colours",
-  significance: "Protection",
-  comment: "Let us give ourselves entirely and sincerely to the Divine and we shall enjoy His protection.",
-  image_url: "bougainvillea_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Bougainvillea_flowers_2.JPG"
-}
-
-bougainvillea_02 = {
-  bot_name: "Bougainvillea ‘Mahara’",
-  description: "Clusters of showy small semi-double ovate bright magenta bracts in dense clusters that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
-  colour: "White to greenish-white, bright magenta",
-  significance: "Attempt towards Protection",
-  comment: "Irregular and not always effective efforts.",
-  image_url: "bougainvillea_magenta.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Bougainvillea_spectabilis_(5).JPG"
-}
-
-bougainvillea_03 = {
-  bot_name: "Bougainvillea ‘Trinidad’",
-  description: "Clusters of showy very pale lavender ovate bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
-  colour: "White to greenish-white, pale lavender",
-  significance: "Discreet Protection",
-  comment: "Does its work discreetly without drawing attention.",
-  image_url: "bougainvillea_lavender.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_080117-1938_Bougainvillea_sp..jpg"
-}
-
-bougainvillea_04 = {
-  description: "Clusters of showy ovate pink bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
-  colour: "White to greenish-white, pink",
-  significance: "Psychic Protection",
-  comment: "The protection resulting from surrender to the Divine.",
-  image_url: "bougainvillea_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Bougainvillea_glabra_blossom_-_Thailand_2.jpg"
-}
-
-bougainvillea_05 = {
-  description: "Clusters of showy ovate light lavender pink bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
-  colour: "White to greenish-white, light lavender pink",
-  significance: "Emotional Protection",
-  comment: "Surrender to the Divine is the best emotional protection.",
-  image_url: "bougainvillea_lavender_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Bougainvillea_blossoms_and_bracts-001.jpg"
-}
-
-bougainvillea_06 = {
-  description: "Clusters of showy ovate violet bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
-  colour: "White to greenish-white, violet",
-  significance: "Vital Protection",
-  comment: "Surrender to the Divine is the best vital protection.",
-  image_url: "bougainvillea_violet.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_060928-0432_Bougainvillea_sp..jpg"
-}
-
-bougainvillea_07 = {
-  description: "Clusters of showy ovate red bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
-  colour: "White to greenish-white, red",
-  significance: "Physical Protection",
-  comment: "Is possible only with a total surrender to the divine and absence of all desire.",
-  image_url: "bougainvillea_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Redleaves.jpg"
-}
-
-bougainvillea_08 = {
-  bot_name: "Bougainvillea 'Blondie'",
-  description: "Clusters of showy ovate bracts in subtle shadings of pale lavender pink to soft orange on each bract; borne in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
-  colour: "White to greenish-white, pale lavender pink to soft orange",
-  significance: "Triple Protection",
-  comment: "Protection in the mind, the vital, and the physical.",
-  image_url: "bougainvillea_blondie.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Bougainvillea3.jpg"
-}
-
-bougainvillea_09 = {
-  description: "Clusters of showy ovate white bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
-  colour: "White to greenish-white",
-  significance: "Integral Protection",
-  comment: "That which can be given only by the Divine.",
-  image_url: "bougainvillea_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Bougainvillea_-_%E0%B4%95%E0%B4%9F%E0%B4%B2%E0%B4%BE%E0%B4%B8%E0%B5%81%E0%B4%AA%E0%B5%82%E0%B4%B5%E0%B5%8D_05.JPG"
-}
-
-bougainvillea_10 = {
-  bot_name: "Bougainvillea ‘Mary Palmer’",
-  description: "Clusters of showy ovate bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers; bright purple pink bracts and white bracts in each cluster. A shrub, vine, or small tree, usually armed with spines.",
-  colour: "White to greenish-white, bright purple pink",
-  significance: "Manifold Protection",
-  comment: "A protection working not only on life as a whole but on each of its details.",
-  image_url: "bougainvillea_purple_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_080117-1818_Bougainvillea_sp..jpg"
-}
-
-bougainvillea_11 = {
-  description: "Clusters of showy ovate predominantly yellow and golden bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
-  colour: "White to greenish-white, yellow, golden",
-  significance: "Protection of the Gods",
-  comment: "Luminous and clear-visioned.",
-  image_url: "bougainvillea_yellow_golden.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Bouganvilla4.JPG"
-}
 
 bougainvillea = Flower.create!(
   name: "Bougainvillea",
@@ -8746,43 +8518,124 @@ bougainvillea = Flower.create!(
   image_url: "bougainvillea.jpg",
   thumbnail_url: "bougainvillea_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Common_Wanderer_(Pareronia_valeria)-_Female_on_Bouganvillea_species_in_Kolkata_W_IMG_3636.jpg",
-  variants: [
-    bougainvillea_01,
-    bougainvillea_02,
-    bougainvillea_03,
-    bougainvillea_04,
-    bougainvillea_05,
-    bougainvillea_06,
-    bougainvillea_07,
-    bougainvillea_08,
-    bougainvillea_09,
-    bougainvillea_10,
-    bougainvillea_11
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Common_Wanderer_(Pareronia_valeria)-_Female_on_Bouganvillea_species_in_Kolkata_W_IMG_3636.jpg"
+)
+
+bougainvillea.child_flowers.create!(
+  description: "Clusters of showy ovate bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers; in many colours. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, many colours",
+  significance: "Protection",
+  comment: "Let us give ourselves entirely and sincerely to the Divine and we shall enjoy His protection.",
+  image_url: "bougainvillea_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Bougainvillea_flowers_2.JPG"
+)
+
+bougainvillea.child_flowers.create!(
+  bot_name: "Bougainvillea ‘Mahara’",
+  description: "Clusters of showy small semi-double ovate bright magenta bracts in dense clusters that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, bright magenta",
+  significance: "Attempt towards Protection",
+  comment: "Irregular and not always effective efforts.",
+  image_url: "bougainvillea_magenta.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Bougainvillea_spectabilis_(5).JPG"
+)
+
+bougainvillea.child_flowers.create!(
+  bot_name: "Bougainvillea ‘Trinidad’",
+  description: "Clusters of showy very pale lavender ovate bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, pale lavender",
+  significance: "Discreet Protection",
+  comment: "Does its work discreetly without drawing attention.",
+  image_url: "bougainvillea_lavender.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_080117-1938_Bougainvillea_sp..jpg"
+)
+
+bougainvillea.child_flowers.create!(
+  description: "Clusters of showy ovate pink bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, pink",
+  significance: "Psychic Protection",
+  comment: "The protection resulting from surrender to the Divine.",
+  image_url: "bougainvillea_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Bougainvillea_glabra_blossom_-_Thailand_2.jpg"
+)
+
+bougainvillea.child_flowers.create!(
+  description: "Clusters of showy ovate light lavender pink bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, light lavender pink",
+  significance: "Emotional Protection",
+  comment: "Surrender to the Divine is the best emotional protection.",
+  image_url: "bougainvillea_lavender_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Bougainvillea_blossoms_and_bracts-001.jpg"
+)
+
+bougainvillea.child_flowers.create!(
+  description: "Clusters of showy ovate violet bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, violet",
+  significance: "Vital Protection",
+  comment: "Surrender to the Divine is the best vital protection.",
+  image_url: "bougainvillea_violet.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_060928-0432_Bougainvillea_sp..jpg"
+)
+
+bougainvillea.child_flowers.create!(
+  description: "Clusters of showy ovate red bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, red",
+  significance: "Physical Protection",
+  comment: "Is possible only with a total surrender to the divine and absence of all desire.",
+  image_url: "bougainvillea_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Redleaves.jpg"
+)
+
+bougainvillea.child_flowers.create!(
+  bot_name: "Bougainvillea 'Blondie'",
+  description: "Clusters of showy ovate bracts in subtle shadings of pale lavender pink to soft orange on each bract; borne in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, pale lavender pink to soft orange",
+  significance: "Triple Protection",
+  comment: "Protection in the mind, the vital, and the physical.",
+  image_url: "bougainvillea_blondie.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Bougainvillea3.jpg"
+)
+
+bougainvillea.child_flowers.create!(
+  description: "Clusters of showy ovate white bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white",
+  significance: "Integral Protection",
+  comment: "That which can be given only by the Divine.",
+  image_url: "bougainvillea_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Bougainvillea_-_%E0%B4%95%E0%B4%9F%E0%B4%B2%E0%B4%BE%E0%B4%B8%E0%B5%81%E0%B4%AA%E0%B5%82%E0%B4%B5%E0%B5%8D_05.JPG"
+)
+
+bougainvillea.child_flowers.create!(
+  bot_name: "Bougainvillea ‘Mary Palmer’",
+  description: "Clusters of showy ovate bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers; bright purple pink bracts and white bracts in each cluster. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, bright purple pink",
+  significance: "Manifold Protection",
+  comment: "A protection working not only on life as a whole but on each of its details.",
+  image_url: "bougainvillea_purple_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_080117-1818_Bougainvillea_sp..jpg"
+)
+
+bougainvillea.child_flowers.create!(
+  description: "Clusters of showy ovate predominantly yellow and golden bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
+  colour: "White to greenish-white, yellow, golden",
+  significance: "Protection of the Gods",
+  comment: "Luminous and clear-visioned.",
+  image_url: "bougainvillea_yellow_golden.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Bouganvilla4.JPG"
 )
 
 # Bush Violet
-
-bush_violet_01 = {
-  description: "Small delicate salverform flower with an irregularly shaped five-lobed limb; in light blue shades with a tiny yellow spot in the center; borne singly in the leaf axils. An annual or perennial herb.",
-  colour: "Light blue, yellow",
-  significance: "Consent of the Vital",
-  comment: "Friendly, smiling, always ready for action, with a great goodwill.",
-  image_url: "bush_violet_blue.jpg",
-  source: "Go Botany",
-  url: "https://gobotany.newenglandwild.org/species/browallia/americana/?pile=alternate-remaining-non-monocots"
-}
-
-bush_violet_02 = {
-  description: "Small delicate salverform flower with an irregularly shaped five-lobed limb; in pale lilac lined with white borne singly in the leaf axils. An annual or perennial herb.",
-  colour: "Pale lilac, white",
-  significance: "Enthusiastic Vital Consent",
-  comment: "Here all the resources of its enthusiasm are placed at the service of its consent.",
-  image_url: "bush_violet_lilac.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Browallia_viscosa_(Solanaceae)flower.JPG"
-}
 
 bush_violet = Flower.create!(
   name: "Bush Violet",
@@ -8795,34 +8648,30 @@ bush_violet = Flower.create!(
   image_url: "bush_violet.jpg",
   thumbnail_url: "bush_violet_thumbnail.jpg",
   source: "NixPixMix",
-  url: "http://nixpixmix.blogspot.in/2014/01/browallia-speciosa-bush-violet.html",
-  variants: [
-    bush_violet_01,
-    bush_violet_02
-  ]
+  url: "http://nixpixmix.blogspot.in/2014/01/browallia-speciosa-bush-violet.html"
+)
+
+bush_violet.child_flowers.create!(
+  description: "Small delicate salverform flower with an irregularly shaped five-lobed limb; in light blue shades with a tiny yellow spot in the center; borne singly in the leaf axils. An annual or perennial herb.",
+  colour: "Light blue, yellow",
+  significance: "Consent of the Vital",
+  comment: "Friendly, smiling, always ready for action, with a great goodwill.",
+  image_url: "bush_violet_blue.jpg",
+  source: "Go Botany",
+  url: "https://gobotany.newenglandwild.org/species/browallia/americana/?pile=alternate-remaining-non-monocots"
+)
+
+bush_violet.child_flowers.create!(
+  description: "Small delicate salverform flower with an irregularly shaped five-lobed limb; in pale lilac lined with white borne singly in the leaf axils. An annual or perennial herb.",
+  colour: "Pale lilac, white",
+  significance: "Enthusiastic Vital Consent",
+  comment: "Here all the resources of its enthusiasm are placed at the service of its consent.",
+  image_url: "bush_violet_lilac.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Browallia_viscosa_(Solanaceae)flower.JPG"
 )
 
 # Barbados Pride
-
-barbados_pride_01 = {
-  description: "Small striking flower with four equal petals, a smaller lip and very long, prominent stamens; in orange red with a yellow to orange yellow border; borne in erect racemes. A large, somewhat prickly shrub.",
-  colour: "Orange red, yellow to orange yellow",
-  significance: "Fire",
-  comment: "Fears no obstacle.",
-  image_url: "barbados_pride_orange_red_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_061111-1566_Caesalpinia_pulcherrima.jpg"
-}
-
-barbados_pride_02 = {
-  description: "Small striking golden yellow flower with four equal petals, a smaller lip and very long, prominent stamens; borne in erect racemes. A large, somewhat prickly shrub.",
-  colour: "Golden yellow",
-  significance: "Fire in the Mind",
-  comment: "An ardour that sets ideas ablaze.",
-  image_url: "barbados_pride_golden_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_061111-1549_Caesalpinia_pulcherrima.jpg"
-}
 
 barbados_pride = Flower.create!(
   name: "Barbados Pride",
@@ -8836,110 +8685,36 @@ barbados_pride = Flower.create!(
   image_url: "barbados_pride.jpg",
   thumbnail_url: "barbados_pride_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Caesalpinia_pulcherrima_flowers.jpg",
-  variants: [
-    barbados_pride_01,
-    barbados_pride_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Caesalpinia_pulcherrima_flowers.jpg"
+)
+
+barbados_pride.child_flowers.create!(
+  description: "Small striking flower with four equal petals, a smaller lip and very long, prominent stamens; in orange red with a yellow to orange yellow border; borne in erect racemes. A large, somewhat prickly shrub.",
+  colour: "Orange red, yellow to orange yellow",
+  significance: "Fire",
+  comment: "Fears no obstacle.",
+  image_url: "barbados_pride_orange_red_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_061111-1566_Caesalpinia_pulcherrima.jpg"
+)
+
+barbados_pride.child_flowers.create!(
+  description: "Small striking golden yellow flower with four equal petals, a smaller lip and very long, prominent stamens; borne in erect racemes. A large, somewhat prickly shrub.",
+  colour: "Golden yellow",
+  significance: "Fire in the Mind",
+  comment: "An ardour that sets ideas ablaze.",
+  image_url: "barbados_pride_golden_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_061111-1549_Caesalpinia_pulcherrima.jpg"
 )
 
 # China Aster
-
-china_aster_01 = {
-  description: "Medium-sized slightly scented semi-double to double flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; in white, pale yellow, and shades of blue, purple, pink, and red; borne singly. A compact bushy annual.",
-  colour: "White, yellow, and shades of blue, purple, pink, and red",
-  significance: "Transparency",
-  comment: "Can come only as a result of perfect sincerity.",
-  image_url: "china_aster_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Sommerastern.JPG"
-}
-
-china_aster_02 = {
-  description: "Medium-sized slightly scented semi-double pink flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
-  colour: "Pink, yellow",
-  significance: "Psychic Transparency",
-  comment: "Manifests fully only when the psychic is perfectly developed.",
-  image_url: "china_aster_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Callistephus_or_china_aster_1950.JPG"
-}
-
-china_aster_03 = {
-  description: "Medium-sized slightly scented double pink flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
-  colour: "Pink, yellow",
-  significance: "Supramentalised Psychic Activity",
-  comment: "Luminous, manifold, balanced, it meets all needs.",
-  image_url: "china_aster_double_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Asteroideae_Sommeraster_rosa_gelb.jpg"
-}
-
-china_aster_04 = {
-  description: "Medium-sized slightly scented semi-double light mauve flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
-  colour: "Light mauve, yellow",
-  significance: "Transparency of the Emotional Vital",
-  comment: "At once the condition and result of the abolition of the ego.",
-  image_url: "china_aster_light_mauve.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Flowers_of_Bangladesh03.jpg"
-}
-
-china_aster_05 = {
-  description: "Medium-sized slightly scented semi-double deep mauve to violet flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
-  colour: "Deep mauve to violet, yellow",
-  significance: "Vital Transparency",
-  comment: "Indispensable for conversion.",
-  image_url: "china_aster_deep_mauve.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Callistephus_or_china_aster_1957.JPG"
-}
-
-china_aster_06 = {
-  description: "Medium-sized slightly scented double violet flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
-  colour: "Violet, yellow",
-  significance: "Supramentalised Vital Transparency",
-  comment: "One of the results of conversion.",
-  image_url: "china_aster_violet.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Callistephus_chinensis_1.0_R.jpg"
-}
-
-china_aster_07 = {
-  description: "Medium-sized slightly scented semi-double red flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
-  colour: "Red, yellow",
-  significance: "Transparency in the Physical",
-  comment: "The physical is preparing itself to be transformed.",
-  image_url: "china_aster_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:%EA%B3%BC%EA%BD%83_%EA%B0%80%EA%B9%8C%EC%9D%B4.JPG"
-}
-
-china_aster_08 = {
-  description: "Medium-sized slightly scented double white flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
-  colour: "White, yellow",
-  significance: "Integral Transparency",
-  comment: "It is the result of goodwill and perfect sincerity.",
-  image_url: "china_aster_double_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Asteroideae_Sommeraster_wei%C3%9F.jpg"
-}
-
-china_aster_09 = {
-  description: "Medium-sized slightly scented semi-double white flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
-  colour: "White, yellow",
-  significance: "Illumined Transparency",
-  comment: "An effect of the Divine Grace.",
-  image_url: "china_aster_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Flowers_-_Uncategorised_Garden_plants_75.JPG"
-}
 
 china_aster = Flower.create!(
   name: "China Aster",
   other_names: "Annual Aster",
   bot_name: "Callistephus chinensis",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   petals: "Several",
   size: "Medium-sized",
   place: "Native to China and Korea; cultivated worldwide",
@@ -8947,41 +8722,100 @@ china_aster = Flower.create!(
   image_url: "china_aster.jpg",
   thumbnail_url: "china_aster_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Callistephus_chinensis_1.3_R.jpg",
-  variants: [
-    china_aster_01,
-    china_aster_02,
-    china_aster_03,
-    china_aster_04,
-    china_aster_05,
-    china_aster_06,
-    china_aster_07,
-    china_aster_08,
-    china_aster_09
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Callistephus_chinensis_1.3_R.jpg"
+)
+
+china_aster.child_flowers.create!(
+  description: "Medium-sized slightly scented semi-double to double flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; in white, pale yellow, and shades of blue, purple, pink, and red; borne singly. A compact bushy annual.",
+  colour: "White, yellow, and shades of blue, purple, pink, and red",
+  significance: "Transparency",
+  comment: "Can come only as a result of perfect sincerity.",
+  image_url: "china_aster_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Sommerastern.JPG"
+)
+
+china_aster.child_flowers.create!(
+  description: "Medium-sized slightly scented semi-double pink flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
+  colour: "Pink, yellow",
+  significance: "Psychic Transparency",
+  comment: "Manifests fully only when the psychic is perfectly developed.",
+  image_url: "china_aster_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Callistephus_or_china_aster_1950.JPG"
+)
+
+china_aster.child_flowers.create!(
+  description: "Medium-sized slightly scented double pink flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
+  colour: "Pink, yellow",
+  significance: "Supramentalised Psychic Activity",
+  comment: "Luminous, manifold, balanced, it meets all needs.",
+  image_url: "china_aster_double_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Asteroideae_Sommeraster_rosa_gelb.jpg"
+)
+
+china_aster.child_flowers.create!(
+  description: "Medium-sized slightly scented semi-double light mauve flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
+  colour: "Light mauve, yellow",
+  significance: "Transparency of the Emotional Vital",
+  comment: "At once the condition and result of the abolition of the ego.",
+  image_url: "china_aster_light_mauve.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Flowers_of_Bangladesh03.jpg"
+)
+
+china_aster.child_flowers.create!(
+  description: "Medium-sized slightly scented semi-double deep mauve to violet flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
+  colour: "Deep mauve to violet, yellow",
+  significance: "Vital Transparency",
+  comment: "Indispensable for conversion.",
+  image_url: "china_aster_deep_mauve.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Callistephus_or_china_aster_1957.JPG"
+)
+
+china_aster.child_flowers.create!(
+  description: "Medium-sized slightly scented double violet flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
+  colour: "Violet, yellow",
+  significance: "Supramentalised Vital Transparency",
+  comment: "One of the results of conversion.",
+  image_url: "china_aster_violet.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Callistephus_chinensis_1.0_R.jpg"
+)
+
+china_aster.child_flowers.create!(
+  description: "Medium-sized slightly scented semi-double red flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
+  colour: "Red, yellow",
+  significance: "Transparency in the Physical",
+  comment: "The physical is preparing itself to be transformed.",
+  image_url: "china_aster_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:%EA%B3%BC%EA%BD%83_%EA%B0%80%EA%B9%8C%EC%9D%B4.JPG"
+)
+
+china_aster.child_flowers.create!(
+  description: "Medium-sized slightly scented double white flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
+  colour: "White, yellow",
+  significance: "Integral Transparency",
+  comment: "It is the result of goodwill and perfect sincerity.",
+  image_url: "china_aster_double_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Asteroideae_Sommeraster_wei%C3%9F.jpg"
+)
+
+china_aster.child_flowers.create!(
+  description: "Medium-sized slightly scented semi-double white flowers with a yellow central disc and numerous narrow ray florets creating a soft pom-pom effect; borne singly. A compact bushy annual.",
+  colour: "White, yellow",
+  significance: "Illumined Transparency",
+  comment: "An effect of the Divine Grace.",
+  image_url: "china_aster_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Flowers_-_Uncategorised_Garden_plants_75.JPG"
 )
 
 # Mudar
-
- mudar_01 = {
-  description: "Small mauve star-shaped flower with fleshy petals and a beautifully sculpted crown-like center; buds are greenish-grey and waxy; borne in dense terminal clusters. A large shrub with whitish woolly leaf surfaces.",
-  colour: "Mauve",
-  significance: "Courage",
-  comment: "Bold, it faces all dangers.",
-  image_url: "mudar_mauve.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:%22CALOTROPIS_GIGANTEA%22.JPG"
-}
-
-mudar_02 = {
-  description: "Small white star-shaped flower with fleshy petals and a beautifully sculpted crown-like center; buds are greenish-grey and waxy; borne in dense terminal clusters. A large shrub with whitish woolly leaf surfaces.",
-  colour: "White",
-  significance: "Integral Courage",
-  comment: "Whatever the domain, whatever the danger, the attitude remains the same - calm and assured.",
-  image_url: "mudar_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_070402-6308_Calotropis_gigantea.jpg"
-}
 
 mudar = Flower.create!(
   name: "Mudar",
@@ -8995,44 +8829,30 @@ mudar = Flower.create!(
   image_url: "mudar.jpg",
   thumbnail_url: "mudar_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Crown_flower_(Calotropis_gigantea),_HortPark,_Singapore_-_20090228-02.jpg",
-  variants: [
-    mudar_01,
-    mudar_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Crown_flower_(Calotropis_gigantea),_HortPark,_Singapore_-_20090228-02.jpg"
+)
+
+mudar.child_flowers.create!(
+  description: "Small mauve star-shaped flower with fleshy petals and a beautifully sculpted crown-like center; buds are greenish-grey and waxy; borne in dense terminal clusters. A large shrub with whitish woolly leaf surfaces.",
+  colour: "Mauve",
+  significance: "Courage",
+  comment: "Bold, it faces all dangers.",
+  image_url: "mudar_mauve.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:%22CALOTROPIS_GIGANTEA%22.JPG"
+)
+
+mudar.child_flowers.create!(
+  description: "Small white star-shaped flower with fleshy petals and a beautifully sculpted crown-like center; buds are greenish-grey and waxy; borne in dense terminal clusters. A large shrub with whitish woolly leaf surfaces.",
+  colour: "White",
+  significance: "Integral Courage",
+  comment: "Whatever the domain, whatever the danger, the attitude remains the same - calm and assured.",
+  image_url: "mudar_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_070402-6308_Calotropis_gigantea.jpg"
 )
 
 # Indian-shot
-
-indian_shot_01 = {
-  description: "Small glowing red flower with slender erect irregularly shaped petals and a recurved lip streaked yellow; borne in terminal racemes on long stems. An erect perennial rhizomatous herb with lush foliage.",
-  colour: "Red, yellow",
-  significance: "Friendship with the Divine",
-  comment: "Delicate, attentive, and faithful, always ready to respond to the smallest appeal.",
-  image_url: "indian_shot_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Utoquai_2012-08-08_19-48-10_(WB850F).JPG"
-}
-
-indian_shot_02 = {
-  description: "Small to medium-sized bright reddish-orange flower with slender petals slightly wider than those of Friendship with the Divine, and yellow streaks on two petals. Leaves are edged and veined with purple. An erect perennial rhizomatous herb with lush foliage.",
-  colour: "Bright reddish-orange, yellow",
-  significance: "Progressive Friendship with the Divine",
-  comment: "As we progress and purify ourselves of our egoism, our friendship with the Divine becomes clearer and more conscious.",
-  image_url: "indian_shot_red_orange.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Canna_-_Howrah_2011-03-20_2095.JPG"
-}
-
-indian_shot_03 = {
-  description: "Small glowing bright yellow flower with slender erect irregularly shaped petals; borne in terminal racemes on long stems. An erect perennial rhizomatous herb with lush foliage.",
-  colour: "Bright yellow",
-  significance: "Supramental Friendship with the Divine",
-  comment: "Luminous and light, always smiling.",
-  image_url: "indian_shot_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:JPoblacionSanRoque0661Pandifvf_03.JPG"
-}
 
 indian_shot = Flower.create!(
   name: "Indian-shot",
@@ -9045,135 +8865,40 @@ indian_shot = Flower.create!(
   image_url: "indian_shot.jpg",
   thumbnail_url: "indian_shot_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Flower_yellow_and_red.jpg",
-  variants: [
-    indian_shot_01,
-    indian_shot_02,
-    indian_shot_03
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Flower_yellow_and_red.jpg"
+)
+
+indian_shot.child_flowers.create!(
+  description: "Small glowing red flower with slender erect irregularly shaped petals and a recurved lip streaked yellow; borne in terminal racemes on long stems. An erect perennial rhizomatous herb with lush foliage.",
+  colour: "Red, yellow",
+  significance: "Friendship with the Divine",
+  comment: "Delicate, attentive, and faithful, always ready to respond to the smallest appeal.",
+  image_url: "indian_shot_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Utoquai_2012-08-08_19-48-10_(WB850F).JPG"
+)
+
+indian_shot.child_flowers.create!(
+  description: "Small to medium-sized bright reddish-orange flower with slender petals slightly wider than those of Friendship with the Divine, and yellow streaks on two petals. Leaves are edged and veined with purple. An erect perennial rhizomatous herb with lush foliage.",
+  colour: "Bright reddish-orange, yellow",
+  significance: "Progressive Friendship with the Divine",
+  comment: "As we progress and purify ourselves of our egoism, our friendship with the Divine becomes clearer and more conscious.",
+  image_url: "indian_shot_red_orange.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Canna_-_Howrah_2011-03-20_2095.JPG"
+)
+
+indian_shot.child_flowers.create!(
+  description: "Small glowing bright yellow flower with slender erect irregularly shaped petals; borne in terminal racemes on long stems. An erect perennial rhizomatous herb with lush foliage.",
+  colour: "Bright yellow",
+  significance: "Supramental Friendship with the Divine",
+  comment: "Luminous and light, always smiling.",
+  image_url: "indian_shot_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:JPoblacionSanRoque0661Pandifvf_03.JPG"
 )
 
 # Canna Lily
-
-canna_lily_01 = {
-  description: "Large showy flowers with three soft round irregular petals in shades of white, yellow, and pink, including several multicoloured borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
-  colour: "Multicoloured, shades of white, yellow, and pink",
-  significance: "Complexity of the Centres",
-  comment: "Responds to several influences at a time.",
-  image_url: "canna_lily_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_980528-4108_Canna_x_generalis.jpg"
-}
-
-canna_lily_02 = {
-  description: "Large showy orange red flower with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
-  colour: "Orange red",
-  significance: "Physical Centre",
-  comment: "Occupied mainly with material things, it likes to have an ordered life.",
-  image_url: "canna_lily_orange_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:JfCanna_generalis326Arayatfvf.JPG"
-}
-
-canna_lily_03 = {
-  description: "Large showy dark red flower with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
-  colour: "Dark red",
-  significance: "Vital Centre",
-  comment: "Passionate and strong, it needs to be controlled.",
-  image_url: "canna_lily_dark_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Utoquai_2010-10-05_18-22-28.JPG"
-}
-
-canna_lily_04 = {
-  description: "Large showy deep rose pink flower with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
-  colour: "Deep rose pink",
-  significance: "Emotional Centre",
-  comment: "Vibrant and sensitive, it needs to be controlled.",
-  image_url: "canna_lily_rose_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_980528-4105_Canna_x_generalis.jpg"
-}
-
-canna_lily_05 = {
-  description: "Large showy predominantly salmon pink flowers marked with any other colour borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
-  colour: "Salmon pink",
-  significance: "Psychic Centre",
-  comment: "Luminous and calm, it is meant to govern the human being.",
-  image_url: "canna_lily_salmon_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Canna_lily_cm.jpg"
-}
-
-canna_lily_06 = {
-  description: "Large showy pale yellow flower with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
-  colour: "Pale yellow",
-  significance: "Illumined Mind Centre",
-  comment: "In the peace that comes from the perfect light.",
-  image_url: "canna_lily_pale_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_980528-4104_Canna_x_generalis.jpg"
-}
-
-canna_lily_07 = {
-  description: "Large showy light or dark yellow flowers having a few red specks towards the center, with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
-  colour: "Light or dark yellow, red",
-  significance: "Intuitive Mind Centre",
-  comment: "The activity of correct perception.",
-  image_url: "canna_lily_yellow_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_0366_rbgs10dec.jpg"
-}
-
-canna_lily_08 = {
-  description: "Large showy predominantly orange flower with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
-  colour: "Orange",
-  significance: "Future Supramental Centre",
-  comment: "What is involved in Nature will evolve and become manifest.",
-  image_url: "canna_lily_orange.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_0365_rbgs10dec.jpg"
-}
-
-canna_lily_09 = {
-  description: "Large showy cream white flower having pink specks with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
-  colour: "Cream white, pink",
-  significance: "Ananda in the Centres",
-  comment: "This will be one of the benefits resulting from physical conversion.",
-  image_url: "canna_lily_cream_pink.jpg",
-  source: "Canna National Collection",
-  url: "http://www.canna-collection.org.uk/"
-}
-
-canna_lily_10 = {
-  description: "Large showy cream white flower having a red center with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
-  colour: "Cream white, red",
-  significance: "Ananda in the Physical Body",
-  comment: "Purified of all desire and all repulsion, with perfect equality and surrender, the physical body is ready to enjoy the Divine Ananda.",
-  image_url: "canna_lily_cream_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Curico,_flores_(12646504963).jpg"
-}
-
-canna_lily_11 = {
-  description: "Large showy flowers with three soft round irregular petals, all bicoloured yellow and red flowers; borne in terminal clusters on sturdy stems erect perennial rhizomatous herb with lush foliage.",
-  colour: "Bicoloured, yellow, red",
-  significance: "Connection between the Light and Physical",
-  comment: "Physical centre, touched by the Light, awakens to the necessity of growth and blossoming.",
-  image_url: "canna_lily_bicoloured_yellow_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:La_llama_de_tu_amor.jpg"
-}
-
-canna_lily_12 = {
-  description: "Large showy flowers with three soft round irregular petals, all bicoloured orange and red flowers; borne in terminal clusters on sturdy stems erect perennial rhizomatous herb with lush foliage.",
-  colour: "Bicoloured, orange, red",
-  significance: "Connection between the Supermind and the Physical",
-  comment: "Physical centre open and full of the Supramental Light, on the way to transformation, generous and powerful.",
-  image_url: "canna_lily_bicoloured_orange_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Canna_cultivar.jpg"
-}
 
 canna_lily = Flower.create!(
   name: "Canna Lily",
@@ -9186,94 +8911,130 @@ canna_lily = Flower.create!(
   image_url: "canna_lily.jpg",
   thumbnail_url: "canna_lily_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_0364_rbgs10dec.jpg",
-  variants: [
-    canna_lily_01,
-    canna_lily_02,
-    canna_lily_03,
-    canna_lily_04,
-    canna_lily_05,
-    canna_lily_06,
-    canna_lily_07,
-    canna_lily_08,
-    canna_lily_09,
-    canna_lily_10,
-    canna_lily_11,
-    canna_lily_12
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_0364_rbgs10dec.jpg"
+)
+
+canna_lily.child_flowers.create!(
+  description: "Large showy flowers with three soft round irregular petals in shades of white, yellow, and pink, including several multicoloured borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
+  colour: "Multicoloured, shades of white, yellow, and pink",
+  significance: "Complexity of the Centres",
+  comment: "Responds to several influences at a time.",
+  image_url: "canna_lily_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_980528-4108_Canna_x_generalis.jpg"
+)
+
+canna_lily.child_flowers.create!(
+  description: "Large showy orange red flower with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
+  colour: "Orange red",
+  significance: "Physical Centre",
+  comment: "Occupied mainly with material things, it likes to have an ordered life.",
+  image_url: "canna_lily_orange_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:JfCanna_generalis326Arayatfvf.JPG"
+)
+
+canna_lily.child_flowers.create!(
+  description: "Large showy dark red flower with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
+  colour: "Dark red",
+  significance: "Vital Centre",
+  comment: "Passionate and strong, it needs to be controlled.",
+  image_url: "canna_lily_dark_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Utoquai_2010-10-05_18-22-28.JPG"
+)
+
+canna_lily.child_flowers.create!(
+  description: "Large showy deep rose pink flower with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
+  colour: "Deep rose pink",
+  significance: "Emotional Centre",
+  comment: "Vibrant and sensitive, it needs to be controlled.",
+  image_url: "canna_lily_rose_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_980528-4105_Canna_x_generalis.jpg"
+)
+
+canna_lily.child_flowers.create!(
+  description: "Large showy predominantly salmon pink flowers marked with any other colour borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
+  colour: "Salmon pink",
+  significance: "Psychic Centre",
+  comment: "Luminous and calm, it is meant to govern the human being.",
+  image_url: "canna_lily_salmon_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Canna_lily_cm.jpg"
+)
+
+canna_lily.child_flowers.create!(
+  description: "Large showy pale yellow flower with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
+  colour: "Pale yellow",
+  significance: "Illumined Mind Centre",
+  comment: "In the peace that comes from the perfect light.",
+  image_url: "canna_lily_pale_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_980528-4104_Canna_x_generalis.jpg"
+)
+
+canna_lily.child_flowers.create!(
+  description: "Large showy light or dark yellow flowers having a few red specks towards the center, with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
+  colour: "Light or dark yellow, red",
+  significance: "Intuitive Mind Centre",
+  comment: "The activity of correct perception.",
+  image_url: "canna_lily_yellow_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_0366_rbgs10dec.jpg"
+)
+
+canna_lily.child_flowers.create!(
+  description: "Large showy predominantly orange flower with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
+  colour: "Orange",
+  significance: "Future Supramental Centre",
+  comment: "What is involved in Nature will evolve and become manifest.",
+  image_url: "canna_lily_orange.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_0365_rbgs10dec.jpg"
+)
+
+canna_lily.child_flowers.create!(
+  description: "Large showy cream white flower having pink specks with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
+  colour: "Cream white, pink",
+  significance: "Ananda in the Centres",
+  comment: "This will be one of the benefits resulting from physical conversion.",
+  image_url: "canna_lily_cream_pink.jpg",
+  source: "Canna National Collection",
+  url: "http://www.canna-collection.org.uk/"
+)
+
+canna_lily.child_flowers.create!(
+  description: "Large showy cream white flower having a red center with three soft round irregular petals borne in terminal clusters on sturdy stems; erect perennial rhizomatous herb with lush foliage.",
+  colour: "Cream white, red",
+  significance: "Ananda in the Physical Body",
+  comment: "Purified of all desire and all repulsion, with perfect equality and surrender, the physical body is ready to enjoy the Divine Ananda.",
+  image_url: "canna_lily_cream_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Curico,_flores_(12646504963).jpg"
+)
+
+canna_lily.child_flowers.create!(
+  description: "Large showy flowers with three soft round irregular petals, all bicoloured yellow and red flowers; borne in terminal clusters on sturdy stems erect perennial rhizomatous herb with lush foliage.",
+  colour: "Bicoloured, yellow, red",
+  significance: "Connection between the Light and Physical",
+  comment: "Physical centre, touched by the Light, awakens to the necessity of growth and blossoming.",
+  image_url: "canna_lily_bicoloured_yellow_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:La_llama_de_tu_amor.jpg"
+)
+
+canna_lily.child_flowers.create!(
+  description: "Large showy flowers with three soft round irregular petals, all bicoloured orange and red flowers; borne in terminal clusters on sturdy stems erect perennial rhizomatous herb with lush foliage.",
+  colour: "Bicoloured, orange, red",
+  significance: "Connection between the Supermind and the Physical",
+  comment: "Physical centre open and full of the Supramental Light, on the way to transformation, generous and powerful.",
+  image_url: "canna_lily_bicoloured_orange_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Canna_cultivar.jpg"
 )
 
 # Madagascar Periwinkle
-
-madagascar_periwinkle_01 = {
-  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; in white and shades of pink and red, often with a contrasting eye; borne singly in the leaf axils. A long-blooming perennial herb.",
-  colour: "White and shades of pink and red",
-  significance: "Progress",
-  comment: "This is why we are on earth.",
-  image_url: "madagascar_periwinkle_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:VincaGarden.JPG"
-}
-
-madagascar_periwinkle_02 = {
-  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; light pink violet; borne singly in the leaf axils. A long-blooming perennial herb.",
-  colour: "Light pink violet",
-  significance: "Vital Progress",
-  comment: "Organisation around the Divine Will and progressive surrender to that Will.",
-  image_url: "madagascar_periwinkle_pink_violet.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Catharanthus_roseus,_Kourou_2.jpg"
-}
-
-madagascar_periwinkle_03 = {
-  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; white with violet center; borne singly in the leaf axils. A long-blooming perennial herb.",
-  colour: "White, violet",
-  significance: "Integral Progress in the Vital",
-  comment: "The vital consents to be purified.",
-  image_url: "madagascar_periwinkle_white_violet.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_061223-2740_Catharanthus_roseus.jpg"
-}
-
-madagascar_periwinkle_04 = {
-  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; light pink with red center; borne singly in the leaf axils. A long-blooming perennial herb.",
-  colour: "Light pink, red",
-  significance: "Constant Progress in Matter",
-  comment: "The result of an ardent aspiration.",
-  image_url: "madagascar_periwinkle_pink_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:2010._%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0_%D1%86%D0%B2%D0%B5%D1%82%D0%BE%D0%B2_%D0%B2_%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B5_%D0%BD%D0%B0_%D0%B4%D0%B5%D0%BD%D1%8C_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_120.jpg"
-}
-
-madagascar_periwinkle_05 = {
-  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; white with red center; borne singly in the leaf axils. A long-blooming perennial herb.",
-  colour: "White, red",
-  significance: "Integral Progress in Matter",
-  comment: "Matter awakens to consciousness.",
-  image_url: "madagascar_periwinkle_white_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Catharanthus_roseus_white_CC-BY-SA.jpg"
-}
-
-madagascar_periwinkle_06 = {
-  description: "Small to medium-sized white salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; borne singly in the leaf axils. A long-blooming perennial herb.",
-  colour: "White",
-  significance: "Integral Progress",
-  comment: "Can only be satisfied by integrality. The best way to go fast.",
-  image_url: "madagascar_periwinkle_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Catharanthus_roseus_at_Universitas_Gadjah_Mada,_Yogyakarta,_2014-04-30_06.jpg"
-}
-
-madagascar_periwinkle_07 = {
-  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; light pink violet, streaked white; borne singly in the leaf axils. A long-blooming perennial herb.",
-  colour: "Light pink violet, white",
-  significance: "Uninterrupted but Spasmodic Progress",
-  comment: "Now here, now there, apparently very impulsive.",
-  image_url: "madagascar_periwinkle_pink_violet_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Catharanthus_roseus_26_10_2009.jpg"
-}
 
 madagascar_periwinkle = Flower.create!(
   name: "Madagascar Periwinkle",
@@ -9287,86 +9048,80 @@ madagascar_periwinkle = Flower.create!(
   image_url: "madagascar_periwinkle.jpg",
   thumbnail_url: "madagascar_periwinkle_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Ab_plant_392.jpg",
-  variants: [
-    madagascar_periwinkle_01,
-    madagascar_periwinkle_02,
-    madagascar_periwinkle_03,
-    madagascar_periwinkle_04,
-    madagascar_periwinkle_05,
-    madagascar_periwinkle_06,
-    madagascar_periwinkle_07
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Ab_plant_392.jpg"
+)
+
+madagascar_periwinkle.child_flowers.create!(
+  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; in white and shades of pink and red, often with a contrasting eye; borne singly in the leaf axils. A long-blooming perennial herb.",
+  colour: "White and shades of pink and red",
+  significance: "Progress",
+  comment: "This is why we are on earth.",
+  image_url: "madagascar_periwinkle_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:VincaGarden.JPG"
+)
+
+madagascar_periwinkle.child_flowers.create!(
+  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; light pink violet; borne singly in the leaf axils. A long-blooming perennial herb.",
+  colour: "Light pink violet",
+  significance: "Vital Progress",
+  comment: "Organisation around the Divine Will and progressive surrender to that Will.",
+  image_url: "madagascar_periwinkle_pink_violet.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Catharanthus_roseus,_Kourou_2.jpg"
+)
+
+madagascar_periwinkle.child_flowers.create!(
+  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; white with violet center; borne singly in the leaf axils. A long-blooming perennial herb.",
+  colour: "White, violet",
+  significance: "Integral Progress in the Vital",
+  comment: "The vital consents to be purified.",
+  image_url: "madagascar_periwinkle_white_violet.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_061223-2740_Catharanthus_roseus.jpg"
+)
+
+madagascar_periwinkle.child_flowers.create!(
+  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; light pink with red center; borne singly in the leaf axils. A long-blooming perennial herb.",
+  colour: "Light pink, red",
+  significance: "Constant Progress in Matter",
+  comment: "The result of an ardent aspiration.",
+  image_url: "madagascar_periwinkle_pink_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:2010._%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0_%D1%86%D0%B2%D0%B5%D1%82%D0%BE%D0%B2_%D0%B2_%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B5_%D0%BD%D0%B0_%D0%B4%D0%B5%D0%BD%D1%8C_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_120.jpg"
+)
+
+madagascar_periwinkle.child_flowers.create!(
+  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; white with red center; borne singly in the leaf axils. A long-blooming perennial herb.",
+  colour: "White, red",
+  significance: "Integral Progress in Matter",
+  comment: "Matter awakens to consciousness.",
+  image_url: "madagascar_periwinkle_white_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Catharanthus_roseus_white_CC-BY-SA.jpg"
+)
+
+madagascar_periwinkle.child_flowers.create!(
+  description: "Small to medium-sized white salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; borne singly in the leaf axils. A long-blooming perennial herb.",
+  colour: "White",
+  significance: "Integral Progress",
+  comment: "Can only be satisfied by integrality. The best way to go fast.",
+  image_url: "madagascar_periwinkle_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Catharanthus_roseus_at_Universitas_Gadjah_Mada,_Yogyakarta,_2014-04-30_06.jpg"
+)
+
+madagascar_periwinkle.child_flowers.create!(
+  description: "Small to medium-sized salverform flowers with a narrow green corolla tube and limb divided into five separated spatulate lobes; light pink violet, streaked white; borne singly in the leaf axils. A long-blooming perennial herb.",
+  colour: "Light pink violet, white",
+  significance: "Uninterrupted but Spasmodic Progress",
+  comment: "Now here, now there, apparently very impulsive.",
+  image_url: "madagascar_periwinkle_pink_violet_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Catharanthus_roseus_26_10_2009.jpg"
 )
 
 # Orchid
-
-orchid_01 = {
-  bot_name: "Cattleya",
-  description: "All species in many colours except white and lavender pink. Large fragrant flower with three narrow petal-like sepals held behind two wide horizontal trilled petals and a third lower petal modified to form a showy lip; borne in few-flowered racemes. An epiphyte with thick stiff leaves and pseudo-bulbs.",
-  colour: "Many colours, except white and lavender pink",
-  significance: "Attachment to the Divine",
-  comment: "Wraps itself around the Divine and finds all its support in Him so as to be sure of never leaving Him.",
-  image_url: "orchid_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Dungsia_harpophylla.jpg"
-}
-
-orchid_02 = {
-  bot_name: "Cattleya",
-  description: "Lavender pink flower with a lime green throat marked with magenta. Large fragrant flower with three narrow petal-like sepals held behind two wide horizontal trilled petals and a third lower petal modified to form a showy lip; borne in few-flowered racemes. An epiphyte with thick stiff leaves and pseudo-bulbs.",
-  colour: "Lavender pink, lime green, magenta",
-  significance: "Beauty of Attachment to the Divine",
-  comment: "When the physical world manifests the splendour of the Divine, all will become marvellous.",
-  image_url: "orchid_lavender_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:A_and_B_Larsen_orchids_-_Cattleya_lueddemannia597-21.jpg"
-}
-
-orchid_03 = {
-  bot_name: "Cattleya",
-  description: "Large fragrant white flower with three narrow petal-like sepals held behind two wide horizontal trilled petals and a third lower petal modified to form a showy lip; borne in few-flowered racemes. An epiphyte with thick stiff leaves and pseudo-bulbs.",
-  colour: "White",
-  significance: "The Aim of Existence is Realised",
-  comment: "Exists only by and for the Divine.",
-  image_url: "orchid_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Cattleya_lawrenceana_forma_albescens_Seiho.jpg"
-
-}
-
-orchid_04 = {
-  bot_name: "Dendrobium moschatum",
-  description: "Medium-sized fragrant pale golden orange flower with one erect and two lower sepals, two wider horizontal petals and a prominent fuzzy, pouch-like lip with two maroon spots near the base; borne in pendulous racemes. A showy epiphyte.",
-  colour: "Pale golden orange, maroon",
-  significance: "Mental Attachment to the Divine",
-  comment: "Beautiful in form and in expression.",
-  image_url: "orchid_golden_orange.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Dendrobium_moschatum_(Ecological_Botanical_Gardens_2015_-_04).jpg"
-}
-
-orchid_05 = {
-  bot_name: "Papilionanthe teres [Vanda teres]",
-  description: "Medium-sized flower with five ovate widely separated pale pinkish-lavender petals and a central arched golden yellow lip with the lower edge extended to form two rounded pinkish-lavender lobes; borne in erect racemes. An erect epiphyte with terete leaves.",
-  colour: "Pale pinkish-lavender, golden yellow",
-  significance: "Emotional Attachment to the Divine",
-  comment: "Cups of flowery feeling offered to the Divine",
-  image_url: "orchid_pink_golden.jpg",
-  source: "MaX Fulcher",
-  url: "https://www.flickr.com/photos/maxful/11302326975/"
-}
-
-orchid_06 = {
-  bot_name: "Vanda tessellata",
-  description: "Medium-sized fragrant flower with five stiff separated olive green petals with crinkled edges and marked with greenish-yellow, and a prominent lavender lip; widely spaced on erect racemes. A heat-loving epiphyte with narrow strap-like leaves.",
-  colour: "Olive green, greenish-yellow, lavender",
-  significance: "Detailed Attachment to the Divine",
-  comment: "Manifold, scrupulous, neglecting nothing, always ready to make an effort, meticulous.",
-  image_url: "orchid_green_lavender.jpg",
-  source: "crazyforflowers, Orchids Forum",
-  url: "https://www.orchidsforum.com/threads/vanda-tessellata.14141/"
-}
 
 orchid = Flower.create!(
   name: "Orchid",
@@ -9381,87 +9136,65 @@ orchid = Flower.create!(
   image_url: "orchid.jpg",
   thumbnail_url: "orchid_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Cattleya_mossiae2.jpg",
-  variants: [
-    orchid_01,
-    orchid_02,
-    orchid_03,
-    orchid_04,
-    orchid_05,
-    orchid_06
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Cattleya_mossiae2.jpg"
+)
+
+orchid.child_flowers.create!(
+  bot_name: "Cattleya",
+  description: "All species in many colours except white and lavender pink. Large fragrant flower with three narrow petal-like sepals held behind two wide horizontal trilled petals and a third lower petal modified to form a showy lip; borne in few-flowered racemes. An epiphyte with thick stiff leaves and pseudo-bulbs.",
+  colour: "Many colours, except white and lavender pink",
+  significance: "Attachment to the Divine",
+  comment: "Wraps itself around the Divine and finds all its support in Him so as to be sure of never leaving Him.",
+  image_url: "orchid_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Dungsia_harpophylla.jpg"
+)
+
+orchid.child_flowers.create!(
+  bot_name: "Cattleya",
+  description: "Lavender pink flower with a lime green throat marked with magenta. Large fragrant flower with three narrow petal-like sepals held behind two wide horizontal trilled petals and a third lower petal modified to form a showy lip; borne in few-flowered racemes. An epiphyte with thick stiff leaves and pseudo-bulbs.",
+  colour: "Lavender pink, lime green, magenta",
+  significance: "Beauty of Attachment to the Divine",
+  comment: "When the physical world manifests the splendour of the Divine, all will become marvellous.",
+  image_url: "orchid_lavender_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:A_and_B_Larsen_orchids_-_Cattleya_lueddemannia597-21.jpg"
+)
+
+orchid.child_flowers.create!(
+  bot_name: "Dendrobium moschatum",
+  description: "Medium-sized fragrant pale golden orange flower with one erect and two lower sepals, two wider horizontal petals and a prominent fuzzy, pouch-like lip with two maroon spots near the base; borne in pendulous racemes. A showy epiphyte.",
+  colour: "Pale golden orange, maroon",
+  significance: "Mental Attachment to the Divine",
+  comment: "Beautiful in form and in expression.",
+  image_url: "orchid_golden_orange.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Dendrobium_moschatum_(Ecological_Botanical_Gardens_2015_-_04).jpg"
+)
+
+orchid.child_flowers.create!(
+  bot_name: "Papilionanthe teres [Vanda teres]",
+  description: "Medium-sized flower with five ovate widely separated pale pinkish-lavender petals and a central arched golden yellow lip with the lower edge extended to form two rounded pinkish-lavender lobes; borne in erect racemes. An erect epiphyte with terete leaves.",
+  colour: "Pale pinkish-lavender, golden yellow",
+  significance: "Emotional Attachment to the Divine",
+  comment: "Cups of flowery feeling offered to the Divine",
+  image_url: "orchid_pink_golden.jpg",
+  source: "MaX Fulcher",
+  url: "https://www.flickr.com/photos/maxful/11302326975/"
+)
+
+orchid.child_flowers.create!(
+  bot_name: "Vanda tessellata",
+  description: "Medium-sized fragrant flower with five stiff separated olive green petals with crinkled edges and marked with greenish-yellow, and a prominent lavender lip; widely spaced on erect racemes. A heat-loving epiphyte with narrow strap-like leaves.",
+  colour: "Olive green, greenish-yellow, lavender",
+  significance: "Detailed Attachment to the Divine",
+  comment: "Manifold, scrupulous, neglecting nothing, always ready to make an effort, meticulous.",
+  image_url: "orchid_green_lavender.jpg",
+  source: "crazyforflowers, Orchids Forum",
+  url: "https://www.orchidsforum.com/threads/vanda-tessellata.14141/"
 )
 
 # Feathered Amaranth
-
-feathered_amaranth_01 = {
-  description: "Long erect branching spikes of tiny golden-yellow loosely arranged everlasting flowers that form soft feathery plumes. A showy floriferous garden annual.",
-  colour: "Golden-yellow",
-  significance: "Abundant Expression",
-  comment: "Has much to say and says it fully.",
-  image_url: "feathered_amaranth_golden_yellow.jpg",
-  source: "Timo Kuusela",
-  url: "https://www.flickr.com/photos/rdvortex/662017643"
-}
-
-feathered_amaranth_02 = {
-  description: "Long erect branching spikes of tiny golden-orange loosely arranged everlasting flowers that form soft feathery plumes. A showy floriferous garden annual.",
-  colour: "Golden-orange",
-  significance: "Joyful Expression",
-  comment: "It enjoys itself and gives enjoyment to others.",
-  image_url: "feathered_amaranth_golden_orange.jpg",
-  source: "Horticulture 131, PennState",
-  url: "http://www.personal.psu.edu/rdb4/hort131/weekly-lessons/week-4/week-4-plants/celosia/"
-}
-
-feathered_amaranth_03 = {
-  description: "Long erect branching spikes of tiny greenish-white loosely arranged everlasting flowers that form soft feathery plumes. A showy floriferous garden annual.",
-  colour: "Greenish-white",
-  significance: "Attempt towards Immortality",
-  comment: "Persistent and coordinated.",
-  image_url: "feathered_amaranth_green_white.jpg",
-  source: "Prof. Summer's Web Garden - Japanese Wild Flowers",
-  url: "http://flowers.la.coocan.jp/Amaranthaceae/Celosia%20argentea.htm"
-}
-
-feathered_amaranth_04 = {
-  description: "Long erect branching spikes of loosely arranged everlasting flowers that form soft feathery plumes; all colours except greenish-white, purplish-pink, and red. A showy floriferous garden annual.",
-  colour: "All colours",
-  significance: "Aspiration for Immortality",
-  comment: "Pure, soaring, full of trust.",
-  image_url: "feathered_amaranth_mix.jpg",
-  source: "Nargil - Plant Database",
-  url: "http://nargil.ir/plant/houseplants.aspx?pid=107"
-}
-
-feathered_amaranth_05 = {
-  description: "Long erect branching spikes of tiny purplish-pink loosely arranged everlasting flowers that form soft feathery plumes. A showy floriferous garden annual.",
-  colour: "Purplish-pink",
-  significance: "Vital Aspiration for Immortality",
-  comment: "Clustered, intense, but short-lived.",
-  image_url: "feathered_amaranth_purple_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Celosia_plumosa_02.jpg"
-}
-
-feathered_amaranth_06 = {
-  description: "Long erect branching spikes of tiny red loosely arranged everlasting flowers that form soft feathery plumes. A showy floriferous garden annual.",
-  colour: "Red",
-  significance: "Physical Aspiration for Immortality",
-  comment: "Intense aspiration, but ignorant of the means.",
-  image_url: "feathered_amaranth_red_1.jpg",
-  source: "Horticulture 131, PennState",
-  url: "http://www.personal.psu.edu/rdb4/hort131/weekly-lessons/week-4/week-4-plants/celosia/"
-}
-
-feathered_amaranth_07 = {
-  description: "Long erect branching spikes of tiny red loosely arranged everlasting flowers that form soft feathery plumes. A showy floriferous garden annual.",
-  colour: "Red",
-  significance: "Spiritual Aspiration in the Vital",
-  image_url: "feathered_amaranth_red_2.jpg",
-  source: "Bedding Plants, Auburn University Landscape Horticulture",
-  url: "http://www.ag.auburn.edu/hort/landscape/BEDDING_celosia_argentea_var.plumosa_'Fresh_Look_Red'.html"
-}
 
 feathered_amaranth = Flower.create!(
   name: "Feathered Amaranth",
@@ -9473,69 +9206,79 @@ feathered_amaranth = Flower.create!(
   image_url: "feathered_amaranth.jpg",
   thumbnail_url: "feathered_amaranth_thumbnail.jpg",
   source: "LookForDiagnosis.com - Medical Diagnosis and Medicinal Plants",
-  url: "http://www.lookfordiagnosis.com/mesh_info.php?term=Celosia&lang=1",
-  variants: [
-    feathered_amaranth_01,
-    feathered_amaranth_02,
-    feathered_amaranth_03,
-    feathered_amaranth_04,
-    feathered_amaranth_05,
-    feathered_amaranth_06,
-    feathered_amaranth_07
-  ]
+  url: "http://www.lookfordiagnosis.com/mesh_info.php?term=Celosia&lang=1"
+)
+
+feathered_amaranth.child_flowers.create!(
+  description: "Long erect branching spikes of tiny golden yellow loosely arranged everlasting flowers that form soft feathery plumes. A showy floriferous garden annual.",
+  colour: "Golden yellow",
+  significance: "Abundant Expression",
+  comment: "Has much to say and says it fully.",
+  image_url: "feathered_amaranth_golden_yellow.jpg",
+  source: "Timo Kuusela",
+  url: "https://www.flickr.com/photos/rdvortex/662017643"
+)
+
+feathered_amaranth.child_flowers.create!(
+  description: "Long erect branching spikes of tiny golden orange loosely arranged everlasting flowers that form soft feathery plumes. A showy floriferous garden annual.",
+  colour: "Golden orange",
+  significance: "Joyful Expression",
+  comment: "It enjoys itself and gives enjoyment to others.",
+  image_url: "feathered_amaranth_golden_orange.jpg",
+  source: "Horticulture 131, PennState",
+  url: "http://www.personal.psu.edu/rdb4/hort131/weekly-lessons/week-4/week-4-plants/celosia/"
+)
+
+feathered_amaranth.child_flowers.create!(
+  description: "Long erect branching spikes of tiny greenish-white loosely arranged everlasting flowers that form soft feathery plumes. A showy floriferous garden annual.",
+  colour: "Greenish-white",
+  significance: "Attempt towards Immortality",
+  comment: "Persistent and coordinated.",
+  image_url: "feathered_amaranth_green_white.jpg",
+  source: "Prof. Summer's Web Garden - Japanese Wild Flowers",
+  url: "http://flowers.la.coocan.jp/Amaranthaceae/Celosia%20argentea.htm"
+)
+
+feathered_amaranth.child_flowers.create!(
+  description: "Long erect branching spikes of loosely arranged everlasting flowers that form soft feathery plumes; all colours except greenish-white, purplish-pink, and red. A showy floriferous garden annual.",
+  colour: "All colours",
+  significance: "Aspiration for Immortality",
+  comment: "Pure, soaring, full of trust.",
+  image_url: "feathered_amaranth_mix.jpg",
+  source: "Nargil - Plant Database",
+  url: "http://nargil.ir/plant/houseplants.aspx?pid=107"
+)
+
+feathered_amaranth.child_flowers.create!(
+  description: "Long erect branching spikes of tiny purplish-pink loosely arranged everlasting flowers that form soft feathery plumes. A showy floriferous garden annual.",
+  colour: "Purplish-pink",
+  significance: "Vital Aspiration for Immortality",
+  comment: "Clustered, intense, but short-lived.",
+  image_url: "feathered_amaranth_purple_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Celosia_plumosa_02.jpg"
+)
+
+feathered_amaranth.child_flowers.create!(
+  description: "Long erect branching spikes of tiny red loosely arranged everlasting flowers that form soft feathery plumes. A showy floriferous garden annual.",
+  colour: "Red",
+  significance: "Physical Aspiration for Immortality",
+  comment: "Intense aspiration, but ignorant of the means.",
+  image_url: "feathered_amaranth_red_1.jpg",
+  source: "Horticulture 131, PennState",
+  url: "http://www.personal.psu.edu/rdb4/hort131/weekly-lessons/week-4/week-4-plants/celosia/"
+)
+
+feathered_amaranth.child_flowers.create!(
+  description: "Long erect branching spikes of tiny red loosely arranged everlasting flowers that form soft feathery plumes. A showy floriferous garden annual.",
+  colour: "Red",
+  significance: "Spiritual Aspiration in the Vital",
+  image_url: "feathered_amaranth_red_2.jpg",
+  source: "Bedding Plants, Auburn University Landscape Horticulture",
+  url: "http://www.ag.auburn.edu/hort/landscape/BEDDING_celosia_argentea_var.plumosa_'Fresh_Look_Red'.html"
 )
 
 # Common Cockscomb
-
-common_cockscomb_01 = {
-  description: "Colourful compact velvety rounded or flared floral heads with intricate convolutions; the tiny inconspicuous flowers are sparsely arranged on the stem below; in white and shades of yellow, orange, pink, purple, and red. A bold striking annual.",
-  colour: "White and shades of yellow, orange, pink, purple, and red",
-  significance: "Boldness",
-  comment: "Do fearlessly what has to be done, dreading no difficulty.",
-  image_url: "common_cockscomb_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Cockscomb_or_Celosia_argentea_from_lalbagh_1700.JPG"
-}
-
-common_cockscomb_02 = {
-  description: "Green compact velvety rounded or flared floral heads with intricate convolutions; the tiny inconspicuous flowers are sparsely arranged on the stem below. A bold striking annual.",
-  colour: "Green",
-  significance: "Spontaneous Boldness",
-  comment: "One of the results of perfect trust in the Divine",
-  image_url: "common_cockscomb_green.jpg",
-  source: "Mark Dwyer, Rotary Botanical Gardens Horticulture Blog",
-  url: "http://rotarygardens.blogspot.in/2013/10/hls-set-up-commences.html"
-}
-
-common_cockscomb_03 = {
-  description: "Yellow compact velvety rounded or flared floral heads with intricate convolutions; the tiny inconspicuous flowers are sparsely arranged on the stem below. A bold striking annual.",
-  colour: "Yellow",
-  significance: "Mental Boldness",
-  comment: "May your mind be capable of foreseeing the perfections of tomorrow.",
-  image_url: "common_cockscomb_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Celosia.JPG"
-}
-
-common_cockscomb_04 = {
-  description: "Dark red compact velvety rounded or flared floral heads with intricate convolutions; the tiny inconspicuous flowers are sparsely arranged on the stem below. A bold striking annual.",
-  colour: "Dark red",
-  significance: "Vital Boldness",
-  comment: "Should submit to reason.",
-  image_url: "common_cockscomb_dark_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Unidentified_flower_(2981650843).jpg"
-}
-
-common_cockscomb_05 = {
-  description: "Red compact velvety rounded or flared floral heads with intricate convolutions; the tiny inconspicuous flowers are sparsely arranged on the stem below. A bold striking annual.",
-  colour: "Red",
-  significance: "Physical Boldness",
-  comment: "Nothing seems impossible in its consecration to the Divine.",
-  image_url: "common_cockscomb_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Celosia_argentea_var._cristata.JPG"
-}
 
 common_cockscomb = Flower.create!(
   name: "Common Cockscomb",
@@ -9546,37 +9289,60 @@ common_cockscomb = Flower.create!(
   image_url: "common_cockscomb.jpg",
   thumbnail_url: "common_cockscomb_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Celosia_argentea_cristata_1.jpg",
-  variants: [
-    common_cockscomb_01,
-    common_cockscomb_02,
-    common_cockscomb_03,
-    common_cockscomb_04,
-    common_cockscomb_05
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Celosia_argentea_cristata_1.jpg"
+)
+
+common_cockscomb.child_flowers.create!(
+  description: "Colourful compact velvety rounded or flared floral heads with intricate convolutions; the tiny inconspicuous flowers are sparsely arranged on the stem below; in white and shades of yellow, orange, pink, purple, and red. A bold striking annual.",
+  colour: "White and shades of yellow, orange, pink, purple, and red",
+  significance: "Boldness",
+  comment: "Do fearlessly what has to be done, dreading no difficulty.",
+  image_url: "common_cockscomb_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Cockscomb_or_Celosia_argentea_from_lalbagh_1700.JPG"
+)
+
+common_cockscomb.child_flowers.create!(
+  description: "Green compact velvety rounded or flared floral heads with intricate convolutions; the tiny inconspicuous flowers are sparsely arranged on the stem below. A bold striking annual.",
+  colour: "Green",
+  significance: "Spontaneous Boldness",
+  comment: "One of the results of perfect trust in the Divine",
+  image_url: "common_cockscomb_green.jpg",
+  source: "Mark Dwyer, Rotary Botanical Gardens Horticulture Blog",
+  url: "http://rotarygardens.blogspot.in/2013/10/hls-set-up-commences.html"
+)
+
+common_cockscomb.child_flowers.create!(
+  description: "Yellow compact velvety rounded or flared floral heads with intricate convolutions; the tiny inconspicuous flowers are sparsely arranged on the stem below. A bold striking annual.",
+  colour: "Yellow",
+  significance: "Mental Boldness",
+  comment: "May your mind be capable of foreseeing the perfections of tomorrow.",
+  image_url: "common_cockscomb_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Celosia.JPG"
+)
+
+common_cockscomb.child_flowers.create!(
+  description: "Dark red compact velvety rounded or flared floral heads with intricate convolutions; the tiny inconspicuous flowers are sparsely arranged on the stem below. A bold striking annual.",
+  colour: "Dark red",
+  significance: "Vital Boldness",
+  comment: "Should submit to reason.",
+  image_url: "common_cockscomb_dark_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Unidentified_flower_(2981650843).jpg"
+)
+
+common_cockscomb.child_flowers.create!(
+  description: "Red compact velvety rounded or flared floral heads with intricate convolutions; the tiny inconspicuous flowers are sparsely arranged on the stem below. A bold striking annual.",
+  colour: "Red",
+  significance: "Physical Boldness",
+  comment: "Nothing seems impossible in its consecration to the Divine.",
+  image_url: "common_cockscomb_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Celosia_argentea_var._cristata.JPG"
 )
 
 # Bag Flower
-
-bag_flower_01 = {
-  description: "Small very delicate white salverform flower with a long thin corolla tube, an irregularly shaped limb with scalloped edges, and long thin rose violet stamens; borne in clusters. A small shrub or woody herb.",
-  colour: "White, rose violet",
-  significance: "Belief",
-  comment: "Simple and candid, does not question.",
-  image_url: "bag_flower_1.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Clerodendrum_quadriloculare_-_Hong_Kong_Park_Conservatory_-_IMG_9811.JPG"
-}
-
-bag_flower_02 = {
-  description: "Small mildly fragrant white salverform flower with exserted white stamens, a thin corolla tube, and five narrow lobes with up-curving edges; borne in axillary panicles. A small to medium-sized shrub with ovate irregularly serrate leaves.",
-  colour: "White",
-  significance: "Divine Will Acting in the Inconscient",
-  comment: "Is all-powerful even when we are not aware of it.",
-  image_url: "bag_flower_2.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_090213-2510_Clerodendrum_quadriloculare.jpg"
-}
 
 bag_flower = Flower.create!(
   name: "Bag Flower",
@@ -9588,54 +9354,30 @@ bag_flower = Flower.create!(
   image_url: "bag_flower.jpg",
   thumbnail_url: "bag_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Clerodendrum_quadriloculare102636383.jpg",
-  variants: [
-    bag_flower_01,
-    bag_flower_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Clerodendrum_quadriloculare102636383.jpg"
+)
+
+bag_flower.child_flowers.create!(
+  description: "Small very delicate white salverform flower with a long thin corolla tube, an irregularly shaped limb with scalloped edges, and long thin rose violet stamens; borne in clusters. A small shrub or woody herb.",
+  colour: "White, rose violet",
+  significance: "Belief",
+  comment: "Simple and candid, does not question.",
+  image_url: "bag_flower_1.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Clerodendrum_quadriloculare_-_Hong_Kong_Park_Conservatory_-_IMG_9811.JPG"
+)
+
+bag_flower.child_flowers.create!(
+  description: "Small mildly fragrant white salverform flower with exserted white stamens, a thin corolla tube, and five narrow lobes with up-curving edges; borne in axillary panicles. A small to medium-sized shrub with ovate irregularly serrate leaves.",
+  colour: "White",
+  significance: "Divine Will Acting in the Inconscient",
+  comment: "Is all-powerful even when we are not aware of it.",
+  image_url: "bag_flower_2.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_090213-2510_Clerodendrum_quadriloculare.jpg"
 )
 
 # Blue Pea
-
-blue_pea_01 = {
-  description: "Medium-sized single or double ultramarine blue papilionaceous flower that has a broad oval central petal with a yellow center and wing petals edged with pale blue; borne singly on a short stem. A slender perennial vine with bean-like pods.",
-  colour: "Ultramarine blue, yellow, pale blue",
-  significance: "Radha’s Consciousness",
-  comment: "Symbolises perfect attachment to the Divine.",
-  image_url: "blue_pea_ultramarine_blue_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Clitoria_ternatea.jpg"
-}
-
-blue_pea_02 = {
-  description: "Medium-sized single light purple or mauve papilionaceous flower that has a broad oval central petal with a yellow center and wing petals edged with pale blue; borne singly on a short stem. A slender perennial vine with bean-like pods.",
-  colour: "Light purple or mauve, yellow, pale blue",
-  significance: "Radha’s Consciousness in the Vital",
-  comment: "Perfect attachment to the Divine replaces all vital attractions and passions.",
-  image_url: "blue_pea_purple_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Clitoria_MS4124.JPG"
-}
-
-blue_pea_03 = {
-  description: "Medium-sized single papilionaceous flower that has a broad oval pale blue central petal with a yellow center and wing petals edged with pale blue; borne singly on a short stem. A slender perennial vine with bean-like pods.",
-  colour: "Pale blue, yellow",
-  significance: "Krishna’s Light in the Senses",
-  comment: "A first step towards transformation.",
-  image_url: "blue_pea_pale_blue_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_070402-6246_Clitoria_ternatea.jpg"
-}
-
-blue_pea_04 = {
-  description: "Medium-sized single papilionaceous flower that has a broad oval white central petal with a yellow center and white wing petals; borne singly on a short stem. A slender perennial vine with bean-like pods.",
-  colour: "White, yellow",
-  significance: "Purified Senses",
-  comment: "Can only be obtained by total surrender to the Truth.",
-  image_url: "blue_pea_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:White_Clitoria_ternatea.jpg"
-}
 
 blue_pea = Flower.create!(
   name: "Blue Pea",
@@ -9648,36 +9390,50 @@ blue_pea = Flower.create!(
   image_url: "blue_pea.jpg",
   thumbnail_url: "blue_pea_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_070402-6245_Clitoria_ternatea.jpg",
-  variants: [
-    blue_pea_01,
-    blue_pea_02,
-    blue_pea_03,
-    blue_pea_04
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Starr_070402-6245_Clitoria_ternatea.jpg"
+)
+
+blue_pea.child_flowers.create!(
+  description: "Medium-sized single or double ultramarine blue papilionaceous flower that has a broad oval central petal with a yellow center and wing petals edged with pale blue; borne singly on a short stem. A slender perennial vine with bean-like pods.",
+  colour: "Ultramarine blue, yellow, pale blue",
+  significance: "Radha’s Consciousness",
+  comment: "Symbolises perfect attachment to the Divine.",
+  image_url: "blue_pea_ultramarine_blue_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Clitoria_ternatea.jpg"
+)
+
+blue_pea.child_flowers.create!(
+  description: "Medium-sized single light purple or mauve papilionaceous flower that has a broad oval central petal with a yellow center and wing petals edged with pale blue; borne singly on a short stem. A slender perennial vine with bean-like pods.",
+  colour: "Light purple or mauve, yellow, pale blue",
+  significance: "Radha’s Consciousness in the Vital",
+  comment: "Perfect attachment to the Divine replaces all vital attractions and passions.",
+  image_url: "blue_pea_purple_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Clitoria_MS4124.JPG"
+)
+
+blue_pea.child_flowers.create!(
+  description: "Medium-sized single papilionaceous flower that has a broad oval pale blue central petal with a yellow center and wing petals edged with pale blue; borne singly on a short stem. A slender perennial vine with bean-like pods.",
+  colour: "Pale blue, yellow",
+  significance: "Krishna’s Light in the Senses",
+  comment: "A first step towards transformation.",
+  image_url: "blue_pea_pale_blue_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_070402-6246_Clitoria_ternatea.jpg"
+)
+
+blue_pea.child_flowers.create!(
+  description: "Medium-sized single papilionaceous flower that has a broad oval white central petal with a yellow center and white wing petals; borne singly on a short stem. A slender perennial vine with bean-like pods.",
+  colour: "White, yellow",
+  significance: "Purified Senses",
+  comment: "Can only be obtained by total surrender to the Truth.",
+  image_url: "blue_pea_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:White_Clitoria_ternatea.jpg"
 )
 
 # Dayflower
-
-dayflower_01 = {
-  description: "Small clear sky blue flower with two prominent clawed slightly ruffled opposite wing-like petals, a third petal that is tiny and inconspicuous, and four bright yellow anthers; borne singly from a folded green bract. An annual or perennial succulent herb.",
-  colour: "Sky blue, bright yellow",
-  significance: "Charity",
-  comment: "Simple and sweet, attentive to the needs of all.",
-  image_url: "dayflower_blue.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Commelina-communis-B.jpg"
-}
-
-dayflower_02 = {
-  description: "Tiny blue to lavender flower with two upper clawed petals, one lower inconspicuous petal, and three smaller whitish sepals; emerging singly or in pairs from a folded green bract. A perennial succulent herb.",
-  colour: "Blue to lavender, white",
-  significance: "First Conscious Reception of the Light in Nature",
-  comment: "The origin or starting-point of the will to progress. Nature has an instinctive thirst for Light.",
-  image_url: "dayflower_lavender.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Commelina_benghalensis_inflorescence_Layton_170_XTBG.JPG"
-}
 
 dayflower = Flower.create!(
   name: "Dayflower",
@@ -9691,34 +9447,30 @@ dayflower = Flower.create!(
   image_url: "dayflower.jpg",
   thumbnail_url: "dayflower_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Commelina_dayflower.jpg",
-  variants: [
-    dayflower_01,
-    dayflower_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Commelina_dayflower.jpg"
+)
+
+dayflower.child_flowers.create!(
+  description: "Small clear sky blue flower with two prominent clawed slightly ruffled opposite wing-like petals, a third petal that is tiny and inconspicuous, and four bright yellow anthers; borne singly from a folded green bract. An annual or perennial succulent herb.",
+  colour: "Sky blue, bright yellow",
+  significance: "Charity",
+  comment: "Simple and sweet, attentive to the needs of all.",
+  image_url: "dayflower_blue.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Commelina-communis-B.jpg"
+)
+
+dayflower.child_flowers.create!(
+  description: "Tiny blue to lavender flower with two upper clawed petals, one lower inconspicuous petal, and three smaller whitish sepals; emerging singly or in pairs from a folded green bract. A perennial succulent herb.",
+  colour: "Blue to lavender, white",
+  significance: "First Conscious Reception of the Light in Nature",
+  comment: "The origin or starting-point of the will to progress. Nature has an instinctive thirst for Light.",
+  image_url: "dayflower_lavender.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Commelina_benghalensis_inflorescence_Layton_170_XTBG.JPG"
 )
 
 # Cannonball Tree
-
-cannonball_tree_01 = {
-  description: "Large very fragrant light to deep red flowers with six wide fleshy satiny petals and a prominent central hood ending in numerous yellow-tipped stamens; borne in long pendulous racemes directly from the trunk and main branches. A moderately large tree with unique cannonball-shaped fruits.",
-  colour: "Light to deep red, yellow",
-  significance: "Prosperity",
-  comment: "Remains only with him who offers it to the Divine.",
-  image_url: "cannonball_tree_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Ricardo_Haleck_-_049.jpg"
-}
-
-cannonball_tree_02 = {
-  description: "Large very fragrant pink and white flowers with six wide fleshy satiny petals and a prominent central hood ending in numerous yellow-tipped stamens; borne in long pendulous racemes directly from the trunk and main branches. A moderately large tree with unique cannonball-shaped fruits.",
-  colour: "Pink, white, yellow",
-  significance: "Unselfish Prosperity",
-  comment: "He who receives it abundantly gives all that he has as he receives it.",
-  image_url: "cannonball_tree_pink_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Cannonball_Tree_Flower.jpg"
-}
 
 cannonball_tree = Flower.create!(
   name: "Cannonball Tree",
@@ -9731,44 +9483,30 @@ cannonball_tree = Flower.create!(
   image_url: "cannonball_tree.jpg",
   thumbnail_url: "cannonball_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Abric%C3%B3-de-macaco_flor.jpg",
-  variants: [
-    cannonball_tree_01,
-    cannonball_tree_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Abric%C3%B3-de-macaco_flor.jpg"
+)
+
+cannonball_tree.child_flowers.create!(
+  description: "Large very fragrant light to deep red flowers with six wide fleshy satiny petals and a prominent central hood ending in numerous yellow-tipped stamens; borne in long pendulous racemes directly from the trunk and main branches. A moderately large tree with unique cannonball-shaped fruits.",
+  colour: "Light to deep red, yellow",
+  significance: "Prosperity",
+  comment: "Remains only with him who offers it to the Divine.",
+  image_url: "cannonball_tree_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Ricardo_Haleck_-_049.jpg"
+)
+
+cannonball_tree.child_flowers.create!(
+  description: "Large very fragrant pink and white flowers with six wide fleshy satiny petals and a prominent central hood ending in numerous yellow-tipped stamens; borne in long pendulous racemes directly from the trunk and main branches. A moderately large tree with unique cannonball-shaped fruits.",
+  colour: "Pink, white, yellow",
+  significance: "Unselfish Prosperity",
+  comment: "He who receives it abundantly gives all that he has as he receives it.",
+  image_url: "cannonball_tree_pink_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Cannonball_Tree_Flower.jpg"
 )
 
 # Crinum Lily
-
-crinum_lily_01 = {
-  description: "Large fragrant white salverform flower with six narrow or broad partly recurved lobes, a long narrow green tube, and prominent reddish-purple stamens; borne in umbels on long scapes. A large bulbous plant with strap-like leaves.",
-  colour: "White, reddish-purple",
-  significance: "Disinterested Work Done for the Divine",
-  comment: "The surest way to progress.",
-  image_url: "crinum_lily_white_reddish_purple.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:CrinumAugustumKeyWest.JPG"
-}
-
-crinum_lily_02 = {
-  description: "Very large white salverform flower with long tapering fleshy recurved petal-like lobes, whitish above and reddish-purple beneath, and six long erect reddish-purple stamens; borne in umbels on long scapes. A bulbous plant with strap-like leaves.",
-  colour: "White, reddish-purple",
-  significance: "Disinterested Work Done for the Divine in the Vital",
-  comment: "Calm and powerful, it reaches its goal.",
-  image_url: "crinum_lily_white_purple.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_030807-0090_Crinum_sp..jpg"
-}
-
-crinum_lily_03 = {
-  description: "Large fragrant white lily-like flower with a long narrow green tube and six widely separated slightly recurved petal-like lobes, each with a light pink band down the center; borne in umbels on long sturdy scapes. A large bulb with strap-like leaves.",
-  colour: "White, green, light pink",
-  significance: "Joy of Integral Peace",
-  comment: "Calm and tranquil, an unfailing smile.",
-  image_url: "crinum_lily_white_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:P%C3%A1jara_Morro_Jable_-_Calle_Nasas_02_ies.jpg"
-}
 
 crinum_lily = Flower.create!(
   name: "Crinum Lily",
@@ -9782,45 +9520,40 @@ crinum_lily = Flower.create!(
   image_url: "crinum_lily.jpg",
   thumbnail_url: "crinum_lily_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_061017-1201_Crinum_sp..jpg",
-  variants: [
-    crinum_lily_01,
-    crinum_lily_02,
-    crinum_lily_03
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Starr_061017-1201_Crinum_sp..jpg"
+)
+
+crinum_lily.child_flowers.create!(
+  description: "Large fragrant white salverform flower with six narrow or broad partly recurved lobes, a long narrow green tube, and prominent reddish-purple stamens; borne in umbels on long scapes. A large bulbous plant with strap-like leaves.",
+  colour: "White, reddish-purple",
+  significance: "Disinterested Work Done for the Divine",
+  comment: "The surest way to progress.",
+  image_url: "crinum_lily_white_reddish_purple.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:CrinumAugustumKeyWest.JPG"
+)
+
+crinum_lily.child_flowers.create!(
+  description: "Very large white salverform flower with long tapering fleshy recurved petal-like lobes, whitish above and reddish-purple beneath, and six long erect reddish-purple stamens; borne in umbels on long scapes. A bulbous plant with strap-like leaves.",
+  colour: "White, reddish-purple",
+  significance: "Disinterested Work Done for the Divine in the Vital",
+  comment: "Calm and powerful, it reaches its goal.",
+  image_url: "crinum_lily_white_purple.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_030807-0090_Crinum_sp..jpg"
+)
+
+crinum_lily.child_flowers.create!(
+  description: "Large fragrant white lily-like flower with a long narrow green tube and six widely separated slightly recurved petal-like lobes, each with a light pink band down the center; borne in umbels on long sturdy scapes. A large bulb with strap-like leaves.",
+  colour: "White, green, light pink",
+  significance: "Joy of Integral Peace",
+  comment: "Calm and tranquil, an unfailing smile.",
+  image_url: "crinum_lily_white_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:P%C3%A1jara_Morro_Jable_-_Calle_Nasas_02_ies.jpg"
 )
 
 # Firecracker Flower
-
-firecracker_flower_01 = {
-  description: "Small showy bright orange half-salverform flower with a tiny yellow center and a limb divided into five irregular rounded lobes; borne in dense four-sided bracted spikes. A low perennial herb.",
-  colour: "Bright orange, yellow",
-  significance: "Supramental Influence in the Subconscient",
-  comment: "Under its modest appearance, it is a great force of transformation.",
-  image_url: "firecracker_flower_orange.jpg",
-  source: "Hafiz Issadeen",
-  url: "https://www.flickr.com/photos/yimhafiz/4182678135/"
-}
-
-firecracker_flower_02 = {
-  description: "Small showy bright yellow half-salverform flower with a limb divided into five irregular rounded lobes; borne in dense four-sided bracted spikes. A low perennial herb.",
-  colour: "Bright yellow",
-  significance: "Supramental Light in the Subconscient",
-  comment: "Essential condition for transformation.",
-  image_url: "firecracker_flower_yellow.jpg",
-  source: "Lalithamba",
-  url: "https://www.flickr.com/photos/45835639@N04/10979322993/"
-}
-
-firecracker_flower_03 = {
-  description: "Small showy bright salmon pink half-salverform flower with a limb divided into five irregular rounded lobes; borne in dense four-sided bracted spikes. A low perennial herb.",
-  colour: "Bright salmon pink",
-  significance: "Psychic Light in the Subconscient",
-  comment: "Preliminary condition for progress.",
-  image_url: "firecracker_flower_salmon.jpg",
-  source: "Vishwas Krishna",
-  url: "https://www.flickr.com/photos/howard84/6246854804/"
-}
 
 firecracker_flower = Flower.create!(
   name: "Firecracker Flower",
@@ -9833,31 +9566,40 @@ firecracker_flower = Flower.create!(
   image_url: "firecracker_flower.jpg",
   thumbnail_url: "firecracker_flower_thumbnail.jpg",
   source: "Luke McGuff",
-  url: "https://www.flickr.com/photos/holyoutlaw/4693673399",
-  variants: [
-    firecracker_flower_01,
-    firecracker_flower_02,
-    firecracker_flower_03
-  ]
+  url: "https://www.flickr.com/photos/holyoutlaw/4693673399"
+)
+
+firecracker_flower.child_flowers.create!(
+  description: "Small showy bright orange half-salverform flower with a tiny yellow center and a limb divided into five irregular rounded lobes; borne in dense four-sided bracted spikes. A low perennial herb.",
+  colour: "Bright orange, yellow",
+  significance: "Supramental Influence in the Subconscient",
+  comment: "Under its modest appearance, it is a great force of transformation.",
+  image_url: "firecracker_flower_orange.jpg",
+  source: "Hafiz Issadeen",
+  url: "https://www.flickr.com/photos/yimhafiz/4182678135/"
+)
+
+firecracker_flower.child_flowers.create!(
+  description: "Small showy bright yellow half-salverform flower with a limb divided into five irregular rounded lobes; borne in dense four-sided bracted spikes. A low perennial herb.",
+  colour: "Bright yellow",
+  significance: "Supramental Light in the Subconscient",
+  comment: "Essential condition for transformation.",
+  image_url: "firecracker_flower_yellow.jpg",
+  source: "Lalithamba",
+  url: "https://www.flickr.com/photos/45835639@N04/10979322993/"
+)
+
+firecracker_flower.child_flowers.create!(
+  description: "Small showy bright salmon pink half-salverform flower with a limb divided into five irregular rounded lobes; borne in dense four-sided bracted spikes. A low perennial herb.",
+  colour: "Bright salmon pink",
+  significance: "Psychic Light in the Subconscient",
+  comment: "Preliminary condition for progress.",
+  image_url: "firecracker_flower_salmon.jpg",
+  source: "Vishwas Krishna",
+  url: "https://www.flickr.com/photos/howard84/6246854804/"
 )
 
 # Common Broom
-
-common_broom_01 = {
-  description: "Small yellow to golden yellow papilionaceous flowers borne on loose, leafy, terminal racemes. Numerous species of deciduous or almost leafless shrubs and small trees.",
-  colour: "Yellow to golden yellow",
-  image_url: "common_broom_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:20140504Cytisus_scoparius2.jpg"
-}
-
-common_broom_02 = {
-  description: "Small yellow papilionaceous flower with dark crimson wings, borne singly or in pairs in the leaf axils. A large profusely flowering shrub.",
-  colour: "Yellow, dark crimson",
-  image_url: "common_broom_yellow_crimson.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Cytisus_scoparius_flower_1.jpg"
-}
 
 common_broom = Flower.create!(
   name: "Common Broom",
@@ -9872,128 +9614,31 @@ common_broom = Flower.create!(
   image_url: "common_broom.jpg",
   thumbnail_url: "common_broom_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:20140504Cytisus_scoparius1.jpg",
-  variants: [
-    common_broom_01,
-    common_broom_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:20140504Cytisus_scoparius1.jpg"
+)
+
+common_broom.child_flowers.create!(
+  description: "Small yellow to golden yellow papilionaceous flowers borne on loose, leafy, terminal racemes. Numerous species of deciduous or almost leafless shrubs and small trees.",
+  colour: "Yellow to golden yellow",
+  image_url: "common_broom_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:20140504Cytisus_scoparius2.jpg"
+)
+
+common_broom.child_flowers.create!(
+  description: "Small yellow papilionaceous flower with dark crimson wings, borne singly or in pairs in the leaf axils. A large profusely flowering shrub.",
+  colour: "Yellow, dark crimson",
+  image_url: "common_broom_yellow_crimson.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Cytisus_scoparius_flower_1.jpg"
 )
 
 # Dahlia
 
-dahlia_01 = {
-  description: "Very large (over 16 cm) fully double flowers with somewhat narrow, pointed, and variously twisted ray florets; in white and shades of red, pink, lavender, purple, orange, and yellow, also bicoloured; borne singly. A tender tuberous-rooted perennial herb.",
-  colour: "Bicoloured or white and shades of red, pink, lavender, purple, orange, and yellow",
-  significance: "Aristocracy",
-  comment: "Incapable of baseness and pettiness, it asserts itself with dignity and authority.",
-  image_url: "dahlia_double_xl.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Dahlia_-_Indian_Botanic_Garden_-_Howrah_2012-01-29_1769.JPG"
-}
-
-dahlia_02 = {
-  description: "Medium to large (10-15 cm) fully double flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded, or cupped) and many colours (except pink, orange yellow, mauve, and intense red).",
-  colour: "Many colours",
-  significance: "Dignity",
-  comment: "Affirms its worth, but asks for nothing.",
-  image_url: "dahlia_double_l.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:20140901_Dahlien_0012.jpg"
-}
-
-dahlia_03 = {
-  description: "Medium to large (10-15 cm) fully double pink flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded, or cupped).",
-  colour: "Pink",
-  significance: "Psychic Dignity",
-  comment: "Refuses all that lowers or debases.",
-  image_url: "dahlia_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/w/index.php?title=File:Dahlia.tif&page=1"
-}
-
-dahlia_04 = {
-  description: "Medium to large (10-15 cm) fully double orange yellow flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded, or cupped).",
-  colour: "Orange yellow",
-  significance: "Supramentalised Mental Dignity",
-  comment: "Tolerates no pettiness in thought turned towards the Truth.",
-  image_url: "dahlia_yellow_orange.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Dahlia_%27Bad_Neuenahr%27.jpg"
-}
-
-dahlia_05 = {
-  description: "Medium to large (10-15 cm) fully double mauve pink flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded, or cupped).",
-  colour: "Mauve pink",
-  significance: "Dignity of the Emotions",
-  comment: "Not to allow one’s emotions to contradict the inner Divinity.",
-  image_url: "dahlia_mauve_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:36Dahlia.JPG"
-}
-
-dahlia_06 = {
-  description: "Medium to large (10-15 cm) fully double intense red flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded, or cupped).",
-  colour: "Intense red",
-  significance: "Dignity in the Physical",
-  comment: "Above bargaining.",
-  image_url: "dahlia_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:20140901_Dahlien_0014.jpg"
-}
-
-dahlia_07 = {
-  description: "Very large (over 16 cm) fully double showy deep wine red flower with broadly cupped ray florets symmetrically arranged in a dense rounded cushion-like head; borne singly. A tender tuberous-rooted perennial herb.",
-  colour: "Deep wine red",
-  significance: "Nobility",
-  comment: "The incapacity for any pettiness of feeling or action.",
-  image_url: "dahlia_wine_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Dahlia_%27Natal%27.jpg"
-}
-
-dahlia_08 = {
-  description: "Very large (over 16 cm) double pure white flower showing no disc florets. The ray florets are regularly arranged, their edges usually slightly incurved, and their tips either broadly pointed or rounded; borne singly. A tender tuberous-rooted perennial herb.",
-  colour: "Pure white",
-  significance: "Superhumanity",
-  comment: "The aim of our aspirations.",
-  image_url: "dahlia_pure_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Schloss_Schwerin_Haslhofer.JPG"
-}
-
-dahlia_09 = {
-  description: "Medium-sized single flower, in all colours, with eight overlapping ray florets somewhat recurved at their tips, which can be round or pointed; the rays surround a disc of tubular yellow florets that form a hard center; borne singly or in clusters. A tender tuberous-rooted perennial herb.",
-  colour: "All colours",
-  significance: "Vanity",
-  comment: "One of the most frequent forms of falsehood.",
-  image_url: "dahlia_single_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Dahlia_at_lalbagh_flower_show_7181.JPG"
-}
-
-dahlia_10 = {
-  description: "Medium-sized semi-double flowers with two or three rows of ray florets and a central yellow disc; in white and shades of red, pink, lavender, purple, orange, yellow, or bicoloured; borne singly or in clusters.",
-  colour: "Bicoloured or white and shades of red, pink, lavender, purple, orange, and yellow",
-  significance: "Pride",
-  comment: "A great obstacle to progress.",
-  image_url: "dahlia_semi_double_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Dahlia_at_Lalbagh_flowershow_aug2011_7048.JPG"
-}
-
-dahlia_11 = {
-  description: "Medium-sized semi-double yellow flowers with two or three rows of ray florets and a central yellow disc; borne singly or in clusters.",
-  colour: "Yellow",
-  significance: "Mental Pride ",
-  image_url: "dahlia_semi_double_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Dahlia_at_lalbagh_flower_show_7180.JPG"
-}
-
 dahlia = Flower.create!(
   name: "Dahlia",
   bot_name: "Dahlia",
-  family: "Asteraceae (Compositae)",
+  family: "Compositae",
   petals: "Eight or several",
   size: "Medium to very large",
   place: "Native to Mexico",
@@ -10001,63 +9646,119 @@ dahlia = Flower.create!(
   image_url: "dahlia.jpg",
   thumbnail_url: "dahlia_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Dahlia_-_Indian_Botanic_Garden_-_Howrah_2012-01-29_1768.JPG",
-  variants: [
-    dahlia_01,
-    dahlia_02,
-    dahlia_03,
-    dahlia_04,
-    dahlia_05,
-    dahlia_06,
-    dahlia_07,
-    dahlia_08,
-    dahlia_09,
-    dahlia_10,
-    dahlia_11
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Dahlia_-_Indian_Botanic_Garden_-_Howrah_2012-01-29_1768.JPG"
+)
+
+dahlia.child_flowers.create!(
+  description: "Very large (over 16 cm) fully double flowers with somewhat narrow, pointed, and variously twisted ray florets; in white and shades of red, pink, lavender, purple, orange, and yellow, also bicoloured; borne singly. A tender tuberous-rooted perennial herb.",
+  colour: "Bicoloured or white and shades of red, pink, lavender, purple, orange, and yellow",
+  significance: "Aristocracy",
+  comment: "Incapable of baseness and pettiness, it asserts itself with dignity and authority.",
+  image_url: "dahlia_double_xl.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Dahlia_-_Indian_Botanic_Garden_-_Howrah_2012-01-29_1769.JPG"
+)
+
+dahlia.child_flowers.create!(
+  description: "Medium to large (10-15 cm) fully double flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded, or cupped) and many colours (except pink, orange yellow, mauve, and intense red).",
+  colour: "Many colours",
+  significance: "Dignity",
+  comment: "Affirms its worth, but asks for nothing.",
+  image_url: "dahlia_double_l.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:20140901_Dahlien_0012.jpg"
+)
+
+dahlia.child_flowers.create!(
+  description: "Medium to large (10-15 cm) fully double pink flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded, or cupped).",
+  colour: "Pink",
+  significance: "Psychic Dignity",
+  comment: "Refuses all that lowers or debases.",
+  image_url: "dahlia_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/w/index.php?title=File:Dahlia.tif&page=1"
+)
+
+dahlia.child_flowers.create!(
+  description: "Medium to large (10-15 cm) fully double orange yellow flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded, or cupped).",
+  colour: "Orange yellow",
+  significance: "Supramentalised Mental Dignity",
+  comment: "Tolerates no pettiness in thought turned towards the Truth.",
+  image_url: "dahlia_yellow_orange.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Dahlia_%27Bad_Neuenahr%27.jpg"
+)
+
+dahlia.child_flowers.create!(
+  description: "Medium to large (10-15 cm) fully double mauve pink flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded, or cupped).",
+  colour: "Mauve pink",
+  significance: "Dignity of the Emotions",
+  comment: "Not to allow one’s emotions to contradict the inner Divinity.",
+  image_url: "dahlia_mauve_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:36Dahlia.JPG"
+)
+
+dahlia.child_flowers.create!(
+  description: "Medium to large (10-15 cm) fully double intense red flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded, or cupped).",
+  colour: "Intense red",
+  significance: "Dignity in the Physical",
+  comment: "Above bargaining.",
+  image_url: "dahlia_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:20140901_Dahlien_0014.jpg"
+)
+
+dahlia.child_flowers.create!(
+  description: "Very large (over 16 cm) fully double showy deep wine red flower with broadly cupped ray florets symmetrically arranged in a dense rounded cushion-like head; borne singly. A tender tuberous-rooted perennial herb.",
+  colour: "Deep wine red",
+  significance: "Nobility",
+  comment: "The incapacity for any pettiness of feeling or action.",
+  image_url: "dahlia_wine_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Dahlia_%27Natal%27.jpg"
+)
+
+dahlia.child_flowers.create!(
+  description: "Very large (over 16 cm) double pure white flower showing no disc florets. The ray florets are regularly arranged, their edges usually slightly incurved, and their tips either broadly pointed or rounded; borne singly. A tender tuberous-rooted perennial herb.",
+  colour: "Pure white",
+  significance: "Superhumanity",
+  comment: "The aim of our aspirations.",
+  image_url: "dahlia_pure_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Schloss_Schwerin_Haslhofer.JPG"
+)
+
+dahlia.child_flowers.create!(
+  description: "Medium-sized single flower, in all colours, with eight overlapping ray florets somewhat recurved at their tips, which can be round or pointed; the rays surround a disc of tubular yellow florets that form a hard center; borne singly or in clusters. A tender tuberous-rooted perennial herb.",
+  colour: "All colours",
+  significance: "Vanity",
+  comment: "One of the most frequent forms of falsehood.",
+  image_url: "dahlia_single_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Dahlia_at_lalbagh_flower_show_7181.JPG"
+)
+
+dahlia.child_flowers.create!(
+  description: "Medium-sized semi-double flowers with two or three rows of ray florets and a central yellow disc; in white and shades of red, pink, lavender, purple, orange, yellow, or bicoloured; borne singly or in clusters.",
+  colour: "Bicoloured or white and shades of red, pink, lavender, purple, orange, and yellow",
+  significance: "Pride",
+  comment: "A great obstacle to progress.",
+  image_url: "dahlia_semi_double_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Dahlia_at_Lalbagh_flowershow_aug2011_7048.JPG"
+)
+
+dahlia.child_flowers.create!(
+  description: "Medium-sized semi-double yellow flowers with two or three rows of ray florets and a central yellow disc; borne singly or in clusters.",
+  colour: "Yellow",
+  significance: "Mental Pride ",
+  image_url: "dahlia_semi_double_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Dahlia_at_lalbagh_flower_show_7180.JPG"
 )
 
 # Thorn Apple
-
-thorn_apple_01 = {
-  description: "Large single white mildly fragrant erect trumpet-shaped flower with six shallow pointed lobes and a corolla tube partly encased in a large velvety inflated green calyx; borne singly from the leaf axils. A highly poisonous annual or short-lived perennial herb with large dark green tomentose leaves.",
-  colour: "White, green",
-  significance: "Tapasya",
-  comment: "A discipline with the aim of realising the Divine.",
-  image_url: "thorn_apple_white.jpg",
-  source: "tOrange - Free Photobank",
-  url: "http://www.torange.us/Plants/Flowers/Large-White-flower-Datura-6970.html"
-}
-
-thorn_apple_02 = {
-  description: "Large single or double mildly fragrant erect trumpet-shaped yellow flower with corolla tube partly encased in a large velvety inflated green calyx; borne singly from the leaf axils. A highly poisonous annual or short-lived perennial herb with large dark green tomentose leaves.",
-  colour: "Yellow, green",
-  significance: "Mental Tapasya",
-  comment: "The process leading to the goal.",
-  image_url: "thorn_apple_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Datura_metel_fleur_fruit.jpg"
-}
-
-thorn_apple_03 = {
-  description: "Large single, double or triple mildly fragrant erect trumpet-shaped violet flower with corolla tube partly encased in a large velvety inflated green calyx; borne singly from the leaf axils. A highly poisonous annual or short-lived perennial herb with large dark green tomentose leaves.",
-  colour: "Violet, green",
-  significance: "Vital Tapasya",
-  comment: "The vital undergoes a rigorous discipline in order to transform itself.",
-  image_url: "thorn_apple_violet.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Datura_metel_%22Fastuosa%22_4.JPG"
-}
-
-thorn_apple_04 = {
-  description: "Large double mildly fragrant erect trumpet-shaped white flower with corolla tube partly encased in a large velvety inflated green calyx; borne singly from the leaf axils. A highly poisonous annual or short-lived perennial herb with large dark green tomentose leaves.",
-  colour: "White, green",
-  significance: "Integral Tapasya",
-  comment: "The whole being lives only to know and serve the Divine.",
-  image_url: "thorn_apple_double_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Datura_metel_Chlorantha257929451.jpg"
-}
 
 thorn_apple = Flower.create!(
   name: "Thorn Apple",
@@ -10069,18 +9770,65 @@ thorn_apple = Flower.create!(
   image_url: "thorn_apple.jpg",
   thumbnail_url: "thorn_apple_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Datura_candida_(flower)_01.jpg",
-  variants: [
-    thorn_apple_01,
-    thorn_apple_02,
-    thorn_apple_03,
-    thorn_apple_04
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Datura_candida_(flower)_01.jpg"
+)
+
+thorn_apple.child_flowers.create!(
+  description: "Large single white mildly fragrant erect trumpet-shaped flower with six shallow pointed lobes and a corolla tube partly encased in a large velvety inflated green calyx; borne singly from the leaf axils. A highly poisonous annual or short-lived perennial herb with large dark green tomentose leaves.",
+  colour: "White, green",
+  significance: "Tapasya",
+  comment: "A discipline with the aim of realising the Divine.",
+  image_url: "thorn_apple_white.jpg",
+  source: "tOrange - Free Photobank",
+  url: "http://www.torange.us/Plants/Flowers/Large-White-flower-Datura-6970.html"
+)
+
+thorn_apple.child_flowers.create!(
+  description: "Large single or double mildly fragrant erect trumpet-shaped yellow flower with corolla tube partly encased in a large velvety inflated green calyx; borne singly from the leaf axils. A highly poisonous annual or short-lived perennial herb with large dark green tomentose leaves.",
+  colour: "Yellow, green",
+  significance: "Mental Tapasya",
+  comment: "The process leading to the goal.",
+  image_url: "thorn_apple_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Datura_metel_fleur_fruit.jpg"
+)
+
+thorn_apple.child_flowers.create!(
+  description: "Large single, double or triple mildly fragrant erect trumpet-shaped violet flower with corolla tube partly encased in a large velvety inflated green calyx; borne singly from the leaf axils. A highly poisonous annual or short-lived perennial herb with large dark green tomentose leaves.",
+  colour: "Violet, green",
+  significance: "Vital Tapasya",
+  comment: "The vital undergoes a rigorous discipline in order to transform itself.",
+  image_url: "thorn_apple_violet.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Datura_metel_%22Fastuosa%22_4.JPG"
+)
+
+thorn_apple.child_flowers.create!(
+  description: "Large double mildly fragrant erect trumpet-shaped white flower with corolla tube partly encased in a large velvety inflated green calyx; borne singly from the leaf axils. A highly poisonous annual or short-lived perennial herb with large dark green tomentose leaves.",
+  colour: "White. green",
+  significance: "Integral Tapasya",
+  comment: "The whole being lives only to know and serve the Divine.",
+  image_url: "thorn_apple_double_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Datura_metel_Chlorantha257929451.jpg"
 )
 
 # Florists' Chrysanthemum
 
-florists_chrysanthemum_01 = {
+florists_chrysanthemum = Flower.create!(
+  name: "Florists' Chrysanthemum",
+  bot_name: "Dendranthema x grandiflorum [Chrysanthemum x morifolium]",
+  family: "Compositae",
+  size: "Medium to large",
+  place: "Native to Asia and northeastern Europe",
+  climate: "Subtropical to temperate",
+  image_url: "florists_chrysanthemum.jpg",
+  thumbnail_url: "florists_chrysanthemum_thumbnail.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:ChrysanthemumMorifolium6.jpg"
+)
+
+florists_chrysanthemum.child_flowers.create!(
   description: "Medium to large double flowers in a variety of forms with variously shaped ray florets; in white and shades of yellow, bronze, pink, red, and mauve; borne singly or in loose corymbs. A bushy perennial with aromatic leaves and flowers.",
   colour: "White and shades of yellow, bronze, pink, red, and mauve",
   significance: "Life Energy",
@@ -10088,9 +9836,9 @@ florists_chrysanthemum_01 = {
   image_url: "florists_chrysanthemum_mix.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Chrysanthemums.jpg"
-}
+)
 
-florists_chrysanthemum_02 = {
+florists_chrysanthemum.child_flowers.create!(
   description: "Medium to large double white flowers in a variety of forms with variously shaped ray florets; borne singly or in loose corymbs. A bushy perennial with aromatic leaves and flowers.",
   colour: "White",
   significance: "Purified Dynamic Life Energy",
@@ -10098,9 +9846,9 @@ florists_chrysanthemum_02 = {
   image_url: "florists_chrysanthemum_white.jpg",
   source: "Toshihiro Gamo",
   url: "https://www.flickr.com/photos/dakiny/15037121384"
-}
+)
 
-florists_chrysanthemum_03 = {
+florists_chrysanthemum.child_flowers.create!(
   description: "Medium to large double orange yellow flowers in a variety of forms with variously shaped ray florets; borne singly or in loose corymbs. A bushy perennial with aromatic leaves and flowers.",
   colour: "Orange yellow",
   significance: "Supramentalised Life Energy",
@@ -10108,9 +9856,9 @@ florists_chrysanthemum_03 = {
   image_url: "florists_chrysanthemum_orange_yellow.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:ChrysanthemumMorifolium2.jpg"
-}
+)
 
-florists_chrysanthemum_04 = {
+florists_chrysanthemum.child_flowers.create!(
   description: "Medium to large double light mauve flowers in a variety of forms with variously shaped ray florets; borne singly or in loose corymbs. A bushy perennial with aromatic leaves and flowers.",
   colour: "Light mauve",
   significance: "Life Energy in the Vital",
@@ -10118,58 +9866,18 @@ florists_chrysanthemum_04 = {
   image_url: "florists_chrysanthemum_mauve.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:ChrysanthemumMorifolium11.jpg"
-}
+)
 
-florists_chrysanthemum_05 = {
+florists_chrysanthemum.child_flowers.create!(
   description: "Medium to large double golden red flowers in a variety of forms with variously shaped ray florets; borne singly or in loose corymbs. A bushy perennial with aromatic leaves and flowers.",
   colour: "Golden red",
   significance: "Life Energy in the Material",
   image_url: "florists_chrysanthemum_golden_red.jpg",
   source: "JungleDragon",
   url: "http://www.jungledragon.com/wildlife/photos/plantae/angiosperms/eudicots/asterales/asteraceae/chrysanthemum"
-}
-
-florists_chrysanthemum = Flower.create!(
-  name: "Florists' Chrysanthemum",
-  bot_name: "Dendranthema x grandiflorum [Chrysanthemum x morifolium]",
-  family: "Asteraceae (Compositae)",
-  size: "Medium to large",
-  place: "Native to Asia and northeastern Europe",
-  climate: "Subtropical to temperate",
-  image_url: "florists_chrysanthemum.jpg",
-  thumbnail_url: "florists_chrysanthemum_thumbnail.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:ChrysanthemumMorifolium6.jpg",
-  variants: [
-    florists_chrysanthemum_01,
-    florists_chrysanthemum_02,
-    florists_chrysanthemum_03,
-    florists_chrysanthemum_04,
-    florists_chrysanthemum_05
-  ]
 )
 
 # Rainbow Pink
-
-rainbow_pink_01 = {
-  description: "Small single mildly fragrant rotate flowers with four to six broad slightly overlapping petals that have smooth or cut-and-fringed edges and are gathered at the base into a strong tubular green calyx; in white and shades of pink and red, sometimes variegated; borne in branching few-flowered clusters. An annual, biennial, or short-lived perennial garden plant.",
-  colour: "White and shades of pink and red",
-  significance: "Obedience",
-  comment: "To learn to obey is good; to obey only the Divine is better.",
-  image_url: "rainbow_pink_single.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Dianthus_-_3.jpg"
-}
-
-rainbow_pink_02 = {
-  description: "Small double mildly fragrant rotate flowers with petals that have smooth or cut-and-fringed edges and are gathered at the base into a strong tubular green calyx; in white and shades of pink and red, sometimes variegated; borne in branching few-flowered clusters. An annual, biennial, or short-lived perennial garden plant.",
-  colour: "White and shades of pink and red",
-  significance: "Perfect Obedience",
-  comment: "Without reserve or hesitation, joyous obedience in every sphere to the Divine command.",
-  image_url: "rainbow_pink_double.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Dianthus_chinensis_var_senperflorens2.jpg"
-}
 
 rainbow_pink = Flower.create!(
   name: "Rainbow Pink",
@@ -10183,34 +9891,30 @@ rainbow_pink = Flower.create!(
   image_url: "rainbow_pink.jpg",
   thumbnail_url: "rainbow_pink_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Colorful_flowers.JPG",
-  variants: [
-    rainbow_pink_01,
-    rainbow_pink_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Colorful_flowers.JPG"
+)
+
+rainbow_pink.child_flowers.create!(
+  description: "Small single mildly fragrant rotate flowers with four to six broad slightly overlapping petals that have smooth or cut-and-fringed edges and are gathered at the base into a strong tubular green calyx; in white and shades of pink and red, sometimes variegated; borne in branching few-flowered clusters. An annual, biennial, or short-lived perennial garden plant.",
+  colour: "White and shades of pink and red",
+  significance: "Obedience",
+  comment: "To learn to obey is good; to obey only the Divine is better.",
+  image_url: "rainbow_pink_single.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Dianthus_-_3.jpg"
+)
+
+rainbow_pink.child_flowers.create!(
+  description: "Small double mildly fragrant rotate flowers with petals that have smooth or cut-and-fringed edges and are gathered at the base into a strong tubular green calyx; in white and shades of pink and red, sometimes variegated; borne in branching few-flowered clusters. An annual, biennial, or short-lived perennial garden plant.",
+  colour: "White and shades of pink and red",
+  significance: "Perfect Obedience",
+  comment: "Without reserve or hesitation, joyous obedience in every sphere to the Divine command.",
+  image_url: "rainbow_pink_double.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Dianthus_chinensis_var_senperflorens2.jpg"
 )
 
 # Pigeon Berry
-
-pigeon_berry_01 = {
-  description: "Tiny sweetly scented lavender salverform flower with a white center, borne on small racemes. A large ornamental shrub or small tree.",
-  colour: "Lavender, white",
-  significance: "Aspiration for Vital Purity",
-  comment: "Delicate, modest, insistent.",
-  image_url: "pigeon_berry_lavender.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Duranta_erecta.jpg"
-}
-
-pigeon_berry_02 = {
-  description: "Tiny sweetly scented white salverform flower; borne on small racemes. A large ornamental shrub or small tree.",
-  colour: "White",
-  significance: "Vital Purity",
-  comment: "It begins with the abolition of desires.",
-  image_url: "pigeon_berry_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_080103-1216_Duranta_erecta.jpg"
-}
 
 pigeon_berry = Flower.create!(
   name: "Pigeon Berry",
@@ -10223,16 +9927,46 @@ pigeon_berry = Flower.create!(
   image_url: "pigeon_berry.jpg",
   thumbnail_url: "pigeon_berry_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Duranta_erecta_07.JPG",
-  variants: [
-    pigeon_berry_01,
-    pigeon_berry_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Duranta_erecta_07.JPG"
+)
+
+pigeon_berry.child_flowers.create!(
+  description: "Tiny sweetly scented lavender salverform flower with a white center, borne on small racemes. A large ornamental shrub or small tree.",
+  colour: "Lavender, white",
+  significance: "Aspiration for Vital Purity",
+  comment: "Delicate, modest, insistent.",
+  image_url: "pigeon_berry_lavender.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Duranta_erecta.jpg"
+)
+
+pigeon_berry.child_flowers.create!(
+  description: "Tiny sweetly scented white salverform flower; borne on small racemes. A large ornamental shrub or small tree.",
+  colour: "White",
+  significance: "Vital Purity",
+  comment: "It begins with the abolition of desires.",
+  image_url: "pigeon_berry_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_080103-1216_Duranta_erecta.jpg"
 )
 
 # Flora's Paintbrush
 
-floras_paintbrush_01 = {
+floras_paintbrush = Flower.create!(
+  name: "Flora's Paintbrush",
+  other_names: "Tassel Flower",
+  bot_name: "Emilia sonchifolia (Javanica)",
+  family: "Compositae",
+  size: "Small",
+  place: "Native to tropical Asia",
+  climate: "Tropical",
+  image_url: "floras_paintbrush.jpg",
+  thumbnail_url: "floras_paintbrush_thumbnail.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Emilia_sonchifolia_4.jpg"
+)
+
+floras_paintbrush.child_flowers.create!(
   description: "Small scarlet soft tassel-like head of flowers in loose corymbs. A low annual herb with sagittate leaves, the base of the leaves clasping the stems.",
   colour: "Scarlet",
   significance: "Prudence",
@@ -10240,58 +9974,20 @@ floras_paintbrush_01 = {
   image_url: "floras_paintbrush_scarlet.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Tasselflower2.jpeg"
-}
+)
 
-floras_paintbrush_02 = {
+floras_paintbrush.child_flowers.create!(
   bot_name: "Emilia sonchifolia 'Lutea' (Javanica)",
-  description: "Small golden-yellow soft tassel-like head of flowers in loose corymbs. A low annual herb with sagittate leaves, the base of the leaves clasping the stems.",
-  colour: "Golden-yellow",
+  description: "Small golden yellow soft tassel-like head of flowers in loose corymbs. A low annual herb with sagittate leaves, the base of the leaves clasping the stems.",
+  colour: "Golden yellow",
   significance: "Enlightened Prudence",
   comment: "Looks carefully before going forward.",
   image_url: "floras_paintbrush_golden.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Emilia_coccinea-IMG_4639.jpg"
-}
-
-floras_paintbrush = Flower.create!(
-  name: "Flora's Paintbrush",
-  other_names: "Tassel Flower",
-  bot_name: "Emilia sonchifolia (Javanica)",
-  family: "Asteraceae (Compositae)",
-  size: "Small",
-  place: "Native to tropical Asia",
-  climate: "Tropical",
-  image_url: "floras_paintbrush.jpg",
-  thumbnail_url: "floras_paintbrush_thumbnail.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Emilia_sonchifolia_4.jpg",
-  variants: [
-    floras_paintbrush_01,
-    floras_paintbrush_02
-  ]
 )
 
 # Blue Sage
-
-blue_sage_01 = {
-  description: "Small sky blue salverform flower with five rounded lobes; borne on a dense variegated bracted spike. A colourful winter-flowering subshrub.",
-  colour: "Sky blue",
-  significance: "Aspiration for Silence in the Mind",
-  comment: "Too noisy to be effective.",
-  image_url: "blue_sage_blue.jpg",
-  source: "Anand Kumar Reddy, Medicinal Plants",
-  url: "http://medplants.blogspot.in/search/label/Eranthemum%20pulchellum"
-}
-
-blue_sage_02 = {
-  description: "Small blue violet salverform flower with five rounded lobes; borne on a dense variegated bracted spike. A colourful winter-flowering subshrub.",
-  colour: "Blue violet",
-  significance: "Aspiration for Silence in the Physical Mind",
-  comment: "Does what it can, but cannot do much.",
-  image_url: "blue_sage_violet.jpg",
-  source: "Kai Yan, Joseph Wong",
-  url: "https://www.flickr.com/photos/33623636@N08/5552046155"
-}
 
 blue_sage = Flower.create!(
   name: "Blue Sage",
@@ -10304,45 +10000,30 @@ blue_sage = Flower.create!(
   image_url: "blue_sage.jpg",
   thumbnail_url: "blue_sage_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Eranthemum_pulchellum1.jpg",
-  variants: [
-    blue_sage_01,
-    blue_sage_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Eranthemum_pulchellum1.jpg"
+)
+
+blue_sage.child_flowers.create!(
+  description: "Small sky blue salverform flower with five rounded lobes; borne on a dense variegated bracted spike. A colourful winter-flowering subshrub.",
+  colour: "Sky blue",
+  significance: "Aspiration for Silence in the Mind",
+  comment: "Too noisy to be effective.",
+  image_url: "blue_sage_blue.jpg",
+  source: "Anand Kumar Reddy, Medicinal Plants",
+  url: "http://medplants.blogspot.in/search/label/Eranthemum%20pulchellum"
+)
+
+blue_sage.child_flowers.create!(
+  description: "Small blue violet salverform flower with five rounded lobes; borne on a dense variegated bracted spike. A colourful winter-flowering subshrub.",
+  colour: "Blue violet",
+  significance: "Aspiration for Silence in the Physical Mind",
+  comment: "Does what it can, but cannot do much.",
+  image_url: "blue_sage_violet.jpg",
+  source: "Kai Yan, Joseph Wong",
+  url: "https://www.flickr.com/photos/33623636@N08/5552046155"
 )
 
 # Coral Tree
-
-coral_tree_01 = {
-  description: "Dense striking terminal racemes of medium-sized orange red to dark red flowers with one prominent curving partly folded petal and long exserted stamens. A large thorny deciduous tree.",
-  colour: "Orange red to dark red",
-  significance: "Beginning of Realisation in Matter",
-  comment: "Matter responds to the Divine influence.",
-  image_url: "coral_tree_orange_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Erythrina_variegata.jpg"
-}
-
-coral_tree_02 = {
-  bot_name: "Erythrina variegata 'Alba'",
-  description: "Dense terminal racemes of medium-sized white flowers veined pink with one prominent curving partly folded petal and long exserted stamens. A tall narrow tree with greenish bark and narrow vertical yellow stripes.",
-  colour: "White, pink",
-  significance: "The Psychic Governs Matter",
-  comment: "The psychic influence compels the physical to turn towards the Divine.",
-  image_url: "coral_tree_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_050128-3277_Erythrina_variegata.jpg"
-}
-
-coral_tree_03 = {
-  description: "Medium-sized bright orange flowers with long exserted orange red stamens; the leaves are heavily variegated with yellow along the veins and midrib. A large deciduous tree.",
-  colour: "Bright orange, orange red",
-  significance: "Matter Prepares itself to Receive the Supramental",
-  comment: "Matter strives to free itself from old habits in order to prepare for the new realisation.",
-  image_url: "coral_tree_bright_orange.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Rose-ringed_Parakeet_(Psittacula_krameri)_feeding_on_Indian_Coral_Tree_at_Kolkata_I_IMG_3989.jpg"
-}
 
 coral_tree = Flower.create!(
   name: "Coral Tree",
@@ -10356,17 +10037,56 @@ coral_tree = Flower.create!(
   image_url: "coral_tree.jpg",
   thumbnail_url: "coral_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_050222-4234_Erythrina_variegata.jpg",
-  variants: [
-    coral_tree_01,
-    coral_tree_02,
-    coral_tree_03
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Starr_050222-4234_Erythrina_variegata.jpg"
+)
+
+coral_tree.child_flowers.create!(
+  description: "Dense striking terminal racemes of medium-sized orange red to dark red flowers with one prominent curving partly folded petal and long exserted stamens. A large thorny deciduous tree.",
+  colour: "Orange red to dark red",
+  significance: "Beginning of Realisation in Matter",
+  comment: "Matter responds to the Divine influence.",
+  image_url: "coral_tree_orange_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Erythrina_variegata.jpg"
+)
+
+coral_tree.child_flowers.create!(
+  bot_name: "Erythrina variegata 'Alba'",
+  description: "Dense terminal racemes of medium-sized white flowers veined pink with one prominent curving partly folded petal and long exserted stamens. A tall narrow tree with greenish bark and narrow vertical yellow stripes.",
+  colour: "White, pink",
+  significance: "The Psychic Governs Matter",
+  comment: "The psychic influence compels the physical to turn towards the Divine.",
+  image_url: "coral_tree_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_050128-3277_Erythrina_variegata.jpg"
+)
+
+coral_tree.child_flowers.create!(
+  description: "Medium-sized bright orange flowers with long exserted orange red stamens; the leaves are heavily variegated with yellow along the veins and midrib. A large deciduous tree.",
+  colour: "Bright orange, orange red",
+  significance: "Matter Prepares itself to Receive the Supramental",
+  comment: "Matter strives to free itself from old habits in order to prepare for the new realisation.",
+  image_url: "coral_tree_bright_orange.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Rose-ringed_Parakeet_(Psittacula_krameri)_feeding_on_Indian_Coral_Tree_at_Kolkata_I_IMG_3989.jpg"
 )
 
 # Indian Blanket
 
-indian_blanket_01 = {
+indian_blanket = Flower.create!(
+  name: "Indian Blanket",
+  other_names: "Blanket Flower, Fire-wheels",
+  family: "Compositae",
+  size: "Medium-sized",
+  place: "Native to the Central United States",
+  climate: "Tropical and subtropical",
+  image_url: "indian_blanket.jpg",
+  thumbnail_url: "indian_blanket_thumbnail.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Gaillardia_pulchella_01.JPG"
+)
+
+indian_blanket.child_flowers.create!(
   bot_name: "Gaillardia 'Fanfare'",
   description: "Medium-sized single or double flower with prominent trumpet-shaped ray florets encircling the convex central disc; in shades of red, yellow, orange, or multicoloured; borne singly. A commonly cultivated garden annual.",
   colour: "Multicoloured or shades of red, yellow, or orange",
@@ -10375,9 +10095,9 @@ indian_blanket_01 = {
   image_url: "indian_blanket_single.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Laitche-P052.jpg"
-}
+)
 
-indian_blanket_02 = {
+indian_blanket.child_flowers.create!(
   bot_name: "Gaillardia pulchella 'Sundance Bicolor'",
   description: "Medium-sized double red flower heavily tipped with yellow trumpet-shaped ray florets encircling the convex central disc; borne singly. A commonly cultivated garden annual.",
   colour: "Red, yellow",
@@ -10385,9 +10105,9 @@ indian_blanket_02 = {
   image_url: "indian_blanket_double.jpg",
   source: "Mark Dwyer, Rotary Botanical Gardens Horticulture Blog",
   url: "http://rotarygardens.blogspot.in/2013/08/another-busy-weekend.html"
-}
+)
 
-indian_blanket_03 = {
+indian_blanket.child_flowers.create!(
   bot_name: "Gaillardia pulchella 'Picta (Sweet)'",
   description: "Medium-sized single flower with flat three-lobed ray florets which are orange red tipped with yellow, slightly recurved when fully open and encircle the convex central disc. A commonly cultivated garden annual.",
   colour: "Orange red, yellow",
@@ -10396,9 +10116,9 @@ indian_blanket_03 = {
   image_url: "indian_blanket_picta_orange.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Marineland_gaillardia01.jpg"
-}
+)
 
-indian_blanket_04 = {
+indian_blanket.child_flowers.create!(
   bot_name: "Gaillardia pulchella 'Picta (Sweet)'",
   description: "Medium-sized single yellow flower with flat three-lobed ray florets, slightly recurved when fully open and encircle the convex central disc. A commonly cultivated garden annual.",
   colour: "Yellow",
@@ -10407,48 +10127,9 @@ indian_blanket_04 = {
   image_url: "indian_blanket_picta_yellow.jpg",
   source: "Mehitable Days",
   url: "http://laloofah.blogspot.in/2011_07_01_archive.html"
-}
-
-indian_blanket = Flower.create!(
-  name: "Indian Blanket",
-  other_names: "Blanket Flower, Fire-wheels",
-  family: "Asteraceae (Compositae)",
-  size: "Medium-sized",
-  place: "Native to the Central United States",
-  climate: "Tropical and subtropical",
-  image_url: "indian_blanket.jpg",
-  thumbnail_url: "indian_blanket_thumbnail.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gaillardia_pulchella_01.JPG",
-  variants: [
-    indian_blanket_01,
-    indian_blanket_02,
-    indian_blanket_03,
-    indian_blanket_04
-  ]
 )
 
 # Cape Jasmine
-
-cape_jasmine_01 = {
-  description: "Medium to large highly fragrant single white salverform flower with a prominent yellow pistil and a long narrow corolla tube divided into six broad rounded petal-like lobes; borne singly among the leaves. A medium to large shrub with attractive glossy foliage.",
-  colour: "White, yellow",
-  significance: "Radiating Purity",
-  comment: "It charms and fascinates. It makes all Nature fragrant.",
-  image_url: "cape_jasmine_single.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gardenia_jasminoides_flowers.jpg"
-}
-
-cape_jasmine_02 = {
-  description: "Medium to large highly fragrant double white salverform flower with curling irregularly shaped petal-like lobes that radiate horizontally from the sturdy corolla tube; borne singly among the leaves. A medium to large shrub with attractive glossy foliage.",
-  colour: "White",
-  significance: "Perfect Radiating Purity",
-  comment: "Nothing escapes its action.",
-  image_url: "cape_jasmine_double.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gardenia_augusta_%27Miami_Supreme%27.JPG"
-}
 
 cape_jasmine = Flower.create!(
   name: "Cape Jasmine",
@@ -10462,114 +10143,30 @@ cape_jasmine = Flower.create!(
   image_url: "cape_jasmine.jpg",
   thumbnail_url: "cape_jasmine_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gardenia_jasminoides_in_Mount_Yagi_2008-06-13.jpg",
-  variants: [
-    cape_jasmine_01,
-    cape_jasmine_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Gardenia_jasminoides_in_Mount_Yagi_2008-06-13.jpg"
+)
+
+cape_jasmine.child_flowers.create!(
+  description: "Medium to large highly fragrant single white salverform flower with a prominent yellow pistil and a long narrow corolla tube divided into six broad rounded petal-like lobes; borne singly among the leaves. A medium to large shrub with attractive glossy foliage.",
+  colour: "White, yellow",
+  significance: "Radiating Purity",
+  comment: "It charms and fascinates. It makes all Nature fragrant.",
+  image_url: "cape_jasmine_single.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Gardenia_jasminoides_flowers.jpg"
+)
+
+cape_jasmine.child_flowers.create!(
+  description: "Medium to large highly fragrant double white salverform flower with curling irregularly shaped petal-like lobes that radiate horizontally from the sturdy corolla tube; borne singly among the leaves. A medium to large shrub with attractive glossy foliage.",
+  colour: "White",
+  significance: "Perfect Radiating Purity",
+  comment: "Nothing escapes its action.",
+  image_url: "cape_jasmine_double.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Gardenia_augusta_%27Miami_Supreme%27.JPG"
 )
 
 # Garden Gladiolus
-
-garden_gladiolus_01 = {
-  description: "Tall elegant compact one-sided spike of graceful small to medium-sized flowers with six flared petals that are often ruffled and frilled; in white and shades of yellow, red, pink, lavender, and purple, variously blotched and striped; a bulbous plant with sword-shaped leaves.",
-  colour: "White and shades of yellow, red, pink, lavender, and purple",
-  significance: "Receptivity",
-  comment: "Conscious of the Divine Will and surrendered to it.",
-  image_url: "garden_gladiolus_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gladiolus.JPG"
-}
-
-garden_gladiolus_02 = {
-  description: "Tall elegant compact one-sided spike of small to medium-sized pink or rose-pink flowers with six flared petals that are often ruffled and frilled; a bulbous plant with sword-shaped leaves.",
-  colour: "Pink or rose-pink",
-  significance: "Psychic Receptivity",
-  comment: "The psychic responds joyfully to the ascending force.",
-  image_url: "garden_gladiolus_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gladiolus1.JPG"
-}
-
-garden_gladiolus_03 = {
-  description: "Tall elegant compact one-sided spike of small to medium-sized bicoloured flowers in shades of pink and orange with six flared petals that are often ruffled and frilled; a bulbous plant with sword-shaped leaves.",
-  colour: "Bicoloured, pink, orange",
-  significance: "Receptivity of the Supramentalised Psychic",
-  comment: "This is what happens to the psychic that continues to progress.",
-  image_url: "garden_gladiolus_pink_orange.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Japan_Gladiole.JPG"
-}
-
-garden_gladiolus_04 = {
-  description: "Tall elegant compact one-sided spike of small to medium-sized yellow flowers with six flared petals that are often ruffled and frilled; a bulbous plant with sword-shaped leaves.",
-  colour: "Yellow",
-  significance: "Mental Receptivity",
-  comment: "Always ready to learn.",
-  image_url: "garden_gladiolus_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gladiolus_%C3%97_hortulanus_(4).JPG"
-}
-
-garden_gladiolus_05 = {
-  description: "Tall elegant compact one-sided spike of small to medium-sized lavender-pink or mauve flowers with six flared petals that are often ruffled and frilled; a bulbous plant with sword-shaped leaves.",
-  colour: "Lavender-pink or mauve",
-  significance: "Emotional Receptivity",
-  comment: "Emotions wanting to be Divinised.",
-  image_url: "garden_gladiolus_lavender_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gladiolus,_Grower_Mr_Vogel.jpg"
-}
-
-garden_gladiolus_06 = {
-  description: "Tall elegant compact one-sided spike of small to medium-sized dark red or deep violet flowers with six flared petals that are often ruffled and frilled; a bulbous plant with sword-shaped leaves.",
-  colour: "Dark red or deep violet",
-  significance: "Vital Receptivity",
-  comment: "Happens only when the vital understands that it must be transformed. The vital blossoms in aspiration for the divine.",
-  image_url: "garden_gladiolus_violet.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gladiolus,_South_West_Coast_Path_-_geograph.org.uk_-_821967.jpg"
-}
-
-garden_gladiolus_07 = {
-  description: "Tall elegant compact one-sided spike of small to medium-sized bright red flowers with six flared petals that are often ruffled and frilled; a bulbous plant with sword-shaped leaves.",
-  colour: "Bright red",
-  significance: "Physical Receptivity",
-  comment: "One should have it only towards the Divine.",
-  image_url: "garden_gladiolus_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gladiolus%27RedCascade%2703.jpg"
-}
-
-garden_gladiolus_08 = {
-  description: "Tall elegant compact one-sided spike of small to medium-sized white flowers with six flared petals that are often ruffled and frilled; a bulbous plant with sword-shaped leaves.",
-  colour: "White",
-  significance: "Integral Receptivity",
-  comment: "The whole being perceives the Divine Will and obeys it.",
-  image_url: "garden_gladiolus_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gladiolus_withe_01.jpg"
-}
-
-garden_gladiolus_09 = {
-  description: "Tall elegant compact one-sided spike of small to medium-sized multicoloured flowers with six flared petals that are often ruffled and frilled; a bulbous plant with sword-shaped leaves.",
-  colour: "Multicoloured",
-  significance: "Manifold Receptivity",
-  comment: "Nothing resists the Light.",
-  image_url: "garden_gladiolus_multicoloured.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Kvetouc%C3%AD_gladioly.jpg"
-}
-
-garden_gladiolus_10 = {
-  description: "Tall elegant compact one-sided spike of small to medium-sized orange flowers with six flared petals that are often ruffled and frilled; a bulbous plant with sword-shaped leaves.",
-  colour: "Orange",
-  significance: "Supramentalised Receptivity",
-  comment: "The receptivity of tomorrow.",
-  image_url: "garden_gladiolus_orange.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Rote_Gladiole.JPG"
-}
 
 garden_gladiolus = Flower.create!(
   name: "Garden Gladiolus",
@@ -10582,72 +10179,110 @@ garden_gladiolus = Flower.create!(
   image_url: "garden_gladiolus.jpg",
   thumbnail_url: "garden_gladiolus_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gladiolen_bei_Brensbach.jpg",
-  variants: [
-    garden_gladiolus_01,
-    garden_gladiolus_02,
-    garden_gladiolus_03,
-    garden_gladiolus_04,
-    garden_gladiolus_05,
-    garden_gladiolus_06,
-    garden_gladiolus_07,
-    garden_gladiolus_08,
-    garden_gladiolus_09,
-    garden_gladiolus_10
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Gladiolen_bei_Brensbach.jpg"
+)
+
+garden_gladiolus.child_flowers.create!(
+  description: "Tall elegant compact one-sided spike of graceful small to medium-sized flowers with six flared petals that are often ruffled and frilled; in white and shades of yellow, red, pink, lavender, and purple, variously blotched and striped; a bulbous plant with sword-shaped leaves.",
+  colour: "White and shades of yellow, red, pink, lavender, and purple",
+  significance: "Receptivity",
+  comment: "Conscious of the Divine Will and surrendered to it.",
+  image_url: "garden_gladiolus_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Gladiolus.JPG"
+)
+
+garden_gladiolus.child_flowers.create!(
+  description: "Tall elegant compact one-sided spike of small to medium-sized pink or rose pink flowers with six flared petals that are often ruffled and frilled; a bulbous plant with sword-shaped leaves.",
+  colour: "Pink or rose pink",
+  significance: "Psychic Receptivity",
+  comment: "The psychic responds joyfully to the ascending force.",
+  image_url: "garden_gladiolus_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Gladiolus1.JPG"
+)
+
+garden_gladiolus.child_flowers.create!(
+  description: "Tall elegant compact one-sided spike of small to medium-sized bicoloured flowers in shades of pink and orange with six flared petals that are often ruffled and frilled; a bulbous plant with sword-shaped leaves.",
+  colour: "Bicoloured, pink, orange",
+  significance: "Receptivity of the Supramentalised Psychic",
+  comment: "This is what happens to the psychic that continues to progress.",
+  image_url: "garden_gladiolus_pink_orange.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Japan_Gladiole.JPG"
+)
+
+garden_gladiolus.child_flowers.create!(
+  description: "Tall elegant compact one-sided spike of small to medium-sized yellow flowers with six flared petals that are often ruffled and frilled; a bulbous plant with sword-shaped leaves.",
+  colour: "Yellow",
+  significance: "Mental Receptivity",
+  comment: "Always ready to learn.",
+  image_url: "garden_gladiolus_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Gladiolus_%C3%97_hortulanus_(4).JPG"
+)
+
+garden_gladiolus.child_flowers.create!(
+  description: "Tall elegant compact one-sided spike of small to medium-sized lavender-pink or mauve flowers with six flared petals that are often ruffled and frilled; a bulbous plant with sword-shaped leaves.",
+  colour: "Lavender pink or mauve",
+  significance: "Emotional Receptivity",
+  comment: "Emotions wanting to be Divinised.",
+  image_url: "garden_gladiolus_lavender_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Gladiolus,_Grower_Mr_Vogel.jpg"
+)
+
+garden_gladiolus.child_flowers.create!(
+  description: "Tall elegant compact one-sided spike of small to medium-sized dark red or deep violet flowers with six flared petals that are often ruffled and frilled; a bulbous plant with sword-shaped leaves.",
+  colour: "Dark red or deep violet",
+  significance: "Vital Receptivity",
+  comment: "Happens only when the vital understands that it must be transformed. The vital blossoms in aspiration for the divine.",
+  image_url: "garden_gladiolus_violet.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Gladiolus,_South_West_Coast_Path_-_geograph.org.uk_-_821967.jpg"
+)
+
+garden_gladiolus.child_flowers.create!(
+  description: "Tall elegant compact one-sided spike of small to medium-sized bright red flowers with six flared petals that are often ruffled and frilled; a bulbous plant with sword-shaped leaves.",
+  colour: "Bright red",
+  significance: "Physical Receptivity",
+  comment: "One should have it only towards the Divine.",
+  image_url: "garden_gladiolus_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Gladiolus%27RedCascade%2703.jpg"
+)
+
+garden_gladiolus.child_flowers.create!(
+  description: "Tall elegant compact one-sided spike of small to medium-sized white flowers with six flared petals that are often ruffled and frilled; a bulbous plant with sword-shaped leaves.",
+  colour: "White",
+  significance: "Integral Receptivity",
+  comment: "The whole being perceives the Divine Will and obeys it.",
+  image_url: "garden_gladiolus_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Gladiolus_withe_01.jpg"
+)
+
+garden_gladiolus.child_flowers.create!(
+  description: "Tall elegant compact one-sided spike of small to medium-sized multicoloured flowers with six flared petals that are often ruffled and frilled; a bulbous plant with sword-shaped leaves.",
+  colour: "Multicoloured",
+  significance: "Manifold Receptivity",
+  comment: "Nothing resists the Light.",
+  image_url: "garden_gladiolus_multicoloured.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Kvetouc%C3%AD_gladioly.jpg"
+)
+
+garden_gladiolus.child_flowers.create!(
+  description: "Tall elegant compact one-sided spike of small to medium-sized orange flowers with six flared petals that are often ruffled and frilled; a bulbous plant with sword-shaped leaves.",
+  colour: "Orange",
+  significance: "Supramentalised Receptivity",
+  comment: "The receptivity of tomorrow.",
+  image_url: "garden_gladiolus_orange.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Rote_Gladiole.JPG"
 )
 
 # Globe Amaranth
-
-globe_amaranth_01 = {
-  description: "Small rounded everlasting heads of colourful papery bracts enfolding minute star-shaped cream white flowers; borne singly on slender stems. An erect branching annual herb.",
-  colour: "Cream white, colourful",
-  significance: "Immortality",
-  comment: "Forms are in perpetual transformation; identify yourself with the Immortal Consciousness and you will become it.",
-  image_url: "globe_amaranth_mix.jpg",
-  source: "Florez Nursery",
-  url: "http://floreznursery.blogspot.in/2011_02_01_archive.html"
-}
-
-globe_amaranth_02 = {
-  description: "Small rounded everlasting heads of magenta purple papery bracts enfolding minute star-shaped cream white flowers; borne singly on slender stems. An erect branching annual herb.",
-  colour: "Magenta purple, cream white",
-  significance: "Vital Immortality",
-  comment: "It exists in its own domain, but depends on surrender to the Divine.",
-  image_url: "globe_amaranth_magenta.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:2010._%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0_%D1%86%D0%B2%D0%B5%D1%82%D0%BE%D0%B2_%D0%B2_%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B5_%D0%BD%D0%B0_%D0%B4%D0%B5%D0%BD%D1%8C_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_34.jpg"
-}
-
-globe_amaranth_03 = {
-  description: "Small rounded everlasting heads of pale lavender pink papery bracts enfolding minute star-shaped cream white flowers; borne singly on slender stems. An erect branching annual herb.",
-  colour: "Pale lavender pink, cream white",
-  significance: "Conscious Vital Immortality",
-  comment: "The immortality of an organised and conscious vital being.",
-  image_url: "globe_amaranth_lavender_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gomphrena_globosa_serres_du_Luxembourg.JPG"
-}
-
-globe_amaranth_04 = {
-  description: "Small rounded everlasting heads of white papery bracts enfolding minute star-shaped cream white flowers; borne singly on slender stems. An erect branching annual herb.",
-  colour: "White, cream white",
-  significance: "Integral Immortality",
-  comment: "It is a promise! When will it be a material fact?",
-  image_url: "globe_amaranth_white.jpg",
-  source: "Horticulture 131, PennState",
-  url: "http://www.personal.psu.edu/rdb4/hort131/weekly-lessons/week-2/week-2-plants/gomphrena/"
-}
-
-globe_amaranth_05 = {
-  description: "Small rounded everlasting heads of bright orange bracts shaded salmon pink at the base papery bracts enfolding minute star-shaped cream white flowers; borne singly on slender stems. An erect branching annual herb.",
-  colour: "Bright orange, salmon pink, cream white",
-  significance: "Supramental Immortality",
-  comment: "It is an established fact, but few human beings have experienced it.",
-  image_url: "globe_amaranth_orange.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Amboise,_fleur_d%27un_parterre_3.jpg"
-}
 
 globe_amaranth = Flower.create!(
   name: "Globe Amaranth",
@@ -10660,19 +10295,75 @@ globe_amaranth = Flower.create!(
   image_url: "globe_amaranth.jpg",
   thumbnail_url: "globe_amaranth_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Malli_puvu.JPG",
-  variants: [
-    globe_amaranth_01,
-    globe_amaranth_02,
-    globe_amaranth_03,
-    globe_amaranth_04,
-    globe_amaranth_05
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Malli_puvu.JPG"
+)
+
+globe_amaranth.child_flowers.create!(
+  description: "Small rounded everlasting heads of colourful papery bracts enfolding minute star-shaped cream white flowers; borne singly on slender stems. An erect branching annual herb.",
+  colour: "Cream white, colourful",
+  significance: "Immortality",
+  comment: "Forms are in perpetual transformation; identify yourself with the Immortal Consciousness and you will become it.",
+  image_url: "globe_amaranth_mix.jpg",
+  source: "Florez Nursery",
+  url: "http://floreznursery.blogspot.in/2011_02_01_archive.html"
+)
+
+globe_amaranth.child_flowers.create!(
+  description: "Small rounded everlasting heads of magenta purple papery bracts enfolding minute star-shaped cream white flowers; borne singly on slender stems. An erect branching annual herb.",
+  colour: "Magenta purple, cream white",
+  significance: "Vital Immortality",
+  comment: "It exists in its own domain, but depends on surrender to the Divine.",
+  image_url: "globe_amaranth_magenta.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:2010._%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0_%D1%86%D0%B2%D0%B5%D1%82%D0%BE%D0%B2_%D0%B2_%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B5_%D0%BD%D0%B0_%D0%B4%D0%B5%D0%BD%D1%8C_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_34.jpg"
+)
+
+globe_amaranth.child_flowers.create!(
+  description: "Small rounded everlasting heads of pale lavender pink papery bracts enfolding minute star-shaped cream white flowers; borne singly on slender stems. An erect branching annual herb.",
+  colour: "Pale lavender pink, cream white",
+  significance: "Conscious Vital Immortality",
+  comment: "The immortality of an organised and conscious vital being.",
+  image_url: "globe_amaranth_lavender_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Gomphrena_globosa_serres_du_Luxembourg.JPG"
+)
+
+globe_amaranth.child_flowers.create!(
+  description: "Small rounded everlasting heads of white papery bracts enfolding minute star-shaped cream white flowers; borne singly on slender stems. An erect branching annual herb.",
+  colour: "White, cream white",
+  significance: "Integral Immortality",
+  comment: "It is a promise! When will it be a material fact?",
+  image_url: "globe_amaranth_white.jpg",
+  source: "Horticulture 131, PennState",
+  url: "http://www.personal.psu.edu/rdb4/hort131/weekly-lessons/week-2/week-2-plants/gomphrena/"
+)
+
+globe_amaranth.child_flowers.create!(
+  description: "Small rounded everlasting heads of bright orange bracts shaded salmon pink at the base papery bracts enfolding minute star-shaped cream white flowers; borne singly on slender stems. An erect branching annual herb.",
+  colour: "Bright orange, salmon pink, cream white",
+  significance: "Supramental Immortality",
+  comment: "It is an established fact, but few human beings have experienced it.",
+  image_url: "globe_amaranth_orange.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Amboise,_fleur_d%27un_parterre_3.jpg"
 )
 
 # Sunflower
 
-sunflower_01 = {
+sunflower = Flower.create!(
+  name: "Sunflower",
+  bot_name: "Helianthus",
+  family: "Compositae",
+  size: "Medium to large",
+  place: "Native to North America",
+  climate: "Found across a wide range of climates",
+  image_url: "sunflower.jpg",
+  thumbnail_url: "sunflower_thumbnail.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Sunflowers_helianthus_annuus.jpg"
+)
+
+sunflower.child_flowers.create!(
   description: "Large dark brownish-red flower with a golden yellow glow at the tips and backs of the ray florets, and a dark brown central disc flecked with yellow; borne singly or in clusters. An annual or perennial herb.",
   colour: "Dark brownish-red, golden yellow, dark brown",
   significance: "Supramental Artistic Genius",
@@ -10680,9 +10371,9 @@ sunflower_01 = {
   image_url: "sunflower_brown_yellow.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Sunflowers_in_Nova_Scotia.jpg"
-}
+)
 
-sunflower_02 = {
+sunflower.child_flowers.create!(
   description: "Medium to large single flowers with a prominent center of brown or green disc florets and light to deep yellow ray florets; borne singly. An annual or perennial herb.",
   colour: "Brown or green, light to deep yellow",
   significance: "Consciousness turned towards the Light",
@@ -10690,9 +10381,9 @@ sunflower_02 = {
   image_url: "sunflower_yellow.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Tournesols_FR_2008.jpg"
-}
+)
 
-sunflower_03 = {
+sunflower.child_flowers.create!(
   description: "Medium to large single flowers with a prominent center of brown or green disc florets and yellow orange ray florets; borne singly. An annual or perennial herb.",
   colour: "Brown or green, yellow orange",
   significance: "Consciousness turned towards the Supramental Light",
@@ -10700,9 +10391,9 @@ sunflower_03 = {
   image_url: "sunflower_yellow_orange.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Sonnenblumen_im_Bund.JPG"
-}
+)
 
-sunflower_04 = {
+sunflower.child_flowers.create!(
   description: "Medium to large fully double yellow flowers; borne singly or in corymbs. An annual or perennial herb.",
   colour: "Yellow",
   significance: "Intensity of the Consciousness in the Full Supramental Light",
@@ -10710,9 +10401,9 @@ sunflower_04 = {
   image_url: "sunflower_double.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Helianthus_annuus_%27Teddy_Bear%27_cultivar.JPG"
-}
+)
 
-sunflower_05 = {
+sunflower.child_flowers.create!(
   description: "Large striking flower with sienna ray florets streaked with golden yellow and a golden aura that radiates from a large dark brown central disc; borne singly or in clusters. An annual or perennial herb.",
   colour: "Sienna, golden yellow, dark brown",
   significance: "Body-consciousness undergoing the Supramental Transformation",
@@ -10720,49 +10411,9 @@ sunflower_05 = {
   image_url: "sunflower_sienna.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Starr_081009-0033_Helianthus_annuus.jpg"
-}
-
-sunflower = Flower.create!(
-  name: "Sunflower",
-  bot_name: "Helianthus",
-  family: "Asteraceae (Compositae)",
-  size: "Medium to large",
-  place: "Native to North America",
-  climate: "Found across a wide range of climates",
-  image_url: "sunflower.jpg",
-  thumbnail_url: "sunflower_thumbnail.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Sunflowers_helianthus_annuus.jpg",
-  variants: [
-    sunflower_01,
-    sunflower_02,
-    sunflower_03,
-    sunflower_04,
-    sunflower_05
-  ]
 )
 
 # Cotton Rosemallow
-
-cotton_rosemallow_01 = {
-  description: "Large double flower with soft delicate petals that open pure white and gradually turn pink during the day.",
-  colour: "Pure white to pink",
-  significance: "The Divine Grace",
-  comment: "Thy goodness is infinite, we bow before Thee in gratitude.",
-  image_url: "cotton_rosemallow_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:H._mutabilis.jpg"
-}
-
-cotton_rosemallow_02 = {
-  description: "Large double glowing pink flower with soft delicate petals; flowers open pink and stay pink.",
-  colour: "Pink",
-  significance: "Victorious Love",
-  comment: "Sure of itself, fearless, generous, and smiling.",
-  image_url: "cotton_rosemallow_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_mutabilis_(2).JPG"
-}
 
 cotton_rosemallow = Flower.create!(
   name: "Cotton Rosemallow",
@@ -10775,524 +10426,30 @@ cotton_rosemallow = Flower.create!(
   image_url: "cotton_rosemallow.jpg",
   thumbnail_url: "cotton_rosemallow_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Mufurong1.jpg",
-  variants: [
-    cotton_rosemallow_01,
-    cotton_rosemallow_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Mufurong1.jpg"
+)
+
+cotton_rosemallow.child_flowers.create!(
+  description: "Large double flower with soft delicate petals that open pure white and gradually turn pink during the day.",
+  colour: "Pure white to pink",
+  significance: "The Divine Grace",
+  comment: "Thy goodness is infinite, we bow before Thee in gratitude.",
+  image_url: "cotton_rosemallow_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:H._mutabilis.jpg"
+)
+
+cotton_rosemallow.child_flowers.create!(
+  description: "Large double glowing pink flower with soft delicate petals; flowers open pink and stay pink.",
+  colour: "Pink",
+  significance: "Victorious Love",
+  comment: "Sure of itself, fearless, generous, and smiling.",
+  image_url: "cotton_rosemallow_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_mutabilis_(2).JPG"
 )
 
 # Chinese Hibiscus
-
-chinese_hibiscus_01 = {
-  description: "Medium-sized double light salmon pink flower with fine red veins and a deep red center.",
-  colour: "Light salmon pink, red",
-  significance: "Agni",
-  comment: "The flame of purification which ought to precede all contact with the invisible worlds.",
-  image_url: "chinese_hibiscus_double_salmon_red.jpg",
-  source: "leahahaha",
-  url: "https://www.flickr.com/photos/leahahaha/2731533496/"
-}
-
-chinese_hibiscus_02 = {
-  description: "Small delicate single flower with soft slightly crinkled cream petals and a pure white center.",
-  colour: "Cream, pure white",
-  significance: "Ananda",
-  comment: "Calm, tranquil, equal, smiling, and very sweet in its truly simple austerity.",
-  image_url: "chinese_hibiscus_cream_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_070403-6477_Hibiscus_rosa-sinensis.jpg"
-}
-
-chinese_hibiscus_03 = {
-  description: "Small delicate single flower with soft slightly crinkled cream petals, a deep red center, and a pure white aura.",
-  colour: "Cream, deep red, pure white",
-  significance: "Ananda in the Physical",
-  comment: "May it be welcome, even if it manifests itself rarely.",
-  image_url: "chinese_hibiscus_cream_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Kailua_Yellow_Hibiscus_18cm.JPG"
-}
-
-chinese_hibiscus_04 = {
-  bot_name: "Hibiscus rosa-sinensis ‘Viceroy’",
-  description: "Small single intense magenta flower.",
-  colour: "Magenta",
-  significance: "Individual Power",
-  comment: "Limited in its capacity and action.",
-  image_url: "chinese_hibiscus_magenta.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiskus_rosa-sinensis_-_Kwiat.JPG"
-}
-
-chinese_hibiscus_05 = {
-  description: "Small single coral pink flower with deeper pink veins and an intense red center; the backs of the petals are edged in cream.",
-  colour: "Coral pink, intense red, cream",
-  significance: "Enlightened Individual Power",
-  comment: "Limited in its action, but of a very high capacity.",
-  image_url: "chinese_hibiscus_coral_pink_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:GenE.aguinaldoChurchjf9042_13.JPG"
-}
-
-chinese_hibiscus_06 = {
-  description: "Medium to large double bright rose pink flower with ruffled petals and a deep red center.",
-  colour: "Bright rose-pink, deep red",
-  significance: "Power of the Psychic Consciousness",
-  comment: "Psychic power organises the activities of the nature to make them progress.",
-  image_url: "chinese_hibiscus_double_rose_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:%E0%B4%9A%E0%B5%86%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B4%B0%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%82.jpg"
-}
-
-chinese_hibiscus_07 = {
-  description: "Medium-sized single light pink flower that has slightly separated petals with wavy edges and a small deep red center surrounded by a light red aura. A second form is a medium-sized single pink pendulous flower that has widely separated petals with deeply scalloped edges and a deep red center; the leaves are three-lobed. A third form is a medium-sized single lilac pink flower with more deeply shaded veins and center, and slightly separated petals having one edge striped with white on the reverse.",
-  colour: "Light pink to lilac pink, deep red",
-  significance: "Psychic Power in Existence",
-  comment: "Manifold, imperious, irresistible in its understanding sweetness.",
-  image_url: "chinese_hibiscus_lilac_pink_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_pink_fully_opened.jpg"
-}
-
-chinese_hibiscus_08 = {
-  bot_name: "Hibiscus rosa-sinensis 'Viceroy'",
-  description: "Small, medium or large single lemon yellow flowers with strikingly contrasting bright red or maroon center.",
-  colour: "Lemon-yellow, bright red or maroon",
-  significance: "Mentalised Power",
-  comment: "Power becomes utilisable.",
-  image_url: "chinese_hibiscus_lemon_yellow_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9E_%E0%B4%9A%E0%B5%86%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B4%B0%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%82%E0%B4%B5%E0%B5%8D_1.JPG"
-}
-
-chinese_hibiscus_09 = {
-  bot_name: "Hibiscus rosa-sinensis 'Viceroy'",
-  description: "Large single bright ochre yellow flower with crinkled petals.",
-  colour: "Bright ochre yellow",
-  significance: "Power in the Converted Mind",
-  comment: "When the mind turns towards the Divine it becomes a powerful instrument.",
-  image_url: "chinese_hibiscus_ochre_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_-_Agri-Horticultural_Society_of_India_-_Alipore_-_Kolkata_2013-01-05_2248.JPG"
-}
-
-chinese_hibiscus_10 = {
-  description: "Large single light gold to apricot yellow flower with crinkled petals and a striking white to light pink pinwheel center.",
-  colour: "Light gold to apricot yellow, white to light pink",
-  significance: "Sweetness of Power Surrendered to the Divine (Sweetness of Auroville)",
-  comment: "Sweetness itself becomes powerful when it is at the service of the Divine.",
-  image_url: "chinese_hibiscus_gold_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Yellow_flower.JPG"
-}
-
-chinese_hibiscus_11 = {
-  bot_name: "Hibiscus rosa-sinensis 'Waimaea'",
-  description: "Medium to large mildly fragrant single flower with long slender milk white petals that are separated and recurved, and bright orange anthers.",
-  colour: "Milk white, bright orange",
-  significance: "Light of the Purified Power",
-  comment: "Irresistibly simple in its power consecrated solely to the Divine.",
-  image_url: "chinese_hibiscus_white_orange.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:White_Hibiscus_5505.JPG"
-}
-
-chinese_hibiscus_12 = {
-  description: "Small or large single white flower with long separated petals and a bright red or vermilion center. Another form is also white with long separated petals but is medium-sized and has a bright red pinwheel center.",
-  colour: "White, bright red or vermilion",
-  significance: "Power of Integral Purity",
-  comment: "The power of accepting only the Divine influence.",
-  image_url: "chinese_hibiscus_white_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_Tricolor.jpg"
-}
-
-chinese_hibiscus_13 = {
-  description: "Medium to large single flowers with bright golden yellow or light yellow petals, either crinkled or smooth, and a center that may be pink, light or deep red, or light orange.",
-  colour: "Bright golden-yellow or light yellow, and pink, light or deep red, or light orange",
-  significance: "Power of Harmony",
-  comment: "Simple, noble, dignified, powerful, and charming.",
-  image_url: "chinese_hibiscus_yellow_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_Cultivar_2010-7-11_TorreLaMata.jpg"
-}
-
-chinese_hibiscus_14 = {
-  description: "Large single reddish-pink flower with a dark red center and smooth separated petals, each petal splashed with white on one lower edge. Another form is smaller.",
-  colour: "Reddish-pink, dark red, white",
-  significance: "Aesthetic Power",
-  comment: "Beauty is a great power.",
-  image_url: "chinese_hibiscus_pink_red_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:JfLakandulaflowerPampanga0214fvf_02.JPG"
-}
-
-chinese_hibiscus_15 = {
-  description: "Medium-sized single flowers in shades ranging from light to medium red, petals separate recurved with toothed edges.",
-  colour: "Light to medium red",
-  significance: "Dynamic Power",
-  comment: "Indispensable for progress.",
-  image_url: "chinese_hibiscus_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_rosa-sinensis_flower_2.JPG"
-}
-
-chinese_hibiscus_16 = {
-  description: "Medium-sized semi-double grey lavender with deeper shading on the outer petals and stigmas.",
-  colour: "Grey lavender",
-  significance: "Controlled Power",
-  image_url: "chinese_hibiscus_grey_lavender.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:%E0%B4%9A%E0%B5%86%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B4%B0%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%AF%E0%B5%81%E0%B4%9F%E0%B5%86_%E0%B4%B5%E0%B4%AF%E0%B4%B2%E0%B4%B1%E0%B5%8D%E0%B4%B1%E0%B5%8D_%E0%B4%AA%E0%B5%82%E0%B4%B5%E0%B5%8D.JPG"
-}
-
-chinese_hibiscus_17 = {
-  description: "Medium-sized single bright cardinal red flower with firm petals, with or without a reddish-purple center.",
-  colour: "Bright cardinal red, reddish-purple",
-  significance: "Power of Action",
-  comment: "The power resulting from true surrender to the Divine.",
-  image_url: "chinese_hibiscus_cardinal_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus-20070216-013.jpg"
-}
-
-chinese_hibiscus_18 = {
-  description: "Double flowers in all sizes with colours that range from raspberry pink through red to crimson.",
-  colour: "Raspberry pink to crimson",
-  significance: "Power of Consciousness",
-  comment: "All the powers of controlling and governing the lower movements of inconscient nature.",
-  image_url: "chinese_hibiscus_double_pink_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_(rosa-sinensis)_Kerala.jpg"
-}
-
-chinese_hibiscus_19 = {
-  description: "Large single orange to red orange flower often tinged rose at the edges of the smooth or slightly crinkled petals and a deep red center.",
-  colour: "Orange to red orange, rose, deep red",
-  significance: "Power of Perseverance (Continued Perseverance and Action)",
-  comment: "The perseverance that overcomes all obstacles.",
-  image_url: "chinese_hibiscus_red_orange_rose.jpg",
-  source: "anuraj, Pixabay",
-  url: "https://pixabay.com/en/hibiscus-rosa-sinensis-flower-436595/"
-}
-
-chinese_hibiscus_20 = {
-  description: "Large single grey lavender to deep lavender with delicate petals and a magenta purple center.",
-  colour: "Grey lavender to deep lavender, magenta purple",
-  significance: "Power of Effort (Effort of Auroville)",
-  comment: "Efforts well-directed break down all obstacles.",
-  image_url: "chinese_hibiscus_grey_lavender_magenta.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_060928-0504_Hibiscus_rosa-sinensis.jpg"
-}
-
-chinese_hibiscus_21 = {
-  description: "Large single pink to light red or reddish-orange flowers with smooth petals that are often crimson pink at the edges and a white center shading to lavender pink. Another form is pinkish-orange with a white center.",
-  colour: "Pink to light red or reddish-orange, crimson pink, white to lavender pink",
-  significance: "Power of Progress",
-  comment: "Power is the sign of the Divine influence in creation.",
-  image_url: "chinese_hibiscus_pink_orange_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_(4909573650).jpg"
-}
-
-chinese_hibiscus_22 = {
-  bot_name: "Hibiscus rosa-sinensis 'Sweetheart'",
-  description: "Small to medium-sized single cream white flower with a large prominent deep pink center and veins which extend towards the edges of the petals, and orange stigma pads.",
-  colour: "Cream white, deep pink, orange",
-  significance: "Power to Progress",
-  comment: "Precious because it is rare, it must be cultivated with care.",
-  image_url: "chinese_hibiscus_cream_pink_orange.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_(10).jpg"
-}
-
-chinese_hibiscus_23 = {
-  description: "Large single cream white flower with crinkled petals and a deep rose pink or magenta pinwheel center.",
-  colour: "Cream white, deep rose pink or magenta",
-  significance: "Power of Success (Success of Auroville)",
-  comment: "The power of those who know how to continue their effort.",
-  image_url: "chinese_hibiscus_cream_magenta.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_060928-0499_Hibiscus_rosa-sinensis.jpg"
-}
-
-chinese_hibiscus_24 = {
-  description: "Large sturdy single bright orange red flower with firm crinkled petals. Another form is a medium to large single flower with slightly recurved reddish-orange petals with yellow orange beginning at the edges and gradually spreading towards the center as the flower ages, and a grey lavender center shading to deep lavender pink.",
-  colour: "Bright orange red, yellow orange, grey lavender",
-  significance: "Power of Realisation",
-  comment: "With realisation all obstacles will be overcome.",
-  image_url: "chinese_hibiscus_orange.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_080103-1210_Hibiscus_rosa-sinensis.jpg"
-}
-
-chinese_hibiscus_25 = {
-  bot_name: "Hibiscus rosa-sinensis 'Comet'",
-  description: "Large striking single deep red or deep magenta flower with a satiny sheen.",
-  colour: "Deep red or deep magenta",
-  significance: "Power of the Future",
-  comment: "To be capable of working for the future.",
-  image_url: "chinese_hibiscus_deep_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Red_Hibiscus_from_Kerala.jpg"
-}
-
-chinese_hibiscus_26 = {
-  description: "Very large single bright magenta flower with firm crinkled slightly recurved petals.",
-  colour: "Bright magenta",
-  significance: "Power in Service of the Future",
-  comment: "Without haste, but sure of its success.",
-  image_url: "chinese_hibiscus_bright_magenta.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Kembang_Sepatu_Hibiscus_rosa.JPG"
-}
-
-chinese_hibiscus_27 = {
-  bot_name: "Hibiscus rosa-sinensis 'Rukmini'",
-  description: "Medium to large double flower in deep gold shading to apricot with a red or deep orange center. Another form is a medium to large double golden orange flower suffused with deeper orange towards the center, often with a deep red center.",
-  colour: "Deep gold to apricot, red or deep orange",
-  significance: "Power of the Supramental Consciousness",
-  comment: "Organising and active, irresistible in its influence.",
-  image_url: "chinese_hibiscus_double_gold_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_070111-3349_Hibiscus_rosa-sinensis.jpg"
-}
-
-chinese_hibiscus_28 = {
-  description: "Large single open cup-shaped flower with a large deep pink center shading to light orange towards the outer edges of the petals.",
-  colour: "Deep pink to light orange",
-  significance: "Effective Power of the Supermind",
-  comment: "All-powerful, it imposes itself on all in the certitude of its knowledge.",
-  image_url: "chinese_hibiscus_orange_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_Erin_Rachael.jpg"
-}
-
-chinese_hibiscus_29 = {
-  bot_name: "Hibiscus rosa-sinensis 'Splash'",
-  description: "Medium to large single bright red or orange red flowers with firm thick velvety petals splashed with white as if with irregular brush-strokes; the edges of the petals shaded cream yellow to light gold.",
-  colour: "Bright red or orange red, white, cream yellow to light gold",
-  significance: "Manifold Power of the New Creation (Manifold Power of Auroville)",
-  comment: "The new creation will be rich in possibilities.",
-  image_url: "chinese_hibiscus_red_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_061223-2696_Hibiscus_rosa-sinensis.jpg"
-}
-
-chinese_hibiscus_30 = {
-  description: "Medium-sized or large single salmon-orange to golden yellow flower with soft crinkled petals, deep magenta center and silver white aura.",
-  colour: "Salmon orange to golden yellow, deep magenta, silver white",
-  significance: "Power of Spiritual Beauty (Spiritual Beauty of Auroville)",
-  comment: "Spiritual beauty has a contagious power.",
-  image_url: "chinese_hibiscus_salmon_magenta.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_single.JPG"
-}
-
-chinese_hibiscus_31 = {
-  description: "Medium-sized double flower, variegated in red and white.",
-  colour: "Red, white",
-  significance: "Faith",
-  comment: "You flame up and triumph.",
-  image_url: "chinese_hibiscus_variegated_red_white.jpg",
-  source: "Xeramtheum, All Things Plants",
-  url: "http://allthingsplants.com/plants/photo/244361/"
-}
-
-chinese_hibiscus_32 = {
-  description: "Medium-sized single light golden orange flower with orange veins and a deep red center. Another form is a large single deep salmon pink flower changing to cream yellow at the edges of the petals, with a deep red center.",
-  colour: "Light golden orange, deep red, or deep salmon pink to cream yellow",
-  significance: "Supramental Beauty in the Physical",
-  comment: "Its promise is charming.",
-  image_url: "chinese_hibiscus_golden_orange_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_6520.JPG"
-}
-
-chinese_hibiscus_33 = {
-  description: "Large single salmon pink flower with broadly overlapping rounded petals, a small pink center and a pale pink aura. Another form is medium to large with each petal delicately shaded yellow and a pale pink aura.",
-  colour: "Salmon pink, pink, yellow",
-  significance: "Beauty of Supramental Love (Flower of Auroville)",
-  comment: "It invites us to live at its height",
-  image_url: "chinese_hibiscus_salmon_pink.jpg",
-  source: "Ian Percy, Florez Nursery",
-  url: "http://floreznursery.blogspot.in/2013_06_01_archive.html"
-}
-
-chinese_hibiscus_34 = {
-  description: "Medium-sized single flower with recurved soft salmon orange petals specked with pale yellow, reddish veins and a red center.",
-  colour: "Salmon orange, pale yellow, red",
-  significance: "Beauty of Supramental Youth",
-  comment: "Exquisite in its freshness, powerful in its undeniable beauty.",
-  image_url: "chinese_hibiscus_salmon_orange_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_Madeline_Champion.jpg"
-}
-
-chinese_hibiscus_35 = {
-  bot_name: "Hibiscus rosa-sinensis 'Debbie Ann'",
-  description: "Large single crimson pink flower with soft heavily crinkled petals that shade to pale pink on the edges and a dark red center.",
-  colour: "Crimson pink to pale pink, dark red",
-  significance: "Beauty of the New Creation (Beauty of Auroville)",
-  comment: "The new creation strives to better manifest the Divine.",
-  image_url: "chinese_hibiscus_crimson_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_rosa-sinensis_Pink_Cultivars_at_Marikavalasa.JPG"
-}
-
-chinese_hibiscus_36 = {
-  description: "Large single flowers in light or bright orange shades, with or without a variously coloured, but not white, center; the flowers open pinkish-orange and change into yellow orange during the day.",
-  colour: "Light or bright orange shades",
-  significance: "Beauty of Tomorrow",
-  comment: "The beauty that will express Divine Power.",
-  image_url: "chinese_hibiscus_orange_shades.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_070221-4815_Hibiscus_rosa-sinensis.jpg"
-}
-
-chinese_hibiscus_37 = {
-  description: "Large single flowers in shades of orange, with a striking white center and often with a pale pink aura.",
-  colour: "White, pale pink, shades of orange",
-  significance: "Beauty of Tomorrow Manifesting the Divine",
-  comment: "A beauty that exists only by and for the Divine.",
-  image_url: "chinese_hibiscus_orange_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_8800.jpg"
-}
-
-chinese_hibiscus_38 = {
-  bot_name: "Hibiscus rosa-sinensis 'Grace Goo'",
-  description: "Large single flower with crinkled petals in golden ochre to mustard with a very deep red or vermilion center and a silver grey or pale lavender aura.",
-  colour: "Golden ochre to mustard, deep red or vermilion, silver grey or pale lavender",
-  significance: "Victorious Beauty",
-  comment: "When it has removed the ugliness of life.",
-  image_url: "chinese_hibiscus_gold_vermilion.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Chinese_Hibiscus_Hibiscus_rosa-sinensis_Fifth_Dimension_Mallow_Family_-_Malvaceae_(3073325832).jpg"
-}
-
-chinese_hibiscus_39 = {
-  description: "Large semi-double flower of the cup-and-saucer type with rounded outer petals and a tufted center, in bright orange or bright yellow with a fire red center.",
-  colour: "Bright orange or bright yellow, fire red",
-  significance: "Blossoming of the New Creation (Blossoming of Auroville)",
-  comment: "The more we concentrate on the goal, the more it blossoms forth and becomes precise.",
-  image_url: "chinese_hibiscus_semi_double_yellow_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:PeppersSuprise01.JPG"
-}
-
-chinese_hibiscus_40 = {
-  description: "Large single light pink flower with crinkled petals and a center that varies from white through dark pink.",
-  colour: "Light pink, white to dark pink",
-  significance: "Charm of the New Creation (Charm of Auroville)",
-  comment: "The New Creation is attractive to all those who want to progress.",
-  image_url: "chinese_hibiscus_light_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Cayena_(Hibiscus_rosa-sinensis),_Conservatorio_bot%C3%A1nico,_Fort_Wayne,_Indiana,_Estados_Unidos,_2012-11-12,_DD_01.jpg"
-}
-
-chinese_hibiscus_41 = {
-  description: "Medium-sized single cup-shaped flower with thick crinkled yellow petals with orange blotches and red orange at the edges, and a light yellow center.",
-  colour: "Yellow, orange, red orange, light yellow",
-  significance: "Concentration of the New Creation (Concentration of Auroville)",
-  comment: "Concentration on a precise goal is helpful to development.",
-  image_url: "chinese_hibiscus_yellow_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_Cultivar_2010-7-11_TorreLaMata.jpg"
-}
-
-chinese_hibiscus_42 = {
-  description: "Large single yellow flower intricately veined with orange, the small veins gradually fading to yellow, with a striking deep red or bright pink pinwheel center and a radiating pink aura. Another form is a large single yellow flower speckled orange with orange on the edge of each petal and a large tricoloured pinwheel center that is bright red shading to grey lavender, then to rose; the mature flower loses its orange colour and turns solid golden yellow while the center remains the same.",
-  colour: "Yellow, orange, yellow, deep red or bright pink, or bright red to grey lavender",
-  significance: "Firmness of the New Creation (Firmness of Auroville)",
-  comment: "The new creation wants to be steadfast in its manifestation.",
-  image_url: "chinese_hibiscus_yellow_orange_red_lavender_rose.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus2733.JPG"
-}
-
-chinese_hibiscus_43 = {
-  description: "Medium-sized single cup-shaped flower with delicately or heavily crinkled petals of violet mauve with nearly white edges and an intense pale mauve or violet center.",
-  colour: "Violet, mauve, white",
-  significance: "Ideal of the New Creation (Ideal of Auroville)",
-  comment: "The ideal should be progressive so that it can be realised in the future.",
-  image_url: "chinese_hibiscus_violet_mauve.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_061213-2359_Hibiscus_rosa-sinensis.jpg"
-}
-
-chinese_hibiscus_44 = {
-  description: "Sturdy medium-sized single cup-shaped flower with a frilled yellow border and a fire-like reddish-orange center that radiates out over much of the petals.",
-  colour: "Yellow, reddish-orange",
-  significance: "Progress of the New Creation (Progress of Auroville)",
-  comment: "Each must find the activity favourable to his progress.",
-  image_url: "chinese_hibiscus_yellow_orange_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_three.jpg"
-}
-
-chinese_hibiscus_45 = {
-  bot_name: "Hibiscus rosa-sinensis 'Vasco'",
-  description: "Large single lemon yellow flower with a white center. Another form is a large bright yellow flower with a white center tinged pink.",
-  colour: "Lemon or bright yellow, white, pink",
-  significance: "Realisation of the New Creation (Realisation of Auroville)",
-  comment: "It is for this that we must prepare.",
-  image_url: "chinese_hibiscus_lemon_yellow_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_rosa-sinensis_(giallo)_-_01.JPG"
-}
-
-chinese_hibiscus_46 = {
-  description: "Medium to large solid single deep pink flower with flat rounded petals and a reddish-pink center.",
-  colour: "Deep pink, reddish-pink",
-  significance: "Usefulness of the New Creation (Usefulness of Auroville)",
-  comment: "A creation which aims at teaching men to surpass themselves.",
-  image_url: "chinese_hibiscus_pink_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiskus_at_Bhopal.JPG"
-}
-
-chinese_hibiscus_47 = {
-  description: "Large double flower with light pink petals shading to deeper pink towards the dark red center and fading to cream at the outer edges.",
-  colour: "Light to deep pink, dark red, cream",
-  significance: "Consciousness One with the Divine Consciousness",
-  comment: "Smiling and happy, it no longer knows any shadows.",
-  image_url: "chinese_hibiscus_double_pink_red_cream.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_080715-9249_Hibiscus_rosa-sinensis.jpg"
-}
-
-chinese_hibiscus_48 = {
-  description: "Large double bright yellow or golden yellow flowers. Another form has a red center.",
-  colour: "Bright yellow or golden yellow, red",
-  significance: "Supramental Consciousness",
-  comment: "Gloriously awake and powerful. Luminous, sure of itself, infallible in its movements.",
-  image_url: "chinese_hibiscus_double_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_cultivar_(2).JPG"
-}
-
-chinese_hibiscus_49 = {
-  description: "Medium-sized double cream white flower.",
-  colour: "Cream white",
-  significance: "Will in the Course of Uniting itself with the Divine Will",
-  comment: "On the way to perfection.",
-  image_url: "chinese_hibiscus_double_cream_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_050107-2950_Hibiscus_rosa-sinensis.jpg"
-}
-
-chinese_hibiscus_50 = {
-  description: "Large single shell white or very pale yellow gold flower with crinkled petals, a pink center, and golden anthers and stamens.",
-  colour: "Shell white or pale yellow gold, pink, golden",
-  significance: "Godhead",
-  comment: "Pure and perfect, puts forth its force in the world.",
-  image_url: "chinese_hibiscus_gold_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus03.jpg"
-}
 
 chinese_hibiscus = Flower.create!(
   name: "Chinese Hibiscus",
@@ -11305,83 +10462,520 @@ chinese_hibiscus = Flower.create!(
   image_url: "chinese_hibiscus.jpg",
   thumbnail_url: "chinese_hibiscus_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_070906-8674_Hibiscus_rosa-sinensis.jpg",
-  variants: [
-    chinese_hibiscus_01,
-    chinese_hibiscus_02,
-    chinese_hibiscus_03,
-    chinese_hibiscus_04,
-    chinese_hibiscus_05,
-    chinese_hibiscus_06,
-    chinese_hibiscus_07,
-    chinese_hibiscus_08,
-    chinese_hibiscus_09,
-    chinese_hibiscus_10,
-    chinese_hibiscus_11,
-    chinese_hibiscus_12,
-    chinese_hibiscus_13,
-    chinese_hibiscus_14,
-    chinese_hibiscus_15,
-    chinese_hibiscus_16,
-    chinese_hibiscus_17,
-    chinese_hibiscus_18,
-    chinese_hibiscus_19,
-    chinese_hibiscus_20,
-    chinese_hibiscus_21,
-    chinese_hibiscus_22,
-    chinese_hibiscus_23,
-    chinese_hibiscus_24,
-    chinese_hibiscus_25,
-    chinese_hibiscus_26,
-    chinese_hibiscus_27,
-    chinese_hibiscus_28,
-    chinese_hibiscus_29,
-    chinese_hibiscus_30,
-    chinese_hibiscus_31,
-    chinese_hibiscus_32,
-    chinese_hibiscus_33,
-    chinese_hibiscus_34,
-    chinese_hibiscus_35,
-    chinese_hibiscus_36,
-    chinese_hibiscus_37,
-    chinese_hibiscus_38,
-    chinese_hibiscus_39,
-    chinese_hibiscus_40,
-    chinese_hibiscus_41,
-    chinese_hibiscus_42,
-    chinese_hibiscus_43,
-    chinese_hibiscus_44,
-    chinese_hibiscus_45,
-    chinese_hibiscus_46,
-    chinese_hibiscus_47,
-    chinese_hibiscus_48,
-    chinese_hibiscus_49,
-    chinese_hibiscus_50
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Starr_070906-8674_Hibiscus_rosa-sinensis.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Medium-sized double light salmon pink flower with fine red veins and a deep red center.",
+  colour: "Light salmon pink, red",
+  significance: "Agni",
+  comment: "The flame of purification which ought to precede all contact with the invisible worlds.",
+  image_url: "chinese_hibiscus_double_salmon_red.jpg",
+  source: "leahahaha",
+  url: "https://www.flickr.com/photos/leahahaha/2731533496/"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Small delicate single flower with soft slightly crinkled cream petals and a pure white center.",
+  colour: "Cream, pure white",
+  significance: "Ananda",
+  comment: "Calm, tranquil, equal, smiling, and very sweet in its truly simple austerity.",
+  image_url: "chinese_hibiscus_cream_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_070403-6477_Hibiscus_rosa-sinensis.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Small delicate single flower with soft slightly crinkled cream petals, a deep red center, and a pure white aura.",
+  colour: "Cream, deep red, pure white",
+  significance: "Ananda in the Physical",
+  comment: "May it be welcome, even if it manifests itself rarely.",
+  image_url: "chinese_hibiscus_cream_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Kailua_Yellow_Hibiscus_18cm.JPG"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  bot_name: "Hibiscus rosa-sinensis ‘Viceroy’",
+  description: "Small single intense magenta flower.",
+  colour: "Magenta",
+  significance: "Individual Power",
+  comment: "Limited in its capacity and action.",
+  image_url: "chinese_hibiscus_magenta.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiskus_rosa-sinensis_-_Kwiat.JPG"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Small single coral pink flower with deeper pink veins and an intense red center; the backs of the petals are edged in cream.",
+  colour: "Coral pink, intense red, cream",
+  significance: "Enlightened Individual Power",
+  comment: "Limited in its action, but of a very high capacity.",
+  image_url: "chinese_hibiscus_coral_pink_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:GenE.aguinaldoChurchjf9042_13.JPG"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Medium to large double bright rose pink flower with ruffled petals and a deep red center.",
+  colour: "Bright rose pink, deep red",
+  significance: "Power of the Psychic Consciousness",
+  comment: "Psychic power organises the activities of the nature to make them progress.",
+  image_url: "chinese_hibiscus_double_rose_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:%E0%B4%9A%E0%B5%86%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B4%B0%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%82.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Medium-sized single light pink flower that has slightly separated petals with wavy edges and a small deep red center surrounded by a light red aura. A second form is a medium-sized single pink pendulous flower that has widely separated petals with deeply scalloped edges and a deep red center; the leaves are three-lobed. A third form is a medium-sized single lilac pink flower with more deeply shaded veins and center, and slightly separated petals having one edge striped with white on the reverse.",
+  colour: "Light pink to lilac pink, deep red",
+  significance: "Psychic Power in Existence",
+  comment: "Manifold, imperious, irresistible in its understanding sweetness.",
+  image_url: "chinese_hibiscus_lilac_pink_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_pink_fully_opened.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  bot_name: "Hibiscus rosa-sinensis 'Viceroy'",
+  description: "Small, medium or large single lemon yellow flowers with strikingly contrasting bright red or maroon center.",
+  colour: "Lemon yellow, bright red or maroon",
+  significance: "Mentalised Power",
+  comment: "Power becomes utilisable.",
+  image_url: "chinese_hibiscus_lemon_yellow_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:%E0%B4%AE%E0%B4%9E%E0%B5%8D%E0%B4%9E_%E0%B4%9A%E0%B5%86%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B4%B0%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%82%E0%B4%B5%E0%B5%8D_1.JPG"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  bot_name: "Hibiscus rosa-sinensis 'Viceroy'",
+  description: "Large single bright ochre yellow flower with crinkled petals.",
+  colour: "Bright ochre yellow",
+  significance: "Power in the Converted Mind",
+  comment: "When the mind turns towards the Divine it becomes a powerful instrument.",
+  image_url: "chinese_hibiscus_ochre_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_-_Agri-Horticultural_Society_of_India_-_Alipore_-_Kolkata_2013-01-05_2248.JPG"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Large single light gold to apricot yellow flower with crinkled petals and a striking white to light pink pinwheel center.",
+  colour: "Light gold to apricot yellow, white to light pink",
+  significance: "Sweetness of Power Surrendered to the Divine (Sweetness of Auroville)",
+  comment: "Sweetness itself becomes powerful when it is at the service of the Divine.",
+  image_url: "chinese_hibiscus_gold_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Yellow_flower.JPG"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  bot_name: "Hibiscus rosa-sinensis 'Waimaea'",
+  description: "Medium to large mildly fragrant single flower with long slender milk white petals that are separated and recurved, and bright orange anthers.",
+  colour: "Milk white, bright orange",
+  significance: "Light of the Purified Power",
+  comment: "Irresistibly simple in its power consecrated solely to the Divine.",
+  image_url: "chinese_hibiscus_white_orange.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:White_Hibiscus_5505.JPG"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Small or large single white flower with long separated petals and a bright red or vermilion center. Another form is also white with long separated petals but is medium-sized and has a bright red pinwheel center.",
+  colour: "White, bright red or vermilion",
+  significance: "Power of Integral Purity",
+  comment: "The power of accepting only the Divine influence.",
+  image_url: "chinese_hibiscus_white_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_Tricolor.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Medium to large single flowers with bright golden yellow or light yellow petals, either crinkled or smooth, and a center that may be pink, light or deep red, or light orange.",
+  colour: "Bright golden yellow or light yellow, and pink, light or deep red, or light orange",
+  significance: "Power of Harmony",
+  comment: "Simple, noble, dignified, powerful, and charming.",
+  image_url: "chinese_hibiscus_yellow_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_Cultivar_2010-7-11_TorreLaMata.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Large single reddish-pink flower with a dark red center and smooth separated petals, each petal splashed with white on one lower edge. Another form is smaller.",
+  colour: "Reddish-pink, dark red, white",
+  significance: "Aesthetic Power",
+  comment: "Beauty is a great power.",
+  image_url: "chinese_hibiscus_pink_red_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:JfLakandulaflowerPampanga0214fvf_02.JPG"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Medium-sized single flowers in shades ranging from light to medium red, petals separate recurved with toothed edges.",
+  colour: "Light to medium red",
+  significance: "Dynamic Power",
+  comment: "Indispensable for progress.",
+  image_url: "chinese_hibiscus_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_rosa-sinensis_flower_2.JPG"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Medium-sized semi-double grey lavender with deeper shading on the outer petals and stigmas.",
+  colour: "Grey lavender",
+  significance: "Controlled Power",
+  image_url: "chinese_hibiscus_grey_lavender.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:%E0%B4%9A%E0%B5%86%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B4%B0%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%AF%E0%B5%81%E0%B4%9F%E0%B5%86_%E0%B4%B5%E0%B4%AF%E0%B4%B2%E0%B4%B1%E0%B5%8D%E0%B4%B1%E0%B5%8D_%E0%B4%AA%E0%B5%82%E0%B4%B5%E0%B5%8D.JPG"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Medium-sized single bright cardinal red flower with firm petals, with or without a reddish-purple center.",
+  colour: "Bright cardinal red, reddish-purple",
+  significance: "Power of Action",
+  comment: "The power resulting from true surrender to the Divine.",
+  image_url: "chinese_hibiscus_cardinal_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus-20070216-013.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Double flowers in all sizes with colours that range from raspberry pink through red to crimson.",
+  colour: "Raspberry pink to crimson",
+  significance: "Power of Consciousness",
+  comment: "All the powers of controlling and governing the lower movements of inconscient nature.",
+  image_url: "chinese_hibiscus_double_pink_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_(rosa-sinensis)_Kerala.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Large single orange to red orange flower often tinged rose at the edges of the smooth or slightly crinkled petals and a deep red center.",
+  colour: "Orange to red orange, rose, deep red",
+  significance: "Power of Perseverance (Continued Perseverance and Action)",
+  comment: "The perseverance that overcomes all obstacles.",
+  image_url: "chinese_hibiscus_red_orange_rose.jpg",
+  source: "anuraj, Pixabay",
+  url: "https://pixabay.com/en/hibiscus-rosa-sinensis-flower-436595/"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Large single grey lavender to deep lavender with delicate petals and a magenta purple center.",
+  colour: "Grey lavender to deep lavender, magenta purple",
+  significance: "Power of Effort (Effort of Auroville)",
+  comment: "Efforts well-directed break down all obstacles.",
+  image_url: "chinese_hibiscus_grey_lavender_magenta.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_060928-0504_Hibiscus_rosa-sinensis.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Large single pink to light red or reddish-orange flowers with smooth petals that are often crimson pink at the edges and a white center shading to lavender pink. Another form is pinkish-orange with a white center.",
+  colour: "Pink to light red or reddish-orange, crimson pink, white to lavender pink",
+  significance: "Power of Progress",
+  comment: "Power is the sign of the Divine influence in creation.",
+  image_url: "chinese_hibiscus_pink_orange_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_(4909573650).jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  bot_name: "Hibiscus rosa-sinensis 'Sweetheart'",
+  description: "Small to medium-sized single cream white flower with a large prominent deep pink center and veins which extend towards the edges of the petals, and orange stigma pads.",
+  colour: "Cream white, deep pink, orange",
+  significance: "Power to Progress",
+  comment: "Precious because it is rare, it must be cultivated with care.",
+  image_url: "chinese_hibiscus_cream_pink_orange.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_(10).jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Large single cream white flower with crinkled petals and a deep rose pink or magenta pinwheel center.",
+  colour: "Cream white, deep rose pink or magenta",
+  significance: "Power of Success (Success of Auroville)",
+  comment: "The power of those who know how to continue their effort.",
+  image_url: "chinese_hibiscus_cream_magenta.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_060928-0499_Hibiscus_rosa-sinensis.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Large sturdy single bright orange red flower with firm crinkled petals. Another form is a medium to large single flower with slightly recurved reddish-orange petals with yellow orange beginning at the edges and gradually spreading towards the center as the flower ages, and a grey lavender center shading to deep lavender pink.",
+  colour: "Bright orange red, yellow orange, grey lavender",
+  significance: "Power of Realisation",
+  comment: "With realisation all obstacles will be overcome.",
+  image_url: "chinese_hibiscus_orange.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_080103-1210_Hibiscus_rosa-sinensis.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  bot_name: "Hibiscus rosa-sinensis 'Comet'",
+  description: "Large striking single deep red or deep magenta flower with a satiny sheen.",
+  colour: "Deep red or deep magenta",
+  significance: "Power of the Future",
+  comment: "To be capable of working for the future.",
+  image_url: "chinese_hibiscus_deep_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Red_Hibiscus_from_Kerala.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Very large single bright magenta flower with firm crinkled slightly recurved petals.",
+  colour: "Bright magenta",
+  significance: "Power in Service of the Future",
+  comment: "Without haste, but sure of its success.",
+  image_url: "chinese_hibiscus_bright_magenta.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Kembang_Sepatu_Hibiscus_rosa.JPG"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  bot_name: "Hibiscus rosa-sinensis 'Rukmini'",
+  description: "Medium to large double flower in deep gold shading to apricot with a red or deep orange center. Another form is a medium to large double golden orange flower suffused with deeper orange towards the center, often with a deep red center.",
+  colour: "Deep gold to apricot, red or deep orange",
+  significance: "Power of the Supramental Consciousness",
+  comment: "Organising and active, irresistible in its influence.",
+  image_url: "chinese_hibiscus_double_gold_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_070111-3349_Hibiscus_rosa-sinensis.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Large single open cup-shaped flower with a large deep pink center shading to light orange towards the outer edges of the petals.",
+  colour: "Deep pink to light orange",
+  significance: "Effective Power of the Supermind",
+  comment: "All-powerful, it imposes itself on all in the certitude of its knowledge.",
+  image_url: "chinese_hibiscus_orange_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_Erin_Rachael.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  bot_name: "Hibiscus rosa-sinensis 'Splash'",
+  description: "Medium to large single bright red or orange red flowers with firm thick velvety petals splashed with white as if with irregular brush-strokes; the edges of the petals shaded cream yellow to light gold.",
+  colour: "Bright red or orange red, white, cream yellow to light gold",
+  significance: "Manifold Power of the New Creation (Manifold Power of Auroville)",
+  comment: "The new creation will be rich in possibilities.",
+  image_url: "chinese_hibiscus_red_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_061223-2696_Hibiscus_rosa-sinensis.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Medium-sized or large single salmon-orange to golden yellow flower with soft crinkled petals, deep magenta center and silver white aura.",
+  colour: "Salmon orange to golden yellow, deep magenta, silver white",
+  significance: "Power of Spiritual Beauty (Spiritual Beauty of Auroville)",
+  comment: "Spiritual beauty has a contagious power.",
+  image_url: "chinese_hibiscus_salmon_magenta.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_single.JPG"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Medium-sized double flower, variegated in red and white.",
+  colour: "Red, white",
+  significance: "Faith",
+  comment: "You flame up and triumph.",
+  image_url: "chinese_hibiscus_variegated_red_white.jpg",
+  source: "Xeramtheum, All Things Plants",
+  url: "http://allthingsplants.com/plants/photo/244361/"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Medium-sized single light golden orange flower with orange veins and a deep red center. Another form is a large single deep salmon pink flower changing to cream yellow at the edges of the petals, with a deep red center.",
+  colour: "Light golden orange, deep red, or deep salmon pink to cream yellow",
+  significance: "Supramental Beauty in the Physical",
+  comment: "Its promise is charming.",
+  image_url: "chinese_hibiscus_golden_orange_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_6520.JPG"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Large single salmon pink flower with broadly overlapping rounded petals, a small pink center and a pale pink aura. Another form is medium to large with each petal delicately shaded yellow and a pale pink aura.",
+  colour: "Salmon pink, pink, yellow",
+  significance: "Beauty of Supramental Love (Flower of Auroville)",
+  comment: "It invites us to live at its height",
+  image_url: "chinese_hibiscus_salmon_pink.jpg",
+  source: "Ian Percy, Florez Nursery",
+  url: "http://floreznursery.blogspot.in/2013_06_01_archive.html"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Medium-sized single flower with recurved soft salmon orange petals specked with pale yellow, reddish veins and a red center.",
+  colour: "Salmon orange, pale yellow, red",
+  significance: "Beauty of Supramental Youth",
+  comment: "Exquisite in its freshness, powerful in its undeniable beauty.",
+  image_url: "chinese_hibiscus_salmon_orange_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_Madeline_Champion.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  bot_name: "Hibiscus rosa-sinensis 'Debbie Ann'",
+  description: "Large single crimson pink flower with soft heavily crinkled petals that shade to pale pink on the edges and a dark red center.",
+  colour: "Crimson pink to pale pink, dark red",
+  significance: "Beauty of the New Creation (Beauty of Auroville)",
+  comment: "The new creation strives to better manifest the Divine.",
+  image_url: "chinese_hibiscus_crimson_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_rosa-sinensis_Pink_Cultivars_at_Marikavalasa.JPG"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Large single flowers in light or bright orange shades, with or without a variously coloured, but not white, center; the flowers open pinkish-orange and change into yellow orange during the day.",
+  colour: "Light or bright orange shades",
+  significance: "Beauty of Tomorrow",
+  comment: "The beauty that will express Divine Power.",
+  image_url: "chinese_hibiscus_orange_shades.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_070221-4815_Hibiscus_rosa-sinensis.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Large single flowers in shades of orange, with a striking white center and often with a pale pink aura.",
+  colour: "White, pale pink, shades of orange",
+  significance: "Beauty of Tomorrow Manifesting the Divine",
+  comment: "A beauty that exists only by and for the Divine.",
+  image_url: "chinese_hibiscus_orange_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_8800.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  bot_name: "Hibiscus rosa-sinensis 'Grace Goo'",
+  description: "Large single flower with crinkled petals in golden ochre to mustard with a very deep red or vermilion center and a silver grey or pale lavender aura.",
+  colour: "Golden ochre to mustard, deep red or vermilion, silver grey or pale lavender",
+  significance: "Victorious Beauty",
+  comment: "When it has removed the ugliness of life.",
+  image_url: "chinese_hibiscus_gold_vermilion.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Chinese_Hibiscus_Hibiscus_rosa-sinensis_Fifth_Dimension_Mallow_Family_-_Malvaceae_(3073325832).jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Large semi-double flower of the cup-and-saucer type with rounded outer petals and a tufted center, in bright orange or bright yellow with a fire red center.",
+  colour: "Bright orange or bright yellow, fire red",
+  significance: "Blossoming of the New Creation (Blossoming of Auroville)",
+  comment: "The more we concentrate on the goal, the more it blossoms forth and becomes precise.",
+  image_url: "chinese_hibiscus_semi_double_yellow_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:PeppersSuprise01.JPG"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Large single light pink flower with crinkled petals and a center that varies from white through dark pink.",
+  colour: "Light pink, white to dark pink",
+  significance: "Charm of the New Creation (Charm of Auroville)",
+  comment: "The New Creation is attractive to all those who want to progress.",
+  image_url: "chinese_hibiscus_light_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Cayena_(Hibiscus_rosa-sinensis),_Conservatorio_bot%C3%A1nico,_Fort_Wayne,_Indiana,_Estados_Unidos,_2012-11-12,_DD_01.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Medium-sized single cup-shaped flower with thick crinkled yellow petals with orange blotches and red orange at the edges, and a light yellow center.",
+  colour: "Yellow, orange, red orange, light yellow",
+  significance: "Concentration of the New Creation (Concentration of Auroville)",
+  comment: "Concentration on a precise goal is helpful to development.",
+  image_url: "chinese_hibiscus_yellow_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_Cultivar_2010-7-11_TorreLaMata.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Large single yellow flower intricately veined with orange, the small veins gradually fading to yellow, with a striking deep red or bright pink pinwheel center and a radiating pink aura. Another form is a large single yellow flower speckled orange with orange on the edge of each petal and a large tricoloured pinwheel center that is bright red shading to grey lavender, then to rose; the mature flower loses its orange colour and turns solid golden yellow while the center remains the same.",
+  colour: "Yellow, orange, yellow, deep red or bright pink, or bright red to grey lavender",
+  significance: "Firmness of the New Creation (Firmness of Auroville)",
+  comment: "The new creation wants to be steadfast in its manifestation.",
+  image_url: "chinese_hibiscus_yellow_orange_red_lavender_rose.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus2733.JPG"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Medium-sized single cup-shaped flower with delicately or heavily crinkled petals of violet mauve with nearly white edges and an intense pale mauve or violet center.",
+  colour: "Violet, mauve, white",
+  significance: "Ideal of the New Creation (Ideal of Auroville)",
+  comment: "The ideal should be progressive so that it can be realised in the future.",
+  image_url: "chinese_hibiscus_violet_mauve.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_061213-2359_Hibiscus_rosa-sinensis.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Sturdy medium-sized single cup-shaped flower with a frilled yellow border and a fire-like reddish-orange center that radiates out over much of the petals.",
+  colour: "Yellow, reddish-orange",
+  significance: "Progress of the New Creation (Progress of Auroville)",
+  comment: "Each must find the activity favourable to his progress.",
+  image_url: "chinese_hibiscus_yellow_orange_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_three.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  bot_name: "Hibiscus rosa-sinensis 'Vasco'",
+  description: "Large single lemon yellow flower with a white center. Another form is a large bright yellow flower with a white center tinged pink.",
+  colour: "Lemon or bright yellow, white, pink",
+  significance: "Realisation of the New Creation (Realisation of Auroville)",
+  comment: "It is for this that we must prepare.",
+  image_url: "chinese_hibiscus_lemon_yellow_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_rosa-sinensis_(giallo)_-_01.JPG"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Medium to large solid single deep pink flower with flat rounded petals and a reddish-pink center.",
+  colour: "Deep pink, reddish-pink",
+  significance: "Usefulness of the New Creation (Usefulness of Auroville)",
+  comment: "A creation which aims at teaching men to surpass themselves.",
+  image_url: "chinese_hibiscus_pink_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiskus_at_Bhopal.JPG"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Large double flower with light pink petals shading to deeper pink towards the dark red center and fading to cream at the outer edges.",
+  colour: "Light to deep pink, dark red, cream",
+  significance: "Consciousness One with the Divine Consciousness",
+  comment: "Smiling and happy, it no longer knows any shadows.",
+  image_url: "chinese_hibiscus_double_pink_red_cream.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_080715-9249_Hibiscus_rosa-sinensis.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Large double bright yellow or golden yellow flowers. Another form has a red center.",
+  colour: "Bright yellow or golden yellow, red",
+  significance: "Supramental Consciousness",
+  comment: "Gloriously awake and powerful. Luminous, sure of itself, infallible in its movements.",
+  image_url: "chinese_hibiscus_double_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_cultivar_(2).JPG"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Medium-sized double cream white flower.",
+  colour: "Cream white",
+  significance: "Will in the Course of Uniting itself with the Divine Will",
+  comment: "On the way to perfection.",
+  image_url: "chinese_hibiscus_double_cream_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_050107-2950_Hibiscus_rosa-sinensis.jpg"
+)
+
+chinese_hibiscus.child_flowers.create!(
+  description: "Large single shell white or very pale yellow gold flower with crinkled petals, a pink center, and golden anthers and stamens.",
+  colour: "Shell white or pale yellow gold, pink, golden",
+  significance: "Godhead",
+  comment: "Pure and perfect, puts forth its force in the world.",
+  image_url: "chinese_hibiscus_gold_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus03.jpg"
 )
 
 # Rose of Sharon
-
-rose_of_sharon_01 = {
-  description: "Medium-sized single funnel-shaped lavender flower changing to blue, with a magenta center and white anthers.",
-  colour: "Lavender to blue, magenta, white",
-  significance: "Power in the Higher Vital",
-  comment: "Power that wants to be at the service of the Divine.",
-  image_url: "rose_of_sharon_lavender.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_bleu_2.jpg"
-}
-
-rose_of_sharon_02 = {
-  bot_name: "Hibiscus syriacus 'White Chiffon'",
-  description: "Medium-sized double white flower with soft petals.",
-  colour: "White",
-  significance: "Will One with the Divine Will",
-  comment: "The condition that triumphs over all obstacles.",
-  image_url: "rose_of_sharon_white.jpg",
-  source: "Pflanzen (Lubera Gartenshop)",
-  url: "http://www.lubera.com/de/shop/hibiskus-white-chiffon_produkt-912962.html"
-}
 
 rose_of_sharon = Flower.create!(
   name: "Rose of Sharon",
@@ -11394,110 +10988,37 @@ rose_of_sharon = Flower.create!(
   image_url: "rose_of_sharon.jpg",
   thumbnail_url: "rose_of_sharon_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_syriacus_Blue_bird.jpg",
-  variants: [
-    rose_of_sharon_01,
-    rose_of_sharon_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_syriacus_Blue_bird.jpg"
+)
+
+rose_of_sharon.child_flowers.create!(
+  description: "Medium-sized single funnel-shaped lavender flower changing to blue, with a magenta center and white anthers.",
+  colour: "Lavender to blue, magenta, white",
+  significance: "Power in the Higher Vital",
+  comment: "Power that wants to be at the service of the Divine.",
+  image_url: "rose_of_sharon_lavender.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_bleu_2.jpg"
+)
+
+rose_of_sharon.child_flowers.create!(
+  bot_name: "Hibiscus syriacus 'White Chiffon'",
+  description: "Medium-sized double white flower with soft petals.",
+  colour: "White",
+  significance: "Will One with the Divine Will",
+  comment: "The condition that triumphs over all obstacles.",
+  image_url: "rose_of_sharon_white.jpg",
+  source: "Pflanzen (Lubera Gartenshop)",
+  url: "http://www.lubera.com/de/shop/hibiskus-white-chiffon_produkt-912962.html"
 )
 
 # Amaryllis
-
-amaryllis_01 = {
-  description: "Large trumpet-shaped flowers with six flared petals and long curving stamens; in white and shades of red, pink, orange, salmon, and striped; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
-  colour: "White, and shades of red, pink, orange, and salmon",
-  significance: "Conversion",
-  comment: "The starting point of realisation.",
-  image_url: "amaryllis_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:RFE06_384.jpg"
-}
-
-amaryllis_02 = {
-  description: "Large trumpet-shaped yellow flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
-  colour: "Yellow",
-  significance: "Conversion of the Mind",
-  comment: "The mind has freed itself of its arrogance and knows that it is only an instrument.",
-  image_url: "amaryllis_yellow.jpg",
-  source: "Lilium Breeding",
-  url: "http://www.liliumbreeding.nl/lilyliek.htm"
-}
-
-amaryllis_03 = {
-  description: "Large trumpet-shaped salmon orange flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
-  colour: "Salmon orange",
-  significance: "Conversion of the Physical Mind",
-  comment: "Ready to understand everything and to grow continually.",
-  image_url: "amaryllis_orange.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_080327-3845_Hippeastrum_striatum.jpg"
-}
-
-amaryllis_04 = {
-  description: "Large trumpet-shaped light pink flowers with reddish-pink lines and a white streak through the middle of each petal; flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
-  colour: "Light pink, reddish-pink, white",
-  significance: "Conversion of the Emotional Being",
-  comment: "It blossoms in a harmonious receptivity.",
-  image_url: "amaryllis_pink_red_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hippeastrum_Pink_Floyd.jpg"
-}
-
-amaryllis_05 = {
-  description: "Large trumpet-shaped dark red flowers with or without a red center and with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
-  colour: "Dark red",
-  significance: "Conversion of the Vital",
-  comment: "Enthusiastic and spontaneous, it gives itself unstintingly.",
-  image_url: "amaryllis_dark_red.jpg",
-  source: "Tatters ❀",
-  url: "https://www.flickr.com/photos/tgerus/3034864958"
-}
-
-amaryllis_06 = {
-  description: "Large trumpet-shaped bright red flowers with or without a white center; flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
-  colour: "Bright red, white",
-  significance: "Conversion of the Physical",
-  comment: "Compact and stable, without any fluctuations.",
-  image_url: "amaryllis_bright_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:HippeastrumRed.jpg"
-}
-
-amaryllis_07 = {
-  description: "Large trumpet-shaped fragrant white flowers with or without a green center; flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
-  colour: "White, green",
-  significance: "Integral Conversion",
-  comment: "Above all conflicts and struggles, in a harmonious blossoming.",
-  image_url: "amaryllis_white.jpg",
-  source: "kkmarais",
-  url: "https://www.flickr.com/photos/29946195@N07/4805997491/"
-}
-
-amaryllis_08 = {
-  description: "Large trumpet-shaped flowers with wavy petals spotted rose; flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
-  colour: "Rose",
-  significance: "Integral Conversion with the Help of the Psychic",
-  comment: "Sweetness mingles with resolution.",
-  image_url: "amaryllis_rose.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hippeastrum_reticulatum_(1).jpg"
-}
-
-amaryllis_09 = {
-  description: "Large trumpet-shaped very large light red flowers with thick fleshy petals; flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
-  colour: "Light red",
-  significance: "Total Conversion",
-  comment: "The whole being has given itself in all its movements.",
-  image_url: "amaryllis_light_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_061231-3065_Hippeastrum_striatum.jpg"
-}
 
 amaryllis = Flower.create!(
   name: "Amaryllis",
   other_names: "Knight's Star Lily, Barbados Lily",
   bot_name: "Hippeastrum",
-  family: "Amaryllidaceae",
+  family: "Amraryllidaceae",
   petals: "Six",
   size: "Large",
   place: "Native to tropical and subtropical regions of the Americas, from Argentina north to Mexico and the Caribbean",
@@ -11505,51 +11026,100 @@ amaryllis = Flower.create!(
   image_url: "amaryllis.jpg",
   thumbnail_url: "amaryllis_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Sunset_effect_on_the_flowers.JPG",
-  variants: [
-    amaryllis_01,
-    amaryllis_02,
-    amaryllis_03,
-    amaryllis_04,
-    amaryllis_05,
-    amaryllis_06,
-    amaryllis_07,
-    amaryllis_08,
-    amaryllis_09
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Sunset_effect_on_the_flowers.JPG"
+)
+
+amaryllis.child_flowers.create!(
+  description: "Large trumpet-shaped flowers with six flared petals and long curving stamens; in white and shades of red, pink, orange, salmon, and striped; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
+  colour: "White, and shades of red, pink, orange, and salmon",
+  significance: "Conversion",
+  comment: "The starting point of realisation.",
+  image_url: "amaryllis_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:RFE06_384.jpg"
+)
+
+amaryllis.child_flowers.create!(
+  description: "Large trumpet-shaped yellow flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
+  colour: "Yellow",
+  significance: "Conversion of the Mind",
+  comment: "The mind has freed itself of its arrogance and knows that it is only an instrument.",
+  image_url: "amaryllis_yellow.jpg",
+  source: "Lilium Breeding",
+  url: "http://www.liliumbreeding.nl/lilyliek.htm"
+)
+
+amaryllis.child_flowers.create!(
+  description: "Large trumpet-shaped salmon orange flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
+  colour: "Salmon orange",
+  significance: "Conversion of the Physical Mind",
+  comment: "Ready to understand everything and to grow continually.",
+  image_url: "amaryllis_orange.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_080327-3845_Hippeastrum_striatum.jpg"
+)
+
+amaryllis.child_flowers.create!(
+  description: "Large trumpet-shaped light pink flowers with reddish-pink lines and a white streak through the middle of each petal; flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
+  colour: "Light pink, reddish-pink, white",
+  significance: "Conversion of the Emotional Being",
+  comment: "It blossoms in a harmonious receptivity.",
+  image_url: "amaryllis_pink_red_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hippeastrum_Pink_Floyd.jpg"
+)
+
+amaryllis.child_flowers.create!(
+  description: "Large trumpet-shaped dark red flowers with or without a red center and with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
+  colour: "Dark red",
+  significance: "Conversion of the Vital",
+  comment: "Enthusiastic and spontaneous, it gives itself unstintingly.",
+  image_url: "amaryllis_dark_red.jpg",
+  source: "Tatters ❀",
+  url: "https://www.flickr.com/photos/tgerus/3034864958"
+)
+
+amaryllis.child_flowers.create!(
+  description: "Large trumpet-shaped bright red flowers with or without a white center; flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
+  colour: "Bright red, white",
+  significance: "Conversion of the Physical",
+  comment: "Compact and stable, without any fluctuations.",
+  image_url: "amaryllis_bright_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:HippeastrumRed.jpg"
+)
+
+amaryllis.child_flowers.create!(
+  description: "Large trumpet-shaped fragrant white flowers with or without a green center; flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
+  colour: "White, green",
+  significance: "Integral Conversion",
+  comment: "Above all conflicts and struggles, in a harmonious blossoming.",
+  image_url: "amaryllis_white.jpg",
+  source: "kkmarais",
+  url: "https://www.flickr.com/photos/29946195@N07/4805997491/"
+)
+
+amaryllis.child_flowers.create!(
+  description: "Large trumpet-shaped flowers with wavy petals spotted rose; flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
+  colour: "Rose",
+  significance: "Integral Conversion with the Help of the Psychic",
+  comment: "Sweetness mingles with resolution.",
+  image_url: "amaryllis_rose.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hippeastrum_reticulatum_(1).jpg"
+)
+
+amaryllis.child_flowers.create!(
+  description: "Large trumpet-shaped very large light red flowers with thick fleshy petals; flowers with six flared petals and long curving stamens; borne on tall sturdy scapes. A large bulb with thick, usually strap-like leaves that appear after the blooming season.",
+  colour: "Light red",
+  significance: "Total Conversion",
+  comment: "The whole being has given itself in all its movements.",
+  image_url: "amaryllis_light_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_061231-3065_Hippeastrum_striatum.jpg"
 )
 
 # Cup-and-saucer Plant
-
-cup_and_saucer_plant_01 = {
-  description: "Small narrow tubular flowers in shades of yellow, red, and lavender arising from open parasol-like calyces; borne in clusters in short axillary racemes. A straggling evergreen shrub.",
-  colour: "Shades of yellow, red, and lavender",
-  significance: "Curiosity",
-  comment: "If we want to be exceptional, let it be through our qualities.",
-  image_url: "cup_and_saucer_plant_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_070112-3357_Holmskioldia_sanguinea.jpg"
-}
-
-cup_and_saucer_plant_02 = {
-  description: "Small narrow tubular lemon yellow flowers arising from open parasol-like calyces; borne in clusters in short axillary racemes. A straggling evergreen shrub.",
-  colour: "Lemon yellow",
-  significance: "Mental Curiosity",
-  comment: "Should be strictly controlled so as not to be dangerous.",
-  image_url: "cup_and_saucer_plant_lemon_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_070111-3326_Holmskioldia_sanguinea.jpg"
-}
-
-cup_and_saucer_plant_03 = {
-  description: "Small narrow tubular red flowers arising from open parasol-like calyces; borne in clusters in short axillary racemes. A straggling evergreen shrub.",
-  colour: "Red",
-  significance: "Physical Curiosity",
-  comment: "Its value depends on its purpose.",
-  image_url: "cup_and_saucer_plant_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Holmskioldia_sanguinea2.jpg"
-}
 
 cup_and_saucer_plant = Flower.create!(
   name: "Cup-and-saucer Plant",
@@ -11562,74 +11132,40 @@ cup_and_saucer_plant = Flower.create!(
   image_url: "cup_and_saucer_plant.jpg",
   thumbnail_url: "cup_and_saucer_plant_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_071024-0264_Holmskioldia_sanguinea.jpg",
-  variants: [
-    cup_and_saucer_plant_01,
-    cup_and_saucer_plant_02,
-    cup_and_saucer_plant_03
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Starr_071024-0264_Holmskioldia_sanguinea.jpg"
+)
+
+cup_and_saucer_plant.child_flowers.create!(
+  description: "Small narrow tubular flowers in shades of yellow, red, and lavender arising from open parasol-like calyces; borne in clusters in short axillary racemes. A straggling evergreen shrub.",
+  colour: "Shades of yellow, red, and lavender",
+  significance: "Curiosity",
+  comment: "If we want to be exceptional, let it be through our qualities.",
+  image_url: "cup_and_saucer_plant_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_070112-3357_Holmskioldia_sanguinea.jpg"
+)
+
+cup_and_saucer_plant.child_flowers.create!(
+  description: "Small narrow tubular lemon yellow flowers arising from open parasol-like calyces; borne in clusters in short axillary racemes. A straggling evergreen shrub.",
+  colour: "Lemon yellow",
+  significance: "Mental Curiosity",
+  comment: "Should be strictly controlled so as not to be dangerous.",
+  image_url: "cup_and_saucer_plant_lemon_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_070111-3326_Holmskioldia_sanguinea.jpg"
+)
+
+cup_and_saucer_plant.child_flowers.create!(
+  description: "Small narrow tubular red flowers arising from open parasol-like calyces; borne in clusters in short axillary racemes. A straggling evergreen shrub.",
+  colour: "Red",
+  significance: "Physical Curiosity",
+  comment: "Its value depends on its purpose.",
+  image_url: "cup_and_saucer_plant_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Holmskioldia_sanguinea2.jpg"
 )
 
 # Garden Balsam
-
-garden_balsam_01 = {
-  description: "Small to medium-sized single or double flowers with irregular wavy petals and a long thin spur; in shades of red, pink, purple, and white, often variegated; borne singly in the leaf axils on very thin stalks. A bushy garden annual with succulent stems and serrate leaves.",
-  colour: "Shades of red, pink, purple, and white",
-  significance: "Generosity",
-  comment: "Gives and gives itself without bargaining.",
-  image_url: "garden_balsam_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Balsam_flower_at_lalbagh7353.JPG"
-}
-
-garden_balsam_02 = {
-  description: "Small to medium-sized single or double pink flowers with irregular wavy petals and a long thin spur; borne singly in the leaf axils on very thin stalks. A bushy garden annual with succulent stems and serrate leaves.",
-  colour: "Pink",
-  significance: "Psychic Generosity",
-  comment: "Gives for the joy of giving.",
-  image_url: "garden_balsam_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Balsam_flower..JPG"
-}
-
-garden_balsam_03 = {
-  description: "Small to medium-sized single rose purple flowers with irregular wavy petals and a long thin spur; borne singly in the leaf axils on very thin stalks. A bushy garden annual with succulent stems and serrate leaves.",
-  colour: "Rose purple",
-  significance: "Generosity in the Vital",
-  comment: "Gives itself unstintingly.",
-  image_url: "garden_balsam_single_rose_purple.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Impatiens_balsamina_28_08_2009.JPG"
-}
-
-garden_balsam_04 = {
-  description: "Small to medium-sized double rose purple flowers with irregular wavy petals and a long thin spur; borne singly in the leaf axils on very thin stalks. A bushy garden annual with succulent stems and serrate leaves.",
-  colour: "Rose purple",
-  significance: "Perfect Generosity in the Vital",
-  image_url: "garden_balsam_double_rose_purple.jpg",
-  source: "Ongzi's SecretGarden",
-  url: "http://ongzi-secretgarden.blogspot.in/2014/02/impatiens-balsamina.html"
-}
-
-garden_balsam_05 = {
-  description: "Small to medium-sized bicoloured pink and red single or double flowers with irregular wavy petals and a long thin spur; borne singly in the leaf axils on very thin stalks. A bushy garden annual with succulent stems and serrate leaves.",
-  colour: "Bicoloured, pink and red",
-  significance: "Psycho-physical Generosity",
-  comment: "Generosity of thought and act.",
-  image_url: "garden_balsam_bicoloured.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Balsamina_Impatiens.jpg"
-}
-
-garden_balsam_06 = {
-  description: "Small to medium-sized single or double red flowers with irregular wavy petals and a long thin spur; borne singly in the leaf axils on very thin stalks. A bushy garden annual with succulent stems and serrate leaves.",
-  colour: "Red",
-  significance: "Generosity in the Physical",
-  comment: "Loves abundance and loves to give it.",
-  image_url: "garden_balsam_red.jpg",
-  source: " tournesols",
-  url: "https://www.flickr.com/photos/szotyi/1496617824"
-}
 
 garden_balsam = Flower.create!(
   name: "Garden Balsam",
@@ -11641,84 +11177,69 @@ garden_balsam = Flower.create!(
   image_url: "garden_balsam.jpg",
   thumbnail_url: "garden_balsam_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Impatiens_balsamina_(2).JPG",
-  variants: [
-    garden_balsam_01,
-    garden_balsam_02,
-    garden_balsam_03,
-    garden_balsam_04,
-    garden_balsam_05,
-    garden_balsam_06
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Impatiens_balsamina_(2).JPG"
+)
+
+garden_balsam.child_flowers.create!(
+  description: "Small to medium-sized single or double flowers with irregular wavy petals and a long thin spur; in shades of red, pink, purple, and white, often variegated; borne singly in the leaf axils on very thin stalks. A bushy garden annual with succulent stems and serrate leaves.",
+  colour: "Shades of red, pink, purple, and white",
+  significance: "Generosity",
+  comment: "Gives and gives itself without bargaining.",
+  image_url: "garden_balsam_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Balsam_flower_at_lalbagh7353.JPG"
+)
+
+garden_balsam.child_flowers.create!(
+  description: "Small to medium-sized single or double pink flowers with irregular wavy petals and a long thin spur; borne singly in the leaf axils on very thin stalks. A bushy garden annual with succulent stems and serrate leaves.",
+  colour: "Pink",
+  significance: "Psychic Generosity",
+  comment: "Gives for the joy of giving.",
+  image_url: "garden_balsam_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Balsam_flower..JPG"
+)
+
+garden_balsam.child_flowers.create!(
+  description: "Small to medium-sized single rose purple flowers with irregular wavy petals and a long thin spur; borne singly in the leaf axils on very thin stalks. A bushy garden annual with succulent stems and serrate leaves.",
+  colour: "Rose purple",
+  significance: "Generosity in the Vital",
+  comment: "Gives itself unstintingly.",
+  image_url: "garden_balsam_single_rose_purple.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Impatiens_balsamina_28_08_2009.JPG"
+)
+
+garden_balsam.child_flowers.create!(
+  description: "Small to medium-sized double rose purple flowers with irregular wavy petals and a long thin spur; borne singly in the leaf axils on very thin stalks. A bushy garden annual with succulent stems and serrate leaves.",
+  colour: "Rose purple",
+  significance: "Perfect Generosity in the Vital",
+  image_url: "garden_balsam_double_rose_purple.jpg",
+  source: "Ongzi's SecretGarden",
+  url: "http://ongzi-secretgarden.blogspot.in/2014/02/impatiens-balsamina.html"
+)
+
+garden_balsam.child_flowers.create!(
+  description: "Small to medium-sized bicoloured pink and red single or double flowers with irregular wavy petals and a long thin spur; borne singly in the leaf axils on very thin stalks. A bushy garden annual with succulent stems and serrate leaves.",
+  colour: "Bicoloured, pink and red",
+  significance: "Psycho-physical Generosity",
+  comment: "Generosity of thought and act.",
+  image_url: "garden_balsam_bicoloured.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Balsamina_Impatiens.jpg"
+)
+
+garden_balsam.child_flowers.create!(
+  description: "Small to medium-sized single or double red flowers with irregular wavy petals and a long thin spur; borne singly in the leaf axils on very thin stalks. A bushy garden annual with succulent stems and serrate leaves.",
+  colour: "Red",
+  significance: "Generosity in the Physical",
+  comment: "Loves abundance and loves to give it.",
+  image_url: "garden_balsam_red.jpg",
+  source: " tournesols",
+  url: "https://www.flickr.com/photos/szotyi/1496617824"
 )
 
 # Morning Glory
-
-morning_glory_01 = {
-  bot_name: "Ipomoea",
-  description: "Small to large showy, usually funnelform flowers in white and shades of red, pink, purple, and blue; borne singly. Mostly climbing annual or perennial herbs. The significance includes all Ipomoeas not specifically named by the Mother.",
-  colour: "White and shades of red, pink, purple, and blue",
-  significance: "Nature makes an Offering of Her Beauty",
-  comment: "It is a spontaneous and effortless offering.",
-  image_url: "morning_glory_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Morning_glory.jpg"
-}
-
-morning_glory_02 = {
-  bot_name: "Ipomoea tricolor 'Pearly Gates'",
-  description: "Large, radiant, translucent white funnelform flower with a cream yellow throat. An annual climber.",
-  colour: "White, cream yellow",
-  significance: "Integral Unconditional Offering",
-  comment: "The joy of self-offering without asking anything in return.",
-  image_url: "morning_glory_pearly_gates.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Ipomoea_tricolor46978264.jpg"
-}
-
-morning_glory_03 = {
-  bot_name: "Ipomoea tricolor",
-  description: "Large blue funnelform flower with a white throat; borne singly or in few-flowered clusters. An annual climber.",
-  colour: "Blue, white",
-  significance: "Artistic Sensitivity",
-  comment: "A powerful aid in fighting ugliness.",
-  image_url: "morning_glory_blue_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Morning_glory_6b.jpg"
-}
-
-morning_glory_04 = {
-  bot_name: "Ipomoea nil 'Scarlet O'Hara'",
-  description: "Large striking bright magenta funnelform flower; borne singly or in small clusters. An annual climber.",
-  colour: "Bright magenta",
-  significance: "Joy of Beauty",
-  comment: "Beauty is the joyous offering of Nature.",
-  image_url: "morning_glory_scarlet_o_hara.jpg",
-  source: "World Seed Supply",
-  url: "http://www.worldseedsupply.com/product/ipomoea-nil-scarlet-ohara-morning-glory-seeds/"
-}
-
-morning_glory_05 = {
-  bot_name: "Ipomoea nil 'Cornell'",
-  description: "Large showy rose pink funnelform flower with a white border and throat; borne singly or in small clusters. An annual climber.",
-  colour: "Rose pink, white",
-  significance: "Spontaneous Beauty",
-  comment: "Delicate and magnificent, it has an incomparable charm.",
-  image_url: "morning_glory_cornell.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:PharbitisNil.jpg"
-}
-
-morning_glory_06 = {
-  bot_name: "Ipomoea tricolor 'Heavenly Blue'",
-  description: "Large lovely translucent sky blue funnelform flower with a yellow throat; borne singly or in small clusters. An annual climber.",
-  colour: "Sky blue, yellow",
-  significance: "Pure Sense of Beauty",
-  comment: "Can be acquired only through a great sense of purification.",
-  image_url: "morning_glory_heavenly_blue.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Morning_Glory_1.JPG"
-}
 
 morning_glory = Flower.create!(
   name: "Morning Glory",
@@ -11729,38 +11250,76 @@ morning_glory = Flower.create!(
   image_url: "morning_glory.jpg",
   thumbnail_url: "morning_glory_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Morning_Glory_%22Grandpa_Ott%22_(1033355923).jpg",
-  variants: [
-    morning_glory_01,
-    morning_glory_02,
-    morning_glory_03,
-    morning_glory_04,
-    morning_glory_05,
-    morning_glory_06
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Morning_Glory_%22Grandpa_Ott%22_(1033355923).jpg"
+)
+
+morning_glory.child_flowers.create!(
+  bot_name: "Ipomoea",
+  description: "Small to large showy, usually funnelform flowers in white and shades of red, pink, purple, and blue; borne singly. Mostly climbing annual or perennial herbs. The significance includes all Ipomoeas not specifically named by the Mother.",
+  colour: "White and shades of red, pink, purple, and blue",
+  significance: "Nature makes an Offering of Her Beauty",
+  comment: "It is a spontaneous and effortless offering.",
+  image_url: "morning_glory_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Morning_glory.jpg"
+)
+
+morning_glory.child_flowers.create!(
+  bot_name: "Ipomoea tricolor 'Pearly Gates'",
+  description: "Large, radiant, translucent white funnelform flower with a cream yellow throat. An annual climber.",
+  colour: "White, cream yellow",
+  significance: "Integral Unconditional Offering",
+  comment: "The joy of self-offering without asking anything in return.",
+  image_url: "morning_glory_pearly_gates.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Ipomoea_tricolor46978264.jpg"
+)
+
+morning_glory.child_flowers.create!(
+  bot_name: "Ipomoea tricolor",
+  description: "Large blue funnelform flower with a white throat; borne singly or in few-flowered clusters. An annual climber.",
+  colour: "Blue, white",
+  significance: "Artistic Sensitivity",
+  comment: "A powerful aid in fighting ugliness.",
+  image_url: "morning_glory_blue_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Morning_glory_6b.jpg"
+)
+
+morning_glory.child_flowers.create!(
+  bot_name: "Ipomoea nil 'Scarlet O'Hara'",
+  description: "Large striking bright magenta funnelform flower; borne singly or in small clusters. An annual climber.",
+  colour: "Bright magenta",
+  significance: "Joy of Beauty",
+  comment: "Beauty is the joyous offering of Nature.",
+  image_url: "morning_glory_scarlet_o_hara.jpg",
+  source: "World Seed Supply",
+  url: "http://www.worldseedsupply.com/product/ipomoea-nil-scarlet-ohara-morning-glory-seeds/"
+)
+
+morning_glory.child_flowers.create!(
+  bot_name: "Ipomoea nil 'Cornell'",
+  description: "Large showy rose pink funnelform flower with a white border and throat; borne singly or in small clusters. An annual climber.",
+  colour: "Rose pink, white",
+  significance: "Spontaneous Beauty",
+  comment: "Delicate and magnificent, it has an incomparable charm.",
+  image_url: "morning_glory_cornell.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:PharbitisNil.jpg"
+)
+
+morning_glory.child_flowers.create!(
+  bot_name: "Ipomoea tricolor 'Heavenly Blue'",
+  description: "Large lovely translucent sky blue funnelform flower with a yellow throat; borne singly or in small clusters. An annual climber.",
+  colour: "Sky blue, yellow",
+  significance: "Pure Sense of Beauty",
+  comment: "Can be acquired only through a great sense of purification.",
+  image_url: "morning_glory_heavenly_blue.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Morning_Glory_1.JPG"
 )
 
 # Jungle Geranium
-
-jungle_geranium_01 = {
-  description: "Small light yellow salverform flower with a long thin corolla tube and the limb divided into four narrow diamond-shaped lobes; borne in large corymbs. A small to medium-sized shrub with leathery leaves.",
-  colour: "Light yellow",
-  significance: "Mental Aspiration",
-  comment: "Its expression is clear, precise, and very reasonable.",
-  image_url: "jungle_geranium_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Ixora_coccinea,_yellow.jpg"
-}
-
-jungle_geranium_02 = {
-  description: "Small deep red salverform flower with a long thin corolla tube and the limb divided into four narrow diamond-shaped lobes; borne in large corymbs. A small to medium-sized shrub with leathery leaves.",
-  colour: "Deep red",
-  significance: "Aspiration in the Physical",
-  comment: "Manifold, simple, and joyful.",
-  image_url: "jungle_geranium_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:%E0%B4%9A%E0%B5%86%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%82.jpg"
-}
 
 jungle_geranium = Flower.create!(
   name: "Jungle Geranium",
@@ -11774,45 +11333,30 @@ jungle_geranium = Flower.create!(
   image_url: "jungle_geranium.jpg",
   thumbnail_url: "jungle_geranium_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:FvfSantan0726_02.JPG",
-  variants: [
-    jungle_geranium_01,
-    jungle_geranium_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:FvfSantan0726_02.JPG"
+)
+
+jungle_geranium.child_flowers.create!(
+  description: "Small light yellow salverform flower with a long thin corolla tube and the limb divided into four narrow diamond-shaped lobes; borne in large corymbs. A small to medium-sized shrub with leathery leaves.",
+  colour: "Light yellow",
+  significance: "Mental Aspiration",
+  comment: "Its expression is clear, precise, and very reasonable.",
+  image_url: "jungle_geranium_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Ixora_coccinea,_yellow.jpg"
+)
+
+jungle_geranium.child_flowers.create!(
+  description: "Small deep red salverform flower with a long thin corolla tube and the limb divided into four narrow diamond-shaped lobes; borne in large corymbs. A small to medium-sized shrub with leathery leaves.",
+  colour: "Deep red",
+  significance: "Aspiration in the Physical",
+  comment: "Manifold, simple, and joyful.",
+  image_url: "jungle_geranium_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:%E0%B4%9A%E0%B5%86%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%82.jpg"
 )
 
 # Jasmine
-
-jasmine_01 = {
-  description: "All varieties of small single white salverform flowers with a slender tube and four to nine pointed or rounded lobes; the flowers are typically highly fragrant; borne in terminal or axillary cymes. Shrubs or vines.",
-  colour: "White",
-  significance: "Purity",
-  comment: "True purity has a lovely fragrance.",
-  image_url: "jasmine_single_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Flowers_(228).jpg"
-}
-
-jasmine_02 = {
-  description: "Small semi-double salverform flowers with a slender tube; the flowers are typically highly fragrant; borne in terminal or axillary cymes. Shrubs or vines.",
-  colour: "White",
-  significance: "Psychic Purity",
-  comment: "The condition natural to the psychic.",
-  image_url: "jasmine_semi_double_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Jasminium_Sambac_-_%E0%B4%95%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%AE%E0%B5%81%E0%B4%B2%E0%B5%8D%E0%B4%B2_02.JPG"
-}
-
-jasmine_03 = {
-  bot_name: "Jasminum sambac 'Grand Duke of Tuscany'",
-  description: "Intensely fragrant fully double white rose-like salverform flowers with a slender tube; the flowers are typically highly fragrant; borne in terminal or axillary cymes. Shrubs or vines.",
-  colour: "White",
-  significance: "Integral Purity",
-  comment: "The whole being is purified of the ego.",
-  image_url: "jasmine_sambac.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Jasminum_sambac_(2).JPG"
-}
 
 jasmine = Flower.create!(
   name: "Jasmine",
@@ -11825,65 +11369,41 @@ jasmine = Flower.create!(
   image_url: "jasmine.jpg",
   thumbnail_url: "jasmine_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Jasminum_angulare,_a,_Schanskop.jpg",
-  variants: [
-    jasmine_01,
-    jasmine_02,
-    jasmine_03
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Jasminum_angulare,_a,_Schanskop.jpg"
+)
+
+jasmine.child_flowers.create!(
+  description: "All varieties of small single white salverform flowers with a slender tube and four to nine pointed or rounded lobes; the flowers are typically highly fragrant; borne in terminal or axillary cymes. Shrubs or vines.",
+  colour: "White",
+  significance: "Purity",
+  comment: "True purity has a lovely fragrance.",
+  image_url: "jasmine_single_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Flowers_(228).jpg"
+)
+
+jasmine.child_flowers.create!(
+  description: "Small semi-double salverform flowers with a slender tube; the flowers are typically highly fragrant; borne in terminal or axillary cymes. Shrubs or vines.",
+  colour: "White",
+  significance: "Psychic Purity",
+  comment: "The condition natural to the psychic.",
+  image_url: "jasmine_semi_double_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Jasminium_Sambac_-_%E0%B4%95%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%AE%E0%B5%81%E0%B4%B2%E0%B5%8D%E0%B4%B2_02.JPG"
+)
+
+jasmine.child_flowers.create!(
+  bot_name: "Jasminum sambac 'Grand Duke of Tuscany'",
+  description: "Intensely fragrant fully double white rose-like salverform flowers with a slender tube; the flowers are typically highly fragrant; borne in terminal or axillary cymes. Shrubs or vines.",
+  colour: "White",
+  significance: "Integral Purity",
+  comment: "The whole being is purified of the ego.",
+  image_url: "jasmine_sambac.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Jasminum_sambac_(2).JPG"
 )
 
 # Crape Myrtle
-
-crape_myrtle_01 = {
-  description: "Medium-sized mildly fragrant flower in a variety of colours, with delicate deeply crinkled petals and a conspicuous central tuft of yellow anthers; borne in dense terminal panicles. A floriferous shrub or small tree.",
-  colour: "Various colours",
-  significance: "Intimacy with the Divine",
-  comment: "Complete surrender to the Divine and total receptivity to His influence are the conditions for this intimacy.",
-  image_url: "crape_myrtle_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Red_Myrtle_(Lagerstroemia_indica).jpg"
-}
-
-crape_myrtle_02 = {
-  description: "Medium-sized mildly fragrant lavender pink flower, with delicate deeply crinkled petals and a conspicuous central tuft of yellow anthers; borne in dense terminal panicles. A floriferous shrub or small tree.",
-  colour: "Lavender pink, yellow",
-  significance: "Intimacy with the Divine in the Psychic",
-  comment: "The natural state of the fully developed Psychic.",
-  image_url: "crape_myrtle_lavender_pink.jpg",
-  source: "OnlinePlantGuide.com",
-  url: "http://www.onlineplantguide.com/Plant-Details/1409/"
-}
-
-crape_myrtle_03 = {
-  description: "Medium-sized mildly fragrant light purple flower, with delicate deeply crinkled petals and a conspicuous central tuft of yellow anthers; borne in dense terminal panicles. A floriferous shrub or small tree.",
-  colour: "Light purple, yellow",
-  significance: "Intimacy with the Divine in the Vital",
-  comment: "Only a pure, calm, and desire-less vital can hope to enter this marvellous state.",
-  image_url: "crape_myrtle_light_purple.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:A80321597.jpg"
-}
-
-crape_myrtle_04 = {
-  description: "Medium-sized mildly fragrant pinkish-red flower, with delicate deeply crinkled petals and a conspicuous central tuft of yellow anthers; borne in dense terminal panicles. A floriferous shrub or small tree.",
-  colour: "Pinkish-red, yellow",
-  significance: "Intimacy with the Divine in the Physical",
-  comment: "Is possible only for him who lives exclusively by the Divine and for the Divine.",
-  image_url: "crape_myrtle_pink_red_yellow.jpg",
-  source: "Campus Arboretum, The University of Arizona",
-  url: "http://arboretum.arizona.edu/dazzling-dry-summer"
-}
-
-crape_myrtle_05 = {
-  description: "Medium-sized mildly fragrant white flower, with delicate deeply crinkled petals and a conspicuous central tuft of yellow anthers; borne in dense terminal panicles. A floriferous shrub or small tree.",
-  colour: "White, yellow",
-  significance: "Integral Intimacy with the Divine",
-  comment: "The whole being vibrates only to the divine touch.",
-  image_url: "crape_myrtle_white.jpg",
-  source: "FloraFinder.com",
-  url: "http://www.florafinder.com/Species/Lagerstroemia_indica_Acomi.php"
-}
 
 crape_myrtle = Flower.create!(
   name: "Crape Myrtle",
@@ -11896,57 +11416,60 @@ crape_myrtle = Flower.create!(
   image_url: "crape_myrtle.jpg",
   thumbnail_url: "crape_myrtle_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Lagerstroemia_indica_0005.jpg",
-  variants: [
-    crape_myrtle_01,
-    crape_myrtle_02,
-    crape_myrtle_03,
-    crape_myrtle_04,
-    crape_myrtle_05
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Lagerstroemia_indica_0005.jpg"
+)
+
+crape_myrtle.child_flowers.create!(
+  description: "Medium-sized mildly fragrant flower in a variety of colours, with delicate deeply crinkled petals and a conspicuous central tuft of yellow anthers; borne in dense terminal panicles. A floriferous shrub or small tree.",
+  colour: "Various colours",
+  significance: "Intimacy with the Divine",
+  comment: "Complete surrender to the Divine and total receptivity to His influence are the conditions for this intimacy.",
+  image_url: "crape_myrtle_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Red_Myrtle_(Lagerstroemia_indica).jpg"
+)
+
+crape_myrtle.child_flowers.create!(
+  description: "Medium-sized mildly fragrant lavender pink flower, with delicate deeply crinkled petals and a conspicuous central tuft of yellow anthers; borne in dense terminal panicles. A floriferous shrub or small tree.",
+  colour: "Lavender pink, yellow",
+  significance: "Intimacy with the Divine in the Psychic",
+  comment: "The natural state of the fully developed Psychic.",
+  image_url: "crape_myrtle_lavender_pink.jpg",
+  source: "OnlinePlantGuide.com",
+  url: "http://www.onlineplantguide.com/Plant-Details/1409/"
+)
+
+crape_myrtle.child_flowers.create!(
+  description: "Medium-sized mildly fragrant light purple flower, with delicate deeply crinkled petals and a conspicuous central tuft of yellow anthers; borne in dense terminal panicles. A floriferous shrub or small tree.",
+  colour: "Light purple, yellow",
+  significance: "Intimacy with the Divine in the Vital",
+  comment: "Only a pure, calm, and desire-less vital can hope to enter this marvellous state.",
+  image_url: "crape_myrtle_light_purple.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:A80321597.jpg"
+)
+
+crape_myrtle.child_flowers.create!(
+  description: "Medium-sized mildly fragrant pinkish-red flower, with delicate deeply crinkled petals and a conspicuous central tuft of yellow anthers; borne in dense terminal panicles. A floriferous shrub or small tree.",
+  colour: "Pinkish-red, yellow",
+  significance: "Intimacy with the Divine in the Physical",
+  comment: "Is possible only for him who lives exclusively by the Divine and for the Divine.",
+  image_url: "crape_myrtle_pink_red_yellow.jpg",
+  source: "Campus Arboretum, The University of Arizona",
+  url: "http://arboretum.arizona.edu/dazzling-dry-summer"
+)
+
+crape_myrtle.child_flowers.create!(
+  description: "Medium-sized mildly fragrant white flower, with delicate deeply crinkled petals and a conspicuous central tuft of yellow anthers; borne in dense terminal panicles. A floriferous shrub or small tree.",
+  colour: "White, yellow",
+  significance: "Integral Intimacy with the Divine",
+  comment: "The whole being vibrates only to the divine touch.",
+  image_url: "crape_myrtle_white.jpg",
+  source: "FloraFinder.com",
+  url: "http://www.florafinder.com/Species/Lagerstroemia_indica_Acomi.php"
 )
 
 # Shrub Verbena
-
-shrub_verbena_01 = {
-  description: "Tiny multicoloured and often changeable shades of red, orange, gold, and lavender salverform flowers in round compact axillary or terminal heads. A vigorous shrub with coarse strongly scented leaves and a long blooming season.",
-  colour: "Multicoloured, red, orange, gold, and lavender",
-  significance: "Supramental Influence in the Cells",
-  comment: "Unexpected variety in colours and qualities.",
-  image_url: "shrub_verbena_multi.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Lantana_flowers,_Cefal%C3%BA,_Sicily,_It_(9452491724).jpg"
-}
-
-shrub_verbena_02 = {
-  description: "Tiny mauve salverform flowers in round compact axillary or terminal heads. A vigorous shrub with coarse strongly scented leaves and a long blooming season.",
-  colour: "Mauve",
-  significance: "Emotional Beauty in the Cells",
-  comment: "Seeking and radiating all the emotions of beauty.",
-  image_url: "shrub_verbena_mauve.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Lisbon_Portugal_579_(5108898412).jpg"
-}
-
-shrub_verbena_03 = {
-  description: "Tiny yellow salverform flowers in round compact axillary or terminal heads. A vigorous shrub with coarse strongly scented leaves and a long blooming season.",
-  colour: "Yellow",
-  significance: "Light in the Cells",
-  comment: "The first step towards purity in the cells.",
-  image_url: "shrub_verbena_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Golden_flower_hydrangea.jpg"
-}
-
-shrub_verbena_04 = {
-  description: "Tiny white salverform flowers in round compact axillary or terminal heads. A vigorous shrub with coarse strongly scented leaves and a long blooming season.",
-  colour: "White",
-  significance: "Purity in the Cells",
-  comment: "Can only be obtained through the conquest of desires; the true condition for good health.",
-  image_url: "shrub_verbena_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Lantana_05352.JPG"
-}
 
 shrub_verbena = Flower.create!(
   name: "Shrub Verbena",
@@ -11958,35 +11481,50 @@ shrub_verbena = Flower.create!(
   image_url: "shrub_verbena.jpg",
   thumbnail_url: "shrub_verbena_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_-_Danaus_plexippus_(5882864342).jpg",
-  variants: [
-    shrub_verbena_01,
-    shrub_verbena_02,
-    shrub_verbena_03,
-    shrub_verbena_04
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_-_Danaus_plexippus_(5882864342).jpg"
+)
+
+shrub_verbena.child_flowers.create!(
+  description: "Tiny multicoloured and often changeable shades of red, orange, gold, and lavender salverform flowers in round compact axillary or terminal heads. A vigorous shrub with coarse strongly scented leaves and a long blooming season.",
+  colour: "Multicoloured, red, orange, gold, and lavender",
+  significance: "Supramental Influence in the Cells",
+  comment: "Unexpected variety in colours and qualities.",
+  image_url: "shrub_verbena_multi.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Lantana_flowers,_Cefal%C3%BA,_Sicily,_It_(9452491724).jpg"
+)
+
+shrub_verbena.child_flowers.create!(
+  description: "Tiny mauve salverform flowers in round compact axillary or terminal heads. A vigorous shrub with coarse strongly scented leaves and a long blooming season.",
+  colour: "Mauve",
+  significance: "Emotional Beauty in the Cells",
+  comment: "Seeking and radiating all the emotions of beauty.",
+  image_url: "shrub_verbena_mauve.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Lisbon_Portugal_579_(5108898412).jpg"
+)
+
+shrub_verbena.child_flowers.create!(
+  description: "Tiny yellow salverform flowers in round compact axillary or terminal heads. A vigorous shrub with coarse strongly scented leaves and a long blooming season.",
+  colour: "Yellow",
+  significance: "Light in the Cells",
+  comment: "The first step towards purity in the cells.",
+  image_url: "shrub_verbena_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Golden_flower_hydrangea.jpg"
+)
+
+shrub_verbena.child_flowers.create!(
+  description: "Tiny white salverform flowers in round compact axillary or terminal heads. A vigorous shrub with coarse strongly scented leaves and a long blooming season.",
+  colour: "White",
+  significance: "Purity in the Cells",
+  comment: "Can only be obtained through the conquest of desires; the true condition for good health.",
+  image_url: "shrub_verbena_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Lantana_05352.JPG"
 )
 
 # Sweet Pea
-
-sweet_pea_01 = {
-  description: "Small, sweetly fragrant papilionaceous flowers with a broad, erect upper petal and two lower petals that enfold a curved \"beak\"; in white and many shades of pink, red, salmon, and lavender; borne in few-flowered clusters from the leaf axils. A delicate annual climber.",
-  colour: "White and shades of pink, red, salmon, and lavender",
-  significance: "Gentleness",
-  comment: "Always gracious and loves to please.",
-  image_url: "sweet_pea_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:P1000299_Lathyrus_odoratus_(Prince_Edward_of_York)_(Leguminosae)_Flower.JPG"
-}
-
-sweet_pea_02 = {
-  description: "Small, sweetly fragrant papilionaceous mauve flowers with a broad, erect upper petal and two lower petals that enfold a curved \"beak\"; borne in few-flowered clusters from the leaf axils. A delicate annual climber.",
-  colour: "Mauve",
-  significance: "Vital Gentleness ",
-  image_url: "sweet_pea_mauve.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Lathyrus_odoratus_Paris.JPG"
-}
 
 sweet_pea = Flower.create!(
   name: "Sweet Pea",
@@ -11999,47 +11537,29 @@ sweet_pea = Flower.create!(
   image_url: "sweet_pea.jpg",
   thumbnail_url: "sweet_pea_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Sweet_pea_from_lalbagh_1790.JPG",
-  variants: [
-    sweet_pea_01,
-    sweet_pea_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Sweet_pea_from_lalbagh_1790.JPG"
+)
+
+sweet_pea.child_flowers.create!(
+  description: "Small, sweetly fragrant papilionaceous flowers with a broad, erect upper petal and two lower petals that enfold a curved \"beak\"; in white and many shades of pink, red, salmon, and lavender; borne in few-flowered clusters from the leaf axils. A delicate annual climber.",
+  colour: "White and shades of pink, red, salmon, and lavender",
+  significance: "Gentleness",
+  comment: "Always gracious and loves to please.",
+  image_url: "sweet_pea_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:P1000299_Lathyrus_odoratus_(Prince_Edward_of_York)_(Leguminosae)_Flower.JPG"
+)
+
+sweet_pea.child_flowers.create!(
+  description: "Small, sweetly fragrant papilionaceous mauve flowers with a broad, erect upper petal and two lower petals that enfold a curved \"beak\"; borne in few-flowered clusters from the leaf axils. A delicate annual climber.",
+  colour: "Mauve",
+  significance: "Vital Gentleness ",
+  image_url: "sweet_pea_mauve.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Lathyrus_odoratus_Paris.JPG"
 )
 
 # Turk's Cap
-
-turks_cap_01 = {
-  bot_name: "Malvaviscus arboreus var. drummondii",
-  description: "Small bright red erect candle-like flower with five twisted overlapping petals and a long exserted staminal column; borne in few-flowered terminal clusters. A low evergreen shrub.",
-  colour: "Bright red",
-  significance: "Divine Help",
-  comment: "Modest in appearance, powerful in action.",
-  image_url: "turks_cap_bright_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:%E0%B4%9A%E0%B5%86%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B4%B0%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF5.JPG"
-}
-
-turks_cap_02 = {
-  bot_name: "Malvaviscus arboreus var. mexicanus",
-  description: "Medium-sized red tubular flower with twisted overlapping petals that never unfold and anthers that protrude beyond the petals. A medium-sized shrub of irregular form.",
-  colour: "Red",
-  significance: "Divine Solicitude",
-  comment: "Always active, even when we do not perceive it.",
-  image_url: "turks_cap_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Malvaviscus_arboreus_stamens_and_pistil_2.jpg"
-}
-
-turks_cap_03 = {
-  bot_name: "Malvaviscus arboreus var. mexicanus",
-  description: "Medium-sized pale pink tubular flower with twisted overlapping petals that never unfold and anthers that protrude beyond the petals. A medium-sized shrub of irregular form.",
-  colour: "Pale pink",
-  significance: "Divine Solicitude Rightly Understood",
-  comment: "Let us understand and receive with gratitude this Divine Solicitude, so often misunderstood.",
-  image_url: "turks_cap_pink.jpg",
-  source: "Dinesh Valke",
-  url: "https://www.flickr.com/photos/dinesh_valke/323897121"
-}
 
 turks_cap = Flower.create!(
   name: "Turk's Cap",
@@ -12053,35 +11573,43 @@ turks_cap = Flower.create!(
   image_url: "turks_cap.jpg",
   thumbnail_url: "turks_cap_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_from_Venezuela.jpg",
-  variants: [
-    turks_cap_01,
-    turks_cap_02,
-    turks_cap_03
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Hibiscus_from_Venezuela.jpg"
+)
+
+turks_cap.child_flowers.create!(
+  bot_name: "Malvaviscus arboreus var. drummondii",
+  description: "Small bright red erect candle-like flower with five twisted overlapping petals and a long exserted staminal column; borne in few-flowered terminal clusters. A low evergreen shrub.",
+  colour: "Bright red",
+  significance: "Divine Help",
+  comment: "Modest in appearance, powerful in action.",
+  image_url: "turks_cap_bright_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:%E0%B4%9A%E0%B5%86%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B4%B0%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF5.JPG"
+)
+
+turks_cap.child_flowers.create!(
+  bot_name: "Malvaviscus arboreus var. mexicanus",
+  description: "Medium-sized red tubular flower with twisted overlapping petals that never unfold and anthers that protrude beyond the petals. A medium-sized shrub of irregular form.",
+  colour: "Red",
+  significance: "Divine Solicitude",
+  comment: "Always active, even when we do not perceive it.",
+  image_url: "turks_cap_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Malvaviscus_arboreus_stamens_and_pistil_2.jpg"
+)
+
+turks_cap.child_flowers.create!(
+  bot_name: "Malvaviscus arboreus var. mexicanus",
+  description: "Medium-sized pale pink tubular flower with twisted overlapping petals that never unfold and anthers that protrude beyond the petals. A medium-sized shrub of irregular form.",
+  colour: "Pale pink",
+  significance: "Divine Solicitude Rightly Understood",
+  comment: "Let us understand and receive with gratitude this Divine Solicitude, so often misunderstood.",
+  image_url: "turks_cap_pink.jpg",
+  source: "Dinesh Valke",
+  url: "https://www.flickr.com/photos/dinesh_valke/323897121"
 )
 
 # Mango
-
-mango_01 = {
-  description: "Tiny cream to pale pink five-petalled flowers with a fruit-like fragrance, borne in large pink-stalked terminal panicles. A handsome, medium to large evergreen tree.",
-  colour: "Cream to pale pink",
-  significance: "Nature's Hope for Realisation",
-  comment: "Nature knows that one day she will be able to realise.",
-  image_url: "mango_flower.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_070123-3685_Mangifera_indica.jpg"
-}
-
-mango_02 = {
-  description: "Medium to large succulent edible fruit of the mango tree, generally oval in shape; borne in clusters on pendulous stalks.",
-  colour: "Green to yellow",
-  significance: "Divine Knowledge",
-  comment: "It is succulent, nourishing, strengthening.",
-  image_url: "mango_fruit.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Mangifera_indica_(Manguier_4).jpg"
-}
 
 mango = Flower.create!(
   name: "Mango",
@@ -12094,34 +11622,30 @@ mango = Flower.create!(
   image_url: "mango.jpg",
   thumbnail_url: "mango_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Manguifera_indica_follaje_y_frutos.jpeg",
-  variants: [
-    mango_01,
-    mango_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Manguifera_indica_follaje_y_frutos.jpeg"
+)
+
+mango.child_flowers.create!(
+  description: "Tiny cream to pale pink five-petalled flowers with a fruit-like fragrance, borne in large pink-stalked terminal panicles. A handsome, medium to large evergreen tree.",
+  colour: "Cream to pale pink",
+  significance: "Nature's Hope for Realisation",
+  comment: "Nature knows that one day she will be able to realise.",
+  image_url: "mango_flower.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_070123-3685_Mangifera_indica.jpg"
+)
+
+mango.child_flowers.create!(
+  description: "Medium to large succulent edible fruit of the mango tree, generally oval in shape; borne in clusters on pendulous stalks.",
+  colour: "Green to yellow",
+  significance: "Divine Knowledge",
+  comment: "It is succulent, nourishing, strengthening.",
+  image_url: "mango_fruit.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Mangifera_indica_(Manguier_4).jpg"
 )
 
 # Spanish Cherry
-
-spanish_cherry_01 = {
-  description: "Small cream white strongly scented flower with four pointed sepals overlaid with a ring of narrow fringe-like petals and an inner ring of petals that form a central cone; borne in small compact axillary clusters. A medium to large spreading evergreen tree.",
-  colour: "Cream white",
-  significance: "Patience",
-  comment: "Indispensable for all realisation.",
-  image_url: "spanish_cherry_flower.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Mimusops_elengi_flowers_1.jpg"
-}
-
-spanish_cherry_02 = {
-  description: "Small oval yellow orange fruit with a pointed tip. A medium to large spreading evergreen tree.",
-  colour: "Yellow orange",
-  significance: "Accomplishment",
-  comment: "Accomplishment is undoubtedly the fruit of patience.",
-  image_url: "spanish_cherry_fruit.jpg",
-  source: "MarveilleueChiang-May",
-  url: "http://www.merveilleusechiang-mai.com/mimusops-elengi-l-ou-phikoun"
-}
 
 spanish_cherry = Flower.create!(
   name: "Spanish Cherry",
@@ -12134,54 +11658,30 @@ spanish_cherry = Flower.create!(
   image_url: "spanish_cherry.jpg",
   thumbnail_url: "spanish_cherry_thumbnail.jpg",
   source: "MarveilleueChiang-May",
-  url: "http://www.merveilleusechiang-mai.com/mimusops-elengi-l-ou-phikoun",
-  variants: [
-    spanish_cherry_01,
-    spanish_cherry_02
-  ]
+  url: "http://www.merveilleusechiang-mai.com/mimusops-elengi-l-ou-phikoun"
+)
+
+spanish_cherry.child_flowers.create!(
+  description: "Small cream white strongly scented flower with four pointed sepals overlaid with a ring of narrow fringe-like petals and an inner ring of petals that form a central cone; borne in small compact axillary clusters. A medium to large spreading evergreen tree.",
+  colour: "Cream white",
+  significance: "Patience",
+  comment: "Indispensable for all realisation.",
+  image_url: "spanish_cherry_flower.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Mimusops_elengi_flowers_1.jpg"
+)
+
+spanish_cherry.child_flowers.create!(
+  description: "Small oval yellow orange fruit with a pointed tip. A medium to large spreading evergreen tree.",
+  colour: "Yellow orange",
+  significance: "Accomplishment",
+  comment: "Accomplishment is undoubtedly the fruit of patience.",
+  image_url: "spanish_cherry_fruit.jpg",
+  source: "MarveilleueChiang-May",
+  url: "http://www.merveilleusechiang-mai.com/mimusops-elengi-l-ou-phikoun"
 )
 
 # Marvel of Peru
-
-marvel_of_peru_01 = {
-  description: "Small fragrant salverform flowers with a long corolla tube and the limb divided into five rounded lobes that open towards evening; in white and shades of red and yellow, often variegated. A perennial herb with large deep tuberous roots.",
-  colour: "White and shades of red and yellow",
-  significance: "Solace",
-  comment: "The blessing that the Divine grants us.",
-  image_url: "marvel_of_peru_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Mirabilis63.JPG"
-}
-
-marvel_of_peru_02 = {
-  description: "Small fragrant yellow salverform flowers with a long corolla tube and the limb divided into five rounded lobes that open towards evening. A perennial herb with large deep tuberous roots.",
-  colour: "Yellow",
-  significance: "Solace in the Mind",
-  comment: "A silent peace.",
-  image_url: "marvel_of_peru_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Mirabilis66.JPG"
-}
-
-marvel_of_peru_03 = {
-  description: "Small fragrant magenta salverform flowers with a long corolla tube and the limb divided into five rounded lobes that open towards evening. A perennial herb with large deep tuberous roots.",
-  colour: "Magenta",
-  significance: "Solace in the Vital",
-  comment: "Modest but effective.",
-  image_url: "marvel_of_peru_magenta.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:2009-09-26_(2)_Wunderblume,_Four_oclock_flower,_Mirabilis_jalapa.JPG"
-}
-
-marvel_of_peru_04 = {
-  description: "Small fragrant white salverform flowers with a long corolla tube and the limb divided into five rounded lobes that open towards evening. A perennial herb with large deep tuberous roots.",
-  colour: "White",
-  significance: "Integral Solace",
-  comment: "That which one can receive only from the Divine.",
-  image_url: "marvel_of_peru_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Mirabilis.65.jpg"
-}
 
 marvel_of_peru = Flower.create!(
   name: "Marvel of Peru",
@@ -12195,37 +11695,50 @@ marvel_of_peru = Flower.create!(
   image_url: "marvel_of_peru.jpg",
   thumbnail_url: "marvel_of_peru_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa.jpg",
-  variants: [
-    marvel_of_peru_01,
-    marvel_of_peru_02,
-    marvel_of_peru_03,
-    marvel_of_peru_04
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Mirabilis_jalapa.jpg"
+)
+
+marvel_of_peru.child_flowers.create!(
+  description: "Small fragrant salverform flowers with a long corolla tube and the limb divided into five rounded lobes that open towards evening; in white and shades of red and yellow, often variegated. A perennial herb with large deep tuberous roots.",
+  colour: "White and shades of red and yellow",
+  significance: "Solace",
+  comment: "The blessing that the Divine grants us.",
+  image_url: "marvel_of_peru_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Mirabilis63.JPG"
+)
+
+marvel_of_peru.child_flowers.create!(
+  description: "Small fragrant yellow salverform flowers with a long corolla tube and the limb divided into five rounded lobes that open towards evening. A perennial herb with large deep tuberous roots.",
+  colour: "Yellow",
+  significance: "Solace in the Mind",
+  comment: "A silent peace.",
+  image_url: "marvel_of_peru_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Mirabilis66.JPG"
+)
+
+marvel_of_peru.child_flowers.create!(
+  description: "Small fragrant magenta salverform flowers with a long corolla tube and the limb divided into five rounded lobes that open towards evening. A perennial herb with large deep tuberous roots.",
+  colour: "Magenta",
+  significance: "Solace in the Vital",
+  comment: "Modest but effective.",
+  image_url: "marvel_of_peru_magenta.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:2009-09-26_(2)_Wunderblume,_Four_oclock_flower,_Mirabilis_jalapa.JPG"
+)
+
+marvel_of_peru.child_flowers.create!(
+  description: "Small fragrant white salverform flowers with a long corolla tube and the limb divided into five rounded lobes that open towards evening. A perennial herb with large deep tuberous roots.",
+  colour: "White",
+  significance: "Integral Solace",
+  comment: "That which one can receive only from the Divine.",
+  image_url: "marvel_of_peru_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Mirabilis.65.jpg"
 )
 
 # Sacred Lotus
-
-sacred_lotus_01 = {
-  bot_name: "Nelumbo nucifera 'Alba'",
-  description: "Very large fragrant chalice-shaped white flower with several rows of loosely arranged cupped translucent petals surrounding a unique center of numerous golden stamens that encircle a raised yellow disc; borne singly on sturdy stems high above the water. A vigorous aquatic rhizomatous plant with large, concave orbicular leaves that repel water.",
-  colour: "White, golden, yellow",
-  significance: "Aditi - the Divine Consciousness",
-  comment: "Pure, immaculate, gloriously powerful.",
-  image_url: "sacred_lotus_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:HanaNoHasu6.jpg"
-}
-
-sacred_lotus_02 = {
-  description: "Very large fragrant chalice-shaped pink flower with several rows of loosely arranged cupped translucent petals surrounding a unique center of numerous golden stamens that encircle a raised yellow disc; borne singly on sturdy stems high above the water. A vigorous aquatic rhizomatous plant with large, concave orbicular leaves that repel water.",
-  colour: "Pink, golden, yellow",
-  significance: "Avatar - the Supreme Manifested in a Body upon Earth",
-  comment: "The pink lotus is the flower of Sri Aurobindo.",
-  image_url: "sacred_lotus_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Nelumno_nucifera_open_flower_-_botanic_garden_adelaide_edit3.jpg"
-}
 
 sacred_lotus = Flower.create!(
   name: "Sacred Lotus",
@@ -12238,84 +11751,31 @@ sacred_lotus = Flower.create!(
   image_url: "sacred_lotus.jpg",
   thumbnail_url: "sacred_lotus_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Nelumbo_nucifera_(2).jpg",
-  variants: [
-    sacred_lotus_01,
-    sacred_lotus_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Nelumbo_nucifera_(2).jpg"
+)
+
+sacred_lotus.child_flowers.create!(
+  bot_name: "Nelumbo nucifera 'Alba'",
+  description: "Very large fragrant chalice-shaped white flower with several rows of loosely arranged cupped translucent petals surrounding a unique center of numerous golden stamens that encircle a raised yellow disc; borne singly on sturdy stems high above the water. A vigorous aquatic rhizomatous plant with large, concave orbicular leaves that repel water.",
+  colour: "White, golden, yellow",
+  significance: "Aditi - the Divine Consciousness",
+  comment: "Pure, immaculate, gloriously powerful.",
+  image_url: "sacred_lotus_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:HanaNoHasu6.jpg"
+)
+
+sacred_lotus.child_flowers.create!(
+  description: "Very large fragrant chalice-shaped pink flower with several rows of loosely arranged cupped translucent petals surrounding a unique center of numerous golden stamens that encircle a raised yellow disc; borne singly on sturdy stems high above the water. A vigorous aquatic rhizomatous plant with large, concave orbicular leaves that repel water.",
+  colour: "Pink, golden, yellow",
+  significance: "Avatar - the Supreme Manifested in a Body upon Earth",
+  comment: "The pink lotus is the flower of Sri Aurobindo.",
+  image_url: "sacred_lotus_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Nelumno_nucifera_open_flower_-_botanic_garden_adelaide_edit3.jpg"
 )
 
 # Oleander
-
-oleander_01 = {
-  description: "Sweetly fragrant single salverform flower with five separated lobes that are pink fading to pale pink on the edges, and twisted, suggesting a pinwheel, and a light yellow center with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
-  colour: "Pink to pale pink, light yellow",
-  significance: "Sweetness of Thought turned exclusively towards the Divine",
-  comment: "Lovely, joyful, sweet, and calm, sheltered from all conflicts.",
-  image_url: "oleander_pink_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:An_oleander_(Nerium_oleander)_flower.JPG"
-}
-
-oleander_02 = {
-  description: "Sweetly fragrant single reddish-pink salverform flower with five separated petals, with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
-  colour: "Reddish-pink",
-  significance: "Changing of Wrong Movements into Right",
-  comment: "A supreme goodwill always ready to be transformed.",
-  image_url: "oleander_reddish_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Feminidad_en_la_naturaleza.JPG"
-}
-
-oleander_03 = {
-  description: "Mildly fragrant single salverform flower with five separated petals that are light pink with white on one edge, and with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
-  colour: "Light pink, white",
-  significance: "Contemplation of the Divine",
-  comment: "Occupied exclusively with its joyful contemplation.",
-  image_url: "oleander_light_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:%E0%B4%85%E0%B4%B0%E0%B4%B3%E0%B4%BF%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%82%E0%B4%B5%E0%B5%8D.JPG"
-}
-
-oleander_04 = {
-  description: "Sweetly fragrant single white salverform flower with five separated petals, with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
-  colour: "White",
-  significance: "Quiet Mind",
-  comment: "The best way to learn.",
-  image_url: "oleander_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:NERIUM_OLEANDER_-_AGUDA_-_IB-119_(Baladre).JPG"
-}
-
-oleander_05 = {
-  description: "Sweetly fragrant single white salverform flower with elongated petals, with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
-  colour: "White",
-  significance: "Quietness Established in the Mind",
-  comment: "The essential condition for its transformation.",
-  image_url: "oleander_white_elongated.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_070111-3178_Nerium_oleander.jpg"
-}
-
-oleander_06 = {
-  description: "Sweetly fragrant double white salverform flower with five separated petals, with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
-  colour: "White",
-  significance: "Perfect Quietness in the Mind",
-  comment: "Essential condition for true progress.",
-  image_url: "oleander_double_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Oleander_-_Kolkata_2011-03-31_2151.JPG"
-}
-
-oleander_07 = {
-  description: "Sweetly fragrant double bright rose pink salverform flower with five separated petals, with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
-  colour: "Bright rose pink",
-  significance: "Surrender of all Falsehood",
-  comment: "Let us offer all our falsehoods to the Divine so that He may change them into joyous truths.",
-  image_url: "oleander_double_rose_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:NERIUM_OLEANDER_-_AGUDA_-_IB-124_(Baladre).JPG"
-}
 
 oleander = Flower.create!(
   name: "Oleander",
@@ -12328,99 +11788,80 @@ oleander = Flower.create!(
   image_url: "oleander.jpg",
   thumbnail_url: "oleander_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Nerium_oleander_(2).JPG",
-  variants: [
-    oleander_01,
-    oleander_02,
-    oleander_03,
-    oleander_04,
-    oleander_05,
-    oleander_06,
-    oleander_07
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Nerium_oleander_(2).JPG"
+)
+
+oleander.child_flowers.create!(
+  description: "Sweetly fragrant single salverform flower with five separated lobes that are pink fading to pale pink on the edges, and twisted, suggesting a pinwheel, and a light yellow center with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
+  colour: "Pink to pale pink, light yellow",
+  significance: "Sweetness of Thought turned exclusively towards the Divine",
+  comment: "Lovely, joyful, sweet, and calm, sheltered from all conflicts.",
+  image_url: "oleander_pink_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:An_oleander_(Nerium_oleander)_flower.JPG"
+)
+
+oleander.child_flowers.create!(
+  description: "Sweetly fragrant single reddish-pink salverform flower with five separated petals, with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
+  colour: "Reddish-pink",
+  significance: "Changing of Wrong Movements into Right",
+  comment: "A supreme goodwill always ready to be transformed.",
+  image_url: "oleander_reddish_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Feminidad_en_la_naturaleza.JPG"
+)
+
+oleander.child_flowers.create!(
+  description: "Mildly fragrant single salverform flower with five separated petals that are light pink with white on one edge, and with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
+  colour: "Light pink, white",
+  significance: "Contemplation of the Divine",
+  comment: "Occupied exclusively with its joyful contemplation.",
+  image_url: "oleander_light_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:%E0%B4%85%E0%B4%B0%E0%B4%B3%E0%B4%BF%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%82%E0%B4%B5%E0%B5%8D.JPG"
+)
+
+oleander.child_flowers.create!(
+  description: "Sweetly fragrant single white salverform flower with five separated petals, with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
+  colour: "White",
+  significance: "Quiet Mind",
+  comment: "The best way to learn.",
+  image_url: "oleander_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:NERIUM_OLEANDER_-_AGUDA_-_IB-119_(Baladre).JPG"
+)
+
+oleander.child_flowers.create!(
+  description: "Sweetly fragrant single white salverform flower with elongated petals, with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
+  colour: "White",
+  significance: "Quietness Established in the Mind",
+  comment: "The essential condition for its transformation.",
+  image_url: "oleander_white_elongated.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_070111-3178_Nerium_oleander.jpg"
+)
+
+oleander.child_flowers.create!(
+  description: "Sweetly fragrant double white salverform flower with five separated petals, with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
+  colour: "White",
+  significance: "Perfect Quietness in the Mind",
+  comment: "Essential condition for true progress.",
+  image_url: "oleander_double_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Oleander_-_Kolkata_2011-03-31_2151.JPG"
+)
+
+oleander.child_flowers.create!(
+  description: "Sweetly fragrant double bright rose pink salverform flower with five separated petals, with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
+  colour: "Bright rose pink",
+  significance: "Surrender of all Falsehood",
+  comment: "Let us offer all our falsehoods to the Divine so that He may change them into joyous truths.",
+  image_url: "oleander_double_rose_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:NERIUM_OLEANDER_-_AGUDA_-_IB-124_(Baladre).JPG"
 )
 
 # Water Lily
-
-water_lily_01 = {
-  description: "Large, showy, usually very fragrant flowers with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; in white and shades of yellow, red, pink, blue, lavender, and purple; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
-  colour: "White and shades of yellow, red, pink, blue, lavender, and purple",
-  significance: "Wealth",
-  comment: "True wealth is the wealth that one offers to the Divine.",
-  image_url: "water_lily_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Nymphaea_%27Innerlight%27.jpg"
-}
-
-water_lily_02 = {
-  description: "Large, showy, usually very fragrant pink flowers with a prominent golden yellow center and with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
-  colour: "Pink, golden yellow",
-  significance: "Supramentalised Wealth",
-  comment: "Wealth placed at the service of the Divine.",
-  image_url: "water_lily_pink_golden.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Water-Lilly-Ganpatipule.JPG"
-}
-
-water_lily_03 = {
-  description: "Large, showy, usually very fragrant blue flowers with golden center and with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
-  colour: "Blue, golden",
-  significance: "Wealth in the Mind of Light",
-  comment: "Open to all higher ideas.",
-  image_url: "water_lily_blue.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Water_Lily_Purple.jpg"
-}
-
-water_lily_04 = {
-  description: "Large, showy, usually very fragrant white flowers shaded pink, and with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
-  colour: "White, pink",
-  significance: "Wealth under the Psychic Influence",
-  comment: "Wealth ready to return to its true possessor, the Divine.",
-  image_url: "water_lily_white_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Seerose-in-Lindenberg-3.JPG"
-}
-
-water_lily_05 = {
-  description: "Large, showy, usually very fragrant lavender flowers with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
-  colour: "Lavender",
-  significance: "Emotional Wealth",
-  comment: "The only true emotional wealth is love for the Divine.",
-  image_url: "water_lily_lavender.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:20100620_Plantentuin_Meise_(0069).jpg"
-}
-
-water_lily_06 = {
-  description: "Large, showy, usually very fragrant deep rose red flowers with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
-  colour: "Deep rose red",
-  significance: "Wealth in the Most Material Vital",
-  comment: "Can be stable only after conversion.",
-  image_url: "water_lily_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Wundersch%C3%B6ne_Seerosenbl%C3%BCte_September_2013_Schwaigern.JPG"
-}
-
-water_lily_07 = {
-  description: "Large, showy, usually very fragrant yellow flowers with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
-  colour: "Yellow",
-  significance: "Generous Wealth",
-  comment: "Likes to be given and spread far and wide.",
-  image_url: "water_lily_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Yellow_lotus2.jpg"
-}
-
-water_lily_08 = {
-  description: "Large, showy, usually very fragrant pure white flowers with a golden center and with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
-  colour: "Pure white, golden",
-  significance: "Integral Wealth of Mahalakshmi",
-  comment: "Wealth in all domains and all activities, intellectual, psychological, material, in feeling, and action.",
-  image_url: "water_lily_pure_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:White_Waterlily.jpg"
-}
 
 water_lily = Flower.create!(
   name: "Water Lily",
@@ -12433,40 +11874,90 @@ water_lily = Flower.create!(
   image_url: "water_lily.jpg",
   thumbnail_url: "water_lily_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Nymphaea_capensis_in_jaffna1.JPG",
-  variants: [
-    water_lily_01,
-    water_lily_02,
-    water_lily_03,
-    water_lily_04,
-    water_lily_05,
-    water_lily_06,
-    water_lily_07,
-    water_lily_08
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Nymphaea_capensis_in_jaffna1.JPG"
+)
+
+water_lily.child_flowers.create!(
+  description: "Large, showy, usually very fragrant flowers with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; in white and shades of yellow, red, pink, blue, lavender, and purple; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
+  colour: "White and shades of yellow, red, pink, blue, lavender, and purple",
+  significance: "Wealth",
+  comment: "True wealth is the wealth that one offers to the Divine.",
+  image_url: "water_lily_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Nymphaea_%27Innerlight%27.jpg"
+)
+
+water_lily.child_flowers.create!(
+  description: "Large, showy, usually very fragrant pink flowers with a prominent golden yellow center and with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
+  colour: "Pink, golden yellow",
+  significance: "Supramentalised Wealth",
+  comment: "Wealth placed at the service of the Divine.",
+  image_url: "water_lily_pink_golden.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Water-Lilly-Ganpatipule.JPG"
+)
+
+water_lily.child_flowers.create!(
+  description: "Large, showy, usually very fragrant blue flowers with golden center and with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
+  colour: "Blue, golden",
+  significance: "Wealth in the Mind of Light",
+  comment: "Open to all higher ideas.",
+  image_url: "water_lily_blue.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Water_Lily_Purple.jpg"
+)
+
+water_lily.child_flowers.create!(
+  description: "Large, showy, usually very fragrant white flowers shaded pink, and with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
+  colour: "White, pink",
+  significance: "Wealth under the Psychic Influence",
+  comment: "Wealth ready to return to its true possessor, the Divine.",
+  image_url: "water_lily_white_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Seerose-in-Lindenberg-3.JPG"
+)
+
+water_lily.child_flowers.create!(
+  description: "Large, showy, usually very fragrant lavender flowers with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
+  colour: "Lavender",
+  significance: "Emotional Wealth",
+  comment: "The only true emotional wealth is love for the Divine.",
+  image_url: "water_lily_lavender.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:20100620_Plantentuin_Meise_(0069).jpg"
+)
+
+water_lily.child_flowers.create!(
+  description: "Large, showy, usually very fragrant deep rose red flowers with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
+  colour: "Deep rose red",
+  significance: "Wealth in the Most Material Vital",
+  comment: "Can be stable only after conversion.",
+  image_url: "water_lily_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Wundersch%C3%B6ne_Seerosenbl%C3%BCte_September_2013_Schwaigern.JPG"
+)
+
+water_lily.child_flowers.create!(
+  description: "Large, showy, usually very fragrant yellow flowers with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
+  colour: "Yellow",
+  significance: "Generous Wealth",
+  comment: "Likes to be given and spread far and wide.",
+  image_url: "water_lily_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Yellow_lotus2.jpg"
+)
+
+water_lily.child_flowers.create!(
+  description: "Large, showy, usually very fragrant pure white flowers with a golden center and with numerous narrow pointed or rounded petals, many prominent erect stamens and four petal-like sepals; borne singly on long stems, either floating or held above the water. An aquatic rhizomatous herb with large floating peltate leaves.",
+  colour: "Pure white, golden",
+  significance: "Integral Wealth of Mahalakshmi",
+  comment: "Wealth in all domains and all activities, intellectual, psychological, material, in feeling, and action.",
+  image_url: "water_lily_pure_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:White_Waterlily.jpg"
 )
 
 # Common Basil
-
-common_basil_01 = {
-  description: "Tiny white bilabiate flowers lightly tinged pink with green leaves, and a greenish-purple calyx and stem, the latter becoming entirely purple towards the tip of the raceme. A shrubby annual or perennial culinary herb with aromatic leaves.",
-  colour: "White, pink",
-  significance: "Discipline",
-  comment: "Sets the example and hopes to be followed.",
-  image_url: "common_basil_white_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Basilic,_jardins_du_mus%C3%A9um_de_Toulouse.JPG"
-}
-
-common_basil_02 = {
-  description: "Tiny white bilabiate flowers with a green calyx, stem and leaves; the leaves are especially prized for culinary use. A shrubby annual or perennial culinary herb with aromatic leaves.",
-  colour: "White",
-  significance: "Joy of Union with the Divine",
-  comment: "Abundantly scented, it fills the heart with joy.",
-  image_url: "common_basil_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:2008_03_15_-_Ocimum_basilicum_6.JPG"
-}
 
 common_basil = Flower.create!(
   name: "Common Basil",
@@ -12479,34 +11970,30 @@ common_basil = Flower.create!(
   image_url: "common_basil.jpg",
   thumbnail_url: "common_basil_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:2008_03_15_-_Ocimum_basilicum_2.JPG",
-  variants: [
-    common_basil_01,
-    common_basil_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:2008_03_15_-_Ocimum_basilicum_2.JPG"
+)
+
+common_basil.child_flowers.create!(
+  description: "Tiny white bilabiate flowers lightly tinged pink with green leaves, and a greenish-purple calyx and stem, the latter becoming entirely purple towards the tip of the raceme. A shrubby annual or perennial culinary herb with aromatic leaves.",
+  colour: "White, pink",
+  significance: "Discipline",
+  comment: "Sets the example and hopes to be followed.",
+  image_url: "common_basil_white_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Basilic,_jardins_du_mus%C3%A9um_de_Toulouse.JPG"
+)
+
+common_basil.child_flowers.create!(
+  description: "Tiny white bilabiate flowers with a green calyx, stem and leaves; the leaves are especially prized for culinary use. A shrubby annual or perennial culinary herb with aromatic leaves.",
+  colour: "White",
+  significance: "Joy of Union with the Divine",
+  comment: "Abundantly scented, it fills the heart with joy.",
+  image_url: "common_basil_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:2008_03_15_-_Ocimum_basilicum_6.JPG"
 )
 
 # Wooden Rose
-
-wooden_rose_01 = {
-  description: "Large white funnelform flower with five shallow irregularly rounded lobes, a light greenish-yellow throat and a corolla tube enclosed in light green enlarged sepals; borne singly or in few-flowered cymes from the leaf axils. A rampant vine with attractive seed capsules.",
-  colour: "White, light greenish-yellow, light green",
-  significance: "Integral Gratitude",
-  comment: "The whole being offers itself to the Lord in absolute trust.",
-  image_url: "wooden_rose_white.jpg",
-  source: "Anand Kumar Reddy, Medicinal Plants",
-  url: "http://medplants.blogspot.in/search/label/Operculina%20turpethum"
-}
-
-wooden_rose_02 = {
-  description: "Light brown rattle-like seed capsules shaped like a wooden rose but thinner and more delicate than the true wooden rose (Merremia tuberosa).",
-  colour: "Light brown",
-  significance: "Call of the Divine Grace",
-  comment: "Not loud, but persistent and very perceptible to those who know how to listen.",
-  image_url: "wooden_rose_brown.jpg",
-  source: "Protist Information Server",
-  url: "http://protist.i.hosei.ac.jp/asagao/yoneda_db/j/PCD2522/htmls/10.html"
-}
 
 wooden_rose = Flower.create!(
   name: "Wooden Rose",
@@ -12519,34 +12006,30 @@ wooden_rose = Flower.create!(
   image_url: "wooden_rose.jpg",
   thumbnail_url: "wooden_rose_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Operculina_turpethum_(Nisottar)_in_Kawal,_AP_W_IMG_2211.jpg",
-  variants: [
-    wooden_rose_01,
-    wooden_rose_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Operculina_turpethum_(Nisottar)_in_Kawal,_AP_W_IMG_2211.jpg"
+)
+
+wooden_rose.child_flowers.create!(
+  description: "Large white funnelform flower with five shallow irregularly rounded lobes, a light greenish-yellow throat and a corolla tube enclosed in light green enlarged sepals; borne singly or in few-flowered cymes from the leaf axils. A rampant vine with attractive seed capsules.",
+  colour: "White, light greenish-yellow, light green",
+  significance: "Integral Gratitude",
+  comment: "The whole being offers itself to the Lord in absolute trust.",
+  image_url: "wooden_rose_white.jpg",
+  source: "Anand Kumar Reddy, Medicinal Plants",
+  url: "http://medplants.blogspot.in/search/label/Operculina%20turpethum"
+)
+
+wooden_rose.child_flowers.create!(
+  description: "Light brown rattle-like seed capsules shaped like a wooden rose but thinner and more delicate than the true wooden rose (Merremia tuberosa).",
+  colour: "Light brown",
+  significance: "Call of the Divine Grace",
+  comment: "Not loud, but persistent and very perceptible to those who know how to listen.",
+  image_url: "wooden_rose_brown.jpg",
+  source: "Protist Information Server",
+  url: "http://protist.i.hosei.ac.jp/asagao/yoneda_db/j/PCD2522/htmls/10.html"
 )
 
 # Cat's Whiskers
-
-cats_whiskers_01 = {
-  description: "Small rose purple salverform flower with a very thin corolla tube, two irregular opposite lobes, one spreading and one narrow, and long graceful exserted upward curving stamens; borne in elongated terminal racemes. A weak-stemmed perennial with dark green serrated leaves.",
-  colour: "Rose purple",
-  significance: "Spiritual Intensity",
-  comment: "It is an intensity without violence. The ardour it gives you is expressed without grand gestures and big words.",
-  image_url: "cats_whiskers_rose_purple.jpg",
-  source: "ahmaja2009",
-  url: "https://www.flickr.com/photos/roma-/3768522410"
-}
-
-cats_whiskers_02 = {
-  description: "Small white salverform flower with a very thin corolla tube, two irregular opposite lobes, one spreading and one narrow, and long graceful exserted upward curving stamens which are pale lavender at the top; borne in elongated terminal racemes. A weak-stemmed perennial with dark green serrated leaves.",
-  colour: "White, pale lavender",
-  significance: "Aspiration for Spiritual Intensity",
-  comment: "Bold, elegant, obstinate.",
-  image_url: "cats_whiskers_white_lavender.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Cats_Moustache_(5156258824).jpg"
-}
 
 cats_whiskers = Flower.create!(
   name: "Cat's Whiskers",
@@ -12558,54 +12041,30 @@ cats_whiskers = Flower.create!(
   image_url: "cats_whiskers.jpg",
   thumbnail_url: "cats_whiskers_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_8060_qsbg11mar.jpg",
-  variants: [
-    cats_whiskers_01,
-    cats_whiskers_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_8060_qsbg11mar.jpg"
+)
+
+cats_whiskers.child_flowers.create!(
+  description: "Small rose purple salverform flower with a very thin corolla tube, two irregular opposite lobes, one spreading and one narrow, and long graceful exserted upward curving stamens; borne in elongated terminal racemes. A weak-stemmed perennial with dark green serrated leaves.",
+  colour: "Rose purple",
+  significance: "Spiritual Intensity",
+  comment: "It is an intensity without violence. The ardour it gives you is expressed without grand gestures and big words.",
+  image_url: "cats_whiskers_rose_purple.jpg",
+  source: "ahmaja2009",
+  url: "https://www.flickr.com/photos/roma-/3768522410"
+)
+
+cats_whiskers.child_flowers.create!(
+  description: "Small white salverform flower with a very thin corolla tube, two irregular opposite lobes, one spreading and one narrow, and long graceful exserted upward curving stamens which are pale lavender at the top; borne in elongated terminal racemes. A weak-stemmed perennial with dark green serrated leaves.",
+  colour: "White, pale lavender",
+  significance: "Aspiration for Spiritual Intensity",
+  comment: "Bold, elegant, obstinate.",
+  image_url: "cats_whiskers_white_lavender.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Cats_Moustache_(5156258824).jpg"
 )
 
 # Star Cluster
-
-star_cluster_01 = {
-  description: "Small white salverform five-pointed star-shaped limb with an airy, thin corolla tube; borne in terminal clusters. An almost ever-blooming subshrub with pubescent ovate to lanceolate leaves.",
-  colour: "White",
-  significance: "Movements in the Light",
-  comment: "This is possible only with a great sincerity.",
-  image_url: "star_cluster_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Arun_image31.jpg"
-}
-
-star_cluster_02 = {
-  description: "Small salverform flowers in shades of mauve with a five-pointed star-shaped limb with an airy, thin corolla tube; borne in terminal clusters. An almost ever-blooming subshrub with pubescent ovate to lanceolate leaves.",
-  colour: "Mauve",
-  significance: "Light in the Vital Movements",
-  comment: "This certainly means the beginning of wisdom.",
-  image_url: "star_cluster_mauve.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Pentas_lanceolat.jpg"
-}
-
-star_cluster_03 = {
-  description: "Small vivid pink salverform five-pointed star-shaped limb with an airy, thin corolla tube; borne in terminal clusters. An almost ever-blooming subshrub with pubescent ovate to lanceolate leaves.",
-  colour: "Vivid pink",
-  significance: "Psychic Light in the Physical Movements",
-  comment: "The first step towards the transformation of the physical.",
-  image_url: "star_cluster_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_080117-2082_Pentas_lanceolata.jpg"
-}
-
-star_cluster_04 = {
-  description: "Small bright red salverform five-pointed star-shaped limb with an airy, thin corolla tube; borne in terminal clusters. An almost ever-blooming subshrub with pubescent ovate to lanceolate leaves.",
-  colour: "Bright red",
-  significance: "Psychic Light in the Material Movements",
-  comment: "Essential condition for transformation.",
-  image_url: "star_cluster_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Red-flowers.jpg"
-}
 
 star_cluster = Flower.create!(
   name: "Star Cluster",
@@ -12619,176 +12078,50 @@ star_cluster = Flower.create!(
   image_url: "star_cluster.jpg",
   thumbnail_url: "star_cluster_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Pentas_flowers.jpg",
-  variants: [
-    star_cluster_01,
-    star_cluster_02,
-    star_cluster_03,
-    star_cluster_04
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Pentas_flowers.jpg"
+)
+
+star_cluster.child_flowers.create!(
+  description: "Small white salverform five-pointed star-shaped limb with an airy, thin corolla tube; borne in terminal clusters. An almost ever-blooming subshrub with pubescent ovate to lanceolate leaves.",
+  colour: "White",
+  significance: "Movements in the Light",
+  comment: "This is possible only with a great sincerity.",
+  image_url: "star_cluster_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Arun_image31.jpg"
+)
+
+star_cluster.child_flowers.create!(
+  description: "Small salverform flowers in shades of mauve with a five-pointed star-shaped limb with an airy, thin corolla tube; borne in terminal clusters. An almost ever-blooming subshrub with pubescent ovate to lanceolate leaves.",
+  colour: "Mauve",
+  significance: "Light in the Vital Movements",
+  comment: "This certainly means the beginning of wisdom.",
+  image_url: "star_cluster_mauve.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Pentas_lanceolat.jpg"
+)
+
+star_cluster.child_flowers.create!(
+  description: "Small vivid pink salverform five-pointed star-shaped limb with an airy, thin corolla tube; borne in terminal clusters. An almost ever-blooming subshrub with pubescent ovate to lanceolate leaves.",
+  colour: "Vivid pink",
+  significance: "Psychic Light in the Physical Movements",
+  comment: "The first step towards the transformation of the physical.",
+  image_url: "star_cluster_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_080117-2082_Pentas_lanceolata.jpg"
+)
+
+star_cluster.child_flowers.create!(
+  description: "Small bright red salverform five-pointed star-shaped limb with an airy, thin corolla tube; borne in terminal clusters. An almost ever-blooming subshrub with pubescent ovate to lanceolate leaves.",
+  colour: "Bright red",
+  significance: "Psychic Light in the Material Movements",
+  comment: "Essential condition for transformation.",
+  image_url: "star_cluster_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Red-flowers.jpg"
 )
 
 # Petunia
-
-petunia_01 = {
-  description: "Medium to large scented single or double salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; in most shades except orange; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
-  colour: "Wide range of colours",
-  significance: "Enthusiasm",
-  comment: "True enthusiasm is full of a peaceful endurance.",
-  image_url: "petunia_single_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Petunia_(many-coloured)_01.JPG"
-}
-
-petunia_02 = {
-  description: "All medium to large scented double salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
-  colour: "Wide range of colours",
-  significance: "Cheerful Enthusiasm",
-  comment: "The best way of facing life. Joy unites with enthusiasm in action.",
-  image_url: "petunia_double_mix.jpg",
-  source: "Bel-R Greenhouse, Inc",
-  url: "http://www.bel-r.com/summerAnnuals.html"
-}
-
-petunia_03 = {
-  description: "All medium to large scented single bicoloured salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
-  colour: "Bicoloured",
-  significance: "Enthusiasm in Action",
-  comment: "All actions are done with energy and ardour.",
-  image_url: "petunia_single_bicoloured.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Flowers_(215).jpg"
-}
-
-petunia_04 = {
-  description: "All medium to large scented double bicoloured salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
-  colour: "Bicoloured",
-  significance: "Cheerful Enthusiasm in Action",
-  comment: "Action will become joyfully enthusiastic when it is governed by the Supermind.",
-  image_url: "petunia_double_bicoloured.jpg",
-  source: "Bel-R Greenhouse, Inc",
-  url: "http://www.bel-r.com/summerAnnuals.html"
-}
-
-petunia_05 = {
-  description: "Medium to large scented single light pink salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
-  colour: "Light pink",
-  significance: "Psychic Enthusiasm",
-  comment: "A state that only the Divine can awaken.",
-  image_url: "petunia_single_light_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Paleflower4.jpg"
-}
-
-petunia_06 = {
-  description: "Medium to large scented double light pink salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
-  colour: "Light pink",
-  significance: "Cheerful Psychic Enthusiasm",
-  comment: "An assurance of success in spite of obstacles.",
-  image_url: "petunia_double_light_pink.jpg",
-  source: "zoee1957, Amazon",
-  url: "http://www.amazon.com/Petunia-Double-Cascade-Pelleted-Seeds/dp/B00ESJ6GAW?"
-}
-
-petunia_07 = {
-  description: "Medium to large scented single pale lavender blue salverform flowers with deeper veins of the same colour; with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
-  colour: "Pale to lavender blue",
-  significance: "Enthusiasm in the Higher Vital",
-  comment: "The vital being takes a lively interest in what it does.",
-  image_url: "petunia_single_lavender.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Herzele_bloemengemeente.JPG"
-}
-
-petunia_08 = {
-  description: "Medium to large scented double pale lavender blue salverform flowers with deeper veins of the same colour; with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
-  colour: "Pale to deep lavender",
-  significance: "Cheerful Enthusiasm in the Higher Vital",
-  comment: "The result of perfect surrender to the Divine.",
-  image_url: "petunia_double_lavender.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Petunia_Hybrida_Sweet_Sunshine_lilac.jpg"
-}
-
-petunia_09 = {
-  description: "Medium to large scented single pinkish-mauve salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
-  colour: "Pinkish-mauve",
-  significance: "Vital Enthusiasm",
-  comment: "Care must be taken that it is in the right direction.",
-  image_url: "petunia_single_pink_mauve.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Petunias_dans_plate-bande.jpg"
-}
-
-petunia_10 = {
-  description: "Medium to large scented double pinkish-mauve salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
-  colour: "Pinkish-mauve",
-  significance: "Cheerful Vital Enthusiasm",
-  comment: "Very precious if it persists in spite of difficulties.",
-  image_url: "petunia_double_pink_mauve.jpg",
-  source: "Mark Dwyer, Rotary Botanical Gardens Horticulture Blog",
-  url: "http://rotarygardens.blogspot.in/2013_07_01_archive.html"
-}
-
-petunia_11 = {
-  description: "Medium to large scented single velvety rich deep purple salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
-  colour: "Deep purple",
-  significance: "Enthusiasm in the Most Material Vital",
-  comment: "Needed to face the difficulties of life successfully.",
-  image_url: "petunia_single_deep_purple.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_070906-8408_Petunia_x_hybrida.jpg"
-}
-
-petunia_12 = {
-  description: "Medium to large scented double velvety rich deep purple salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
-  colour: "Deep purple",
-  significance: "Cheerful Enthusiasm in the Most Material Vital",
-  comment: "The most material vital will find its joy in enthusiastic action when it is governed by the Supermind.",
-  image_url: "petunia_double_deep_purple.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_070906-8405_Petunia_x_hybrida.jpg"
-}
-
-petunia_13 = {
-  description: "Medium to large scented single red salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
-  colour: "Red",
-  significance: "Physical Enthusiasm",
-  comment: "The body takes a lively interest in life and action.",
-  image_url: "petunia_single_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Surfinia_a5.jpg"
-}
-
-petunia_14 = {
-  description: "Medium to large scented double red salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
-  colour: "Red",
-  significance: "Cheerful Physical Enthusiasm",
-  comment: "The whole being lives only to serve the Divine.",
-  image_url: "petunia_double_red.jpg",
-  source: "Gardening tips, Pinterest",
-  url: "https://www.pinterest.com/pin/393783561145333467/"
-}
-
-petunia_15 = {
-  description: "Medium to large scented single white salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
-  colour: "White",
-  significance: "Integral Enthusiasm",
-  comment: "The whole being does whatever it does with ardour.",
-  image_url: "petunia_single_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Petunia_2.jpg"
-}
-
-petunia_16 = {
-  description: "Medium to large scented double white salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
-  colour: "White",
-  significance: "Cheerful Integral Enthusiasm",
-  comment: "To ardour is added the joy of doing things well.",
-  image_url: "petunia_double_white.jpg",
-  source: "Bush Bernie's Blog",
-  url: "http://bushbernie.blogspot.in/2012_06_01_archive.html"
-}
 
 petunia = Flower.create!(
   name: "Petunia",
@@ -12800,128 +12133,170 @@ petunia = Flower.create!(
   image_url: "petunia.jpg",
   thumbnail_url: "petunia_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Flores_na_r%C3%BAa._La_Seu_d%27Urgell._Catalu%C3%B1a_C02.jpg",
-  variants: [
-    petunia_01,
-    petunia_02,
-    petunia_03,
-    petunia_04,
-    petunia_05,
-    petunia_06,
-    petunia_07,
-    petunia_08,
-    petunia_09,
-    petunia_10,
-    petunia_11,
-    petunia_12,
-    petunia_13,
-    petunia_14,
-    petunia_15,
-    petunia_16
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Flores_na_r%C3%BAa._La_Seu_d%27Urgell._Catalu%C3%B1a_C02.jpg"
+)
+
+petunia.child_flowers.create!(
+  description: "Medium to large scented single or double salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; in most shades except orange; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "Wide range of colours",
+  significance: "Enthusiasm",
+  comment: "True enthusiasm is full of a peaceful endurance.",
+  image_url: "petunia_single_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Petunia_(many-coloured)_01.JPG"
+)
+
+petunia.child_flowers.create!(
+  description: "All medium to large scented double salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "Wide range of colours",
+  significance: "Cheerful Enthusiasm",
+  comment: "The best way of facing life. Joy unites with enthusiasm in action.",
+  image_url: "petunia_double_mix.jpg",
+  source: "Bel-R Greenhouse, Inc",
+  url: "http://www.bel-r.com/summerAnnuals.html"
+)
+
+petunia.child_flowers.create!(
+  description: "All medium to large scented single bicoloured salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "Bicoloured",
+  significance: "Enthusiasm in Action",
+  comment: "All actions are done with energy and ardour.",
+  image_url: "petunia_single_bicoloured.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Flowers_(215).jpg"
+)
+
+petunia.child_flowers.create!(
+  description: "All medium to large scented double bicoloured salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "Bicoloured",
+  significance: "Cheerful Enthusiasm in Action",
+  comment: "Action will become joyfully enthusiastic when it is governed by the Supermind.",
+  image_url: "petunia_double_bicoloured.jpg",
+  source: "Bel-R Greenhouse, Inc",
+  url: "http://www.bel-r.com/summerAnnuals.html"
+)
+
+petunia.child_flowers.create!(
+  description: "Medium to large scented single light pink salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "Light pink",
+  significance: "Psychic Enthusiasm",
+  comment: "A state that only the Divine can awaken.",
+  image_url: "petunia_single_light_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Paleflower4.jpg"
+)
+
+petunia.child_flowers.create!(
+  description: "Medium to large scented double light pink salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "Light pink",
+  significance: "Cheerful Psychic Enthusiasm",
+  comment: "An assurance of success in spite of obstacles.",
+  image_url: "petunia_double_light_pink.jpg",
+  source: "zoee1957, Amazon",
+  url: "http://www.amazon.com/Petunia-Double-Cascade-Pelleted-Seeds/dp/B00ESJ6GAW?"
+)
+
+petunia.child_flowers.create!(
+  description: "Medium to large scented single pale lavender blue salverform flowers with deeper veins of the same colour; with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "Pale to lavender blue",
+  significance: "Enthusiasm in Higher Vital",
+  comment: "The vital being takes a lively interest in what it does.",
+  image_url: "petunia_single_lavender.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Herzele_bloemengemeente.JPG"
+)
+
+petunia.child_flowers.create!(
+  description: "Medium to large scented double pale lavender blue salverform flowers with deeper veins of the same colour; with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "Pale to deep lavender",
+  significance: "Cheerful Enthusiasm in the Higher Vital",
+  comment: "The result of perfect surrender to the Divine.",
+  image_url: "petunia_double_lavender.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Petunia_Hybrida_Sweet_Sunshine_lilac.jpg"
+)
+
+petunia.child_flowers.create!(
+  description: "Medium to large scented single pinkish-mauve salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "Pinkish-mauve",
+  significance: "Vital Enthusiasm",
+  comment: "Care must be taken that it is in the right direction.",
+  image_url: "petunia_single_pink_mauve.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Petunias_dans_plate-bande.jpg"
+)
+
+petunia.child_flowers.create!(
+  description: "Medium to large scented double pinkish-mauve salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "Pinkish-mauve",
+  significance: "Cheerful Vital Enthusiasm",
+  comment: "Very precious if it persists in spite of difficulties.",
+  image_url: "petunia_double_pink_mauve.jpg",
+  source: "Mark Dwyer, Rotary Botanical Gardens Horticulture Blog",
+  url: "http://rotarygardens.blogspot.in/2013_07_01_archive.html"
+)
+
+petunia.child_flowers.create!(
+  description: "Medium to large scented single velvety rich deep purple salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "Deep purple",
+  significance: "Enthusiasm in the Most Material Vital",
+  comment: "Needed to face the difficulties of life successfully.",
+  image_url: "petunia_single_deep_purple.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_070906-8408_Petunia_x_hybrida.jpg"
+)
+
+petunia.child_flowers.create!(
+  description: "Medium to large scented double velvety rich deep purple salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "Deep purple",
+  significance: "Cheerful Enthusiasm in the Most Material Vital",
+  comment: "The most material vital will find its joy in enthusiastic action when it is governed by the Supermind.",
+  image_url: "petunia_double_deep_purple.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_070906-8405_Petunia_x_hybrida.jpg"
+)
+
+petunia.child_flowers.create!(
+  description: "Medium to large scented single red salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "Red",
+  significance: "Physical Enthusiasm",
+  comment: "The body takes a lively interest in life and action.",
+  image_url: "petunia_single_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Surfinia_a5.jpg"
+)
+
+petunia.child_flowers.create!(
+  description: "Medium to large scented double red salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "Red",
+  significance: "Cheerful Physical Enthusiasm",
+  comment: "The whole being lives only to serve the Divine.",
+  image_url: "petunia_double_red.jpg",
+  source: "Gardening tips, Pinterest",
+  url: "https://www.pinterest.com/pin/393783561145333467/"
+)
+
+petunia.child_flowers.create!(
+  description: "Medium to large scented single white salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "White",
+  significance: "Integral Enthusiasm",
+  comment: "The whole being does whatever it does with ardour.",
+  image_url: "petunia_single_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Petunia_2.jpg"
+)
+
+petunia.child_flowers.create!(
+  description: "Medium to large scented double white salverform flowers with a narrow hairy tube and a broad, soft, often velvety limb, usually with a slightly scalloped edge; borne singly from the leaf axils. A floriferous annual herb with viscid flowers, stems, and leaves.",
+  colour: "White",
+  significance: "Cheerful Integral Enthusiasm",
+  comment: "To ardour is added the joy of doing things well.",
+  image_url: "petunia_double_white.jpg",
+  source: "Bush Bernie's Blog",
+  url: "http://bushbernie.blogspot.in/2012_06_01_archive.html"
 )
 
 # Annual Phlox
-
-annual_phlox_01 = {
-  description: "Small salverform flowers with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; in white, pale yellow, and shades of red, pink, and purple; borne in dense terminal clusters. A long-flowering garden annual.",
-  colour: "White, pale yellow, and shades of red, pink, and purple",
-  significance: "Skill in Work",
-  comment: "Must be used consciously.",
-  image_url: "annual_phlox_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Phlox_from_Lalbagh_Flowershow_-_August_2012_4587.JPG"
-}
-
-annual_phlox_02 = {
-  description: "Small clear pink salverform flowers with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
-  colour: "Clear pink",
-  significance: "Skill in Psychic Work",
-  comment: "Listen silently to the command that comes from the Supreme Lord and you will have the capacity to carry it out.",
-  image_url: "annual_phlox_pink.jpg",
-  source: "Yonatan Matalon, Colorful Nature",
-  url: "http://www.colorfulnature.com/picture.jsp?lang=he&category=flowers&picGroupId=Phlox_Drummondii___Pink_____3__-m"
-}
-
-annual_phlox_03 = {
-  description: "Small yellow salverform flowers with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
-  colour: "Yellow",
-  significance: "Skill in Mental Work",
-  comment: "To know how to observe in silence is the source of its skillfulness.",
-  image_url: "annual_phlox_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Flox_-_Phlox_drummondii_(1).jpg"
-}
-
-annual_phlox_04 = {
-  description: "Small white salverform flowers with a mauve center; with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
-  colour: "White, mauve",
-  significance: "Emotional Skill in Work",
-  comment: "When work becomes attractive and is done with joy, how much better it is done.",
-  image_url: "annual_phlox_white_mauve.jpg",
-  source: "Seedville, Amazon",
-  url: "http://www.amazon.com/Mixed-Colors-DRUMMOND-Drummondii-Flower/dp/B004YYCXGC"
-}
-
-annual_phlox_05 = {
-  description: "Small purple to mauve salverform flowers with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
-  colour: "Purple to mauve",
-  significance: "Skill in Vital Work",
-  comment: "The seat of all capacities and all skills, which have only to be disciplined in order to be realised.",
-  image_url: "annual_phlox_purple.jpg",
-  source: "Marilee",
-  url: "https://www.flickr.com/photos/rigib/1299198548"
-}
-
-annual_phlox_06 = {
-  description: "Small carmine red salverform flowers with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
-  colour: "Carmine red",
-  significance: "Physical Skill in Work",
-  comment: "Skillful hands, a clear vision, a concentrated attention, an untiring patience, and what one does is done well.",
-  image_url: "annual_phlox_carmine_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Phlox_X_drummondii-Anna_park-yercaud-salem-India.JPG"
-}
-
-annual_phlox_07 = {
-  description: "Small bright red salverform flowers with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
-  colour: "Bright red",
-  significance: "Skill in Material Work",
-  comment: "Skillful hands, precise care, a sustained attention, and one compels matter to obey the spirit.",
-  image_url: "annual_phlox_bright_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Flowers7.jpg"
-}
-
-annual_phlox_08 = {
-  description: "Small white salverform flowers with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
-  colour: "White",
-  significance: "Skill in Integral Work",
-  comment: "All that is done is done well, whatever the work undertaken.",
-  image_url: "annual_phlox_white.jpg",
-  source: "abrar, back to garden",
-  url: "http://backtonature-garden.blogspot.in/"
-}
-
-annual_phlox_09 = {
-  description: "Small very light pink salverform flowers with indented petals; with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
-  colour: "Very light pink",
-  significance: "Artistic Work",
-  comment: "Work at the service of beauty.",
-  image_url: "annual_phlox_light_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Pink7.jpg"
-}
-
-annual_phlox_10 = {
-  description: "Small salverform flowers with a central star and fringed petals; with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; in white, pale yellow, and shades of red, pink, and purple; borne in dense terminal clusters. A long-flowering garden annual.",
-  colour: "White, pale yellow, and shades of red, pink, and purple",
-  significance: "Radiating Skill in Work",
-  comment: "When the instruments of work (hands, eyes, etc.) become conscious and the attention is controlled, the capacity for work seems to be limitless.",
-  image_url: "annual_phlox_fringed.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Flowers_(214).jpg"
-}
 
 annual_phlox = Flower.create!(
   name: "Annual Phlox",
@@ -12935,43 +12310,110 @@ annual_phlox = Flower.create!(
   image_url: "annual_phlox.jpg",
   thumbnail_url: "annual_phlox_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Phlox_from_Lalbagh_Flowershow_-_August_2012_4566.JPG",
-  variants: [
-    annual_phlox_01,
-    annual_phlox_02,
-    annual_phlox_03,
-    annual_phlox_04,
-    annual_phlox_05,
-    annual_phlox_06,
-    annual_phlox_07,
-    annual_phlox_08,
-    annual_phlox_09,
-    annual_phlox_10
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Phlox_from_Lalbagh_Flowershow_-_August_2012_4566.JPG"
+)
+
+annual_phlox.child_flowers.create!(
+  description: "Small salverform flowers with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; in white, pale yellow, and shades of red, pink, and purple; borne in dense terminal clusters. A long-flowering garden annual.",
+  colour: "White, pale yellow, and shades of red, pink, and purple",
+  significance: "Skill in Work",
+  comment: "Must be used consciously.",
+  image_url: "annual_phlox_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Phlox_from_Lalbagh_Flowershow_-_August_2012_4587.JPG"
+)
+
+annual_phlox.child_flowers.create!(
+  description: "Small clear pink salverform flowers with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
+  colour: "Clear pink",
+  significance: "Skill in Psychic Work",
+  comment: "Listen silently to the command that comes from the Supreme Lord and you will have the capacity to carry it out.",
+  image_url: "annual_phlox_pink.jpg",
+  source: "Yonatan Matalon, Colorful Nature",
+  url: "http://www.colorfulnature.com/picture.jsp?lang=he&category=flowers&picGroupId=Phlox_Drummondii___Pink_____3__-m"
+)
+
+annual_phlox.child_flowers.create!(
+  description: "Small yellow salverform flowers with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
+  colour: "Yellow",
+  significance: "Skill in Mental Work",
+  comment: "To know how to observe in silence is the source of its skillfulness.",
+  image_url: "annual_phlox_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Flox_-_Phlox_drummondii_(1).jpg"
+)
+
+annual_phlox.child_flowers.create!(
+  description: "Small white salverform flowers with a mauve center; with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
+  colour: "White, mauve",
+  significance: "Emotional Skill in Work",
+  comment: "When work becomes attractive and is done with joy, how much better it is done.",
+  image_url: "annual_phlox_white_mauve.jpg",
+  source: "Seedville, Amazon",
+  url: "http://www.amazon.com/Mixed-Colors-DRUMMOND-Drummondii-Flower/dp/B004YYCXGC"
+)
+
+annual_phlox.child_flowers.create!(
+  description: "Small purple to mauve salverform flowers with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
+  colour: "Purple to mauve",
+  significance: "Skill in Vital Work",
+  comment: "The seat of all capacities and all skills, which have only to be disciplined in order to be realised.",
+  image_url: "annual_phlox_purple.jpg",
+  source: "Marilee",
+  url: "https://www.flickr.com/photos/rigib/1299198548"
+)
+
+annual_phlox.child_flowers.create!(
+  description: "Small carmine red salverform flowers with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
+  colour: "Carmine red",
+  significance: "Physical Skill in Work",
+  comment: "Skillful hands, a clear vision, a concentrated attention, an untiring patience, and what one does is done well.",
+  image_url: "annual_phlox_carmine_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Phlox_X_drummondii-Anna_park-yercaud-salem-India.JPG"
+)
+
+annual_phlox.child_flowers.create!(
+  description: "Small bright red salverform flowers with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
+  colour: "Bright red",
+  significance: "Skill in Material Work",
+  comment: "Skillful hands, precise care, a sustained attention, and one compels matter to obey the spirit.",
+  image_url: "annual_phlox_bright_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Flowers7.jpg"
+)
+
+annual_phlox.child_flowers.create!(
+  description: "Small white salverform flowers with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
+  colour: "White",
+  significance: "Skill in Integral Work",
+  comment: "All that is done is done well, whatever the work undertaken.",
+  image_url: "annual_phlox_white.jpg",
+  source: "abrar, back to garden",
+  url: "http://backtonature-garden.blogspot.in/"
+)
+
+annual_phlox.child_flowers.create!(
+  description: "Small very light pink salverform flowers with indented petals; with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; borne in dense terminal clusters. A long-flowering garden annual.",
+  colour: "Very light pink",
+  significance: "Artistic Work",
+  comment: "Work at the service of beauty.",
+  image_url: "annual_phlox_light_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Pink7.jpg"
+)
+
+annual_phlox.child_flowers.create!(
+  description: "Small salverform flowers with a central star and fringed petals; with a narrow tube and a flattened limb divided into five broad slightly overlapping lobes; in white, pale yellow, and shades of red, pink, and purple; borne in dense terminal clusters. A long-flowering garden annual.",
+  colour: "White, pale yellow, and shades of red, pink, and purple",
+  significance: "Radiating Skill in Work",
+  comment: "When the instruments of work (hands, eyes, etc.) become conscious and the attention is controlled, the capacity for work seems to be limitless.",
+  image_url: "annual_phlox_fringed.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Flowers_(214).jpg"
 )
 
 # Cape Leadwort
-
-cape_leadwort_01 = {
-  description: "Small, soft, pale lavender blue salverform flower with a very thin long corolla tube and a limb divided into five widely separated lobes; borne in terminal clusters. An evergreen shrub with semi-scandent stems.",
-  colour: "Pale lavender blue",
-  significance: "Krishna’s Ananda",
-  comment: "Manifold, abundant, and so full of charm",
-  image_url: "cape_leadwort_lavender_blue.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:BSUJPLPCjf7877_13.JPG"
-}
-
-cape_leadwort_02 = {
-  bot_name: "Plumbago auriculata 'Alba'",
-  description: "Small, soft, pure white salverform flower with a very thin long corolla tube and a limb divided into five widely separated lobes; borne in short spikes. An evergreen shrub with long arching semi-scandent stems.",
-  colour: "Pure white",
-  significance: "Presence",
-  comment: "Consciousness seeking for the presence.",
-  image_url: "cape_leadwort_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Littleflower2.jpg"
-}
 
 cape_leadwort = Flower.create!(
   name: "Cape Leadwort",
@@ -12984,69 +12426,31 @@ cape_leadwort = Flower.create!(
   image_url: "cape_leadwort.jpg",
   thumbnail_url: "cape_leadwort_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Ibaanjf0132_08.JPG",
-  variants: [
-    cape_leadwort_01,
-    cape_leadwort_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Ibaanjf0132_08.JPG"
+)
+
+cape_leadwort.child_flowers.create!(
+  description: "Small, soft, pale lavender blue salverform flower with a very thin long corolla tube and a limb divided into five widely separated lobes; borne in terminal clusters. An evergreen shrub with semi-scandent stems.",
+  colour: "Pale lavender blue",
+  significance: "Krishna’s Ananda",
+  comment: "Manifold, abundant, and so full of charm",
+  image_url: "cape_leadwort_lavender_blue.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:BSUJPLPCjf7877_13.JPG"
+)
+
+cape_leadwort.child_flowers.create!(
+  bot_name: "Plumbago auriculata 'Alba'",
+  description: "Small, soft, pure white salverform flower with a very thin long corolla tube and a limb divided into five widely separated lobes; borne in short spikes. An evergreen shrub with long arching semi-scandent stems.",
+  colour: "Pure white",
+  significance: "Presence",
+  comment: "Consciousness seeking for the presence.",
+  image_url: "cape_leadwort_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Littleflower2.jpg"
 )
 
 # Frangipani
-
-frangipani_01 = {
-  bot_name: "Plumeria rubra",
-  description: "Medium-sized fragrant five-petalled flowers borne in large terminal clusters on small to medium-sized trees with stiff leathery leaves, thick weak branches and milky sap. Psychological Perfection is the general significance given for all Plumerias and also for two specific flowers, one flower predominantly yellow with a white edge, and another very fragrant white flower with five rounded petals and a large yellow center.",
-  colour: "Yellow, white",
-  significance: "Psychological Perfection",
-  comment: "There is not one psychological perfection but five. They are sincerity, faith, devotion, aspiration, and surrender.",
-  image_url: "frangipani_yellow_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Frangipani_flowers.jpg"
-}
-
-frangipani_02 = {
-  bot_name: "Plumeria rubra",
-  description: "Medium-sized fragrant five-petalled multicoloured flower, predominantly deep rose to purplish-red often shaded with deep yellow to orange. A small tree with broad stiff obovate leaves.",
-  colour: "Multicoloured, deep rose to purplish-red, deep yellow to orange",
-  significance: "Psychological Perfection on the way to Fulfilment",
-  comment: "The state of those who take up the Yoga seriously.",
-  image_url: "frangipani_deep_rose.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_070124-3787_Plumeria_rubra.jpg"
-}
-
-frangipani_03 = {
-  bot_name: "Plumeria rubra forma tricolor",
-  description: "Medium-sized fragrant predominantly white flower edged with rose pink, with a rose pink band on the back of each petal, and a tiny deep yellow center. A small tree with broad stiff obovate leaves.",
-  colour: "White, rose pink, deep yellow",
-  significance: "Psychological Perfection in Matter",
-  comment: "The first step towards transformation.",
-  image_url: "frangipani_white_yellow_rose.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Plumeria_rubra,_Madeira_-_June_2008.jpg"
-}
-
-frangipani_04 = {
-  bot_name: "Plumeria obtusa",
-  description: "Large fragrant white flower with five long, slender, widely separated petals and a small yellow center; borne in large terminal clusters, a shrub with large stiff oblong leaves.",
-  colour: "White, yellow",
-  significance: "Integral Psychological Perfection",
-  comment: "One of the conditions indispensable for transformation.",
-  image_url: "frangipani_separated.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_080117-1877_Plumeria_obtusa.jpg"
-}
-
-frangipani_05 = {
-  bot_name: "Plumeria obtusa",
-  description: "Large fragrant white flower with five long, slightly overlapping petals and a small yellow center; borne in large terminal clusters, a shrub with broad stiff oblong leaves.",
-  colour: "White, yellow",
-  significance: "Perfect Psychological Perfection",
-  comment: "Psychological perfection in all the parts of the being.",
-  image_url: "frangipani_overlapping.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Plumeria_obtusa_at_Keawakapu_Beach.jpg"
-}
 
 frangipani = Flower.create!(
   name: "Frangipani",
@@ -13059,37 +12463,65 @@ frangipani = Flower.create!(
   image_url: "frangipani.jpg",
   thumbnail_url: "frangipani_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_080610-8167_Plumeria_rubra.jpg",
-  variants: [
-    frangipani_01,
-    frangipani_02,
-    frangipani_03,
-    frangipani_04,
-    frangipani_05
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Starr_080610-8167_Plumeria_rubra.jpg"
+)
+
+frangipani.child_flowers.create!(
+  bot_name: "Plumeria rubra",
+  description: "Medium-sized fragrant five-petalled flowers borne in large terminal clusters on small to medium-sized trees with stiff leathery leaves, thick weak branches and milky sap. Psychological Perfection is the general significance given for all Plumerias and also for two specific flowers, one flower predominantly yellow with a white edge, and another very fragrant white flower with five rounded petals and a large yellow center.",
+  colour: "Yellow, white",
+  significance: "Psychological Perfection",
+  comment: "There is not one psychological perfection but five. They are sincerity, faith, devotion, aspiration, and surrender.",
+  image_url: "frangipani_yellow_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Frangipani_flowers.jpg"
+)
+
+frangipani.child_flowers.create!(
+  bot_name: "Plumeria rubra",
+  description: "Medium-sized fragrant five-petalled multicoloured flower, predominantly deep rose to purplish-red often shaded with deep yellow to orange. A small tree with broad stiff obovate leaves.",
+  colour: "Multicoloured, deep rose to purplish-red, deep yellow to orange",
+  significance: "Psychological Perfection on the way to Fulfilment",
+  comment: "The state of those who take up the Yoga seriously.",
+  image_url: "frangipani_deep_rose.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_070124-3787_Plumeria_rubra.jpg"
+)
+
+frangipani.child_flowers.create!(
+  bot_name: "Plumeria rubra forma tricolor",
+  description: "Medium-sized fragrant predominantly white flower edged with rose pink, with a rose pink band on the back of each petal, and a tiny deep yellow center. A small tree with broad stiff obovate leaves.",
+  colour: "White, rose pink, deep yellow",
+  significance: "Psychological Perfection in Matter",
+  comment: "The first step towards transformation.",
+  image_url: "frangipani_white_yellow_rose.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Plumeria_rubra,_Madeira_-_June_2008.jpg"
+)
+
+frangipani.child_flowers.create!(
+  bot_name: "Plumeria obtusa",
+  description: "Large fragrant white flower with five long, slender, widely separated petals and a small yellow center; borne in large terminal clusters, a shrub with large stiff oblong leaves.",
+  colour: "White, yellow",
+  significance: "Integral Psychological Perfection",
+  comment: "One of the conditions indispensable for transformation.",
+  image_url: "frangipani_separated.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_080117-1877_Plumeria_obtusa.jpg"
+)
+
+frangipani.child_flowers.create!(
+  bot_name: "Plumeria obtusa",
+  description: "Large fragrant white flower with five long, slightly overlapping petals and a small yellow center; borne in large terminal clusters, a shrub with broad stiff oblong leaves.",
+  colour: "White, yellow",
+  significance: "Perfect Psychological Perfection",
+  comment: "Psychological perfection in all the parts of the being.",
+  image_url: "frangipani_overlapping.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Plumeria_obtusa_at_Keawakapu_Beach.jpg"
 )
 
 # Tuberose
-
-tuberose_01 = {
-  description: "Highly fragrant medium-sized tubular white flower with six separated lobes; borne in long spike-like racemes. A bulbous perennial herb with narrow fleshy basal leaves.",
-  colour: "White",
-  significance: "New Creation",
-  comment: "Strong, lasting, and fragrant, it rises straight towards the sky.",
-  image_url: "tuberose_single.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Tuberose_-_Flickr_-_Swami_Stream.jpg"
-}
-
-tuberose_02 = {
-  description: "Highly fragrant medium-sized tubular double white flower with six separated lobes; borne in long spike-like racemes. A bulbous perennial herb with narrow fleshy basal leaves.",
-  colour: "White",
-  significance: "Perfect New Creation",
-  comment: "Clustered, manifold, and complete, it asserts its right to be.",
-  image_url: "tuberose_double.jpg",
-  source: "Van Berkel",
-  url: "http://www.jmvanberkel.nl/nl/polianthes-tuberosa-06-20101004.html"
-}
 
 tuberose = Flower.create!(
   name: "Tuberose",
@@ -13102,34 +12534,30 @@ tuberose = Flower.create!(
   image_url: "tuberose.jpg",
   thumbnail_url: "tuberose_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Tuberosa.jpg",
-  variants: [
-    tuberose_01,
-    tuberose_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Tuberosa.jpg"
+)
+
+tuberose.child_flowers.create!(
+  description: "Highly fragrant medium-sized tubular white flower with six separated lobes; borne in long spike-like racemes. A bulbous perennial herb with narrow fleshy basal leaves.",
+  colour: "White",
+  significance: "New Creation",
+  comment: "Strong, lasting, and fragrant, it rises straight towards the sky.",
+  image_url: "tuberose_single.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Tuberose_-_Flickr_-_Swami_Stream.jpg"
+)
+
+tuberose.child_flowers.create!(
+  description: "Highly fragrant medium-sized tubular double white flower with six separated lobes; borne in long spike-like racemes. A bulbous perennial herb with narrow fleshy basal leaves.",
+  colour: "White",
+  significance: "Perfect New Creation",
+  comment: "Clustered, manifold, and complete, it asserts its right to be.",
+  image_url: "tuberose_double.jpg",
+  source: "Van Berkel",
+  url: "http://www.jmvanberkel.nl/nl/polianthes-tuberosa-06-20101004.html"
 )
 
 # Bell Flower
-
-bell_flower_01 = {
-  description: "Large fragrant, waxy, pure white trumpet-shaped flower with a limb divided into seven pointed lobes; borne singly. A glossy-leaved evergreen shrub.",
-  colour: "Pure white",
-  significance: "Peace of Integral Faithfulness",
-  comment: "Be faithful to the Divine and you will enjoy a constant peace.",
-  image_url: "bell_flower_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_2052_hunt08sep.jpg"
-}
-
-bell_flower_02 = {
-  description: "Large fragrant, waxy, white trumpet-shaped flower finely edged with pink, with a limb divided into seven pointed lobes; borne singly. A glossy-leaved evergreen shrub.",
-  colour: "White, pink",
-  significance: "Joy of Integral Faithfulness",
-  comment: "That bond of love which makes all faithfulness so easy.",
-  image_url: "bell_flower_white_pink.jpg",
-  source: "World Reviewer",
-  url: "http://www.worldreviewer.com/holiday-ideas/grenada-the-garden-friendship-isle"
-}
 
 bell_flower = Flower.create!(
   name: "Bell Flower",
@@ -13142,84 +12570,30 @@ bell_flower = Flower.create!(
   image_url: "bell_flower.jpg",
   thumbnail_url: "bell_flower_thumbnail.jpg",
   source: "Kyle Wicomb",
-  url: "https://www.flickr.com/photos/36838058@N03/6170798957/",
-  variants: [
-    bell_flower_01,
-    bell_flower_02
-  ]
+  url: "https://www.flickr.com/photos/36838058@N03/6170798957/"
+)
+
+bell_flower.child_flowers.create!(
+  description: "Large fragrant, waxy, pure white trumpet-shaped flower with a limb divided into seven pointed lobes; borne singly. A glossy-leaved evergreen shrub.",
+  colour: "Pure white",
+  significance: "Peace of Integral Faithfulness",
+  comment: "Be faithful to the Divine and you will enjoy a constant peace.",
+  image_url: "bell_flower_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_2052_hunt08sep.jpg"
+)
+
+bell_flower.child_flowers.create!(
+  description: "Large fragrant, waxy, white trumpet-shaped flower finely edged with pink, with a limb divided into seven pointed lobes; borne singly. A glossy-leaved evergreen shrub.",
+  colour: "White, pink",
+  significance: "Joy of Integral Faithfulness",
+  comment: "That bond of love which makes all faithfulness so easy.",
+  image_url: "bell_flower_white_pink.jpg",
+  source: "World Reviewer",
+  url: "http://www.worldreviewer.com/holiday-ideas/grenada-the-garden-friendship-isle"
 )
 
 # Pastel Flower
-
-pastel_flower_01 = {
-  description: "Small salverform flowers in a variety of colours with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A small shrub with leaves often variegated or strongly coloured in maroon to dark purple.",
-  colour: "Various colours",
-  significance: "Organisation",
-  comment: "Indispensable for all good work.",
-  image_url: "pastel_flower_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Pseuderanthemum_carruthersii_or_Gokarna_Jasmine_from_Kerala_5290.JPG"
-}
-
-pastel_flower_02 = {
-  description: "White flower with a reddish-purple center and a few reddish-purple dots on the lower central lobe; with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A medium-sized shrub with narrow green lanceolate leaves.",
-  colour: "White, reddish-purple",
-  significance: "Aspiration for Organisation",
-  comment: "Clear and methodical, order at the expense of multiplicity.",
-  image_url: "pastel_flower_white_reddish_purple.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Flor_-_Quintana_Roo_-_M%C3%A9xico-5.jpg"
-}
-
-pastel_flower_03 = {
-  description: "White flower heavily overlaid with pink, streaked and spotted magenta, with a magenta center and corolla tube; with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A medium-sized shrub with variegated leaves and purple on the reverse.",
-  colour: "White, pink, magenta",
-  significance: "Organisation in the Vital",
-  comment: "Indispensable for all realisation.",
-  image_url: "pastel_flower_white_pink.jpg",
-  source: "Anand Kumar Reddy, Medicinal Plants",
-  url: "http://medplants.blogspot.in/search/label/Pseuderanthemum%20carruthersii"
-}
-
-pastel_flower_04 = {
-  description: "Small white salverform flowers speckled with purplish-red dots and a purplish-red center; with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A small shrub with leaves often variegated or strongly coloured in maroon to dark purple.",
-  colour: "White, purplish-red",
-  significance: "Material Organisation",
-  comment: "Manifold and well-arranged in order to face difficulties.",
-  image_url: "pastel_flower_white_purple.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Pseuderanthemum_carruthersii_or_Gokarna_Jasmine_from_Kerala_5289.JPG"
-}
-
-pastel_flower_05 = {
-  description: "Small white salverform flowers with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A small shrub with leaves often variegated or strongly coloured in maroon to dark purple.",
-  colour: "White",
-  significance: "Integral Organisation",
-  comment: "Preliminary necessity for transformation.",
-  image_url: "pastel_flower_leaves.jpg",
-  source: "Pantip",
-  url: "http://pantip.com/topic/32415788"
-}
-
-pastel_flower_06 = {
-  description: "Small white salverform flowers a reddish-purple center and a few reddish-purple dots extending outward into the lobes; with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A small shrub with leaves often variegated or strongly coloured in maroon to dark purple.",
-  colour: "White, reddish-purple",
-  significance: "Organisation of Details",
-  comment: "Indispensable for all lasting accomplishment.",
-  image_url: "pastel_flower_purple_white.jpg",
-  source: "amaralis",
-  url: "https://www.flickr.com/photos/helianne/6109036966"
-}
-
-pastel_flower_07 = {
-  description: "White flower with reddish-purple dots mostly towards the outer edge of the lobes, the lower central lobe heavily dotted reddish-purple, with a large maroon center, and a long corolla tube. A small herbaceous shrub with green ovate-lanceolate leaves.",
-  colour: "White, reddish-purple",
-  significance: "Result of Harmonious Organisation",
-  comment: "More effective than showy. An effective simplicity.",
-  image_url: "pastel_flower_white_purple_maroon.jpg",
-  source: "Malcolm Manners",
-  url: "https://www.flickr.com/photos/mmmavocado/6261152312/"
-}
 
 pastel_flower = Flower.create!(
   name: "Pastel Flower",
@@ -13232,59 +12606,80 @@ pastel_flower = Flower.create!(
   image_url: "pastel_flower.jpg",
   thumbnail_url: "pastel_flower_thumbnail.jpg",
   source: "Shubhada Nikharge",
-  url: "https://www.flickr.com/photos/shubhada_nikharge/5997297037/",
-  variants: [
-    pastel_flower_01,
-    pastel_flower_02,
-    pastel_flower_03,
-    pastel_flower_04,
-    pastel_flower_05,
-    pastel_flower_06,
-    pastel_flower_07
-  ]
+  url: "https://www.flickr.com/photos/shubhada_nikharge/5997297037/"
+)
+
+pastel_flower.child_flowers.create!(
+  description: "Small salverform flowers in a variety of colours with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A small shrub with leaves often variegated or strongly coloured in maroon to dark purple.",
+  colour: "Various colours",
+  significance: "Organisation",
+  comment: "Indispensable for all good work.",
+  image_url: "pastel_flower_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Pseuderanthemum_carruthersii_or_Gokarna_Jasmine_from_Kerala_5290.JPG"
+)
+
+pastel_flower.child_flowers.create!(
+  description: "White flower with a reddish-purple center and a few reddish-purple dots on the lower central lobe; with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A medium-sized shrub with narrow green lanceolate leaves.",
+  colour: "White, reddish-purple",
+  significance: "Aspiration for Organisation",
+  comment: "Clear and methodical, order at the expense of multiplicity.",
+  image_url: "pastel_flower_white_reddish_purple.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Flor_-_Quintana_Roo_-_M%C3%A9xico-5.jpg"
+)
+
+pastel_flower.child_flowers.create!(
+  description: "White flower heavily overlaid with pink, streaked and spotted magenta, with a magenta center and corolla tube; with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A medium-sized shrub with variegated leaves and purple on the reverse.",
+  colour: "White, pink, magenta",
+  significance: "Organisation in the Vital",
+  comment: "Indispensable for all realisation.",
+  image_url: "pastel_flower_white_pink.jpg",
+  source: "Anand Kumar Reddy, Medicinal Plants",
+  url: "http://medplants.blogspot.in/search/label/Pseuderanthemum%20carruthersii"
+)
+
+pastel_flower.child_flowers.create!(
+  description: "Small white salverform flowers speckled with purplish-red dots and a purplish-red center; with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A small shrub with leaves often variegated or strongly coloured in maroon to dark purple.",
+  colour: "White, purplish-red",
+  significance: "Material Organisation",
+  comment: "Manifold and well-arranged in order to face difficulties.",
+  image_url: "pastel_flower_white_purple.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Pseuderanthemum_carruthersii_or_Gokarna_Jasmine_from_Kerala_5289.JPG"
+)
+
+pastel_flower.child_flowers.create!(
+  description: "Small white salverform flowers with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A small shrub with leaves often variegated or strongly coloured in maroon to dark purple.",
+  colour: "White",
+  significance: "Integral Organisation",
+  comment: "Preliminary necessity for transformation.",
+  image_url: "pastel_flower_leaves.jpg",
+  source: "Pantip",
+  url: "http://pantip.com/topic/32415788"
+)
+
+pastel_flower.child_flowers.create!(
+  description: "Small white salverform flowers a reddish-purple center and a few reddish-purple dots extending outward into the lobes; with five rounded lobes, the upper two often (but not always) overlapped to appear almost as one lobe; borne in erect spikes. A small shrub with leaves often variegated or strongly coloured in maroon to dark purple.",
+  colour: "White, reddish-purple",
+  significance: "Organisation of Details",
+  comment: "Indispensable for all lasting accomplishment.",
+  image_url: "pastel_flower_purple_white.jpg",
+  source: "amaralis",
+  url: "https://www.flickr.com/photos/helianne/6109036966"
+)
+
+pastel_flower.child_flowers.create!(
+  description: "White flower with reddish-purple dots mostly towards the outer edge of the lobes, the lower central lobe heavily dotted reddish-purple, with a large maroon center, and a long corolla tube. A small herbaceous shrub with green ovate-lanceolate leaves.",
+  colour: "White, reddish-purple",
+  significance: "Result of Harmonious Organisation",
+  comment: "More effective than showy. An effective simplicity.",
+  image_url: "pastel_flower_white_purple_maroon.jpg",
+  source: "Malcolm Manners",
+  url: "https://www.flickr.com/photos/mmmavocado/6261152312/"
 )
 
 # Pomegranate
-
-pomegranate_01 = {
-  description: "Medium-sized double orange-red flower with innumerable tightly-held, crinkled petals; borne singly or in small clusters. A spiny shrub or small tree with many stems and glossy leaves.",
-  colour: "Orange-red",
-  significance: "Divine Love",
-  comment: "A flower reputed to bloom even in the desert.",
-  image_url: "pomegranate_double_orange.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_6835_hunt09jun.jpg"
-}
-
-pomegranate_02 = {
-  description: "Small single brilliant orange flower with six rounded, crinkled petals and a center composed of numerous cream-yellow anthers, held in a thick waxy orange six-pointed calyx that covers the base of the flower. A shrub or small tree.",
-  colour: "Orange, cream-yellow",
-  significance: "Divine Sacrifice",
-  comment: "Is it not a supreme sacrifice for the Divine to renounce the beatitude of His unity in order to create the painful multiplicity of the world?",
-  image_url: "pomegranate_single_orange.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Punica_granatum_0556.jpg"
-}
-
-pomegranate_03 = {
-  description: "Medium to large nearly round, thick-skinned fruit that is yellow tinged with red when ripe, and contains many seeds enclosed in a juicy reddish edible pulp; A shrub or small tree.",
-  colour: "Yellow, red",
-  significance: "Divine Love spreading over the World",
-  comment: "Innumerable, succulent, it gives strength and life untiringly.",
-  image_url: "pomegranate_fruit.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:The_Scots_Hotel_IMG_9106_(16074477165).jpg"
-}
-
-pomegranate_04 = {
-  description: "Medium-sized double white flower with innumerable tightly-held, crinkled petals; borne singly or in small clusters. A spiny shrub or small tree with many stems, and glossy leaves.",
-  colour: "White",
-  significance: "Unmanifest Divine Love",
-  comment: "The splendour of that marvellous love which the Divine keeps for the pure heart.",
-  image_url: "pomegranate_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Punica_granatum_%27Legrelliae%27.jpg"
-}
 
 pomegranate = Flower.create!(
   name: "Pomegranate",
@@ -13297,192 +12692,50 @@ pomegranate = Flower.create!(
   image_url: "pomegranate.jpg",
   thumbnail_url: "pomegranate_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Punica_granatum_004.JPG",
-  variants: [
-    pomegranate_01,
-    pomegranate_02,
-    pomegranate_03,
-    pomegranate_04
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Punica_granatum_004.JPG"
+)
+
+pomegranate.child_flowers.create!(
+  description: "Medium-sized double orange-red flower with innumerable tightly-held, crinkled petals; borne singly or in small clusters. A spiny shrub or small tree with many stems and glossy leaves.",
+  colour: "Orange-red",
+  significance: "Divine Love",
+  comment: "A flower reputed to bloom even in the desert.",
+  image_url: "pomegranate_double_orange.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_6835_hunt09jun.jpg"
+)
+
+pomegranate.child_flowers.create!(
+  description: "Small single brilliant orange flower with six rounded, crinkled petals and a center composed of numerous cream-yellow anthers, held in a thick waxy orange six-pointed calyx that covers the base of the flower. A shrub or small tree.",
+  colour: "Orange, cream-yellow",
+  significance: "Divine Sacrifice",
+  comment: "Is it not a supreme sacrifice for the Divine to renounce the beatitude of His unity in order to create the painful multiplicity of the world?",
+  image_url: "pomegranate_single_orange.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Punica_granatum_0556.jpg"
+)
+
+pomegranate.child_flowers.create!(
+  description: "Medium to large nearly round, thick-skinned fruit that is yellow tinged with red when ripe, and contains many seeds enclosed in a juicy reddish edible pulp; A shrub or small tree.",
+  colour: "Yellow, red",
+  significance: "Divine Love spreading over the World",
+  comment: "Innumerable, succulent, it gives strength and life untiringly.",
+  image_url: "pomegranate_fruit.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:The_Scots_Hotel_IMG_9106_(16074477165).jpg"
+)
+
+pomegranate.child_flowers.create!(
+  description: "Medium-sized double white flower with innumerable tightly-held, crinkled petals; borne singly or in small clusters. A spiny shrub or small tree with many stems, and glossy leaves.",
+  colour: "White",
+  significance: "Unmanifest Divine Love",
+  comment: "The splendour of that marvellous love which the Divine keeps for the pure heart.",
+  image_url: "pomegranate_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Punica_granatum_%27Legrelliae%27.jpg"
 )
 
 # Rose
-
-rose_01 = {
-  description: "All forms and sizes of roses, single and double, usually fragrant, in a great variety of colours; includes both shrubs and climbers.",
-  colour: "Various colours", 
-  significance: "Love for the Divine",
-  comment: "The vegetal kingdom gathers together its most beautiful possibilities to offer them to the Divine.",
-  image_url: "rose_mix.jpg",
-  source: "sophie",
-  url: "https://www.flickr.com/photos/sophiea/5721768347"
-}
-
-rose_02 = {
-  description: "Medium to large solitary pure white flower. A large shrub.",
-  colour: "Pure white",
-  significance: "Integral Love for the Divine",
-  comment: "Pure, complete, and irrevocable, it is a love that gives itself forever.",
-  image_url: "rose_pure_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Flickr_-_Michael_Gwyther-Jones_-_White_Rose.jpg"
-}
-
-rose_03 = {
-  description: "Small to medium-sized solitary orange flower. A large shrub",
-  colour: "Orange",
-  significance: "Flaming Love for the Divine",
-  comment: "Ready for all heroism and all sacrifices.",
-  image_url: "rose_orange.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Rosa_%27Voodoo%27_1.JPG"
-}
-
-rose_04 = {
-  description: "Medium-sized lavender or mauve flower.",
-  colour: "Lavender or mauve",
-  significance: "Humility in the Love for the Divine",
-  comment: "Delicate, effective, and surrendered, but very persistent in its feelings.",
-  image_url: "rose_lavender.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Lavender_rose.jpg"
-}
-
-rose_05 = {
-  description: "Medium to large yellow flower. A medium to large shrub.",
-  colour: "Yellow",
-  significance: "Mental Love for the Divine",
-  comment: "The nature offers its love in a fragrant blossoming.",
-  image_url: "rose_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Rose_Gina_Lollobrigida_20070601.jpg"
-}
-
-rose_06 = {
-  description: "Medium to large red flower. A large shrub.",
-  colour: "Red",
-  significance: "Human Passions changed into Love for the Divine",
-  comment: "Let them become a real fact, and their abundance will save the world.",
-  image_url: "rose_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Rosa_%27Mister_Lincoln%27_1964.jpg"
-}
-
-rose_07 = {
-  description: "All medium-sized bicoloured flowers. A large shrub.",
-  colour: "Bicoloured",
-  significance: "Balance of Nature in the Love for the Divine",
-  comment: "Passive and active, calm and ardent, sweet and strong, silent and expressed.",
-  image_url: "rose_bicoloured.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Rose_(142).jpg"
-}
-
-rose_08 = {
-  description: "Very large white flower tinged with pink and yellow. A shrub.",
-  colour: "White, pink, yellow",
-  significance: "Love from the Divine",
-  comment: "A vibration of love that the Supreme directs upon a particular point (a person or thing).",
-  image_url: "rose_white_pink_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Rosa_%27Mevrow_G_A_van_Rossen%27.jpg"
-}
-
-rose_09 = {
-  description: "Small white flower tinged with pink. A small to medium-sized shrub.",
-  colour: "White, pink",
-  significance: "Affection for the Divine",
-  comment: "A sweet and trusting tenderness that gives itself unfailingly to the Divine.",
-  image_url: "rose_white_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Madeleine_Rivoire.JPG"
-}
-
-rose_10 = {
-  bot_name: "Rosa ‘Confidence’",
-  description: "Medium to large salmon coloured flower. A large shrub.",
-  colour: "Salmon",
-  significance: "Beauty Offers itself in Service to the Divine",
-  comment: "Incomparable splendour, it becomes a modest servitor.",
-  image_url: "rose_confidence.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Hybrid_Tea_-_Confidence_3_(cr).JPG"
-}
-
-rose_11 = {
-  bot_name: "Rosa ‘Father’s Day’",
-  description: "Small double light orange flower borne in small clusters on short stems. A small shrub.",
-  colour: "Light orange",
-  significance: "Supramental Attachment for the Divine",
-  comment: "Manifold and smiling, repeating itself endlessly.",
-  image_url: "rose_light_orange.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Howard_Foley_(4493132394).jpg"
-}
-
-rose_12 = {
-  bot_name: "Rosa ‘Edward’",
-  description: "Medium-sized double, highly fragrant pink flower. A large shrub.",
-  colour: "Pink",
-  significance: "Surrender",
-  comment: "To will what the Divine wills is the supreme wisdom.",
-  image_url: "rose_edward.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Rosa_Louise_Odier_01.jpg"
-}
-
-rose_13 = {
-  description: "All fully double medium to large solitary pink flowers, except Surrender and Perfect Surrender. Shrubs of all sizes.",
-  colour: "Pink",
-  significance: "Loving Surrender",
-  comment: "A state that can be obtained by surrendering to the Divine.",
-  image_url: "rose_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Vienna_Woods_(4492484451).jpg"
-}
-
-rose_14 = {
-  description: "Medium to large yellow flower tinged with orange. A medium to large shrub.",
-  colour: "Yellow, orange",
-  significance: "Mental Surrender",
-  comment: "Occurs when the mind has understood that it is only an instrument.",
-  image_url: "rose_yellow_orange.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Rosa-eureka.jpg"
-}
-
-rose_15 = {
-  bot_name: "Rosa ‘Paul Neyron’",
-  description: "Large double, highly fragrant deep pink flower. A medium to large shrub.",
-  colour: "Deep pink",
-  significance: "Perfect Surrender",
-  comment: "The indispensable condition for identification.",
-  image_url: "rose_paul_neyron.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Rose_Yves_Piaget_20070601.jpg"
-}
-
-rose_16 = {
-  bot_name: "Rosa 'Prosperity'",
-  description: "Small very fragrant, semi-double ivory white flower tinged with pink; borne in full pendulous sprays. A vigorous climber.",
-  colour: "Ivory white, pink",
-  significance: "Pure Spiritual Surrender",
-  comment: "Candid, simple, spontaneous, and complete in its multiplicity.",
-  image_url: "rose_prosperity.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Rosa_%27Prosperity%27_01.jpg"
-}
-
-rose_17 = {
-  bot_name: "Rosa ‘Peace’",
-  description: "Medium to large cream or yellow flower tinged with pink. A medium to large shrub.",
-  colour: "Cream or yellow, pink",
-  significance: "Mental Love under the Psychic Influence",
-  comment: "The mind influenced by the psychic knows how to express its love for the Divine in magnificent terms.",
-  image_url: "rose_peace.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Rosa_Peace_1945.jpg"
-}
 
 rose = Flower.create!(
   name: "Rose",
@@ -13494,49 +12747,186 @@ rose = Flower.create!(
   image_url: "rose.jpg",
   thumbnail_url: "rose_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Rosa_Kardinal_02.jpg",
-  variants: [
-    rose_01,
-    rose_02,
-    rose_03,
-    rose_04,
-    rose_05,
-    rose_06,
-    rose_07,
-    rose_08,
-    rose_09,
-    rose_10,
-    rose_11,
-    rose_12,
-    rose_13,
-    rose_14,
-    rose_15,
-    rose_16,
-    rose_17
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Rosa_Kardinal_02.jpg"
+)
+
+rose.child_flowers.create!(
+  description: "All forms and sizes of roses, single and double, usually fragrant, in a great variety of colours; includes both shrubs and climbers.",
+  colour: "Various colours", 
+  significance: "Love for the Divine",
+  comment: "The vegetal kingdom gathers together its most beautiful possibilities to offer them to the Divine.",
+  image_url: "rose_mix.jpg",
+  source: "sophie",
+  url: "https://www.flickr.com/photos/sophiea/5721768347"
+)
+
+rose.child_flowers.create!(
+  description: "Medium to large solitary pure white flower. A large shrub.",
+  colour: "Pure white",
+  significance: "Integral Love for the Divine",
+  comment: "Pure, complete, and irrevocable, it is a love that gives itself forever.",
+  image_url: "rose_pure_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Flickr_-_Michael_Gwyther-Jones_-_White_Rose.jpg"
+)
+
+rose.child_flowers.create!(
+  description: "Small to medium-sized solitary orange flower. A large shrub",
+  colour: "Orange",
+  significance: "Flaming Love for the Divine",
+  comment: "Ready for all heroism and all sacrifices.",
+  image_url: "rose_orange.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Rosa_%27Voodoo%27_1.JPG"
+)
+
+rose.child_flowers.create!(
+  description: "Medium-sized lavender or mauve flower.",
+  colour: "Lavender or mauve",
+  significance: "Humility in the Love for the Divine",
+  comment: "Delicate, effective, and surrendered, but very persistent in its feelings.",
+  image_url: "rose_lavender.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Lavender_rose.jpg"
+)
+
+rose.child_flowers.create!(
+  description: "Medium to large yellow flower. A medium to large shrub.",
+  colour: "Yellow",
+  significance: "Mental Love for the Divine",
+  comment: "The nature offers its love in a fragrant blossoming.",
+  image_url: "rose_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Rose_Gina_Lollobrigida_20070601.jpg"
+)
+
+rose.child_flowers.create!(
+  description: "Medium to large red flower. A large shrub.",
+  colour: "Red",
+  significance: "Human Passions changed into Love for the Divine",
+  comment: "Let them become a real fact, and their abundance will save the world.",
+  image_url: "rose_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Rosa_%27Mister_Lincoln%27_1964.jpg"
+)
+
+rose.child_flowers.create!(
+  description: "All medium-sized bicoloured flowers. A large shrub.",
+  colour: "Bicoloured",
+  significance: "Balance of Nature in the Love for the Divine",
+  comment: "Passive and active, calm and ardent, sweet and strong, silent and expressed.",
+  image_url: "rose_bicoloured.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Rose_(142).jpg"
+)
+
+rose.child_flowers.create!(
+  description: "Very large white flower tinged with pink and yellow. A shrub.",
+  colour: "White, pink, yellow",
+  significance: "Love from the Divine",
+  comment: "A vibration of love that the Supreme directs upon a particular point (a person or thing).",
+  image_url: "rose_white_pink_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Rosa_%27Mevrow_G_A_van_Rossen%27.jpg"
+)
+
+rose.child_flowers.create!(
+  description: "Small white flower tinged with pink. A small to medium-sized shrub.",
+  colour: "White, pink",
+  significance: "Affection for the Divine",
+  comment: "A sweet and trusting tenderness that gives itself unfailingly to the Divine.",
+  image_url: "rose_white_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Madeleine_Rivoire.JPG"
+)
+
+rose.child_flowers.create!(
+  bot_name: "Rosa ‘Confidence’",
+  description: "Medium to large salmon coloured flower. A large shrub.",
+  colour: "Salmon",
+  significance: "Beauty Offers itself in Service to the Divine",
+  comment: "Incomparable splendour, it becomes a modest servitor.",
+  image_url: "rose_confidence.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Hybrid_Tea_-_Confidence_3_(cr).JPG"
+)
+
+rose.child_flowers.create!(
+  bot_name: "Rosa ‘Father’s Day’",
+  description: "Small double light orange flower borne in small clusters on short stems. A small shrub.",
+  colour: "Light orange",
+  significance: "Supramental Attachment for the Divine",
+  comment: "Manifold and smiling, repeating itself endlessly.",
+  image_url: "rose_light_orange.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Howard_Foley_(4493132394).jpg"
+)
+
+rose.child_flowers.create!(
+  bot_name: "Rosa ‘Edward’",
+  description: "Medium-sized double, highly fragrant pink flower. A large shrub.",
+  colour: "Pink",
+  significance: "Surrender",
+  comment: "To will what the Divine wills is the supreme wisdom.",
+  image_url: "rose_edward.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Rosa_Louise_Odier_01.jpg"
+)
+
+rose.child_flowers.create!(
+  description: "All fully double medium to large solitary pink flowers, except Surrender and Perfect Surrender. Shrubs of all sizes.",
+  colour: "Pink",
+  significance: "Loving Surrender",
+  comment: "A state that can be obtained by surrendering to the Divine.",
+  image_url: "rose_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Vienna_Woods_(4492484451).jpg"
+)
+
+rose.child_flowers.create!(
+  description: "Medium to large yellow flower tinged with orange. A medium to large shrub.",
+  colour: "Yellow, orange",
+  significance: "Mental Surrender",
+  comment: "Occurs when the mind has understood that it is only an instrument.",
+  image_url: "rose_yellow_orange.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Rosa-eureka.jpg"
+)
+
+rose.child_flowers.create!(
+  bot_name: "Rosa ‘Paul Neyron’",
+  description: "Large double, highly fragrant deep pink flower. A medium to large shrub.",
+  colour: "Deep pink",
+  significance: "Perfect Surrender",
+  comment: "The indispensable condition for identification.",
+  image_url: "rose_paul_neyron.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Rose_Yves_Piaget_20070601.jpg"
+)
+
+rose.child_flowers.create!(
+  bot_name: "Rosa 'Prosperity'",
+  description: "Small very fragrant, semi-double ivory white flower tinged with pink; borne in full pendulous sprays. A vigorous climber.",
+  colour: "Ivory white, pink",
+  significance: "Pure Spiritual Surrender",
+  comment: "Candid, simple, spontaneous, and complete in its multiplicity.",
+  image_url: "rose_prosperity.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Rosa_%27Prosperity%27_01.jpg"
+)
+
+rose.child_flowers.create!(
+  bot_name: "Rosa ‘Peace’",
+  description: "Medium to large cream or yellow flower tinged with pink. A medium to large shrub.",
+  colour: "Cream or yellow, pink",
+  significance: "Mental Love under the Psychic Influence",
+  comment: "The mind influenced by the psychic knows how to express its love for the Divine in magnificent terms.",
+  image_url: "rose_peace.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Rosa_Peace_1945.jpg"
 )
 
 # African Violet
-
-african_violet_01 = {
-  description: "Small dainty flowers with five spreading petal-like lobes and a tiny center of yellow anthers; in white, and shades of blue, purple, and pink; there are also many double and ruffled forms, usually with a sparkling iridescent sheen to the petals; borne singly or in clusters on short stems above the leaves. A small, compact plant with fleshy, rounded pubescent leaves.",
-  colour: "White, and shades of blue, purple, and pink, a yellow center",
-  significance: "Correct Movements",
-  comment: "All movements are under the right inspiration.",
-  image_url: "african_violet_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Saintpaulia_ionantha_(flowers).jpg"
-}
-
-african_violet_02 = {
-  description: "Small dainty, single purple flowers with five spreading petal-like lobes and a tiny center of yellow anthers; there are also many double and ruffled forms, usually with a sparkling iridescent sheen to the petals; borne singly or in clusters on short stems above the leaves. A small, compact plant with fleshy, rounded pubescent leaves.",
-  colour: "Purple, yellow",
-  significance: "Correct Movements in the Vital",
-  comment: "At once the cause and the result of conversion.",
-  image_url: "african_violet_purple.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:2007-04-20Saintpaulia_ionantha02.jpg"
-}
 
 african_violet = Flower.create!(
   name: "African Violet",
@@ -13550,34 +12940,30 @@ african_violet = Flower.create!(
   image_url: "african_violet.jpg",
   thumbnail_url: "african_violet_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Ab_plant_945.jpg",
-  variants: [
-    african_violet_01,
-    african_violet_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Ab_plant_945.jpg"
+)
+
+african_violet.child_flowers.create!(
+  description: "Small dainty flowers with five spreading petal-like lobes and a tiny center of yellow anthers; in white, and shades of blue, purple, and pink; there are also many double and ruffled forms, usually with a sparkling iridescent sheen to the petals; borne singly or in clusters on short stems above the leaves. A small, compact plant with fleshy, rounded pubescent leaves.",
+  colour: "White, and shades of blue, purple, and pink, a yellow center",
+  significance: "Correct Movements",
+  comment: "All movements are under the right inspiration.",
+  image_url: "african_violet_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Saintpaulia_ionantha_(flowers).jpg"
+)
+
+african_violet.child_flowers.create!(
+  description: "Small dainty, single purple flowers with five spreading petal-like lobes and a tiny center of yellow anthers; there are also many double and ruffled forms, usually with a sparkling iridescent sheen to the petals; borne singly or in clusters on short stems above the leaves. A small, compact plant with fleshy, rounded pubescent leaves.",
+  colour: "Purple, yellow",
+  significance: "Correct Movements in the Vital",
+  comment: "At once the cause and the result of conversion.",
+  image_url: "african_violet_purple.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:2007-04-20Saintpaulia_ionantha02.jpg"
 )
 
 # Bowstring Hemp
-
-bowstring_hemp_01 = {
-  description: "Small white to dusty white scented tubular flowers with a narrow corolla tube, six narrow recurved lobes, and six erect exserted stamens; borne in dense clusters on a very long stalk. A perennial herb with thick cylindrical leaves marked with very thin dark green stripes.",
-  colour: "White to dusty white",
-  significance: "Power of Spirituality",
-  comment: "True spirituality transforms life.",
-  image_url: "bowstring_hemp_1.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Sansevieria_cylindrica_flowers_5.jpg"
-}
-
-bowstring_hemp_02 = {
-  description: "Small white to dusty white scented tubular flowers with a narrow corolla tube, six narrow recurved lobes, and six erect exserted stamens; borne in small clusters sparsely arranged along the erect stalks. A perennial herb with flat sword-like leaves strikingly mottled with contrasting shades of green.",
-  colour: "White to dusty white",
-  significance: "Joy of Spirituality",
-  comment: "The reward of sincere efforts.",
-  image_url: "bowstring_hemp_2.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Sansevieria_GoldenHahnii_pm1.JPG"
-}
 
 bowstring_hemp = Flower.create!(
   name: "Bowstring Hemp",
@@ -13591,34 +12977,30 @@ bowstring_hemp = Flower.create!(
   image_url: "bowstring_hemp.jpg",
   thumbnail_url: "bowstring_hemp_thumbnail.jpg",
   source: "Wikimedia commons",
-  url: "https://commons.wikimedia.org/wiki/File:Sansevieria_trifasciata_(black_coral)_with_flowers.jpg",
-  variants: [
-    bowstring_hemp_01,
-    bowstring_hemp_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Sansevieria_trifasciata_(black_coral)_with_flowers.jpg"
+)
+
+bowstring_hemp.child_flowers.create!(
+  description: "Small white to dusty white scented tubular flowers with a narrow corolla tube, six narrow recurved lobes, and six erect exserted stamens; borne in dense clusters on a very long stalk. A perennial herb with thick cylindrical leaves marked with very thin dark green stripes.",
+  colour: "White to dusty white",
+  significance: "Power of Spirituality",
+  comment: "True spirituality transforms life.",
+  image_url: "bowstring_hemp_1.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Sansevieria_cylindrica_flowers_5.jpg"
+)
+
+bowstring_hemp.child_flowers.create!(
+  description: "Small white to dusty white scented tubular flowers with a narrow corolla tube, six narrow recurved lobes, and six erect exserted stamens; borne in small clusters sparsely arranged along the erect stalks. A perennial herb with flat sword-like leaves strikingly mottled with contrasting shades of green.",
+  colour: "White to dusty white",
+  significance: "Joy of Spirituality",
+  comment: "The reward of sincere efforts.",
+  image_url: "bowstring_hemp_2.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Sansevieria_GoldenHahnii_pm1.JPG"
 )
 
 # Pincushion Flower
-
-pincushion_flower_01 = {
-  description: "Small rounded heads composed of tiny, mildly fragrant pinkish-lavender flowers with numerous white stamens, resembling a pincushion, the outer row with larger rounded lobes; borne singly on long stems. An erect annual with somewhat leathery leaves.",
-  colour: "Pinkish-lavender, white",
-  significance: "Blessings",
-  comment: "Pure and innumerable, manifesting themselves infinitely.",
-  image_url: "pincushion_flower_lavender.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Scabiosa_atropurpurea,_flower,_S%C3%A8te_01.jpg"
-}
-
-pincushion_flower_02 = {
-  description: "Small rounded heads composed of tiny, mildly fragrant deep purple flowers with numerous white stamens, resembling a pincushion, the outer row with larger rounded lobes; borne singly on long stems. An erect annual with somewhat leathery leaves.",
-  colour: "Deep purple, white",
-  significance: "Blessings on the Material World",
-  comment: "Puissant and innumerable, they answer all needs.",
-  image_url: "pincushion_flower_deep_purple.jpg",
-  source: "nick fullerton",
-  url: "https://www.flickr.com/photos/18203311@N08/4921856829"
-}
 
 pincushion_flower = Flower.create!(
   name: "Pincushion Flower",
@@ -13631,54 +13013,30 @@ pincushion_flower = Flower.create!(
   image_url: "pincushion_flower.jpg",
   thumbnail_url: "pincushion_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Scabiosa_atropurpurea_%27Sweet_scabious%27_(Dipsacaceae)_flower.JPG",
-  variants: [
-    pincushion_flower_01,
-    pincushion_flower_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Scabiosa_atropurpurea_%27Sweet_scabious%27_(Dipsacaceae)_flower.JPG"
+)
+
+pincushion_flower.child_flowers.create!(
+  description: "Small rounded heads composed of tiny, mildly fragrant pinkish-lavender flowers with numerous white stamens, resembling a pincushion, the outer row with larger rounded lobes; borne singly on long stems. An erect annual with somewhat leathery leaves.",
+  colour: "Pinkish-lavender, white",
+  significance: "Blessings",
+  comment: "Pure and innumerable, manifesting themselves infinitely.",
+  image_url: "pincushion_flower_lavender.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Scabiosa_atropurpurea,_flower,_S%C3%A8te_01.jpg"
+)
+
+pincushion_flower.child_flowers.create!(
+  description: "Small rounded heads composed of tiny, mildly fragrant deep purple flowers with numerous white stamens, resembling a pincushion, the outer row with larger rounded lobes; borne singly on long stems. An erect annual with somewhat leathery leaves.",
+  colour: "Deep purple, white",
+  significance: "Blessings on the Material World",
+  comment: "Puissant and innumerable, they answer all needs.",
+  image_url: "pincushion_flower_deep_purple.jpg",
+  source: "nick fullerton",
+  url: "https://www.flickr.com/photos/18203311@N08/4921856829"
 )
 
 # Florists' Gloxinia
-
-florists_gloxinia_01 = {
-  description: "Showy, medium-sized, single or double, velvety, bell-shaped flowers with a spreading limb divided into five to twelve lobes with ruffled edges; in many colours; borne singly or in small clusters on long stems. A low tuberous perennial herb with broad pubescent leaves.",
-  colour: "Many colours",
-  significance: "Broadening of the Being",
-  comment: "All the parts of the being broaden in order to progress.",
-  image_url: "florists_gloxinia_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:2010._%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0_%D1%86%D0%B2%D0%B5%D1%82%D0%BE%D0%B2_%D0%B2_%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B5_%D0%BD%D0%B0_%D0%B4%D0%B5%D0%BD%D1%8C_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_12.jpg"
-}
-
-florists_gloxinia_02 = {
-  description: "Showy, medium-sized, single, velvety, bell-shaped white flower with numerous purple dots and with a spreading limb divided into five to twelve lobes with ruffled edges; borne singly or in small clusters on long stems. A low tuberous perennial herb with broad pubescent leaves.",
-  colour: "White, purple",
-  significance: "Organised Emotional Broadening",
-  comment: "The broadening should not be the result of an instinctive impulse but of a conscious organisation.",
-  image_url: "florists_gloxinia_white_purple.jpg",
-  source: "Sarah Macmillan",
-  url: "https://www.flickr.com/photos/essjay/368258112/in/photostream/"
-}
-
-florists_gloxinia_03 = {
-  description: "Showy, medium-sized, single, velvety, bell-shaped purple flowers with a spreading limb divided into five to twelve lobes with ruffled edges; borne singly or in small clusters on long stems. A low tuberous perennial herb with broad pubescent leaves.",
-  colour: "Purple",
-  significance: "Broadening of the Most Material Vital",
-  comment: "The limitations of the ego begin to be shaken.",
-  image_url: "florists_gloxinia_purple.jpg",
-  source: "PRO-FABER",
-  url: "http://www.pro-faber.ro/index.php?showproducts=yes&tld=797658&location="
-}
-
-florists_gloxinia_04 = {
-  description: "Showy, medium-sized, single, velvety, bell-shaped white flower with a spreading limb divided into five to twelve lobes with ruffled edges; borne singly or in small clusters on long stems. A low tuberous perennial herb with broad pubescent leaves.",
-  colour: "White",
-  significance: "Balanced Use of Integral Power",
-  comment: "In truth, power can only become integral when it is used in a balanced way.",
-  image_url: "florists_gloxinia_white.jpg",
-  source: "Farmer",
-  url: "http://farmer.hu/html2/Gloxinia%20speciosa.htm"
-}
 
 florists_gloxinia = Flower.create!(
   name: "Florists' Gloxinia",
@@ -13692,36 +13050,50 @@ florists_gloxinia = Flower.create!(
   image_url: "florists_gloxinia.jpg",
   thumbnail_url: "florists_gloxinia_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:African_violet_2.jpg",
-  variants: [
-    florists_gloxinia_01,
-    florists_gloxinia_02,
-    florists_gloxinia_03,
-    florists_gloxinia_04
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:African_violet_2.jpg"
+)
+
+florists_gloxinia.child_flowers.create!(
+  description: "Showy, medium-sized, single or double, velvety, bell-shaped flowers with a spreading limb divided into five to twelve lobes with ruffled edges; in many colours; borne singly or in small clusters on long stems. A low tuberous perennial herb with broad pubescent leaves.",
+  colour: "Many colours",
+  significance: "Broadening of the Being",
+  comment: "All the parts of the being broaden in order to progress.",
+  image_url: "florists_gloxinia_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:2010._%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0_%D1%86%D0%B2%D0%B5%D1%82%D0%BE%D0%B2_%D0%B2_%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B5_%D0%BD%D0%B0_%D0%B4%D0%B5%D0%BD%D1%8C_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_12.jpg"
+)
+
+florists_gloxinia.child_flowers.create!(
+  description: "Showy, medium-sized, single, velvety, bell-shaped white flower with numerous purple dots and with a spreading limb divided into five to twelve lobes with ruffled edges; borne singly or in small clusters on long stems. A low tuberous perennial herb with broad pubescent leaves.",
+  colour: "White, purple",
+  significance: "Organised Emotional Broadening",
+  comment: "The broadening should not be the result of an instinctive impulse but of a conscious organisation.",
+  image_url: "florists_gloxinia_white_purple.jpg",
+  source: "Sarah Macmillan",
+  url: "https://www.flickr.com/photos/essjay/368258112/in/photostream/"
+)
+
+florists_gloxinia.child_flowers.create!(
+  description: "Showy, medium-sized, single, velvety, bell-shaped purple flowers with a spreading limb divided into five to twelve lobes with ruffled edges; borne singly or in small clusters on long stems. A low tuberous perennial herb with broad pubescent leaves.",
+  colour: "Purple",
+  significance: "Broadening of the Most Material Vital",
+  comment: "The limitations of the ego begin to be shaken.",
+  image_url: "florists_gloxinia_purple.jpg",
+  source: "PRO-FABER",
+  url: "http://www.pro-faber.ro/index.php?showproducts=yes&tld=797658&location="
+)
+
+florists_gloxinia.child_flowers.create!(
+  description: "Showy, medium-sized, single, velvety, bell-shaped white flower with a spreading limb divided into five to twelve lobes with ruffled edges; borne singly or in small clusters on long stems. A low tuberous perennial herb with broad pubescent leaves.",
+  colour: "White",
+  significance: "Balanced Use of Integral Power",
+  comment: "In truth, power can only become integral when it is used in a balanced way.",
+  image_url: "florists_gloxinia_white.jpg",
+  source: "Farmer",
+  url: "http://farmer.hu/html2/Gloxinia%20speciosa.htm"
 )
 
 # Eggplant
-
-eggplant_01 = {
-  description: "Small solitary light lavender and white star-shaped flower with a five-lobed corolla and prominent yellow stamens. A well-known garden vegetable.",
-  colour: "Light lavender, white, yellow",
-  significance: "Fearlessness in the Vital",
-  comment: "Goes straight to its goal and fears no inclemency.",
-  image_url: "eggplant_lavender_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Bereng-flor-1.JPG"
-}
-
-eggplant_02 = {
-  description: "Small purple star-shaped flower with a prominent yellow center of five erect anthers; borne in few flowered cymes. An extremely prickly scandent subshrub.",
-  colour: "Purple, yellow",
-  significance: "Vital Courage",
-  comment: "Must be controlled to be beneficial.",
-  image_url: "eggplant_purple.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Eggplant_Flower_in_Hong_Kong.JPG"
-}
 
 eggplant = Flower.create!(
   name: "Eggplant",
@@ -13735,34 +13107,30 @@ eggplant = Flower.create!(
   image_url: "eggplant.jpg",
   thumbnail_url: "eggplant_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:296jfSolanum_melongena_Aduas_Centro_Cabanatuan_Cityfvf_23.JPG",
-  variants: [
-    eggplant_01,
-    eggplant_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:296jfSolanum_melongena_Aduas_Centro_Cabanatuan_Cityfvf_23.JPG"
+)
+
+eggplant.child_flowers.create!(
+  description: "Small solitary light lavender and white star-shaped flower with a five-lobed corolla and prominent yellow stamens. A well-known garden vegetable.",
+  colour: "Light lavender, white, yellow",
+  significance: "Fearlessness in the Vital",
+  comment: "Goes straight to its goal and fears no inclemency.",
+  image_url: "eggplant_lavender_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Bereng-flor-1.JPG"
+)
+
+eggplant.child_flowers.create!(
+  description: "Small purple star-shaped flower with a prominent yellow center of five erect anthers; borne in few flowered cymes. An extremely prickly scandent subshrub.",
+  colour: "Purple, yellow",
+  significance: "Vital Courage",
+  comment: "Must be controlled to be beneficial.",
+  image_url: "eggplant_purple.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Eggplant_Flower_in_Hong_Kong.JPG"
 )
 
 # Coleus
-
-coleus_01 = {
-  description: "Tiny two-lipped flowers that open pale lavender and turn white, borne in small densely flowered terminal spikes. A perennial succulent herb popular for its colourful foliage.",
-  colour: "Pale lavender to white",
-  significance: "Spiritual Awakening of the Vital",
-  comment: "It soars towards the heights in the hope of reaching them.",
-  image_url: "coleus_flower.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Blue_purple_flower.jpg"
-}
-
-coleus_02 = {
-  description: "An annual or perennial herb with semi-succulent stems and multicoloured leaves, often brightly hued in a wide variety of forms and patterns.",
-  colour: "Multicoloured",
-  significance: "Strength in the Vital",
-  comment: "Likes to show its beauty and its power.",
-  image_url: "coleus_leaf.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Los_colores_de_los_c%C3%B3leos.jpg"
-}
 
 coleus = Flower.create!(
   name: "Coleus",
@@ -13776,34 +13144,30 @@ coleus = Flower.create!(
   image_url: "coleus.jpg",
   thumbnail_url: "coleus_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_080103-1142_Solenostemon_scutellarioides.jpg",
-  variants: [
-    coleus_01,
-    coleus_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Starr_080103-1142_Solenostemon_scutellarioides.jpg"
+)
+
+coleus.child_flowers.create!(
+  description: "Tiny two-lipped flowers that open pale lavender and turn white, borne in small densely flowered terminal spikes. A perennial succulent herb popular for its colourful foliage.",
+  colour: "Pale lavender to white",
+  significance: "Spiritual Awakening of the Vital",
+  comment: "It soars towards the heights in the hope of reaching them.",
+  image_url: "coleus_flower.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Blue_purple_flower.jpg"
+)
+
+coleus.child_flowers.create!(
+  description: "An annual or perennial herb with semi-succulent stems and multicoloured leaves, often brightly hued in a wide variety of forms and patterns.",
+  colour: "Multicoloured",
+  significance: "Strength in the Vital",
+  comment: "Likes to show its beauty and its power.",
+  image_url: "coleus_leaf.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Los_colores_de_los_c%C3%B3leos.jpg"
 )
 
 # Terrestrial Orchid
-
-terrestrial_orchid_01 = {
-  description: "Small pale to deep lavender-pink flower with three petal-like sepals, two similar but slightly broader petals, and a small uniquely-shaped center and lip; borne in clusters on leafless stems. A free-flowering terrestrial orchid with ovoid pseudo-bulbs.",
-  colour: "Pale to deep lavender-pink",
-  significance: "Vital Attachment to the Divine",
-  comment: "Manifold and abundant in its multiplicity.",
-  image_url: "terrestrial_orchid_lavender_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Spathoglottis_plicata_(4909577234).jpg"
-}
-
-terrestrial_orchid_02 = {
-  description: "Small white flower with three petal-like sepals, two similar but slightly broader petals, and a small uniquely-shaped center and lip; borne in clusters on leafless stems. A free-flowering terrestrial orchid with ovoid pseudo-bulbs.",
-  colour: "White",
-  significance: "Integral Attachment to the Divine",
-  comment: "On the right way towards realisation",
-  image_url: "terrestrial_orchid_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Ground_orchid_white_2.jpg"
-}
 
 terrestrial_orchid = Flower.create!(
   name: "Terrestrial Orchid",
@@ -13817,46 +13181,30 @@ terrestrial_orchid = Flower.create!(
   image_url: "terrestrial_orchid.jpg",
   thumbnail_url: "terrestrial_orchid_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:White_Orchid_Flowers.jpg",
-  variants: [
-    terrestrial_orchid_01,
-    terrestrial_orchid_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:White_Orchid_Flowers.jpg"
+)
+
+terrestrial_orchid.child_flowers.create!(
+  description: "Small pale to deep lavender-pink flower with three petal-like sepals, two similar but slightly broader petals, and a small uniquely-shaped center and lip; borne in clusters on leafless stems. A free-flowering terrestrial orchid with ovoid pseudo-bulbs.",
+  colour: "Pale to deep lavender-pink",
+  significance: "Vital Attachment to the Divine",
+  comment: "Manifold and abundant in its multiplicity.",
+  image_url: "terrestrial_orchid_lavender_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Spathoglottis_plicata_(4909577234).jpg"
+)
+
+terrestrial_orchid.child_flowers.create!(
+  description: "Small white flower with three petal-like sepals, two similar but slightly broader petals, and a small uniquely-shaped center and lip; borne in clusters on leafless stems. A free-flowering terrestrial orchid with ovoid pseudo-bulbs.",
+  colour: "White",
+  significance: "Integral Attachment to the Divine",
+  comment: "On the right way towards realisation",
+  image_url: "terrestrial_orchid_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Ground_orchid_white_2.jpg"
 )
 
 # Crepe Jasmine
-
-crepe_jasmine_01 = {
-  description: "Small single white salverform flower with five rotate lobes resembling a pinwheel, and a yellow center; borne in compound clusters. A large handsome, almost ever-blooming shrub with glossy dark green leaves.",
-  colour: "White, yellow",
-  significance: "Mental Purity",
-  comment: "A mirror that does not distort.",
-  image_url: "crepe_jasmine_single.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Crepe_jasmine,_Tabernaemontana_divaricata_1.jpg"
-}
-
-crepe_jasmine_02 = {
-  bot_name: "Tabernaemontana divaricata 'Flore-pleno'",
-  description: "Medium-sized slightly fragrant, semi-double white salverform flower with curling, slightly crinkled petal-like lobes. A medium-sized shrub with glossy leaves.",
-  colour: "White",
-  significance: "Integral Mental Purity",
-  comment: "Silent, attentive, receptive, concentrated on the Divine - such is the path of purity.",
-  image_url: "crepe_jasmine_semi_double.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_1206_bbg09.jpg"
-}
-
-crepe_jasmine_03 = {
-  bot_name: "Tabernaemontana divaricata 'Flore-pleno'",
-  description: "Medium-sized fragrant, double white salverform flower with heavily crinkled petal-like lobes. A medium-sized shrub with glossy leaves.",
-  colour: "White",
-  significance: "Perfect Mental Purity",
-  comment: "A spotless mirror turned constantly towards the Divine.",
-  image_url: "crepe_jasmine_double.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Tabernaemontana_divaricata_-_JBM.jpg"
-}
 
 crepe_jasmine = Flower.create!(
   name: "Crepe Jasmine",
@@ -13870,17 +13218,58 @@ crepe_jasmine = Flower.create!(
   image_url: "crepe_jasmine.jpg",
   thumbnail_url: "crepe_jasmine_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Nandyar_vattam.jpg",
-  variants: [
-    crepe_jasmine_01,
-    crepe_jasmine_02,
-    crepe_jasmine_03
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Nandyar_vattam.jpg"
+)
+
+crepe_jasmine.child_flowers.create!(
+  description: "Small single white salverform flower with five rotate lobes resembling a pinwheel, and a yellow center; borne in compound clusters. A large handsome, almost ever-blooming shrub with glossy dark green leaves.",
+  colour: "White, yellow",
+  significance: "Mental Purity",
+  comment: "A mirror that does not distort.",
+  image_url: "crepe_jasmine_single.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Crepe_jasmine,_Tabernaemontana_divaricata_1.jpg"
+)
+
+crepe_jasmine.child_flowers.create!(
+  bot_name: "Tabernaemontana divaricata 'Flore-pleno'",
+  description: "Medium-sized slightly fragrant, semi-double white salverform flower with curling, slightly crinkled petal-like lobes. A medium-sized shrub with glossy leaves.",
+  colour: "White",
+  significance: "Integral Mental Purity",
+  comment: "Silent, attentive, receptive, concentrated on the Divine - such is the path of purity.",
+  image_url: "crepe_jasmine_semi_double.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_1206_bbg09.jpg"
+)
+
+crepe_jasmine.child_flowers.create!(
+  bot_name: "Tabernaemontana divaricata 'Flore-pleno'",
+  description: "Medium-sized fragrant, double white salverform flower with heavily crinkled petal-like lobes. A medium-sized shrub with glossy leaves.",
+  colour: "White",
+  significance: "Perfect Mental Purity",
+  comment: "A spotless mirror turned constantly towards the Divine.",
+  image_url: "crepe_jasmine_double.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Tabernaemontana_divaricata_-_JBM.jpg"
 )
 
 # African Marigold
 
-african_marigold_01 = {
+african_marigold = Flower.create!(
+  name: "African Marigold",
+  other_names: "Aztec Marigold, Big Marigold",
+  bot_name: "Tagetes erecta",
+  family: "Compositae",
+  size: "Medium to large",
+  place: "Native to Mexico and Central America",
+  climate: "Tropical",
+  image_url: "african_marigold.jpg",
+  thumbnail_url: "african_marigold_thumbnail.jpg",
+  source: "Horticulture Gardens Today",
+  url: "http://hortgardenstoday.blogspot.in/2010/07/blog-post.html"
+)
+
+african_marigold.child_flowers.create!(
   description: "Medium to large compact, double yellow flowers with convoluted petals; borne singly or in few-flowered clusters. An annual or perennial herb with strongly aromatic leaves.",
   colour: "Yellow",
   significance: "Mental Plasticity",
@@ -13888,9 +13277,9 @@ african_marigold_01 = {
   image_url: "african_marigold_yellow.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Marigold_from_lalbagh_1852.JPG"
-}
+)
 
-african_marigold_02 = {
+african_marigold.child_flowers.create!(
   bot_name: "Tagetes erecta 'Spun Yellow'",
   description: "Medium to large compact, double bright yellow flower with finely frilled incurved petals; borne singly or in few-flowered clusters. An annual or perennial herb with strongly aromatic leaves.",
   colour: "Bright yellow",
@@ -13899,9 +13288,9 @@ african_marigold_02 = {
   image_url: "african_marigold_bright_yellow.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Yellowflower2.jpg"
-}
+)
 
-african_marigold_03 = {
+african_marigold.child_flowers.create!(
   description: "Medium to large compact, double orange to orange-yellow flowers with convoluted petals; borne singly or in few-flowered clusters. An annual or perennial herb with strongly aromatic leaves.",
   colour: "Orange to orange-yellow",
   significance: "Supramentalised Plasticity",
@@ -13909,30 +13298,24 @@ african_marigold_03 = {
   image_url: "african_marigold_orange.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Marigold_at_Lalbagh_Flower_show_August_2012_100111.jpg"
-}
-
-african_marigold = Flower.create!(
-  name: "African Marigold",
-  other_names: "Aztec Marigold, Big Marigold",
-  bot_name: "Tagetes erecta",
-  family: "Asteraceae (Compositae)",
-  size: "Medium to large",
-  place: "Native to Mexico and Central America",
-  climate: "Tropical",
-  image_url: "african_marigold.jpg",
-  thumbnail_url: "african_marigold_thumbnail.jpg",
-  source: "Horticulture Gardens Today",
-  url: "http://hortgardenstoday.blogspot.in/2010/07/blog-post.html",
-  variants: [
-    african_marigold_01,
-    african_marigold_02,
-    african_marigold_03
-  ]
 )
 
 # French Marigold
 
-french_marigold_01 = {
+french_marigold = Flower.create!(
+  name: "French Marigold",
+  bot_name: "Tagetes patula",
+  family: "Compositae",
+  size: "Small to medium-sized",
+  place: "Native to the Americas; naturalised around the world",
+  climate: "Found across temperate, subtropical, and tropical climates",
+  image_url: "french_marigold.jpg",
+  thumbnail_url: "french_marigold_thumbnail.jpg",
+  source: "Benery",
+  url: "http://www.benary.de/en/product/W3411"
+)
+
+french_marigold.child_flowers.create!(
   description: "Medium-sized yellow or orange flower streaked with maroon; borne singly or in few-flowered clusters. A low bushy annual with strongly aromatic leaves.",
   colour: "Yellow or orange, maroon",
   significance: "Physical Plasticity",
@@ -13940,9 +13323,9 @@ french_marigold_01 = {
   image_url: "french_marigold_yellow_maroon.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Tagetes_patula_(2).JPG"
-}
+)
 
-french_marigold_02 = {
+french_marigold.child_flowers.create!(
   description: "Small, compact flowers with convoluted petals in shades of yellow, orange, and rust; borne singly or in few-flowered clusters. A low bushy annual with strongly aromatic leaves.",
   colour: "Shades of yellow, orange, and rust",
   significance: "Detailed Plasticity",
@@ -13950,57 +13333,9 @@ french_marigold_02 = {
   image_url: "french_marigold_mix.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:%E0%B4%AE%E0%B4%B2%E0%B5%8D%E0%B4%B2%E0%B4%BF%E0%B4%956.JPG"
-}
-
-french_marigold = Flower.create!(
-  name: "French Marigold",
-  bot_name: "Tagetes patula",
-  family: "Asteraceae (Compositae)",
-  size: "Small to medium-sized",
-  place: "Native to the Americas; naturalised around the world",
-  climate: "Found across temperate, subtropical, and tropical climates",
-  image_url: "french_marigold.jpg",
-  thumbnail_url: "french_marigold_thumbnail.jpg",
-  source: "Benery",
-  url: "http://www.benary.de/en/product/W3411",
-  variants: [
-    french_marigold_01,
-    french_marigold_02
-  ]
 )
 
 # Yellow Oleander
-
-yellow_oleander_01 = {
-  description: "Medium-sized fragrant, narrow, yellow funnel-shaped flower with swirled petals; borne in few-flowered cymes. A large shrub or small tree with glossy linear lanceolate leaves and highly poisonous fruits.",
-  colour: "Yellow",
-  significance: "Mind",
-  comment: "Its true value depends on its surrender to the Divine.",
-  image_url: "yellow_oleander_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_060916-8886_Thevetia_peruviana.jpg"
-}
-
-yellow_oleander_02 = {
-  bot_name: "Thevetia peruviana 'Alba'",
-  description: "Medium-sized fragrant, narrow, white funnel-shaped flower with swirled petals; borne in few-flowered cymes. A large shrub or small tree with glossy linear lanceolate leaves and highly poisonous fruits.",
-  colour: "White",
-  significance: "Purified Mind",
-  comment: "Mind ready to surrender to the Divine.",
-  image_url: "yellow_oleander_white.jpg",
-  source: "Pixabay",
-  url: "https://pixabay.com/en/mexican-oleander-thevetia-peruviana-371603/"
-}
-
-yellow_oleander_03 = {
-  description: "Medium-sized fragrant, narrow, orange funnel-shaped flower with swirled petals; borne singly. A large shrub or small tree with glossy linear lanceolate leaves and highly poisonous fruits.",
-  colour: "Orange",
-  significance: "Supramentalised Mind",
-  comment: "Mind has become an instrument for transformation.",
-  image_url: "yellow_oleander_orange.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_061129-1729_Thevetia_peruviana.jpg"
-}
 
 yellow_oleander = Flower.create!(
   name: "Yellow Oleander",
@@ -14013,36 +13348,41 @@ yellow_oleander = Flower.create!(
   image_url: "yellow_oleander.jpg",
   thumbnail_url: "yellow_oleander_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_060916-8884_Thevetia_peruviana.jpg",
-  variants: [
-    yellow_oleander_01,
-    yellow_oleander_02,
-    yellow_oleander_03
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Starr_060916-8884_Thevetia_peruviana.jpg"
+)
+
+yellow_oleander.child_flowers.create!(
+  description: "Medium-sized fragrant, narrow, yellow funnel-shaped flower with swirled petals; borne in few-flowered cymes. A large shrub or small tree with glossy linear lanceolate leaves and highly poisonous fruits.",
+  colour: "Yellow",
+  significance: "Mind",
+  comment: "Its true value depends on its surrender to the Divine.",
+  image_url: "yellow_oleander_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_060916-8886_Thevetia_peruviana.jpg"
+)
+
+yellow_oleander.child_flowers.create!(
+  bot_name: "Thevetia peruviana 'Alba'",
+  description: "Medium-sized fragrant, narrow, white funnel-shaped flower with swirled petals; borne in few-flowered cymes. A large shrub or small tree with glossy linear lanceolate leaves and highly poisonous fruits.",
+  colour: "White",
+  significance: "Purified Mind",
+  comment: "Mind ready to surrender to the Divine.",
+  image_url: "yellow_oleander_white.jpg",
+  source: "Pixabay",
+  url: "https://pixabay.com/en/mexican-oleander-thevetia-peruviana-371603/"
+)
+
+yellow_oleander.child_flowers.create!(
+  description: "Medium-sized fragrant, narrow, orange funnel-shaped flower with swirled petals; borne singly. A large shrub or small tree with glossy linear lanceolate leaves and highly poisonous fruits.",
+  colour: "Orange",
+  significance: "Supramentalised Mind",
+  comment: "Mind has become an instrument for transformation.",
+  image_url: "yellow_oleander_orange.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_061129-1729_Thevetia_peruviana.jpg"
 )
 
 # Black-eyed Susan Vine
-
-black_eyed_susan_vine_01 = {
-  description: "Small yellow-orange to orange salverform flower with a limb composed of five broad, somewhat squared lobes, a dark maroon or green throat, and a curved corolla tube that emerges from two enlarged inflated bracts; usually borne singly from the leaf axils. A light annual or perennial vine.",
-  colour: "Yellow-orange to orange, dark maroon or green",
-  significance: "Obscurity Offers itself to be Transformed",
-  comment: "Obscurity tired of being obscure.",
-  image_url: "black_eyed_susan_vine_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_080716-9361_Thunbergia_alata.jpg"
-}
-
-black_eyed_susan_vine_02 = {
-  bot_name: "Thunbergia alata ‘Julietta’",
-  description: "Medium-sized golden-yellow to deep orange salverform flower with a limb composed of five broad, somewhat squared lobes, a throat that is not dark maroon, and a curved corolla tube that emerges from two enlarged inflated bracts; usually borne singly from the leaf axils. A light annual or perennial vine.",
-  colour: "Golden-yellow to deep orange",
-  significance: "Transformation Dispels Obscurity",
-  comment: "Obscurity will disappear more and more as the transformation progresses.",
-  image_url: "black_eyed_susan_vine_julietta.jpg",
-  source: "Ray Cui",
-  url: "https://www.flickr.com/photos/melop/63174711/"
-}
 
 black_eyed_susan_vine = Flower.create!(
   name: "Black-eyed Susan Vine",
@@ -14055,55 +13395,31 @@ black_eyed_susan_vine = Flower.create!(
   image_url: "black_eyed_susan_vine.jpg",
   thumbnail_url: "black_eyed_susan_vine_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_080716-9356_Thunbergia_alata.jpg",
-  variants: [
-    black_eyed_susan_vine_01,
-    black_eyed_susan_vine_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Starr_080716-9356_Thunbergia_alata.jpg"
+)
+
+black_eyed_susan_vine.child_flowers.create!(
+  description: "Small yellow-orange to orange salverform flower with a limb composed of five broad, somewhat squared lobes, a dark maroon or green throat, and a curved corolla tube that emerges from two enlarged inflated bracts; usually borne singly from the leaf axils. A light annual or perennial vine.",
+  colour: "Yellow-orange to orange, dark maroon or green",
+  significance: "Obscurity Offers itself to be Transformed",
+  comment: "Obscurity tired of being obscure.",
+  image_url: "black_eyed_susan_vine_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_080716-9361_Thunbergia_alata.jpg"
+)
+
+black_eyed_susan_vine.child_flowers.create!(
+  bot_name: "Thunbergia alata ‘Julietta’",
+  description: "Medium-sized golden-yellow to deep orange salverform flower with a limb composed of five broad, somewhat squared lobes, a throat that is not dark maroon, and a curved corolla tube that emerges from two enlarged inflated bracts; usually borne singly from the leaf axils. A light annual or perennial vine.",
+  colour: "Golden-yellow to deep orange",
+  significance: "Transformation Dispels Obscurity",
+  comment: "Obscurity will disappear more and more as the transformation progresses.",
+  image_url: "black_eyed_susan_vine_julietta.jpg",
+  source: "Ray Cui",
+  url: "https://www.flickr.com/photos/melop/63174711/"
 )
 
 # King's Mantle
-
-kings_mantle_01 = {
-  description: "Medium-sized salverform flowers in lavender blue, purple, and white, with a bright yellow throat, a curved corolla tube, and a limb divided into five rounded lobes. An erect or sometimes scandent shrub.",
-  colour: "Lavender blue, purple, white, bright yellow",
-  significance: "Opening to the Light",
-  comment: "Harmonises with all that can lead towards the Light.",
-  image_url: "kings_mantle_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Thunbergia_erecta_8843.jpg"
-}
-
-kings_mantle_02 = {
-  description: "Medium-sized variegated lavender and white salverform flowers with a bright yellow throat, a curved corolla tube, and a limb divided into five rounded lobes. An erect or sometimes scandent shrub.",
-  colour: "Lavender and white, bright yellow",
-  significance: "Opening of the Higher Vital to the Light",
-  comment: "The vital existing only for the Divine. The vital knowing no other master than the Divine.",
-  image_url: "kings_mantle_variegated.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Bush_Clock_Vine_(Thunbergia_erecta_%27Fairy_Moon%27)_2.jpg"
-}
-
-kings_mantle_03 = {
-  description: "Medium-sized deep violet salverform flowers with a bright yellow throat, a curved corolla tube, and a limb divided into five rounded lobes. An erect or sometimes scandent shrub.",
-  colour: "Deep violet, bright yellow",
-  significance: "Opening of the Material Vital to the Light",
-  comment: "One of the essential conditions for peace.",
-  image_url: "kings_mantle_violet.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Rizal,Lagunajf3491_32.JPG"
-}
-
-kings_mantle_04 = {
-  bot_name: "Thunbergia erecta 'Alba'",
-  description: "Medium-sized white salverform flowers with a bright yellow throat; a curved corolla tube, and a limb divided into five rounded lobes. An erect or sometimes scandent shrub.",
-  colour: "White, bright yellow",
-  significance: "Integral Opening to the Light",
-  comment: "The assurance of the coming peace and joy.",
-  image_url: "kings_mantle_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Thunbergia_erecta_alba-BSI-1-yercaud-salem-India.JPG"
-}
 
 kings_mantle = Flower.create!(
   name: "King's Mantle",
@@ -14117,46 +13433,51 @@ kings_mantle = Flower.create!(
   image_url: "kings_mantle.jpg",
   thumbnail_url: "kings_mantle_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Thunbergia_erecta_00561.JPG",
-  variants: [
-    kings_mantle_01,
-    kings_mantle_02,
-    kings_mantle_03,
-    kings_mantle_04
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Thunbergia_erecta_00561.JPG"
+)
+
+kings_mantle.child_flowers.create!(
+  description: "Medium-sized salverform flowers in lavender blue, purple, and white, with a bright yellow throat, a curved corolla tube, and a limb divided into five rounded lobes. An erect or sometimes scandent shrub.",
+  colour: "Lavender blue, purple, white, bright yellow",
+  significance: "Opening to the Light",
+  comment: "Harmonises with all that can lead towards the Light.",
+  image_url: "kings_mantle_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Thunbergia_erecta_8843.jpg"
+)
+
+kings_mantle.child_flowers.create!(
+  description: "Medium-sized variegated lavender and white salverform flowers with a bright yellow throat, a curved corolla tube, and a limb divided into five rounded lobes. An erect or sometimes scandent shrub.",
+  colour: "Lavender and white, bright yellow",
+  significance: "Opening of the Higher Vital to the Light",
+  comment: "The vital existing only for the Divine. The vital knowing no other master than the Divine.",
+  image_url: "kings_mantle_variegated.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Bush_Clock_Vine_(Thunbergia_erecta_%27Fairy_Moon%27)_2.jpg"
+)
+
+kings_mantle.child_flowers.create!(
+  description: "Medium-sized deep violet salverform flowers with a bright yellow throat, a curved corolla tube, and a limb divided into five rounded lobes. An erect or sometimes scandent shrub.",
+  colour: "Deep violet, bright yellow",
+  significance: "Opening of the Material Vital to the Light",
+  comment: "One of the essential conditions for peace.",
+  image_url: "kings_mantle_violet.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Rizal,Lagunajf3491_32.JPG"
+)
+
+kings_mantle.child_flowers.create!(
+  bot_name: "Thunbergia erecta 'Alba'",
+  description: "Medium-sized white salverform flowers with a bright yellow throat; a curved corolla tube, and a limb divided into five rounded lobes. An erect or sometimes scandent shrub.",
+  colour: "White, bright yellow",
+  significance: "Integral Opening to the Light",
+  comment: "The assurance of the coming peace and joy.",
+  image_url: "kings_mantle_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Thunbergia_erecta_alba-BSI-1-yercaud-salem-India.JPG"
 )
 
 # Wishbone Flower
-
-wishbone_flower_01 = {
-  description: "Small salverform flowers with a flattened corolla tube and a limb irregularly divided into one larger crimped upper lobe and three smaller lower lobes; hybrid forms are in white, mauve, or lavender; the prominent calyx is light green and ribbed; borne singly in the leaf axils or in few-flowered terminal racemes. A low delicate annual herb.",
-  colour: "White, mauve, or lavender, and light green",
-  significance: "Krishna’s Play",
-  comment: "A power of progress veiling itself behind appearances.",
-  image_url: "wishbone_flower_mix.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Torenia_at_lalbagh_7362.JPG"
-}
-
-wishbone_flower_02 = {
-  description: "Small salverform flowers with a flattened corolla tube and a limb irregularly divided into one larger crimped upper lobe and three smaller lower lobes; a hybrid form is pale lavender, edged with deep velvety purple, with a yellow spot in the center of the lower lobe; the prominent calyx is light green and ribbed; borne singly in the leaf axils or in few-flowered terminal racemes. A low delicate annual herb.",
-  colour: "Pale lavender, deep purple, yellow, light green",
-  significance: "Krishna’s Play in Matter",
-  comment: "Beauty, love, and joy are His companions. A play that widens and makes us progress.",
-  image_url: "wishbone_flower_lavender.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Torenia_at_lalbagh_7361.JPG"
-}
-
-wishbone_flower_03 = {
-  description: "Small salverform white flowers with a pale pinkish tan, a flattened corolla tube, and a limb irregularly divided into one larger crimped upper lobe and three smaller lower lobes, with a yellow spot in the center of the lower lobe; the prominent calyx is light green and ribbed; borne singly in the leaf axils or in few-flowered terminal racemes. A low delicate annual herb.",
-  colour: "White, pale pink, yellow, light green",
-  significance: "Krishna’s Integral Play",
-  comment: "All the parts of the being respond to His influence.",
-  image_url: "wishbone_flower_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Torenia_fournieri_in_Shaoxing_01_2012-07.JPG"
-}
 
 wishbone_flower = Flower.create!(
   name: "Wishbone Flower",
@@ -14170,66 +13491,40 @@ wishbone_flower = Flower.create!(
   image_url: "wishbone_flower.jpg",
   thumbnail_url: "wishbone_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_070906-8990_Torenia_fournieri.jpg",
-  variants: [
-    wishbone_flower_01,
-    wishbone_flower_02,
-    wishbone_flower_03
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Starr_070906-8990_Torenia_fournieri.jpg"
+)
+
+wishbone_flower.child_flowers.create!(
+  description: "Small salverform flowers with a flattened corolla tube and a limb irregularly divided into one larger crimped upper lobe and three smaller lower lobes; hybrid forms are in white, mauve, or lavender; the prominent calyx is light green and ribbed; borne singly in the leaf axils or in few-flowered terminal racemes. A low delicate annual herb.",
+  colour: "White, mauve, or lavender, and light green",
+  significance: "Krishna’s Play",
+  comment: "A power of progress veiling itself behind appearances.",
+  image_url: "wishbone_flower_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Torenia_at_lalbagh_7362.JPG"
+)
+
+wishbone_flower.child_flowers.create!(
+  description: "Small salverform flowers with a flattened corolla tube and a limb irregularly divided into one larger crimped upper lobe and three smaller lower lobes; a hybrid form is pale lavender, edged with deep velvety purple, with a yellow spot in the center of the lower lobe; the prominent calyx is light green and ribbed; borne singly in the leaf axils or in few-flowered terminal racemes. A low delicate annual herb.",
+  colour: "Pale lavender, deep purple, yellow, light green",
+  significance: "Krishna’s Play in Matter",
+  comment: "Beauty, love, and joy are His companions. A play that widens and makes us progress.",
+  image_url: "wishbone_flower_lavender.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Torenia_at_lalbagh_7361.JPG"
+)
+
+wishbone_flower.child_flowers.create!(
+  description: "Small salverform white flowers with a pale pinkish tan, a flattened corolla tube, and a limb irregularly divided into one larger crimped upper lobe and three smaller lower lobes, with a yellow spot in the center of the lower lobe; the prominent calyx is light green and ribbed; borne singly in the leaf axils or in few-flowered terminal racemes. A low delicate annual herb.",
+  colour: "White, pale pink, yellow, light green",
+  significance: "Krishna’s Integral Play",
+  comment: "All the parts of the being respond to His influence.",
+  image_url: "wishbone_flower_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Torenia_fournieri_in_Shaoxing_01_2012-07.JPG"
 )
 
 # Nasturtium
-
-
-nasturtium_01 = {
-  description: "Medium-sized mildly fragrant, showy flowers with two upper and three lower contrasting petals, and a prominent spur, in white, and shades of yellow, salmon pink, orange, and red, often variegated; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
-  colour: "White, and shades of yellow, salmon pink, orange, and red",
-  significance: "Promise of Realisation",
-  comment: "The best encouragement.",
-  image_url: "nasturtium_mix.jpg",
-  source: "ClatieK",
-  url: "https://www.flickr.com/photos/clatiek/4612826628"
-}
-
-nasturtium_02 = {
-  description: "Medium-sized mildly fragrant dark red to maroon flowers with two upper and three lower contrasting petals, and a prominent spur; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
-  colour: "Dark red to maroon",
-  significance: "Promise of Realisation in Matter",
-  comment: "The best encouragement for doing what is necessary.",
-  image_url: "nasturtium_dark_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Flower,_Name_Unknown..._-_Flickr_-_nekonomania_(7).jpg"
-}
-
-nasturtium_03 = {
-  description: "Medium-sized mildly fragrant yellow flowers with two upper and three lower contrasting petals, and a prominent spur; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
-  colour: "Yellow",
-  significance: "Promise of Realisation in the Mind",
-  comment: "The mind must be silent to allow the Supramental consciousness to take its place.",
-  image_url: "nasturtium_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Capucines_jaunes_2.JPG"
-}
-
-nasturtium_04 = {
-  description: "Medium-sized mildly fragrant light yellow flower with a red center with two upper and three lower contrasting petals, and a prominent spur; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
-  colour: "Light yellow, red",
-  significance: "Promise of Realisation in the Physical Mind",
-  comment: "A good encouragement for the necessary effort.",
-  image_url: "nasturtium_light_yellow_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Tropaeolum_majus_2004.jpg"
-}
-
-nasturtium_05 = {
-  description: "Medium-sized, mildly fragrant, bicoloured, yellow and maroon flowers with two upper and three lower contrasting petals, and a prominent spur; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
-  colour: "Bicoloured, yellow and maroon",
-  significance: "Promise of Realisation in the Physical",
-  comment: "Courage to face the long labour.",
-  image_url: "nasturtium_yellow_maroon",
-  source: "David Goehring",
-  url: "https://www.flickr.com/photos/carbonnyc/3714161505"
-}
 
 nasturtium = Flower.create!(
   name: "Nasturtium",
@@ -14243,47 +13538,60 @@ nasturtium = Flower.create!(
   image_url: "nasturtium.jpg",
   thumbnail_url: "nasturtium_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Flower_in_Grindelwald_1.JPG",
-  variants: [
-    nasturtium_01,
-    nasturtium_02,
-    nasturtium_03,
-    nasturtium_04,
-    nasturtium_05
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Flower_in_Grindelwald_1.JPG"
+)
+
+nasturtium.child_flowers.create!(
+  description: "Medium-sized mildly fragrant, showy flowers with two upper and three lower contrasting petals, and a prominent spur, in white, and shades of yellow, salmon pink, orange, and red, often variegated; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
+  colour: "White, and shades of yellow, salmon pink, orange, and red",
+  significance: "Promise of Realisation",
+  comment: "The best encouragement.",
+  image_url: "nasturtium_mix.jpg",
+  source: "ClatieK",
+  url: "https://www.flickr.com/photos/clatiek/4612826628"
+)
+
+nasturtium.child_flowers.create!(
+  description: "Medium-sized mildly fragrant dark red to maroon flowers with two upper and three lower contrasting petals, and a prominent spur; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
+  colour: "Dark red to maroon",
+  significance: "Promise of Realisation in Matter",
+  comment: "The best encouragement for doing what is necessary.",
+  image_url: "nasturtium_dark_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Flower,_Name_Unknown..._-_Flickr_-_nekonomania_(7).jpg"
+)
+
+nasturtium.child_flowers.create!(
+  description: "Medium-sized mildly fragrant yellow flowers with two upper and three lower contrasting petals, and a prominent spur; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
+  colour: "Yellow",
+  significance: "Promise of Realisation in the Mind",
+  comment: "The mind must be silent to allow the Supramental consciousness to take its place.",
+  image_url: "nasturtium_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Capucines_jaunes_2.JPG"
+)
+
+nasturtium.child_flowers.create!(
+  description: "Medium-sized mildly fragrant light yellow flower with a red center with two upper and three lower contrasting petals, and a prominent spur; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
+  colour: "Light yellow, red",
+  significance: "Promise of Realisation in the Physical Mind",
+  comment: "A good encouragement for the necessary effort.",
+  image_url: "nasturtium_light_yellow_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Tropaeolum_majus_2004.jpg"
+)
+
+nasturtium.child_flowers.create!(
+  description: "Medium-sized, mildly fragrant, bicoloured, yellow and maroon flowers with two upper and three lower contrasting petals, and a prominent spur; borne singly on long stems. A somewhat succulent annual herb with orbicular peltate edible leaves.",
+  colour: "Bicoloured, yellow and maroon",
+  significance: "Promise of Realisation in the Physical",
+  comment: "Courage to face the long labour.",
+  image_url: "nasturtium_yellow_maroon",
+  source: "David Goehring",
+  url: "https://www.flickr.com/photos/carbonnyc/3714161505"
 )
 
 # Moss Verbena
-
-moss_verbena_01 = {
-  description: "Elongated spikes of small light pink salverform flowers with five irregular rounded lobes. A low perennial herb with deeply cut, somewhat lacy leaves.",
-  colour: "Light pink",
-  significance: "Aspiration for Conquest of Enemies in the Vital",
-  comment: "A concentrated and unobtrusive will acting quietly but effectively.",
-  image_url: "moss_verbena_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_070313-5587_Verbena_tenuisecta.jpg"
-}
-
-moss_verbena_02 = {
-  description: "Elongated spikes of small rose-purple salverform flowers with five irregular rounded lobes. A low perennial herb with deeply cut, somewhat lacy leaves.",
-  colour: "Rose-purple",
-  significance: "Will to Conquer the Vital Enemies",
-  comment: "Indispensable for the mastery over desires.",
-  image_url: "moss_verbena_rose_purple.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_070313-5589_Verbena_tenuisecta.jpg"
-}
-
-moss_verbena_03 = {
-  description: "Elongated spikes of small white salverform flowers with five irregular rounded lobes. A low perennial herb with deeply cut, somewhat lacy leaves.",
-  colour: "White",
-  significance: "Conquest over the Vital Enemies",
-  comment: "The appearance is modest, but the power is lasting.",
-  image_url: "moss_verbena_white.jpg",
-  source: "Apalachee Hills Landscapes",
-  url: "http://apalacheehills.com/roadside/wildVerbena.html"
-}
 
 moss_verbena = Flower.create!(
   name: "Moss Verbena",
@@ -14296,75 +13604,40 @@ moss_verbena = Flower.create!(
   image_url: "moss_verbena.jpg",
   thumbnail_url: "moss_verbena_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_070313-5597_Verbena_tenuisecta.jpg",
-  variants: [
-    moss_verbena_01,
-    moss_verbena_02,
-    moss_verbena_03
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Starr_070313-5597_Verbena_tenuisecta.jpg"
+)
+
+moss_verbena.child_flowers.create!(
+  description: "Elongated spikes of small light pink salverform flowers with five irregular rounded lobes. A low perennial herb with deeply cut, somewhat lacy leaves.",
+  colour: "Light pink",
+  significance: "Aspiration for Conquest of Enemies in the Vital",
+  comment: "A concentrated and unobtrusive will acting quietly but effectively.",
+  image_url: "moss_verbena_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_070313-5587_Verbena_tenuisecta.jpg"
+)
+
+moss_verbena.child_flowers.create!(
+  description: "Elongated spikes of small rose-purple salverform flowers with five irregular rounded lobes. A low perennial herb with deeply cut, somewhat lacy leaves.",
+  colour: "Rose-purple",
+  significance: "Will to Conquer the Vital Enemies",
+  comment: "Indispensable for the mastery over desires.",
+  image_url: "moss_verbena_rose_purple.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_070313-5589_Verbena_tenuisecta.jpg"
+)
+
+moss_verbena.child_flowers.create!(
+  description: "Elongated spikes of small white salverform flowers with five irregular rounded lobes. A low perennial herb with deeply cut, somewhat lacy leaves.",
+  colour: "White",
+  significance: "Conquest over the Vital Enemies",
+  comment: "The appearance is modest, but the power is lasting.",
+  image_url: "moss_verbena_white.jpg",
+  source: "Apalachee Hills Landscapes",
+  url: "http://apalacheehills.com/roadside/wildVerbena.html"
 )
 
 # Common Garden Verbena
-
-common_garden_verbena_01 = {
-  description: "Small salverform flowers with irregular rounded lobes, in many colours and often with a contrasting, usually white center; borne in flat-topped terminal spikes. A creeping mat-like perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
-  colour: "Many colours, usually white center",
-  significance: "Thoroughness",
-  comment: "Indispensable for all true progress.",
-  image_url: "common_garden_verbena_mix.jpg",
-  source: "rioMoros",
-  url: "http://www.riomoros.com/2012/09/la-verbena-verbena-hybrida.html"
-}
-
-common_garden_verbena_02 = {
-  description: "Small pink salverform flowers with irregular rounded lobes; borne in flat-topped terminal spikes. A creeping mat-like perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
-  colour: "Pink",
-  significance: "Psychic Thoroughness",
-  comment: "With tireless patience it works for the perfection of the being.",
-  image_url: "common_garden_verbena_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Verbena_hybrida_cv_Hanatemari1.jpg"
-}
-
-common_garden_verbena_03 = {
-  description: "Small mauve salverform flowers with irregular rounded lobes; borne in flat-topped terminal spikes. A creeping mat-like perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
-  colour: "Mauve",
-  significance: "Vital Thoroughness",
-  comment: "The vital must become calm and docile.",
-  image_url: "common_garden_verbena_mauve.jpg",
-  source: "Auntie Dogma's Garden Spot",
-  url: "https://auntiedogmasgardenspot.wordpress.com/tag/prairie-verbena/"
-}
-
-common_garden_verbena_04 = {
-  description: "Small dark red salverform flowers with irregular rounded lobes; borne in flat-topped terminal spikes. A creeping mat-like perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
-  colour: "Dark red",
-  significance: "Physical Thoroughness",
-  comment: "Takes great care of details in the execution of work.",
-  image_url: "common_garden_verbena_dark_red.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Verbena_hybrida_2.JPG"
-}
-
-common_garden_verbena_05 = {
-  description: "Small white salverform flowers with irregular rounded lobes; borne in flat-topped terminal spikes. A creeping mat-like perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
-  colour: "White",
-  significance: "Integral Thoroughness",
-  comment: "Nothing is neglected in order to reach the Divine Goal.",
-  image_url: "common_garden_verbena_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Verbena_hybrida7.JPG"
-}
-
-common_garden_verbena_06 = {
-  description: "Small, soft red salverform flowers with a cream center, and with irregular rounded lobes; borne in flat-topped terminal spikes. A creeping mat-like perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
-  colour: "Red, cream",
-  significance: "Artistic Thoroughness",
-  comment: "Neglects nothing in its search for perfection.",
-  image_url: "common_garden_verbena_red_cream.jpg",
-  source: "rioMoros",
-  url: "http://www.riomoros.com/2012/09/la-verbena-verbena-hybrida.html"
-}
 
 common_garden_verbena = Flower.create!(
   name: "Common Garden Verbena",
@@ -14378,38 +13651,70 @@ common_garden_verbena = Flower.create!(
   image_url: "common_garden_verbena.jpg",
   thumbnail_url: "common_garden_verbena_thumbnail.jpg",
   source: "FazFácil",
-  url: "http://www.fazfacil.com.br/jardim/verbena-hybrida/",
-  variants: [
-    common_garden_verbena_01,
-    common_garden_verbena_02,
-    common_garden_verbena_03,
-    common_garden_verbena_04,
-    common_garden_verbena_05,
-    common_garden_verbena_06
-  ]
+  url: "http://www.fazfacil.com.br/jardim/verbena-hybrida/"
+)
+
+common_garden_verbena.child_flowers.create!(
+  description: "Small salverform flowers with irregular rounded lobes, in many colours and often with a contrasting, usually white center; borne in flat-topped terminal spikes. A creeping mat-like perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
+  colour: "Many colours, usually white center",
+  significance: "Thoroughness",
+  comment: "Indispensable for all true progress.",
+  image_url: "common_garden_verbena_mix.jpg",
+  source: "rioMoros",
+  url: "http://www.riomoros.com/2012/09/la-verbena-verbena-hybrida.html"
+)
+
+common_garden_verbena.child_flowers.create!(
+  description: "Small pink salverform flowers with irregular rounded lobes; borne in flat-topped terminal spikes. A creeping mat-like perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
+  colour: "Pink",
+  significance: "Psychic Thoroughness",
+  comment: "With tireless patience it works for the perfection of the being.",
+  image_url: "common_garden_verbena_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Verbena_hybrida_cv_Hanatemari1.jpg"
+)
+
+common_garden_verbena.child_flowers.create!(
+  description: "Small mauve salverform flowers with irregular rounded lobes; borne in flat-topped terminal spikes. A creeping mat-like perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
+  colour: "Mauve",
+  significance: "Vital Thoroughness",
+  comment: "The vital must become calm and docile.",
+  image_url: "common_garden_verbena_mauve.jpg",
+  source: "Auntie Dogma's Garden Spot",
+  url: "https://auntiedogmasgardenspot.wordpress.com/tag/prairie-verbena/"
+)
+
+common_garden_verbena.child_flowers.create!(
+  description: "Small dark red salverform flowers with irregular rounded lobes; borne in flat-topped terminal spikes. A creeping mat-like perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
+  colour: "Dark red",
+  significance: "Physical Thoroughness",
+  comment: "Takes great care of details in the execution of work.",
+  image_url: "common_garden_verbena_dark_red.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Verbena_hybrida_2.JPG"
+)
+
+common_garden_verbena.child_flowers.create!(
+  description: "Small white salverform flowers with irregular rounded lobes; borne in flat-topped terminal spikes. A creeping mat-like perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
+  colour: "White",
+  significance: "Integral Thoroughness",
+  comment: "Nothing is neglected in order to reach the Divine Goal.",
+  image_url: "common_garden_verbena_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Verbena_hybrida7.JPG"
+)
+
+common_garden_verbena.child_flowers.create!(
+  description: "Small, soft red salverform flowers with a cream center, and with irregular rounded lobes; borne in flat-topped terminal spikes. A creeping mat-like perennial often grown as an annual; the sagittate pubescent leaves have crenate margins.",
+  colour: "Red, cream",
+  significance: "Artistic Thoroughness",
+  comment: "Neglects nothing in its search for perfection.",
+  image_url: "common_garden_verbena_red_cream.jpg",
+  source: "rioMoros",
+  url: "http://www.riomoros.com/2012/09/la-verbena-verbena-hybrida.html"
 )
 
 # Pansy
-
-pansy_01 = {
-  description: "Medium to large soft, velvety flower with five rounded, irregularly overlapping petals, the lower three usually having darker patches suggesting a face; in white, and shades of yellow, cream, orange, pink, reddish-brown, purple, and blue; borne singly. A lovely low annual or short-lived perennial.",
-  colour: "White, and shades of yellow, cream, orange, pink, reddish-brown, purple, and blue",
-  significance: "Thoughts turned towards the Divine",
-  comment: "A certitude of beauty.",
-  image_url: "pansy_purple.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Viola_Tricolor.jpg"
-}
-
-pansy_02 = {
-  description: "Medium to large soft, velvety, cream-yellow flower with five rounded, irregularly overlapping petals; borne singly. A lovely low annual or short-lived perennial.",
-  colour: "Cream-yellow",
-  significance: "Integrally Pure Thoughts",
-  comment: "An effect of the Divine Grace.",
-  image_url: "pansy_cream.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Viola.jpg"
-}
 
 pansy = Flower.create!(
   name: "Pansy",
@@ -14423,64 +13728,30 @@ pansy = Flower.create!(
   image_url: "pansy.jpg",
   thumbnail_url: "pansy_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Pens%C3%A9es_FR_2011.jpg",
-  variants: [
-    pansy_01,
-    pansy_02
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Pens%C3%A9es_FR_2011.jpg"
+)
+
+pansy.child_flowers.create!(
+  description: "Medium to large soft, velvety flower with five rounded, irregularly overlapping petals, the lower three usually having darker patches suggesting a face; in white, and shades of yellow, cream, orange, pink, reddish-brown, purple, and blue; borne singly. A lovely low annual or short-lived perennial.",
+  colour: "White, and shades of yellow, cream, orange, pink, reddish-brown, purple, and blue",
+  significance: "Thoughts turned towards the Divine",
+  comment: "A certitude of beauty.",
+  image_url: "pansy_purple.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Viola_Tricolor.jpg"
+)
+
+pansy.child_flowers.create!(
+  description: "Medium to large soft, velvety, cream-yellow flower with five rounded, irregularly overlapping petals; borne singly. A lovely low annual or short-lived perennial.",
+  colour: "Cream-yellow",
+  significance: "Integrally Pure Thoughts",
+  comment: "An effect of the Divine Grace.",
+  image_url: "pansy_cream.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Viola.jpg"
 )
 
 # Zephyr Flower
-
-zephyr_flower_01 = {
-  description: "Small to medium-sized funnel-shaped flowers with six pointed petals in several colours; borne singly on scapes. A small bulbous herb with grass-like leaves.",
-  colour: "Several colours",
-  significance: "Prayer",
-  comment: "Self-giving is true prayer.",
-  image_url: "zephyr_flower_mix.jpg",
-  source: "Jean Elizabeth Paul, Through A Looking Glass",
-  url: "http://lizyhere.blogspot.in/2014/07/how-to-have-fully-bloomed-garden.html"
-}
-
-zephyr_flower_02 = {
-  description: "Medium-sized funnel-shaped light pink flowers with six pointed petals. A small bulbous herb with grass-like leaves.",
-  colour: "Light pink",
-  significance: "Psychic Prayer",
-  comment: "Spontaneous and fervent.",
-  image_url: "zephyr_flower_light_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Pink_garden_flower_in_bush.jpg"
-}
-
-zephyr_flower_03 = {
-  description: "Small to medium-sized funnel-shaped, fragrant yellow flowers with six pointed petals. A small bulbous herb with grass-like leaves.",
-  colour: "Yellow",
-  significance: "Mental Prayer",
-  comment: "Spontaneous in a mind that is aspiring for transformation.",
-  image_url: "zephyr_flower_yellow.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Starr_021019-0011_Zephyranthes_citrina.jpg"
-}
-
-zephyr_flower_04 = {
-  description: "Small funnel-shaped, fragrant deep pink flowers with six pointed petals. A small bulbous herb with grass-like leaves.",
-  colour: "Deep pink",
-  significance: "Vital Prayer",
-  comment: "The vital prays to be purified.",
-  image_url: "zephyr_flower_deep_pink.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Pink_Fairy_Lily.JPG"
-}
-
-zephyr_flower_05 = {
-  description: "Small to medium-sized funnel-shaped white flowers with six pointed petals. A small bulbous herb with grass-like leaves.",
-  colour: "White",
-  significance: "Integral Prayer",
-  comment: "The whole being is concentrated in a single prayer to the Divine.",
-  image_url: "zephyr_flower_white.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:(Zephyranthes_candida)_White_Ginger_Lily_at_Marikavalasa.JPG"
-}
 
 zephyr_flower = Flower.create!(
   name: "Zephyr Flower",
@@ -14494,19 +13765,76 @@ zephyr_flower = Flower.create!(
   image_url: "zephyr_flower.jpg",
   thumbnail_url: "zephyr_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Zephyranthes_rosea.jpg",
-  variants: [
-    zephyr_flower_01,
-    zephyr_flower_02,
-    zephyr_flower_03,
-    zephyr_flower_04,
-    zephyr_flower_05
-  ]
+  url: "https://commons.wikimedia.org/wiki/File:Zephyranthes_rosea.jpg"
+)
+
+zephyr_flower.child_flowers.create!(
+  description: "Small to medium-sized funnel-shaped flowers with six pointed petals in several colours; borne singly on scapes. A small bulbous herb with grass-like leaves.",
+  colour: "Several colours",
+  significance: "Prayer",
+  comment: "Self-giving is true prayer.",
+  image_url: "zephyr_flower_mix.jpg",
+  source: "Jean Elizabeth Paul, Through A Looking Glass",
+  url: "http://lizyhere.blogspot.in/2014/07/how-to-have-fully-bloomed-garden.html"
+)
+
+zephyr_flower.child_flowers.create!(
+  description: "Medium-sized funnel-shaped light pink flowers with six pointed petals. A small bulbous herb with grass-like leaves.",
+  colour: "Light pink",
+  significance: "Psychic Prayer",
+  comment: "Spontaneous and fervent.",
+  image_url: "zephyr_flower_light_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Pink_garden_flower_in_bush.jpg"
+)
+
+zephyr_flower.child_flowers.create!(
+  description: "Small to medium-sized funnel-shaped, fragrant yellow flowers with six pointed petals. A small bulbous herb with grass-like leaves.",
+  colour: "Yellow",
+  significance: "Mental Prayer",
+  comment: "Spontaneous in a mind that is aspiring for transformation.",
+  image_url: "zephyr_flower_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Starr_021019-0011_Zephyranthes_citrina.jpg"
+)
+
+zephyr_flower.child_flowers.create!(
+  description: "Small funnel-shaped, fragrant deep pink flowers with six pointed petals. A small bulbous herb with grass-like leaves.",
+  colour: "Deep pink",
+  significance: "Vital Prayer",
+  comment: "The vital prays to be purified.",
+  image_url: "zephyr_flower_deep_pink.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Pink_Fairy_Lily.JPG"
+)
+
+zephyr_flower.child_flowers.create!(
+  description: "Small to medium-sized funnel-shaped white flowers with six pointed petals. A small bulbous herb with grass-like leaves.",
+  colour: "White",
+  significance: "Integral Prayer",
+  comment: "The whole being is concentrated in a single prayer to the Divine.",
+  image_url: "zephyr_flower_white.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:(Zephyranthes_candida)_White_Ginger_Lily_at_Marikavalasa.JPG"
 )
 
 # Common Zinnia
 
-common_zinnia_01 = {
+common_zinnia = Flower.create!(
+  name: "Common Zinnia",
+  other_names: "Youth-and-old-age",
+  bot_name: "Zinnia elegans",
+  family: "Asteraceae",
+  size: "Large",
+  place: "Found in the deserts of Mexico",
+  climate: "Tropical, dry",
+  image_url: "common_zinnia.jpg",
+  thumbnail_url: "common_zinnia_thumbnail.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Zinnia_July_2010-1.jpg"
+)
+
+common_zinnia.child_flowers.create!(
   description: "Large, usually double, flowers with firm spatulate ray florets in a wide range of colours; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Wide range of colours",
   significance: "Endurance",
@@ -14514,9 +13842,9 @@ common_zinnia_01 = {
   image_url: "common_zinnia_mix.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Zinnia_at_lalbagh7374.JPG"
-}
+)
 
-common_zinnia_02 = {
+common_zinnia.child_flowers.create!(
   description: "Large, usually double, royal purple flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Royal purple",
   significance: "Courageous Endurance",
@@ -14524,9 +13852,9 @@ common_zinnia_02 = {
   image_url: "common_zinnia_purple.jpg",
   source: "Jim, the Photographer",
   url: "https://www.flickr.com/photos/jcapaldi/6057029135/"
-}
+)
 
-common_zinnia_03 = {
+common_zinnia.child_flowers.create!(
   description: "Large, usually double, orange flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Orange",
   significance: "Victorious Endurance",
@@ -14534,9 +13862,9 @@ common_zinnia_03 = {
   image_url: "common_zinnia_orange.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Zinnia_elegans_(5).jpg"
-}
+)
 
-common_zinnia_04 = {
+common_zinnia.child_flowers.create!(
   description: "Large, usually double, light green flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Light green",
   significance: "Spontaneous Endurance",
@@ -14544,9 +13872,9 @@ common_zinnia_04 = {
   image_url: "common_zinnia_light_green.jpg",
   source: "Mark Dwyer, Rotary Botanical Gardens Horticulture Blog",
   url: "http://rotarygardens.blogspot.in/2014/01/consider-seasonal-dash-of-lime-in-garden.html"
-}
+)
 
-common_zinnia_05 = {
+common_zinnia.child_flowers.create!(
   description: "Large, usually double, bright coral pink flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Bright coral pink",
   significance: "Joyful Endurance",
@@ -14554,9 +13882,9 @@ common_zinnia_05 = {
   image_url: "common_zinnia_coral_pink.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Zinnia_from_Lalbagh_Flowershow_-_August_2012_4777.JPG"
-}
+)
 
-common_zinnia_06 = {
+common_zinnia.child_flowers.create!(
   description: "Large, usually double, cream flowers with a red center and with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Cream, red",
   significance: "Ananda of Endurance",
@@ -14564,9 +13892,9 @@ common_zinnia_06 = {
   image_url: "common_zinnia_cream_red.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Zinnia_elegans_04.JPG"
-}
+)
 
-common_zinnia_07 = {
+common_zinnia.child_flowers.create!(
   description: "Large, usually double, golden-yellow flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Golden-yellow",
   significance: "Supramentalised Endurance",
@@ -14574,9 +13902,9 @@ common_zinnia_07 = {
   image_url: "common_zinnia_golden_yellow.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Zinnia_elegans_(RpM).JPG"
-}
+)
 
-common_zinnia_08 = {
+common_zinnia.child_flowers.create!(
   description: "Large, usually double, pink flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Pink",
   significance: "Psychic Endurance",
@@ -14584,9 +13912,9 @@ common_zinnia_08 = {
   image_url: "common_zinnia_pink.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Zinnia_from_Lalbagh_Flowershow_-_August_2012_4756.JPG"
-}
+)
 
-common_zinnia_09 = {
+common_zinnia.child_flowers.create!(
   description: "Large, usually double, yellow flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Yellow",
   significance: "Mental Endurance",
@@ -14594,9 +13922,9 @@ common_zinnia_09 = {
   image_url: "common_zinnia_yellow.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Rosa_mistica_Zinnia_elegans.jpg"
-}
+)
 
-common_zinnia_10 = {
+common_zinnia.child_flowers.create!(
   description: "Large, usually double, pinkish-mauve flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Pinkish-mauve",
   significance: "Endurance of the Higher Vital",
@@ -14604,9 +13932,9 @@ common_zinnia_10 = {
   image_url: "common_zinnia_mauve.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:BUGA-2011-DS.JPG"
-}
+)
 
-common_zinnia_11 = {
+common_zinnia.child_flowers.create!(
   description: "Large, usually double, violet-red flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Violet-red",
   significance: "Vital Endurance",
@@ -14614,9 +13942,9 @@ common_zinnia_11 = {
   image_url: "common_zinnia_violet_red.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Zinnia_elegans_03.jpg"
-}
+)
 
-common_zinnia_12 = {
+common_zinnia.child_flowers.create!(
   description: "Large, usually double, dark red flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Dark red",
   significance: "Physical Endurance",
@@ -14624,9 +13952,9 @@ common_zinnia_12 = {
   image_url: "common_zinnia_red.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Flower,_Zinnia_-_Flickr_-_nekonomania.jpg"
-}
+)
 
-common_zinnia_13 = {
+common_zinnia.child_flowers.create!(
   description: "Large, usually double, white flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "White",
   significance: "Integral Endurance",
@@ -14634,9 +13962,9 @@ common_zinnia_13 = {
   image_url: "common_zinnia_white.jpg",
   source: "Chiltern Seeds",
   url: "http://www.chilternseeds.co.uk/item_1309t_zinnia_elegans_polar_bear_seeds"
-}
+)
 
-common_zinnia_14 = {
+common_zinnia.child_flowers.create!(
   description: "Large, usually double, variegated or multicoloured flowers with firm spatulate ray florets; borne singly on sturdy stems. A long-blooming garden annual.",
   colour: "Variegated or multicoloured",
   significance: "Manifold Endurance",
@@ -14644,34 +13972,4 @@ common_zinnia_14 = {
   image_url: "common_zinnia_multicoloured.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Hippie-flower_-_Virginia_-_ForestWander.jpg"
-}
-
-common_zinnia = Flower.create!(
-  name: "Common Zinnia",
-  other_names: "Youth-and-old-age",
-  bot_name: "Zinnia elegans",
-  family: "Asteraceae (Compositae)",
-  size: "Large",
-  place: "Found in the deserts of Mexico",
-  climate: "Tropical, dry",
-  image_url: "common_zinnia.jpg",
-  thumbnail_url: "common_zinnia_thumbnail.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Zinnia_July_2010-1.jpg",
-  variants: [
-    common_zinnia_01,
-    common_zinnia_02,
-    common_zinnia_03,
-    common_zinnia_04,
-    common_zinnia_05,
-    common_zinnia_06,
-    common_zinnia_07,
-    common_zinnia_08,
-    common_zinnia_09,
-    common_zinnia_10,
-    common_zinnia_11,
-    common_zinnia_12,
-    common_zinnia_13,
-    common_zinnia_14
-  ]
 )

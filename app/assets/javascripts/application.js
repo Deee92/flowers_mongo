@@ -12,6 +12,12 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap/transition
+//= require bootstrap/carousel
+//= require bootstrap/affix
+//= require color-thief
+//= require jquery.color
 //= require turbolinks
 //= require bootstrap-sprockets
+// require lightbox
 //= require_tree .

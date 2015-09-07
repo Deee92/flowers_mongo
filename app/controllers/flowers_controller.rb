@@ -3,10 +3,24 @@ class FlowersController < ApplicationController
 	def index
 		if params[:query].present?
 			@query = params[:query]
-			result = Flower.es.search(@query)
-			response = result.raw_response
-			@size = result.size
-			@flowers = Flower.es.search(@query, page: params[:page])
+			results_per_page = 9
+			query = {
+				body: {
+					query: {
+						query_string: {
+							query: @query
+						}
+					},
+					size: results_per_page
+				}
+			}
+			from_page = (params[:page].to_i - 1) * results_per_page unless params[:page].nil?
+			query[:body][:from] = from_page unless from_page.nil?
+		  # result = Flower.es.search(@query)
+			# response = result.raw_response
+			@flowers = Flower.es.search(query, page: params[:page])
+			#AA
+			@size = @flowers.count
 		else
 			@flowers = Flower.asc(:name).page params[:page]
 			respond_to do |format|
@@ -18,8 +32,8 @@ class FlowersController < ApplicationController
 
 	def show
 		@flower = Flower.find(params[:id])
-		@previous = Flower.where(:name.lt => @flower.name).desc(:name).limit(1).first
-		@next = Flower.where(:name.gt => @flower.name).asc(:name).limit(1).first
+		@previous = Flower.where(:_slugs.lt => @flower._slugs[0]).desc(:_slugs).first
+		@next = Flower.where(:_slugs.gt => @flower._slugs[0]).asc(:_slugs).first
 		respond_to do |format|
 			format.html
 			format.json { render json: @flower }
@@ -33,7 +47,7 @@ class FlowersController < ApplicationController
 	def create
 		@flower = Flower.new(flower_params)
 		if @flower.save
-			flash[:success] = "Flower added!"
+			flash[:success] = "Flower added"
 			redirect_to @flower
 		else
 			render 'new'
@@ -47,7 +61,8 @@ class FlowersController < ApplicationController
 	def update
 		@flower = Flower.find(params[:id])
 		if @flower.update_attributes(flower_params)
-			flash[:success] = "Flower updated!"
+			#HEHE
+			flash[:success] = "Flower updated"
 			redirect_to @flower
 		else
 			render 'edit'
@@ -56,7 +71,7 @@ class FlowersController < ApplicationController
 
 	def destroy
 		Flower.find(params[:id]).destroy
-		flash[:success] = "Flower deleted."
+		flash[:success] = "Flower deleted"
 		redirect_to flowers_url
 	end
 
@@ -66,19 +81,20 @@ class FlowersController < ApplicationController
 			params.require(:flower).permit(:name, :bot_name, :significance,
 																		 :petals, :colour, :description,
 																		 :place, :climate, :season, :size,
-																		 :image_url)
+																		 :image_url, :variants_attributes)
+			#HEHE
 		end
 
 		def logged_in_user
 			if !logged_in?
-				flash[:danger] = "Please sign in."
+				flash[:danger] = "Please sign in"
 				redirect_to signin_path
 			end
 		end
 
 		def not_authorized?
 			if !is_admin?
-				flash[:danger] = "You can't do that!"
+				flash[:danger] = "You can't do that"
 				redirect_to flowers_url
 			end
 		end

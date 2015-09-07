@@ -1,7 +1,7 @@
-<% provide(:title, "All") %>
 
 <!-- Heading amd list -->
 <% if @query.present? %>
+	<% provide(:title, "Search Results") %>
 
 	<% if @size.to_i > 0 %>
 		<h1 class="nice_heading">
@@ -16,9 +16,12 @@
 
 <% else %>
 
-	<h1 class="nice_heading">List of all flowers</h1>
+	<% provide(:title, "Browse") %>
+
+	<h1 class="page-header" style="margin-top: 0">Flowers</h1>
+	
 	<%= render 'list' %>
 
 <% end %>
 
-<h4 class="add"><%= link_to "+ Add your own", new_flower_path %></h4>
+<!-- <h4 class="add"><%= link_to "+ Add your own", new_flower_path %></h4> -->

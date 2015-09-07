@@ -2,13 +2,19 @@ Rails.application.routes.draw do
 
   get 'users/show'
 
-  get 'origin' => 'static_pages#about'
+  get 'about' => 'static_pages#about'
 
   get 'signin' => 'sessions#new'
   get 'signout' => 'sessions#destroy'
 
   get 'auth/:provider/callback', to: 'sessions#create'
   get 'auth/failure', to: redirect('/')
+
+  get 'colour/:colour', to: 'application#colour'
+
+  # get '/flowers', to: 'flowers#index'
+
+  # get ':id', to: 'flowers#show'
 
   # get 'static_pages/home'
 
