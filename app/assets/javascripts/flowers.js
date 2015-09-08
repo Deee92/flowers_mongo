@@ -7,6 +7,8 @@
   };
 
   var ready = function () {
+    ga('send', 'pageview');
+    
     lightbox.option({
       'resizeDuration': 200,
       'wrapAround': true
