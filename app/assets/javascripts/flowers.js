@@ -7,7 +7,12 @@
   };
 
   var ready = function () {
-    ga('send', 'pageview');
+    if (window.ga) {
+      ga('send', 'pageview', {
+        'page': window.location.pathname + window.location.search,
+        'title': document.title
+      });
+    }
     
     lightbox.option({
       'resizeDuration': 200,
