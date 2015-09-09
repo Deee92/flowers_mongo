@@ -4,6 +4,7 @@ lock '3.4.0'
 set :application, 'flowers_mongo'
 set :repo_url, 'https://github.com/Deee92/flowers_mongo.git'
 set :deploy_to, '/home/ubuntu/flowers_mongo'
+set :normalize_asset_timestamps, %{public/images public/javascripts public/stylesheets}
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
