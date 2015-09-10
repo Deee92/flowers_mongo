@@ -14226,7 +14226,7 @@ nasturtium_05 = {
   colour: "Bicoloured, yellow and maroon",
   significance: "Promise of Realisation in the Physical",
   comment: "Courage to face the long labour.",
-  image_url: "nasturtium_yellow_maroon",
+  image_url: "nasturtium_yellow_maroon.jpg",
   source: "David Goehring",
   url: "https://www.flickr.com/photos/carbonnyc/3714161505"
 }
