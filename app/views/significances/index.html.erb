@@ -1,0 +1,11 @@
+<% provide(:title, "Significances") %>
+<h1>Significances</h1>
+<hr/>
+<% @significances.each do |significance| %>
+  <h2><%= significance.word %></h2>
+  <% significance.occurrences.each do |occurrence| %>
+    <%= link_to occurrence[:url] do %>
+      <p class="name_card" style="padding: 1.5em;"><%= occurrence[:significance] %></p>
+    <% end %>
+  <% end %>
+<% end %>

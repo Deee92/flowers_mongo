@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
   get 'users/show'
 
+  get 'significances' => 'significances#index'
+  
   get 'about' => 'static_pages#about'
 
   get 'signin' => 'sessions#new'

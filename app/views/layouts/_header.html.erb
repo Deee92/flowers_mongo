@@ -12,6 +12,7 @@
 		<div id="navbar" class="collapse navbar-collapse">
     	<ul class="nav navbar-nav navbar-right">
     		<li class="<%= 'active' if current_page?(flowers_path) %>"><%= link_to "Browse", flowers_path %></li>
+        <li class="<%= 'active' if current_page?(significances_path) %>"><%= link_to "Significances", significances_path %></li>
         <li class="<%= 'active' if current_page?(about_path) %>"><%= link_to "About", about_path %></li>
         <!-- <li class="<%= 'active' if current_page?(new_flower_path) %>"><%= link_to "New", new_flower_path %></li>
         <% if current_user %>
