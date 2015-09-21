@@ -1,11 +1,29 @@
 <% provide(:title, "Significances") %>
 <h1>Significances</h1>
 <hr/>
-<% @significances.each do |significance| %>
-  <h2><%= significance.word %></h2>
-  <% significance.occurrences.each do |occurrence| %>
-    <%= link_to occurrence[:url] do %>
-      <p class="name_card" style="padding: 1.5em;"><%= occurrence[:significance] %></p>
-    <% end %>
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <% @significances.each_with_index do |significance, index| %>
+    <div class="panel panel-default name_card">
+      <div class="panel-heading" role="tab" id="heading<%= index.to_s %>">
+        <h4 class="panel-title">
+          <a class="<%= 'collapsed' if index > 0 %>" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse<%= index.to_s %>" aria-expanded="true" aria-controls="collapse<%= index.to_s %>">
+            <%= significance.word %>
+          </a>
+        </h4>
+      </div>
+      <div id="collapse<%= index.to_s %>" class="panel-collapse collapse <%= 'in' if index == 0 %>" role="tabpanel" aria-labelledby="heading<%= index.to_s %>">
+        <div class="panel-body">
+          <ul class="sign-items">
+            <% significance.occurrences.each do |occurrence| %>
+              <li>
+                <%= link_to occurrence[:url] do %>
+                  <%= occurrence[:significance] %>
+                <% end %>
+              </li>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+    </div>
   <% end %>
-<% end %>
+</div>

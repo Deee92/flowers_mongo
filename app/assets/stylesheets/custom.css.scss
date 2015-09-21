@@ -497,7 +497,7 @@ html.turbolinks-progress-bar::before {
 		background-color: #f7f7f7;
 	}
 	.collapsing ul li a, .in ul li a {
-		color: #555! important;
+		color: #555 !important;
 	}
 	.collapsing ul li a:hover, .in ul li a:hover {
 		color: #000 !important;
@@ -525,4 +525,11 @@ html.turbolinks-progress-bar::before {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
 	background-color: transparent;
+}
+
+.sign-items {
+	list-style-type: none;
+	li {
+		margin: 0.5em;
+	}
 }
