@@ -19,7 +19,7 @@ class FlowersController < ApplicationController
 		  # result = Flower.es.search(@query)
 			# response = result.raw_response
 			@flowers = Flower.es.search(query, page: params[:page])
-			#AA
+			# AA
 			@size = @flowers.count
 		else
 			@flowers = Flower.asc(:name).page params[:page]

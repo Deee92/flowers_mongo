@@ -4,7 +4,7 @@
 
 <div class="media", style="clear: both;">
   <% @flowers.each do |flower| %>
-    <div class="col-md-4 col-sm-12" style="margin-bottom: 2em; margin-top: 2em;">
+    <div class="col-md-4 col-sm-12">
       <%= link_to flower do %>
         <div class="name_card" align="center">
           <%= image_tag(ENV['AMAZON_IMAGE_PATH'] + flower.thumbnail_url, class: "media-object img-circle", height: '165', width: '165') %>
