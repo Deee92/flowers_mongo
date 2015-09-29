@@ -13,6 +13,13 @@
         'title': document.title
       });
     }
+
+    var options = {
+      valueNames: [ 'sign-word', 'sign-sign' ],
+      page: 500
+    };
+
+    var significanceList = new List('significances', options);
     
     lightbox.option({
       'resizeDuration': 200,
