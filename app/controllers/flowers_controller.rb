@@ -23,10 +23,10 @@ class FlowersController < ApplicationController
 			@size = @flowers.count
 		else
 			@flowers = Flower.asc(:name).page params[:page]
-			respond_to do |format|
-				format.html
-				format.json { render json: @flowers }
-			end
+		end
+		respond_to do |format|
+			format.html
+			format.json { render json: @flowers }
 		end
 	end
 
