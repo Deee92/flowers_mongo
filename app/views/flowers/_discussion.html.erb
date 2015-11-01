@@ -1,0 +1,12 @@
+<div class="details">
+  <% if @flower.discussion.blank? %>
+    <p>Say something about <%= @flower.name %>:</p>
+    <%= form_for @flower do |f| %>
+      <%= f.text_area :discussion, rows: 10, class: "form-control" %>
+      <%= f.submit "Save", class: "btn btn-lg btn-primary" %>
+    <% end %>
+  <% else %>
+    <%= link_to "edit", edit_flower_path(@flower), class: "option", style: "float: right;" %>
+    <p class="lead"><%= @flower.discussion %></p>
+  <% end %>
+</div>

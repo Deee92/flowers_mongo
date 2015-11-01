@@ -1,5 +1,6 @@
 class FlowersController < ApplicationController
-	before_action :logged_in_user, :not_authorized?, only: [:edit, :update, :destroy]
+	# before_action :logged_in_user, :not_authorized?, only: [:edit, :update, :destroy]
+	before_action :logged_in_user, :not_authorized?, only: [:destroy]
 	def index
 		if params[:query].present?
 			@query = params[:query]
@@ -81,7 +82,8 @@ class FlowersController < ApplicationController
 			params.require(:flower).permit(:name, :bot_name, :significance,
 																		 :petals, :colour, :description,
 																		 :place, :climate, :season, :size,
-																		 :image_url, :variants_attributes)
+																		 :image_url, :variants_attributes,
+																		 :discussion)
 			#HEHE
 		end
 
