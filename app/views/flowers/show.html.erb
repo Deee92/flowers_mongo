@@ -1,0 +1,80 @@
+<% provide(:title, @flower.name.html_safe) %>
+<!-- <div class="row">
+  <div class="text-center">
+    <h1><%= @flower.name %></h1>
+    <h3><em>(<%= @flower.bot_name %>)</em></h3>
+  </div>
+</div>
+<div class="row center">
+  <div class="col-md-10 col-md-offset-1">
+      <%= image_tag(@flower.image_url, class: "img-responsive main-img") %>
+  </div>
+</div> -->
+<!-- <div class="fb-share-button" data-href="<%= request.original_url %>" data-layout="button"></div> -->
+
+<div class="hidden-xs hidden-sm">
+  <% if !@previous.nil? %>
+    <%= link_to flower_path(@previous), class: "flower_nav" do %>
+      <span class="glyphicon glyphicon-menu-left flower_nav_button left-nav-button" id="left"></span>
+      <span class="flower_nav_button nav_text" id="left-text"><%= @previous.name %></span>
+    <% end %>
+  <% end %>
+
+  <% if !@next.nil? %>
+    <%= link_to flower_path(@next), class: "flower_nav" do %>
+      <span class="flower_nav_button nav_text" id="right-text"><%= @next.name %></span>
+      <span class="glyphicon glyphicon-menu-right flower_nav_button right-nav-button" id="right"></span>
+    <% end %>
+  <% end %>
+</div>
+
+<ul class="nav nav-tabs" role="tablist">
+  <li role="presentation" class="active"><a href="#description" aria-controls="decription" role="tab" data-toggle="tab">Description</a></li>
+  <li role="presentation"><a href="#discussion" aria-controls="discussion" role="tab" data-toggle="tab">Discussion</a></li>
+</ul>
+
+<div class="row">
+  <div class="col-md-9 col-xs-12">
+
+    <div class="tab-content">
+
+      <div role="tabpanel" class="tab-pane fade in active" id="description">
+        <%= render 'flowers/description' %>
+      </div>
+
+      <div role="tabpanel" class="tab-pane fade" id="discussion">
+        <%= render 'flowers/discussion' %>
+      </div>
+    </div>
+
+    <div class="scroll">
+      <a href="#" class="flower_nav">
+        <span class="glyphicon glyphicon-menu-up flower_nav_button"></span>
+      </a>
+    </div>
+  </div>
+    
+</div>
+
+<div class="flower_nav_text visible-xs-block visible-sm-block">
+
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="pull-left">
+        <% if !@previous.nil? %>
+          <%= link_to flower_path(@previous), class: "flower_nav" do %>
+            <span class="glyphicon glyphicon-menu-left flower_nav_button left-nav-button"></span>
+          <% end %>
+        <% end %>
+      </div>
+      <div class="pull-right">
+        <% if !@next.nil? %>
+          <%= link_to flower_path(@next), class: "flower_nav" do %>
+            <span class="glyphicon glyphicon-menu-right flower_nav_button right-nav-button"></span>
+          <% end %>
+        <% end %>  
+      </div>
+    </div>
+  </div>
+
+</div>
