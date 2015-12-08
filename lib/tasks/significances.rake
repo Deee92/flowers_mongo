@@ -84,7 +84,7 @@ namespace :sort do
   $stopwords = ["-", "/", "a", "about", "above", "after", "again", "against", "all", "am", "an",
     "and", "any", "are", "aren't", "around", "as", "at", "be", "because", "become", "been", "before", "being",
     "below", "between", "both", "but", "by", "can", "can't", "cannot", "changed", "could", "couldn't",
-    "did", "didn't", "do", "does", "doesn't", "doing", "done", "don't", "down", "during", "each", "entirely", "established", "exclusively",
+    "did", "didn't", "do", "does", "doesn't", "doing", "done", "don't", "down", "during", "each", "entirely", "established",
     "few", "for", "from", "full", "further", "good", "had", "hadn't", "has", "hasn't", "have", "haven't",
     "having", "he", "he'd", "he'll", "he's", "her", "here", "here's", "hers", "herself",
     "him", "himself", "his", "how", "how's", "i", "i'd", "i'll", "i'm", "i've", "if",
@@ -144,6 +144,8 @@ namespace :sort do
     { word: "Enthusiastic", root: "Enthusiasm" },
     { word: "Equal", root: "Equality" },
     { word: "Eternal", root: "Eternity" },
+    { word: "Exclusive", root: "Exclusivism" },
+    { word: "Exclusively", root: "Exclusivism" }
     { word: "Expressive", root: "Expression" },
     { word: "Faithfulness", root: "Faith" },
     { word: "Flaming", root: "Flame" },

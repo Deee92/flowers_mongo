@@ -21,4 +21,5 @@
 //= require bootstrap-sprockets
 //= require list
 // require lightbox
+//= require remarkable
 //= require_tree .

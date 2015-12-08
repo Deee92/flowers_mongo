@@ -54,6 +54,16 @@
     }
   }
 
+  // Use remarkable for markdown
+  var md = new Remarkable();
+  md.set({
+    html: true,
+    breaks: true
+  });
+  console.log(md.render('# Remarkable'));
+  $('#remarked').html("Hello world!");
+  // $('#remarked').html(md.render("# This is one big heading!"));
+
   var blendBackgroundColour = function (img) {
     try {
       var colorThief = new ColorThief();

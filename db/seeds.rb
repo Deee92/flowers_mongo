@@ -78,6 +78,11 @@ sea_holly = Flower.create!(
   size: "Small",
   place: "Native to India, Sri Lanka, Asia, Malesia, Australia, and the Pacific Islands; grows along lakes, marshes, and seashores",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Vigilance means to be awake, to be on one's guard, to be sincere—never to be taken by surprise. When you want to do sadhana, at each moment of your life, there is a choice between taking a step that leads to the goal and falling asleep or sometimes even going backwards, telling yourself, \"Oh, later on, not immediately\"—sitting down on the way.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Vigilance*](http://incarnateword.in/cwm/03/vigilance#p3)</small>"
+  ],
   image_url: "sea_holly.jpg",
   thumbnail_url: "sea_holly_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -96,6 +101,19 @@ mountain_thistle = Flower.create!(
   size: "Small",
   place: "Native to West Africa; has also been introduced to many other regions",
   climate: "Tropical",
+  quotes: [
+"> Emotion is a good element in Yoga; but emotional *desire* becomes easily a cause of perturbation and an obstacle.
+> 
+> Turn your emotions towards the Divine, aspire for their purification; they will then become a help on the way and no longer a cause of suffering.
+> 
+> Not to kill emotion, but to turn it towards the Divine is the right way of the Yoga.
+> 
+> But it must become pure, founded upon spiritual peace and joy, capable of being transmuted into Ananda. Equality and calm in the mind and vital parts, an intense psychic emotion in the heart can perfectly go together.
+> 
+> Awake by your aspiration the psychic fire in the heart that burns steadily towards the Divine—that is the one way to liberate and fulfil the emotional nature.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Bhakti, Devotion, Worship*](http://incarnateword.in/cwsa/29/bhakti-devotion-worship#p2-p6)</small>"
+  ],
   image_url: "mountain_thistle.jpg",
   thumbnail_url: "mountain_thistle_thumbnail.jpg",
   source: "Prof. Summer's Web Garden - World Tropical Flowers",
@@ -114,6 +132,15 @@ red_aphelandra = Flower.create!(
   size: "Medium-sized",
   place: "Native to the tropical Americas",
   climate: "Tropical",
+  quotes: [
+"> The Mother's warning to you against the undesirability of too much talk, loose chat and gossip, social self-dispersion was entirely meant and stands; when you indulge in these things, you throw yourself out into a very small and ignorant consciousness in which your vital defects get free play and this is likely to bring you out of what you have developed in your inner consciousness.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother's Way of Dealing with Sadhaks*](http://incarnateword.in/cwsa/32/the-mothers-way-of-dealing-with-sadhaks#p8)</small>",
+
+"> I have had the experience myself that one can be fully concentrated and be in union with the Divine even while working physically with one's hands; but naturally this asks for a little practice, and for this the most important thing to avoid is *useless talking.* It is not *work* but *useless talk* which takes us away from the Divine.
+> 
+> <small>The Mother, [*Some Answers from the Mother: Letters to a Young Sadhak - VI*](http://incarnateword.in/cwm/16/letters-to-a-young-sadhak-vi#p8)</small>"
+  ],
   image_url: "red_aphelandra.jpg",
   thumbnail_url: "red_aphelandra_thumbnail.jpg",
   source: "Galleryhip",
@@ -133,6 +160,11 @@ glush_weed = Flower.create!(
   size: "Small",
   place: "Native to Brazil; grows from southern Mexico to Argentina",
   climate: "Tropical",
+  quotes: [
+"> Fear is an impurity, one of the greatest impurities, one of those which come most directly from the anti-divine forces which want to destroy the divine action on earth; and the first duty of those who really want to do yoga is to eliminate from their consciousness, with all the might, all the sincerity, all the endurance of which they are capable, even the shadow of a fear.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 15 August 1956*](http://incarnateword.in/cwm/08/15-august-1956#p6)</small>"
+  ],
   image_url: "glush_weed.jpg",
   thumbnail_url: "glush_weed_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -151,28 +183,23 @@ violet_asystasia = Flower.create!(
   size: "Small",
   place: "Found in India and other tropical regions",
   climate: "Tropical",
+  quotes: [
+"> Trust is the mind's and heart's complete reliance on the Divine and its guidance and protection.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Faith*](http://incarnateword.in/cwsa/29/faith#p3)</small>",
+
+"> The core of this inner surrender is trust and confidence in the Divine. One takes the attitude, \"I want the Divine and nothing else.\" I do not know why you should think that you can be asked to give up that—if there is not that, then the Yoga cannot be done. \"I want to give myself entirely to him and since my soul wants that, it cannot be but that I shall meet him and realise him. I ask nothing but that and his action in me to bring me to him, his action secret or open, veiled or manifest. I do not insist on my own time and way; let him do all in his own time and way, I shall believe in him, accept his will, aspire steadily for his light and presence and joy, go through all difficulties and delays relying on him and never giving up. Let my mind be quiet and turn to him and let him open it to his light; let my vital be quiet and turn to him alone and let him open it to his calm and joy. All for him and myself for him. Whatever happens, I will keep to this aspiration and self-giving and go on in perfect reliance that it will be done.\"
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Surrender*](http://incarnateword.in/cwsa/29/surrender#p19)</small>",
+    
+"> Who trusts the Divine never leaves the loving arms of the Divine wherever his body may be.
+> 
+> <small>The Mother</small>"
+  ],
   image_url: "violet_asystasia.jpg",
   thumbnail_url: "violet_asystasia_thumbnail.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Asystasia_dalzelliana_around_Kadavoor.jpg"
-)
-
-barleria = Flower.create!(
-  name: "Barleria",
-  bot_name: "Barleria",
-  family: "Acanthaceae",
-  significance: "Opening",
-  comment: "The help is constant in all domains. It is for us to know how to benefit from it.",
-  description: "Small salverform flowers with five rounded, separated lobes that emerge from a spiny bracted spike; in many colours. An erect, occasionally spiny, shrub and herb.",
-  colour: "Many colours",
-  petals: "Five",
-  size: "Small",
-  place: "Native to Southern China, India, and Myanmar",
-  climate: "Tropical and subtropical",
-  image_url: "barleria.jpg",
-  thumbnail_url: "barleria.jpg",
-  source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Barleria_sp1.JPG"
 )
 
 porcupine_flower = Flower.create!(
@@ -188,6 +215,25 @@ porcupine_flower = Flower.create!(
   size: "Small",
   place: "Native to India, Sri Lanka, and eastern, southern, and central Africa",
   climate: "Mostly tropical",
+  quotes: [
+"> Opening is a release of the consciousness by which it begins to admit into itself the workings of the Divine Light and Power.
+> 
+> <small>The Mother, [*Words of the Mother - II: Openness*](http://incarnateword.in/cwm/14/openness#p2)</small>",
+
+"> In this Yoga the whole principle is to open oneself to the Divine Influence. It is there above you and, if you can once become conscious of it, you have then to call it down into you. It descends into the mind and into the body as Peace, as a Light, as a Force that works, as the Presence of the Divine with or without form, as Ananda.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Opening*](http://incarnateword.in/cwsa/29/opening#p8)</small>",
+
+"> What you should do is to throw the doors of your being wide open to the Divine. The moment you conceal something, you step straight into Falsehood. The least suppression on your part pulls you immediately down into unconsciousness. If you want to be fully conscious, be always in front of the Truth—completely open yourself and try your utmost to let it see deep inside you, into every corner of your being. That alone will bring into you light and consciousness and all that is most true.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Union with the Divine Consciousness and Will*](http://incarnateword.in/cwm/03/union-with-the-divine-consciousness-and-will#p1)</small>",
+    
+"> Widen yourself to the extreme limit of the universe… and beyond.
+> 
+> Always take upon yourself all the necessities of progress, and resolve them in the ecstasy of Unity. Then you will be divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Wideness*](http://incarnateword.in/cwm/14/wideness#p1-p2)</small>"
+  ],
   image_url: "porcupine_flower.jpg",
   thumbnail_url: "porcupine_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -198,13 +244,41 @@ blue_fox_tail = Flower.create!(
   name: "Blue Fox Tail",
   bot_name: "Ecbolium linneanum",
   family: "Acanthaceae",
-  significance: "Krishna’s Influence in the Subconscient",
+  significance: "Krishna's Influence in the Subconscient",
   comment: "The best way to be above all contingencies.",
   description: "Small, bluish-green half-salverform flower borne on a dense bracted spike. A perennial herb or subshrub.",
   colour: "Bluish-green",
   size: "Small",
   place: "Endemic to India",
   climate: "Tropical and subtropical",
+  quotes: [
+"> At last I find a meaning of soul's birth
+> Into this universe terrible and sweet,
+> I who have felt the hungry heart of earth
+> Aspiring beyond heaven to Krishna's feet.
+> 
+> I have seen the beauty of immortal eyes,
+> And heard the passion of the Lover's flute,
+> And known a deathless ecstasy's surprise
+> And sorrow in my heart for ever mute.
+> 
+> Nearer and nearer now the music draws,
+> Life shudders with a strange felicity;
+> All Nature is a wide enamoured pause
+> Hoping her lord to touch, to clasp, to be.
+> 
+> For this one moment lived the ages past;
+> The world now throbs fulfilled in me at last.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Krishna*](http://incarnateword.in/cwsa/02/krishna#p1-p4)</small>",
+
+"> All music is only the sound of His laughter,
+> All beauty the smile of His passionate bliss;
+> Our lives are His heart-beats, our rapture the bridal
+> Of Radha and Krishna, our love is their kiss.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Who*](http://incarnateword.in/cwsa/02/who#p7)</small>",
+  ],
   image_url: "blue_fox_tail.jpg",
   thumbnail_url: "blue_fox_tail_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -224,6 +298,11 @@ shooting_star = Flower.create!(
   size: "Small",
   place: "Native to tropical India and China",
   climate: "Tropical",
+  quotes: [
+"> By material vital, we mean the vital so involved in matter as to be bound by its movements and gross physical character. The action is to support and energise the body and keep in it the capacity of life, growth, movement etc., also of sensitiveness to outer impacts.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Vital Being and Vital Consciousness*](http://incarnateword.in/cwsa/28/the-vital-being-and-vital-consciousness#p39)</small>"
+  ],
   image_url: "shooting_star.jpg",
   thumbnail_url: "shooting_star_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -235,7 +314,7 @@ blue_eranthemum = Flower.create!(
   other_names: "Deep Blue Sage, Fish Scale Plant",
   bot_name: "Eranthemum wattii",
   family: "Acanthaceae",
-  significance: "Krishna’s Light in the Subconscient",
+  significance: "Krishna's Light in the Subconscient",
   comment: "Soon it will no longer be Subconscient.",
   description: "Small, purple salverform flowers borne on a bracted spike. A small shrubby perennial.",
   colour: "Purple",
@@ -243,6 +322,34 @@ blue_eranthemum = Flower.create!(
   size: "Small",
   place: "Native to the Indian subcontinent (tropical Asia)",
   climate: "Tropical",
+  quotes: [
+"> At last I find a meaning of soul's birth
+> Into this universe terrible and sweet,
+> I who have felt the hungry heart of earth
+> Aspiring beyond heaven to Krishna's feet.
+> 
+> I have seen the beauty of immortal eyes,
+> And heard the passion of the Lover's flute,
+> And known a deathless ecstasy's surprise
+> And sorrow in my heart for ever mute.
+> 
+> Nearer and nearer now the music draws,
+> Life shudders with a strange felicity;
+> All Nature is a wide enamoured pause
+> Hoping her lord to touch, to clasp, to be.
+> 
+> For this one moment lived the ages past;
+> The world now throbs fulfilled in me at last.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Krishna*](http://incarnateword.in/cwsa/02/krishna#p1-p4)</small>",
+
+"> All music is only the sound of His laughter,
+> All beauty the smile of His passionate bliss;
+> Our lives are His heart-beats, our rapture the bridal
+> Of Radha and Krishna, our love is their kiss.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Who*](http://incarnateword.in/cwsa/02/who#p7)</small>",
+  ],
   image_url: "blue_eranthemum.jpg",
   thumbnail_url: "blue_eranthemum_thumbnail.jpg",
   source: "Wellgrow Horti Trading",
@@ -296,6 +403,11 @@ yellow_jacobinia = Flower.create!(
   size: "Medium-sized",
   place: "Found in southern Mexico and Panama (Central America)",
   climate: "Tropical",
+  quotes: [
+"> [Mind] is in its origin a principle of light, an instrument put forth from the Supermind and, though set to work within limits and even set to create limits, yet the limits are luminous borders for a special working, voluntary and purposive bounds, a surface of the finite ever extending itself under the eye of infinity. It is this character of Mind that will reveal itself under the touch of Supermind and make human mentality an adjunct and a minor instrumentation of the supramental knowledge.
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Supermind and Humanity*](http://incarnateword.in/cwsa/13/supermind-and-humanity#p4)</small>",
+  ],
   image_url: "yellow_jacobinia.jpg",
   thumbnail_url: "yellow_jacobinia_thumbnail.jpg",
   source: "Joel Abroad",
@@ -315,6 +427,27 @@ shrimp_plant = Flower.create!(
   size: "Small",
   place: "Native to Mexico; also found in Florida",
   climate: "Tropical",
+  quotes: [
+"> The psychic being is the soul developing in the evolution.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Classification of the Parts of the Being*](http://incarnateword.in/cwsa/28/classification-of-the-parts-of-the-being#p1)</small>",
+
+"> The true soul of man is in the true invisible heart hidden in some luminous cave of the nature: there under some infiltration of the divine Light is our soul, a silent inmost being of which few are even aware; for if all have a soul, few are conscious of their true soul or feel its direct impulse. There dwells the little spark of the Divine which supports the obscure mass of our nature and around it grows the psychic being, the formed soul or the real Man within us. It is as this psychic being in him grows and the movements of the heart reflect its divinations and impulsions that man becomes more and more aware of his soul, ceases to be a superior animal and, awakening to glimpses of the godhead within him, admits more and more its intimations of a deeper life and consciousness and an impulse towards things divine. It is one of the decisive moments of the integral Yoga when this psychic being, liberated, brought out from the veil to the front, can pour the full flood of its divinations, seeings and impulsions on the mind, life and body of man and begins to prepare the upbuilding of divinity in the earthly nature.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - I*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-i#p17)</small>",
+
+"> It is the very nature of the soul or the psychic being to turn towards the divine Truth as the sunflower to the sun; it accepts and clings to all that is divine or progressing towards divinity, and draws back from all that is a perversion or a denial of it, from all that is false and undivine. Yet the soul is at first but a spark and then a little flame of godhead burning in the midst of a great darkness… It is only when the life turns towards the Divine that the soul can truly come forward and impose its power on the outer members; for, itself a spark of the Divine, to grow in flame towards the Divine is its true life and its very reason of existence.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - I*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-i#p21)</small>",
+
+"> The first [step of self-realisation] is the discovery of the soul, not the outer soul of thought and emotion and desire, but the secret psychic entity, the divine element within us. When that becomes dominant over the nature, when we are consciously the soul and when mind, life and body take their true place as its instruments, we are aware of a guide within that knows the truth, the good, the true delight and beauty of existence, controls heart and intellect by its luminous law and leads our life and being towards spiritual completeness. Even within the obscure workings of the Ignorance we have then a witness who discerns, a living light that illumines, a will that refuses to be misled and separates the mind's truth from its error, the heart's intimate response from its vibrations to a wrong call and wrong demand upon it, the life's true ardour and plenitude of movement from vital passion and the turbid falsehoods of our vital nature and its dark self seekings. This is the first step of self-realisation, to enthrone the soul, the divine psychic individual in the place of the ego.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: The Origin and Remedy of Falsehood, Error, Wrong and Evil*](http://incarnateword.in/cwsa/21/the-origin-and-remedy-of-falsehood-error-wrong-and-evil#p35)</small>",
+
+"> In order to strengthen the [conscious contact with one's psychic being] and aid, if possible, the development of the conscious psychic personality, one should, while concentrating, turn towards it, aspire to know it and feel it, open oneself to receive its influence, and take great care, each time that one receives an indication from it, to follow it very scrupulously and sincerely. To live in a great aspiration, to take care to become inwardly calm and remain so always as far as possible, to cultivate a perfect sincerity in all the activities of one's being—these are the essential conditions for the growth of the psychic being.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 10 September 1959*](http://incarnateword.in/cwm/16/10-september-1959#p5)</small>"
+  ],
   image_url: "shrimp_plant.jpg",
   thumbnail_url: "shrimp_plant_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -332,6 +465,27 @@ brazilian_plume_flower = Flower.create!(
   size: "Small",
   place: "Native to the Atlantic Forest ecoregions of eastern Brazil",
   climate: "Tropical",
+  quotes: [
+"> The psychic being is the soul developing in the evolution.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Classification of the Parts of the Being*](http://incarnateword.in/cwsa/28/classification-of-the-parts-of-the-being#p1)</small>",
+
+"> The true soul of man is in the true invisible heart hidden in some luminous cave of the nature: there under some infiltration of the divine Light is our soul, a silent inmost being of which few are even aware; for if all have a soul, few are conscious of their true soul or feel its direct impulse. There dwells the little spark of the Divine which supports the obscure mass of our nature and around it grows the psychic being, the formed soul or the real Man within us. It is as this psychic being in him grows and the movements of the heart reflect its divinations and impulsions that man becomes more and more aware of his soul, ceases to be a superior animal and, awakening to glimpses of the godhead within him, admits more and more its intimations of a deeper life and consciousness and an impulse towards things divine. It is one of the decisive moments of the integral Yoga when this psychic being, liberated, brought out from the veil to the front, can pour the full flood of its divinations, seeings and impulsions on the mind, life and body of man and begins to prepare the upbuilding of divinity in the earthly nature.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - I*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-i#p17)</small>",
+
+"> It is the very nature of the soul or the psychic being to turn towards the divine Truth as the sunflower to the sun; it accepts and clings to all that is divine or progressing towards divinity, and draws back from all that is a perversion or a denial of it, from all that is false and undivine. Yet the soul is at first but a spark and then a little flame of godhead burning in the midst of a great darkness… It is only when the life turns towards the Divine that the soul can truly come forward and impose its power on the outer members; for, itself a spark of the Divine, to grow in flame towards the Divine is its true life and its very reason of existence.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - I*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-i#p21)</small>",
+
+"> The first [step of self-realisation] is the discovery of the soul, not the outer soul of thought and emotion and desire, but the secret psychic entity, the divine element within us. When that becomes dominant over the nature, when we are consciously the soul and when mind, life and body take their true place as its instruments, we are aware of a guide within that knows the truth, the good, the true delight and beauty of existence, controls heart and intellect by its luminous law and leads our life and being towards spiritual completeness. Even within the obscure workings of the Ignorance we have then a witness who discerns, a living light that illumines, a will that refuses to be misled and separates the mind's truth from its error, the heart's intimate response from its vibrations to a wrong call and wrong demand upon it, the life's true ardour and plenitude of movement from vital passion and the turbid falsehoods of our vital nature and its dark self seekings. This is the first step of self-realisation, to enthrone the soul, the divine psychic individual in the place of the ego.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: The Origin and Remedy of Falsehood, Error, Wrong and Evil*](http://incarnateword.in/cwsa/21/the-origin-and-remedy-of-falsehood-error-wrong-and-evil#p35)</small>",
+
+"> In order to strengthen the [conscious contact with one's psychic being] and aid, if possible, the development of the conscious psychic personality, one should, while concentrating, turn towards it, aspire to know it and feel it, open oneself to receive its influence, and take great care, each time that one receives an indication from it, to follow it very scrupulously and sincerely. To live in a great aspiration, to take care to become inwardly calm and remain so always as far as possible, to cultivate a perfect sincerity in all the activities of one's being—these are the essential conditions for the growth of the psychic being.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 10 September 1959*](http://incarnateword.in/cwm/16/10-september-1959#p5)</small>"
+  ],
   image_url: "brazilian_plume_flower.jpg",
   thumbnail_url: "brazilian_plume_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -351,6 +505,29 @@ firespike = Flower.create!(
   size: "Small",
   place: "Native to Central America and Mexico",
   climate: "Tropical",
+  quotes: [
+"> A resplendent sun rises above the horizon. It is your Lord that comes to you.
+> 
+> The whole world awakes and stretches in delight at the contact of His glory.
+> 
+> As the earth that heaves and opens, as the tree that grows, as the flower that blossoms, as the bird that sings, as the man that loves, let His light permeate you and radiate in an ever-increasing and widening happiness, a happiness steadily moving onward as the stars move in heaven.
+> 
+> <small>The Mother, [*Words of the Mother - III: Soar High*](http://incarnateword.in/cwm/15/soar-high#p8-p10)</small>",
+
+"> In Matter shall be lit the spirit’s glow,  
+> In body and body kindled the sacred birth;
+> Night shall awake to the anthem of the stars,
+> The days become a happy pilgrim march,
+> Our will a force of the Eternal’s power,
+> And thought the rays of a spiritual sun.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Secret Knowledge*](http://incarnateword.in/cwsa/33/the-secret-knowledge#p75)</small>",
+
+"> The Spirit shall look out through Matter’s gaze
+> And Matter shall reveal the Spirit’s face.
+> 
+> <small>Sri Aurobindo, [*Savitri - II: The Eternal Day: The Soul's Choice and the Supreme Consummation*](http://incarnateword.in/cwsa/34/the-eternal-day-the-souls-choice-and-the-supreme-consummation#p328)</small>"
+  ],
   image_url: "firespike.jpg",
   thumbnail_url: "firespike_thumbnail.jpg",
   source: "Jesús Cabrera",
@@ -361,14 +538,42 @@ hairyflower_wild_petunia = Flower.create!(
   name: "Hairyflower Wild Petunia",
   bot_name: "Ruellia lorentziana [Ruellia ciliatiflora]",
   family: "Acanthaceae",
-  significance: "Krishna’s Light in the Physical Mind",
-  comment: "The physical mind looses all rigidity and becomes supple and charming.",
+  significance: "Krishna's Light in the Physical Mind",
+  comment: "The physical mind loses all rigidity and becomes supple and charming.",
   description: "Medium-sized, pale lavender salverform flower with a flattened corolla tube, a violet throat, and a limb divided into five somewhat crinkled lobes; borne in few-flowered axillary cymes or terminal panicles. A perennial herb with long pendant flexuous branches.",
   colour: "Pale lavender",
   petals: "Five",
   size: "Medium-sized",
   place: "Found in subtropical regions of the US (like Florida), and other subtropical regions",
   climate: "Subtropical",
+  quotes: [
+"> At last I find a meaning of soul's birth
+> Into this universe terrible and sweet,
+> I who have felt the hungry heart of earth
+> Aspiring beyond heaven to Krishna's feet.
+> 
+> I have seen the beauty of immortal eyes,
+> And heard the passion of the Lover's flute,
+> And known a deathless ecstasy's surprise
+> And sorrow in my heart for ever mute.
+> 
+> Nearer and nearer now the music draws,
+> Life shudders with a strange felicity;
+> All Nature is a wide enamoured pause
+> Hoping her lord to touch, to clasp, to be.
+> 
+> For this one moment lived the ages past;
+> The world now throbs fulfilled in me at last.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Krishna*](http://incarnateword.in/cwsa/02/krishna#p1-p4)</small>",
+
+"> All music is only the sound of His laughter,
+> All beauty the smile of His passionate bliss;
+> Our lives are His heart-beats, our rapture the bridal
+> Of Radha and Krishna, our love is their kiss.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Who*](http://incarnateword.in/cwsa/02/who#p7)</small>",
+  ],
   image_url: "hairyflower_wild_petunia.jpg",
   thumbnail_url: "hairyflower_wild_petunia_thumbnail.jpg",
   source: "Petr Kocna, BioLib Biological Library",
@@ -380,7 +585,7 @@ meadow_weed = Flower.create!(
   other_names: "Menow Weed",
   bot_name: "Ruellia tuberosa",
   family: "Acanthaceae",
-  significance: "Krishna’s Light in the Vital",
+  significance: "Krishna's Light in the Vital",
   comment: "The light that turns the vital towards the Truth.",
   description: "Small, pale purple salverform flower with a flattened corolla tube, a purple throat, and a limb divided into five somewhat crinkled lobes; borne in few-flowered axillary cymes or terminal panicles. A perennial herb with lanceolate leaves.",
   colour: "Pale purple",
@@ -388,6 +593,34 @@ meadow_weed = Flower.create!(
   size: "Small",
   place: "Native to Central America; naturalized in many countries of tropical South and Southeast Asia",
   climate: "Tropical",
+  quotes: [
+"> At last I find a meaning of soul's birth
+> Into this universe terrible and sweet,
+> I who have felt the hungry heart of earth
+> Aspiring beyond heaven to Krishna's feet.
+> 
+> I have seen the beauty of immortal eyes,
+> And heard the passion of the Lover's flute,
+> And known a deathless ecstasy's surprise
+> And sorrow in my heart for ever mute.
+> 
+> Nearer and nearer now the music draws,
+> Life shudders with a strange felicity;
+> All Nature is a wide enamoured pause
+> Hoping her lord to touch, to clasp, to be.
+> 
+> For this one moment lived the ages past;
+> The world now throbs fulfilled in me at last.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Krishna*](http://incarnateword.in/cwsa/02/krishna#p1-p4)</small>",
+
+"> All music is only the sound of His laughter,
+> All beauty the smile of His passionate bliss;
+> Our lives are His heart-beats, our rapture the bridal
+> Of Radha and Krishna, our love is their kiss.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Who*](http://incarnateword.in/cwsa/02/who#p7)</small>"
+  ],
   image_url: "meadow_weed.jpg",
   thumbnail_url: "meadow_weed_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -423,6 +656,11 @@ angel_wings = Flower.create!(
   size: "Medium-sized",
   place: "Native to India and Southern Asia; widespread in the tropics including Florida, Hawaii, Australia, New Caledonia, French Polynesia, Caribbean and Indian Ocean islands, southern Africa, and Central America",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The insistence on purification [of emotions] does not mean that I condemn true feeling and emotion any more than the insistence on a purified mind or will means that I condemn thought and will. On the contrary, the deeper the emotion, the more intense the Bhakti, the greater is the force for realisation and transformation. It is oftenest through intensity of emotion that the psychic being awakes and there is an opening of the inner doors to the Divine.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Bhakti, Devotion, Worship*](http://incarnateword.in/cwsa/29/bhakti-devotion-worship#p29)</small>"
+  ],
   image_url: "angel_wings.jpg",
   thumbnail_url: "angel_wings_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -434,7 +672,7 @@ blue_trumpet_vine = Flower.create!(
   other_names: "Clock Vine, Bengal Clock Vine, Sky Vine",
   bot_name: "Thunbergia grandiflora",
   family: "Acanthaceae",
-  significance: "Krishna’s Light in the Mind",
+  significance: "Krishna's Light in the Mind",
   comment: "A charming way of becoming intelligent.",
   description: "Large, light lavender salverform flower with a broad limb divided into five rounded lobes, a soft yellow center, and a corolla tube that emerges from two prominent green bracts; borne in pendulous racemes. A vigorous vine with dense rough foliage.",
   colour: "Light lavender, yellow",
@@ -442,6 +680,34 @@ blue_trumpet_vine = Flower.create!(
   size: "Large",
   place: "Native to China, India, Nepal, Indochina, and Burma; widely naturalised elsewhere",
   climate: "Tropical and subtropical",
+  quotes: [
+"> At last I find a meaning of soul's birth
+> Into this universe terrible and sweet,
+> I who have felt the hungry heart of earth
+> Aspiring beyond heaven to Krishna's feet.
+> 
+> I have seen the beauty of immortal eyes,
+> And heard the passion of the Lover's flute,
+> And known a deathless ecstasy's surprise
+> And sorrow in my heart for ever mute.
+> 
+> Nearer and nearer now the music draws,
+> Life shudders with a strange felicity;
+> All Nature is a wide enamoured pause
+> Hoping her lord to touch, to clasp, to be.
+> 
+> For this one moment lived the ages past;
+> The world now throbs fulfilled in me at last.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Krishna*](http://incarnateword.in/cwsa/02/krishna#p1-p4)</small>",
+
+"> All music is only the sound of His laughter,
+> All beauty the smile of His passionate bliss;
+> Our lives are His heart-beats, our rapture the bridal
+> Of Radha and Krishna, our love is their kiss.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Who*](http://incarnateword.in/cwsa/02/who#p7)</small>",
+  ],
   image_url: "blue_trumpet_vine.jpg",
   thumbnail_url: "blue_trumpet_vine_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -452,7 +718,7 @@ blue_sky_shrub = Flower.create!(
   name: "Blue Sky Shrub",
   bot_name: "Thunbergia kirkii",
   family: "Acanthaceae",
-  significance: "Opening to Sri Aurobindo’s Force",
+  significance: "Opening to Sri Aurobindo's Force",
   comment: "Sri Aurobindo's help is constant. It is for us to know how to receive it.",
   description: "Small, lavender salverform flower with a corolla divided into five squared lobes, and a light yellow spot in the throat; borne singly or in pairs. A small attractive shrub with narrow, almost rhomboidal, leaves.",
   colour: "Lavender, light yellow",
@@ -460,6 +726,25 @@ blue_sky_shrub = Flower.create!(
   size: "Small",
   place: "Native to East Africa; found in other tropical regions",
   climate: "Tropical",
+  quotes: [
+"> Opening is a release of the consciousness by which it begins to admit into itself the workings of the Divine Light and Power.
+> 
+> <small>The Mother, [*Words of the Mother - II: Openness*](http://incarnateword.in/cwm/14/openness#p2)</small>",
+
+"> In this Yoga the whole principle is to open oneself to the Divine Influence. It is there above you and, if you can once become conscious of it, you have then to call it down into you. It descends into the mind and into the body as Peace, as a Light, as a Force that works, as the Presence of the Divine with or without form, as Ananda.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Opening*](http://incarnateword.in/cwsa/29/opening#p8)</small>",
+
+"> What you should do is to throw the doors of your being wide open to the Divine. The moment you conceal something, you step straight into Falsehood. The least suppression on your part pulls you immediately down into unconsciousness. If you want to be fully conscious, be always in front of the Truth—completely open yourself and try your utmost to let it see deep inside you, into every corner of your being. That alone will bring into you light and consciousness and all that is most true.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Union with the Divine Consciousness and Will*](http://incarnateword.in/cwm/03/union-with-the-divine-consciousness-and-will#p1)</small>",
+    
+"> Widen yourself to the extreme limit of the universe… and beyond.
+> 
+> Always take upon yourself all the necessities of progress, and resolve them in the ecstasy of Unity. Then you will be divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Wideness*](http://incarnateword.in/cwm/14/wideness#p1-p2)</small>"
+  ],
   image_url: "blue_sky_shrub.jpg",
   thumbnail_url: "blue_sky_shrub_thumbnail.jpg",
   source: "Kyoto Prefecture Web Site",
@@ -478,6 +763,15 @@ cardinals_guard = Flower.create!(
   size: "Small",
   place: "Native to rainforests in the Caribbean, and Central and South America; also cultivated in subtropical regions",
   climate: "Tropical and subtropical",
+  quotes: [
+"> As there is a superconscient (something above our present consciousness) above the head from which the higher consciousness comes down into the body, so there is also a subconscient (something below our consciousness) below the feet. Matter is under the control of this power, because it is that out of which it has been created—that is why matter seems to us to be quite unconscious. The material body is very much under the influence of this power for the same reason; it is why we are not conscious of what is going on in the body, for the most part. The outer consciousness goes down into this subconscient when we are asleep, and so it becomes unaware of what is going on in us when we are asleep except for a few dreams. Many of these dreams rise up from the subconscient and are made up of old memories, impressions etc. put together in an incoherent way. For the subconscient receives impressions of all we do or experience in our lives and keeps these impressions in it, sending up often fragments of them in sleep. It is a very important part of the being, but we can do nothing much with it by the conscious will. It is the higher Force working in us that in its natural course will open the subconscient to itself and bring down into it its control and light.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Subconscient and the Integral Yoga*](http://incarnateword.in/cwsa/31/the-subconscient-and-the-integral-yoga#p19)</small>",
+
+"> The subconscient is to be penetrated by the light and made a sort of bedrock of truth, a store of right impressions, right physical responses to the Truth. Strictly speaking, it will not be subconscient at all, but a sort of bank of true values held ready for use.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Subconscient and the Integral Yoga*](http://incarnateword.in/cwsa/31/the-subconscient-and-the-integral-yoga#p71)</small>"
+  ],
   image_url: "cardinals_guard.jpg",
   thumbnail_url: "cardinals_guard_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -489,13 +783,22 @@ persian_shield = Flower.create!(
   other_names: "Neelakurinji",
   bot_name: "Strobilanthes kunthiana",
   family: "Acanthaceae",
-  significance: "Power of a Perfect Endurance",
+  significance: "Power of Perfect Endurance",
   comment: "Manifests rarely, but is very precious.",
   description: "Small, bluish-violet campanulate flower with one side of the corolla slightly swollen from the base; set in dense, broad bracted spikes. A perennial herb or subshrub with numerous erect quadrangular stems. Blossoms gregariously once in 12 years.",
   colour: "Bluish-violet",
   size: "Small",
   place: "Found in the shola forests of the Western Ghats in South India",
   climate: "Tropical",
+  quotes: [
+"> Let endurance be your watchword: teach the life-force in you—your vital being—not to complain but to put up with all the conditions necessary for great achievement. The body is a very enduring servant, it bears the stress of circumstance tamely like a beast of burden. It is the vital being that is always grumbling and uneasy. The slavery and torture to which it subjects the physical is almost incalculable. How it twists and deforms the poor body to its own fads and fancies, irrationally demanding that everything should be shaped according to its whimsicality! But the very essence of endurance is that the vital should learn to give up its capricious likes and dislikes and preserve an equanimity in the midst of the most trying conditions.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Endurance - the Vital's Hunger for Praise - Signs of the Converted Vital*](http://incarnateword.in/cwm/03/endurance-the-vitals-hunger-for-praise-signs-of-the-converted-vital#p1)</small>",
+
+"> Nothing great is ever accomplished without endurance.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Endurance - the Vital's Hunger for Praise - Signs of the Converted Vital*](http://incarnateword.in/cwm/03/endurance-the-vitals-hunger-for-praise-signs-of-the-converted-vital#p2)</small>"
+  ],
   image_url: "persian_shield.jpg",
   thumbnail_url: "persian_shield_thumbnail.jpg",
   source: "Aruna Radhakrishnan",
@@ -512,6 +815,19 @@ maple = Flower.create!(
   colour: "Light yellow to deep red",
   place: "Native to Asia, with a number of species also appearing in Europe, northern Africa, and North America",
   climate: "Subtropical to temperate",
+  quotes: [
+"> There is no deep meaning [*of aspiration*]—the meaning is plain. It is the call of the being for higher things—for the Divine, for all that belongs to the higher or Divine Consciousness.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Aspiration*](http://incarnateword.in/cwsa/29/aspiration#p10)</small>",
+
+"> This taste for supreme adventure is aspiration–an aspiration which takes hold of you completely and flings you, without calculation and without reserve and without a possibility of withdrawal, into the great adventure of the divine discovery, the great adventure of the divine meeting, the yet greater adventure of the divine Realisation.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 25 January 1956*](http://incarnateword.in/cwm/08/25-january-1956#p58)</small>",
+
+"> Aspiration is like an arrow, like this (*gesture*). So you aspire, want *very* earnestly to understand, know, enter into the truth. Yes? And then with that aspiration you do this (*gesture*). Your aspiration rises, rises, rises, rises straight up, very strong and then it strikes against a kind of… how to put it?… lid which is there, hard like iron and extremely thick, and it does not pass through. And then you say, \"See, what's the use of aspiring? It brings nothing at all. I meet with something hard and cannot pass!\" But you know about the drop of water which falls on the rock, it ends up by making a chasm: it cuts the rock from top to bottom. Your aspiration is a drop of water which, instead of falling, rises. So, by dint of rising, it beats, beats, beats, and one day it makes a hole, by dint of rising; and when it makes the hole suddenly it springs out from this lid and enters an immensity of light, and you say, \"Ah, now I understand.\"
+> 
+> <small>The Mother, [*Questions and Answers 1955: 13 July 1955*](http://incarnateword.in/cwm/07/13-july-1955#p25)</small>"
+  ],
   image_url: "maple.jpg",
   thumbnail_url: "maple_thumbnail.jpg",
   source: "kloniwotski, flickr.com",
@@ -565,6 +881,19 @@ javanese_wool_plant = Flower.create!(
   size: "Small to medium-sized",
   place: "Native to Africa (including Madagascar), and south and southwest Asia",
   climate: "Tropical",
+  quotes: [
+"> There is no deep meaning [*of aspiration*]—the meaning is plain. It is the call of the being for higher things—for the Divine, for all that belongs to the higher or Divine Consciousness.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Aspiration*](http://incarnateword.in/cwsa/29/aspiration#p10)</small>",
+
+"> This taste for supreme adventure is aspiration–an aspiration which takes hold of you completely and flings you, without calculation and without reserve and without a possibility of withdrawal, into the great adventure of the divine discovery, the great adventure of the divine meeting, the yet greater adventure of the divine Realisation.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 25 January 1956*](http://incarnateword.in/cwm/08/25-january-1956#p58)</small>",
+
+"> Aspiration is like an arrow, like this (*gesture*). So you aspire, want *very* earnestly to understand, know, enter into the truth. Yes? And then with that aspiration you do this (*gesture*). Your aspiration rises, rises, rises, rises straight up, very strong and then it strikes against a kind of… how to put it?… lid which is there, hard like iron and extremely thick, and it does not pass through. And then you say, \"See, what's the use of aspiring? It brings nothing at all. I meet with something hard and cannot pass!\" But you know about the drop of water which falls on the rock, it ends up by making a chasm: it cuts the rock from top to bottom. Your aspiration is a drop of water which, instead of falling, rises. So, by dint of rising, it beats, beats, beats, and one day it makes a hole, by dint of rising; and when it makes the hole suddenly it springs out from this lid and enters an immensity of light, and you say, \"Ah, now I understand.\"
+> 
+> <small>The Mother, [*Questions and Answers 1955: 13 July 1955*](http://incarnateword.in/cwm/07/13-july-1955#p25)</small>"
+  ],
   image_url: "javanese_wool_plant.jpg",
   thumbnail_url: "javanese_wool_plant_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -583,6 +912,15 @@ joyweed = Flower.create!(
   size: "Small",
   place: "Found in tropical Americas, Asia, Africa, and Australia",
   climate: "Tropical",
+  quotes: [
+"> By immortality is meant the consciousness which is beyond birth and death, beyond the chain of cause and effect, beyond all bondage and limitation, free, blissful, self-existent in conscious-being, the consciousness of the Lord, of the supreme Purusha, of Sachchidananda.
+> 
+> <small>Sri Aurobindo, [*Isha Upanishad: II. Knowledge and Ignorance*](http://incarnateword.in/cwsa/17/ii-knowledge-and-ignorance#p44)</small>",
+
+"> Immortality in its fundamental sense does not mean merely some kind of personal survival of the bodily death; we are immortal by the eternity of our self-existence without beginning or end, beyond the whole succession of physical births and deaths through which we pass, beyond the alternations of our existence in this and other worlds: the spirit's timeless existence is the true immortality.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: Out of the Sevenfold Ignorance towards the Sevenfold Knowledge*](http://incarnateword.in/cwsa/22/out-of-the-sevenfold-ignorance-towards-the-sevenfold-knowledge#p15)</small>"
+  ],
   image_url: "joyweed.jpg",
   thumbnail_url: "joyweed_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -592,7 +930,7 @@ joyweed = Flower.create!(
 tampala = Flower.create!(
   name: "Tampala",
   other_names: "Chinese Spinach",
-  bot_name: "Amaranthus tricolor ‘Molten fire’",
+  bot_name: "Amaranthus tricolor ‘Molten fire'",
   family: "Amaranthaceae",
   significance: "Bravery",
   comment: "Fears nothing and knows how to stand up against adversities.",
@@ -601,6 +939,11 @@ tampala = Flower.create!(
   size: "Minute",
   place: "Native to South America; also found in many other places",
   climate: "Found across many climatic regions",
+  quotes: [
+"> True courage, in its deepest sense, is to be able to face everything, everything in life, from the smallest to the greatest things, from material things to those of the spirit, without a shudder, without physically… without the heart beginning to beat faster, without the nerves trembling or the slightest emotion in any part of the being. Face everything with a constant consciousness of the divine Presence, with a total self-giving to the Divine, and the whole being unified in this will; then one can go forward in life, can face anything whatever.
+> 
+> <small>The Mother, [*Questions and Answers 1955: 26 January 1955*](http://incarnateword.in/cwm/07/26-january-1955#p38)</small>"
+  ],
   image_url: "tampala.jpg",
   thumbnail_url: "tampala_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -637,6 +980,15 @@ golden_hurricane_lily = Flower.create!(
   size: "Medium-sized",
   place: "Found in China, Taiwan, Japan, Ryukyu Island, and Indochina",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Higher Mind is one of the planes of the spiritual mind, the first and lowest of them; it is above the normal mental level.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Classification of the Parts of the Being*](http://incarnateword.in/cwsa/28/classification-of-the-parts-of-the-being#p12)</small>",
+
+"> I mean by the Higher Mind a first plane of spiritual [consciousness] where one becomes constantly and closely aware of the Self, the One everywhere and knows and sees things habitually with that awareness; but it is still very much on the mind level although highly spiritual in its essential substance; and its instrumentation is through an elevated thought-power and comprehensive mental sight—not illumined by any of the intenser upper lights but as if in a large strong and clear daylight. It acts as an intermediate state between the Truth-Light above and the human mind; communicating the higher knowledge in a form that the Mind intensified, broadened, made spiritually supple, can receive without being blinded or dazzled by a Truth beyond it.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Higher Mind and Poetic Intelligence*](http://incarnateword.in/cwsa/27/higher-mind-and-poetic-intelligence#p1)</small>"
+  ],
   image_url: "golden_hurricane_lily.jpg",
   thumbnail_url: "golden_hurricane_lily_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -656,6 +1008,51 @@ daffodil = Flower.create!(
   size: "Large",
   place: "Native to meadows and woods in southwest Europe and North Africa, with a center of diversity in the Western Mediterranean",
   climate: "Mediterranean and subtropical",
+  quotes: [
+"> Let beauty be your constant ideal.
+> 
+> The beauty of the soul
+> 
+> The beauty of sentiments
+> 
+> The beauty of thoughts
+> 
+> The beauty of the action
+> 
+> The beauty in the work
+> 
+> so that nothing comes out of your hands which is not an expression of pure and harmonious beauty.
+> 
+> And the Divine Help shall always be with you.
+> 
+> <small>The Mother, [*On Education: Curriculum*](http://incarnateword.in/cwm/12/curriculum#p215-p222)</small>",
+
+"> In the world of forms a violation of Beauty is as great a fault as a violation of Truth in the world of ideas. For Beauty is the worship Nature offers to the supreme Master of the universe; Beauty is the divine language in forms. And a consciousness of the Divine which is not translated externally by an understanding and expression of Beauty would be an incomplete consciousness.
+> 
+> <small>The Mother, [*Prayers and Meditations: January 29, 1917*](http://incarnateword.in/cwm/01/january-29-1917#p1)</small>",
+
+"> Delight is the soul of existence, beauty the intense impression, the concentrated form of delight.
+> 
+> <small>Sri Aurobindo, [*The Future Poetry: The Soul of Poetic Delight and Beauty*](http://incarnateword.in/cwsa/26/the-soul-of-poetic-delight-and-beauty#p1)</small>",
+
+"> Beauty is Ananda taking form—but the form need not be a physical shape. One speaks of a beautiful thought, a beautiful act, a beautiful soul. What we speak of as beauty is Ananda in manifestation.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Art, Beauty and Ananda*](http://incarnateword.in/cwsa/27/art-beauty-and-ananda#p3)</small>",
+
+"> Beauty is the special divine Manifestation in the physical as Truth is in the mind, Love in the heart, Power in the vital. Supramental beauty is the highest divine beauty manifesting in Matter.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Beauty*](http://incarnateword.in/cwsa/27/beauty#p4)</small>",
+
+"> The one rule of the gnostic life would be the self-expression of the Spirit, the will of the Divine Being; that will, that self-expression could manifest through extreme simplicity or through extreme complexity and opulence or in their natural balance,—for beauty and plenitude, a hidden sweetness and laughter in things, a sunshine and gladness of life are also powers and expressions of the Spirit.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Divine Life*](http://incarnateword.in/cwsa/22/the-divine-life#p53)</small>",
+
+"> Beauty is his footprint showing us where he has passed,
+> Love is his heart-beats' rhythm in mortal breasts,
+> Happiness the smile on his adorable face.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Kingdom of Subtle Matter*](http://incarnateword.in/cwsa/33/the-kingdom-of-subtle-matter#p75)</small>"
+  ],
   image_url: "daffodil.jpg",
   thumbnail_url: "daffodil_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -675,6 +1072,51 @@ poets_narcissus = Flower.create!(
   size: "Medium-sized",
   place: "Native to central Europe; naturalized in Great Britain, Belgium, Germany, the Czech Republic, Turkey, New Zealand, British Columbia, Washington State, Oregon, Ontario, Quebec, Newfoundland, and much of the eastern United States from Louisiana and Georgia north to Maine and Wisconsin",
   climate: "Subtropical to temperate",
+  quotes: [
+"> Let beauty be your constant ideal.
+> 
+> The beauty of the soul
+> 
+> The beauty of sentiments
+> 
+> The beauty of thoughts
+> 
+> The beauty of the action
+> 
+> The beauty in the work
+> 
+> so that nothing comes out of your hands which is not an expression of pure and harmonious beauty.
+> 
+> And the Divine Help shall always be with you.
+> 
+> <small>The Mother, [*On Education: Curriculum*](http://incarnateword.in/cwm/12/curriculum#p215-p222)</small>",
+
+"> In the world of forms a violation of Beauty is as great a fault as a violation of Truth in the world of ideas. For Beauty is the worship Nature offers to the supreme Master of the universe; Beauty is the divine language in forms. And a consciousness of the Divine which is not translated externally by an understanding and expression of Beauty would be an incomplete consciousness.
+> 
+> <small>The Mother, [*Prayers and Meditations: January 29, 1917*](http://incarnateword.in/cwm/01/january-29-1917#p1)</small>",
+
+"> Delight is the soul of existence, beauty the intense impression, the concentrated form of delight.
+> 
+> <small>Sri Aurobindo, [*The Future Poetry: The Soul of Poetic Delight and Beauty*](http://incarnateword.in/cwsa/26/the-soul-of-poetic-delight-and-beauty#p1)</small>",
+
+"> Beauty is Ananda taking form—but the form need not be a physical shape. One speaks of a beautiful thought, a beautiful act, a beautiful soul. What we speak of as beauty is Ananda in manifestation.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Art, Beauty and Ananda*](http://incarnateword.in/cwsa/27/art-beauty-and-ananda#p3)</small>",
+
+"> Beauty is the special divine Manifestation in the physical as Truth is in the mind, Love in the heart, Power in the vital. Supramental beauty is the highest divine beauty manifesting in Matter.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Beauty*](http://incarnateword.in/cwsa/27/beauty#p4)</small>",
+
+"> The one rule of the gnostic life would be the self-expression of the Spirit, the will of the Divine Being; that will, that self-expression could manifest through extreme simplicity or through extreme complexity and opulence or in their natural balance,—for beauty and plenitude, a hidden sweetness and laughter in things, a sunshine and gladness of life are also powers and expressions of the Spirit.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Divine Life*](http://incarnateword.in/cwsa/22/the-divine-life#p53)</small>",
+
+"> Beauty is his footprint showing us where he has passed,
+> Love is his heart-beats' rhythm in mortal breasts,
+> Happiness the smile on his adorable face.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Kingdom of Subtle Matter*](http://incarnateword.in/cwsa/33/the-kingdom-of-subtle-matter#p75)</small>"
+  ],
   image_url: "poets_narcissus.jpg",
   thumbnail_url: "poets_narcissus_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -693,6 +1135,19 @@ rain_flower = Flower.create!(
   size: "Medium-sized",
   place: "Found in India and on the islands of the Indian Ocean east to insular Southeast Asia (India, Sri Lanka, the Maldive Islands, the Laccadive Islands, Borneo, Java, Maluku, Sulawesi, and the Philippines)",
   climate: "Tropical and subtropical",
+  quotes: [
+"> [*Occultism:*] The knowledge and right use of the hidden forces of Nature.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Occult Knowledge*](http://incarnateword.in/cwsa/28/occult-knowledge#p1)</small>",
+
+"> [*Occult forces:*] The forces that can only be known by going behind the veil of apparent phenomena—especially the forces of the subtle physical and supraphysical planes.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Occult Knowledge*](http://incarnateword.in/cwsa/28/occult-knowledge#p3)</small>",
+
+"> Occultism means rightly the use of the higher powers of our nature, soul, mind, life-force and the faculties of the subtle physical consciousness to bring about results on their own or on the material plane by some pressure of their own secret law and its potentialities, for manifestation and result in human or earthly mind and life and body or in objects and events in the world of Matter.
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: The Divine Body*](http://incarnateword.in/cwsa/13/the-divine-body#p16)</small>"
+  ],
   image_url: "rain_flower.jpg",
   thumbnail_url: "rain_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -729,6 +1184,15 @@ blood_lily = Flower.create!(
   size: "Very large",
   place: "Native to most of sub-Saharan Africa from Senegal to Somalia to South Africa; also native to Arabian Peninsula (Saudi Arabia, Yemen, Oman) and to the Seychelles; naturalized in Mexico and in the Chagos Archipelago",
   climate: "Mostly tropical",
+  quotes: [
+"> The Supramental by its very definition is Truth Consciousness, Truth in possession of itself and fulfilling itself by its own power.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Descent and Transformation*](http://incarnateword.in/cwsa/28/descent-and-transformation#p3)</small>",
+
+"> The Supermind is in its very essence a truth-consciousness, a consciousness always free from the Ignorance which is the foundation of our present natural or evolutionary existence and from which nature in us is trying to arrive at self-knowledge and world-knowledge and a right consciousness and the right use of our existence in the universe. The Supermind, because it is a truth-consciousness, has this knowledge inherent in it and this power of true existence; its course is straight and can go direct to its aim, its field is wide and can even be made illimitable. This is because its very nature is knowledge: it has not to acquire knowledge but possesses it in its own right…
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Supermind and the Life Divine*](http://incarnateword.in/cwsa/13/supermind-and-the-life-divine#p2)</small>"
+  ],
   image_url: "blood_lily.jpg",
   thumbnail_url: "blood_lily_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -748,6 +1212,11 @@ amazon_lily = Flower.create!(
   size: "Medium-sized",
   place: "Native to Central America and South America (western Colombia and western Ecuador); widely cultivated as an ornamental in other regions",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Even if there is much darkness—and this world is full of it and the physical nature of man also—yet a ray of the true Light can prevail eventually against a tenfold darkness. Believe that and cleave to it always.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Faith*](http://incarnateword.in/cwsa/29/faith#p62)</small>"
+  ],
   image_url: "amazon_lily.jpg",
   thumbnail_url: "amazon_lily_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -767,6 +1236,13 @@ snowdrop = Flower.create!(
   size: "Small",
   place: "Native to a large area of Europe; cultivated in North America",
   climate: "Subtropical to temperate",
+  quotes: [
+"> There is another aspect of the divine grace, the aspect of progress which will be victorious over all obstacles, the aspect which will propel humanity to a new realisation, which will open the doors of a new world and make it possible not only for a chosen few to benefit by the divine realisation but for their influence, their example, their power to bring to the rest of mankind new and better conditions.
+> 
+> This opens up roads of realisation into the future, possibilities which are already foreseen, when an entire part of humanity, the one which has opened consciously or unconsciously to the new forces, is lifted up, as it were, into a higher, more harmonious, more perfect life…
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 19 March 1958*](http://incarnateword.in/cwm/09/19-march-1958#p8-p9)</small>"
+  ],
   image_url: "snowdrop.jpg",
   thumbnail_url: "snowdrop_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -786,6 +1262,20 @@ winter_daffodil = Flower.create!(
   size: "Large",
   place: "Has a wide distribution, from the Balearic Islands in the Western Mediterranean to Tajikistan in Central Asia",
   climate: "Temperate",
+  quotes: [
+"> Prayer is only a particular form given to that will, aspiration and faith… Its power and sense is to put the will, aspiration and faith of man into touch with the divine Will as that of a conscious Being with whom we can enter into conscious and living relations.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - II: The Godward Emotions*](http://incarnateword.in/cwsa/24/the-godward-emotions#p9)</small>",
+
+"> In spiritual matters and in the seeking of spiritual gains, this conscious relation is a great power; it is a much greater power than our own entirely self-reliant struggle and effort and it brings a fuller spiritual growth and experience.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - II: The Godward Emotions*](http://incarnateword.in/cwsa/24/the-godward-emotions#p10)</small>",
+
+"> Here is my constant prayer to our Lord:
+> \"O my beloved Lord, let Thy Will be done. Thy Will alone, without any resistance or opposition. Thy Will is our happiness and our security.\"
+> 
+> <small>The Mother</small>"
+  ],
   image_url: "winter_daffodil.jpg",
   thumbnail_url: "winter_daffodil_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -797,13 +1287,26 @@ kaffir_lily = Flower.create!(
   bot_name: "Clivia miniata",
   family: "Amaryllidaceae",
   significance: "Conversion of the Aim of Life from the Ego to the Divine",
-  comment: "Instead of seeking one’s own satisfaction, to have service of the Divine as the aim of life.",
+  comment: "Instead of seeking one's own satisfaction, to have service of the Divine as the aim of life.",
   description: "Medium-sized, bright orange funnelform flowers with the limb divided into six lobes, a yellow or apricot throat, and exserted stamens; borne in many-flowered umbels on erect scapes. A perennial bulb with strap-like leaves.",
   colour: "Bright orange, yellow or apricot",
   petals: "Six",
   size: "Medium-sized",
   place: "Native to damp woodland habitats in South Africa and Swaziland; also naturalized in Mexico",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Conversion: the turning of all the movements of the being towards the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - III: Change*](http://incarnateword.in/cwm/15/change#p30)</small>",
+
+"> When [the psychic] is awake, it begins to take hold of the rest of the being, to influence it and change it so that all may become the true expression of the inner soul. It is this change that is called the inner conversion. There can be no conversion without the awakening of the psychic being.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: The Psychic Being and Its Role in Sadhana*](http://incarnateword.in/cwsa/30/the-psychic-being-and-its-role-in-sadhana#p28)</small>",
+
+"> The spiritual conversion begins when the soul begins to insist on a deeper life and is complete when the psychic becomes the basis or the leader of the consciousness and mind and vital and body are led by it and obey it.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: The Emergence or Coming Forward of the Psychic*](http://incarnateword.in/cwsa/30/the-emergence-or-coming-forward-of-the-psychic#p45)</small>"
+  ],
   image_url: "kaffir_lily.jpg",
   thumbnail_url: "kaffir_lily_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -876,6 +1379,13 @@ purple_allamanda = Flower.create!(
   size: "Medium-sized",
   place: "Native to Brazil",
   climate: "Tropical",
+  quotes: [
+"> The first victory is to create an individuality. And then later, the second victory is to give this individuality to the Divine. And the third victory is that the Divine changes your individuality into a divine being.
+> 
+> There are three stages: the first is to become an individual; the second is to consecrate the individual, that he may surrender entirely to the Divine and be identified with Him; and the third is that the Divine takes possession of this individual and changes him into a being in His own image, that is, he too becomes divine.
+> 
+> <small>The Mother, [*Questions and Answers 1955: 14 December 1955*](http://incarnateword.in/cwm/07/14-december-1955#p21-p22)</small>"
+  ],
   image_url: "purple_allamanda.jpg",
   thumbnail_url: "purple_allamanda_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -895,6 +1405,13 @@ common_allamanda = Flower.create!(
   size: "Large",
   place: "Native to Brazil",
   climate: "Tropical",
+  quotes: [
+"> The first victory is to create an individuality. And then later, the second victory is to give this individuality to the Divine. And the third victory is that the Divine changes your individuality into a divine being.
+> 
+> There are three stages: the first is to become an individual; the second is to consecrate the individual, that he may surrender entirely to the Divine and be identified with Him; and the third is that the Divine takes possession of this individual and changes him into a being in His own image, that is, he too becomes divine.
+> 
+> <small>The Mother, [*Questions and Answers 1955: 14 December 1955*](http://incarnateword.in/cwm/07/14-december-1955#p21-p22)</small>"
+  ],
   image_url: "common_allamanda.jpg",
   thumbnail_url: "common_allamanda_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -914,6 +1431,23 @@ nepal_trumpet_flower = Flower.create!(
   size: "Large",
   place: "Native to Southern India, the Andaman Islands, and Myanmar",
   climate: "Tropical",
+  quotes: [
+">What we call oneself is only the ego. Our true self is the Divine.
+> 
+> <small>The Mother</small>",
+
+"> Human nature is shot through in all its stuff with the threads of the ego. Even when one tries to get away from it, it is in front or walks behind all the thoughts and actions like one's shadow. To see that is the first step—to discern the falsity and absurdity of the ego movements is the second—to discourage and refuse it at every step is the third—but it goes entirely only when one sees, experiences and lives the One in everything and equally everywhere.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Ego and Its Forms*](http://incarnateword.in/cwsa/31/ego-and-its-forms#p4)</small>",
+    
+"> Our ego, boasting of freedom, is at every moment the slave, toy and puppet of countless beings, powers, forces, influences in universal Nature. The self-abnegation of the ego in the Divine is its self-fulfilment; its surrender to that which transcends it is its liberation from bonds and limits and its perfect freedom.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Four Aids*](http://incarnateword.in/sabcl/20/the-four-aids#p15)</small>",
+
+"> There is no happiness in smallness of the being, says the Scripture, it is with the large being that happiness comes. The ego is by its nature a smallness of being; it brings contraction of the consciousness and with the contraction limitation of knowledge, disabling ignorance,—confinement and a diminution of power and by that diminution incapacity and weakness,—scission of oneness and by that scission disharmony and failure of sympathy and love and understanding,—inhibition or fragmentation of delight of being and by that fragmentation pain and sorrow. To recover what is lost we must break out of the walls of ego.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Release from the Ego*](http://incarnateword.in/cwsa/23/the-release-from-the-ego#p2)</small>"
+  ],
   image_url: "nepal_trumpet_flower.jpg",
   thumbnail_url: "nepal_trumpet_flower_thumbnail.jpg",
   source: "Van Swearingen",
@@ -932,6 +1466,27 @@ frangipani_vine = Flower.create!(
   size: "Large",
   place: "Native to India, Sri Lanka (Southeast Asia), the Philippines, and South China",
   climate: "Mostly tropical",
+  quotes: [
+"> The psychic being is the soul developing in the evolution.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Classification of the Parts of the Being*](http://incarnateword.in/cwsa/28/classification-of-the-parts-of-the-being#p1)</small>",
+
+"> The true soul of man is in the true invisible heart hidden in some luminous cave of the nature: there under some infiltration of the divine Light is our soul, a silent inmost being of which few are even aware; for if all have a soul, few are conscious of their true soul or feel its direct impulse. There dwells the little spark of the Divine which supports the obscure mass of our nature and around it grows the psychic being, the formed soul or the real Man within us. It is as this psychic being in him grows and the movements of the heart reflect its divinations and impulsions that man becomes more and more aware of his soul, ceases to be a superior animal and, awakening to glimpses of the godhead within him, admits more and more its intimations of a deeper life and consciousness and an impulse towards things divine. It is one of the decisive moments of the integral Yoga when this psychic being, liberated, brought out from the veil to the front, can pour the full flood of its divinations, seeings and impulsions on the mind, life and body of man and begins to prepare the upbuilding of divinity in the earthly nature.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - I*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-i#p17)</small>",
+
+"> It is the very nature of the soul or the psychic being to turn towards the divine Truth as the sunflower to the sun; it accepts and clings to all that is divine or progressing towards divinity, and draws back from all that is a perversion or a denial of it, from all that is false and undivine. Yet the soul is at first but a spark and then a little flame of godhead burning in the midst of a great darkness… It is only when the life turns towards the Divine that the soul can truly come forward and impose its power on the outer members; for, itself a spark of the Divine, to grow in flame towards the Divine is its true life and its very reason of existence.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - I*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-i#p21)</small>",
+
+"> The first [step of self-realisation] is the discovery of the soul, not the outer soul of thought and emotion and desire, but the secret psychic entity, the divine element within us. When that becomes dominant over the nature, when we are consciously the soul and when mind, life and body take their true place as its instruments, we are aware of a guide within that knows the truth, the good, the true delight and beauty of existence, controls heart and intellect by its luminous law and leads our life and being towards spiritual completeness. Even within the obscure workings of the Ignorance we have then a witness who discerns, a living light that illumines, a will that refuses to be misled and separates the mind's truth from its error, the heart's intimate response from its vibrations to a wrong call and wrong demand upon it, the life's true ardour and plenitude of movement from vital passion and the turbid falsehoods of our vital nature and its dark self seekings. This is the first step of self-realisation, to enthrone the soul, the divine psychic individual in the place of the ego.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: The Origin and Remedy of Falsehood, Error, Wrong and Evil*](http://incarnateword.in/cwsa/21/the-origin-and-remedy-of-falsehood-error-wrong-and-evil#p35)</small>",
+
+"> In order to strengthen the [conscious contact with one's psychic being] and aid, if possible, the development of the conscious psychic personality, one should, while concentrating, turn towards it, aspire to know it and feel it, open oneself to receive its influence, and take great care, each time that one receives an indication from it, to follow it very scrupulously and sincerely. To live in a great aspiration, to take care to become inwardly calm and remain so always as far as possible, to cultivate a perfect sincerity in all the activities of one's being—these are the essential conditions for the growth of the psychic being.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 10 September 1959*](http://incarnateword.in/cwm/16/10-september-1959#p5)</small>"
+  ],
   image_url: "frangipani_vine.jpg",
   thumbnail_url: "frangipani_vine_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -951,6 +1506,27 @@ easter_tree = Flower.create!(
   size: "Small",
   place: "Native to central and southern Africa, the Indian Subcontinent, Indochina, and parts of China",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The psychic being is the soul developing in the evolution.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Classification of the Parts of the Being*](http://incarnateword.in/cwsa/28/classification-of-the-parts-of-the-being#p1)</small>",
+
+"> The true soul of man is in the true invisible heart hidden in some luminous cave of the nature: there under some infiltration of the divine Light is our soul, a silent inmost being of which few are even aware; for if all have a soul, few are conscious of their true soul or feel its direct impulse. There dwells the little spark of the Divine which supports the obscure mass of our nature and around it grows the psychic being, the formed soul or the real Man within us. It is as this psychic being in him grows and the movements of the heart reflect its divinations and impulsions that man becomes more and more aware of his soul, ceases to be a superior animal and, awakening to glimpses of the godhead within him, admits more and more its intimations of a deeper life and consciousness and an impulse towards things divine. It is one of the decisive moments of the integral Yoga when this psychic being, liberated, brought out from the veil to the front, can pour the full flood of its divinations, seeings and impulsions on the mind, life and body of man and begins to prepare the upbuilding of divinity in the earthly nature.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - I*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-i#p17)</small>",
+
+"> It is the very nature of the soul or the psychic being to turn towards the divine Truth as the sunflower to the sun; it accepts and clings to all that is divine or progressing towards divinity, and draws back from all that is a perversion or a denial of it, from all that is false and undivine. Yet the soul is at first but a spark and then a little flame of godhead burning in the midst of a great darkness… It is only when the life turns towards the Divine that the soul can truly come forward and impose its power on the outer members; for, itself a spark of the Divine, to grow in flame towards the Divine is its true life and its very reason of existence.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - I*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-i#p21)</small>",
+
+"> The first [step of self-realisation] is the discovery of the soul, not the outer soul of thought and emotion and desire, but the secret psychic entity, the divine element within us. When that becomes dominant over the nature, when we are consciously the soul and when mind, life and body take their true place as its instruments, we are aware of a guide within that knows the truth, the good, the true delight and beauty of existence, controls heart and intellect by its luminous law and leads our life and being towards spiritual completeness. Even within the obscure workings of the Ignorance we have then a witness who discerns, a living light that illumines, a will that refuses to be misled and separates the mind's truth from its error, the heart's intimate response from its vibrations to a wrong call and wrong demand upon it, the life's true ardour and plenitude of movement from vital passion and the turbid falsehoods of our vital nature and its dark self seekings. This is the first step of self-realisation, to enthrone the soul, the divine psychic individual in the place of the ego.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: The Origin and Remedy of Falsehood, Error, Wrong and Evil*](http://incarnateword.in/cwsa/21/the-origin-and-remedy-of-falsehood-error-wrong-and-evil#p35)</small>",
+
+"> In order to strengthen the [conscious contact with one's psychic being] and aid, if possible, the development of the conscious psychic personality, one should, while concentrating, turn towards it, aspire to know it and feel it, open oneself to receive its influence, and take great care, each time that one receives an indication from it, to follow it very scrupulously and sincerely. To live in a great aspiration, to take care to become inwardly calm and remain so always as far as possible, to cultivate a perfect sincerity in all the activities of one's being—these are the essential conditions for the growth of the psychic being.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 10 September 1959*](http://incarnateword.in/cwm/16/10-september-1959#p5)</small>"
+  ],
   image_url: "easter_tree.jpg",
   thumbnail_url: "easter_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -987,6 +1563,27 @@ milky_way_tree = Flower.create!(
   size: "Medium-sized",
   place: "Native to Central and South America; found in California, Texas, and Florida",
   climate: "Tropical and subtropical",
+  quotes: [
+"> This is purity, to accept no other influence but only the influence of the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Purity*](http://incarnateword.in/cwm/14/purity#p2)</small>",
+
+"> One is truly perfectly pure only when the whole being, in all its elements and all its movements, adheres fully, exclusively, to the divine Will. This indeed is total purity. It does not depend on any moral or social law, any mental convention of any kind. It depends exclusively on this: when all the elements and all the movements of the being adhere exclusively and totally to the divine Will.
+> 
+> <small>The Mother, [*Questions and Answers 1954: 22 December 1954*](http://incarnateword.in/cwm/06/22-december-1954#p18)</small>",
+
+"> What I call purity, the true purity, is not all those things morality teaches: it is non-ego.
+> 
+> There must be nothing but Him.
+> 
+> Him, not only because we have given Him everything and consecrated ourselves totally to Him (that is not enough), but Him because He has taken total possession of the human instrument.
+> 
+> <small>The Mother, [*Mother's Agenda: May 21, 1960*](http://incarnateword.in/agenda/01/may-21-1960#p1-p3)</small>",
+
+"> There is a force of purity, not the purity of the moralist, but an essential purity of spirit, in the very substance of the being.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Sex*](http://incarnateword.in/cwsa/31/sex#p90)</small>"
+  ],
   image_url: "milky_way_tree.jpg",
   thumbnail_url: "milky_way_tree_thumbnail.jpg",
   source: "Useful Tropical Plants",
@@ -1042,6 +1639,27 @@ bread_flower = Flower.create!(
   size: "Small",
   place: "Found in India, Sri Lanka, Pakistan, Nepal, Bhutan, Bangladesh, Cambodia, Laos, Myanmar, Thailand, Vietnam, and Hainan; naturalized in the Andaman Islands",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The psychic being is the soul developing in the evolution.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Classification of the Parts of the Being*](http://incarnateword.in/cwsa/28/classification-of-the-parts-of-the-being#p1)</small>",
+
+"> The true soul of man is in the true invisible heart hidden in some luminous cave of the nature: there under some infiltration of the divine Light is our soul, a silent inmost being of which few are even aware; for if all have a soul, few are conscious of their true soul or feel its direct impulse. There dwells the little spark of the Divine which supports the obscure mass of our nature and around it grows the psychic being, the formed soul or the real Man within us. It is as this psychic being in him grows and the movements of the heart reflect its divinations and impulsions that man becomes more and more aware of his soul, ceases to be a superior animal and, awakening to glimpses of the godhead within him, admits more and more its intimations of a deeper life and consciousness and an impulse towards things divine. It is one of the decisive moments of the integral Yoga when this psychic being, liberated, brought out from the veil to the front, can pour the full flood of its divinations, seeings and impulsions on the mind, life and body of man and begins to prepare the upbuilding of divinity in the earthly nature.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - I*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-i#p17)</small>",
+
+"> It is the very nature of the soul or the psychic being to turn towards the divine Truth as the sunflower to the sun; it accepts and clings to all that is divine or progressing towards divinity, and draws back from all that is a perversion or a denial of it, from all that is false and undivine. Yet the soul is at first but a spark and then a little flame of godhead burning in the midst of a great darkness… It is only when the life turns towards the Divine that the soul can truly come forward and impose its power on the outer members; for, itself a spark of the Divine, to grow in flame towards the Divine is its true life and its very reason of existence.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - I*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-i#p21)</small>",
+
+"> The first [step of self-realisation] is the discovery of the soul, not the outer soul of thought and emotion and desire, but the secret psychic entity, the divine element within us. When that becomes dominant over the nature, when we are consciously the soul and when mind, life and body take their true place as its instruments, we are aware of a guide within that knows the truth, the good, the true delight and beauty of existence, controls heart and intellect by its luminous law and leads our life and being towards spiritual completeness. Even within the obscure workings of the Ignorance we have then a witness who discerns, a living light that illumines, a will that refuses to be misled and separates the mind's truth from its error, the heart's intimate response from its vibrations to a wrong call and wrong demand upon it, the life's true ardour and plenitude of movement from vital passion and the turbid falsehoods of our vital nature and its dark self seekings. This is the first step of self-realisation, to enthrone the soul, the divine psychic individual in the place of the ego.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: The Origin and Remedy of Falsehood, Error, Wrong and Evil*](http://incarnateword.in/cwsa/21/the-origin-and-remedy-of-falsehood-error-wrong-and-evil#p35)</small>",
+
+"> In order to strengthen the [conscious contact with one's psychic being] and aid, if possible, the development of the conscious psychic personality, one should, while concentrating, turn towards it, aspire to know it and feel it, open oneself to receive its influence, and take great care, each time that one receives an indication from it, to follow it very scrupulously and sincerely. To live in a great aspiration, to take care to become inwardly calm and remain so always as far as possible, to cultivate a perfect sincerity in all the activities of one's being—these are the essential conditions for the growth of the psychic being.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 10 September 1959*](http://incarnateword.in/cwm/16/10-september-1959#p5)</small>"
+  ],
   image_url: "bread_flower.jpg",
   thumbnail_url: "bread_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1052,7 +1670,7 @@ pala_indigo_plant = Flower.create!(
   name: "Pala Indigo Plant",
   bot_name: "Wrightia tinctoria",
   family: "Apocynaceae",
-  significance: "Religious Thoughts",
+  significance: "Religious Thought",
   comment: "Can only be utilised when it is freed from the influence of religions.",
   description: "Small, fragrant, white star-shaped flower with a delicate fringed corona; borne in many-flowered cymes. A small to medium-sized deciduous tree with milky sap and thin, bean-like pendulous fruits.",
   colour: "White",
@@ -1060,6 +1678,11 @@ pala_indigo_plant = Flower.create!(
   size: "Small",
   place: "Found in India",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Religion's real business is to prepare man's mind, life and bodily existence for the spiritual consciousness to take it up; it has to lead him to that point where the inner spiritual light begins fully to emerge. It is at this point that religion must learn to subordinate itself, not to insist on its outer characters, but give full scope to the inner spirit itself to develop its own truth and reality. In the meanwhile it has to take up as much of man's mentality, vitality, physicality as it can and give all his activities a turn towards the spiritual direction, the revelation of a spiritual meaning in them, the imprint of a spiritual refinement, the beginning of a spiritual character.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Evolution of the Spiritual Man*](http://incarnateword.in/cwsa/22/the-evolution-of-the-spiritual-man#p16)</small>"
+  ],
   image_url: "pala_indigo_plant.jpg",
   thumbnail_url: "pala_indigo_plant_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1113,6 +1736,19 @@ peace_lily = Flower.create!(
   size: "Medium to large",
   place: "Native to tropical regions of the Americas and southeastern Asia",
   climate: "Tropical",
+  quotes: [
+"> There is no deep meaning [*of aspiration*]—the meaning is plain. It is the call of the being for higher things—for the Divine, for all that belongs to the higher or Divine Consciousness.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Aspiration*](http://incarnateword.in/cwsa/29/aspiration#p10)</small>",
+
+"> This taste for supreme adventure is aspiration–an aspiration which takes hold of you completely and flings you, without calculation and without reserve and without a possibility of withdrawal, into the great adventure of the divine discovery, the great adventure of the divine meeting, the yet greater adventure of the divine Realisation.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 25 January 1956*](http://incarnateword.in/cwm/08/25-january-1956#p58)</small>",
+
+"> Aspiration is like an arrow, like this (*gesture*). So you aspire, want *very* earnestly to understand, know, enter into the truth. Yes? And then with that aspiration you do this (*gesture*). Your aspiration rises, rises, rises, rises straight up, very strong and then it strikes against a kind of… how to put it?… lid which is there, hard like iron and extremely thick, and it does not pass through. And then you say, \"See, what's the use of aspiring? It brings nothing at all. I meet with something hard and cannot pass!\" But you know about the drop of water which falls on the rock, it ends up by making a chasm: it cuts the rock from top to bottom. Your aspiration is a drop of water which, instead of falling, rises. So, by dint of rising, it beats, beats, beats, and one day it makes a hole, by dint of rising; and when it makes the hole suddenly it springs out from this lid and enters an immensity of light, and you say, \"Ah, now I understand.\"
+> 
+> <small>The Mother, [*Questions and Answers 1955: 13 July 1955*](http://incarnateword.in/cwm/07/13-july-1955#p25)</small>"
+  ],
   image_url: "peace_lily.jpg",
   thumbnail_url: "peace_lily_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1130,6 +1766,15 @@ divaricate_typhonium = Flower.create!(
   size: "Large",
   place: "Found in Japan, Taiwan, Ryukyu Islands, much of China, Bangladesh, Laos, Cambodia, Myanmar, Thailand, and Vietnam; nautralized in Madagascar, Mauritius, Comoros, Borneo, the Philippines, and the West Indies",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The Mother's warning to you against the undesirability of too much talk, loose chat and gossip, social self-dispersion was entirely meant and stands; when you indulge in these things, you throw yourself out into a very small and ignorant consciousness in which your vital defects get free play and this is likely to bring you out of what you have developed in your inner consciousness.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother's Way of Dealing with Sadhaks*](http://incarnateword.in/cwsa/32/the-mothers-way-of-dealing-with-sadhaks#p8)</small>",
+
+"> I have had the experience myself that one can be fully concentrated and be in union with the Divine even while working physically with one's hands; but naturally this asks for a little practice, and for this the most important thing to avoid is *useless talking.* It is not *work* but *useless talk* which takes us away from the Divine.
+> 
+> <small>The Mother, [*Some Answers from the Mother: Letters to a Young Sadhak - VI*](http://incarnateword.in/cwm/16/letters-to-a-young-sadhak-vi#p8)</small>"
+  ],
   image_url: "divaricate_typhonium.jpg",
   thumbnail_url: "divaricate_typhonium_thumbnail.jpg",
   source: "Prof. Summer's Web Garden - Japanese Wild Flowers",
@@ -1145,6 +1790,15 @@ ivy = Flower.create!(
   description: "All species of woody vines that have prominently lobed, glossy evergreen leaves, and the ability to attach themselves to almost any surface.",
   place: "Native to western, central, and southern Europe, Macaronesia, northwestern Africa, and across central-southern Asia east to Japan and Taiwan",
   climate: "Subtropical to temperate",
+  quotes: [
+"> What we propose in our Yoga is nothing less than to break up the whole formation of our past and present which makes up the ordinary material and mental man and to create a new centre of vision and a new universe of activities in ourselves which shall constitute a divine humanity or a superhuman nature.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: Self-Consecration*](http://incarnateword.in/cwsa/23/self-consecration#p6)</small>",
+
+"> No change can be more radical than the revolution attempted in the integral Yoga. Everything in us has constantly to be called back to the central faith and will and vision. Every thought and impulse has to be reminded in the language of the Upanishad that \"That is the divine Brahman and not this which men here adore.\" Every vital fibre has to be persuaded to accept an entire renunciation of all that hitherto represented to it its own existence. Mind has to cease to be mind and become brilliant with something beyond it. Life has to change into a thing vast and calm and intense and powerful that can no longer recognise its old blind eager narrow self of petty impulse and desire. Even the body has to submit to a mutation and be no longer the clamorous animal or the impeding clod it now is, but become instead a conscious servant and radiant instrument and living form of the spirit.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: Self-Consecration*](http://incarnateword.in/cwsa/23/self-consecration#p7)</small>"
+  ],
   image_url: "ivy.jpg",
   thumbnail_url: "ivy_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1163,6 +1817,15 @@ australian_ivy_palm = Flower.create!(
   size: "Tiny",
   place: "Native to tropical rainforests and gallery forests in Australia (eastern Queensland and the Northern Territory), New Guinea, and Java",
   climate: "Tropical",
+  quotes: [
+"> [Life energy], life-force is not physical in itself; it is not material energy, but rather a different principle supporting Matter and involved in it. It supports and occupies all forms and without it no physical form could have come into being or could remain in being. It acts in all material forces such as electricity and is nearest to self-manifestation in those that are nearest to pure force; no material force could exist or act without it, for from it they derive their energy and movement and they are its vehicles.
+> 
+> <small>Sri Aurobindo, [*Kena and Other Upanishads: The Superlife—Life of Our Life*](http://incarnateword.in/cwsa/18/the-superlife-life-of-our-life#p3)</small>",
+
+"> The true Life-Force too reveals itself as no longer this troubled harassed divided striving surface energy, but a great and radiant Divine Power, full of peace and strength and bliss, a wide-wayed Angel of Life with its wings of Might enfolding the universe.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - II*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-ii#p23)</small>"
+  ],
   image_url: "australian_ivy_palm.jpg",
   thumbnail_url: "australian_ivy_palm_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1180,6 +1843,19 @@ calico_flower = Flower.create!(
   size: "Medium-sized",
   place: "Native to Brazil and Northern Argentina; grown in many tropical and subtropical regions",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Inspiration is a slender river of brightness leaping from a vast &amp; eternal knowledge, it exceeds reason more perfectly than reason exceeds the knowledge of the senses.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: Jnana*](http://incarnateword.in/cwsa/12/jnana#p2)</small>",
+
+"> There are different kinds of knowledge. One is inspiration, i.e. something that comes out of the Knowledge planes like a flash and opens up the mind to the Truth in a moment. That is inspiration. It easily takes the form of words as when a poet writes or a speaker speaks, as people say, from inspiration.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Mind and Other Levels of Being*](http://incarnateword.in/cwsa/31/the-mind-and-other-levels-of-being#p10)</small>",
+
+"> [Inspiration] is like a tiny little stream or a few falling drops and these drops are so pure, so brilliant, so complete in themselves, that they give you the sense of a marvellous inspiration, the impression that you have reached infinite domains and risen very high above the ordinary human condition. And yet this is nothing in comparison with what is still to be perceived.
+> 
+> <small>The Mother, [*On Thoughts and Aphorisms: Aphorism - 2*](http://incarnateword.in/cwm/10/aphorism-2#p8)</small>"
+  ],
   image_url: "calico_flower.jpg",
   thumbnail_url: "calico_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1198,6 +1874,19 @@ dutchmans_pipe = Flower.create!(
   size: "Large",
   place: "Native to Central America, Colombia, and Venezuela",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Inspiration is a slender river of brightness leaping from a vast &amp; eternal knowledge, it exceeds reason more perfectly than reason exceeds the knowledge of the senses.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: Jnana*](http://incarnateword.in/cwsa/12/jnana#p2)</small>",
+
+"> There are different kinds of knowledge. One is inspiration, i.e. something that comes out of the Knowledge planes like a flash and opens up the mind to the Truth in a moment. That is inspiration. It easily takes the form of words as when a poet writes or a speaker speaks, as people say, from inspiration.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Mind and Other Levels of Being*](http://incarnateword.in/cwsa/31/the-mind-and-other-levels-of-being#p10)</small>",
+
+"> [Inspiration] is like a tiny little stream or a few falling drops and these drops are so pure, so brilliant, so complete in themselves, that they give you the sense of a marvellous inspiration, the impression that you have reached infinite domains and risen very high above the ordinary human condition. And yet this is nothing in comparison with what is still to be perceived.
+> 
+> <small>The Mother, [*On Thoughts and Aphorisms: Aphorism - 2*](http://incarnateword.in/cwm/10/aphorism-2#p8)</small>"
+  ],
   image_url: "dutchmans_pipe.jpg",
   thumbnail_url: "dutchmans_pipe_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1253,6 +1942,19 @@ wax_plant = Flower.create!(
   size: "Small",
   place: "Native to Eastern Asia and Australia",
   climate: "Tropical and subtropical",
+  quotes: [
+"> There is no deep meaning [*of aspiration*]—the meaning is plain. It is the call of the being for higher things—for the Divine, for all that belongs to the higher or Divine Consciousness.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Aspiration*](http://incarnateword.in/cwsa/29/aspiration#p10)</small>",
+
+"> This taste for supreme adventure is aspiration–an aspiration which takes hold of you completely and flings you, without calculation and without reserve and without a possibility of withdrawal, into the great adventure of the divine discovery, the great adventure of the divine meeting, the yet greater adventure of the divine Realisation.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 25 January 1956*](http://incarnateword.in/cwm/08/25-january-1956#p58)</small>",
+
+"> Aspiration is like an arrow, like this (*gesture*). So you aspire, want *very* earnestly to understand, know, enter into the truth. Yes? And then with that aspiration you do this (*gesture*). Your aspiration rises, rises, rises, rises straight up, very strong and then it strikes against a kind of… how to put it?… lid which is there, hard like iron and extremely thick, and it does not pass through. And then you say, \"See, what's the use of aspiring? It brings nothing at all. I meet with something hard and cannot pass!\" But you know about the drop of water which falls on the rock, it ends up by making a chasm: it cuts the rock from top to bottom. Your aspiration is a drop of water which, instead of falling, rises. So, by dint of rising, it beats, beats, beats, and one day it makes a hole, by dint of rising; and when it makes the hole suddenly it springs out from this lid and enters an immensity of light, and you say, \"Ah, now I understand.\"
+> 
+> <small>The Mother, [*Questions and Answers 1955: 13 July 1955*](http://incarnateword.in/cwm/07/13-july-1955#p25)</small>"
+  ],
   image_url: "wax_plant.jpg",
   thumbnail_url: "wax_plant_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1272,6 +1974,11 @@ patience_plant = Flower.create!(
   size: "Small",
   place: "Native to eastern Africa, from Kenya to Mozambique",
   climate: "Tropical",
+  quotes: [
+"> The one true reward of the works of love is to grow ever in capacity and delight of love up to the ecstasy of the spirit's all-seizing embrace and universal passion.
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Rebirth*](http://incarnateword.in/cwsa/13/rebirth#p14)</small>"
+  ],
   image_url: "patience_plant.jpg",
   thumbnail_url: "patience_plant_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1289,6 +1996,19 @@ wild_guava = Flower.create!(
   size: "Large",
   place: "Native to the Indian Subcontinent, Afghanistan, and Indochina",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Liberation signifies an emergence into the true spiritual nature of being where all action is the automatic self expression of that truth and there can be nothing else.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Gnostic Being*](http://incarnateword.in/cwsa/22/the-gnostic-being#p32)</small>",
+
+"> Deep, intense, convincing, common to all who have overstepped a certain limit of the active mind-belt into horizonless inner space, this is the great experience of liberation, the consciousness of something within us that is behind and outside of the universe and all its forms, interests, aims, events and happenings, calm, untouched, unconcerned, illimitable, immobile, free,…
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Object of Knowledge*](http://incarnateword.in/cwsa/23/the-object-of-knowledge#p7)</small>",
+
+"> The sense of release as if from jail always accompanies the emergence of the psychic being or the realisation of the self above. It is therefore spoken of as a liberation, *mukti*. It is a release into peace, happiness, the soul's freedom not tied down by the thousand ties and cares of the outward ignorant existence.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: The Inward Movement*](http://incarnateword.in/cwsa/30/the-inward-movement#p41)</small>"
+  ],
   image_url: "wild_guava.jpg",
   thumbnail_url: "wild_guava_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1307,6 +2027,15 @@ catuaba = Flower.create!(
   size: "Medium-sized",
   place: "Native to the tropical and subtropical Americas, including the West Indies",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Higher Mind is one of the planes of the spiritual mind, the first and lowest of them; it is above the normal mental level.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Classification of the Parts of the Being*](http://incarnateword.in/cwsa/28/classification-of-the-parts-of-the-being#p12)</small>",
+
+"> I mean by the Higher Mind a first plane of spiritual [consciousness] where one becomes constantly and closely aware of the Self, the One everywhere and knows and sees things habitually with that awareness; but it is still very much on the mind level although highly spiritual in its essential substance; and its instrumentation is through an elevated thought-power and comprehensive mental sight—not illumined by any of the intenser upper lights but as if in a large strong and clear daylight. It acts as an intermediate state between the Truth-Light above and the human mind; communicating the higher knowledge in a form that the Mind intensified, broadened, made spiritually supple, can receive without being blinded or dazzled by a Truth beyond it.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Higher Mind and Poetic Intelligence*](http://incarnateword.in/cwsa/27/higher-mind-and-poetic-intelligence#p1)</small>"
+  ],
   image_url: "catuaba.jpg",
   thumbnail_url: "catuaba_thumbnail.jpg",
   source: "Alex Popovkin, Bahia, Brazil",
@@ -1326,6 +2055,13 @@ yellow_trumpet_vine = Flower.create!(
   size: "Large",
   place: "Native to the tropical and subtropical Americas, including the West Indies",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The first victory is to create an individuality. And then later, the second victory is to give this individuality to the Divine. And the third victory is that the Divine changes your individuality into a divine being.
+> 
+> There are three stages: the first is to become an individual; the second is to consecrate the individual, that he may surrender entirely to the Divine and be identified with Him; and the third is that the Divine takes possession of this individual and changes him into a being in His own image, that is, he too becomes divine.
+> 
+> <small>The Mother, [*Questions and Answers 1955: 14 December 1955*](http://incarnateword.in/cwm/07/14-december-1955#p21-p22)</small>"
+  ],
   image_url: "yellow_trumpet_vine.jpg",
   thumbnail_url: "yellow_trumpet_vine_thumbnail.jpg",
   source: "Museu Nacional / UFRJ",
@@ -1345,6 +2081,11 @@ heliotrope = Flower.create!(
   size: "Tiny",
   place: "Native to Peru",
   climate: "Tropical",
+  quotes: [
+"> If you want a true mastery and transformation of the vital movements, it can be done only on condition you allow your psychic being, the soul in you, to awake fully, to establish its rule and open to the permanent touch of the divine Shakti and impose its way of devout aspiration and complete surrender on the mind and heart and vital nature. There is no other way and it is no use hankering after a more comfortable path.
+> 
+> <small>Sri Aurobindo, [*Letters on Himself and the Ashram: The Question of Marriage*](http://incarnateword.in/cwsa/35/the-question-of-marriage#p3)</small>"
+  ],
   image_url: "heliotrope.jpg",
   thumbnail_url: "heliotrope_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1380,6 +2121,19 @@ sausage_tree = Flower.create!(
   size: "Large",
   place: "Occurs throughout tropical Africa",
   climate: "Tropical",
+  quotes: [
+"> The base of the material consciousness here is not only the Ignorance, but the Inconscience—that is, the consciousness is involved in form of matter and energy of matter.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Jivatman in the Integral Yoga*](http://incarnateword.in/cwsa/28/the-jivatman-in-the-integral-yoga#p13)</small>",
+
+"> The Inconscience is an inverse reproduction of the supreme superconscience: it has the same absoluteness of being and automatic action, but in a vast involved trance; it is being lost in itself, plunged in its own abyss of infinity.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: Knowledge by Identity and Separative Knowledge*](http://incarnateword.in/cwsa/21/knowledge-by-identity-and-separative-knowledge#p29)</small>",
+
+"> All evolution is the progressive self-revelation of the One to himself in the terms of the Many out of the Inconscience through the Ignorance towards self-conscient perfection.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: Nature: The World-Manifestation*](http://incarnateword.in/cwsa/12/nature-the-world-manifestation#p111)</small>"
+  ],
   image_url: "sausage_tree.jpg",
   thumbnail_url: "sausage_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1398,7 +2152,16 @@ cats_claw = Flower.create!(
   petals: "Five",
   size: "Medium-sized",
   place: "Native to the tropical dry forest of Central America, South America, and the Caribbean",
-  climate: "Tropical", 
+  climate: "Tropical",
+  quotes: [
+"> The Supramental by its very definition is Truth Consciousness, Truth in possession of itself and fulfilling itself by its own power.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Descent and Transformation*](http://incarnateword.in/cwsa/28/descent-and-transformation#p3)</small>",
+
+"> The Supermind is in its very essence a truth-consciousness, a consciousness always free from the Ignorance which is the foundation of our present natural or evolutionary existence and from which nature in us is trying to arrive at self-knowledge and world-knowledge and a right consciousness and the right use of our existence in the universe. The Supermind, because it is a truth-consciousness, has this knowledge inherent in it and this power of true existence; its course is straight and can go direct to its aim, its field is wide and can even be made illimitable. This is because its very nature is knowledge: it has not to acquire knowledge but possesses it in its own right…
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Supermind and the Life Divine*](http://incarnateword.in/cwsa/13/supermind-and-the-life-divine#p2)</small>"
+  ],
   image_url: "cats_claw.jpg",
   thumbnail_url: "cats_claw_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1418,6 +2181,11 @@ garlic_vine = Flower.create!(
   size: "Medium-sized",
   place: "Native to Northern South America; has spread to Central America and Brazil",
   climate: "Tropical",
+  quotes: [
+"> Emotion is an excellent and indispensable thing in human nature, in spite of all its shortcomings and dangers… But our aim is to go beyond mental ideas into the light of the supramental Truth, which exists not by ideative thought but by direct vision and identity. In the same way our aim is to go beyond emotion to the height and depth and intensity of the Divine Love and there feel through the inner psychic heart an inexhaustible oneness with the Divine which the spasmodic leapings of the vital emotions cannot reach or experience.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Divine Love, Psychic Love and Human Love*](http://incarnateword.in/cwsa/29/divine-love-psychic-love-and-human-love#p39)</small>"
+  ],
   image_url: "garlic_vine.jpg",
   thumbnail_url: "garlic_vine_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1437,6 +2205,11 @@ indian_cork_tree = Flower.create!(
   size: "Medium-sized",
   place: "Native to South Asia and South East Asia",
   climate: "Tropical and subtropical",
+  quotes: [
+"> There are different statuses of transformation. First is the psychic transformation, in which all is in contact with the Divine through the psychic consciousness. Next is the spiritual transformation in which all is merged in the Divine in the cosmic consciousness. Third is the supramental transformation in which all becomes supramentalised in the divine gnostic consciousness. It is only with the last that there can begin the *complete* transformation of mind, life and body—in my sense of completeness.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: The Newness of the Integral Yoga*](http://incarnateword.in/cwsa/29/the-newness-of-the-integral-yoga#p11)</small>"
+  ],
   image_url: "indian_cork_tree.jpg",
   thumbnail_url: "indian_cork_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1493,6 +2266,15 @@ orange_trumpet = Flower.create!(
   size: "Medium-sized",
   place: "Endemic to Brazil; cultivated in other tropical regions",
   climate: "Tropical",
+  quotes: [
+"> The Supramental by its very definition is Truth Consciousness, Truth in possession of itself and fulfilling itself by its own power.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Descent and Transformation*](http://incarnateword.in/cwsa/28/descent-and-transformation#p3)</small>",
+
+"> The Supermind is in its very essence a truth-consciousness, a consciousness always free from the Ignorance which is the foundation of our present natural or evolutionary existence and from which nature in us is trying to arrive at self-knowledge and world-knowledge and a right consciousness and the right use of our existence in the universe. The Supermind, because it is a truth-consciousness, has this knowledge inherent in it and this power of true existence; its course is straight and can go direct to its aim, its field is wide and can even be made illimitable. This is because its very nature is knowledge: it has not to acquire knowledge but possesses it in its own right…
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Supermind and the Life Divine*](http://incarnateword.in/cwsa/13/supermind-and-the-life-divine#p2)</small>"
+  ],
   image_url: "orange_trumpet.jpg",
   thumbnail_url: "orange_trumpet_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1511,6 +2293,11 @@ glow_vine = Flower.create!(
   size: "Medium-sized",
   place: "Native to Colombia and Ecuador",
   climate: "Tropical",
+  quotes: [
+"> What's needed is the path of vastness, widening, relaxation, ease, of BLOSSOMING in the vital—not so much a censorial vital as… as gentleness, a certain sweetness. The vital blossoming into beauty: sweetness and beauty. I don't want to speak of \"sentiments\" because… oh, that lands us right in a quagmire! No, but… a sweetness and charm and beauty—but not there (*in the head*): here.
+> 
+> <small>The Mother, [*Mother's Agenda: May 31, 1962*](http://incarnateword.in/agenda/03/may-31-1962#p40)</small>"
+  ],
   image_url: "glow_vine.jpg",
   thumbnail_url: "glow_vine_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1548,6 +2335,15 @@ yellow_bells = Flower.create!(
   size: "Small",
   place: "Native to the Americas",
   climate: "Found across temperate, subtropical, and tropical climates",
+  quotes: [
+"> Higher Mind is one of the planes of the spiritual mind, the first and lowest of them; it is above the normal mental level.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Classification of the Parts of the Being*](http://incarnateword.in/cwsa/28/classification-of-the-parts-of-the-being#p12)</small>",
+
+"> I mean by the Higher Mind a first plane of spiritual [consciousness] where one becomes constantly and closely aware of the Self, the One everywhere and knows and sees things habitually with that awareness; but it is still very much on the mind level although highly spiritual in its essential substance; and its instrumentation is through an elevated thought-power and comprehensive mental sight—not illumined by any of the intenser upper lights but as if in a large strong and clear daylight. It acts as an intermediate state between the Truth-Light above and the human mind; communicating the higher knowledge in a form that the Mind intensified, broadened, made spiritually supple, can receive without being blinded or dazzled by a Truth beyond it.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Higher Mind and Poetic Intelligence*](http://incarnateword.in/cwsa/27/higher-mind-and-poetic-intelligence#p1)</small>"
+  ],
   image_url: "yellow_bells.jpg",
   thumbnail_url: "yellow_bells_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1566,6 +2362,15 @@ trumpet_bush = Flower.create!(
   size: "Small",
   place: "Found in subtropical USA and other subtropical regions",
   climate: "Subtropical",
+  quotes: [
+"> The physical mind is that part of the mind which is concerned with the physical things only—it depends on the sense mind, sees only objects, external actions, draws its ideas from the data given by external things, infers from them only and knows no other Truth—until it is enlightened from above.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Mind*](http://incarnateword.in/cwsa/28/the-mind#p44)</small>",
+
+"> [*The true physical mind*] is the instrument of understanding and ordered action on physical things. Only instead of being obscure and ignorant and fumbling as now or else guided only by an external knowledge it has to become conscious of the Divine and to act in accordance with an inner light, will and knowledge putting itself into contact and an understanding unity with the physical world.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Mind*](http://incarnateword.in/cwsa/28/the-mind#p48)</small>"
+  ],
   image_url: "trumpet_bush.jpg",
   thumbnail_url: "trumpet_bush_thumbnail.jpg",
   source: "Norm's Nursery",
@@ -1584,6 +2389,15 @@ cape_honeysuckle = Flower.create!(
   size: "Medium-sized",
   place: "Native to southern Africa, Swaziland, and southern Mozambique; cultivated in other areas of the world, such as in South-east Asia, Hawaii, and California",
   climate: "Tropical and subtropical",
+  quotes: [
+"> As there is a superconscient (something above our present consciousness) above the head from which the higher consciousness comes down into the body, so there is also a subconscient (something below our consciousness) below the feet. Matter is under the control of this power, because it is that out of which it has been created—that is why matter seems to us to be quite unconscious. The material body is very much under the influence of this power for the same reason; it is why we are not conscious of what is going on in the body, for the most part. The outer consciousness goes down into this subconscient when we are asleep, and so it becomes unaware of what is going on in us when we are asleep except for a few dreams. Many of these dreams rise up from the subconscient and are made up of old memories, impressions etc. put together in an incoherent way. For the subconscient receives impressions of all we do or experience in our lives and keeps these impressions in it, sending up often fragments of them in sleep. It is a very important part of the being, but we can do nothing much with it by the conscious will. It is the higher Force working in us that in its natural course will open the subconscient to itself and bring down into it its control and light.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Subconscient and the Integral Yoga*](http://incarnateword.in/cwsa/31/the-subconscient-and-the-integral-yoga#p19)</small>",
+
+"> The subconscient is to be penetrated by the light and made a sort of bedrock of truth, a store of right impressions, right physical responses to the Truth. Strictly speaking, it will not be subconscient at all, but a sort of bank of true values held ready for use.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Subconscient and the Integral Yoga*](http://incarnateword.in/cwsa/31/the-subconscient-and-the-integral-yoga#p71)</small>"
+  ],
   image_url: "cape_honeysuckle.jpg",
   thumbnail_url: "cape_honeysuckle_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1603,6 +2417,11 @@ annatto = Flower.create!(
   size: "Medium-sized",
   place: "Native to the tropical Americas",
   climate: "Tropical",
+  quotes: [
+"> We are in a very special situation, extremely special, without precedent. We are now witnessing the birth of a new world; it is very young, very weak—not in its essence but in its outer manifestation—not yet recognised, not even felt, denied by the majority. But it is here. It is here, making an effort to grow, absolutely *sure* of the result. But the road to it is a completely new road which has never before been traced out—nobody has gone there, nobody has done that! It is a beginning, a *universal beginning*. So, it is an absolutely unexpected and unpredictable adventure.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 10 July 1957*](http://incarnateword.in/cwm/09/10-july-1957#p20)</small>"
+  ],
   image_url: "annatto.jpg",
   thumbnail_url: "annatto_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1622,6 +2441,15 @@ yellow_silk_cotton_tree = Flower.create!(
   size: "Medium-sized",
   place: "Native to the tropical region of Southeast Asia and the Indian Subcontinent",
   climate: "Tropical",
+  quotes: [
+"> The Supramental by its very definition is Truth Consciousness, Truth in possession of itself and fulfilling itself by its own power.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Descent and Transformation*](http://incarnateword.in/cwsa/28/descent-and-transformation#p3)</small>",
+
+"> The Supermind is in its very essence a truth-consciousness, a consciousness always free from the Ignorance which is the foundation of our present natural or evolutionary existence and from which nature in us is trying to arrive at self-knowledge and world-knowledge and a right consciousness and the right use of our existence in the universe. The Supermind, because it is a truth-consciousness, has this knowledge inherent in it and this power of true existence; its course is straight and can go direct to its aim, its field is wide and can even be made illimitable. This is because its very nature is knowledge: it has not to acquire knowledge but possesses it in its own right…
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Supermind and the Life Divine*](http://incarnateword.in/cwsa/13/supermind-and-the-life-divine#p2)</small>"
+  ],
   image_url: "yellow_silk_cotton_tree.jpg",
   thumbnail_url: "yellow_silk_cotton_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1641,6 +2469,19 @@ geiger_tree = Flower.create!(
   size: "Small",
   place: "Native to the tropical Americas",
   climate: "Tropical",
+  quotes: [
+"> Worship is only the first step on the path of devotion. Where external worship changes into the inner adoration, real Bhakti begins; that deepens into the intensity of divine love; that love leads to the joy of closeness in our relations with the Divine; the joy of closeness passes into the bliss of union.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - II: Love and the Triple Path*](http://incarnateword.in/cwsa/24/love-and-the-triple-path#p8)</small>",
+    
+"> The aim of Yoga being union, its beginning must always be a seeking after the Divine, a longing after some kind of touch, closeness or possession. When this comes on us, the adoration becomes always primarily an inner worship; we begin to make ourselves a temple of the Divine, our thoughts and feelings a constant prayer of aspiration and seeking, our whole life an external service and worship.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - II: The Way of Devotion*](http://incarnateword.in/cwsa/24/the-way-of-devotion#p2)</small>",
+
+"> In love for the Divine or for one whom one feels to be divine, the Bhakta feels an intense reverence for the Loved, a sense of something of immense greatness, beauty or value and for himself a strong impression of his own comparative unworthiness and a passionate desire to *grow* into likeness with that which one adores.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Philosophical Thought and Yoga*](http://incarnateword.in/cwsa/28/philosophical-thought-and-yoga#p28)</small>",
+  ],
   image_url: "geiger_tree.jpg",
   thumbnail_url: "geiger_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1659,6 +2500,11 @@ chinese_forget_me_not = Flower.create!(
   size: "Small",
   place: "Native to Asia",
   climate: "Found across different climates",
+  quotes: [
+"> It is by the constant remembrance that the being is prepared for the full opening. By the opening of the heart the Mother's presence begins to be felt and by the opening to her Power above the Force of the higher consciousness comes down into the body and works there to change the whole nature.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: Opening and Presence*](http://incarnateword.in/cwsa/32/opening-and-presence#p3)</small>"
+  ],
   image_url: "chinese_forget_me_not.jpg",
   thumbnail_url: "chinese_forget_me_not_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1677,6 +2523,11 @@ garden_forget_me_not = Flower.create!(
   size: "Tiny",
   place: "Native to Europe; widely cultivated throughout the temperate world",
   climate: "Temperate",
+  quotes: [
+"> It is by the constant remembrance that the being is prepared for the full opening. By the opening of the heart the Mother's presence begins to be felt and by the opening to her Power above the Force of the higher consciousness comes down into the body and works there to change the whole nature.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: Opening and Presence*](http://incarnateword.in/cwsa/32/opening-and-presence#p3)</small>"
+  ],
   image_url: "garden_forget_me_not.jpg",
   thumbnail_url: "garden_forget_me_not_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1695,6 +2546,17 @@ summer_torch = Flower.create!(
   size: "Small",
   place: "Found in Colombia, Peru, and Brazil, and also in areas from Cuba and Mexico south to Argentina",
   climate: "Tropical",
+  quotes: [
+"> First learn to know yourself perfectly and then to control yourself perfectly. You will be able to do it by aspiring at every moment. It is never too early to begin, never too late to continue.
+> 
+> <small>The Mother, [*Words of the Mother - II: Desires, Impulses and Self-control*](http://incarnateword.in/cwm/14/desires-impulses-and-self-control#p4)</small>",
+    
+"> You may be sure that becoming conscious of the Divine Presence in oneself considerably changes one's whole way of being and gives an exceptional control over all activities, mental, vital and physical.
+> 
+> And this control is infinitely more powerful and luminous than anything one can obtain through external means.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 9 December 1969*](http://incarnateword.in/cwm/16/9-december-1969#p3-p4)</small>"
+  ],
   image_url: "summer_torch.jpg",
   thumbnail_url: "summer_torch_thumbnail.jpg",
   source: "Jen 64",
@@ -1712,6 +2574,19 @@ cactus = Flower.create!(
   size: "Medium-sized",
   place: "Native to the Americas, but found in many regions",
   climate: "Found across many climatic regions",
+  quotes: [
+"> All wealth belongs to the Divine and those who hold it are trustees, not possessors. It is with them today, tomorrow it may be elsewhere. All depends on the way they discharge their trust while it is with them, in what spirit, with what consciousness in their use of it, to what purpose.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p3)</small>",
+
+"> Most spiritual disciplines insist on a complete self-control, detachment and renunciation of all bondage to wealth and of all personal and egoistic desire for its possession. Some even put a ban on money and riches and proclaim poverty and bareness of life as the only spiritual condition. But this is an error; it leaves the power in the hands of the hostile forces. To reconquer it for the Divine to whom it belongs and use it divinely for the divine life is the supramental way for the Sadhaka.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p1)</small>",
+
+"> The ideal Sadhaka in this kind is one who if required to live poorly can so live and no sense of want will affect him or interfere with the full inner play of the divine consciousness, and if he is required to live richly, can so live and never for a moment fall into desire or attachment to his wealth or to the things that he uses or servitude to self-indulgence or a weak bondage to the habits that the possession of riches creates. The divine Will is all for him and the divine Ananda.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p7)</small>"
+  ],
   image_url: "cactus.jpg",
   thumbnail_url: "cactus_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1730,6 +2605,19 @@ cactus_night_flower = Flower.create!(
   size: "Large",
   place: "Native to tropical South America",
   climate: "Tropical",
+  quotes: [
+"> All wealth belongs to the Divine and those who hold it are trustees, not possessors. It is with them today, tomorrow it may be elsewhere. All depends on the way they discharge their trust while it is with them, in what spirit, with what consciousness in their use of it, to what purpose.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p3)</small>",
+
+"> Most spiritual disciplines insist on a complete self-control, detachment and renunciation of all bondage to wealth and of all personal and egoistic desire for its possession. Some even put a ban on money and riches and proclaim poverty and bareness of life as the only spiritual condition. But this is an error; it leaves the power in the hands of the hostile forces. To reconquer it for the Divine to whom it belongs and use it divinely for the divine life is the supramental way for the Sadhaka.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p1)</small>",
+
+"> The ideal Sadhaka in this kind is one who if required to live poorly can so live and no sense of want will affect him or interfere with the full inner play of the divine consciousness, and if he is required to live richly, can so live and never for a moment fall into desire or attachment to his wealth or to the things that he uses or servitude to self-indulgence or a weak bondage to the habits that the possession of riches creates. The divine Will is all for him and the divine Ananda.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p7)</small>"
+  ],
   image_url: "cactus_night_flower.jpg",
   thumbnail_url: "cactus_night_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1748,6 +2636,19 @@ barrel_cactus = Flower.create!(
   size: "Very large",
   place: "Native to South Brazil, Uruguay, and northern Argentina",
   climate: "Tropical and subtropical",
+  quotes: [
+"> All wealth belongs to the Divine and those who hold it are trustees, not possessors. It is with them today, tomorrow it may be elsewhere. All depends on the way they discharge their trust while it is with them, in what spirit, with what consciousness in their use of it, to what purpose.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p3)</small>",
+
+"> Most spiritual disciplines insist on a complete self-control, detachment and renunciation of all bondage to wealth and of all personal and egoistic desire for its possession. Some even put a ban on money and riches and proclaim poverty and bareness of life as the only spiritual condition. But this is an error; it leaves the power in the hands of the hostile forces. To reconquer it for the Divine to whom it belongs and use it divinely for the divine life is the supramental way for the Sadhaka.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p1)</small>",
+
+"> The ideal Sadhaka in this kind is one who if required to live poorly can so live and no sense of want will affect him or interfere with the full inner play of the divine consciousness, and if he is required to live richly, can so live and never for a moment fall into desire or attachment to his wealth or to the things that he uses or servitude to self-indulgence or a weak bondage to the habits that the possession of riches creates. The divine Will is all for him and the divine Ananda.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p7)</small>"
+  ],
   image_url: "barrel_cactus.jpg",
   thumbnail_url: "barrel_cactus_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1766,6 +2667,15 @@ leaf_cactus = Flower.create!(
   size: "Medium-sized",
   place: "Native to the region between Brazil and Mexico",
   climate: "Tropical",
+  quotes: [
+"> It is never good to tell a lie, but here its results cannot but be disastrous, for falsehood is the very symbol of that which wants to oppose the divine work of Truth.
+> 
+> <small>The Mother, [*Some Answers from the Mother: Letters to a Young Sadhak - IX*](http://incarnateword.in/cwm/16/letters-to-a-young-sadhak-ix#p27)</small>",
+
+"> To speak always the truth is the highest title of nobility.
+> 
+> <small>The Mother, [*Words of the Mother - II: Speak always the Truth*](http://incarnateword.in/cwm/14/speak-always-the-truth#p1)</small>"
+  ],
   image_url: "leaf_cactus.jpg",
   thumbnail_url: "leaf_cactus_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1785,6 +2695,19 @@ night_blooming_cereus = Flower.create!(
   size: "Large",
   place: "Found in Central America, the Caribbean, and northern South America",
   climate: "Tropical",
+  quotes: [
+"> All wealth belongs to the Divine and those who hold it are trustees, not possessors. It is with them today, tomorrow it may be elsewhere. All depends on the way they discharge their trust while it is with them, in what spirit, with what consciousness in their use of it, to what purpose.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p3)</small>",
+
+"> Most spiritual disciplines insist on a complete self-control, detachment and renunciation of all bondage to wealth and of all personal and egoistic desire for its possession. Some even put a ban on money and riches and proclaim poverty and bareness of life as the only spiritual condition. But this is an error; it leaves the power in the hands of the hostile forces. To reconquer it for the Divine to whom it belongs and use it divinely for the divine life is the supramental way for the Sadhaka.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p1)</small>",
+
+"> The ideal Sadhaka in this kind is one who if required to live poorly can so live and no sense of want will affect him or interfere with the full inner play of the divine consciousness, and if he is required to live richly, can so live and never for a moment fall into desire or attachment to his wealth or to the things that he uses or servitude to self-indulgence or a weak bondage to the habits that the possession of riches creates. The divine Will is all for him and the divine Ananda.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p7)</small>"
+  ],
   image_url: "night_blooming_cereus.jpg",
   thumbnail_url: "night_blooming_cereus_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1796,13 +2719,44 @@ cup_and_saucer = Flower.create!(
   other_names: "Canterbury Bells",
   bot_name: "Campanula medium",
   family: "Campanulaceae",
-  significance: "Joy’s Call",
+  significance: "Joy's Call",
   comment: "It is modest and rarely makes itself heard.",
   description: "Medium-sized blue campanulate flowers in open racemes. A hairy biennial herb with rosette leaves.",
   colour: "Blue",
   size: "Medium-sized",
   place: "Native to southern Europe; cultivated in North America and European countries",
   climate: "Temperate",
+  quotes: [
+"> There is nothing spiritually wrong in being glad and cheerful, on the contrary it is the right thing.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Cheerfulness and Happiness*](http://incarnateword.in/cwsa/31/cheerfulness-and-happiness#p3)</small>",
+
+"> Cheerfulness is the salt of sadhana. It is a thousand times better than gloominess.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Cheerfulness and Happiness*](http://incarnateword.in/cwsa/31/cheerfulness-and-happiness#p1)</small>",
+
+"> A hidden Bliss is at the root of things.
+> 
+> A mute Delight regards Time's countless works:
+> To house God's joy in things Space gave wide room,
+> To house God's joy in self our souls were born.
+> 
+> This universe an old enchantment guards;
+> Its objects are carved cups of World-Delight
+> Whose charmed wine is some deep soul's rapture-drink:
+> The All-Wonderful has packed heaven with his dreams,
+> He has made blank ancient Space his marvel-house;
+> He spilled his spirit into Matter's signs:
+> His fires of grandeur burn in the great sun,
+> He glides through heaven shimmering in the moon;
+> He is beauty carolling in the fields of sound;
+> He chants the stanzas of the odes of Wind;
+> He is silence watching in the stars at night;
+> He wakes at dawn and calls from every bough,
+> Lies stunned in the stone and dreams in flower and tree.
+> 
+> <small>Sri Aurobindo, [*Savitri - II: The Debate of Love and Death*](http://incarnateword.in/cwsa/34/the-debate-of-love-and-death#p81-p83)</small>"
+  ],
   image_url: "cup_and_saucer.jpg",
   thumbnail_url: "cup_and_saucer_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1821,6 +2775,15 @@ edging_lobelia = Flower.create!(
   size: "Tiny",
   place: "Native to southern Africa, from Malawi and Namibia south to South Africa",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Sri Aurobindo came to tell the world of the beauty of the future that must be realised.
+> 
+> He came to give not a hope but a certitude of the splendour towards which the world moves. The world is not an unfortunate accident, it is a marvel which moves towards its expression.
+> 
+> The world needs the certitude of the beauty of the future. And Sri Aurobindo has given that assurance.
+> 
+> <small>The Mother, [*Words of the Mother - I: Centenary*](http://incarnateword.in/cwm/13/centenary#p21-p23)</small>"
+  ],
   image_url: "edging_lobelia.jpg",
   thumbnail_url: "edging_lobelia_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1839,6 +2802,11 @@ balloon_flower = Flower.create!(
   size: "Medium-sized",
   place: "Native to East Asia (China, Korea, Japan, and East Siberia)",
   climate: "Subtropical to temperate",
+  quotes: [
+"> [Unostentatious certitude] is the complete negation of 'bluff.' I find it very beautiful. When I saw this flower, it struck me as something very profound, very calm—absolutely sure, immobile. I don't know why, but the longer I looked at it, the more it gave that impression and when I was asked its significance, I said, 'Unostentatious Certitude.' It's what one might call a superlative good-taste in the realm of spiritual experience: something with greater content than it expresses.
+> 
+> <small>The Mother, [*Mother's Agenda: September 30, 1961*](http://incarnateword.in/agenda/02/september-30-1961#p2)</small>"
+  ],
   image_url: "balloon_flower.jpg",
   thumbnail_url: "balloon_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1858,6 +2826,19 @@ spider_flower = Flower.create!(
   size: "Small",
   place: "Native to southern South America",
   climate: "Subtropical to temperate",
+  quotes: [
+"> There is no deep meaning [*of aspiration*]—the meaning is plain. It is the call of the being for higher things—for the Divine, for all that belongs to the higher or Divine Consciousness.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Aspiration*](http://incarnateword.in/cwsa/29/aspiration#p10)</small>",
+
+"> This taste for supreme adventure is aspiration–an aspiration which takes hold of you completely and flings you, without calculation and without reserve and without a possibility of withdrawal, into the great adventure of the divine discovery, the great adventure of the divine meeting, the yet greater adventure of the divine Realisation.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 25 January 1956*](http://incarnateword.in/cwm/08/25-january-1956#p58)</small>",
+
+"> Aspiration is like an arrow, like this (*gesture*). So you aspire, want *very* earnestly to understand, know, enter into the truth. Yes? And then with that aspiration you do this (*gesture*). Your aspiration rises, rises, rises, rises straight up, very strong and then it strikes against a kind of… how to put it?… lid which is there, hard like iron and extremely thick, and it does not pass through. And then you say, \"See, what's the use of aspiring? It brings nothing at all. I meet with something hard and cannot pass!\" But you know about the drop of water which falls on the rock, it ends up by making a chasm: it cuts the rock from top to bottom. Your aspiration is a drop of water which, instead of falling, rises. So, by dint of rising, it beats, beats, beats, and one day it makes a hole, by dint of rising; and when it makes the hole suddenly it springs out from this lid and enters an immensity of light, and you say, \"Ah, now I understand.\"
+> 
+> <small>The Mother, [*Questions and Answers 1955: 13 July 1955*](http://incarnateword.in/cwm/07/13-july-1955#p25)</small>"
+  ],
   image_url: "spider_flower.jpg",
   thumbnail_url: "spider_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1876,6 +2857,19 @@ thorn_straggler = Flower.create!(
   size: "Medium-sized",
   place: "Found mainly in southern India",
   climate: "Tropical",
+  quotes: [
+"> There is no deep meaning [*of aspiration*]—the meaning is plain. It is the call of the being for higher things—for the Divine, for all that belongs to the higher or Divine Consciousness.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Aspiration*](http://incarnateword.in/cwsa/29/aspiration#p10)</small>",
+
+"> This taste for supreme adventure is aspiration–an aspiration which takes hold of you completely and flings you, without calculation and without reserve and without a possibility of withdrawal, into the great adventure of the divine discovery, the great adventure of the divine meeting, the yet greater adventure of the divine Realisation.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 25 January 1956*](http://incarnateword.in/cwm/08/25-january-1956#p58)</small>",
+
+"> Aspiration is like an arrow, like this (*gesture*). So you aspire, want *very* earnestly to understand, know, enter into the truth. Yes? And then with that aspiration you do this (*gesture*). Your aspiration rises, rises, rises, rises straight up, very strong and then it strikes against a kind of… how to put it?… lid which is there, hard like iron and extremely thick, and it does not pass through. And then you say, \"See, what's the use of aspiring? It brings nothing at all. I meet with something hard and cannot pass!\" But you know about the drop of water which falls on the rock, it ends up by making a chasm: it cuts the rock from top to bottom. Your aspiration is a drop of water which, instead of falling, rises. So, by dint of rising, it beats, beats, beats, and one day it makes a hole, by dint of rising; and when it makes the hole suddenly it springs out from this lid and enters an immensity of light, and you say, \"Ah, now I understand.\"
+> 
+> <small>The Mother, [*Questions and Answers 1955: 13 July 1955*](http://incarnateword.in/cwm/07/13-july-1955#p25)</small>"
+  ],
   image_url: "thorn_straggler.jpg",
   thumbnail_url: "thorn_straggler_thumbnail.jpg",
   source: "Jayesh Patil",
@@ -1894,6 +2888,15 @@ caper_tree = Flower.create!(
   size: "Medium-sized",
   place: "Native to Japan, Australia, much of Southeast Asia, and several South Pacific islands; also cultivated in Africa",
   climate: "Found across a wide range of climates",
+  quotes: [
+"> Higher Mind is one of the planes of the spiritual mind, the first and lowest of them; it is above the normal mental level.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Classification of the Parts of the Being*](http://incarnateword.in/cwsa/28/classification-of-the-parts-of-the-being#p12)</small>",
+
+"> I mean by the Higher Mind a first plane of spiritual [consciousness] where one becomes constantly and closely aware of the Self, the One everywhere and knows and sees things habitually with that awareness; but it is still very much on the mind level although highly spiritual in its essential substance; and its instrumentation is through an elevated thought-power and comprehensive mental sight—not illumined by any of the intenser upper lights but as if in a large strong and clear daylight. It acts as an intermediate state between the Truth-Light above and the human mind; communicating the higher knowledge in a form that the Mind intensified, broadened, made spiritually supple, can receive without being blinded or dazzled by a Truth beyond it.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Higher Mind and Poetic Intelligence*](http://incarnateword.in/cwsa/27/higher-mind-and-poetic-intelligence#p1)</small>"
+  ],
   image_url: "caper_tree.jpg",
   thumbnail_url: "caper_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1913,6 +2916,11 @@ japanese_honeysuckle = Flower.create!(
   size: "Small",
   place: "Native to eastern Asia including China, Japan, and Korea",
   climate: "Subtropical to temperate",
+  quotes: [
+"> It is by the constant remembrance that the being is prepared for the full opening. By the opening of the heart the Mother's presence begins to be felt and by the opening to her Power above the Force of the higher consciousness comes down into the body and works there to change the whole nature.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: Opening and Presence*](http://incarnateword.in/cwsa/32/opening-and-presence#p3)</small>"
+  ],
   image_url: "japanese_honeysuckle.jpg",
   thumbnail_url: "japanese_honeysuckle_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1950,6 +2958,27 @@ japanese_snowball = Flower.create!(
   size: "Small",
   place: "Native to mainland China, Korea, Japan, and Taiwan",
   climate: "Subtropical to temperate",
+  quotes: [
+"> This is purity, to accept no other influence but only the influence of the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Purity*](http://incarnateword.in/cwm/14/purity#p2)</small>",
+
+"> One is truly perfectly pure only when the whole being, in all its elements and all its movements, adheres fully, exclusively, to the divine Will. This indeed is total purity. It does not depend on any moral or social law, any mental convention of any kind. It depends exclusively on this: when all the elements and all the movements of the being adhere exclusively and totally to the divine Will.
+> 
+> <small>The Mother, [*Questions and Answers 1954: 22 December 1954*](http://incarnateword.in/cwm/06/22-december-1954#p18)</small>",
+
+"> What I call purity, the true purity, is not all those things morality teaches: it is non-ego.
+> 
+> There must be nothing but Him.
+> 
+> Him, not only because we have given Him everything and consecrated ourselves totally to Him (that is not enough), but Him because He has taken total possession of the human instrument.
+> 
+> <small>The Mother, [*Mother's Agenda: May 21, 1960*](http://incarnateword.in/agenda/01/may-21-1960#p1-p3)</small>",
+
+"> There is a force of purity, not the purity of the moralist, but an essential purity of spirit, in the very substance of the being.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Sex*](http://incarnateword.in/cwsa/31/sex#p90)</small>"
+  ],
   image_url: "japanese_snowball.jpg",
   thumbnail_url: "japanese_snowball_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1967,6 +2996,15 @@ sweet_william = Flower.create!(
   size: "Small",
   place: "Native to southern Europe and parts of Asia",
   climate: "Temperate",
+  quotes: [
+"> Obedience is necessary so as to get away from one's own mind and vital and learn to follow the Truth.
+> 
+> <small>Sri Aurobindo, [*Letters on Himself and the Ashram: Importance of Obedience*](http://incarnateword.in/cwsa/35/importance-of-obedience#p7)</small>",
+
+"> In Yoga obedience to the Guru or to the Divine and the law of the Truth as declared by the Guru is the foundation of discipline.
+> 
+> <small>Sri Aurobindo, [*Letters on Himself and the Ashram: Discipline Defined*](http://incarnateword.in/cwsa/35/discipline-defined#p2)</small>"
+  ],
   image_url: "sweet_william.jpg",
   thumbnail_url: "sweet_william_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -1985,6 +3023,17 @@ carnation = Flower.create!(
   size: "Medium-sized",
   place: "Native to the Mediterranean region, but cultivated widely across temperate regions",
   climate: "Mediterranean and temperate",
+  quotes: [
+"> Collaboration and reciprocal goodwill are indispensable for good work.
+> 
+> <small>The Mother, [*Words of the Mother - II: Collaboration and Harmony in Work*](http://incarnateword.in/cwm/14/collaboration-and-harmony-in-work#p34)</small>",
+
+"> It is only in harmonious collaboration that effective work can be done.
+> 
+> The important thing is to find the point on which you can all agree—and after this is firmly established, each one must be ready to yield his personal will in order to keep intact this point of harmony.
+> 
+> <small>The Mother, [*Words of the Mother - II: Collaboration and Harmony in Work*](http://incarnateword.in/cwm/14/collaboration-and-harmony-in-work#p43-p44)</small>"
+  ],
   image_url: "carnation.jpg",
   thumbnail_url: "carnation_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2003,6 +3052,51 @@ babys_breath = Flower.create!(
   size: "Tiny",
   place: "Native to Asia and Europe",
   climate: "Subtropical to temperate",
+  quotes: [
+"> Let beauty be your constant ideal.
+> 
+> The beauty of the soul
+> 
+> The beauty of sentiments
+> 
+> The beauty of thoughts
+> 
+> The beauty of the action
+> 
+> The beauty in the work
+> 
+> so that nothing comes out of your hands which is not an expression of pure and harmonious beauty.
+> 
+> And the Divine Help shall always be with you.
+> 
+> <small>The Mother, [*On Education: Curriculum*](http://incarnateword.in/cwm/12/curriculum#p215-p222)</small>",
+
+"> In the world of forms a violation of Beauty is as great a fault as a violation of Truth in the world of ideas. For Beauty is the worship Nature offers to the supreme Master of the universe; Beauty is the divine language in forms. And a consciousness of the Divine which is not translated externally by an understanding and expression of Beauty would be an incomplete consciousness.
+> 
+> <small>The Mother, [*Prayers and Meditations: January 29, 1917*](http://incarnateword.in/cwm/01/january-29-1917#p1)</small>",
+
+"> Delight is the soul of existence, beauty the intense impression, the concentrated form of delight.
+> 
+> <small>Sri Aurobindo, [*The Future Poetry: The Soul of Poetic Delight and Beauty*](http://incarnateword.in/cwsa/26/the-soul-of-poetic-delight-and-beauty#p1)</small>",
+
+"> Beauty is Ananda taking form—but the form need not be a physical shape. One speaks of a beautiful thought, a beautiful act, a beautiful soul. What we speak of as beauty is Ananda in manifestation.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Art, Beauty and Ananda*](http://incarnateword.in/cwsa/27/art-beauty-and-ananda#p3)</small>",
+
+"> Beauty is the special divine Manifestation in the physical as Truth is in the mind, Love in the heart, Power in the vital. Supramental beauty is the highest divine beauty manifesting in Matter.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Beauty*](http://incarnateword.in/cwsa/27/beauty#p4)</small>",
+
+"> The one rule of the gnostic life would be the self-expression of the Spirit, the will of the Divine Being; that will, that self-expression could manifest through extreme simplicity or through extreme complexity and opulence or in their natural balance,—for beauty and plenitude, a hidden sweetness and laughter in things, a sunshine and gladness of life are also powers and expressions of the Spirit.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Divine Life*](http://incarnateword.in/cwsa/22/the-divine-life#p53)</small>",
+
+"> Beauty is his footprint showing us where he has passed,
+> Love is his heart-beats' rhythm in mortal breasts,
+> Happiness the smile on his adorable face.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Kingdom of Subtle Matter*](http://incarnateword.in/cwsa/33/the-kingdom-of-subtle-matter#p75)</small>"
+  ],
   image_url: "babys_breath.jpg",
   thumbnail_url: "babys_breath_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2075,6 +3169,15 @@ rangoon_creeper = Flower.create!(
   size: "Medium-sized",
   place: "Found in Asia",
   climate: "Found across a wide range of climates",
+  quotes: [
+"> This is faithfulness, to admit and to manifest no other movements but only the movements prompted and guided by the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Faithfulness*](http://incarnateword.in/cwm/14/faithfulness#p3)</small>",
+
+"> When I spoke of being faithful to the light of the soul and the divine Call, I was not referring to anything in the past or to any lapse on your part. I was simply suggesting the great need in all crises and attacks,—to refuse to listen to any suggestions, impulses, lures and to oppose to them all the call of the Truth, the imperative beckoning of the Light. In all doubt and depression, to say \"I belong to the Divine, I cannot fail\"; to all suggestions of impurity and unfitness, to reply \"I am a child of Immortality chosen by Sri Aurobindo and the Mother; I have but to be true to myself and to them—the victory is sure; even if I fell, I would be sure to rise again\"; to all impulsions to depart and serve some other ideal, to reply \"This is the greatest, this is the Truth, this alone can satisfy the soul within me; I will endure through all tests and tribulations to the very end of the divine journey.\" This is what I mean by faithfulness to the Light and the Call.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: Faithfulness to the Light and the Call*](http://incarnateword.in/cwsa/32/faithfulness-to-the-light-and-the-call#p1)</small>"
+  ],
   image_url: "rangoon_creeper.jpg",
   thumbnail_url: "rangoon_creeper_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2094,6 +3197,23 @@ tropical_almond = Flower.create!(
   size: "Tiny",
   place: "Grows mainly in the tropical regions of Asia, Africa, and Australia",
   climate: "Tropical",
+  quotes: [
+"> We can, simply by a sincere aspiration, open a sealed door in us and find… that Something which will change the whole significance of life, reply to all our questions, solve all our problems and lead us to the perfection we aspire for without knowing it, to that Reality which *alone* can satisfy us and give us lasting joy, equilibrium, strength, life.
+> 
+> All this you have heard many a time.
+> 
+> You have heard it—Oh! There are even some here who are so used to it that for them it seems to be the same thing as drinking a glass of water or opening a window to let in the sunlight.
+>
+> We have tried a little, but now we are going to try seriously!
+> 
+> The starting-point: to want it, truly want it, to need it. The next step: to think, *above all*, of that. A day comes, very quickly, when one is unable to think of anything else.
+> 
+> That is the one thing which counts. And then…
+> 
+> One formulates one's aspiration, lets the true prayer spring up from one's heart, the prayer which expresses the sincerity of the need. And then… well, one will see what happens.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 13 August 1958*](http://incarnateword.in/cwm/09/13-august-1958#p31-p33)</small>"
+  ],
   image_url: "tropical_almond.jpg",
   thumbnail_url: "tropical_almond_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2130,6 +3250,24 @@ oyster_plant = Flower.create!(
   size: "Tiny",
   place: "Native to the Caribbean and Central America",
   climate: "Tropical",
+  quotes: [
+"> His laughter of beauty breaks out in green trees,
+> His moments of beauty triumph in a flower;
+> The blue sea's chant, the rivulet's wandering voice
+> Are murmurs falling from the Eternal's harp.
+> 
+> This world is God fulfilled in outwardness.
+> 
+> <small>Sri Aurobindo, [*Savitri - II: The Debate of Love and Death*](http://incarnateword.in/cwsa/34/the-debate-of-love-and-death#p31-p32)</small>",
+
+"> It is intended by the word Presence to indicate the sense and perception of the Divine as a Being, felt as present in one's existence and consciousness or in relation with it, without the necessity of any farther qualification or description. Thus of the \"ineffable Presence\" it can only be said that it is there and nothing more can or need be said about it, although at the same time one knows that all is there, personality and impersonality, Power and Light and Ananda and everything else, and that all these flow from that indescribable Presence. The word may be used sometimes in a less absolute sense, but that is always the fundamental significance,—the essential perception of the essential presence supporting everything else.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Terminology*](http://incarnateword.in/cwsa/28/terminology#p18)</small>",
+
+"> It is the Divine Presence that gives value to life. This Presence is the source of all peace, all joy, all security.
+> 
+> <small>The Mother, [*Words of the Mother - II: The Divine is with You*](http://incarnateword.in/cwm/14/the-divine-is-with-you#p79)</small>"
+  ],
   image_url: "oyster_plant.jpg",
   thumbnail_url: "oyster_plant_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2185,6 +3323,15 @@ stemless_carline_thistle = Flower.create!(
   size: "Large",
   place: "Native to alpine regions of central and southern Europe",
   climate: "Temperate",
+  quotes: [
+"> This is faithfulness, to admit and to manifest no other movements but only the movements prompted and guided by the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Faithfulness*](http://incarnateword.in/cwm/14/faithfulness#p3)</small>",
+
+"> When I spoke of being faithful to the light of the soul and the divine Call, I was not referring to anything in the past or to any lapse on your part. I was simply suggesting the great need in all crises and attacks,—to refuse to listen to any suggestions, impulses, lures and to oppose to them all the call of the Truth, the imperative beckoning of the Light. In all doubt and depression, to say \"I belong to the Divine, I cannot fail\"; to all suggestions of impurity and unfitness, to reply \"I am a child of Immortality chosen by Sri Aurobindo and the Mother; I have but to be true to myself and to them—the victory is sure; even if I fell, I would be sure to rise again\"; to all impulsions to depart and serve some other ideal, to reply \"This is the greatest, this is the Truth, this alone can satisfy the soul within me; I will endure through all tests and tribulations to the very end of the divine journey.\" This is what I mean by faithfulness to the Light and the Call.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: Faithfulness to the Light and the Call*](http://incarnateword.in/cwsa/32/faithfulness-to-the-light-and-the-call#p1)</small>"
+  ],
   image_url: "stemless_carline_thistle.jpg",
   thumbnail_url: "stemless_carline_thistle_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2238,6 +3385,11 @@ barberton_daisy = Flower.create!(
   petals: "Numerous",
   size: "Medium-sized",
   place: "Indigenous to South Eastern Africa",
+  quotes: [
+"> Those who are not straightforward cannot profit by the Mother's help, for they themselves turn it away. Unless they change, they cannot hope for the descent of the supramental Light and Truth into the lower vital and physical nature; they remain stuck in their own self-created mud and cannot progress.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Lower Vital Being*](http://incarnateword.in/cwsa/31/the-lower-vital-being#p9)</small>"
+  ],
   climate: "Tropical and subtropical",
   image_url: "barberton_daisy.jpg",
   thumbnail_url: "barberton_daisy_thumbnail.jpg",
@@ -2258,6 +3410,15 @@ strawflower = Flower.create!(
   size: "Small",
   place: "Native to Australia",
   climate: "Subtropical to temperate",
+  quotes: [
+"> The Supramental by its very definition is Truth Consciousness, Truth in possession of itself and fulfilling itself by its own power.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Descent and Transformation*](http://incarnateword.in/cwsa/28/descent-and-transformation#p3)</small>",
+
+"> The Supermind is in its very essence a truth-consciousness, a consciousness always free from the Ignorance which is the foundation of our present natural or evolutionary existence and from which nature in us is trying to arrive at self-knowledge and world-knowledge and a right consciousness and the right use of our existence in the universe. The Supermind, because it is a truth-consciousness, has this knowledge inherent in it and this power of true existence; its course is straight and can go direct to its aim, its field is wide and can even be made illimitable. This is because its very nature is knowledge: it has not to acquire knowledge but possesses it in its own right…
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Supermind and the Life Divine*](http://incarnateword.in/cwsa/13/supermind-and-the-life-divine#p2)</small>"
+  ],
   image_url: "strawflower.jpg",
   thumbnail_url: "strawflower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2275,6 +3436,17 @@ edelweiss = Flower.create!(
   size: "Small",
   place: "Native to the mountains of Europe; cultivated in other regions of Eurasia",
   climate: "Temperate",
+  quotes: [
+"> To find highest beauty is to find God; to reveal, to embody, to create, as we say, highest beauty is to bring out of our souls the living image and power of God.
+> 
+> <small>Sri Aurobindo, [*The Human Cycle: The Suprarational Beauty*](http://incarnateword.in/cwsa/25/the-suprarational-beauty#p11)</small>",
+
+"> Spiritual beauty illumining human sight
+> Lines with its passion and mystery Matter's mask
+> And squanders eternity on a beat of Time.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Symbol Dawn*](http://incarnateword.in/cwsa/33/the-symbol-dawn#p40)</small>"
+  ],
   image_url: "edelweiss.jpg",
   thumbnail_url: "edelweiss_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2328,6 +3500,11 @@ black_eyed_susan = Flower.create!(
   size: "Medium to large",
   place: "Native to the Eastern and Central United States",
   climate: "Subtropical to temperate",
+  quotes: [
+"> The lower vital aspires by offering all its small movements in the fire of purification, by calling for the light and power to descend into it and rid it of its little greeds, jealousies, resistances and revolts over small matters, angers, vanities, sexualities etc. to be replaced by the right movements governed by selflessness, purity, obedience to the urge of the Divine Force in all things.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Lower Vital Being*](http://incarnateword.in/cwsa/31/the-lower-vital-being#p51)</small>"
+  ],
   image_url: "black_eyed_susan.jpg",
   thumbnail_url: "black_eyed_susan_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2362,6 +3539,19 @@ marigold = Flower.create!(
   size: "Medium to large",
   place: "Native to North and South America, some species having been naturalized around the world",
   climate: "Found across temperate, subtropical, and tropical climates",
+  quotes: [
+"> That which can easily change its form is \"plastic\". Figuratively, it is suppleness, a capacity of adaptation to circumstances and necessities. When I ask you to be plastic in relation to the Divine, I mean not to resist the Divine with the rigidity of preconceived ideas and fixed principles.
+> 
+> <small>The Mother, [*Questions and Answers 1950 - 1951: 14 March 1951*](http://incarnateword.in/cwm/04/14-march-1951#p4)</small>",
+
+"> The physical being and physical consciousness must be very plastic to be able to lend themselves to all the necessary changes, so as to be of one kind one day and another the next, and so on.
+> 
+> <small>The Mother, [*Questions and Answers 1950 - 1951: 28 April 1951*](http://incarnateword.in/cwm/04/28-april-1951#p12)</small>",
+
+"> The supramental body which has to be brought into being here has four main attributes: lightness, adaptability, plasticity and luminosity… Supramental plasticity will enable it to stand the attack of every hostile force which strives to pierce it: it will present no dull resistance to the attack but will be, on the contrary, so pliant as to nullify the force by giving way to it to pass off. Thus it will suffer no harmful consequences and the most deadly attacks will leave it unscathed.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: True Humility - Supramental Plasticity - Spiritual Rebirth*](http://incarnateword.in/cwm/03/true-humility-supramental-plasticity-spiritual-rebirth#p2)</small>"
+  ],
   image_url: "marigold.jpg",
   thumbnail_url: "marigold_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2398,6 +3588,18 @@ creeping_daisy = Flower.create!(
   size: "Small",
   place: "Found in Queensland, New South Wales, Victoria (Northern, Southern and Western Australia), and Tasmania",
   climate: "Subtropical to temperate",
+  quotes: [
+"> As soon as all effort disappears from a manifestation, it becomes very simple, with the simplicity of a flower opening, manifesting its beauty and spreading its fragrance without clamour or vehement gesture. And in this simplicity lies the greatest power, the power which is least mixed and least gives rise to harmful reactions…
+> Simplicity, simplicity! How sweet is the purity of Thy Presence!…
+> 
+> <small>The Mother, [*Prayers and Meditations: February 12, 1913*](http://incarnateword.in/cwm/01/february-12-1913#p1)</small>",
+
+"> Sri Aurobindo's answer is always the same: *Be simple, be simple, very simple.*
+> 
+> And I know what he means: to deny entry to regimenting, organising, prescriptive, judgmental thought—he wants none of all that. What he calls being simple is a joyous spontaneity; in action, in expression, in movement, in life—*be simple, be simple, be simple*. A joyous spontaneity.
+> 
+> <small>The Mother, [*Mother's Agenda: September 16, 1961*](http://incarnateword.in/agenda/02/september-16-1961#p14-p15)</small>"
+  ],
   image_url: "creeping_daisy.jpg",
   thumbnail_url: "creeping_daisy_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2433,6 +3635,19 @@ common_marigold = Flower.create!(
   size: "Medium-sized",
   place: "Native to southern Europe; cultivated widely across warm temperate regions",
   climate: "Warm temperate",
+  quotes: [
+"> The most essential quality is perseverance, endurance, and a… what shall I call it?– a kind of inner good humour which helps you not to get discouraged, not to become sad, and to face all difficulties with a smile. There is an English word which expresses this very well—cheerfulness. If you can keep this within you, you fight much better, resist much better, in the light, these bad influences which try to hinder you from progressing.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 18 January 1956*](http://incarnateword.in/cwm/08/18-january-1956#p8)</small>",
+
+"> It is by *persevering* that one conquers difficulties, not by running away from them. One who perseveres is sure to triumph. Victory goes to the most enduring.
+> 
+> <small>The Mother, [*Words of the Mother - II: Perseverance*](http://incarnateword.in/cwm/14/perseverance#p10)</small>",
+
+"> Perseverance is patience in action.
+> 
+> <small>The Mother, [*Words of the Mother - II: Perseverance*](http://incarnateword.in/cwm/14/perseverance#p2)</small>"
+  ],
   image_url: "common_marigold.jpg",
   thumbnail_url: "common_marigold_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2450,6 +3665,15 @@ chrysanthemum = Flower.create!(
   size: "Small",
   place: "Native to Asia (China) and northeastern Europe",
   climate: "Subtropical to temperate",
+  quotes: [
+"> [Life energy], life-force is not physical in itself; it is not material energy, but rather a different principle supporting Matter and involved in it. It supports and occupies all forms and without it no physical form could have come into being or could remain in being. It acts in all material forces such as electricity and is nearest to self-manifestation in those that are nearest to pure force; no material force could exist or act without it, for from it they derive their energy and movement and they are its vehicles.
+> 
+> <small>Sri Aurobindo, [*Kena and Other Upanishads: The Superlife—Life of Our Life*](http://incarnateword.in/cwsa/18/the-superlife-life-of-our-life#p3)</small>",
+
+"> The true Life-Force too reveals itself as no longer this troubled harassed divided striving surface energy, but a great and radiant Divine Power, full of peace and strength and bliss, a wide-wayed Angel of Life with its wings of Might enfolding the universe.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - II*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-ii#p23)</small>"
+  ],
   image_url: "chrysanthemum.jpg",
   thumbnail_url: "chrysanthemum_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2467,6 +3691,17 @@ tickweed = Flower.create!(
   size: "Small",
   place: "Found in Canada, Northeast Mexico, and much of the United States, especially the Great Plains and Southern states",
   climate: "Subtropical to temperate",
+  quotes: [
+"> Try to enjoy doing everything you do.
+> 
+> When you are interested in what you do, you enjoy doing it.
+> 
+> To be interested in what you do, you must try to do it better and better.
+> 
+> In progress lies true joy.
+> 
+> <small>The Mother, [*Words of the Mother - II: Progress and Perfection in Work*](http://incarnateword.in/cwm/14/progress-and-perfection-in-work#p9-p12)</small>"
+  ],
   image_url: "tickweed.jpg",
   thumbnail_url: "tickweed_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2501,6 +3736,15 @@ shasta_daisy = Flower.create!(
   size: "Large",
   place: "Originally from the subtropical and temperate Americas",
   climate: "Subtropical to temperate",
+  quotes: [
+"> [The Creative Word] is the word which creates.
+> 
+> There are all kinds of old traditions, old Hindu traditions, old Chaldean traditions in which the Divine, in the form of the Creator, that is, in His aspect as Creator, pronounces a word which has the power to create. So it is this… and it is the origin of the mantra. The mantra is the spoken word which has a creative power. An invocation is made and there is an answer to the invocation; or one makes a prayer and the prayer is granted. This is the Word, the Word which, in its sound… it is not only the idea, it is in the sound that there's a power of creation. It is the origin, you see, of the mantra.
+> 
+> In Indian mythology the creator God is Brahma, and I think that it was precisely his power which has been symbolised by this flower, \"The Creative Word\". And when one is in contact with it, the words spoken have a power of evocation or creation or formation or transformation; the words… sound always has a power; it has much more power than men think.
+> 
+> <small>The Mother, [*Questions and Answers 1955: 26 October 1955*](http://incarnateword.in/cwm/07/26-october-1955#p15-p17)</small>"
+  ],
   image_url: "shasta_daisy.jpg",
   thumbnail_url: "shasta_daisy_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2518,6 +3762,19 @@ curtain_creeper = Flower.create!(
   size: "Tiny",
   place: "Native to India, Burma, and Thailand; naturalised in southern Taiwan and Queensland, Australia",
   climate: "Tropical and subtropical",
+  quotes: [
+"> There is no deep meaning [*of aspiration*]—the meaning is plain. It is the call of the being for higher things—for the Divine, for all that belongs to the higher or Divine Consciousness.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Aspiration*](http://incarnateword.in/cwsa/29/aspiration#p10)</small>",
+
+"> This taste for supreme adventure is aspiration–an aspiration which takes hold of you completely and flings you, without calculation and without reserve and without a possibility of withdrawal, into the great adventure of the divine discovery, the great adventure of the divine meeting, the yet greater adventure of the divine Realisation.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 25 January 1956*](http://incarnateword.in/cwm/08/25-january-1956#p58)</small>",
+
+"> Aspiration is like an arrow, like this (*gesture*). So you aspire, want *very* earnestly to understand, know, enter into the truth. Yes? And then with that aspiration you do this (*gesture*). Your aspiration rises, rises, rises, rises straight up, very strong and then it strikes against a kind of… how to put it?… lid which is there, hard like iron and extremely thick, and it does not pass through. And then you say, \"See, what's the use of aspiring? It brings nothing at all. I meet with something hard and cannot pass!\" But you know about the drop of water which falls on the rock, it ends up by making a chasm: it cuts the rock from top to bottom. Your aspiration is a drop of water which, instead of falling, rises. So, by dint of rising, it beats, beats, beats, and one day it makes a hole, by dint of rising; and when it makes the hole suddenly it springs out from this lid and enters an immensity of light, and you say, \"Ah, now I understand.\"
+> 
+> <small>The Mother, [*Questions and Answers 1955: 13 July 1955*](http://incarnateword.in/cwm/07/13-july-1955#p25)</small>"
+  ],
   image_url: "curtain_creeper.jpg",
   thumbnail_url: "curtain_creeper_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2536,6 +3793,19 @@ west_indian_creeper = Flower.create!(
   size: "Small",
   place: "Generally found in tropical and subtropical regions of the world",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The most essential quality is perseverance, endurance, and a… what shall I call it?– a kind of inner good humour which helps you not to get discouraged, not to become sad, and to face all difficulties with a smile. There is an English word which expresses this very well—cheerfulness. If you can keep this within you, you fight much better, resist much better, in the light, these bad influences which try to hinder you from progressing.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 18 January 1956*](http://incarnateword.in/cwm/08/18-january-1956#p8)</small>",
+
+"> It is by *persevering* that one conquers difficulties, not by running away from them. One who perseveres is sure to triumph. Victory goes to the most enduring.
+> 
+> <small>The Mother, [*Words of the Mother - II: Perseverance*](http://incarnateword.in/cwm/14/perseverance#p10)</small>",
+
+"> Perseverance is patience in action.
+> 
+> <small>The Mother, [*Words of the Mother - II: Perseverance*](http://incarnateword.in/cwm/14/perseverance#p2)</small>"
+  ],
   image_url: "west_indian_creeper.jpg",
   thumbnail_url: "west_indian_creeper_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2553,6 +3823,15 @@ creeping_zinnia = Flower.create!(
   size: "Small",
   place: "Native to northern and western Mexico; naturalized in parts of Southwestern United States",
   climate: "Tropical and subtropical",
+   quotes: [
+"> Let endurance be your watchword: teach the life-force in you—your vital being—not to complain but to put up with all the conditions necessary for great achievement. The body is a very enduring servant, it bears the stress of circumstance tamely like a beast of burden. It is the vital being that is always grumbling and uneasy. The slavery and torture to which it subjects the physical is almost incalculable. How it twists and deforms the poor body to its own fads and fancies, irrationally demanding that everything should be shaped according to its whimsicality! But the very essence of endurance is that the vital should learn to give up its capricious likes and dislikes and preserve an equanimity in the midst of the most trying conditions.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Endurance - the Vital's Hunger for Praise - Signs of the Converted Vital*](http://incarnateword.in/cwm/03/endurance-the-vitals-hunger-for-praise-signs-of-the-converted-vital#p1)</small>",
+
+"> Nothing great is ever accomplished without endurance.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Endurance - the Vital's Hunger for Praise - Signs of the Converted Vital*](http://incarnateword.in/cwm/03/endurance-the-vitals-hunger-for-praise-signs-of-the-converted-vital#p2)</small>"
+  ],
   image_url: "creeping_zinnia.jpg",
   thumbnail_url: "creeping_zinnia_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2563,13 +3842,41 @@ slender_dwarf_morning_glory = Flower.create!(
   name: "Slender Dwarf Morning Glory",
   bot_name: "Evolvulus alsinoides",
   family: "Convolvulaceae",
-  significance: "First Sign of Krishna’s Light in Matter",
+  significance: "First Sign of Krishna's Light in Matter",
   comment: "It is the indication of the coming transformation.",
   description: "Tiny sky blue saucer-shaped flower with a white center and anthers; borne singly or in few-flowered clusters. A prostrate spreading perennial countryside herb.",
   colour: "Sky blue, white",
   size: "Tiny",
   place: "Found in tropical and warm-temperate regions of Australasia, Indomalaya, Polynesia, Sub-Saharan Africa, and the Americas",
   climate: "Tropical and warm temperate",
+  quotes: [
+"> At last I find a meaning of soul's birth
+> Into this universe terrible and sweet,
+> I who have felt the hungry heart of earth
+> Aspiring beyond heaven to Krishna's feet.
+> 
+> I have seen the beauty of immortal eyes,
+> And heard the passion of the Lover's flute,
+> And known a deathless ecstasy's surprise
+> And sorrow in my heart for ever mute.
+> 
+> Nearer and nearer now the music draws,
+> Life shudders with a strange felicity;
+> All Nature is a wide enamoured pause
+> Hoping her lord to touch, to clasp, to be.
+> 
+> For this one moment lived the ages past;
+> The world now throbs fulfilled in me at last.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Krishna*](http://incarnateword.in/cwsa/02/krishna#p1-p4)</small>",
+
+"> All music is only the sound of His laughter,
+> All beauty the smile of His passionate bliss;
+> Our lives are His heart-beats, our rapture the bridal
+> Of Radha and Krishna, our love is their kiss.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Who*](http://incarnateword.in/cwsa/02/who#p7)</small>",
+  ],
   image_url: "slender_dwarf_morning_glory.jpg",
   thumbnail_url: "slender_dwarf_morning_glory_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2588,6 +3895,15 @@ moonflower = Flower.create!(
   size: "Large",
   place: "Native to tropical and subtropical regions, from northern Argentina north to Mexico and Florida",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The Divine gives itself to those who give themselves without reserve and in all their parts to the Divine. For them the calm, the light, the power, the bliss, the freedom, the wideness, the heights of knowledge, the seas of Ananda.
+> 
+> <small>Sri Aurobindo, [*Letters on Himself and the Ashram: Darshan Messages*](http://incarnateword.in/cwsa/35/darshan-messages#p1)</small>",
+
+"> [The soul's inherent aspiration] is what comes up when there is the sheer self-giving, when \"I seek you for this, I seek you for that\" changes to a sheer \"I seek you for you.\" It is that marvellous and ineffable absolute in the Divine that Krishnaprem means when he says, \"Not knowledge nor this nor that, but Krishna.\" The pull of that is indeed a categorical imperative, the self in us drawn to the Divine because of the imperative call of its greater Self, the soul ineffably drawn towards the object of its adoration, because it cannot be otherwise, because it is it and He is He. That is all about it.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Seeking the Divine*](http://incarnateword.in/cwsa/29/seeking-the-divine#p13)</small>"
+  ],
   image_url: "moonflower.jpg",
   thumbnail_url: "moonflower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2605,6 +3921,15 @@ railway_creeper = Flower.create!(
   size: "Medium-sized",
   place: "Found in tropical and subtropical regions across the world",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Detachment [from the imperfections and weaknesses of one's nature] means that one stands back from them, does not identify oneself with them or get upset or troubled because they are there, but rather looks on them as something foreign to one's true consciousness and true self, rejects them and calls in the Mother's Force into these movements to eliminate them and bring the true consciousness and its movements there.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: Descent and the Lower Nature*](http://incarnateword.in/cwsa/30/descent-and-the-lower-nature#p12)</small>",
+
+"> You must always step back into yourself—learn to go deep within—step back and you will be safe. Do not lend yourself to the superficial forces which move in the outside world. Even if you are in a hurry to do something, step back for a while and you will discover to your surprise how much sooner and with what greater success your work can be done. If someone is angry with you, do not be caught in his vibrations but simply step back and his anger, finding no support or response, will vanish. Always keep your peace, resist all temptation to lose it. Never decide anything without stepping back, never speak a word without stepping back, never throw yourself into action without stepping back. All that belongs to the ordinary world is impermanent and fugitive, so there is nothing in it worth getting upset about. What is lasting, eternal, immortal and infinite—that indeed is worth having, worth conquering, worth possessing. It is Divine Light, Divine Love, Divine Life—it is also Supreme Peace, Perfect Joy and All-Mastery upon earth with the Complete Manifestation as the crowning.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Stepping Back*](http://incarnateword.in/cwm/03/stepping-back#p1)</small>"
+  ],
   image_url: "railway_creeper.jpg",
   thumbnail_url: "railway_creeper_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2622,6 +3947,25 @@ pink_morning_glory = Flower.create!(
   size: "Large",
   place: "Found in tropical and subtropical regions across the world",
   climate: "Tropical and subtropical",
+  quotes: [
+"> There is nothing which gives you a joy equal to that of gratitude. One hears a bird sing, sees a lovely flower, looks at a little child, observes an act of generosity, reads a beautiful sentence, looks at the setting sun, no matter what, suddenly this comes upon you, this kind of emotion—indeed so deep, so intense—that the world manifests the Divine, that there is something behind the world which is the Divine.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 25 January 1956*](http://incarnateword.in/cwm/08/25-january-1956#p56)</small>",
+
+"> And yet, of all movements, the one that gives perhaps the most joy—an unalloyed joy, untainted by that egoism—is spontaneous gratitude.
+> 
+> It is something very special. It isn't love, it isn't self-offering… It's a very FULL joy. Very full.
+> 
+> It is a very special vibration unlike anything other than itself. It is something that widens you, that fills you—that is so fervent!
+> 
+> It is certainly, of all the movements within the reach of human consciousness, the one that draws you the most out of your ego…
+>
+> When you can enter that vibration in its purity, you realize immediately that it has the same quality as the vibration of Love: it is directionless…
+>
+> Ultimately, gratitude is only a very slightly colored hue of the essential Vibration of Love.
+> 
+> <small>The Mother, [*Mother's Agenda: December 21, 1963*](http://incarnateword.in/agenda/04/december-21-1963#p33-p36)</small>"
+  ],
   image_url: "pink_morning_glory.jpg",
   thumbnail_url: "pink_morning_glory_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2639,6 +3983,15 @@ scarlet_morning_glory = Flower.create!(
   size: "Small",
   place: "Native to the Americas",
   climate: "Tropical and subtropical",
+  quotes: [
+"> When I speak of the physical consciousness, I mean the physical mind and the physical vital as well as the body consciousness proper.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Physical Consciousness*](http://incarnateword.in/cwsa/28/the-physical-consciousness#p2)</small>",
+
+"> In my view the body as well as the mind and life has to be spiritualised or, one may say, divinised so as to be a fit instrument and receptacle for the realisation and manifestation of the Divine. It has its part in the divine Lila, even, according to the Vaishnava sadhana, in the joy and beauty of Divine Love. That does not mean that the body has to be valued for its own separate sake or that the creation of a divine body in a future evolution of the whole being has to be contemplated as an end and not a means—that would be a serious error which would not be admissible. In any case, my speculations about an extreme form of divinisation are something in a far distance and are no part of the preoccupations of the spiritual life in the near future.
+> 
+> <small>Sri Aurobindo, [*Letters on Himself and the Ashram: Spiritual Force and the Body*](http://incarnateword.in/cwsa/35/spiritual-force-and-the-body#p3)</small>"
+  ],
   image_url: "scarlet_morning_glory.jpg",
   thumbnail_url: "scarlet_morning_glory_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2674,6 +4027,23 @@ blue_dawn_flower = Flower.create!(
   size: "Large",
   place: "Native to tropical habitats throughout the world",
   climate: "Tropical",
+  quotes: [
+"> Art is discovery and revelation of Beauty…
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Art for Art's Sake*](http://incarnateword.in/cwsa/27/art-for-arts-sake#p3)</small>",
+
+"> Art is nothing less in its fundamental truth than the aspect of beauty of the Divine manifestation.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 28 July 1929*](http://incarnateword.in/cwm/03/28-july-1929#p19)</small>",
+
+"> If you want art to be the true and highest art, it must be the expression of a divine world brought down into this material world.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 28 July 1929*](http://incarnateword.in/cwm/03/28-july-1929#p4)</small>",
+
+"> In a sense, spirituality is the highest art, the art of life; for it aims at creating a life of beauty pure in line, faultless in rhythm, replete with strength, illumined with light and vibrant with delight.
+> 
+> <small>Sri Aurobindo</small>"
+  ],
   image_url: "blue_dawn_flower.jpg",
   thumbnail_url: "blue_dawn_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2709,6 +4079,15 @@ cypress_vine = Flower.create!(
   size: "Small",
   place: "Native to tropical regions of the New World from northern South America north to Mexico",
   climate: "Tropical",
+  quotes: [
+"> When I speak of the physical consciousness, I mean the physical mind and the physical vital as well as the body consciousness proper.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Physical Consciousness*](http://incarnateword.in/cwsa/28/the-physical-consciousness#p2)</small>",
+
+"> In my view the body as well as the mind and life has to be spiritualised or, one may say, divinised so as to be a fit instrument and receptacle for the realisation and manifestation of the Divine. It has its part in the divine Lila, even, according to the Vaishnava sadhana, in the joy and beauty of Divine Love. That does not mean that the body has to be valued for its own separate sake or that the creation of a divine body in a future evolution of the whole being has to be contemplated as an end and not a means—that would be a serious error which would not be admissible. In any case, my speculations about an extreme form of divinisation are something in a far distance and are no part of the preoccupations of the spiritual life in the near future.
+> 
+> <small>Sri Aurobindo, [*Letters on Himself and the Ashram: Spiritual Force and the Body*](http://incarnateword.in/cwsa/35/spiritual-force-and-the-body#p3)</small>"
+  ],
   image_url: "cypress_vine.jpg",
   thumbnail_url: "cypress_vine_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2720,13 +4099,24 @@ skyblue_clustervine = Flower.create!(
   bot_name: "Jacquemontia pentantha",
   family: "Convolvulaceae",
   significance: "Hope",
-  comment: "Paves life’s way.",
+  comment: "Paves life's way.",
   description: "Small violet-blue five-lobed saucer-shaped flower with a lighter blue central star and a prominent tiny white center; borne in cymes. A delicate twiner.",
   colour: "Violet blue, white",
   petals: "Five",
   size: "Small",
   place: "Found in tropical regions, like Florida and Louisiana in the USA",
   climate: "Tropical",
+  quotes: [
+"> Our hopes are never too great for manifestation.
+> 
+> We cannot conceive of any thing that cannot be.
+> 
+> <small>The Mother, [*Words of the Mother - II: Enthusiasm and Straightforwardness*](http://incarnateword.in/cwm/14/enthusiasm-and-straightforwardness#p7-p8)</small>",
+
+"> Yes, you are right to have hope; it is hope which builds happy futures.
+> 
+> <small>The Mother, [*Some Answers from the Mother: Letters to a Young Sadhak - VII*](http://incarnateword.in/cwm/16/letters-to-a-young-sadhak-vii#p22)</small>"
+  ],
   image_url: "skyblue_clustervine.jpg",
   thumbnail_url: "skyblue_clustervine_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2745,6 +4135,25 @@ rock_rosemary = Flower.create!(
   size: "Small",
   place: "Originally from the tropical Americas, now naturalized in other tropical regions across the world",
   climate: "Tropical",
+  quotes: [
+"> There is nothing which gives you a joy equal to that of gratitude. One hears a bird sing, sees a lovely flower, looks at a little child, observes an act of generosity, reads a beautiful sentence, looks at the setting sun, no matter what, suddenly this comes upon you, this kind of emotion—indeed so deep, so intense—that the world manifests the Divine, that there is something behind the world which is the Divine.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 25 January 1956*](http://incarnateword.in/cwm/08/25-january-1956#p56)</small>",
+
+"> And yet, of all movements, the one that gives perhaps the most joy—an unalloyed joy, untainted by that egoism—is spontaneous gratitude.
+> 
+> It is something very special. It isn't love, it isn't self-offering… It's a very FULL joy. Very full.
+> 
+> It is a very special vibration unlike anything other than itself. It is something that widens you, that fills you—that is so fervent!
+> 
+> It is certainly, of all the movements within the reach of human consciousness, the one that draws you the most out of your ego…
+>
+> When you can enter that vibration in its purity, you realize immediately that it has the same quality as the vibration of Love: it is directionless…
+>
+> Ultimately, gratitude is only a very slightly colored hue of the essential Vibration of Love.
+> 
+> <small>The Mother, [*Mother's Agenda: December 21, 1963*](http://incarnateword.in/agenda/04/december-21-1963#p33-p36)</small>"
+  ],
   image_url: "rock_rosemary.jpg",
   thumbnail_url: "rock_rosemary_thumbnail.jpg",
   source: "Russian Academy of Sciences - Laboratory of Plant Biotechnology",
@@ -2763,6 +4172,25 @@ yellow_morning_glory = Flower.create!(
   size: "Medium-sized",
   place: "Native to Mexico",
   climate: "Tropical",
+  quotes: [
+"> There is nothing which gives you a joy equal to that of gratitude. One hears a bird sing, sees a lovely flower, looks at a little child, observes an act of generosity, reads a beautiful sentence, looks at the setting sun, no matter what, suddenly this comes upon you, this kind of emotion—indeed so deep, so intense—that the world manifests the Divine, that there is something behind the world which is the Divine.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 25 January 1956*](http://incarnateword.in/cwm/08/25-january-1956#p56)</small>",
+
+"> And yet, of all movements, the one that gives perhaps the most joy—an unalloyed joy, untainted by that egoism—is spontaneous gratitude.
+> 
+> It is something very special. It isn't love, it isn't self-offering… It's a very FULL joy. Very full.
+> 
+> It is a very special vibration unlike anything other than itself. It is something that widens you, that fills you—that is so fervent!
+> 
+> It is certainly, of all the movements within the reach of human consciousness, the one that draws you the most out of your ego…
+>
+> When you can enter that vibration in its purity, you realize immediately that it has the same quality as the vibration of Love: it is directionless…
+>
+> Ultimately, gratitude is only a very slightly colored hue of the essential Vibration of Love.
+> 
+> <small>The Mother, [*Mother's Agenda: December 21, 1963*](http://incarnateword.in/agenda/04/december-21-1963#p33-p36)</small>"
+  ],
   image_url: "yellow_morning_glory.jpg",
   thumbnail_url: "yellow_morning_glory_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2817,6 +4245,11 @@ lemonia = Flower.create!(
   size: "Small",
   place: "Native to Central and South America, and the Caribbean Islands; also naturalized in India, Pakistan, and Bangladesh",
   climate: "Tropical and subtropical",
+  quotes: [
+"> For your heart to remain happy keep it always filled with gratefulness. Gratefulness is the surest way to the Divine.
+> 
+> <small>The Mother</small>"
+  ],
   image_url: "lemonia.jpg",
   thumbnail_url: "lemonia_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2873,6 +4306,37 @@ wallflower = Flower.create!(
   size: "Small",
   place: "Native to Europe; widespread as an introduced species elsewhere",
   climate: "Temperate",
+  quotes: [
+"> There is nothing spiritually wrong in being glad and cheerful, on the contrary it is the right thing.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Cheerfulness and Happiness*](http://incarnateword.in/cwsa/31/cheerfulness-and-happiness#p3)</small>",
+
+"> Cheerfulness is the salt of sadhana. It is a thousand times better than gloominess.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Cheerfulness and Happiness*](http://incarnateword.in/cwsa/31/cheerfulness-and-happiness#p1)</small>",
+
+"> A hidden Bliss is at the root of things.
+> 
+> A mute Delight regards Time's countless works:
+> To house God's joy in things Space gave wide room,
+> To house God's joy in self our souls were born.
+> 
+> This universe an old enchantment guards;
+> Its objects are carved cups of World-Delight
+> Whose charmed wine is some deep soul's rapture-drink:
+> The All-Wonderful has packed heaven with his dreams,
+> He has made blank ancient Space his marvel-house;
+> He spilled his spirit into Matter's signs:
+> His fires of grandeur burn in the great sun,
+> He glides through heaven shimmering in the moon;
+> He is beauty carolling in the fields of sound;
+> He chants the stanzas of the odes of Wind;
+> He is silence watching in the stars at night;
+> He wakes at dawn and calls from every bough,
+> Lies stunned in the stone and dreams in flower and tree.
+> 
+> <small>Sri Aurobindo, [*Savitri - II: The Debate of Love and Death*](http://incarnateword.in/cwsa/34/the-debate-of-love-and-death#p81-p83)</small>"
+  ],
   image_url: "wallflower.jpg",
   thumbnail_url: "wallflower_thumbnail.jpg",
   source: "Bernhard Friess",
@@ -2891,6 +4355,15 @@ candytuft = Flower.create!(
   size: "Small",
   place: "Native to southern Europe",
   climate: "Temperate",
+  quotes: [
+"> The more a person is quiet in front of all occurrences, equal in all circumstances, and keeps a perfect mastery of himself and remains peaceful in the presence of whatever happens, the more he has progressed towards the goal.
+> 
+> <small>The Mother, [*Words of the Mother - II: Quiet*](http://incarnateword.in/cwm/14/quiet#p4)</small>",
+
+"> Equanimity and peace in all conditions in all parts of the being is the first foundation of the Yogic status. Either Light (bringing with it knowledge) or Force (bringing strength and dynamism of many kinds) or Ananda (bringing love and joy of existence) can come next according to the trend of the nature. But peace is the first condition without which nothing else can be stable.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Peace—The Basis of the Sadhana*](http://incarnateword.in/cwsa/29/peace-the-basis-of-the-sadhana#p4)</small>"
+  ],
   image_url: "candytuft.jpg",
   thumbnail_url: "candytuft_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -2948,6 +4421,11 @@ bottle_gourd = Flower.create!(
   size: "Medium-sized",
   place: "Cultivated in tropical and subtropical regions throughout the world",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Emotion is an excellent and indispensable thing in human nature, in spite of all its shortcomings and dangers… But our aim is to go beyond mental ideas into the light of the supramental Truth, which exists not by ideative thought but by direct vision and identity. In the same way our aim is to go beyond emotion to the height and depth and intensity of the Divine Love and there feel through the inner psychic heart an inexhaustible oneness with the Divine which the spasmodic leapings of the vital emotions cannot reach or experience.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Divine Love, Psychic Love and Human Love*](http://incarnateword.in/cwsa/29/divine-love-psychic-love-and-human-love#p39)</small>"
+  ],
   image_url: "bottle_gourd.jpg",
   thumbnail_url: "bottle_gourd_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3003,6 +4481,19 @@ simpoh_ayer = Flower.create!(
   petals: "Five",
   size: "Medium-sized",
   place: "Found in tropical South East Asia and other tropical regions",
+  quotes: [
+"> Truth is the door of the spirit's Ananda, its beatific nature…
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Karma and Justice*](http://incarnateword.in/cwsa/13/karma-and-justice#p7)</small>",
+
+"> Truth is not a dogma that one can learn once and for all and impose as a rule. Truth is as infinite as the supreme Lord and It manifests every instant for those who are sincere and attentive.
+> 
+> <small>The Mother, [*Mother's Agenda: March 22, 1967*](http://incarnateword.in/agenda/08/march-22-1967#p3)</small>",
+
+"> We shall perceive that the truth we seek is made up of four major aspects: Love, Knowledge, Power and Beauty. These four attributes of the Truth will express themselves spontaneously in our being. The psychic will be the vehicle of true and pure love, the mind will be the vehicle of infallible knowledge, the vital will manifest an invincible power and strength and the body will be the expression of a perfect beauty and harmony.
+> 
+> <small>The Mother, [*On Education: The Science of Living*](http://incarnateword.in/cwm/12/the-science-of-living#p16)</small>"
+  ],
   climate: "Tropical",
   image_url: "simpoh_ayer.jpg",
   thumbnail_url: "simpoh_ayer_thumbnail.jpg",
@@ -3022,6 +4513,27 @@ ling = Flower.create!(
   size: "Tiny",
   place: "Found in most parts of Europe and North America",
   climate: "Subtropical to temperate",
+  quotes: [
+"> In her green wildernesses and lurking depths,
+> In her thickets of joy where danger clasps delight,
+> He glimpsed the hidden wings of her songster hopes,
+> A glimmer of blue and gold and scarlet fire.
+> 
+> In her covert lanes, bordering her chance field-paths
+> And by her singing rivulets and calm lakes
+> He found the glow of her golden fruits of bliss
+> And the beauty of her flowers of dream and muse.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Kingdoms and Godheads of the Greater Life*](http://incarnateword.in/cwsa/33/the-kingdoms-and-godheads-of-the-greater-life#p146-p147)</small>",
+
+"> Nature proves her collaboration with a smile of flowers.
+> 
+> <small>The Mother</small>",
+
+"> O Nature, Material Mother, thou hast said that thou wilt collaborate and there can be no limit to the splendour of this collaboration.
+> 
+> <small>The Mother, [*Words of the Mother - III: New Year Messages*](http://incarnateword.in/cwm/15/new-year-messages#p69)</small>"
+  ],
   image_url: "ling.jpg",
   thumbnail_url: "ling_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3041,6 +4553,51 @@ rhododendron = Flower.create!(
   size: "Comes in all sizes",
   place: "Found mainly in Asia; also widespread throughout the Southern Highlands of the Appalachian Mountains of North America",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Let beauty be your constant ideal.
+> 
+> The beauty of the soul
+> 
+> The beauty of sentiments
+> 
+> The beauty of thoughts
+> 
+> The beauty of the action
+> 
+> The beauty in the work
+> 
+> so that nothing comes out of your hands which is not an expression of pure and harmonious beauty.
+> 
+> And the Divine Help shall always be with you.
+> 
+> <small>The Mother, [*On Education: Curriculum*](http://incarnateword.in/cwm/12/curriculum#p215-p222)</small>",
+
+"> In the world of forms a violation of Beauty is as great a fault as a violation of Truth in the world of ideas. For Beauty is the worship Nature offers to the supreme Master of the universe; Beauty is the divine language in forms. And a consciousness of the Divine which is not translated externally by an understanding and expression of Beauty would be an incomplete consciousness.
+> 
+> <small>The Mother, [*Prayers and Meditations: January 29, 1917*](http://incarnateword.in/cwm/01/january-29-1917#p1)</small>",
+
+"> Delight is the soul of existence, beauty the intense impression, the concentrated form of delight.
+> 
+> <small>Sri Aurobindo, [*The Future Poetry: The Soul of Poetic Delight and Beauty*](http://incarnateword.in/cwsa/26/the-soul-of-poetic-delight-and-beauty#p1)</small>",
+
+"> Beauty is Ananda taking form—but the form need not be a physical shape. One speaks of a beautiful thought, a beautiful act, a beautiful soul. What we speak of as beauty is Ananda in manifestation.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Art, Beauty and Ananda*](http://incarnateword.in/cwsa/27/art-beauty-and-ananda#p3)</small>",
+
+"> Beauty is the special divine Manifestation in the physical as Truth is in the mind, Love in the heart, Power in the vital. Supramental beauty is the highest divine beauty manifesting in Matter.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Beauty*](http://incarnateword.in/cwsa/27/beauty#p4)</small>",
+
+"> The one rule of the gnostic life would be the self-expression of the Spirit, the will of the Divine Being; that will, that self-expression could manifest through extreme simplicity or through extreme complexity and opulence or in their natural balance,—for beauty and plenitude, a hidden sweetness and laughter in things, a sunshine and gladness of life are also powers and expressions of the Spirit.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Divine Life*](http://incarnateword.in/cwsa/22/the-divine-life#p53)</small>",
+
+"> Beauty is his footprint showing us where he has passed,
+> Love is his heart-beats' rhythm in mortal breasts,
+> Happiness the smile on his adorable face.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Kingdom of Subtle Matter*](http://incarnateword.in/cwsa/33/the-kingdom-of-subtle-matter#p75)</small>"
+  ],
   image_url: "rhododendron.jpg",
   thumbnail_url: "rhododendron_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3087,12 +4644,25 @@ crown_of_thorns = Flower.create!(
   bot_name: "Euphorbia milii",
   family: "Euphorbiaceae",
   significance: "Concentration",
-  comment: "Does not aim an effect, but simple and persistent.",
+  comment: "Does not aim at effect, but simple and persistent.",
   description: "Two tiny bright red overlapping petal-like bracts surrounding an inconspicuous flower; usually borne in pairs. A small succulent shrub with numerous stems and semi-soft spines.",
   colour: "Bright red",
   size: "Tiny",
   place: "Native to Madagascar",
   climate: "Tropical",
+  quotes: [
+"> It is well known that the value of a man is in proportion to his capacity of concentrated attention, the greater the concentration the more exceptional is the result, to the extent that a perfect and unfailing concentrated attention sets the stamp of genius on what is produced.
+> 
+> <small>The Mother, [*On Education: Concentration and Dispersion*](http://incarnateword.in/cwm/12/concentration-and-dispersion#p2)</small>",
+
+"> Concentration is a state one must be in continuously, whatever the outer activity. By concentration I mean that all the energy, all the will, all the aspiration must be turned only towards the Divine and His integral realisation in our consciousness.
+> 
+> <small>The Mother, [*Some Answers from the Mother: Letters to a Young Sadhak - VI*](http://incarnateword.in/cwm/16/letters-to-a-young-sadhak-vi#p2)</small>",
+
+"> Our one objective must be the Divine himself to whom, knowingly or unknowingly, something always aspires in our secret nature. There must be a large, many-sided yet single concentration of the thought on the idea, the perception, the vision, the awakening touch, the soul's realisation of the one Divine. There must be a flaming concentration of the heart on the seeking of the All and Eternal and, when once we have found him, a deep plunging and immersion in the possession and ecstasy of the All-Beautiful. There must be a strong and immovable concentration of the will on the attainment and fulfilment of all that the Divine is and a free and plastic opening of it to all that he intends to manifest in us.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: Self-Consecration*](http://incarnateword.in/cwsa/23/self-consecration#p18)</small>"
+  ],
   image_url: "crown_of_thorns.jpg",
   thumbnail_url: "crown_of_thorns_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3131,6 +4701,29 @@ coral_plant = Flower.create!(
   size: "Tiny",
   place: "Native to the tropical Americas",
   climate: "Tropical",
+  quotes: [
+"> A resplendent sun rises above the horizon. It is your Lord that comes to you.
+> 
+> The whole world awakes and stretches in delight at the contact of His glory.
+> 
+> As the earth that heaves and opens, as the tree that grows, as the flower that blossoms, as the bird that sings, as the man that loves, let His light permeate you and radiate in an ever-increasing and widening happiness, a happiness steadily moving onward as the stars move in heaven.
+> 
+> <small>The Mother, [*Words of the Mother - III: Soar High*](http://incarnateword.in/cwm/15/soar-high#p8-p10)</small>",
+
+"> In Matter shall be lit the spirit’s glow,  
+> In body and body kindled the sacred birth;
+> Night shall awake to the anthem of the stars,
+> The days become a happy pilgrim march,
+> Our will a force of the Eternal’s power,
+> And thought the rays of a spiritual sun.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Secret Knowledge*](http://incarnateword.in/cwsa/33/the-secret-knowledge#p75)</small>",
+
+"> The Spirit shall look out through Matter’s gaze
+> And Matter shall reveal the Spirit’s face.
+> 
+> <small>Sri Aurobindo, [*Savitri - II: The Eternal Day: The Soul's Choice and the Supreme Consummation*](http://incarnateword.in/cwsa/34/the-eternal-day-the-souls-choice-and-the-supreme-consummation#p328)</small>"
+  ],
   image_url: "coral_plant.jpg",
   thumbnail_url: "coral_plant_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3150,6 +4743,15 @@ gout_plant = Flower.create!(
   size: "Tiny",
   place: "Native to the tropical Americas; cultivated in many other regions",
   climate: "Tropical",
+  quotes: [
+"> As there is a superconscient (something above our present consciousness) above the head from which the higher consciousness comes down into the body, so there is also a subconscient (something below our consciousness) below the feet. Matter is under the control of this power, because it is that out of which it has been created—that is why matter seems to us to be quite unconscious. The material body is very much under the influence of this power for the same reason; it is why we are not conscious of what is going on in the body, for the most part. The outer consciousness goes down into this subconscient when we are asleep, and so it becomes unaware of what is going on in us when we are asleep except for a few dreams. Many of these dreams rise up from the subconscient and are made up of old memories, impressions etc. put together in an incoherent way. For the subconscient receives impressions of all we do or experience in our lives and keeps these impressions in it, sending up often fragments of them in sleep. It is a very important part of the being, but we can do nothing much with it by the conscious will. It is the higher Force working in us that in its natural course will open the subconscient to itself and bring down into it its control and light.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Subconscient and the Integral Yoga*](http://incarnateword.in/cwsa/31/the-subconscient-and-the-integral-yoga#p19)</small>",
+
+"> The subconscient is to be penetrated by the light and made a sort of bedrock of truth, a store of right impressions, right physical responses to the Truth. Strictly speaking, it will not be subconscient at all, but a sort of bank of true values held ready for use.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Subconscient and the Integral Yoga*](http://incarnateword.in/cwsa/31/the-subconscient-and-the-integral-yoga#p71)</small>"
+  ],
   image_url: "gout_plant.jpg",
   thumbnail_url: "gout_plant_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3199,13 +4801,18 @@ geranium = Flower.create!(
   bot_name: "Pelargonium",
   family: "Geraniaceae",
   significance: "Spiritual Happiness",
-  comment: "Calm and smiling nothing can disturb it.",
+  comment: "Calm and smilin, nothing can disturb it.",
   description: "Small to medium-sized single flowers with five sepals and five petals, the upper pair usually larger; in white and shades of red, pink, and purple; also in many double forms; borne in umbels above the foliage. A perennial herb or shrub with aromatic leaves.",
   colour: "White and shades of red, pink, and purple",
   petals: "Five",
   size: "Small to medium-sized",
   place: "Indigenous to Southern Africa; also cultivated in temperate regions",
   climate: "Tropical to warm temperate",
+  quotes: [
+"> The spiritual man is one who has discovered his soul: he has found his self and lives in that, is conscious of it, has the joy of it; he needs nothing external for his completeness of existence.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Gnostic Being*](http://incarnateword.in/cwsa/22/the-gnostic-being#p18)</small>"
+  ],
   image_url: "geranium.jpg",
   thumbnail_url: "geranium_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3259,6 +4866,15 @@ dropseed = Flower.create!(
   size: "Minute",
   place: "Native to Portugal and Spain",
   climate: "Temperate",
+  quotes: [
+"> [Humility is] the recognition that one does not know, that one knows nothing, and that there may be something beyond what presently appears to us as the truest, the most noble or disinterested. True humility consists in constantly referring oneself to the Lord, in placing all before Him.
+> 
+> <small>The Mother, [*Mother's Agenda: December 21, 1957*](http://incarnateword.in/agenda/01/december-21-1957#p8)</small>",
+
+"> When people are told \"be humble\", they think immediately of \"being humble before other men\" and that humility is wrong. True humility is humility before the Divine, that is, a precise, exact, *living* sense that one is nothing, one can do nothing, understand nothing without the Divine, that even if one is exceptionally intelligent and capable, this is nothing in comparison with the divine Consciousness, and this sense one must always keep, because then one always has the true attitude of receptivity—a humble receptivity that does not put personal pretensions in opposition to the Divine.
+> 
+> <small>The Mother, [*Questions and Answers 1953: 13 May 1953*](http://incarnateword.in/cwm/05/13-may-1953#p10)</small>"
+  ],
   image_url: "dropseed.jpg",
   thumbnail_url: "dropseed_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3292,6 +4908,19 @@ lemongrass = Flower.create!(
   colour: "Greenish-purple",
   place: "Native to tropical Southeast Asia",
   climate: "Tropical",
+  quotes: [
+"> One cannot help others to overcome their sorrows and sufferings unless one has overcome all this in oneself and is master of one's feelings and reactions.
+> 
+> <small>The Mother, [*Some Answers from the Mother: Letters to a Young Sadhak - IX*](http://incarnateword.in/cwm/16/letters-to-a-young-sadhak-ix#p17)</small>",
+
+"> The best way of helping others is to transform oneself. Be perfect and you will be in a position to bring perfection to the world.
+> 
+> <small>The Mother, [*Words of the Mother - II: Helping Others and the World*](http://incarnateword.in/cwm/14/helping-others-and-the-world#p12)</small>",
+
+"> The best way to help the world is to transform oneself by an *integral* and *intensive* yoga.
+> 
+> <small>The Mother, [*Words of the Mother - II: Helping Others and the World*](http://incarnateword.in/cwm/14/helping-others-and-the-world#p21)</small>"
+  ],
   image_url: "lemongrass.jpg",
   thumbnail_url: "lemongrass_thumbnail.jpg",
   source: "Tony Rodd",
@@ -3329,6 +4958,15 @@ hydrangea = Flower.create!(
   size: "Large",
   place: "Native to southern and eastern Asia (China, Japan, Korea, the Himalayas, and Indonesia), and the Americas",
   climate: "Mostly subtropical",
+  quotes: [
+"> For all problems of existence are essentially problems of harmony. They arise from the perception of an unsolved discord and the instinct of an undiscovered agreement or unity. To rest content with an unsolved discord is possible for the practical and more animal part of man, but impossible for his fully awakened mind, and usually even his practical parts only escape from the general necessity either by shutting out the problem or by accepting a rough, utilitarian and unillumined compromise. For essentially, all Nature seeks a harmony, life and matter in their own sphere as much as mind in the arrangement of its perceptions.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: The Human Aspiration*](http://incarnateword.in/cwsa/21/the-human-aspiration#p3)</small>",
+
+"> This manifestation of beauty and harmony is part of the Divine realisation upon earth, perhaps even its greatest part.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 28 July 1929*](http://incarnateword.in/cwm/03/28-july-1929#p14)</small>"
+  ],
   image_url: "hydrangea.jpg",
   thumbnail_url: "hydrangea_thumbnail.jpg",
   source: "Eric Skiff",
@@ -3341,13 +4979,30 @@ golden_eye_grass = Flower.create!(
   bot_name: "Curculigo orchioides",
   family: "Hypoxidaceae",
   significance: "Attraction for the Light",
-  comment: "In its attraction it tries to imitate the stars.",
+  comment: "In its attraction, it tries to imitate the stars.",
   description: "Small golden yellow star-shaped flower borne near the base of the plant on a short scape. A slender tuberous herb with long lanceolate delicately veined leaves.",
   colour: "Golden yellow",
   petals: "Six",
   size: "Small",
   place: "Native to China, Japan, the Indian Subcontinent, Papuasia, and Micronesia",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Light is not knowledge but the illumination that comes from above and liberates the being from obscurity and darkness.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: Light*](http://incarnateword.in/cwsa/30/light#p14)</small>",
+
+"> Light is primarily a spiritual manifestation of the Divine Reality illuminative and creative; material light is a subsequent representation or conversion of it into Matter for the purposes of the material Energy.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Ascent towards Supermind*](http://incarnateword.in/cwsa/22/the-ascent-towards-supermind#p26)</small>",
+
+"> Our sense by its incapacity has invented darkness. In truth there is nothing but Light, only it is a power of light either above or below our poor human vision's limited range.
+> 
+> For do not imagine that light is created by the Suns. The Suns are only physical concentrations of Light, but the splendour they concentrate for us is self-born and everywhere.
+> 
+> God is everywhere and wherever God is, there is Light.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: God: The One Reality*](http://incarnateword.in/cwsa/12/god-the-one-reality#p66-p68)</small>"
+  ],
   image_url: "golden_eye_grass.jpg",
   thumbnail_url: "golden_eye_grass_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3366,6 +5021,23 @@ blackberry_lily = Flower.create!(
   size: "Small",
   place: "Native to China; found in other subtropical regions",
   climate: "Subtropical",
+  quotes: [
+"> There's only one salvation: to cling to the Divine like this (*gesture with two fists*).
+> 
+> Not clinging to what one thinks of the Divine, not even to what one feels of the Divine… to an aspiration… an aspiration as sincere as possible. And cling to that.
+> 
+> <small>The Mother, [*Mother's Agenda: July 17, 1971*](http://incarnateword.in/agenda/12/july-17-1971#p67-p68)</small>",
+
+"> The aim of our life on earth is to become conscious of the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: The True Aim of Life*](http://incarnateword.in/cwm/14/the-true-aim-of-life#p19)</small>",
+
+"> The true aim of life is to find the Divine's Presence deep inside oneself and to surrender to It so that It takes the lead of the life, all the feelings and all the actions of the body.
+> 
+> This gives a true and luminous aim to existence.
+> 
+> <small>The Mother, [*Words of the Mother - II: The True Aim of Life*](http://incarnateword.in/cwm/14/the-true-aim-of-life#p35-p36)</small>"
+  ],
   image_url: "blackberry_lily.jpg",
   thumbnail_url: "blackberry_lily_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3384,6 +5056,51 @@ african_iris = Flower.create!(
   size: "Medium-sized",
   place: "Native to southern and central Africa; cultivated in some other parts of the world",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Let beauty be your constant ideal.
+> 
+> The beauty of the soul
+> 
+> The beauty of sentiments
+> 
+> The beauty of thoughts
+> 
+> The beauty of the action
+> 
+> The beauty in the work
+> 
+> so that nothing comes out of your hands which is not an expression of pure and harmonious beauty.
+> 
+> And the Divine Help shall always be with you.
+> 
+> <small>The Mother, [*On Education: Curriculum*](http://incarnateword.in/cwm/12/curriculum#p215-p222)</small>",
+
+"> In the world of forms a violation of Beauty is as great a fault as a violation of Truth in the world of ideas. For Beauty is the worship Nature offers to the supreme Master of the universe; Beauty is the divine language in forms. And a consciousness of the Divine which is not translated externally by an understanding and expression of Beauty would be an incomplete consciousness.
+> 
+> <small>The Mother, [*Prayers and Meditations: January 29, 1917*](http://incarnateword.in/cwm/01/january-29-1917#p1)</small>",
+
+"> Delight is the soul of existence, beauty the intense impression, the concentrated form of delight.
+> 
+> <small>Sri Aurobindo, [*The Future Poetry: The Soul of Poetic Delight and Beauty*](http://incarnateword.in/cwsa/26/the-soul-of-poetic-delight-and-beauty#p1)</small>",
+
+"> Beauty is Ananda taking form—but the form need not be a physical shape. One speaks of a beautiful thought, a beautiful act, a beautiful soul. What we speak of as beauty is Ananda in manifestation.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Art, Beauty and Ananda*](http://incarnateword.in/cwsa/27/art-beauty-and-ananda#p3)</small>",
+
+"> Beauty is the special divine Manifestation in the physical as Truth is in the mind, Love in the heart, Power in the vital. Supramental beauty is the highest divine beauty manifesting in Matter.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Beauty*](http://incarnateword.in/cwsa/27/beauty#p4)</small>",
+
+"> The one rule of the gnostic life would be the self-expression of the Spirit, the will of the Divine Being; that will, that self-expression could manifest through extreme simplicity or through extreme complexity and opulence or in their natural balance,—for beauty and plenitude, a hidden sweetness and laughter in things, a sunshine and gladness of life are also powers and expressions of the Spirit.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Divine Life*](http://incarnateword.in/cwsa/22/the-divine-life#p53)</small>",
+
+"> Beauty is his footprint showing us where he has passed,
+> Love is his heart-beats' rhythm in mortal breasts,
+> Happiness the smile on his adorable face.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Kingdom of Subtle Matter*](http://incarnateword.in/cwsa/33/the-kingdom-of-subtle-matter#p75)</small>"
+  ],
   image_url: "african_iris.jpg",
   thumbnail_url: "african_iris_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3392,9 +5109,9 @@ african_iris = Flower.create!(
 
 peacock_orchid = Flower.create!(
   name: "Peacock Orchid",
-  bot_name: "Gladiolus murielae",
+  bot_name: "Gladiolus murielae [Gladiolus callianthus]",
   family: "Iridaceae",
-  significance: "The Vital’s Possibility of Perfection",
+  significance: "The Vital's Possibility of Perfection",
   comment: "The day the vital will be converted, it will have much to give.",
   description: "Fragrant medium-sized white flower with six graceful pointed petals, the lower three petals marked with a triangular maroon spot at the base; borne in loose spikes. A rhizomatous perennial herb with sword-shaped leaves.",
   colour: "White, maroon",
@@ -3402,6 +5119,23 @@ peacock_orchid = Flower.create!(
   size: "Medium-sized",
   place: "Native to eastern Africa, from Ethiopia to Malawi",
   climate: "Tropical",
+  quotes: [
+"> The vital has to be carefully distinguished from mind, even though it has a mind element transfused into it; the vital is the Life nature made up of desires, sensations, feelings, passions, energies of action, will of desire, reactions of the desire soul in man and of all that play of possessive and other related instincts, anger, fear, greed, lust etc. that belong to this field of the nature.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Mind*](http://incarnateword.in/cwsa/28/the-mind#p1)</small>",
+
+"> The vital proper is the life-force acting in its own nature, impulses, emotions, feelings, desires, ambitions etc. having as their highest centre what we may call the outer heart of emotion, while there is an inner heart where are the higher or psychic feelings and sensibilities, the emotions and intuitive yearnings and impulses of the soul. The vital part of us is, of course, necessary to our completeness, but it is a true instrument only when its feelings and tendencies have been purified by the psychic touch and taken up and governed by the spiritual light and power.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Vital Being and Vital Consciousness*](http://incarnateword.in/cwsa/28/the-vital-being-and-vital-consciousness#p34)</small>",
+
+"> It is when there is this death of desire and this calm equal wideness in the consciousness everywhere, that the true vital being within us comes out from the veil and reveals its own calm, intense and potent presence. For such is the true nature of the vital being, *pr&#257;&#7751;amaya puru&#7779;a*; it is a projection of the Divine Purusha into life,—tranquil, strong, luminous, many-energied, obedient to the Divine Will, egoless, yet or rather therefore capable of all action, achievement, highest or largest enterprise.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - II*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-ii#p23)</small>",
+
+"> There are four parts of the vital being—first, the mental vital which gives a mental expression by thought, speech or otherwise to the emotions, desires, passions, sensations and other movements of the vital being; the emotional vital which is the seat of various feelings such as love, joy, sorrow, hatred, and the rest; the central vital which is the seat of the stronger vital longings and reactions, e.g. ambition, pride, fear, love of fame, attractions and repulsions, desires and passions of various kinds and the field of many vital energies; last, the lower vital which is occupied with small desires and feelings, such as make the greater part of daily life, e.g. food desire, sexual desire, small likings, dislikings, vanity, quarrels, love of praise, anger at blame, little wishes of all kinds—and a numberless host of other things. Their respective seats are (1) the region from the throat to the heart, (2) the heart (it is a double centre, belonging in front to the emotional and vital and behind to the psychic), (3) from the heart to the navel, (4) below the navel.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Vital Being and Vital Consciousness*](http://incarnateword.in/cwsa/28/the-vital-being-and-vital-consciousness#p10)</small>"
+  ],
   image_url: "peacock_orchid.jpg",
   thumbnail_url: "peacock_orchid_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3421,6 +5155,51 @@ flag = Flower.create!(
   size: "Large",
   place: "Found in tropical and subtropical America",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Let beauty be your constant ideal.
+> 
+> The beauty of the soul
+> 
+> The beauty of sentiments
+> 
+> The beauty of thoughts
+> 
+> The beauty of the action
+> 
+> The beauty in the work
+> 
+> so that nothing comes out of your hands which is not an expression of pure and harmonious beauty.
+> 
+> And the Divine Help shall always be with you.
+> 
+> <small>The Mother, [*On Education: Curriculum*](http://incarnateword.in/cwm/12/curriculum#p215-p222)</small>",
+
+"> In the world of forms a violation of Beauty is as great a fault as a violation of Truth in the world of ideas. For Beauty is the worship Nature offers to the supreme Master of the universe; Beauty is the divine language in forms. And a consciousness of the Divine which is not translated externally by an understanding and expression of Beauty would be an incomplete consciousness.
+> 
+> <small>The Mother, [*Prayers and Meditations: January 29, 1917*](http://incarnateword.in/cwm/01/january-29-1917#p1)</small>",
+
+"> Delight is the soul of existence, beauty the intense impression, the concentrated form of delight.
+> 
+> <small>Sri Aurobindo, [*The Future Poetry: The Soul of Poetic Delight and Beauty*](http://incarnateword.in/cwsa/26/the-soul-of-poetic-delight-and-beauty#p1)</small>",
+
+"> Beauty is Ananda taking form—but the form need not be a physical shape. One speaks of a beautiful thought, a beautiful act, a beautiful soul. What we speak of as beauty is Ananda in manifestation.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Art, Beauty and Ananda*](http://incarnateword.in/cwsa/27/art-beauty-and-ananda#p3)</small>",
+
+"> Beauty is the special divine Manifestation in the physical as Truth is in the mind, Love in the heart, Power in the vital. Supramental beauty is the highest divine beauty manifesting in Matter.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Beauty*](http://incarnateword.in/cwsa/27/beauty#p4)</small>",
+
+"> The one rule of the gnostic life would be the self-expression of the Spirit, the will of the Divine Being; that will, that self-expression could manifest through extreme simplicity or through extreme complexity and opulence or in their natural balance,—for beauty and plenitude, a hidden sweetness and laughter in things, a sunshine and gladness of life are also powers and expressions of the Spirit.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Divine Life*](http://incarnateword.in/cwsa/22/the-divine-life#p53)</small>",
+
+"> Beauty is his footprint showing us where he has passed,
+> Love is his heart-beats' rhythm in mortal breasts,
+> Happiness the smile on his adorable face.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Kingdom of Subtle Matter*](http://incarnateword.in/cwsa/33/the-kingdom-of-subtle-matter#p75)</small>"
+  ],
   image_url: "flag.jpg",
   thumbnail_url: "flag_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3438,6 +5217,27 @@ lily_of_the_valley = Flower.create!(
   size: "Small",
   place: "Native throughout the cool temperate Northern Hemisphere in Asia, and Europe",
   climate: "Temperate",
+  quotes: [
+"> This is purity, to accept no other influence but only the influence of the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Purity*](http://incarnateword.in/cwm/14/purity#p2)</small>",
+
+"> One is truly perfectly pure only when the whole being, in all its elements and all its movements, adheres fully, exclusively, to the divine Will. This indeed is total purity. It does not depend on any moral or social law, any mental convention of any kind. It depends exclusively on this: when all the elements and all the movements of the being adhere exclusively and totally to the divine Will.
+> 
+> <small>The Mother, [*Questions and Answers 1954: 22 December 1954*](http://incarnateword.in/cwm/06/22-december-1954#p18)</small>",
+
+"> What I call purity, the true purity, is not all those things morality teaches: it is non-ego.
+> 
+> There must be nothing but Him.
+> 
+> Him, not only because we have given Him everything and consecrated ourselves totally to Him (that is not enough), but Him because He has taken total possession of the human instrument.
+> 
+> <small>The Mother, [*Mother's Agenda: May 21, 1960*](http://incarnateword.in/agenda/01/may-21-1960#p1-p3)</small>",
+
+"> There is a force of purity, not the purity of the moralist, but an essential purity of spirit, in the very substance of the being.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Sex*](http://incarnateword.in/cwsa/31/sex#p90)</small>"
+  ],
   image_url: "lily_of_the_valley.jpg",
   thumbnail_url: "lily_of_the_valley_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3455,6 +5255,11 @@ lions_ear = Flower.create!(
   size: "Small",
   place: "Native to tropical Africa and southern India; cultivated abundantly in much of Latin America and the West Indies",
   climate: "Tropical",
+  quotes: [
+"> There must be an ascension of the whole being, an ascension of spirit chained here and trammelled by its instruments and its environment to sheer Spirit free above, an ascension of soul towards some blissful Super-soul, an ascension of mind towards some luminous Supermind, an ascension of life towards some vast Super-life, an ascension of our very physicality to join its origin in some pure and plastic spirit-substance. And this cannot be a single swift upsoaring but, like the ascent of the sacrifice described in the Veda, a climbing from peak to peak in which from each summit one looks up to the much more that has still to be done.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Sacrifice, the Triune Path and the Lord of the Sacrifice*](http://incarnateword.in/cwsa/23/the-sacrifice-the-triune-path-and-the-lord-of-the-sacrifice#p36)</small>"
+  ],
   image_url: "lions_ear.jpg",
   thumbnail_url: "lions_ear_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3472,6 +5277,15 @@ thumbai = Flower.create!(
   size: "Tiny",
   place: "Found throughout India",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Worship is only the first step on the path of devotion. Where external worship changes into the inner adoration, real Bhakti begins; that deepens into the intensity of divine love; that love leads to the joy of closeness in our relations with the Divine; the joy of closeness passes into the bliss of union.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - II: Love and the Triple Path*](http://incarnateword.in/cwsa/24/love-and-the-triple-path#p8)</small>",
+    
+"> The aim of Yoga being union, its beginning must always be a seeking after the Divine, a longing after some kind of touch, closeness or possession. When this comes on us, the adoration becomes always primarily an inner worship; we begin to make ourselves a temple of the Divine, our thoughts and feelings a constant prayer of aspiration and seeking, our whole life an external service and worship.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - II: The Way of Devotion*](http://incarnateword.in/cwsa/24/the-way-of-devotion#p2)</small>"
+  ],
   image_url: "thumbai.jpg",
   thumbnail_url: "thumbai_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3507,6 +5321,15 @@ holy_basil = Flower.create!(
   size: "Tiny",
   place: "Native to the Indian subcontinent; widespread as a cultivated plant throughout the Southeast Asian tropics",
   climate: "Tropical and subtropical",
+  quotes: [
+"> In love for the Divine or for one whom one feels to be divine, the Bhakta feels an intense reverence for the Loved, a sense of something of immense greatness, beauty or value and for himself a strong impression of his own comparative unworthiness and a passionate desire to *grow* into likeness with that which one adores.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Philosophical Thought and Yoga*](http://incarnateword.in/cwsa/28/philosophical-thought-and-yoga#p28)</small>",
+
+"> The final demand of the Bhakta is simply that his bhakti may never cease nor diminish. He does not ask for heaven or for liberation from birth or for any other object, but only that his love may be eternal and absolute.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - II: The Godward Emotions*](http://incarnateword.in/cwsa/24/the-godward-emotions#p12)</small>"
+  ],
   image_url: "holy_basil.jpg",
   thumbnail_url: "holy_basil_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3525,6 +5348,19 @@ sweet_marjoram = Flower.create!(
   size: "Very tiny",
   place: "Indigenous to Cyprus and southern Turkey",
   climate: "Temperate",
+  quotes: [
+"> When I speak of \"New Birth\", I am always speaking of the birth of a new consciousness.
+> 
+> <small>The Mother</small>",
+
+"> What is called \"new birth\" is the birth into the spiritual life, the spiritual consciousness; it is to carry in oneself something of the spirit which, individually, through the soul, can begin to rule the life and be the master of existence.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 26 November 1958*](http://incarnateword.in/cwm/09/26-november-1958#p10)</small>",
+
+"> You become a new person, and whatever may be the path or the difficulties of the path afterwards, that feeling never leaves you. It is not even something—like many other experiences—which withdraws, passes into the background, leaving you externally with a kind of vague memory to which it is difficult to cling, whose remembrance grows faint, blurred—it is not that. You *are* a new person and definitively that, whatever happens. And even all the incapacity of the mind, all the difficulties of the vital, all the inertia of the physical are unable to change this new state—a new state which makes a *decisive* break in the life of the consciousness. The being one was before and the being one is after, are no longer the same. The position one has in the universe and in relation to it, in life and in relation to it, in understanding and in relation to it, is no longer the same: it is a true reversal which can never be undone again.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 4 June 1958*](http://incarnateword.in/cwm/09/4-june-1958#p4)</small>"
+  ],
   image_url: "sweet_marjoram.jpg",
   thumbnail_url: "sweet_marjoram_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3536,13 +5372,41 @@ mealy_sage = Flower.create!(
   other_names: "Mealy-cup Sage",
   bot_name: "Salvia farinacea",
   family: "Labiatae",
-  significance: "Krishna’s Light in the Overmind",
+  significance: "Krishna's Light in the Overmind",
   comment: "The Overmind ready to be Divinised.",
   description: "Small lavender blue bilabiate flower with a broadly extended lower lip marked with a white patch in the center and light grey blue calyces; borne in whorls in erect terminal spikes. A branching lightly pubescent perennial herb.",
   colour: "Lavender blue, white",
   size: "Small",
   place: "Native to Mexico and parts of the United States, including Texas",
   climate: "Tropical and subtropical",
+  quotes: [
+"> At last I find a meaning of soul's birth
+> Into this universe terrible and sweet,
+> I who have felt the hungry heart of earth
+> Aspiring beyond heaven to Krishna's feet.
+> 
+> I have seen the beauty of immortal eyes,
+> And heard the passion of the Lover's flute,
+> And known a deathless ecstasy's surprise
+> And sorrow in my heart for ever mute.
+> 
+> Nearer and nearer now the music draws,
+> Life shudders with a strange felicity;
+> All Nature is a wide enamoured pause
+> Hoping her lord to touch, to clasp, to be.
+> 
+> For this one moment lived the ages past;
+> The world now throbs fulfilled in me at last.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Krishna*](http://incarnateword.in/cwsa/02/krishna#p1-p4)</small>",
+
+"> All music is only the sound of His laughter,
+> All beauty the smile of His passionate bliss;
+> Our lives are His heart-beats, our rapture the bridal
+> Of Radha and Krishna, our love is their kiss.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Who*](http://incarnateword.in/cwsa/02/who#p7)</small>",
+  ],
   image_url: "mealy_sage.jpg",
   thumbnail_url: "mealy_sage_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3561,6 +5425,23 @@ sage = Flower.create!(
   size: "Small",
   place: "Found in Central and South America, Central Asia and the Mediterranean region, and Eastern Asia",
   climate: "Found across temperate, subtropical, and tropical climates",
+  quotes: [
+"> We can, simply by a sincere aspiration, open a sealed door in us and find… that Something which will change the whole significance of life, reply to all our questions, solve all our problems and lead us to the perfection we aspire for without knowing it, to that Reality which *alone* can satisfy us and give us lasting joy, equilibrium, strength, life.
+> 
+> All this you have heard many a time.
+> 
+> You have heard it—Oh! There are even some here who are so used to it that for them it seems to be the same thing as drinking a glass of water or opening a window to let in the sunlight.
+>
+> We have tried a little, but now we are going to try seriously!
+> 
+> The starting-point: to want it, truly want it, to need it. The next step: to think, *above all*, of that. A day comes, very quickly, when one is unable to think of anything else.
+> 
+> That is the one thing which counts. And then…
+> 
+> One formulates one's aspiration, lets the true prayer spring up from one's heart, the prayer which expresses the sincerity of the need. And then… well, one will see what happens.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 13 August 1958*](http://incarnateword.in/cwm/09/13-august-1958#p31-p33)</small>"
+  ],
   image_url: "sage.jpg",
   thumbnail_url: "sage_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3571,13 +5452,22 @@ mexican_bush_sage = Flower.create!(
   name: "Mexican Bush Sage",
   bot_name: "Salvia leucantha",
   family: "Labiatae",
-  significance: "Vital Consenting to Be Spiritualised",
+  significance: "The Vital Consenting to Be Spiritualised",
   comment: "A great victory over the lower nature.",
   description: "Small velvety white to pale mauve tubular bilabiate flower half enclosed by a very soft velvety purple calyx; borne in tiers on long arching racemes. A subshrub with a silvery pubescence on the stems and backs of the lanceolate leaves.",
   colour: "White to pale mauve, purple",
   size: "Small",
   place: "Native to subtropical and tropical conifer forests in central and eastern Mexico",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Spirituality can only come by opening of the mind, vital and physical to the inmost soul, to the higher Self, to the Divine, and their subordination to the spiritual forces and instrumentation as channels of the inner light, the higher Knowledge and Power.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Spiritual Evolution and the Supramental*](http://incarnateword.in/cwsa/28/spiritual-evolution-and-the-supramental#p7)</small>",
+
+"> All perfection of which the outer man is capable, is only a realising of the eternal perfection of the Spirit within him. We know the Divine and become the Divine, because we are That already in our secret nature.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Four Aids*](http://incarnateword.in/cwsa/23/the-four-aids#p3)</small>"
+  ],
   image_url: "mexican_bush_sage.jpg",
   thumbnail_url: "mexican_bush_sage_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3596,6 +5486,15 @@ scarlet_sage = Flower.create!(
   size: "Small",
   place: "Native to Brazil; cultivated in many other tropical regions",
   climate: "Tropical",
+  quotes: [
+"> Spirituality can only come by opening of the mind, vital and physical to the inmost soul, to the higher Self, to the Divine, and their subordination to the spiritual forces and instrumentation as channels of the inner light, the higher Knowledge and Power.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Spiritual Evolution and the Supramental*](http://incarnateword.in/cwsa/28/spiritual-evolution-and-the-supramental#p7)</small>",
+
+"> All perfection of which the outer man is capable, is only a realising of the eternal perfection of the Spirit within him. We know the Divine and become the Divine, because we are That already in our secret nature.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Four Aids*](http://incarnateword.in/cwsa/23/the-four-aids#p3)</small>"
+  ],
   image_url: "scarlet_sage.jpg",
   thumbnail_url: "scarlet_sage_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3614,6 +5513,15 @@ fish_poison_tree = Flower.create!(
   size: "Medium-sized",
   place: "Native to mangrove habitats on the tropical coasts and islands of the Indian Ocean and western Pacific Ocean",
   climate: "Tropical",
+  quotes: [
+"> The Supramental by its very definition is Truth Consciousness, Truth in possession of itself and fulfilling itself by its own power.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Descent and Transformation*](http://incarnateword.in/cwsa/28/descent-and-transformation#p3)</small>",
+
+"> The Supermind is in its very essence a truth-consciousness, a consciousness always free from the Ignorance which is the foundation of our present natural or evolutionary existence and from which nature in us is trying to arrive at self-knowledge and world-knowledge and a right consciousness and the right use of our existence in the universe. The Supermind, because it is a truth-consciousness, has this knowledge inherent in it and this power of true existence; its course is straight and can go direct to its aim, its field is wide and can even be made illimitable. This is because its very nature is knowledge: it has not to acquire knowledge but possesses it in its own right…
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Supermind and the Life Divine*](http://incarnateword.in/cwsa/13/supermind-and-the-life-divine#p2)</small>"
+  ],
   image_url: "fish_poison_tree.jpg",
   thumbnail_url: "fish_poison_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3686,6 +5594,11 @@ divi_divi = Flower.create!(
   size: "Tiny",
   place: "Native to the Caribbean, Mexico, Central America, and northern South America",
   climate: "Tropical",
+  quotes: [
+"> Intuition is always an edge or ray or outleap of a superior light.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Ascent towards Supermind*](http://incarnateword.in/cwsa/22/the-ascent-towards-supermind#p31)</small>"
+  ],
   image_url: "divi_divi.jpg",
   thumbnail_url: "divi_divi_thumbnail.jpg",
   source: "Plants of Colombia",
@@ -3705,6 +5618,11 @@ golden_shower_tree = Flower.create!(
   size: "Medium-sized",
   place: "Native to the Indian subcontinent and adjacent regions of Southeast Asia",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Imagination is a fundamental energy of consciousness, and this marvellous, indomitable energy works on without caring whether she is put to use or misuse or no use at all; she exists merely for the sake of delight in her own existence.
+> 
+> <small>Sri Aurobindo, [*Kena and Other Upanishads: The Philosophy of the Upanishads*](http://incarnateword.in/cwsa/18/the-philosophy-of-the-upanishads#p60)</small>"
+  ],
   image_url: "golden_shower_tree.jpg",
   thumbnail_url: "golden_shower_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3724,6 +5642,27 @@ pink_shower = Flower.create!(
   size: "Small",
   place: "Native to Southeast Asia; cultivated in other tropical regions",
   climate: "Mostly tropical",
+  quotes: [
+"> The psychic being is the soul developing in the evolution.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Classification of the Parts of the Being*](http://incarnateword.in/cwsa/28/classification-of-the-parts-of-the-being#p1)</small>",
+
+"> The true soul of man is in the true invisible heart hidden in some luminous cave of the nature: there under some infiltration of the divine Light is our soul, a silent inmost being of which few are even aware; for if all have a soul, few are conscious of their true soul or feel its direct impulse. There dwells the little spark of the Divine which supports the obscure mass of our nature and around it grows the psychic being, the formed soul or the real Man within us. It is as this psychic being in him grows and the movements of the heart reflect its divinations and impulsions that man becomes more and more aware of his soul, ceases to be a superior animal and, awakening to glimpses of the godhead within him, admits more and more its intimations of a deeper life and consciousness and an impulse towards things divine. It is one of the decisive moments of the integral Yoga when this psychic being, liberated, brought out from the veil to the front, can pour the full flood of its divinations, seeings and impulsions on the mind, life and body of man and begins to prepare the upbuilding of divinity in the earthly nature.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - I*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-i#p17)</small>",
+
+"> It is the very nature of the soul or the psychic being to turn towards the divine Truth as the sunflower to the sun; it accepts and clings to all that is divine or progressing towards divinity, and draws back from all that is a perversion or a denial of it, from all that is false and undivine. Yet the soul is at first but a spark and then a little flame of godhead burning in the midst of a great darkness… It is only when the life turns towards the Divine that the soul can truly come forward and impose its power on the outer members; for, itself a spark of the Divine, to grow in flame towards the Divine is its true life and its very reason of existence.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - I*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-i#p21)</small>",
+
+"> The first [step of self-realisation] is the discovery of the soul, not the outer soul of thought and emotion and desire, but the secret psychic entity, the divine element within us. When that becomes dominant over the nature, when we are consciously the soul and when mind, life and body take their true place as its instruments, we are aware of a guide within that knows the truth, the good, the true delight and beauty of existence, controls heart and intellect by its luminous law and leads our life and being towards spiritual completeness. Even within the obscure workings of the Ignorance we have then a witness who discerns, a living light that illumines, a will that refuses to be misled and separates the mind's truth from its error, the heart's intimate response from its vibrations to a wrong call and wrong demand upon it, the life's true ardour and plenitude of movement from vital passion and the turbid falsehoods of our vital nature and its dark self seekings. This is the first step of self-realisation, to enthrone the soul, the divine psychic individual in the place of the ego.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: The Origin and Remedy of Falsehood, Error, Wrong and Evil*](http://incarnateword.in/cwsa/21/the-origin-and-remedy-of-falsehood-error-wrong-and-evil#p35)</small>",
+
+"> In order to strengthen the [conscious contact with one's psychic being] and aid, if possible, the development of the conscious psychic personality, one should, while concentrating, turn towards it, aspire to know it and feel it, open oneself to receive its influence, and take great care, each time that one receives an indication from it, to follow it very scrupulously and sincerely. To live in a great aspiration, to take care to become inwardly calm and remain so always as far as possible, to cultivate a perfect sincerity in all the activities of one's being—these are the essential conditions for the growth of the psychic being.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 10 September 1959*](http://incarnateword.in/cwm/16/10-september-1959#p5)</small>"
+  ],
   image_url: "pink_shower.jpg",
   thumbnail_url: "pink_shower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3779,6 +5718,19 @@ peacock_flower = Flower.create!(
   size: "Large",
   place: "Native to Madagascar; found in other tropical and subtropical regions",
   climate: "Tropical and subtropical",
+  quotes: [
+"> [Realisation] is when something for which you are aspiring becomes real to you. E.g. you have the idea of the Divine in all, but it is only an idea, a belief; when you feel or see the Divine in all, it becomes a realisation.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: Experiences and Realisations*](http://incarnateword.in/cwsa/30/experiences-and-realisations#p1)</small>",
+
+"> In a more deep and spiritual sense a concrete realisation is that which makes the thing realised more real, dynamic, intimately present to the consciousness than any physical thing can be.
+> 
+> <small>Sri Aurobindo, [*Letters on Himself and the Ashram: General Remarks*](http://incarnateword.in/cwsa/35/general-remarks#p6)</small>",
+
+"> Realisations are the reception in the consciousness and the establishment there of the fundamental truths of the Divine, of the Higher or Divine Nature, of the world-consciousness and the play of its forces, of one's own self and real nature and the inner nature of things, the power of these things growing in one till they are a part of one's inner life and existence,—as for instance, the realisation of the Divine Presence, the descent and settling of the higher Peace, Light, Force, Ananda in the consciousness, their workings there, the realisation of the divine or spiritual love, the perception of one's own psychic being, the discovery of one's own true mental being, true vital being, true physical being, the realisation of the overmind or the supramental consciousness, the clear perception of the relation of all these things to our present inferior nature and their action on it to change that lower nature.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: The Danger of the Ego and the Need of Purification*](http://incarnateword.in/cwsa/30/the-danger-of-the-ego-and-the-need-of-purification#p32)</small>"
+  ],
   image_url: "peacock_flower.jpg",
   thumbnail_url: "peacock_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3835,6 +5787,15 @@ copper_pod = Flower.create!(
   size: "Small",
   place: "Native to tropical southeastern Asia; a popular ornamental tree grown around the world",
   climate: "Tropical",
+  quotes: [
+"> You have to regard yourself as a soul and body created for her service, one who does all for her sake. Even if the idea of the separate worker is strong in you and you feel that it is you who do the act, yet it must be done for her. All stress of egoistic choice, all hankering after personal profit, all stipulation of self regarding desire must be extirpated from the nature. There must be no demand for fruit and no seeking for reward; the only fruit for you is the pleasure of the Divine Mother and the fulfilment of her work, your only reward a constant progression in divine consciousness and calm and strength and bliss. The joy of service and the joy of inner growth through works is the sufficient recompense of the selfless worker.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - V*](http://incarnateword.in/cwsa/32/the-mother-v#p2)</small>",
+
+"> There is no greater joy than to serve the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Service to the Divine*](http://incarnateword.in/cwm/14/service-to-the-divine#p2)</small>"
+  ],
   image_url: "copper_pod.jpg",
   thumbnail_url: "copper_pod_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3854,6 +5815,37 @@ asoka = Flower.create!(
   size: "Large",
   place: "Native to the central areas of the Deccan plateau, as well as the middle section of the Western Ghats in the western coastal zone of the Indian subcontinent",
   climate: "Tropical",
+  quotes: [
+"> There is nothing spiritually wrong in being glad and cheerful, on the contrary it is the right thing.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Cheerfulness and Happiness*](http://incarnateword.in/cwsa/31/cheerfulness-and-happiness#p3)</small>",
+
+"> Cheerfulness is the salt of sadhana. It is a thousand times better than gloominess.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Cheerfulness and Happiness*](http://incarnateword.in/cwsa/31/cheerfulness-and-happiness#p1)</small>",
+
+"> A hidden Bliss is at the root of things.
+> 
+> A mute Delight regards Time's countless works:
+> To house God's joy in things Space gave wide room,
+> To house God's joy in self our souls were born.
+> 
+> This universe an old enchantment guards;
+> Its objects are carved cups of World-Delight
+> Whose charmed wine is some deep soul's rapture-drink:
+> The All-Wonderful has packed heaven with his dreams,
+> He has made blank ancient Space his marvel-house;
+> He spilled his spirit into Matter's signs:
+> His fires of grandeur burn in the great sun,
+> He glides through heaven shimmering in the moon;
+> He is beauty carolling in the fields of sound;
+> He chants the stanzas of the odes of Wind;
+> He is silence watching in the stars at night;
+> He wakes at dawn and calls from every bough,
+> Lies stunned in the stone and dreams in flower and tree.
+> 
+> <small>Sri Aurobindo, [*Savitri - II: The Debate of Love and Death*](http://incarnateword.in/cwsa/34/the-debate-of-love-and-death#p81-p83)</small>"
+  ],
   image_url: "asoka.jpg",
   thumbnail_url: "asoka_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3873,6 +5865,15 @@ christmas_candle = Flower.create!(
   size: "Small",
   place: "Native to Mexico; can be found in diverse, mostly tropical, habitats",
   climate: "Mostly tropical",
+  quotes: [
+"> There is a power in the idea—a force of which the idea is a shape. Again, behind the idea and force and word there is what is called the spirit,—a consciousness which generates the force.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Thought and Knowledge*](http://incarnateword.in/cwsa/31/thought-and-knowledge#p21)</small>",
+
+"> The idea is the realisation of a truth in Consciousness as the fact is its realisation in Power…
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: On Ideals*](http://incarnateword.in/cwsa/13/on-ideals#p3)</small>"
+  ],
   image_url: "christmas_candle.jpg",
   thumbnail_url: "christmas_candle_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3891,6 +5892,23 @@ mimosa_bush = Flower.create!(
   size: "Small",
   place: "Found in many regions",
   climate: "Found across a wide range of climates",
+  quotes: [
+"> By knowledge we mean in Yoga not thought or ideas about spiritual things but psychic understanding from within and spiritual illumination from above.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: The Psychic Opening*](http://incarnateword.in/cwsa/30/the-psychic-opening#p10)</small>",
+
+"> The knowledge that seems to come to you from outside is only an occasion for bringing out the knowledge that is within you.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 19 May 1929*](http://incarnateword.in/cwm/03/19-may-1929#p5)</small>",
+
+"> To love to learn is the most precious gift that one can give to a child: to love to learn always and everywhere, so that all circumstances, all happenings in life may be constantly renewed opportunities for learning more and always more.
+> 
+> <small>The Mother, [*On Education: Mental Education*](http://incarnateword.in/cwm/12/mental-education#p10)</small>",
+
+"> For Sri Aurobindo, true knowledge is precisely Knowledge by identity, and wisdom is the state one achieves when one is in this true knowledge.
+> 
+> <small>The Mother, [*On Thoughts and Aphorisms: Aphorism - 7*](http://incarnateword.in/cwm/10/aphorism-7#p6)</small>"
+  ],
   image_url: "mimosa_bush.jpg",
   thumbnail_url: "mimosa_bush_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3908,6 +5926,23 @@ white_bark_acacia = Flower.create!(
   size: "Tiny",
   place: "Commonly found in Southern India",
   climate: "Tropical",
+  quotes: [
+"> By knowledge we mean in Yoga not thought or ideas about spiritual things but psychic understanding from within and spiritual illumination from above.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: The Psychic Opening*](http://incarnateword.in/cwsa/30/the-psychic-opening#p10)</small>",
+
+"> The knowledge that seems to come to you from outside is only an occasion for bringing out the knowledge that is within you.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 19 May 1929*](http://incarnateword.in/cwm/03/19-may-1929#p5)</small>",
+
+"> To love to learn is the most precious gift that one can give to a child: to love to learn always and everywhere, so that all circumstances, all happenings in life may be constantly renewed opportunities for learning more and always more.
+> 
+> <small>The Mother, [*On Education: Mental Education*](http://incarnateword.in/cwm/12/mental-education#p10)</small>",
+
+"> For Sri Aurobindo, true knowledge is precisely Knowledge by identity, and wisdom is the state one achieves when one is in this true knowledge.
+> 
+> <small>The Mother, [*On Thoughts and Aphorisms: Aphorism - 7*](http://incarnateword.in/cwm/10/aphorism-7#p6)</small>"
+  ],
   image_url: "white_bark_acacia.jpg",
   thumbnail_url: "white_bark_acacia_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3926,6 +5961,17 @@ siris_tree = Flower.create!(
   size: "Medium-sized",
   place: "Native to Indomalaya, New Guinea, and Northern Australia; widely cultivated in other tropical and subtropical regions",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Wisdom is the vision of truth in its essence and of its application in the manifestation.
+> 
+> <small>The Mother, [*On Thoughts and Aphorisms: Aphorism - 1*](http://incarnateword.in/cwm/10/aphorism-1#p14)</small>",
+
+"> Wisdom looks behind the veil and sees.
+> 
+> Reason divides, fixes details & contrasts them; Wisdom unifies, marries contrasts in a single harmony.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: Jnana*](http://incarnateword.in/cwsa/12/jnana#p7-p8)</small>"
+  ],
   image_url: "siris_tree.jpg",
   thumbnail_url: "siris_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3944,6 +5990,17 @@ rain_tree = Flower.create!(
   size: "Medium-sized",
   place: "Native to the West Indies and Central America",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Wisdom is the vision of truth in its essence and of its application in the manifestation.
+> 
+> <small>The Mother, [*On Thoughts and Aphorisms: Aphorism - 1*](http://incarnateword.in/cwm/10/aphorism-1#p14)</small>",
+
+"> Wisdom looks behind the veil and sees.
+> 
+> Reason divides, fixes details & contrasts them; Wisdom unifies, marries contrasts in a single harmony.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: Jnana*](http://incarnateword.in/cwsa/12/jnana#p7-p8)</small>"
+  ],
   image_url: "rain_tree.jpg",
   thumbnail_url: "rain_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3962,6 +6019,17 @@ powderpuff = Flower.create!(
   size: "Small to medium-sized",
   place: "Native to the tropical and subtropical Americas",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Wisdom is the vision of truth in its essence and of its application in the manifestation.
+> 
+> <small>The Mother, [*On Thoughts and Aphorisms: Aphorism - 1*](http://incarnateword.in/cwm/10/aphorism-1#p14)</small>",
+
+"> Wisdom looks behind the veil and sees.
+> 
+> Reason divides, fixes details & contrasts them; Wisdom unifies, marries contrasts in a single harmony.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: Jnana*](http://incarnateword.in/cwsa/12/jnana#p7-p8)</small>"
+  ],
   image_url: "powderpuff.jpg",
   thumbnail_url: "powderpuff_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3979,6 +6047,17 @@ red_powderpuff = Flower.create!(
   size: "Medium-sized",
   place: "Native to the tropical and subtropical Americas",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Wisdom is the vision of truth in its essence and of its application in the manifestation.
+> 
+> <small>The Mother, [*On Thoughts and Aphorisms: Aphorism - 1*](http://incarnateword.in/cwm/10/aphorism-1#p14)</small>",
+
+"> Wisdom looks behind the veil and sees.
+> 
+> Reason divides, fixes details & contrasts them; Wisdom unifies, marries contrasts in a single harmony.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: Jnana*](http://incarnateword.in/cwsa/12/jnana#p7-p8)</small>"
+  ],
   image_url: "red_powderpuff.jpg",
   thumbnail_url: "red_powderpuff_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -3996,6 +6075,17 @@ white_powderpuff = Flower.create!(
   size: "Medium-sized",
   place: "Native to the tropical and subtropical Americas",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Wisdom is the vision of truth in its essence and of its application in the manifestation.
+> 
+> <small>The Mother, [*On Thoughts and Aphorisms: Aphorism - 1*](http://incarnateword.in/cwm/10/aphorism-1#p14)</small>",
+
+"> Wisdom looks behind the veil and sees.
+> 
+> Reason divides, fixes details & contrasts them; Wisdom unifies, marries contrasts in a single harmony.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: Jnana*](http://incarnateword.in/cwsa/12/jnana#p7-p8)</small>"
+  ],
   image_url: "white_powderpuff.jpg",
   thumbnail_url: "white_powderpuff_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4014,6 +6104,23 @@ lead_tree = Flower.create!(
   size: "Small",
   place: "Native to southern Mexico and northern Central America (Belize and Guatemala); naturalized throughout the tropics",
   climate: "Tropical",
+  quotes: [
+"> By knowledge we mean in Yoga not thought or ideas about spiritual things but psychic understanding from within and spiritual illumination from above.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: The Psychic Opening*](http://incarnateword.in/cwsa/30/the-psychic-opening#p10)</small>",
+
+"> The knowledge that seems to come to you from outside is only an occasion for bringing out the knowledge that is within you.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 19 May 1929*](http://incarnateword.in/cwm/03/19-may-1929#p5)</small>",
+
+"> To love to learn is the most precious gift that one can give to a child: to love to learn always and everywhere, so that all circumstances, all happenings in life may be constantly renewed opportunities for learning more and always more.
+> 
+> <small>The Mother, [*On Education: Mental Education*](http://incarnateword.in/cwm/12/mental-education#p10)</small>",
+
+"> For Sri Aurobindo, true knowledge is precisely Knowledge by identity, and wisdom is the state one achieves when one is in this true knowledge.
+> 
+> <small>The Mother, [*On Thoughts and Aphorisms: Aphorism - 7*](http://incarnateword.in/cwm/10/aphorism-7#p6)</small>"
+  ],
   image_url: "lead_tree.jpg",
   thumbnail_url: "lead_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4032,6 +6139,15 @@ mungo_tree = Flower.create!(
   size: "Medium-sized",
   place: "Native to Asia",
   climate: "Found across temperate, subtropical, and tropical climates",
+  quotes: [
+"> The Mother's warning to you against the undesirability of too much talk, loose chat and gossip, social self-dispersion was entirely meant and stands; when you indulge in these things, you throw yourself out into a very small and ignorant consciousness in which your vital defects get free play and this is likely to bring you out of what you have developed in your inner consciousness.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother's Way of Dealing with Sadhaks*](http://incarnateword.in/cwsa/32/the-mothers-way-of-dealing-with-sadhaks#p8)</small>",
+
+"> I have had the experience myself that one can be fully concentrated and be in union with the Divine even while working physically with one's hands; but naturally this asks for a little practice, and for this the most important thing to avoid is *useless talking.* It is not *work* but *useless talk* which takes us away from the Divine.
+> 
+> <small>The Mother, [*Some Answers from the Mother: Letters to a Young Sadhak - VI*](http://incarnateword.in/cwm/16/letters-to-a-young-sadhak-vi#p8)</small>"
+  ],
   image_url: "mungo_tree.jpg",
   thumbnail_url: "mungo_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4067,6 +6183,15 @@ flame_of_the_forest = Flower.create!(
   size: "Medium-sized",
   place: "Native to tropical and subtropical parts of the Indian Subcontinent and Southeast Asia",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The Supramental by its very definition is Truth Consciousness, Truth in possession of itself and fulfilling itself by its own power.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Descent and Transformation*](http://incarnateword.in/cwsa/28/descent-and-transformation#p3)</small>",
+
+"> The Supermind is in its very essence a truth-consciousness, a consciousness always free from the Ignorance which is the foundation of our present natural or evolutionary existence and from which nature in us is trying to arrive at self-knowledge and world-knowledge and a right consciousness and the right use of our existence in the universe. The Supermind, because it is a truth-consciousness, has this knowledge inherent in it and this power of true existence; its course is straight and can go direct to its aim, its field is wide and can even be made illimitable. This is because its very nature is knowledge: it has not to acquire knowledge but possesses it in its own right…
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Supermind and the Life Divine*](http://incarnateword.in/cwsa/13/supermind-and-the-life-divine#p2)</small>"
+  ],
   image_url: "flame_of_the_forest.jpg",
   thumbnail_url: "flame_of_the_forest_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4085,6 +6210,11 @@ moreton_bay_chestnut = Flower.create!(
   size: "Small",
   place: "Native to the east coast of Australia in Queensland and New South Wales, and to the Pacific islands of Vanuatu and New Caledonia",
   climate: "Subtropical to temperate",
+  quotes: [
+"> A new humanity means for us the appearance, the development of a type or race of mental beings whose principle of mentality would be no longer a mind in the Ignorance seeking for knowledge but even in its knowledge bound to the Ignorance, a seeker after Light but not its natural possessor, open to the Light but not an inhabitant of the Light, not yet a perfected instrument, truth-conscious and delivered out of the Ignorance. Instead, it would be possessed already of what could be called a mind of Light, a mind capable of living in the truth, capable of being truth-conscious and manifesting in its life a direct in place of an indirect knowledge.
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Mind of Light*](http://incarnateword.in/cwsa/13/mind-of-light#p1)</small>"
+  ],
   image_url: "moreton_bay_chestnut.jpg",
   thumbnail_url: "moreton_bay_chestnut_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4120,6 +6250,11 @@ madre_de_cacao = Flower.create!(
   size: "Small",
   place: "Found on volcanic soils in its native range in Central America and Mexico",
   climate: "Tropical",
+  quotes: [
+"> The preoccupation with universal beauty even in its aesthetic forms has an intense power for refining and subtilising the nature, and at its highest it is a great force for purification.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Higher and the Lower Knowledge*](http://incarnateword.in/cwsa/23/the-higher-and-the-lower-knowledge#p8)</small>"
+  ],
   image_url: "madre_de_cacao.jpg",
   thumbnail_url: "madre_de_cacao_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4138,6 +6273,19 @@ scarlet_wistaria_tree = Flower.create!(
   size: "Medium to large",
   place: "Indigenous from Malaysia to North Australia; cultivated in many parts of India",
   climate: "Mostly tropical",
+  quotes: [
+"> [Realisation] is when something for which you are aspiring becomes real to you. E.g. you have the idea of the Divine in all, but it is only an idea, a belief; when you feel or see the Divine in all, it becomes a realisation.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: Experiences and Realisations*](http://incarnateword.in/cwsa/30/experiences-and-realisations#p1)</small>",
+
+"> In a more deep and spiritual sense a concrete realisation is that which makes the thing realised more real, dynamic, intimately present to the consciousness than any physical thing can be.
+> 
+> <small>Sri Aurobindo, [*Letters on Himself and the Ashram: General Remarks*](http://incarnateword.in/cwsa/35/general-remarks#p6)</small>",
+
+"> Realisations are the reception in the consciousness and the establishment there of the fundamental truths of the Divine, of the Higher or Divine Nature, of the world-consciousness and the play of its forces, of one's own self and real nature and the inner nature of things, the power of these things growing in one till they are a part of one's inner life and existence,—as for instance, the realisation of the Divine Presence, the descent and settling of the higher Peace, Light, Force, Ananda in the consciousness, their workings there, the realisation of the divine or spiritual love, the perception of one's own psychic being, the discovery of one's own true mental being, true vital being, true physical being, the realisation of the overmind or the supramental consciousness, the clear perception of the relation of all these things to our present inferior nature and their action on it to change that lower nature.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: The Danger of the Ego and the Need of Purification*](http://incarnateword.in/cwsa/30/the-danger-of-the-ego-and-the-need-of-purification#p32)</small>"
+  ],
   image_url: "scarlet_wistaria_tree.jpg",
   thumbnail_url: "scarlet_wistaria_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4174,6 +6322,11 @@ senna = Flower.create!(
   size: "Small",
   place: "Has a pantropical distribution",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Ordinarily, the mind reflects the status of mortal nature and the activities of the Force which works under the conditions of the material universe. But if it becomes clear, passive, pure by the renunciation of these activities and of the characteristic ideas and outlook of mental nature, then as in a clear mirror or like the sky in clear water which is without ripple and unruffled by winds, the divine is reflected.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Difficulties of the Mental Being*](http://incarnateword.in/cwsa/23/the-difficulties-of-the-mental-being#p11)</small>"
+  ],
   image_url: "senna.jpg",
   thumbnail_url: "senna_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4190,6 +6343,15 @@ black_wattle = Flower.create!(
   colour: "Deep yellow",
   place: "Native to Australia, Indonesia, and Papua New Guinea; cultivated in southeast Asia, Oceania, and in Sudan",
   climate: "Tropical and subtropical",
+  quotes: [
+"> To do the work that one does with all sincerity, as perfectly as one can, is certainly one of the best ways to serve the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Progress and Perfection in Work*](http://incarnateword.in/cwm/14/progress-and-perfection-in-work#p58)</small>",
+
+"> Work is part of the Yoga and it gives the best opportunity for calling down the Presence, the Light and the Power into the vital and its activities; it increases also the field and the opportunity of surrender.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: Work for the Mother in the Integral Yoga*](http://incarnateword.in/cwsa/32/work-for-the-mother-in-the-integral-yoga#p6)</small>"
+  ],
   image_url: "black_wattle.jpg",
   thumbnail_url: "black_wattle_thumbnail.jpg",
   source: "Krishna",
@@ -4261,6 +6423,27 @@ clover = Flower.create!(
   size: "Small",
   place: "Has a cosmopolitan distribution; the highest diversity is found in the temperate Northern Hemisphere, but many species also occur in South America and Africa, including at high altitudes on mountains in the tropics.",
   climate: "Found across temperate, subtropical, and tropical climates",
+  quotes: [
+"> In her green wildernesses and lurking depths,
+> In her thickets of joy where danger clasps delight,
+> He glimpsed the hidden wings of her songster hopes,
+> A glimmer of blue and gold and scarlet fire.
+> 
+> In her covert lanes, bordering her chance field-paths
+> And by her singing rivulets and calm lakes
+> He found the glow of her golden fruits of bliss
+> And the beauty of her flowers of dream and muse.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Kingdoms and Godheads of the Greater Life*](http://incarnateword.in/cwsa/33/the-kingdoms-and-godheads-of-the-greater-life#p146-p147)</small>",
+
+"> Nature proves her collaboration with a smile of flowers.
+> 
+> <small>The Mother</small>",
+
+"> O Nature, Material Mother, thou hast said that thou wilt collaborate and there can be no limit to the splendour of this collaboration.
+> 
+> <small>The Mother, [*Words of the Mother - III: New Year Messages*](http://incarnateword.in/cwm/15/new-year-messages#p69)</small>"
+  ],
   image_url: "clover.jpg",
   thumbnail_url: "clover_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4297,6 +6480,35 @@ scarlet_flame_bean = Flower.create!(
   size: "Medium-sized",
   place: "Native to Guyana, Venezuela, Brazil, and Trinidad and Tobago; cultivated in other tropical and subtropical regions",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Long ago, very long ago, in the desert land that is now Arabia, a divine being incarnated on earth to awaken it to the Supreme Love. As one would expect, he was persecuted by men, misunderstood, suspected, hunted after. Mortally wounded by his assailants, he wished to die alone, quietly, so that his work might be accomplished; and, pursued by them, he fled. Suddenly in the broad barren plain, a tiny bush of pomegranate appeared. The Saviour stole under its low branches in order to give up his body in peace; and at once the bush expanded miraculously, increased itself, widened, became deep and luxuriant in such a way that when the pursuers passed by they did not even suspect that the One whom they were chasing was hidden there, and they continued on their way.
+> 
+> While, drop by drop, the sacred blood fell, fertilising the soil, the bush covered itself with marvellous flowers, scarlet, enormous―clusters of petals, innumerable drops of blood…
+> 
+> These are the flowers that, for us, express and hold the Divine Love.
+> 
+> <small>The Mother, [*Words of the Mother - II: Divine Love*](http://incarnateword.in/cwm/14/divine-love#p15-p17)</small>",
+
+"> A supreme divine Love is a creative Power and, even though it can exist in itself silent and unchangeable, yet rejoices in external form and expression and is not condemned to be a speechless and bodiless godhead. It has even been said that creation itself was an act of love or at least the building up of a field in which Divine Love could devise its symbols and fulfil itself in act of mutuality and self-giving, and, if not the initial nature of creation, this may well be its ultimate object and motive.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - II*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-ii#p10)</small>",
+
+"> To bring the Divine Love and Beauty and Ananda into the world is, indeed, the whole crown and essence of our Yoga.
+> 
+> <small>Sri Aurobindo, [*Letters on Himself and the Ashram: Darshan Messages*](http://incarnateword.in/cwsa/35/darshan-messages#p5)</small>",
+
+"> Divine Love, in my view of it, is again not something ethereal, cold and far, but a love absolutely intense, intimate and full of unity, closeness and rapture using all the nature for its expression.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Divine Love, Psychic Love and Human Love*](http://incarnateword.in/cwsa/29/divine-love-psychic-love-and-human-love#p36)</small>",
+
+"> The Divine Love may not be able yet to manifest on the physical plane, humanity being what it is, as fully and freely as it would otherwise do, but that does not make it less close or intense than the human.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Divine Love, Psychic Love and Human Love*](http://incarnateword.in/cwsa/29/divine-love-psychic-love-and-human-love#p5)</small>",
+
+"> Love is with all, working for the progress of each one equally―but it triumphs in those who care for it.
+> 
+> <small>The Mother, [*Words of the Mother - II: General*](http://incarnateword.in/cwm/14/general-1#p1)</small>"
+  ],
   image_url: "scarlet_flame_bean.jpg",
   thumbnail_url: "scarlet_flame_bean_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4309,12 +6521,25 @@ barbados_aloe = Flower.create!(
   bot_name: "Aloe vera",
   family: "Liliaceae",
   significance: "Dreams",
-  comment: "One can learn much by observing one’s dreams.",
+  comment: "One can learn much by observing one's dreams.",
   description: "Small light orange tubular flower tinged with yellow green; borne on tall racemes. A stemless clumping herb with thick succulent leaves.",
   colour: "Light orange and yellow-green",
   size: "Small",
   place: "Native to Socotra (Yemen), Somalia, and Sudan",
   climate: "Tropical",
+  quotes: [
+"> If one learns how to interpret, one can get from dreams much knowledge of the secrets of our nature and of other-nature.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Dreams*](http://incarnateword.in/cwsa/31/dreams#p13)</small>",
+
+"> Yes, certainly, dream-experiences can have a great value in them and convey truths that are not so easy to get in the waking state.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Dreams*](http://incarnateword.in/cwsa/31/dreams#p67)</small>",
+
+"> When you practise Yoga, the consciousness opens and you become aware—especially in sleep—of things, scenes, beings, happenings of other (not physical) worlds and yourself in sleep go there and act there. Very often these things have an importance for the sadhana. So you need not regret seeing all this when you sleep or meditate.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Dreams*](http://incarnateword.in/cwsa/31/dreams#p68)</small>"
+  ],
   image_url: "barbados_aloe.jpg",
   thumbnail_url: "barbados_aloe_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4351,6 +6576,51 @@ satavar = Flower.create!(
   size: "Small",
   place: "Common throughout Nepal, Sri Lanka, India, and the Himalayas",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Let beauty be your constant ideal.
+> 
+> The beauty of the soul
+> 
+> The beauty of sentiments
+> 
+> The beauty of thoughts
+> 
+> The beauty of the action
+> 
+> The beauty in the work
+> 
+> so that nothing comes out of your hands which is not an expression of pure and harmonious beauty.
+> 
+> And the Divine Help shall always be with you.
+> 
+> <small>The Mother, [*On Education: Curriculum*](http://incarnateword.in/cwm/12/curriculum#p215-p222)</small>",
+
+"> In the world of forms a violation of Beauty is as great a fault as a violation of Truth in the world of ideas. For Beauty is the worship Nature offers to the supreme Master of the universe; Beauty is the divine language in forms. And a consciousness of the Divine which is not translated externally by an understanding and expression of Beauty would be an incomplete consciousness.
+> 
+> <small>The Mother, [*Prayers and Meditations: January 29, 1917*](http://incarnateword.in/cwm/01/january-29-1917#p1)</small>",
+
+"> Delight is the soul of existence, beauty the intense impression, the concentrated form of delight.
+> 
+> <small>Sri Aurobindo, [*The Future Poetry: The Soul of Poetic Delight and Beauty*](http://incarnateword.in/cwsa/26/the-soul-of-poetic-delight-and-beauty#p1)</small>",
+
+"> Beauty is Ananda taking form—but the form need not be a physical shape. One speaks of a beautiful thought, a beautiful act, a beautiful soul. What we speak of as beauty is Ananda in manifestation.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Art, Beauty and Ananda*](http://incarnateword.in/cwsa/27/art-beauty-and-ananda#p3)</small>",
+
+"> Beauty is the special divine Manifestation in the physical as Truth is in the mind, Love in the heart, Power in the vital. Supramental beauty is the highest divine beauty manifesting in Matter.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Beauty*](http://incarnateword.in/cwsa/27/beauty#p4)</small>",
+
+"> The one rule of the gnostic life would be the self-expression of the Spirit, the will of the Divine Being; that will, that self-expression could manifest through extreme simplicity or through extreme complexity and opulence or in their natural balance,—for beauty and plenitude, a hidden sweetness and laughter in things, a sunshine and gladness of life are also powers and expressions of the Spirit.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Divine Life*](http://incarnateword.in/cwsa/22/the-divine-life#p53)</small>",
+
+"> Beauty is his footprint showing us where he has passed,
+> Love is his heart-beats' rhythm in mortal breasts,
+> Happiness the smile on his adorable face.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Kingdom of Subtle Matter*](http://incarnateword.in/cwsa/33/the-kingdom-of-subtle-matter#p75)</small>"
+  ],
   image_url: "satavar.jpg",
   thumbnail_url: "satavar_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4360,7 +6630,7 @@ satavar = Flower.create!(
 spider_ivy = Flower.create!(
   name: "Spider Ivy",
   other_names: "Spider Plant, Ribbon Plant",
-  bot_name: "Chlorophytum comosum ‘Vittatum’",
+  bot_name: "Chlorophytum comosum ‘Vittatum'",
   family: "Liliaceae",
   significance: "Care",
   comment: "To be careful in what one does.",
@@ -4370,6 +6640,23 @@ spider_ivy = Flower.create!(
   size: "Small",
   place: "Native to tropical and southern Africa; naturalized in other parts of the world, including western Australia",
   climate: "Mostly tropical",
+  quotes: [
+"> Always do what you do with care.
+> 
+> <small>The Mother, [*Words of the Mother - II: Progress and Perfection in Work*](http://incarnateword.in/cwm/14/progress-and-perfection-in-work#p32)</small>",
+
+"> Any work done with care becomes interesting.
+> 
+> <small>The Mother, [*Words of the Mother - II: Progress and Perfection in Work*](http://incarnateword.in/cwm/14/progress-and-perfection-in-work#p33)</small>",
+
+"> The Divine is in things also and that is why they must be treated with care.
+> 
+> <small>The Mother, [*Words of the Mother - II: Care of Material Things*](http://incarnateword.in/cwm/14/care-of-material-things#p6)</small>",
+
+"> You must take care of [a material object] not because you are attached to it, but because it manifests something of the Divine Consciousness.
+> 
+> <small>The Mother, [*Words of the Mother - II: Care of Material Things*](http://incarnateword.in/cwm/14/care-of-material-things#p10)</small>"
+  ],
   image_url: "spider_ivy.jpg",
   thumbnail_url: "spider_ivy_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4381,13 +6668,36 @@ giant_squill = Flower.create!(
   bot_name: "Drimiopsis kirkii",
   family: "Liliaceae",
   significance: "Road to the Divine",
-  comment: "Always long, apparently dry at times, but always abundant in its results!",
+  comment: "Always long, apparently dry at times, but always abundant in its results.",
   description: "Tiny flower with three narrow white incurved sepals surrounding three pale green petals which remain closed in a ball-like shape hiding the stamens and pistil; borne on short spikes. A small bulbous succulent plant with heavily spotted leaves.",
   colour: "White, pale green",
   petals: "Three",
   size: "Tiny",
   place: "Native to South Africa",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Reveal, who know, the road that I must tread…
+> 
+> <small>Sri Aurobindo, [*Savitri - II: The Entry into the Inner Countries*](http://incarnateword.in/cwsa/34/the-entry-into-the-inner-countries#p119)</small>",
+
+"> What I call \"being on the path\" is being in a state of consciousness in which only union with the Divine has any value—this union is the only thing worth living, the sole object of aspiration. Everything else has lost all value and is not worth seeking, so there is no longer any question of renouncing it because it is no longer an object of desire.
+> 
+> As long as union with the Divine is not *the* thing for which one lives, one is not yet on the path.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 21 April 1965*](http://incarnateword.in/cwm/16/21-april-1965#p3-p4)</small>",
+
+"> It is true that the path is very long, but for one who follows it with *sincerity*, it is *really very interesting*.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 16 March 1968*](http://incarnateword.in/cwm/16/16-march-1968#p2)</small>",
+
+"> This is what we mean by \"Divine\": all the knowledge we have to acquire, all the power we have to obtain, all the love we have to become, all the perfection we have to achieve, all the harmonious and progressive poise we have to manifest in light and joy, all the new and unknown splendours that have to be realised.
+> 
+> <small>The Mother, [*Words of the Mother - II: \"The Divine\" and \"Man\"*](http://incarnateword.in/cwm/14/the-divine-and-man#p2)</small>",
+
+"> Whatever we see of this Divine and fix our concentrated effort upon it, that we can become or grow into some kind of unity with it or at the lowest into tune and harmony with it. The old Upanishad put it trenchantly in its highest terms, \"Whoever envisages it as the Existence becomes that existence and whoever envisages it as the Non-existence, becomes that non-existence;\" so too it is with all else that we see of the Divine,—that, we may say, is at once the essential and the pragmatic truth of the Godhead. It is something beyond us which is indeed already within us, but which we as yet are not or are only initially in our human existence; but whatever of it we see, we can create or reveal in our conscious nature and being and can grow into it…
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - II: The Delight of the Divine*](http://incarnateword.in/cwsa/24/the-delight-of-the-divine#p1)</small>"
+  ],
   image_url: "giant_squill.jpg",
   thumbnail_url: "giant_squill_thumbnail.jpg",
   source: "Hortipedia Commons",
@@ -4407,6 +6717,19 @@ glory_lily = Flower.create!(
   size: "Medium-sized",
   place: "Native to much of Africa and Asia",
   climate: "Found across temperate, subtropical, and tropical climates",
+  quotes: [
+"> All quarrels proceed from egoism which pushes its own opinion and affirms its own importance, considering that it is right and everybody else wrong and thus creates anger and sense of injury etc. These things must not be indulged, but rejected at once.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Problems in Human Relations*](http://incarnateword.in/cwsa/31/problems-in-human-relations#p12)</small>",
+
+"> As for ill-will, jealousy, quarrels and reproaches, one must *sincerely* be above all that and reply with a benevolent smile to the bitterest words; and unless one is absolutely sure of himself and his reactions, it would be better, as a general rule, to keep silent.
+> 
+> <small>The Mother, [*Words of the Mother - II: Quarrels*](http://incarnateword.in/cwm/14/quarrels#p30)</small>",
+
+"> To be above offence or insult makes one truly great.
+> 
+> <small>The Mother, [*Words of the Mother - II: Quarrels*](http://incarnateword.in/cwm/14/quarrels#p28)</small>"
+  ],
   image_url: "glory_lily.jpg",
   thumbnail_url: "glory_lily_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4426,6 +6749,51 @@ hyacinth = Flower.create!(
   size: "Small",
   place: "Native to southwestern Asia, southern and central Turkey, northwestern Syria, Lebanon, and northern Israel; also widely cultivated in Europe and other temperate regions",
   climate: "Temperate",
+  quotes: [
+"> Let beauty be your constant ideal.
+> 
+> The beauty of the soul
+> 
+> The beauty of sentiments
+> 
+> The beauty of thoughts
+> 
+> The beauty of the action
+> 
+> The beauty in the work
+> 
+> so that nothing comes out of your hands which is not an expression of pure and harmonious beauty.
+> 
+> And the Divine Help shall always be with you.
+> 
+> <small>The Mother, [*On Education: Curriculum*](http://incarnateword.in/cwm/12/curriculum#p215-p222)</small>",
+
+"> In the world of forms a violation of Beauty is as great a fault as a violation of Truth in the world of ideas. For Beauty is the worship Nature offers to the supreme Master of the universe; Beauty is the divine language in forms. And a consciousness of the Divine which is not translated externally by an understanding and expression of Beauty would be an incomplete consciousness.
+> 
+> <small>The Mother, [*Prayers and Meditations: January 29, 1917*](http://incarnateword.in/cwm/01/january-29-1917#p1)</small>",
+
+"> Delight is the soul of existence, beauty the intense impression, the concentrated form of delight.
+> 
+> <small>Sri Aurobindo, [*The Future Poetry: The Soul of Poetic Delight and Beauty*](http://incarnateword.in/cwsa/26/the-soul-of-poetic-delight-and-beauty#p1)</small>",
+
+"> Beauty is Ananda taking form—but the form need not be a physical shape. One speaks of a beautiful thought, a beautiful act, a beautiful soul. What we speak of as beauty is Ananda in manifestation.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Art, Beauty and Ananda*](http://incarnateword.in/cwsa/27/art-beauty-and-ananda#p3)</small>",
+
+"> Beauty is the special divine Manifestation in the physical as Truth is in the mind, Love in the heart, Power in the vital. Supramental beauty is the highest divine beauty manifesting in Matter.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Beauty*](http://incarnateword.in/cwsa/27/beauty#p4)</small>",
+
+"> The one rule of the gnostic life would be the self-expression of the Spirit, the will of the Divine Being; that will, that self-expression could manifest through extreme simplicity or through extreme complexity and opulence or in their natural balance,—for beauty and plenitude, a hidden sweetness and laughter in things, a sunshine and gladness of life are also powers and expressions of the Spirit.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Divine Life*](http://incarnateword.in/cwsa/22/the-divine-life#p53)</small>",
+
+"> Beauty is his footprint showing us where he has passed,
+> Love is his heart-beats' rhythm in mortal breasts,
+> Happiness the smile on his adorable face.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Kingdom of Subtle Matter*](http://incarnateword.in/cwsa/33/the-kingdom-of-subtle-matter#p75)</small>"
+  ],
   image_url: "hyacinth.jpg",
   thumbnail_url: "hyacinth_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4444,6 +6812,27 @@ madonna_lily = Flower.create!(
   size: "Large",
   place: "Native to Greece, the western Balkans, and the Middle East; naturalized in other parts of Europe (France, Italy, Ukraine, etc.) as well as in North Africa, the Canary Islands, Mexico, and other places",
   climate: "Found across temperate, subtropical, and tropical climates",
+  quotes: [
+"> This is purity, to accept no other influence but only the influence of the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Purity*](http://incarnateword.in/cwm/14/purity#p2)</small>",
+
+"> One is truly perfectly pure only when the whole being, in all its elements and all its movements, adheres fully, exclusively, to the divine Will. This indeed is total purity. It does not depend on any moral or social law, any mental convention of any kind. It depends exclusively on this: when all the elements and all the movements of the being adhere exclusively and totally to the divine Will.
+> 
+> <small>The Mother, [*Questions and Answers 1954: 22 December 1954*](http://incarnateword.in/cwm/06/22-december-1954#p18)</small>",
+
+"> What I call purity, the true purity, is not all those things morality teaches: it is non-ego.
+> 
+> There must be nothing but Him.
+> 
+> Him, not only because we have given Him everything and consecrated ourselves totally to Him (that is not enough), but Him because He has taken total possession of the human instrument.
+> 
+> <small>The Mother, [*Mother's Agenda: May 21, 1960*](http://incarnateword.in/agenda/01/may-21-1960#p1-p3)</small>",
+
+"> There is a force of purity, not the purity of the moralist, but an essential purity of spirit, in the very substance of the being.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Sex*](http://incarnateword.in/cwsa/31/sex#p90)</small>"
+  ],
   image_url: "madonna_lily.jpg",
   thumbnail_url: "madonna_lily_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4463,6 +6852,18 @@ star_of_bethlehem = Flower.create!(
   size: "Small",
   place: "Native throughout most of southern and central Europe, north-western Africa, and south-western Asia; also found in North America",
   climate: "Subtropical to temperate",
+  quotes: [
+"> As soon as all effort disappears from a manifestation, it becomes very simple, with the simplicity of a flower opening, manifesting its beauty and spreading its fragrance without clamour or vehement gesture. And in this simplicity lies the greatest power, the power which is least mixed and least gives rise to harmful reactions…
+> Simplicity, simplicity! How sweet is the purity of Thy Presence!…
+> 
+> <small>The Mother, [*Prayers and Meditations: February 12, 1913*](http://incarnateword.in/cwm/01/february-12-1913#p1)</small>",
+
+"> Sri Aurobindo's answer is always the same: *Be simple, be simple, very simple.*
+> 
+> And I know what he means: to deny entry to regimenting, organising, prescriptive, judgmental thought—he wants none of all that. What he calls being simple is a joyous spontaneity; in action, in expression, in movement, in life—*be simple, be simple, be simple*. A joyous spontaneity.
+> 
+> <small>The Mother, [*Mother's Agenda: September 16, 1961*](http://incarnateword.in/agenda/02/september-16-1961#p14-p15)</small>"
+  ],
   image_url: "star_of_bethlehem.jpg",
   thumbnail_url: "star_of_bethlehem_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4516,6 +6917,27 @@ madamfate = Flower.create!(
   size: "Medium-sized",
   place: "Endemic to the West Indies; naturalized across the American tropics and Oceania",
   climate: "Tropical",
+  quotes: [
+"> This is purity, to accept no other influence but only the influence of the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Purity*](http://incarnateword.in/cwm/14/purity#p2)</small>",
+
+"> One is truly perfectly pure only when the whole being, in all its elements and all its movements, adheres fully, exclusively, to the divine Will. This indeed is total purity. It does not depend on any moral or social law, any mental convention of any kind. It depends exclusively on this: when all the elements and all the movements of the being adhere exclusively and totally to the divine Will.
+> 
+> <small>The Mother, [*Questions and Answers 1954: 22 December 1954*](http://incarnateword.in/cwm/06/22-december-1954#p18)</small>",
+
+"> What I call purity, the true purity, is not all those things morality teaches: it is non-ego.
+> 
+> There must be nothing but Him.
+> 
+> Him, not only because we have given Him everything and consecrated ourselves totally to Him (that is not enough), but Him because He has taken total possession of the human instrument.
+> 
+> <small>The Mother, [*Mother's Agenda: May 21, 1960*](http://incarnateword.in/agenda/01/may-21-1960#p1-p3)</small>",
+
+"> There is a force of purity, not the purity of the moralist, but an essential purity of spirit, in the very substance of the being.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Sex*](http://incarnateword.in/cwsa/31/sex#p90)</small>"
+  ],
   image_url: "madamfate.jpg",
   thumbnail_url: "madamfate_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4535,6 +6957,11 @@ summer_lilac = Flower.create!(
   size: "Tiny",
   place: "Native to Japan and central China",
   climate: "Subtropical to temperate",
+  quotes: [
+"> The preoccupation with universal beauty even in its aesthetic forms has an intense power for refining and subtilising the nature, and at its highest it is a great force for purification.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Higher and the Lower Knowledge*](http://incarnateword.in/cwsa/23/the-higher-and-the-lower-knowledge#p8)</small>"
+  ],
   image_url: "summer_lilac.jpg",
   thumbnail_url: "summer_lilac_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4563,12 +6990,29 @@ mistletoe = Flower.create!(
   bot_name: "Viscum album",
   family: "Santalaceae (Viscaceae)",
   significance: "Sign of the Spirit",
-  comment: "The Spirit says, \“I am here\”.",
+  comment: "The Spirit says, \"I am here\".",
   description: "Tiny translucent white globose berries in large clusters. A yellowish-green parasitic shrub.",
   colour: "White",
   size: "Tiny",
   place: "Native to Europe, and western and southern Asia",
   climate: "Subtropical to temperate",
+  quotes: [
+"> What we mean by Spirit is self-existent being with an infinite power of consciousness and unconditioned delight in its being.
+> 
+> <small>Sri Aurobindo, [*Essays on the Gita: The Possibility and Purpose of Avatarhood*](http://incarnateword.in/cwsa/19/the-possibility-and-purpose-of-avatarhood#p12)</small>",
+
+"> Spirit is Sat or pure existence, pure in self-awareness (Chit), pure in self-delight (Ananda). Therefore Spirit can be regarded as a triune basis of all conscious being.
+> 
+> <small>Sri Aurobindo, [*Isha Upanishad: I. The Worlds—Surya*](http://incarnateword.in/cwsa/17/i-the-worlds-surya#p12)</small>",
+
+"> All things here are expression, form, energy, action of the Spirit; matter itself is but form of spirit, life but power of being of the spirit, mind but working of consciousness of the spirit. All Nature is a display and a play of God, power and action and self-creation of the one spiritual Being.
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Involution and Evolution*](http://incarnateword.in/cwsa/13/involution-and-evolution#p10)</small>",
+
+"> This world is, no doubt, based ostensibly upon Matter, but its summit is Spirit and the ascent towards Spirit must be the aim and justification of its existence and the pointer to its meaning and purpose.
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Supermind in the Evolution*](http://incarnateword.in/cwsa/13/supermind-in-the-evolution#p5)</small>"
+  ],
   image_url: "mistletoe.jpg",
   thumbnail_url: "mistletoe_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4604,6 +7048,15 @@ queens_crape_myrtle = Flower.create!(
   size: "Medium-sized",
   place: "Native to tropical southern Asia",
   climate: "Tropical",
+  quotes: [
+"> There are relations, personal, intimate as life itself, sweet as love, encompassing like the sky, deep like deep waters. A Friend walks at our side; a Lover is with us in our heart's secrecy; a Master of the Work and the Ordeal points our way; a Creator of things uses us as his instrument; we are in the arms of the eternal Mother.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Master of the Work*](http://incarnateword.in/cwsa/23/the-master-of-the-work#p28)</small>",
+
+"> The more you give yourself to the Divine the more He is with you, totally, constantly, at every minute, in all your thoughts, all your needs, and that there's no aspiration which does not receive an immediate answer; and you have the sense of a complete, constant intimacy, of a total nearness. It is as though you carried… as though the Divine were all the time with you; you walk and He walks with you, you sleep and He sleeps with you, you eat and He eats with you, you think and He thinks with you, you love and He is the love you have. But for this one must give himself entirely, totally, exclusively…
+> 
+> <small>The Mother, [*Questions and Answers 1955: 20 July 1955*](http://incarnateword.in/cwm/07/20-july-1955#p12)</small>"
+  ],
   image_url: "queens_crape_myrtle.jpg",
   thumbnail_url: "queens_crape_myrtle_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4622,6 +7075,15 @@ henna = Flower.create!(
   size: "Tiny",
   place: "Found in Central Asia, India, and Africa",
   climate: "Tropical and subtropical",
+  quotes: [
+"> [Life energy], life-force is not physical in itself; it is not material energy, but rather a different principle supporting Matter and involved in it. It supports and occupies all forms and without it no physical form could have come into being or could remain in being. It acts in all material forces such as electricity and is nearest to self-manifestation in those that are nearest to pure force; no material force could exist or act without it, for from it they derive their energy and movement and they are its vehicles.
+> 
+> <small>Sri Aurobindo, [*Kena and Other Upanishads: The Superlife—Life of Our Life*](http://incarnateword.in/cwsa/18/the-superlife-life-of-our-life#p3)</small>",
+
+"> The true Life-Force too reveals itself as no longer this troubled harassed divided striving surface energy, but a great and radiant Divine Power, full of peace and strength and bliss, a wide-wayed Angel of Life with its wings of Might enfolding the universe.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - II*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-ii#p23)</small>"
+  ],
   image_url: "henna.jpg",
   thumbnail_url: "henna_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4640,6 +7102,11 @@ large_flowered_magnolia = Flower.create!(
   size: "Very large",
   place: "Native to the southeastern United States",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Vigilance means to be awake, to be on one's guard, to be sincere—never to be taken by surprise. When you want to do sadhana, at each moment of your life, there is a choice between taking a step that leads to the goal and falling asleep or sometimes even going backwards, telling yourself, \"Oh, later on, not immediately\"—sitting down on the way.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Vigilance*](http://incarnateword.in/cwm/03/vigilance#p3)</small>"
+  ],
   image_url: "large_flowered_magnolia.jpg",
   thumbnail_url: "large_flowered_magnolia_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4753,6 +7220,19 @@ red_silk_cotton_tree = Flower.create!(
   size: "Large",
   place: "Native to tropical Asia",
   climate: "Tropical",
+  quotes: [
+"> Consciousness is a fundamental thing, it is the fundamental thing in existence—it is the energy, the action, the movement of consciousness that creates the universe and all that is in it—not only the macrocosm, but the microcosm is nothing but consciousness arranging itself.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Sachchidananda: Existence, Consciousness-Force and Bliss*](http://incarnateword.in/cwsa/28/sachchidananda-existence-consciousness-force-and-bliss#p25)</small>",
+
+"> Consciousness is made up of two elements, awareness of self and things and forces and conscious power. Awareness is the first thing necessary, you have to be aware of things in the right consciousness, in the right way, seeing them in their truth; but awareness by itself is not enough. There must be a Will and a Force that make the consciousness effective.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Sachchidananda: Existence, Consciousness-Force and Bliss*](http://incarnateword.in/cwsa/28/sachchidananda-existence-consciousness-force-and-bliss#p29)</small>",
+
+"> *The only thing* that is truly effective is the change of consciousness; it is the inner liberation through an intimate, constant union, absolute and inevitable, with the vibration of the supramental forces. The preoccupation of every second, the will of all the elements of the being, the aspiration of the entire being, including all the cells of the body, is this union with the supramental forces, the divine forces. And there is no longer any need at all to be preoccupied with what the consequences will be. What has to be in the play of the universal forces and their manifestation will be, quite naturally, spontaneously, automatically, there is no need to be preoccupied with it. The only thing that matters is the constant, total, complete contact—constant, yes, constant—with the Force, the Light, the Truth, the Power, and that ineffable delight of the supramental consciousness.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 12 June 1957*](http://incarnateword.in/cwm/09/12-june-1957#p8)</small>"
+  ],
   image_url: "red_silk_cotton_tree.jpg",
   thumbnail_url: "red_silk_cotton_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4789,6 +7269,11 @@ tree_cotton = Flower.create!(
   size: "Medium-sized",
   place: "Native to India, Pakistan, and other tropical and subtropical regions of the world",
   climate: "Tropical and subtropical",
+  quotes: [
+"> By material vital, we mean the vital so involved in matter as to be bound by its movements and gross physical character. The action is to support and energise the body and keep in it the capacity of life, growth, movement etc., also of sensitiveness to outer impacts.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Vital Being and Vital Consciousness*](http://incarnateword.in/cwsa/28/the-vital-being-and-vital-consciousness#p39)</small>"
+  ],
   image_url: "tree_cotton.jpg",
   thumbnail_url: "tree_cotton_thumbnail.jpg",
   source: "ThaiHerbal.org | Herbal Resources",
@@ -4825,6 +7310,15 @@ japanese_hibiscus = Flower.create!(
   size: "Medium-sized",
   place: "Native to tropical eastern Africa in Kenya, Tanzania, and Mozambique",
   climate: "Tropical",
+  quotes: [
+"> Agni is at once a fire of aspiration, a fire of purification, a fire of tapasya, a fire of transformation.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: Experiences Associated with the Psychic*](http://incarnateword.in/cwsa/30/experiences-associated-with-the-psychic#p26)</small>",
+
+"> Without [Agni] the sacrificial flame cannot burn on the altar of the soul. That flame of Agni is the seven-tongued power of theWill, a Force of God instinct with Knowledge. This conscious and forceful will is the immortal guest in our mortality, a pure priest and a divine worker, the mediator between earth and heaven. It carries what we offer to the higher Powers and brings back in return their force and light and joy into our humanity.
+> 
+> <small>Sri Aurobindo, [*Hymns to the Mystic Fire: The Doctrine of the Mystics*](http://incarnateword.in/cwsa/16/the-doctrine-of-the-mystics#p7)</small>"
+  ],
   image_url: "japanese_hibiscus.jpg",
   thumbnail_url: "japanese_hibiscus_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4862,6 +7356,11 @@ unicorn_plant = Flower.create!(
   size: "Small",
   place: "Endemic to Mexico",
   climate: "Tropical",
+  quotes: [
+"> To be able to be regular is a great force, one becomes master of one's time and one's movements.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Practical Concerns in Work*](http://incarnateword.in/cwsa/29/practical-concerns-in-work#p9)</small>"
+  ],
   image_url: "unicorn_plant.jpg",
   thumbnail_url: "unicorn_plant_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4880,6 +7379,15 @@ ironwood = Flower.create!(
   size: "Tiny",
   place: "Found in India, the Andaman Islands, the coastal region of the Deccan, and also in Sri Lanka",
   climate: "Mostly tropical",
+  quotes: [
+"> A miracle is nothing but a sudden descent, a bursting forth of another consciousness and its powers—most often it is the powers of the vital—into this plane of matter. There is a precipitation, upon the material mechanism, of the mechanism of a higher plane. It is as though a lightning flash tore through the cloud of our ordinary consciousness and poured into it other forces, other movements and sequences. The result we call a miracle, because we see a sudden alteration, an abrupt interference with the natural laws of our own ordinary range, but the reason and order of it we do not know or see, because the source of the miracle lies in another plane. Such incursions of the worlds beyond into our world of matter are not very uncommon, they are even a constant phenomenon, and if we have eyes and know how to observe we can see miracles in abundance. Especially must they be constant among those who are endeavouring to bring down the higher reaches into the earth-consciousness below.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 28 April 1929*](http://incarnateword.in/cwm/03/28-april-1929#p30)</small>",
+
+"> At every moment all the unforeseen, the unexpected, the unknown is before us―and what happens to us depends mostly on the intensity and purity of our faith.
+> 
+> <small>The Mother, [*Words of the Mother - II: Faith*](http://incarnateword.in/cwm/14/faith#p19)</small>"
+  ],
   image_url: "ironwood.jpg",
   thumbnail_url: "ironwood_thumbnail.jpg",
   source: "Dinesh Valke",
@@ -4917,6 +7425,15 @@ neem = Flower.create!(
   size: "Tiny",
   place: "Native to India and the Indian subcontinent",
   climate: "Tropical and subtropical",
+  quotes: [
+"> A spiritual atmosphere is more important than outer conditions; if one can get that and also create one's own spiritual air to breathe in and live in it, that is the true condition of progress.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Quiet and Calm*](http://incarnateword.in/cwsa/29/quiet-and-calm#p29)</small>",
+
+"> In all spiritual living the inner life is the thing of first importance; the spiritual man lives always within, and in a world of the Ignorance that refuses to change he has to be in a certain sense separate from it and to guard his inner life against the intrusion and influence of the darker forces of the Ignorance: he is out of the world even when he is within it; if he acts upon it, it is from the fortress of his inner spiritual being where in the inmost sanctuary he is one with the Supreme Existence or the soul and God are alone together.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Gnostic Being*](http://incarnateword.in/cwsa/22/the-gnostic-being#p15)</small>"
+  ],
   image_url: "neem.jpg",
   thumbnail_url: "neem_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4973,6 +7490,27 @@ false_bird_of_paradise = Flower.create!(
   size: "Small",
   place: "Native to the tropical Americas, but a few species are indigenous to certain islands of the western Pacific and Maluku",
   climate: "Tropical",
+  quotes: [
+"> The heavens were once to me my natural home,
+> I too have wandered in star-jewelled groves,
+> Paced sun-gold pastures and moon-silver swards
+> And heard the harping laughter of their streams
+> And lingered under branches dropping myrrh;
+> I too have revelled in the fields of light
+> Touched by the ethereal raiment of the winds,
+> Thy wonder-rounds of music I have trod,
+> Lived in the rhyme of bright unlabouring thoughts,
+> I have beat swift harmonies of rapture vast,
+> Danced in spontaneous measures of the soul
+> The great and easy dances of the gods.
+> 
+> O fragrant are the lanes thy children walk
+> And lovely is the memory of their feet
+> Amid the wonder-flowers of Paradise:
+> A heavier tread is mine, a mightier touch.
+> 
+> <small>Sri Aurobindo, [*Savitri - II: The Eternal Day: The Soul's Choice and the Supreme Consummation*](http://incarnateword.in/cwsa/34/the-eternal-day-the-souls-choice-and-the-supreme-consummation#p121-p122)</small>"
+  ],
   image_url: "false_bird_of_paradise.jpg",
   thumbnail_url: "false_bird_of_paradise_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -4991,6 +7529,15 @@ bird_of_paradise = Flower.create!(
   size: "Large",
   place: "Native to South Africa; naturalized in Mexico, Belize, Bangladesh, Madeira Islands, and Juan Fernández Islands off the coast of Chile",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The Supramental by its very definition is Truth Consciousness, Truth in possession of itself and fulfilling itself by its own power.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Descent and Transformation*](http://incarnateword.in/cwsa/28/descent-and-transformation#p3)</small>",
+
+"> The Supermind is in its very essence a truth-consciousness, a consciousness always free from the Ignorance which is the foundation of our present natural or evolutionary existence and from which nature in us is trying to arrive at self-knowledge and world-knowledge and a right consciousness and the right use of our existence in the universe. The Supermind, because it is a truth-consciousness, has this knowledge inherent in it and this power of true existence; its course is straight and can go direct to its aim, its field is wide and can even be made illimitable. This is because its very nature is knowledge: it has not to acquire knowledge but possesses it in its own right…
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Supermind and the Life Divine*](http://incarnateword.in/cwsa/13/supermind-and-the-life-divine#p2)</small>"
+  ],
   image_url: "bird_of_paradise.jpg",
   thumbnail_url: "bird_of_paradise_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5007,6 +7554,11 @@ bottlebrush = Flower.create!(
   colour: "Red, greenish-white",
   place: "Endemic to the temperate regions of Australia; widely cultivated in many other regions",
   climate: "Subtropical to temperate",
+  quotes: [
+"> Flowers spoke in ardent hues an unknown joy…
+> 
+> <small>Sri Aurobindo, [*Savitri - II: Nirvana and the Discovery of the All-Negating Absolute*](http://incarnateword.in/cwsa/34/nirvana-and-the-discovery-of-the-all-negating-absolute#p5)</small>"
+  ],
   image_url: "bottlebrush.jpg",
   thumbnail_url: "bottlebrush_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5025,6 +7577,23 @@ eucalyptus = Flower.create!(
   size: "Small",
   place: "Native to Australia; also cultivated in other tropical and temperate regions",
   climate: "Tropical to temperate",
+  quotes: [
+">What we call oneself is only the ego. Our true self is the Divine.
+> 
+> <small>The Mother</small>",
+
+"> Human nature is shot through in all its stuff with the threads of the ego. Even when one tries to get away from it, it is in front or walks behind all the thoughts and actions like one's shadow. To see that is the first step—to discern the falsity and absurdity of the ego movements is the second—to discourage and refuse it at every step is the third—but it goes entirely only when one sees, experiences and lives the One in everything and equally everywhere.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Ego and Its Forms*](http://incarnateword.in/cwsa/31/ego-and-its-forms#p4)</small>",
+    
+"> Our ego, boasting of freedom, is at every moment the slave, toy and puppet of countless beings, powers, forces, influences in universal Nature. The self-abnegation of the ego in the Divine is its self-fulfilment; its surrender to that which transcends it is its liberation from bonds and limits and its perfect freedom.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Four Aids*](http://incarnateword.in/sabcl/20/the-four-aids#p15)</small>",
+
+"> There is no happiness in smallness of the being, says the Scripture, it is with the large being that happiness comes. The ego is by its nature a smallness of being; it brings contraction of the consciousness and with the contraction limitation of knowledge, disabling ignorance,—confinement and a diminution of power and by that diminution incapacity and weakness,—scission of oneness and by that scission disharmony and failure of sympathy and love and understanding,—inhibition or fragmentation of delight of being and by that fragmentation pain and sorrow. To recover what is lost we must break out of the walls of ego.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Release from the Ego*](http://incarnateword.in/cwsa/23/the-release-from-the-ego#p2)</small>"
+  ],
   image_url: "eucalyptus.jpg",
   thumbnail_url: "eucalyptus_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5043,6 +7612,21 @@ rose_apple = Flower.create!(
   size: "Medium-sized",
   place: "Native to Southeast Asia; occurs widely elsewhere",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Self-mastery is the greatest conquest, it is the basis of all enduring happiness.
+> 
+> <small>The Mother, [*Words of the Mother - II: Desires, Impulses and Self-control*](http://incarnateword.in/cwm/14/desires-impulses-and-self-control#p47)</small>",
+
+"> It is from *within* that you must become master of your lower nature by establishing your consciousness firmly in a domain that is free of all desire and attachment because it is under the influence of the divine Light and Force. It is a long and exacting labour which must be undertaken with an unfailing sincerity and a tireless perseverance.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 26 August 1964*](http://incarnateword.in/cwm/16/26-august-1964#p4)</small>",
+
+"> The mastery must be a TRUE mastery, a very humble and austere mastery which starts from the very bottom and, step by step, establishes control. As a matter of fact, it is a battle against small, really tiny things: habits of being, ways of thinking, feeling and reacting.
+> 
+> When this mastery at the very bottom combines with the consciousness at the very top, then you can really begin doing some work—not only work on yourself but also the work for all.
+> 
+> <small>The Mother, [*Mother's Agenda: May 16, 1960*](http://incarnateword.in/agenda/01/may-16-1960#p15-p16)</small>"
+  ],
   image_url: "rose_apple.jpg",
   thumbnail_url: "rose_apple_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5062,6 +7646,20 @@ myrtle = Flower.create!(
   size: "Small",
   place: "Native to the Mediterranean region in southern Europe",
   climate: "Mediterranean",
+  quotes: [
+"> We are united towards the same goal and for the same accomplishment—for a work unique and new, that the divine Grace has given us to accomplish. I hope that more and more you will understand the exceptional importance of this work and that you will sense in yourselves the sublime joy that the accomplishment will give you.
+> 
+> The divine force is with you—feel its presence more and more and be careful never to betray it.
+> 
+> Feel, wish, act, that you may be new beings for the realisation of a new world and for this my blessings shall always be with you.
+> 
+> <small>The Mother, [*On Education: Replies to Prayers of the Physical Education Groups*](http://incarnateword.in/cwm/12/replies-to-prayers-of-the-physical-education-groups#p37-p39)</small>",
+
+"> Some give their soul to the Divine, some their life, some offer their work, some their money. A few consecrate all of themselves and all they have — soul, life, work, wealth; these are the true children of God.
+>
+> <small>The Mother</small>"
+    }
+  ],
   image_url: "myrtle.jpg",
   thumbnail_url: "myrtle_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5100,6 +7698,19 @@ indian_red_water_lily = Flower.create!(
   size: "Large",
   place: "Found throughout temperate and tropical Asia: Bangladesh, India, Sri Lanka, Yunnan, Taiwan, the Philippines, Cambodia, Laos, Myanmar, Thailand, Vietnam, Indonesia, and Malaysia; also found in northeastern Australia and Papua New Guinea",
   climate: "Found across temperate, subtropical, and tropical climates",
+  quotes: [
+"> All wealth belongs to the Divine and those who hold it are trustees, not possessors. It is with them today, tomorrow it may be elsewhere. All depends on the way they discharge their trust while it is with them, in what spirit, with what consciousness in their use of it, to what purpose.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p3)</small>",
+
+"> Most spiritual disciplines insist on a complete self-control, detachment and renunciation of all bondage to wealth and of all personal and egoistic desire for its possession. Some even put a ban on money and riches and proclaim poverty and bareness of life as the only spiritual condition. But this is an error; it leaves the power in the hands of the hostile forces. To reconquer it for the Divine to whom it belongs and use it divinely for the divine life is the supramental way for the Sadhaka.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p1)</small>",
+
+"> The ideal Sadhaka in this kind is one who if required to live poorly can so live and no sense of want will affect him or interfere with the full inner play of the divine consciousness, and if he is required to live richly, can so live and never for a moment fall into desire or attachment to his wealth or to the things that he uses or servitude to self-indulgence or a weak bondage to the habits that the possession of riches creates. The divine Will is all for him and the divine Ananda.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p7)</small>"
+  ],
   image_url: "indian_red_water_lily.jpg",
   thumbnail_url: "indian_red_water_lily_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5112,12 +7723,29 @@ birds_eye_bush = Flower.create!(
   bot_name: "Ochna kirkii",
   family: "Ochnaceae",
   significance: "Greed for Money",
-  comment: "The surest way to diminish one’s consciousness and narrow one’s nature.",
+  comment: "The surest way to diminish one's consciousness and narrow one's nature.",
   description: "Small glossy jet black oval fruits that protrude from waxy red sepals; borne in short panicles. A decorative woody shrub with narrow leathery leaves and delicate evanescent yellow flowers.",
   colour: "Red, black, yellow",
   size: "Small",
   place: "Native to tropical woodlands of Africa, Madagascar, the Mascarenes, and Asia",
   climate: "Tropical",
+  quotes: [
+"> Money is the visible sign of a universal force, and this force in its manifestation on earth works on the vital and physical planes and is indispensable to the fullness of the outer life. In its origin and its true action it belongs to the Divine.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p1)</small>",
+
+"> Money is not meant to make money, money is meant to make the earth ready for the advent of the new creation.
+> 
+> <small>The Mother, [*Words of the Mother - III: Wealth and Economics*](http://incarnateword.in/cwm/15/wealth-and-economics#p1)</small>",
+
+"> Money belongs to the one who spends it; that is an absolute law. You may pile up money, but it doesn't belong to you until you spend it. Then you have the merit, the glory, the joy, the pleasure of spending it!
+> 
+> <small>The Mother, [*Mother's Agenda: October 4, 1958*](http://incarnateword.in/agenda/01/october-4-1958#p21)</small>",
+
+"> Money is not meant to generate money; money should generate an increase in production, an improvement in the conditions of life and a progress in human consciousness. This is its true use. What I call an improvement in consciousness, a progress in consciousness, is everything that education in all its forms can provide—not as it's generally understood, but as we understand it here: education in art, education in … from the education of the body, from the most material progress, to the spiritual education and progress through yoga; the whole spectrum, everything that leads humanity towards its future realization. Money should serve to augment that and to augment the material base for the earth's progress…
+> 
+> <small>The Mother, [*Mother's Agenda: October 4, 1958*](http://incarnateword.in/agenda/01/october-4-1958#p23)</small>"
+  ],
   image_url: "birds_eye_bush.jpg",
   thumbnail_url: "birds_eye_bush_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5136,6 +7764,15 @@ italian_yellow_jasmine = Flower.create!(
   size: "Small",
   place: "Native to Afghanistan, Tajikistan, Nepal, Burma (Myanmar), the Himalayas, and south west China",
   climate: "Mostly subtropical",
+  quotes: [
+"> [Humility is] the recognition that one does not know, that one knows nothing, and that there may be something beyond what presently appears to us as the truest, the most noble or disinterested. True humility consists in constantly referring oneself to the Lord, in placing all before Him.
+> 
+> <small>The Mother, [*Mother's Agenda: December 21, 1957*](http://incarnateword.in/agenda/01/december-21-1957#p8)</small>",
+
+"> When people are told \"be humble\", they think immediately of \"being humble before other men\" and that humility is wrong. True humility is humility before the Divine, that is, a precise, exact, *living* sense that one is nothing, one can do nothing, understand nothing without the Divine, that even if one is exceptionally intelligent and capable, this is nothing in comparison with the divine Consciousness, and this sense one must always keep, because then one always has the true attitude of receptivity—a humble receptivity that does not put personal pretensions in opposition to the Divine.
+> 
+> <small>The Mother, [*Questions and Answers 1953: 13 May 1953*](http://incarnateword.in/cwm/05/13-may-1953#p10)</small>"
+  ],
   image_url: "italian_yellow_jasmine.jpg",
   thumbnail_url: "italian_yellow_jasmine_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5172,6 +7809,11 @@ farewell_to_spring = Flower.create!(
   size: "Small",
   place: "Endemic to California",
   climate: "Temperate",
+  quotes: [
+"> It is by the constant remembrance that the being is prepared for the full opening. By the opening of the heart the Mother's presence begins to be felt and by the opening to her Power above the Force of the higher consciousness comes down into the body and works there to change the whole nature.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: Opening and Presence*](http://incarnateword.in/cwsa/32/opening-and-presence#p3)</small>"
+  ],
   image_url: "farewell_to_spring.jpg",
   thumbnail_url: "farewell_to_spring_thumbnail.jpg",
   source: "Yasuo Kida",
@@ -5190,6 +7832,23 @@ ladys_eardrops = Flower.create!(
   size: "Small to medium-sized",
   place: "Native to South America, but with a few occurring north through Central America to Mexico, and also several from New Zealand to Tahiti",
   climate: "Tropical to warm temperate",
+  quotes: [
+"> Art is discovery and revelation of Beauty…
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Art for Art's Sake*](http://incarnateword.in/cwsa/27/art-for-arts-sake#p3)</small>",
+
+"> Art is nothing less in its fundamental truth than the aspect of beauty of the Divine manifestation.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 28 July 1929*](http://incarnateword.in/cwm/03/28-july-1929#p19)</small>",
+
+"> If you want art to be the true and highest art, it must be the expression of a divine world brought down into this material world.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 28 July 1929*](http://incarnateword.in/cwm/03/28-july-1929#p4)</small>",
+
+"> In a sense, spirituality is the highest art, the art of life; for it aims at creating a life of beauty pure in line, faultless in rhythm, replete with strength, illumined with light and vibrant with delight.
+> 
+> <small>Sri Aurobindo</small>"
+  ],
   image_url: "ladys_eardrops.jpg",
   thumbnail_url: "ladys_eardrops_thumbnail.jpg",
   source: "Jon Sullivan",
@@ -5208,6 +7867,23 @@ scarlet_orchid = Flower.create!(
   size: "Small",
   place: "Found in the United States",
   climate: "Subtropical to temperate",
+  quotes: [
+"> There's only one salvation: to cling to the Divine like this (*gesture with two fists*).
+> 
+> Not clinging to what one thinks of the Divine, not even to what one feels of the Divine… to an aspiration… an aspiration as sincere as possible. And cling to that.
+> 
+> <small>The Mother, [*Mother's Agenda: July 17, 1971*](http://incarnateword.in/agenda/12/july-17-1971#p67-p68)</small>",
+
+"> The aim of our life on earth is to become conscious of the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: The True Aim of Life*](http://incarnateword.in/cwm/14/the-true-aim-of-life#p19)</small>",
+
+"> The true aim of life is to find the Divine's Presence deep inside oneself and to surrender to It so that It takes the lead of the life, all the feelings and all the actions of the body.
+> 
+> This gives a true and luminous aim to existence.
+> 
+> <small>The Mother, [*Words of the Mother - II: The True Aim of Life*](http://incarnateword.in/cwm/14/the-true-aim-of-life#p35-p36)</small>"
+  ],
   image_url: "scarlet_orchid.jpg",
   thumbnail_url: "scarlet_orchid_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5226,6 +7902,23 @@ blue_orchid = Flower.create!(
   size: "Medium-sized",
   place: "Found in Assam and neighbouring Khasi hills, with its range extending to China (southern Yunnan)",
   climate: "Subtropical",
+  quotes: [
+"> There's only one salvation: to cling to the Divine like this (*gesture with two fists*).
+> 
+> Not clinging to what one thinks of the Divine, not even to what one feels of the Divine… to an aspiration… an aspiration as sincere as possible. And cling to that.
+> 
+> <small>The Mother, [*Mother's Agenda: July 17, 1971*](http://incarnateword.in/agenda/12/july-17-1971#p67-p68)</small>",
+
+"> The aim of our life on earth is to become conscious of the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: The True Aim of Life*](http://incarnateword.in/cwm/14/the-true-aim-of-life#p19)</small>",
+
+"> The true aim of life is to find the Divine's Presence deep inside oneself and to surrender to It so that It takes the lead of the life, all the feelings and all the actions of the body.
+> 
+> This gives a true and luminous aim to existence.
+> 
+> <small>The Mother, [*Words of the Mother - II: The True Aim of Life*](http://incarnateword.in/cwm/14/the-true-aim-of-life#p35-p36)</small>"
+  ],
   image_url: "blue_orchid.jpg",
   thumbnail_url: "blue_orchid_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5245,6 +7938,15 @@ starfruit = Flower.create!(
   size: "Tiny",
   place: "Native to Southeast Asia and the Indian Subcontinent",
   climate: "Tropical and subtropical",
+  quotes: [
+"> A clear and precise vision of what is to be done and a steady, calm and firm will to have it done are the essential conditions for an organisation to be run properly.
+> 
+> <small>The Mother, [*Words of the Mother - I: Organisation and Work*](http://incarnateword.in/cwm/13/organisation-and-work#p8)</small>",
+
+"> One must organise one's own things… And those who can do that are generally those who can put their ideas into order and can also organise their character and can finally control their movements… If you take life in that way, truly it be comes interesting. If one lives in a confusion, a disorder, an inner and outer chaos in which everything is mixed up and one is conscious of nothing and still less is master of things, this is not living.
+> 
+> <small>The Mother, [*Questions and Answers 1954: 3 February 1954*](http://incarnateword.in/cwm/06/3-february-1954#p9)</small>"
+  ],
   image_url: "starfruit.jpg",
   thumbnail_url: "starfruit_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5282,6 +7984,23 @@ peony = Flower.create!(
   size: "Large",
   place: "Native to Asia, Southern Europe, and Western North America",
   climate: "Found across temperate, subtropical, and tropical climates",
+  quotes: [
+"> Art is discovery and revelation of Beauty…
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Art for Art's Sake*](http://incarnateword.in/cwsa/27/art-for-arts-sake#p3)</small>",
+
+"> Art is nothing less in its fundamental truth than the aspect of beauty of the Divine manifestation.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 28 July 1929*](http://incarnateword.in/cwm/03/28-july-1929#p19)</small>",
+
+"> If you want art to be the true and highest art, it must be the expression of a divine world brought down into this material world.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 28 July 1929*](http://incarnateword.in/cwm/03/28-july-1929#p4)</small>",
+
+"> In a sense, spirituality is the highest art, the art of life; for it aims at creating a life of beauty pure in line, faultless in rhythm, replete with strength, illumined with light and vibrant with delight.
+> 
+> <small>Sri Aurobindo</small>"
+  ],
   image_url: "peony.jpg",
   thumbnail_url: "peony_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5337,6 +8056,21 @@ pandanus_palm = Flower.create!(
   size: "Tiny",
   place: "Native to Malesia, eastern Australia, and the Pacific Islands",
   climate: "Mostly tropical",
+  quotes: [
+"> The fragrance of flowers is the prayer of physical Nature to the Divine, her most subtle offering.
+> 
+> <small>The Mother</small>",
+
+"> Immortal fragrance packed the quivering breeze.
+> 
+> In groves that seemed moved bosoms and trembling depths
+> The million children of the undying spring
+> Bloomed, pure unnumbered stars of hued delight
+> Nestling for shelter in their emerald sky:
+> Faery flower-masses looked with laughing eyes.
+> 
+> <small>Sri Aurobindo, [*Savitri - II: The Eternal Day: The Soul's Choice and the Supreme Consummation*](http://incarnateword.in/cwsa/34/the-eternal-day-the-souls-choice-and-the-supreme-consummation#p22-p23)</small>"
+  ],
   image_url: "pandanus_palm.jpg",
   thumbnail_url: "pandanus_palm_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5355,6 +8089,11 @@ bleeding_heart = Flower.create!(
   size: "Small",
   place: "Native to Siberia, northern China, Korea, and Japan",
   climate: "Temperate",
+  quotes: [
+"> It is by the constant remembrance that the being is prepared for the full opening. By the opening of the heart the Mother's presence begins to be felt and by the opening to her Power above the Force of the higher consciousness comes down into the body and works there to change the whole nature.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: Opening and Presence*](http://incarnateword.in/cwsa/32/opening-and-presence#p3)</small>"
+  ],
   image_url: "bleeding_heart.jpg",
   thumbnail_url: "bleeding_heart_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5374,6 +8113,31 @@ corn_poppy = Flower.create!(
   size: "Medium-sized",
   place: "Native range includes West Asia, North Africa, and Europe",
   climate: "Subtropical to temperate",
+  quotes: [
+"> In her green wildernesses and lurking depths,
+> In her thickets of joy where danger clasps delight,
+> He glimpsed the hidden wings of her songster hopes,
+> A glimmer of blue and gold and scarlet fire.
+> 
+> In her covert lanes, bordering her chance field-paths
+> And by her singing rivulets and calm lakes
+> He found the glow of her golden fruits of bliss
+> And the beauty of her flowers of dream and muse.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Kingdoms and Godheads of the Greater Life*](http://incarnateword.in/cwsa/33/the-kingdoms-and-godheads-of-the-greater-life#p146-p147)</small>",
+
+"> Nature proves her collaboration with a smile of flowers.
+> 
+> <small>The Mother</small>",
+
+"> O Nature, Material Mother, thou hast said that thou wilt collaborate and there can be no limit to the splendour of this collaboration.
+> 
+> <small>The Mother, [*Words of the Mother - III: New Year Messages*](http://incarnateword.in/cwm/15/new-year-messages#p69)</small>",
+
+"> Flowers spoke in ardent hues an unknown joy…
+> 
+> <small>Sri Aurobindo, [*Savitri - II: Nirvana and the Discovery of the All-Negating Absolute*](http://incarnateword.in/cwsa/34/nirvana-and-the-discovery-of-the-all-negating-absolute#p5)</small>"
+  ],
   image_url: "corn_poppy.jpg",
   thumbnail_url: "corn_poppy_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5392,6 +8156,25 @@ running_pop = Flower.create!(
   size: "Small",
   place: "Native to the southwestern United States (southern Texas and Arizona), Mexico, the Caribbean, Central America, and much of South America; has been introduced to tropical regions around the world, such as Southeast Asia and Hawaii",
   climate: "Tropical",
+  quotes: [
+"> Silence: the condition of the being when it listens to the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Silence*](http://incarnateword.in/cwm/14/silence#p27)</small>",
+
+"> In silence lies the greatest receptivity. And in an immobile silence the vastest action is done.
+> 
+> Let us learn to be silent so that the Lord may make use of us.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 19 December 1971*](http://incarnateword.in/cwm/16/19-december-1971#p1-p2)</small>",
+
+"> With words one can at times understand, but only in silence one knows.
+> 
+> <small>The Mother, [*Words of the Mother - II: Silence*](http://incarnateword.in/search#p26)</small>",
+
+"> This power of silence is a capacity and not an incapacity, a power and not a weakness. It is a profound and pregnant stillness. Only when the mind is thus entirely still, like clear, motionless and level water, in a perfect purity and peace of the whole being and the soul transcends thought, can the Self which exceeds and originates all activities and becomings, the Silence from which all words are born, the Absolute of which all relativities are partial reflections manifest itself in the pure essence of our being. In a complete silence only is the Silence heard; in a pure peace only is its Being revealed. Therefore to us the name of That is the Silence and the Peace.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Purified Understanding*](http://incarnateword.in/cwsa/23/the-purified-understanding#p15)</small>"
+  ],
   image_url: "running_pop.jpg",
   thumbnail_url: "running_pop_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5411,6 +8194,25 @@ passion_flower = Flower.create!(
   size: "Medium-sized",
   place: "Found in tropical and subtropical regions of America and other places",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Silence: the condition of the being when it listens to the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Silence*](http://incarnateword.in/cwm/14/silence#p27)</small>",
+
+"> In silence lies the greatest receptivity. And in an immobile silence the vastest action is done.
+> 
+> Let us learn to be silent so that the Lord may make use of us.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 19 December 1971*](http://incarnateword.in/cwm/16/19-december-1971#p1-p2)</small>",
+
+"> With words one can at times understand, but only in silence one knows.
+> 
+> <small>The Mother, [*Words of the Mother - II: Silence*](http://incarnateword.in/search#p26)</small>",
+
+"> This power of silence is a capacity and not an incapacity, a power and not a weakness. It is a profound and pregnant stillness. Only when the mind is thus entirely still, like clear, motionless and level water, in a perfect purity and peace of the whole being and the soul transcends thought, can the Self which exceeds and originates all activities and becomings, the Silence from which all words are born, the Absolute of which all relativities are partial reflections manifest itself in the pure essence of our being. In a complete silence only is the Silence heard; in a pure peace only is its Being revealed. Therefore to us the name of That is the Silence and the Peace.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Purified Understanding*](http://incarnateword.in/cwsa/23/the-purified-understanding#p15)</small>"
+  ],
   image_url: "passion_flower.jpg",
   thumbnail_url: "passion_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5467,6 +8269,27 @@ indian_leadwort = Flower.create!(
   size: "Small",
   place: "Native to south east Asia",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The psychic being is the soul developing in the evolution.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Classification of the Parts of the Being*](http://incarnateword.in/cwsa/28/classification-of-the-parts-of-the-being#p1)</small>",
+
+"> The true soul of man is in the true invisible heart hidden in some luminous cave of the nature: there under some infiltration of the divine Light is our soul, a silent inmost being of which few are even aware; for if all have a soul, few are conscious of their true soul or feel its direct impulse. There dwells the little spark of the Divine which supports the obscure mass of our nature and around it grows the psychic being, the formed soul or the real Man within us. It is as this psychic being in him grows and the movements of the heart reflect its divinations and impulsions that man becomes more and more aware of his soul, ceases to be a superior animal and, awakening to glimpses of the godhead within him, admits more and more its intimations of a deeper life and consciousness and an impulse towards things divine. It is one of the decisive moments of the integral Yoga when this psychic being, liberated, brought out from the veil to the front, can pour the full flood of its divinations, seeings and impulsions on the mind, life and body of man and begins to prepare the upbuilding of divinity in the earthly nature.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - I*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-i#p17)</small>",
+
+"> It is the very nature of the soul or the psychic being to turn towards the divine Truth as the sunflower to the sun; it accepts and clings to all that is divine or progressing towards divinity, and draws back from all that is a perversion or a denial of it, from all that is false and undivine. Yet the soul is at first but a spark and then a little flame of godhead burning in the midst of a great darkness… It is only when the life turns towards the Divine that the soul can truly come forward and impose its power on the outer members; for, itself a spark of the Divine, to grow in flame towards the Divine is its true life and its very reason of existence.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - I*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-i#p21)</small>",
+
+"> The first [step of self-realisation] is the discovery of the soul, not the outer soul of thought and emotion and desire, but the secret psychic entity, the divine element within us. When that becomes dominant over the nature, when we are consciously the soul and when mind, life and body take their true place as its instruments, we are aware of a guide within that knows the truth, the good, the true delight and beauty of existence, controls heart and intellect by its luminous law and leads our life and being towards spiritual completeness. Even within the obscure workings of the Ignorance we have then a witness who discerns, a living light that illumines, a will that refuses to be misled and separates the mind's truth from its error, the heart's intimate response from its vibrations to a wrong call and wrong demand upon it, the life's true ardour and plenitude of movement from vital passion and the turbid falsehoods of our vital nature and its dark self seekings. This is the first step of self-realisation, to enthrone the soul, the divine psychic individual in the place of the ego.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: The Origin and Remedy of Falsehood, Error, Wrong and Evil*](http://incarnateword.in/cwsa/21/the-origin-and-remedy-of-falsehood-error-wrong-and-evil#p35)</small>",
+
+"> In order to strengthen the [conscious contact with one's psychic being] and aid, if possible, the development of the conscious psychic personality, one should, while concentrating, turn towards it, aspire to know it and feel it, open oneself to receive its influence, and take great care, each time that one receives an indication from it, to follow it very scrupulously and sincerely. To live in a great aspiration, to take care to become inwardly calm and remain so always as far as possible, to cultivate a perfect sincerity in all the activities of one's being—these are the essential conditions for the growth of the psychic being.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 10 September 1959*](http://incarnateword.in/cwm/16/10-september-1959#p5)</small>"
+  ],
   image_url: "indian_leadwort.jpg",
   thumbnail_url: "indian_leadwort.jpg",
   source: "Wikimedia Commons",
@@ -5486,6 +8309,19 @@ ceylon_leadwort = Flower.create!(
   size: "Small",
   place: "Has a pantropical distribution (Africa, the Middle East, South Asia, Southeast Asia, Oceania)",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The base of the material consciousness here is not only the Ignorance, but the Inconscience—that is, the consciousness is involved in form of matter and energy of matter.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Jivatman in the Integral Yoga*](http://incarnateword.in/cwsa/28/the-jivatman-in-the-integral-yoga#p13)</small>",
+
+"> The Inconscience is an inverse reproduction of the supreme superconscience: it has the same absoluteness of being and automatic action, but in a vast involved trance; it is being lost in itself, plunged in its own abyss of infinity.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: Knowledge by Identity and Separative Knowledge*](http://incarnateword.in/cwsa/21/knowledge-by-identity-and-separative-knowledge#p29)</small>",
+
+"> All evolution is the progressive self-revelation of the One to himself in the terms of the Many out of the Inconscience through the Ignorance towards self-conscient perfection.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: Nature: The World-Manifestation*](http://incarnateword.in/cwsa/12/nature-the-world-manifestation#p111)</small>"
+  ],
   image_url: "ceylon_leadwort.jpg",
   thumbnail_url: "ceylon_leadwort_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5515,7 +8351,7 @@ rock_purslane = Flower.create!(
   bot_name: "Calandrinia grandiflora",
   family: "Portulacaceae",
   significance: "Material Power to Heal",
-  comment: "Demands a great sincerity in one’s goodwill.",
+  comment: "Demands a great sincerity in one's goodwill.",
   description: "Small bright pink flower with a center of numerous tiny yellow anthers; borne in loose racemes but usually opens singly. A low fleshy perennial herb with three-sided stems and edible leaves.",
   colour: "Bright pink, yellow",
   size: "Small",
@@ -5532,13 +8368,22 @@ rose_moss = Flower.create!(
   other_names: "Sun Plant, Eleven-o'-clock",
   bot_name: "Portulaca grandiflora",
   family: "Portulacaceae",
-  significance: "Sri Aurobindo’s Compassion",
-  comment: "Innumerable, ever present and effective in every instance.",
+  significance: "Sri Aurobindo's Compassion",
+  comment: "Innumerable, ever present, and effective in every instance.",
   description: "Small single or double rose-like flower with delicately frilled petals and a small central tuft of yellow stamens; borne singly in a wide range of colours. A low spreading annual or perennial groundcover.",
   colour: "Wide range of colours",
   size: "Small",
   place: "Widely grown in tropical and temperate regions",
   climate: "Tropical to warm temperate",
+  quotes: [
+"> The truth of Sri Aurobindo is a truth of love and light and mercy. He is good and great and compassionate and Divine. And it is He who will have the final victory.
+> 
+> <small>The Mother, [*Words of the Mother - III: 3 April 1962*](http://incarnateword.in/cwm/15/3-april-1962#p4)</small>",
+
+"> I always saw him with a perfectly peaceful and smiling face, and above all, the dominant expression was compassion. That was what predominated in his appearance. An expression of compassion so… so peaceful, so tranquil, oh, magnificent.
+> 
+> <small>The Mother, [*Mother's Agenda: October 16, 1965*](http://incarnateword.in/agenda/06/october-16-1965#p18)</small>"
+  ],
   image_url: "rose_moss.jpg",
   thumbnail_url: "rose_moss_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5631,6 +8476,11 @@ leather_flower = Flower.create!(
   petals: "Four",
   size: "Small",
   place: "Native to China and Japan",
+  quotes: [
+"> Vigilance means to be awake, to be on one's guard, to be sincere—never to be taken by surprise. When you want to do sadhana, at each moment of your life, there is a choice between taking a step that leads to the goal and falling asleep or sometimes even going backwards, telling yourself, \"Oh, later on, not immediately\"—sitting down on the way.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Vigilance*](http://incarnateword.in/cwm/03/vigilance#p3)</small>"
+  ],
   climate: "Subtropical to temperate",
   image_url: "leather_flower.jpg",
   thumbnail_url: "leather_flower_thumbnail.jpg",
@@ -5649,6 +8499,11 @@ larkspur = Flower.create!(
   size: "Small",
   place: "Native throughout the Northern Hemisphere and also on the high mountains of tropical Africa",
   climate: "Tropical and warm temperate",
+  quotes: [
+"> A being free from all bondages, flying from height to height in a happy seeking for divine transformation.
+> 
+> <small>The Mother, [*Words of the Mother - III: Soar High*](http://incarnateword.in/cwm/15/soar-high#p7)</small>"
+  ],
   image_url: "larkspur.jpg",
   thumbnail_url: "larkspur_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5687,6 +8542,27 @@ hawthorn = Flower.create!(
   size: "Small",
   place: "Native to temperate regions of the Northern Hemisphere in Europe, Asia, and North America",
   climate: "Temperate",
+  quotes: [
+"> This is purity, to accept no other influence but only the influence of the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Purity*](http://incarnateword.in/cwm/14/purity#p2)</small>",
+
+"> One is truly perfectly pure only when the whole being, in all its elements and all its movements, adheres fully, exclusively, to the divine Will. This indeed is total purity. It does not depend on any moral or social law, any mental convention of any kind. It depends exclusively on this: when all the elements and all the movements of the being adhere exclusively and totally to the divine Will.
+> 
+> <small>The Mother, [*Questions and Answers 1954: 22 December 1954*](http://incarnateword.in/cwm/06/22-december-1954#p18)</small>",
+
+"> What I call purity, the true purity, is not all those things morality teaches: it is non-ego.
+> 
+> There must be nothing but Him.
+> 
+> Him, not only because we have given Him everything and consecrated ourselves totally to Him (that is not enough), but Him because He has taken total possession of the human instrument.
+> 
+> <small>The Mother, [*Mother's Agenda: May 21, 1960*](http://incarnateword.in/agenda/01/may-21-1960#p1-p3)</small>",
+
+"> There is a force of purity, not the purity of the moralist, but an essential purity of spirit, in the very substance of the being.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Sex*](http://incarnateword.in/cwsa/31/sex#p90)</small>"
+  ],
   image_url: "hawthorn.jpg",
   thumbnail_url: "hawthorn_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5705,6 +8581,51 @@ almond_tree = Flower.create!(
   size: "Small",
   place: "Native to the Middle East and South Asia",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Let beauty be your constant ideal.
+> 
+> The beauty of the soul
+> 
+> The beauty of sentiments
+> 
+> The beauty of thoughts
+> 
+> The beauty of the action
+> 
+> The beauty in the work
+> 
+> so that nothing comes out of your hands which is not an expression of pure and harmonious beauty.
+> 
+> And the Divine Help shall always be with you.
+> 
+> <small>The Mother, [*On Education: Curriculum*](http://incarnateword.in/cwm/12/curriculum#p215-p222)</small>",
+
+"> In the world of forms a violation of Beauty is as great a fault as a violation of Truth in the world of ideas. For Beauty is the worship Nature offers to the supreme Master of the universe; Beauty is the divine language in forms. And a consciousness of the Divine which is not translated externally by an understanding and expression of Beauty would be an incomplete consciousness.
+> 
+> <small>The Mother, [*Prayers and Meditations: January 29, 1917*](http://incarnateword.in/cwm/01/january-29-1917#p1)</small>",
+
+"> Delight is the soul of existence, beauty the intense impression, the concentrated form of delight.
+> 
+> <small>Sri Aurobindo, [*The Future Poetry: The Soul of Poetic Delight and Beauty*](http://incarnateword.in/cwsa/26/the-soul-of-poetic-delight-and-beauty#p1)</small>",
+
+"> Beauty is Ananda taking form—but the form need not be a physical shape. One speaks of a beautiful thought, a beautiful act, a beautiful soul. What we speak of as beauty is Ananda in manifestation.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Art, Beauty and Ananda*](http://incarnateword.in/cwsa/27/art-beauty-and-ananda#p3)</small>",
+
+"> Beauty is the special divine Manifestation in the physical as Truth is in the mind, Love in the heart, Power in the vital. Supramental beauty is the highest divine beauty manifesting in Matter.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Beauty*](http://incarnateword.in/cwsa/27/beauty#p4)</small>",
+
+"> The one rule of the gnostic life would be the self-expression of the Spirit, the will of the Divine Being; that will, that self-expression could manifest through extreme simplicity or through extreme complexity and opulence or in their natural balance,—for beauty and plenitude, a hidden sweetness and laughter in things, a sunshine and gladness of life are also powers and expressions of the Spirit.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Divine Life*](http://incarnateword.in/cwsa/22/the-divine-life#p53)</small>",
+
+"> Beauty is his footprint showing us where he has passed,
+> Love is his heart-beats' rhythm in mortal breasts,
+> Happiness the smile on his adorable face.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Kingdom of Subtle Matter*](http://incarnateword.in/cwsa/33/the-kingdom-of-subtle-matter#p75)</small>"
+  ],
   image_url: "almond_tree.jpg",
   thumbnail_url: "almond_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5723,6 +8644,51 @@ oriental_cherry = Flower.create!(
   size: "Small",
   place: "Native to Japan, Korea, and China",
   climate: "Subtropical to temperate",
+  quotes: [
+"> Let beauty be your constant ideal.
+> 
+> The beauty of the soul
+> 
+> The beauty of sentiments
+> 
+> The beauty of thoughts
+> 
+> The beauty of the action
+> 
+> The beauty in the work
+> 
+> so that nothing comes out of your hands which is not an expression of pure and harmonious beauty.
+> 
+> And the Divine Help shall always be with you.
+> 
+> <small>The Mother, [*On Education: Curriculum*](http://incarnateword.in/cwm/12/curriculum#p215-p222)</small>",
+
+"> In the world of forms a violation of Beauty is as great a fault as a violation of Truth in the world of ideas. For Beauty is the worship Nature offers to the supreme Master of the universe; Beauty is the divine language in forms. And a consciousness of the Divine which is not translated externally by an understanding and expression of Beauty would be an incomplete consciousness.
+> 
+> <small>The Mother, [*Prayers and Meditations: January 29, 1917*](http://incarnateword.in/cwm/01/january-29-1917#p1)</small>",
+
+"> Delight is the soul of existence, beauty the intense impression, the concentrated form of delight.
+> 
+> <small>Sri Aurobindo, [*The Future Poetry: The Soul of Poetic Delight and Beauty*](http://incarnateword.in/cwsa/26/the-soul-of-poetic-delight-and-beauty#p1)</small>",
+
+"> Beauty is Ananda taking form—but the form need not be a physical shape. One speaks of a beautiful thought, a beautiful act, a beautiful soul. What we speak of as beauty is Ananda in manifestation.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Art, Beauty and Ananda*](http://incarnateword.in/cwsa/27/art-beauty-and-ananda#p3)</small>",
+
+"> Beauty is the special divine Manifestation in the physical as Truth is in the mind, Love in the heart, Power in the vital. Supramental beauty is the highest divine beauty manifesting in Matter.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Beauty*](http://incarnateword.in/cwsa/27/beauty#p4)</small>",
+
+"> The one rule of the gnostic life would be the self-expression of the Spirit, the will of the Divine Being; that will, that self-expression could manifest through extreme simplicity or through extreme complexity and opulence or in their natural balance,—for beauty and plenitude, a hidden sweetness and laughter in things, a sunshine and gladness of life are also powers and expressions of the Spirit.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Divine Life*](http://incarnateword.in/cwsa/22/the-divine-life#p53)</small>",
+
+"> Beauty is his footprint showing us where he has passed,
+> Love is his heart-beats' rhythm in mortal breasts,
+> Happiness the smile on his adorable face.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Kingdom of Subtle Matter*](http://incarnateword.in/cwsa/33/the-kingdom-of-subtle-matter#p75)</small>"
+  ],
   image_url: "oriental_cherry.jpg",
   thumbnail_url: "oriental_cherry_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5776,6 +8742,15 @@ kadam_tree = Flower.create!(
   size: "Medium-sized",
   place: "Native to South and Southeast Asia",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The Supramental by its very definition is Truth Consciousness, Truth in possession of itself and fulfilling itself by its own power.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Descent and Transformation*](http://incarnateword.in/cwsa/28/descent-and-transformation#p3)</small>",
+
+"> The Supermind is in its very essence a truth-consciousness, a consciousness always free from the Ignorance which is the foundation of our present natural or evolutionary existence and from which nature in us is trying to arrive at self-knowledge and world-knowledge and a right consciousness and the right use of our existence in the universe. The Supermind, because it is a truth-consciousness, has this knowledge inherent in it and this power of true existence; its course is straight and can go direct to its aim, its field is wide and can even be made illimitable. This is because its very nature is knowledge: it has not to acquire knowledge but possesses it in its own right…
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Supermind and the Life Divine*](http://incarnateword.in/cwsa/13/supermind-and-the-life-divine#p2)</small>"
+  ],
   image_url: "kadam_tree.jpg",
   thumbnail_url: "kadam_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5795,6 +8770,15 @@ lily_thorn = Flower.create!(
   size: "Medium-sized",
   place: "Native to Cuba and the Bahamas",
   climate: "Tropical",
+  quotes: [
+"> You must make grow in you the peace that is born of the certitude of victory.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Right Attitude towards Difficulties*](http://incarnateword.in/cwsa/31/the-right-attitude-towards-difficulties#p32)</small>",
+
+"> No human will can finally prevail against the Divine's Will. Let us put ourselves deliberately and exclusively on the side of the Divine, and the Victory is ultimately certain.
+> 
+> <small>The Mother, [*Questions and Answers 1954: 31 December 1954*](http://incarnateword.in/cwm/06/31-december-1954#p8)</small>"
+  ],
   image_url: "lily_thorn.jpg",
   thumbnail_url: "lily_thorn_thumbnail.jpg",
   source: "Fairchild Tropical Botanic Garden",
@@ -5831,6 +8815,29 @@ scarlet_bush = Flower.create!(
   size: "Small",
   place: "Native to the American subtropics and tropics",
   climate: "Tropical and subtropical",
+  quotes: [
+"> A resplendent sun rises above the horizon. It is your Lord that comes to you.
+> 
+> The whole world awakes and stretches in delight at the contact of His glory.
+> 
+> As the earth that heaves and opens, as the tree that grows, as the flower that blossoms, as the bird that sings, as the man that loves, let His light permeate you and radiate in an ever-increasing and widening happiness, a happiness steadily moving onward as the stars move in heaven.
+> 
+> <small>The Mother, [*Words of the Mother - III: Soar High*](http://incarnateword.in/cwm/15/soar-high#p8-p10)</small>",
+
+"> In Matter shall be lit the spirit’s glow,  
+> In body and body kindled the sacred birth;
+> Night shall awake to the anthem of the stars,
+> The days become a happy pilgrim march,
+> Our will a force of the Eternal’s power,
+> And thought the rays of a spiritual sun.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Secret Knowledge*](http://incarnateword.in/cwsa/33/the-secret-knowledge#p75)</small>",
+
+"> The Spirit shall look out through Matter’s gaze
+> And Matter shall reveal the Spirit’s face.
+> 
+> <small>Sri Aurobindo, [*Savitri - II: The Eternal Day: The Soul's Choice and the Supreme Consummation*](http://incarnateword.in/cwsa/34/the-eternal-day-the-souls-choice-and-the-supreme-consummation#p328)</small>"
+  ],
   image_url: "scarlet_bush.jpg",
   thumbnail_url: "scarlet_bush_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5848,6 +8855,11 @@ torch_tree = Flower.create!(
   petals: "Four",
   size: "Tiny",
   place: "Found in South Asia",
+  quotes: [
+"> Those who are not straightforward cannot profit by the Mother's help, for they themselves turn it away. Unless they change, they cannot hope for the descent of the supramental Light and Truth into the lower vital and physical nature; they remain stuck in their own self-created mud and cannot progress.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Lower Vital Being*](http://incarnateword.in/cwsa/31/the-lower-vital-being#p9)</small>"
+  ],
   climate: "Tropical and subtropical",
   image_url: "torch_tree.jpg",
   thumbnail_url: "torch_tree_thumbnail.jpg",
@@ -5861,13 +8873,26 @@ white_ixora = Flower.create!(
   bot_name: "Ixora thwaitesii",
   family: "Rubiaceae",
   significance: "Peace in the Cells",
-  comment: "The indispensable condition for the body’s progress.",
+  comment: "The indispensable condition for the body's progress.",
   description: "Small fragrant white salverform flower with a star-like limb divided into four curled narrow lobes; borne in dense corymbs. A tall glossy-leaved shrub that produces numerous root suckers.",
   colour: "White",
   petals: "Four",
   size: "Small",
   place: "Found in tropical regions",
   climate: "Tropical",
+  quotes: [
+"> Certainly, peace, purity and silence can be felt in all material things—for the Divine Self is there in all.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Peace*](http://incarnateword.in/cwsa/29/peace#p27)</small>",
+
+"> Peace can be brought down into the physical to its very cells. It is the active transformation of the physical that cannot be *completely* done without the supramental descent.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: The Descent of the Higher Powers*](http://incarnateword.in/cwsa/30/the-descent-of-the-higher-powers#p22)</small>",
+
+"> In Sri Aurobindo's yoga, the transformation of the body is indispensable so far as it can be done. Because the aim of this yoga is not an escape from the physical consciousness but a divinisation of that consciousness.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 31 December 1968*](http://incarnateword.in/cwm/16/31-december-1968#p3)</small>"
+  ],
   image_url: "white_ixora.jpg",
   thumbnail_url: "white_ixora_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5924,6 +8949,19 @@ indian_pavetta = Flower.create!(
   size: "Tiny",
   place: "Found in woodlands, grasslands, and thickets in subtropical and tropical Asia and Africa",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Certainly, peace, purity and silence can be felt in all material things—for the Divine Self is there in all.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Peace*](http://incarnateword.in/cwsa/29/peace#p27)</small>",
+
+"> Peace can be brought down into the physical to its very cells. It is the active transformation of the physical that cannot be *completely* done without the supramental descent.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: The Descent of the Higher Powers*](http://incarnateword.in/cwsa/30/the-descent-of-the-higher-powers#p22)</small>",
+
+"> In Sri Aurobindo's yoga, the transformation of the body is indispensable so far as it can be done. Because the aim of this yoga is not an escape from the physical consciousness but a divinisation of that consciousness.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 31 December 1968*](http://incarnateword.in/cwm/16/31-december-1968#p3)</small>"
+  ],
   image_url: "indian_pavetta.jpg",
   thumbnail_url: "indian_pavetta_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5935,12 +8973,17 @@ indigoberry = Flower.create!(
   bot_name: "Randia speciosa",
   family: "Rubiaceae",
   significance: "Order",
-  comment: "To put a thing in its place gives its true value.<br/>An apparently insignificant thing takes on its full value when put in its true place.",
+  comment: "To put a thing in its place gives its true value. An apparently insignificant thing takes on its full value when put in its true place.",
   description: "Fragrant corymbs of somewhat saucer-shaped cream white flowers changing to light yellow with age, each flower with a long erect style. A shrub or small tree.",
   colour: "Cream white to light yellow",
   size: "Small",
   place: "Found in French Guinea, Guyana, Suriname, Venezuela, Colombia, Brazil, Ecuador, Peru, and Paraguay",
   climate: "Tropical and subtropical",
+  quotes: [
+"> There must be order and harmony in work. Even what is apparently the most insignificant thing must be done with perfect perfection, with a sense of cleanliness, beauty, harmony and order.
+> 
+> <small>The Mother, [*Words of the Mother - II: Progress and Perfection in Work*](http://incarnateword.in/cwm/14/progress-and-perfection-in-work#p26)</small>"
+  ],
   image_url: "indigoberry.jpg",
   thumbnail_url: "indigoberry_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5952,7 +8995,7 @@ rondeletia = Flower.create!(
   other_names: "Panama Rose",
   bot_name: "Rondeletia odorata",
   family: "Rubiaceae",
-  significance: "Mahasaraswati’s Perfection in Work",
+  significance: "Mahasaraswati's Perfection in Work",
   comment: "It is not satisfied with makeshift.",
   description: "Small bright orange or deep pink salverform flowers with a limb divided into six rounded lobes and a conspicuous yellow central ring; borne in cymes. A small loosely branched shrub.",
   colour: "Bright orange or deep pink, yellow",
@@ -5960,6 +9003,19 @@ rondeletia = Flower.create!(
   size: "Small",
   place: "Native to Cuba and Panama, also cultivated elsewhere",
   climate: "Tropical",
+  quotes: [
+"> Mahasaraswati is the Mother's Power of Work and her spirit of perfection and order… Of all the Mother's powers she is the most long-suffering with man and his thousand imperfections. Kind, smiling, close and helpful, not easily turned away or discouraged, insistent even after repeated failure, her hand sustains our every step on condition that we are single in our will and straightforward and sincere; for a double mind she will not tolerate and her revealing irony is merciless to drama and histrionics and self-deceit and pretence. A mother to our wants, a friend in our difficulties, a persistent and tranquil counsellor and mentor, chasing away with her radiant smile the clouds of gloom and fretfulness and depression, reminding always of the ever-present help, pointing to the eternal sunshine, she is firm, quiet and persevering in the deep and continuous urge that drives us towards the integrality of the higher nature.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - VI*](http://incarnateword.in/cwsa/32/the-mother-vi#p14)</small>",
+
+"> For [Mahasaraswati] everything must be done down to the last detail, and done in an absolutely perfect way. And she wants, she insists that it should be done physically, totally, materially, that it should not remain in the air, you see, like a mental or vital action, but that it should be a physical realisation in all its details, and all the details be perfect, that nothing be neglected.
+> 
+> <small>The Mother, [*Questions and Answers 1954: 18 August 1954*](http://incarnateword.in/cwm/06/18-august-1954#p10)</small>",
+
+"> Mahasaraswati [is] the goddess of divine skill and of the works of the Spirit, and hers is the Yoga that is skill in works, *yoga&#7717; karmasu kau&#347;alam*, and the utilities of divine knowledge and the self-application of the spirit to life and the happiness of its harmonies.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - II: Faith and Shakti*](http://incarnateword.in/cwsa/24/faith-and-shakti#p10)</small>"
+  ],
   image_url: "rondeletia.jpg",
   thumbnail_url: "rondeletia_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5970,7 +9026,7 @@ asiatic_tarenna = Flower.create!(
   name: "Asiatic Tarenna",
   bot_name: "Tarenna asiatica",
   family: "Rubiaceae",
-  significance: "Humility before the Divine in Physical Nature",
+  significance: "Humility before the Divine in the Physical Nature",
   comment: "First attitude needed for transformation.",
   description: "Tiny intensely fragrant cream coloured flowers with five twisted recurved petals and a prominent style; borne in terminal panicles. A hardy medium to large evergreen shrub with glossy leaves.",
   colour: "Cream",
@@ -5978,6 +9034,15 @@ asiatic_tarenna = Flower.create!(
   size: "Tiny",
   place: "Native to peninsular India, Sri Lanka, and Malayasia",
   climate: "Tropical",
+  quotes: [
+"> When I speak of the physical consciousness, I mean the physical mind and the physical vital as well as the body consciousness proper.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Physical Consciousness*](http://incarnateword.in/cwsa/28/the-physical-consciousness#p2)</small>",
+
+"> In my view the body as well as the mind and life has to be spiritualised or, one may say, divinised so as to be a fit instrument and receptacle for the realisation and manifestation of the Divine. It has its part in the divine Lila, even, according to the Vaishnava sadhana, in the joy and beauty of Divine Love. That does not mean that the body has to be valued for its own separate sake or that the creation of a divine body in a future evolution of the whole being has to be contemplated as an end and not a means—that would be a serious error which would not be admissible. In any case, my speculations about an extreme form of divinisation are something in a far distance and are no part of the preoccupations of the spiritual life in the near future.
+> 
+> <small>Sri Aurobindo, [*Letters on Himself and the Ashram: Spiritual Force and the Body*](http://incarnateword.in/cwsa/35/spiritual-force-and-the-body#p3)</small>"
+  ],
   image_url: "asiatic_tarenna.jpg",
   thumbnail_url: "asiatic_tarenna_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -5996,6 +9061,29 @@ coffee = Flower.create!(
   size: "Small",
   place: "Native to tropical and southern Africa, and tropical Asia",
   climate: "Tropical",
+  quotes: [
+"> What I call \"being on the path\" is being in a state of consciousness in which only union with the Divine has any value—this union is the only thing worth living, the sole object of aspiration. Everything else has lost all value and is not worth seeking, so there is no longer any question of renouncing it because it is no longer an object of desire.
+> 
+> As long as union with the Divine is not *the* thing for which one lives, one is not yet on the path.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 21 April 1965*](http://incarnateword.in/cwm/16/21-april-1965#p3-p4)</small>",
+
+"> It is true that the path is very long, but for one who follows it with *sincerity*, it is *really very interesting*, and at every step one is rewarded for one's trouble.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 16 March 1968*](http://incarnateword.in/cwm/16/16-march-1968#p2)</small>",
+
+"> What do you want the Yoga for? To get power? To attain to peace and calm? To serve humanity?
+> 
+> None of these motives is sufficient to show that you are meant for the Path.
+> 
+> The question you are to answer is this: Do you want the Yoga for the sake of the Divine? Is the Divine the supreme fact of your life, so much so that it is simply impossible for you to do without it? Do you feel that your very *raison d'être* is the Divine and without it there is no meaning in your existence? If so, then only can it be said that you have a call for the Path.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 7 April 1929*](http://incarnateword.in/cwm/03/7-april-1929#p2-p4)</small>",
+
+"> When you come to the Yoga, you must be ready to have all your mental buildings and all your vital scaffoldings shattered to pieces. You must be prepared to be suspended in the air with nothing to support you except your faith. You will have to forget your past self and its clingings altogether, to pluck it out of your consciousness and be born anew, free from every kind of bondage. Think not of what you were, but of what you aspire to be; be altogether in what you want to realise. Turn from your dead past and look straight towards the future.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 9 June 1929*](http://incarnateword.in/cwm/03/9-june-1929#p14)</small>"
+  ],
   image_url: "coffee.jpg",
   thumbnail_url: "coffee_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6014,6 +9102,19 @@ ixora = Flower.create!(
   size: "Small",
   place: "Native to the tropical and subtropical areas throughout the world, its center of diversity is in Tropical Asia",
   climate: "Tropical and subtropical",
+  quotes: [
+"> There is no deep meaning [*of aspiration*]—the meaning is plain. It is the call of the being for higher things—for the Divine, for all that belongs to the higher or Divine Consciousness.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Aspiration*](http://incarnateword.in/cwsa/29/aspiration#p10)</small>",
+
+"> This taste for supreme adventure is aspiration–an aspiration which takes hold of you completely and flings you, without calculation and without reserve and without a possibility of withdrawal, into the great adventure of the divine discovery, the great adventure of the divine meeting, the yet greater adventure of the divine Realisation.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 25 January 1956*](http://incarnateword.in/cwm/08/25-january-1956#p58)</small>",
+
+"> Aspiration is like an arrow, like this (*gesture*). So you aspire, want *very* earnestly to understand, know, enter into the truth. Yes? And then with that aspiration you do this (*gesture*). Your aspiration rises, rises, rises, rises straight up, very strong and then it strikes against a kind of… how to put it?… lid which is there, hard like iron and extremely thick, and it does not pass through. And then you say, \"See, what's the use of aspiring? It brings nothing at all. I meet with something hard and cannot pass!\" But you know about the drop of water which falls on the rock, it ends up by making a chasm: it cuts the rock from top to bottom. Your aspiration is a drop of water which, instead of falling, rises. So, by dint of rising, it beats, beats, beats, and one day it makes a hole, by dint of rising; and when it makes the hole suddenly it springs out from this lid and enters an immensity of light, and you say, \"Ah, now I understand.\"
+> 
+> <small>The Mother, [*Questions and Answers 1955: 13 July 1955*](http://incarnateword.in/cwm/07/13-july-1955#p25)</small>"
+  ],
   image_url: "ixora.jpg",
   thumbnail_url: "ixora_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6033,6 +9134,11 @@ javanese_ixora = Flower.create!(
   size: "Small",
   place: "Found in East Asia - northeast India, Myanmar, Thailand, Cambodia, Vietnam, Malaysia, and Indonesia",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Have you never watched a forest with all its countless trees and plants simply struggling to catch the light—twisting and trying in a hundred possible ways just to be in the sun? That is precisely the feeling of aspiration in the physical—the urge, the movement, the push towards the light. Plants have more of it in their physical being than men. Their whole life is a worship of light. Light is of course the material symbol of the Divine, and the sun represents, under material conditions, the Supreme Consciousness. The plants have felt it quite distinctly in their own simple, blind way. Their aspiration is intense, if you know how to become aware of it.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Aspiration in Plants*](http://incarnateword.in/cwm/03/aspiration-in-plants#p1)</small>"
+  ],
   image_url: "javanese_ixora.jpg",
   thumbnail_url: "javanese_ixora_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6051,6 +9157,21 @@ country_gooseberry = Flower.create!(
   size: "Small",
   place: "Found in India and other tropical regions",
   climate: "Mostly tropical",
+  quotes: [
+"> Our renunciation must obviously be an inward renunciation; especially and above all, a renunciation of attachment and the craving of desire in the senses and the heart, of self-will in the thought and action and of egoism in the centre of the consciousness. For these things are the three knots by which we are bound to our lower nature and if we can renounce these utterly, there is nothing else that can bind us.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: Renunciation*](http://incarnateword.in/cwsa/23/renunciation#p6)</small>",
+
+"> There is a sovereign royalty in taking no thought for oneself. To have needs is to assert a weakness; to claim something proves that we lack what we claim. To desire is to be impotent; it is to recognise our limitations and confess our incapacity to overcome them.
+> 
+> If only from the point of view of a legitimate pride, man should be noble enough to renounce desire.
+> 
+> <small>The Mother, [*Prayers and Meditations: March 30, 1917*](http://incarnateword.in/cwm/01/march-30-1917#p1-p2)</small>",
+
+"> All renunciation is for a greater joy yet ungrasped. Some renounce for the joy of duty done, some for the joy of peace, some for the joy of God and some for the joy of self-torture, but renounce rather as a passage to the freedom and untroubled rapture beyond.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: Jnana*](http://incarnateword.in/cwsa/12/jnana#p94)</small>"
+  ],
   image_url: "country_gooseberry.jpg",
   thumbnail_url: "country_gooseberry_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6070,6 +9191,15 @@ orange_jessamine = Flower.create!(
   size: "Small",
   place: "Native to southern China, Taiwan, the Indian subcontinent (i.e. India, Nepal, north-eastern Pakistan, and Sri Lanka), south-eastern Asia (i.e. Cambodia, Laos, Myanmar, Thailand, Vietnam, Indonesia, Malaysia, and the Philippines), and northern Australia (i.e. the northern parts of the Northern Territory, far northern Queensland and northern Western Australia)",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The one thing that is most needed for this sadhana is peace, calm, especially in the vital—a peace which depends not on circumstances or surroundings but on the inner relation with a higher consciousness which is the consciousness of the Divine, of the Mother.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: Inner Contact with the Mother*](http://incarnateword.in/cwsa/32/inner-contact-with-the-mother#p18)</small>",
+
+"> If you get peace, then to clean the vital becomes easy. If you simply clean and clean and do nothing else, you go very slowly—for the vital gets dirty again and has to be cleaned a hundred times. The peace is something that is clean in itself—so to get it is a positive way of securing your object. To look for dirt only and clean is the negative way.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Peace*](http://incarnateword.in/cwsa/29/peace#p23)</small>"
+  ],
   image_url: "orange_jessamine.jpg",
   thumbnail_url: "orange_jessamine_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6089,6 +9219,15 @@ bael_tree = Flower.create!(
   size: "Small",
   place: "Native to India, cultivated across southeast Asia",
   climate: "Tropical",
+  quotes: [
+"> In love for the Divine or for one whom one feels to be divine, the Bhakta feels an intense reverence for the Loved, a sense of something of immense greatness, beauty or value and for himself a strong impression of his own comparative unworthiness and a passionate desire to *grow* into likeness with that which one adores.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Philosophical Thought and Yoga*](http://incarnateword.in/cwsa/28/philosophical-thought-and-yoga#p28)</small>",
+
+"> The final demand of the Bhakta is simply that his bhakti may never cease nor diminish. He does not ask for heaven or for liberation from birth or for any other object, but only that his love may be eternal and absolute.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - II: The Godward Emotions*](http://incarnateword.in/cwsa/24/the-godward-emotions#p12)</small>"
+  ],
   image_url: "bael_tree.jpg",
   thumbnail_url: "bael_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6124,6 +9263,11 @@ shaddock = Flower.create!(
   size: "Small",
   place: "Native to South and Southeast Asia",
   climate: "Tropical and subtropical",
+  quotes: [
+"> To be continent is to allow no other movements in the being (mental, vital and physical) than those strictly indispensable to manifest the Divine's Will.
+> 
+> <small>The Mother, [*Words of the Mother - II: Desires, Impulses and Self-control*](http://incarnateword.in/cwm/14/desires-impulses-and-self-control#p49)</small>"
+  ],
   image_url: "shaddock.jpg",
   thumbnail_url: "shaddock_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6141,6 +9285,11 @@ pussy_willow = Flower.create!(
   size: "Small",
   place: "Native to North America in the northern forests and wetlands of Canada (British Columbia east to Newfoundland); also found in the northern portions of the contiguous United States (Idaho east to Maine, and south to Maryland)",
   climate: "Temperate",
+  quotes: [
+"> When you come to the Yoga, you must be ready to have all your mental buildings and all your vital scaffoldings shattered to pieces. You must be prepared to be suspended in the air with nothing to support you except your faith. You will have to forget your past self and its clingings altogether, to pluck it out of your consciousness and be born anew, free from every kind of bondage. Think not of what you were, but of what you aspire to be; be altogether in what you want to realise. Turn from your dead past and look straight towards the future.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 9 June 1929*](http://incarnateword.in/cwm/03/9-june-1929#p14)</small>"
+  ],
   image_url: "pussy_willow.jpg",
   thumbnail_url: "pussy_willow_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6159,6 +9308,29 @@ hopbush = Flower.create!(
   size: "Small",
   place: "Found in tropical, subtropical and warm temperate regions of Africa, the Americas, southern Asia (particularly in the South Indian state of Tamil Nadu), and Australasia",
   climate: "Tropical to warm temperate",
+  quotes: [
+"> A resplendent sun rises above the horizon. It is your Lord that comes to you.
+> 
+> The whole world awakes and stretches in delight at the contact of His glory.
+> 
+> As the earth that heaves and opens, as the tree that grows, as the flower that blossoms, as the bird that sings, as the man that loves, let His light permeate you and radiate in an ever-increasing and widening happiness, a happiness steadily moving onward as the stars move in heaven.
+> 
+> <small>The Mother, [*Words of the Mother - III: Soar High*](http://incarnateword.in/cwm/15/soar-high#p8-p10)</small>",
+
+"> In Matter shall be lit the spirit’s glow,  
+> In body and body kindled the sacred birth;
+> Night shall awake to the anthem of the stars,
+> The days become a happy pilgrim march,
+> Our will a force of the Eternal’s power,
+> And thought the rays of a spiritual sun.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Secret Knowledge*](http://incarnateword.in/cwsa/33/the-secret-knowledge#p75)</small>",
+
+"> The Spirit shall look out through Matter’s gaze
+> And Matter shall reveal the Spirit’s face.
+> 
+> <small>Sri Aurobindo, [*Savitri - II: The Eternal Day: The Soul's Choice and the Supreme Consummation*](http://incarnateword.in/cwsa/34/the-eternal-day-the-souls-choice-and-the-supreme-consummation#p328)</small>"
+  ],
   image_url: "hopbush.jpg",
   thumbnail_url: "hopbush_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6177,6 +9349,11 @@ common_foxglove = Flower.create!(
   size: "Medium-sized",
   place: "Native to western and southwestern Europe, western and central Asia, Australasia, and northwestern Africa",
   climate: "Subtropical to temperate",
+  quotes: [
+"> To be able to be regular is a great force, one becomes master of one's time and one's movements.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Practical Concerns in Work*](http://incarnateword.in/cwsa/29/practical-concerns-in-work#p9)</small>"
+  ],
   image_url: "common_foxglove.jpg",
   thumbnail_url: "common_foxglove_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6196,6 +9373,25 @@ toadflax = Flower.create!(
   size: "Small",
   place: "Native to Morocco; can be found elsewhere growing wild as an introduced species, such as California",
   climate: "Subtropical",
+  quotes: [
+"> Silence: the condition of the being when it listens to the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Silence*](http://incarnateword.in/cwm/14/silence#p27)</small>",
+
+"> In silence lies the greatest receptivity. And in an immobile silence the vastest action is done.
+> 
+> Let us learn to be silent so that the Lord may make use of us.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 19 December 1971*](http://incarnateword.in/cwm/16/19-december-1971#p1-p2)</small>",
+
+"> With words one can at times understand, but only in silence one knows.
+> 
+> <small>The Mother, [*Words of the Mother - II: Silence*](http://incarnateword.in/search#p26)</small>",
+
+"> This power of silence is a capacity and not an incapacity, a power and not a weakness. It is a profound and pregnant stillness. Only when the mind is thus entirely still, like clear, motionless and level water, in a perfect purity and peace of the whole being and the soul transcends thought, can the Self which exceeds and originates all activities and becomings, the Silence from which all words are born, the Absolute of which all relativities are partial reflections manifest itself in the pure essence of our being. In a complete silence only is the Silence heard; in a pure peace only is its Being revealed. Therefore to us the name of That is the Silence and the Peace.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Purified Understanding*](http://incarnateword.in/cwsa/23/the-purified-understanding#p15)</small>"
+  ],
   image_url: "toadflax.jpg",
   thumbnail_url: "toadflax_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6215,6 +9411,15 @@ fountain_plant = Flower.create!(
   size: "Small",
   place: "Native to Mexico",
   climate: "Tropical",
+  quotes: [
+"> When I speak of the physical consciousness, I mean the physical mind and the physical vital as well as the body consciousness proper.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Physical Consciousness*](http://incarnateword.in/cwsa/28/the-physical-consciousness#p2)</small>",
+
+"> In my view the body as well as the mind and life has to be spiritualised or, one may say, divinised so as to be a fit instrument and receptacle for the realisation and manifestation of the Divine. It has its part in the divine Lila, even, according to the Vaishnava sadhana, in the joy and beauty of Divine Love. That does not mean that the body has to be valued for its own separate sake or that the creation of a divine body in a future evolution of the whole being has to be contemplated as an end and not a means—that would be a serious error which would not be admissible. In any case, my speculations about an extreme form of divinisation are something in a far distance and are no part of the preoccupations of the spiritual life in the near future.
+> 
+> <small>Sri Aurobindo, [*Letters on Himself and the Ashram: Spiritual Force and the Body*](http://incarnateword.in/cwsa/35/spiritual-force-and-the-body#p3)</small>"
+  ],
   image_url: "fountain_plant.jpg",
   thumbnail_url: "fountain_plant_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6232,6 +9437,15 @@ antiqua_sage = Flower.create!(
   size: "Tiny",
   place: "Found in Central America, Jamaica, Cuba, southern India, northwestern Australia, and other tropical regions",
   climate: "Tropical",
+  quotes: [
+"> When I speak of the physical consciousness, I mean the physical mind and the physical vital as well as the body consciousness proper.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Physical Consciousness*](http://incarnateword.in/cwsa/28/the-physical-consciousness#p2)</small>",
+
+"> In my view the body as well as the mind and life has to be spiritualised or, one may say, divinised so as to be a fit instrument and receptacle for the realisation and manifestation of the Divine. It has its part in the divine Lila, even, according to the Vaishnava sadhana, in the joy and beauty of Divine Love. That does not mean that the body has to be valued for its own separate sake or that the creation of a divine body in a future evolution of the whole being has to be contemplated as an end and not a means—that would be a serious error which would not be admissible. In any case, my speculations about an extreme form of divinisation are something in a far distance and are no part of the preoccupations of the spiritual life in the near future.
+> 
+> <small>Sri Aurobindo, [*Letters on Himself and the Ashram: Spiritual Force and the Body*](http://incarnateword.in/cwsa/35/spiritual-force-and-the-body#p3)</small>"
+  ],
   image_url: "antiqua_sage.jpg",
   thumbnail_url: "antiqua_sage_thumbnail.jpg",
   source: "scott.zona",
@@ -6304,6 +9518,23 @@ night_jessamine = Flower.create!(
   size: "Small",
   place: "Native to the West Indies, widely cultivated throughout India",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Light is not knowledge but the illumination that comes from above and liberates the being from obscurity and darkness.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: Light*](http://incarnateword.in/cwsa/30/light#p14)</small>",
+
+"> Light is primarily a spiritual manifestation of the Divine Reality illuminative and creative; material light is a subsequent representation or conversion of it into Matter for the purposes of the material Energy.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Ascent towards Supermind*](http://incarnateword.in/cwsa/22/the-ascent-towards-supermind#p26)</small>",
+
+"> Our sense by its incapacity has invented darkness. In truth there is nothing but Light, only it is a power of light either above or below our poor human vision's limited range.
+> 
+> For do not imagine that light is created by the Suns. The Suns are only physical concentrations of Light, but the splendour they concentrate for us is self-born and everywhere.
+> 
+> God is everywhere and wherever God is, there is Light.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: God: The One Reality*](http://incarnateword.in/cwsa/12/god-the-one-reality#p66-p68)</small>"
+  ],
   image_url: "night_jessamine.jpg",
   thumbnail_url: "night_jessamine_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6321,6 +9552,23 @@ purple_cestrum = Flower.create!(
   petals: "Five",
   size: "Small",
   place: "Native to Mexico",
+  quotes: [
+"> Light is not knowledge but the illumination that comes from above and liberates the being from obscurity and darkness.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: Light*](http://incarnateword.in/cwsa/30/light#p14)</small>",
+
+"> Light is primarily a spiritual manifestation of the Divine Reality illuminative and creative; material light is a subsequent representation or conversion of it into Matter for the purposes of the material Energy.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Ascent towards Supermind*](http://incarnateword.in/cwsa/22/the-ascent-towards-supermind#p26)</small>",
+
+"> Our sense by its incapacity has invented darkness. In truth there is nothing but Light, only it is a power of light either above or below our poor human vision's limited range.
+> 
+> For do not imagine that light is created by the Suns. The Suns are only physical concentrations of Light, but the splendour they concentrate for us is self-born and everywhere.
+> 
+> God is everywhere and wherever God is, there is Light.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: God: The One Reality*](http://incarnateword.in/cwsa/12/god-the-one-reality#p66-p68)</small>"
+  ],
   climate: "Tropical",
   image_url: "purple_cestrum.jpg",
   thumbnail_url: "purple_cestrum_thumbnail.jpg",
@@ -6359,6 +9607,11 @@ violet_churur = Flower.create!(
   size: "Small to medium-sized",
   place: "Native to the tropical areas of Central and South America",
   climate: "Tropical",
+  quotes: [
+"> The lower vital aspires by offering all its small movements in the fire of purification, by calling for the light and power to descend into it and rid it of its little greeds, jealousies, resistances and revolts over small matters, angers, vanities, sexualities etc. to be replaced by the right movements governed by selflessness, purity, obedience to the urge of the Divine Force in all things.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Lower Vital Being*](http://incarnateword.in/cwsa/31/the-lower-vital-being#p51)</small>"
+  ],
   image_url: "violet_churur.jpg",
   thumbnail_url: "violet_churur_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6396,6 +9649,15 @@ tex_mex_tobacco = Flower.create!(
   size: "Small",
   place: "Found in tropical and subtropical regions",
   climate: "Tropical and subtropical",
+  quotes: [
+"> There is only one thing to do: to proceed on one's way keeping one's own faith and certitude, and to pay no heed to contradictions and denials.
+> 
+> There are people who need the support and trust and certitude of others to feel comfortable and to be at ease—they are always unhappy because, of course, they will always come across people who do not believe, and so they will be upset and it will trouble them. One must find one's certitude within oneself, keep it in spite of everything and go one's way whatever the cost, to the very end. The Victory is for the most enduring.
+> 
+> To maintain one's endurance in spite of all oppositions, the support must be unshakable, and *one* support *alone* is unshakable, that of the Reality, the Supreme Truth.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 15 January 1958*](http://incarnateword.in/cwm/09/15-january-1958#p4-p6)</small>"
+  ],
   image_url: "tex_mex_tobacco.jpg",
   thumbnail_url: "tex_mex_tobacco_thumbnail.jpg",
   source: "Saroj Kumar Kasaju",
@@ -6414,6 +9676,19 @@ cupflower = Flower.create!(
   size: "Small",
   place: "Native to Brazil and Argentina in South America",
   climate: "Tropical",
+  quotes: [
+"> Our material world is the result of all the others, for the other principles have all descended into Matter to create the physical universe, and every particle of what we call Matter contains all of them implicit in itself.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: The Ascending Series of Substance*](http://incarnateword.in/cwsa/21/the-ascending-series-of-substance#p10)</small>",
+
+"> Matter is the form of substance of being which the existence of Sachchidananda assumes when it subjects itself to this phenomenal action of its own consciousness and force.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: The Sevenfold Chord of Being*](http://incarnateword.in/cwsa/21/the-sevenfold-chord-of-being#p3)</small>",
+
+"> For one who knows how to see behind appearances, there is, hidden at the centre of this Matter—at the centre of *each atom* of this Matter—there is, hidden, the Supreme Divine Reality working from within, gradually, through the millennia, to change this inert Matter into something that is expressive enough to be able to reveal the Spirit within.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 23 October 1957*](http://incarnateword.in/cwm/09/23-october-1957#p6)</small>"
+  ],
   image_url: "cupflower.jpg",
   thumbnail_url: "cupflower_thumbnail.jpg",
   source: "Petr Kocna, BioLib Biological Library",
@@ -6444,13 +9719,26 @@ chalice_vine = Flower.create!(
   bot_name: "Solandra maxima",
   family: "Solanaceae",
   significance: "Absolute Truthfulness",
-  comment: "Must govern one’s life if one wants to be close to the Divine.",
+  comment: "Must govern one's life if one wants to be close to the Divine.",
   description: "Very large solitary mildly fragrant cream to light yellow chalice-like flower with five purple lines extending from the base to the edge of the limb. A woody climbing shrub with glabrous leaves.",
   colour: "Cream to light yellow, purple",
   petals: "Five",
   size: "Very large",
   place: "Endemic to Mexico and Central America",
   climate: "Tropical",
+  quotes: [
+"> Truth is the door of the spirit's Ananda, its beatific nature…
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Karma and Justice*](http://incarnateword.in/cwsa/13/karma-and-justice#p7)</small>",
+
+"> Truth is not a dogma that one can learn once and for all and impose as a rule. Truth is as infinite as the supreme Lord and It manifests every instant for those who are sincere and attentive.
+> 
+> <small>The Mother, [*Mother's Agenda: March 22, 1967*](http://incarnateword.in/agenda/08/march-22-1967#p3)</small>",
+
+"> We shall perceive that the truth we seek is made up of four major aspects: Love, Knowledge, Power and Beauty. These four attributes of the Truth will express themselves spontaneously in our being. The psychic will be the vehicle of true and pure love, the mind will be the vehicle of infallible knowledge, the vital will manifest an invincible power and strength and the body will be the expression of a perfect beauty and harmony.
+> 
+> <small>The Mother, [*On Education: The Science of Living*](http://incarnateword.in/cwm/12/the-science-of-living#p16)</small>"
+  ],
   image_url: "chalice_vine.jpg",
   thumbnail_url: "chalice_vine_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6469,6 +9757,19 @@ angels_trumpet = Flower.create!(
   size: "Very large",
   place: "Native to the coastal rainforests of south-east Brazil; also found across South America, and parts of North America",
   climate: "Tropical and subtropical",
+  quotes: [
+">Tapasya is a strong concentration of the energies for a result - but usually concentration of them in the practice of some discipline for a spiritual result.
+>
+> <small>Sri Aurobindo</small>",
+
+"> Tapasya is the concentration of the will to get the results of sadhana and to conquer the lower nature.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: The Central Processes of the Sadhana*](http://incarnateword.in/cwsa/29/the-central-processes-of-the-sadhana#p26)</small>",
+
+"> When the will and energy are concentrated and used to control the mind, vital and physical and change them or to bring down the higher consciousness or for any other Yogic purpose or high purpose, that is called Tapasya.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Surrender*](http://incarnateword.in/cwsa/29/surrender#p71)</small>"
+  ],
   image_url: "angels_trumpet.jpg",
   thumbnail_url: "angels_trumpet_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6504,6 +9805,11 @@ blue_potato_bush = Flower.create!(
   size: "Small",
   place: "Found in tropical and subtropical America (California, Illinois, Arizona, Georgia, New York, Nevada, South Carolina, Texas, Washington, and Pennsylvania)",
   climate: "Tropical and subtropical",
+  quotes: [
+"> It is by the constant remembrance that the being is prepared for the full opening. By the opening of the heart the Mother's presence begins to be felt and by the opening to her Power above the Force of the higher consciousness comes down into the body and works there to change the whole nature.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: Opening and Presence*](http://incarnateword.in/cwsa/32/opening-and-presence#p3)</small>"
+  ],
   image_url: "blue_potato_bush.jpg",
   thumbnail_url: "blue_potato_bush_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6522,6 +9828,11 @@ st_vincents_lilac = Flower.create!(
   size: "Small",
   place: "Native to tropical South America, cultivated in other tropical regions",
   climate: "Tropical",
+  quotes: [
+"> Never seek a support elsewhere than in the Divine. Never seek satisfaction elsewhere than in the Divine. Never seek the satisfaction of your needs in anyone else except the Divine—never, for anything at all. All your needs can be satisfied only by the Divine. All your weaknesses can be borne and healed only by the Divine. He alone is capable of giving you what you need in everything, always.
+> 
+> <small>The Mother, [*Questions and Answers 1950 - 1951: 5 May 1951*](http://incarnateword.in/cwm/04/5-may-1951#p16)</small>"
+  ],
   image_url: "st_vincents_lilac.jpg",
   thumbnail_url: "st_vincents_lilac_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6539,6 +9850,11 @@ turkey_berry = Flower.create!(
   size: "Small",
   place: "Native from Florida and southern Alabama through the West Indies, and from Mexico through Central America and South America through Brazil; has been introduced and naturalized throughout tropical Africa, Asia, Australia, and the Pacific Islands, including Hawaii, Guam, and American Samoa",
   climate: "Tropical",
+  quotes: [
+"> Fear is an impurity, one of the greatest impurities, one of those which come most directly from the anti-divine forces which want to destroy the divine action on earth; and the first duty of those who really want to do yoga is to eliminate from their consciousness, with all the might, all the sincerity, all the endurance of which they are capable, even the shadow of a fear.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 15 August 1956*](http://incarnateword.in/cwm/08/15-august-1956#p6)</small>"
+  ],
   image_url: "turkey_berry.jpg",
   thumbnail_url: "turkey_berry_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6557,6 +9873,11 @@ pink_ball_dombeya = Flower.create!(
   size: "Small",
   place: "Native to Africa and Madagascar",
   climate: "Tropical",
+  quotes: [
+"> Greed for food has to be overcome, but it has not to be given too much thought. The proper attitude to food is a certain equality. Food is for the maintenance of the body and one should take enough for that—what the body needs; if one gives less the body feels the need and hankers; if you give more, then that is indulging the vital. As for particular foods the palate likes, the attitude of the mind and vital should be, \"If I get, I take; if I don't get, I shall not mind.\" One should not think too much of food either to indulge or unduly to repress—that is the best.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Food*](http://incarnateword.in/cwsa/31/food#p16)</small>"
+  ],
   image_url: "pink_ball_dombeya.jpg",
   thumbnail_url: "pink_ball_dombeya_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6595,6 +9916,11 @@ midday_flower = Flower.create!(
   size: "Small",
   place: "Native to south and south east Asia, extending from India to the Philippines, and to the northern coast of the Australian Northern Territory",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Vigilance means to be awake, to be on one's guard, to be sincere—never to be taken by surprise. When you want to do sadhana, at each moment of your life, there is a choice between taking a step that leads to the goal and falling asleep or sometimes even going backwards, telling yourself, \"Oh, later on, not immediately\"—sitting down on the way.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Vigilance*](http://incarnateword.in/cwm/03/vigilance#p3)</small>"
+  ],
   image_url: "midday_flower.jpg",
   thumbnail_url: "midday_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6613,6 +9939,15 @@ maple_leaved_bayur = Flower.create!(
   size: "Large",
   place: "Indigenous to Southeast Asia from India to Burma",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The Supramental by its very definition is Truth Consciousness, Truth in possession of itself and fulfilling itself by its own power.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Descent and Transformation*](http://incarnateword.in/cwsa/28/descent-and-transformation#p3)</small>",
+
+"> The Supermind is in its very essence a truth-consciousness, a consciousness always free from the Ignorance which is the foundation of our present natural or evolutionary existence and from which nature in us is trying to arrive at self-knowledge and world-knowledge and a right consciousness and the right use of our existence in the universe. The Supermind, because it is a truth-consciousness, has this knowledge inherent in it and this power of true existence; its course is straight and can go direct to its aim, its field is wide and can even be made illimitable. This is because its very nature is knowledge: it has not to acquire knowledge but possesses it in its own right…
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Supermind and the Life Divine*](http://incarnateword.in/cwsa/13/supermind-and-the-life-divine#p2)</small>"
+  ],
   image_url: "maple_leaved_bayur.jpg",
   thumbnail_url: "maple_leaved_bayur_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6631,6 +9966,51 @@ common_camellia = Flower.create!(
   size: "Medium to large",
   place: "Native to mainland China, Taiwan, southern Korea, and southern Japan",
   climate: "Temperate",
+  quotes: [
+"> Let beauty be your constant ideal.
+> 
+> The beauty of the soul
+> 
+> The beauty of sentiments
+> 
+> The beauty of thoughts
+> 
+> The beauty of the action
+> 
+> The beauty in the work
+> 
+> so that nothing comes out of your hands which is not an expression of pure and harmonious beauty.
+> 
+> And the Divine Help shall always be with you.
+> 
+> <small>The Mother, [*On Education: Curriculum*](http://incarnateword.in/cwm/12/curriculum#p215-p222)</small>",
+
+"> In the world of forms a violation of Beauty is as great a fault as a violation of Truth in the world of ideas. For Beauty is the worship Nature offers to the supreme Master of the universe; Beauty is the divine language in forms. And a consciousness of the Divine which is not translated externally by an understanding and expression of Beauty would be an incomplete consciousness.
+> 
+> <small>The Mother, [*Prayers and Meditations: January 29, 1917*](http://incarnateword.in/cwm/01/january-29-1917#p1)</small>",
+
+"> Delight is the soul of existence, beauty the intense impression, the concentrated form of delight.
+> 
+> <small>Sri Aurobindo, [*The Future Poetry: The Soul of Poetic Delight and Beauty*](http://incarnateword.in/cwsa/26/the-soul-of-poetic-delight-and-beauty#p1)</small>",
+
+"> Beauty is Ananda taking form—but the form need not be a physical shape. One speaks of a beautiful thought, a beautiful act, a beautiful soul. What we speak of as beauty is Ananda in manifestation.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Art, Beauty and Ananda*](http://incarnateword.in/cwsa/27/art-beauty-and-ananda#p3)</small>",
+
+"> Beauty is the special divine Manifestation in the physical as Truth is in the mind, Love in the heart, Power in the vital. Supramental beauty is the highest divine beauty manifesting in Matter.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Beauty*](http://incarnateword.in/cwsa/27/beauty#p4)</small>",
+
+"> The one rule of the gnostic life would be the self-expression of the Spirit, the will of the Divine Being; that will, that self-expression could manifest through extreme simplicity or through extreme complexity and opulence or in their natural balance,—for beauty and plenitude, a hidden sweetness and laughter in things, a sunshine and gladness of life are also powers and expressions of the Spirit.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Divine Life*](http://incarnateword.in/cwsa/22/the-divine-life#p53)</small>",
+
+"> Beauty is his footprint showing us where he has passed,
+> Love is his heart-beats' rhythm in mortal breasts,
+> Happiness the smile on his adorable face.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Kingdom of Subtle Matter*](http://incarnateword.in/cwsa/33/the-kingdom-of-subtle-matter#p75)</small>"
+  ],
   image_url: "common_camellia.jpg",
   thumbnail_url: "common_camellia_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6668,6 +10048,11 @@ coriander = Flower.create!(
   size: "Tiny",
   place: "Native to regions spanning from southern Europe and northern Africa to southwestern Asia",
   climate: "Subtropical to temperate",
+  quotes: [
+"> The preoccupation with universal beauty even in its aesthetic forms has an intense power for refining and subtilising the nature, and at its highest it is a great force for purification.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Higher and the Lower Knowledge*](http://incarnateword.in/cwsa/23/the-higher-and-the-lower-knowledge#p8)</small>"
+  ],
   image_url: "coriander.jpg",
   thumbnail_url: "coriander_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6704,6 +10089,15 @@ blue_lace_flower = Flower.create!(
   size: "Tiny",
   place: "Native to Australia, Malesia, New Caledonia, and Fiji",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Higher Mind is one of the planes of the spiritual mind, the first and lowest of them; it is above the normal mental level.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Classification of the Parts of the Being*](http://incarnateword.in/cwsa/28/classification-of-the-parts-of-the-being#p12)</small>",
+
+"> I mean by the Higher Mind a first plane of spiritual [consciousness] where one becomes constantly and closely aware of the Self, the One everywhere and knows and sees things habitually with that awareness; but it is still very much on the mind level although highly spiritual in its essential substance; and its instrumentation is through an elevated thought-power and comprehensive mental sight—not illumined by any of the intenser upper lights but as if in a large strong and clear daylight. It acts as an intermediate state between the Truth-Light above and the human mind; communicating the higher knowledge in a form that the Mind intensified, broadened, made spiritually supple, can receive without being blinded or dazzled by a Truth beyond it.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Higher Mind and Poetic Intelligence*](http://incarnateword.in/cwsa/27/higher-mind-and-poetic-intelligence#p1)</small>"
+  ],
   image_url: "blue_lace_flower.jpg",
   thumbnail_url: "blue_lace_flower_thumbnail.jpg",
   source: "Thomas Ripplinger, fotocommunity",
@@ -6722,6 +10116,15 @@ turks_turban = Flower.create!(
   size: "Small",
   place: "Native to tropical and warm temperate regions of the world",
   climate: "Tropical to warm temperate",
+  quotes: [
+"> As there is a superconscient (something above our present consciousness) above the head from which the higher consciousness comes down into the body, so there is also a subconscient (something below our consciousness) below the feet. Matter is under the control of this power, because it is that out of which it has been created—that is why matter seems to us to be quite unconscious. The material body is very much under the influence of this power for the same reason; it is why we are not conscious of what is going on in the body, for the most part. The outer consciousness goes down into this subconscient when we are asleep, and so it becomes unaware of what is going on in us when we are asleep except for a few dreams. Many of these dreams rise up from the subconscient and are made up of old memories, impressions etc. put together in an incoherent way. For the subconscient receives impressions of all we do or experience in our lives and keeps these impressions in it, sending up often fragments of them in sleep. It is a very important part of the being, but we can do nothing much with it by the conscious will. It is the higher Force working in us that in its natural course will open the subconscient to itself and bring down into it its control and light.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Subconscient and the Integral Yoga*](http://incarnateword.in/cwsa/31/the-subconscient-and-the-integral-yoga#p19)</small>",
+
+"> The subconscient is to be penetrated by the light and made a sort of bedrock of truth, a store of right impressions, right physical responses to the Truth. Strictly speaking, it will not be subconscient at all, but a sort of bank of true values held ready for use.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Subconscient and the Integral Yoga*](http://incarnateword.in/cwsa/31/the-subconscient-and-the-integral-yoga#p71)</small>"
+  ],
   image_url: "turks_turban.jpg",
   thumbnail_url: "turks_turban_thumbnail.jpg",
   source: "Salim.E.I, Raxa Collective",
@@ -6758,6 +10161,23 @@ butterfly_bush = Flower.create!(
   size: "Small",
   place: "Native to Africa; widely cultivated elsewhere",
   climate: "Tropical and subtropical",
+  quotes: [
+"> It is in action, in effort, in the march forward that repose must be found, the true repose of complete trust in the divine Grace, of the absence of desires, of victory over egoism.
+> 
+> True repose comes from the widening, the universalisation of the consciousness. Become as vast as the world and you will always be at rest. In the thick of action, in the very midst of the battle, the effort, you will know the repose of infinity and eternity.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 20 March 1957*](http://incarnateword.in/cwm/09/20-march-1957#p11-p12)</small>",
+
+"> You must know how to rest.
+> 
+> There are many ways of doing it. Here is one: first of all, put your body at ease, comfortably stretched out on a bed or in an easy-chair. Then try to relax your nerves, all together or one by one, till you have obtained complete relaxation. This done, and while your body lies limp like a rag on the bed, make your brain silent and immobile, till it is no longer conscious of itself. Then slowly, imperceptibly, pass from this state into sleep. When you wake up the next morning, you will be full of energy.
+> 
+> <small>The Mother, [*Words of the Mother - III: Sleep and Rest*](http://incarnateword.in/cwm/15/sleep-and-rest#p23-p24)</small>",
+
+"> The rest must be an ascent into the Light, into perfect Peace, total Silence, a rest which rises up out of the darkness. Then it is true rest, a rest which is an ascent.
+> 
+> <small>The Mother, [*Questions and Answers 1955: 31 August 1955*](http://incarnateword.in/cwm/07/31-august-1955#p19)</small>"
+  ],
   image_url: "butterfly_bush.jpg",
   thumbnail_url: "butterfly_bush_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6796,6 +10216,15 @@ fiddle_wood = Flower.create!(
   size: "Tiny",
   place: "Native to the tropical Americas",
   climate: "Tropical",
+  quotes: [
+"> Spirituality can only come by opening of the mind, vital and physical to the inmost soul, to the higher Self, to the Divine, and their subordination to the spiritual forces and instrumentation as channels of the inner light, the higher Knowledge and Power.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Spiritual Evolution and the Supramental*](http://incarnateword.in/cwsa/28/spiritual-evolution-and-the-supramental#p7)</small>",
+
+"> All perfection of which the outer man is capable, is only a realising of the eternal perfection of the Spirit within him. We know the Divine and become the Divine, because we are That already in our secret nature.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Four Aids*](http://incarnateword.in/cwsa/23/the-four-aids#p3)</small>"
+  ],
   image_url: "fiddle_wood.jpg",
   thumbnail_url: "fiddle_wood_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6814,6 +10243,15 @@ indian_privet = Flower.create!(
   size: "Small",
   place: "Found in Australia, Asia, Malesia, and the Pacific islands",
   climate: "Tropical and subtropical",
+  quotes: [
+"> A clear and precise vision of what is to be done and a steady, calm and firm will to have it done are the essential conditions for an organisation to be run properly.
+> 
+> <small>The Mother, [*Words of the Mother - I: Organisation and Work*](http://incarnateword.in/cwm/13/organisation-and-work#p8)</small>",
+
+"> One must organise one's own things… And those who can do that are generally those who can put their ideas into order and can also organise their character and can finally control their movements… If you take life in that way, truly it be comes interesting. If one lives in a confusion, a disorder, an inner and outer chaos in which everything is mixed up and one is conscious of nothing and still less is master of things, this is not living.
+> 
+> <small>The Mother, [*Questions and Answers 1954: 3 February 1954*](http://incarnateword.in/cwm/06/3-february-1954#p9)</small>"
+  ],
   image_url: "indian_privet.jpg",
   thumbnail_url: "indian_privet_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6850,6 +10288,15 @@ pagoda_flower = Flower.create!(
   size: "Small",
   place: "Native to tropical Asia and Papuasia, and other tropical regions",
   climate: "Tropical",
+  quotes: [
+"> A clear and precise vision of what is to be done and a steady, calm and firm will to have it done are the essential conditions for an organisation to be run properly.
+> 
+> <small>The Mother, [*Words of the Mother - I: Organisation and Work*](http://incarnateword.in/cwm/13/organisation-and-work#p8)</small>",
+
+"> One must organise one's own things… And those who can do that are generally those who can put their ideas into order and can also organise their character and can finally control their movements… If you take life in that way, truly it be comes interesting. If one lives in a confusion, a disorder, an inner and outer chaos in which everything is mixed up and one is conscious of nothing and still less is master of things, this is not living.
+> 
+> <small>The Mother, [*Questions and Answers 1954: 3 February 1954*](http://incarnateword.in/cwm/06/3-february-1954#p9)</small>"
+  ],
   image_url: "pagoda_flower.jpg",
   thumbnail_url: "pagoda_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6868,6 +10315,15 @@ javanese_glory_bower = Flower.create!(
   size: "Small",
   place: "Native to Indonesia and Papuasia; naturalized in parts of Latin America, Africa, the Caribbean, Seychelles, and Florida",
   climate: "Tropical",
+  quotes: [
+"> To lead the Divine Life does not depend on any exterior activity or circumstances. Whatever you do from the highest work to the most ordinary, you can lead the Divine Life if you are in the true consciousness and the right attitude.
+> 
+> <small>The Mother</small>",
+
+"> If, in the presence of circumstances that are about to take place, you can take the highest attitude possible—that is, if you put your consciousness in contact with the highest consciousness within reach, you can be absolutely sure that in that case it is the best that can happen to you… I even go so far as to affirm that in the zone of immediate influence of each one, the right attitude not only has the power to turn every circumstance to advantage but can change the very circumstance itself. 
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Power of Right Attitude*](http://incarnateword.in/cwm/03/power-of-right-attitude#p1)</small>"
+  ],
   image_url: "javanese_glory_bower.jpg",
   thumbnail_url: "javanese_glory_bower.jpg",
   source: "Wikimedia Commons",
@@ -6886,6 +10342,15 @@ flaming_glory_bower = Flower.create!(
   size: "Small",
   place: "Native to tropical Western Africa",
   climate: "Tropical",
+  quotes: [
+"> To lead the Divine Life does not depend on any exterior activity or circumstances. Whatever you do from the highest work to the most ordinary, you can lead the Divine Life if you are in the true consciousness and the right attitude.
+> 
+> <small>The Mother</small>",
+
+"> If, in the presence of circumstances that are about to take place, you can take the highest attitude possible—that is, if you put your consciousness in contact with the highest consciousness within reach, you can be absolutely sure that in that case it is the best that can happen to you… I even go so far as to affirm that in the zone of immediate influence of each one, the right attitude not only has the power to turn every circumstance to advantage but can change the very circumstance itself. 
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Power of Right Attitude*](http://incarnateword.in/cwm/03/power-of-right-attitude#p1)</small>"
+  ],
   image_url: "flaming_glory_bower.jpg",
   thumbnail_url: "flaming_glory_bower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6905,6 +10370,15 @@ bleeding_heart_vine = Flower.create!(
   size: "Small",
   place: "Native to tropical Western Africa",
   climate: "Tropical",
+  quotes: [
+"> To lead the Divine Life does not depend on any exterior activity or circumstances. Whatever you do from the highest work to the most ordinary, you can lead the Divine Life if you are in the true consciousness and the right attitude.
+> 
+> <small>The Mother</small>",
+
+"> If, in the presence of circumstances that are about to take place, you can take the highest attitude possible—that is, if you put your consciousness in contact with the highest consciousness within reach, you can be absolutely sure that in that case it is the best that can happen to you… I even go so far as to affirm that in the zone of immediate influence of each one, the right attitude not only has the power to turn every circumstance to advantage but can change the very circumstance itself. 
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Power of Right Attitude*](http://incarnateword.in/cwm/03/power-of-right-attitude#p1)</small>"
+  ],
   image_url: "bleeding_heart_vine.jpg",
   thumbnail_url: "bleeding_heart_vine_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6923,6 +10397,15 @@ java_glory_bean = Flower.create!(
   size: "Small",
   place: "Native to tropical Africa",
   climate: "Tropical",
+  quotes: [
+"> To lead the Divine Life does not depend on any exterior activity or circumstances. Whatever you do from the highest work to the most ordinary, you can lead the Divine Life if you are in the true consciousness and the right attitude.
+> 
+> <small>The Mother</small>",
+
+"> If, in the presence of circumstances that are about to take place, you can take the highest attitude possible—that is, if you put your consciousness in contact with the highest consciousness within reach, you can be absolutely sure that in that case it is the best that can happen to you… I even go so far as to affirm that in the zone of immediate influence of each one, the right attitude not only has the power to turn every circumstance to advantage but can change the very circumstance itself. 
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Power of Right Attitude*](http://incarnateword.in/cwm/03/power-of-right-attitude#p1)</small>"
+  ],
   image_url: "java_glory_bean.jpg",
   thumbnail_url: "java_glory_bean_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6960,6 +10443,19 @@ tree_of_sadness = Flower.create!(
   size: "Small",
   place: "Native to South Asia and Southeast Asia",
   climate: "Tropical and subtropical",
+  quotes: [
+"> There is no deep meaning [*of aspiration*]—the meaning is plain. It is the call of the being for higher things—for the Divine, for all that belongs to the higher or Divine Consciousness.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Aspiration*](http://incarnateword.in/cwsa/29/aspiration#p10)</small>",
+
+"> This taste for supreme adventure is aspiration–an aspiration which takes hold of you completely and flings you, without calculation and without reserve and without a possibility of withdrawal, into the great adventure of the divine discovery, the great adventure of the divine meeting, the yet greater adventure of the divine Realisation.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 25 January 1956*](http://incarnateword.in/cwm/08/25-january-1956#p58)</small>",
+
+"> Aspiration is like an arrow, like this (*gesture*). So you aspire, want *very* earnestly to understand, know, enter into the truth. Yes? And then with that aspiration you do this (*gesture*). Your aspiration rises, rises, rises, rises straight up, very strong and then it strikes against a kind of… how to put it?… lid which is there, hard like iron and extremely thick, and it does not pass through. And then you say, \"See, what's the use of aspiring? It brings nothing at all. I meet with something hard and cannot pass!\" But you know about the drop of water which falls on the rock, it ends up by making a chasm: it cuts the rock from top to bottom. Your aspiration is a drop of water which, instead of falling, rises. So, by dint of rising, it beats, beats, beats, and one day it makes a hole, by dint of rising; and when it makes the hole suddenly it springs out from this lid and enters an immensity of light, and you say, \"Ah, now I understand.\"
+> 
+> <small>The Mother, [*Questions and Answers 1955: 13 July 1955*](http://incarnateword.in/cwm/07/13-july-1955#p25)</small>"
+  ],
   image_url: "tree_of_sadness.jpg",
   thumbnail_url: "tree_of_sadness_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -6998,6 +10494,21 @@ teak = Flower.create!(
   size: "Tiny",
   place: "Native to south and southeast Asia, mainly India, Sri Lanka, Indonesia, Malaysia, Thailand, and Burma; naturalized and cultivated in many countries in Africa and the Caribbean",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Our renunciation must obviously be an inward renunciation; especially and above all, a renunciation of attachment and the craving of desire in the senses and the heart, of self-will in the thought and action and of egoism in the centre of the consciousness. For these things are the three knots by which we are bound to our lower nature and if we can renounce these utterly, there is nothing else that can bind us.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: Renunciation*](http://incarnateword.in/cwsa/23/renunciation#p6)</small>",
+
+"> There is a sovereign royalty in taking no thought for oneself. To have needs is to assert a weakness; to claim something proves that we lack what we claim. To desire is to be impotent; it is to recognise our limitations and confess our incapacity to overcome them.
+> 
+> If only from the point of view of a legitimate pride, man should be noble enough to renounce desire.
+> 
+> <small>The Mother, [*Prayers and Meditations: March 30, 1917*](http://incarnateword.in/cwm/01/march-30-1917#p1-p2)</small>",
+
+"> All renunciation is for a greater joy yet ungrasped. Some renounce for the joy of duty done, some for the joy of peace, some for the joy of God and some for the joy of self-torture, but renounce rather as a passage to the freedom and untroubled rapture beyond.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: Jnana*](http://incarnateword.in/cwsa/12/jnana#p94)</small>"
+  ],
   image_url: "teak.jpg",
   thumbnail_url: "teak_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7017,6 +10528,15 @@ sweet_violet = Flower.create!(
   size: "Small",
   place: "Native to Europe and Asia; has also been introduced to North America and Australia",
   climate: "Found across temperate, subtropical, and tropical climates",
+  quotes: [
+"> [Humility is] the recognition that one does not know, that one knows nothing, and that there may be something beyond what presently appears to us as the truest, the most noble or disinterested. True humility consists in constantly referring oneself to the Lord, in placing all before Him.
+> 
+> <small>The Mother, [*Mother's Agenda: December 21, 1957*](http://incarnateword.in/agenda/01/december-21-1957#p8)</small>",
+
+"> When people are told \"be humble\", they think immediately of \"being humble before other men\" and that humility is wrong. True humility is humility before the Divine, that is, a precise, exact, *living* sense that one is nothing, one can do nothing, understand nothing without the Divine, that even if one is exceptionally intelligent and capable, this is nothing in comparison with the divine Consciousness, and this sense one must always keep, because then one always has the true attitude of receptivity—a humble receptivity that does not put personal pretensions in opposition to the Divine.
+> 
+> <small>The Mother, [*Questions and Answers 1953: 13 May 1953*](http://incarnateword.in/cwm/05/13-may-1953#p10)</small>"
+  ],
   image_url: "sweet_violet.jpg",
   thumbnail_url: "sweet_violet_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7035,6 +10555,19 @@ common_grape_vine = Flower.create!(
   size: "Small",
   place: "Native to the Mediterranean region, central Europe, and southwestern Asia from Morocco and Portugal north to southern Germany and east to northern Iran",
   climate: "Mediterranean, temperate",
+  quotes: [
+"> Ananda is Beatitude, the bliss of pure conscious existence and energy…
+> 
+> <small>Sri Aurobindo, [*Isha Upanishad: I. Brahman: Oneness of God and the World*](http://incarnateword.in/cwsa/17/i-brahman-oneness-of-god-and-the-world#p42)</small>",
+
+"> The world lives in and by Ananda. From Ananda, says the Veda, we were born, by Ananda we live, to Ananda we return, and it adds that no man could even have the strength to draw in his breath and throw it out again if there were not this heaven of Bliss embracing our existence as ether embraces our bodies, nourishing us with its eternal substance and strength and supporting the life and the activity.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: Nature: The World-Manifestation*](http://incarnateword.in/cwsa/12/nature-the-world-manifestation#p64)</small>",
+
+"> According to our own philosophy the whole world came out of Ananda and returns into Ananda, and the triple term in which Ananda may be stated is Joy, Love, Beauty. To see divine beauty in the whole world, man, life, nature, to love that which we have seen and to have pure unalloyed bliss in that love and that beauty is the appointed road by which mankind as a race must climb to God.
+> 
+> <small>Sri Aurobindo, [*Early Cultural Writings: The National Value of Art*](http://incarnateword.in/cwsa/01/the-national-value-of-art#p6)</small>"
+  ],
   image_url: "common_grape_vine.jpg",
   thumbnail_url: "common_grape_vine_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7053,6 +10586,19 @@ siamese_ginger = Flower.create!(
   size: "Small",
   place: "Native to South Asia and Indonesia",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The power of expression comes by getting into touch with the inner source from which these things come.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Power of Expression and Yoga*](http://incarnateword.in/cwsa/31/the-power-of-expression-and-yoga#p2)</small>",
+
+"> For a certain state of consciousness there is not a single word, not a gesture, not an action which does not express a deeper or higher reality, more lasting, more essential, more true; and once one has seen and felt that, everything takes on a meaning, and one sees more clearly how things ought to be organised, arranged, so that a deeper truth may express itself still better than it does at present.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 30 May 1956*](http://incarnateword.in/cwm/08/30-may-1956#p4)</small>",
+
+"> The truest expression comes out of an absolute inner silence.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother's Attitude towards Music and Other Arts*](http://incarnateword.in/cwsa/32/the-mothers-attitude-towards-music-and-other-arts#p1)</small>"
+  ],
   image_url: "siamese_ginger.jpg",
   thumbnail_url: "siamese_ginger_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7071,6 +10617,19 @@ shell_ginger = Flower.create!(
   size: "Small",
   place: "Native to East Asia",
   climate: "Subtropical to temperate",
+  quotes: [
+"> The power of expression comes by getting into touch with the inner source from which these things come.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Power of Expression and Yoga*](http://incarnateword.in/cwsa/31/the-power-of-expression-and-yoga#p2)</small>",
+
+"> For a certain state of consciousness there is not a single word, not a gesture, not an action which does not express a deeper or higher reality, more lasting, more essential, more true; and once one has seen and felt that, everything takes on a meaning, and one sees more clearly how things ought to be organised, arranged, so that a deeper truth may express itself still better than it does at present.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 30 May 1956*](http://incarnateword.in/cwm/08/30-may-1956#p4)</small>",
+
+"> The truest expression comes out of an absolute inner silence.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother's Attitude towards Music and Other Arts*](http://incarnateword.in/cwsa/32/the-mothers-attitude-towards-music-and-other-arts#p1)</small>"
+  ],
   image_url: "shell_ginger.jpg",
   thumbnail_url: "shell_ginger_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7089,6 +10648,19 @@ zeodary = Flower.create!(
   size: "Small",
   place: "Native to India and Indonesia; also cultivated in Florida",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Peace was the very first thing that the Yogis and seekers of old asked for and it was a quiet and silent mind—and that always brings peace—that they declared to be the condition for realising the Divine.
+> 
+> <small>Sri Aurobindo, [*On Himself: Preparing the Sunlit Path*](http://incarnateword.in/sabcl/26/preparing-the-sunlit-path#p1)</small>",
+
+"> Peace is a deep quietude where no disturbance can come—a quietude with a sense of established security and release.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Quiet and Calm*](http://incarnateword.in/cwsa/29/quiet-and-calm#p17)</small>",
+
+"> Peace is a calm deepened into something that is very positive amounting almost to a tranquil waveless Ananda.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Quiet and Calm*](http://incarnateword.in/cwsa/29/quiet-and-calm#p12)</small>"
+  ],
   image_url: "zeodary.jpg",
   thumbnail_url: "zeodary_thumbnail.jpg",
   source: "Ray, The Daily Bloom",
@@ -7108,6 +10680,21 @@ ginger_lily = Flower.create!(
   size: "Small to medium-sized",
   place: "Native to lightly wooded habitats in Asia",
   climate: "Tropical and subtropical",
+  quotes: [
+"> God is Sachchidananda. He manifests Himself as infinite existence of which the essentiality is consciousness, of which again the essentiality is bliss, is self-delight.
+> 
+> <small>Sri Aurobindo, [*Isha Upanishad: I. The Lord*](http://incarnateword.in/cwsa/17/i-the-lord#p6)</small>",
+
+"> The Supreme is Pure Being, Absolute Existence, *sat*…
+> The Supreme is also Pure Awareness, Absolute Consciousness, *cit*…
+> The Supreme is, finally, Pure Ecstasy, Absolute Bliss, *ananda*.
+> 
+>  <small>Sri Aurobindo, [*Kena and Other Upanishads: The Philosophy of the Upanishads*](http://incarnateword.in/cwsa/18/the-philosophy-of-the-upanishads#p28-p32)</small>",
+
+"> That which has thrown itself out into forms is a triune Existence-Consciousness-Bliss, Sachchidananda, whose consciousness is in its nature a creative or rather a self-expressive Force capable of infinite variation in phenomenon and form of its self-conscious being and endlessly enjoying the delight of that variation. It follows that all things that exist are what they are as terms of that existence, terms of that conscious force, terms of that delight of being.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: Delight of Existence: The Problem*](http://incarnateword.in/cwsa/21/delight-of-existence-the-problem#p4)</small>"
+  ],
   image_url: "ginger_lily.jpg",
   thumbnail_url: "ginger_lily_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7126,6 +10713,11 @@ peacock_ginger = Flower.create!(
   size: "Small",
   place: "Found in Thailand and Peninsular Malaysia",
   climate: "Tropical",
+  quotes: [
+"> The preoccupation with universal beauty even in its aesthetic forms has an intense power for refining and subtilising the nature, and at its highest it is a great force for purification.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Higher and the Lower Knowledge*](http://incarnateword.in/cwsa/23/the-higher-and-the-lower-knowledge#p8)</small>"
+  ],
   image_url: "peacock_ginger.jpg",
   thumbnail_url: "peacock_ginger_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7164,6 +10756,29 @@ caltrop = Flower.create!(
   size: "Small",
   place: "Native to warm temperate and tropical regions of the Old World in southern Europe, southern Asia, throughout Africa, and Australia",
   climate: "Tropical to warm temperate",
+  quotes: [
+"> A resplendent sun rises above the horizon. It is your Lord that comes to you.
+> 
+> The whole world awakes and stretches in delight at the contact of His glory.
+> 
+> As the earth that heaves and opens, as the tree that grows, as the flower that blossoms, as the bird that sings, as the man that loves, let His light permeate you and radiate in an ever-increasing and widening happiness, a happiness steadily moving onward as the stars move in heaven.
+> 
+> <small>The Mother, [*Words of the Mother - III: Soar High*](http://incarnateword.in/cwm/15/soar-high#p8-p10)</small>",
+
+"> In Matter shall be lit the spirit’s glow,  
+> In body and body kindled the sacred birth;
+> Night shall awake to the anthem of the stars,
+> The days become a happy pilgrim march,
+> Our will a force of the Eternal’s power,
+> And thought the rays of a spiritual sun.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Secret Knowledge*](http://incarnateword.in/cwsa/33/the-secret-knowledge#p75)</small>",
+
+"> The Spirit shall look out through Matter’s gaze
+> And Matter shall reveal the Spirit’s face.
+> 
+> <small>Sri Aurobindo, [*Savitri - II: The Eternal Day: The Soul's Choice and the Supreme Consummation*](http://incarnateword.in/cwsa/34/the-eternal-day-the-souls-choice-and-the-supreme-consummation#p328)</small>"
+  ],
   image_url: "caltrop.jpg",
   thumbnail_url: "caltrop_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7280,7 +10895,7 @@ water_hyacinth = Flower.create!(
   other_names: "Water Orchid",
   bot_name: "Eichhornia crassipes",
   family: "Pontederiaceae",
-  significance: "Krishna’s Play in the Vital",
+  significance: "Krishna's Play in the Vital",
   comment: "In His midst it has all its charm.",
   description: "Medium-sized light lavender six-petalled flower with one upper petal that has a yellow spot surrounded by blue and rose-lavender, resembling a peacock feather; borne on a dense, erect spike. A prolific aquatic herb with inflated leaf-bases and feathery roots.",
   colour: "Light lavender, yellow, blue, rose-lavender",
@@ -7288,6 +10903,34 @@ water_hyacinth = Flower.create!(
   size: "Medium-sized",
   place: "Native to the Amazon basin",
   climate: "Tropical",
+  quotes: [
+"> At last I find a meaning of soul's birth
+> Into this universe terrible and sweet,
+> I who have felt the hungry heart of earth
+> Aspiring beyond heaven to Krishna's feet.
+> 
+> I have seen the beauty of immortal eyes,
+> And heard the passion of the Lover's flute,
+> And known a deathless ecstasy's surprise
+> And sorrow in my heart for ever mute.
+> 
+> Nearer and nearer now the music draws,
+> Life shudders with a strange felicity;
+> All Nature is a wide enamoured pause
+> Hoping her lord to touch, to clasp, to be.
+> 
+> For this one moment lived the ages past;
+> The world now throbs fulfilled in me at last.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Krishna*](http://incarnateword.in/cwsa/02/krishna#p1-p4)</small>",
+
+"> All music is only the sound of His laughter,
+> All beauty the smile of His passionate bliss;
+> Our lives are His heart-beats, our rapture the bridal
+> Of Radha and Krishna, our love is their kiss.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Who*](http://incarnateword.in/cwsa/02/who#p7)</small>",
+  ],
   image_url: "water_hyacinth.jpg",
   thumbnail_url: "water_hyacinth_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7343,6 +10986,11 @@ painted_leaf = Flower.create(
   size: "Tiny",
   place: "Native to North and South America; naturalized elsewhere",
   climate: "Found across temperate, subtropical, and tropical climates",
+  quotes: [
+"> It is a mistake to believe that if the vital loves, it must be a love that demands and imposes the satisfaction of its desire; it is a mistake to think that it must be either that or else the vital, in order to escape from its \"attachment\", must draw away altogether from the object of its love. The vital can be as absolute in its unquestioning self-giving as any other part of the nature; nothing can be more generous than its movement when it forgets self for the Beloved.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Right Way of Loving the Mother*](http://incarnateword.in/cwsa/32/the-right-way-of-loving-the-mother#p6)</small>"
+  ],
   image_url: "painted_leaf.jpg",
   thumbnail_url: "painted_leaf_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7361,6 +11009,11 @@ poinsettia = Flower.create(
   size: "Small",
   place: "Indigenous to Mexico and Central America",
   climate: "Tropical",
+  quotes: [
+    "> It is a mistake to believe that if the vital loves, it must be a love that demands and imposes the satisfaction of its desire; it is a mistake to think that it must be either that or else the vital, in order to escape from its \"attachment\", must draw away altogether from the object of its love. The vital can be as absolute in its unquestioning self-giving as any other part of the nature; nothing can be more generous than its movement when it forgets self for the Beloved.
+    > 
+    > <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Right Way of Loving the Mother*](http://incarnateword.in/cwsa/32/the-right-way-of-loving-the-mother#p6)</small>"
+  ],
   image_url: "poinsettia.jpg",
   thumbnail_url: "poinsettia_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7396,6 +11049,15 @@ tiny_flower_hibiscus = Flower.create!(
   size: "Very small",
   place: "Native to India",
   climate: "Tropical and subtropical",
+  quotes: [
+"> If one can smile eternally, one is eternally young.
+> 
+> <small>The Mother, [*Words of the Mother - II: Nobility and Refinement*](http://incarnateword.in/cwm/14/nobility-and-refinement#p22)</small>",
+
+"> Eternal smile means the self-existent joy and gladness of the Spirit.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: The Plant World*](http://incarnateword.in/cwsa/30/the-plant-world#p28)</small>"
+  ],
   image_url: "tiny_flower_hibiscus.jpg",
   thumbnail_url: "tiny_flower_hibiscus_thumbnail.jpg",
   source: "Dinesh Valke",
@@ -7414,6 +11076,23 @@ lesser_mallow = Flower.create!(
   size: "Small",
   place: "Found in Comoros, Mascarenes, Seychelles, Africa, and Asia",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Youth does not depend on the small number of years one has lived, but on the capacity to grow and progress. To grow is to increase one's potentialities, one's capacities; to progress is to make constantly more perfect the capacities that one already possesses.
+> 
+> <small>The Mother, [*On Education: Youth*](http://incarnateword.in/cwm/12/youth#p1)</small>",
+
+"> To be young is to live in the future.
+> 
+> To be young is to be always ready to give up what we are in order to become what we must be.
+> 
+> To be young is never to accept the irreparable.
+> 
+> <small>The Mother, [*On Education: Students*](http://incarnateword.in/cwm/12/students#p5-p7)</small>",
+
+"> To know how to be reborn into a new life at every moment is the secret of eternal youth.
+> 
+> <small>The Mother, [*On Education: Students*](http://incarnateword.in/cwm/12/students#p23)</small>"
+  ],
   image_url: "lesser_mallow.jpg",
   thumbnail_url: "lesser_mallow_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7433,6 +11112,28 @@ white_champaca = Flower.create!(
   size: "Medium-sized",
   place: "Widely cultivated in Asia, particularly the tropical and subtropical regions of China and Southeast Asia",
   climate: "Tropical and subtropical",
+  quotes: [
+"> You know, when I say, \"The Lord smiles\", that means something; it is not that I see a smiling face, but it is… it is a solar vibration. You know, the sun is flat and dull and cold and almost black in comparison.
+> 
+> <small>The Mother</small>",
+
+"> But this Presence in all things… It is a vibration, but it is a vibration that contains everything—a vibration which contains a kind of infinite power, infinite delight and infinite peace, of vastness, vastness, vastness; there are no limits…
+> 
+> <small>The Mother, [*On Thoughts and Aphorisms: Aphorism - 79, 80*](http://incarnateword.in/cwm/10/aphorism-79-80#p61)</small>",
+
+"> And how often, how often the impression… there is no form—there is a form and there is no form, it cannot be put into words. And the impression of a look and there are no eyes—there are no eyes, but there is a look—a look and a smile, and there is no mouth, there is no face! And yet there is a smile, there is a look and (*Mother laughs*) one cannot help saying, \"Yes, O Lord, I am stupid!\" But He laughs, one laughs, one is happy.
+> 
+> <small>The Mother, [*On Thoughts and Aphorisms: Aphorism - 79, 80*](http://incarnateword.in/cwm/10/aphorism-79-80#p66)</small>",
+
+"> An incense floated in the quivering air,
+> A mystic happiness trembled in the breast
+> As if the invisible Beloved had come
+> Assuming the sudden loveliness of a face
+> And close glad hands could seize his fugitive feet
+> And the world change with the beauty of a smile.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The World-Soul*](http://incarnateword.in/cwsa/33/the-world-soul#p14)</small>"
+  ],
   image_url: "white_champaca.jpg",
   thumbnail_url: "white_champaca_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7452,6 +11153,27 @@ champaca = Flower.create!(
   size: "Medium-sized",
   place: "Native to the Indomalaya ecozone (consisting of South Asia, Southeast Asia, and some parts of China)",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The psychic being is the soul developing in the evolution.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Classification of the Parts of the Being*](http://incarnateword.in/cwsa/28/classification-of-the-parts-of-the-being#p1)</small>",
+
+"> The true soul of man is in the true invisible heart hidden in some luminous cave of the nature: there under some infiltration of the divine Light is our soul, a silent inmost being of which few are even aware; for if all have a soul, few are conscious of their true soul or feel its direct impulse. There dwells the little spark of the Divine which supports the obscure mass of our nature and around it grows the psychic being, the formed soul or the real Man within us. It is as this psychic being in him grows and the movements of the heart reflect its divinations and impulsions that man becomes more and more aware of his soul, ceases to be a superior animal and, awakening to glimpses of the godhead within him, admits more and more its intimations of a deeper life and consciousness and an impulse towards things divine. It is one of the decisive moments of the integral Yoga when this psychic being, liberated, brought out from the veil to the front, can pour the full flood of its divinations, seeings and impulsions on the mind, life and body of man and begins to prepare the upbuilding of divinity in the earthly nature.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - I*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-i#p17)</small>",
+
+"> It is the very nature of the soul or the psychic being to turn towards the divine Truth as the sunflower to the sun; it accepts and clings to all that is divine or progressing towards divinity, and draws back from all that is a perversion or a denial of it, from all that is false and undivine. Yet the soul is at first but a spark and then a little flame of godhead burning in the midst of a great darkness… It is only when the life turns towards the Divine that the soul can truly come forward and impose its power on the outer members; for, itself a spark of the Divine, to grow in flame towards the Divine is its true life and its very reason of existence.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - I*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-i#p21)</small>",
+
+"> The first [step of self-realisation] is the discovery of the soul, not the outer soul of thought and emotion and desire, but the secret psychic entity, the divine element within us. When that becomes dominant over the nature, when we are consciously the soul and when mind, life and body take their true place as its instruments, we are aware of a guide within that knows the truth, the good, the true delight and beauty of existence, controls heart and intellect by its luminous law and leads our life and being towards spiritual completeness. Even within the obscure workings of the Ignorance we have then a witness who discerns, a living light that illumines, a will that refuses to be misled and separates the mind's truth from its error, the heart's intimate response from its vibrations to a wrong call and wrong demand upon it, the life's true ardour and plenitude of movement from vital passion and the turbid falsehoods of our vital nature and its dark self seekings. This is the first step of self-realisation, to enthrone the soul, the divine psychic individual in the place of the ego.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: The Origin and Remedy of Falsehood, Error, Wrong and Evil*](http://incarnateword.in/cwsa/21/the-origin-and-remedy-of-falsehood-error-wrong-and-evil#p35)</small>",
+
+"> In order to strengthen the [conscious contact with one's psychic being] and aid, if possible, the development of the conscious psychic personality, one should, while concentrating, turn towards it, aspire to know it and feel it, open oneself to receive its influence, and take great care, each time that one receives an indication from it, to follow it very scrupulously and sincerely. To live in a great aspiration, to take care to become inwardly calm and remain so always as far as possible, to cultivate a perfect sincerity in all the activities of one's being—these are the essential conditions for the growth of the psychic being.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 10 September 1959*](http://incarnateword.in/cwm/16/10-september-1959#p5)</small>"
+  ],
   image_url: "champaca.jpg",
   thumbnail_url: "champaca_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7470,6 +11192,23 @@ china_rose = Flower.create!(
   size: "Small",
   place: "Native to Southwest China in Guizhou, Hubei, and Sichuan Provinces",
   climate: "Subtropical",
+  quotes: [
+"> Love is the source of the Universe and the power that unites the manifestation to its Creator. Aspire sincerely and one day you will feel and be the Love.
+> 
+> <small>The Mother</small>",
+
+"> Love is a mighty vibration coming straight from the One, and only the very pure and very strong are capable of receiving and manifesting it.
+> 
+> <small>The Mother, [*Words of the Mother - II: Love and Sexual Desire*](http://incarnateword.in/cwm/14/love-and-sexual-desire#p4)</small>",
+
+"> Love is the one emotion in us which can be entirely motiveless and self-existent; love need have no other motive than love… Love is that by which we can enter directly into possession of the self-existent delight of the divine Being. Divine love is indeed itself that possession and, as it were, the body of the Ananda.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - II: The Motives of Devotion*](http://incarnateword.in/cwsa/24/the-motives-of-devotion#p11)</small>",
+
+"> For there is, concealed behind individual love, obscured by its ignorant human figure, a mystery which the mind cannot seize, the mystery of the body of the Divine, the secret of a mystic form of the Infinite which we can approach only through the ecstasy of the heart and the passion of the pure and sublimated sense, and its attraction which is the call of the divine Flute-player, the mastering compulsion of the All-Beautiful, can only be seized and seize us through an occult love and yearning which in the end makes one the Form and the Formless, and identifies Spirit and Matter. It is that which the spirit in Love is seeking here in the darkness of the Ignorance and it is that which it finds when individual human love is changed into the love of the Immanent Divine incarnate in the material universe.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - II*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-ii#p4)</small>"
+  ],
   image_url: "china_rose.jpg",
   thumbnail_url: "china_rose_thumbnail.jpg",
   source: "Durio Nursery",
@@ -7488,6 +11227,23 @@ fairy_rose = Flower.create!(
   size: "Small",
   place: "Native to Southwest China in Guizhou, Hubei, and Sichuan Provinces",
   climate: "Subtropical",
+  quotes: [
+"> By surrender we mean not this but a spontaneous self-giving, a giving of all your self to the Divine, to a greater Consciousness of which you are a part. Surrender will not diminish, but increase; it will not lessen or weaken or destroy your personality, it will fortify and aggrandise it. Surrender means a free total giving with all the delight of the giving… True surrender enlarges you; it increases your capacity; it gives you a greater measure in quality and in quantity which you could not have had by yourself. This new greater measure of quality and quantity is different from anything you could attain before: you enter into another world, into a wideness which you could not have entered if you did not surrender. It is as when a drop of water falls into the sea; if it still kept there its separate identity, it would remain a little drop of water and nothing more, a little drop crushed by all the immensity around, because it has not surrendered. But, surrendering, it unites with the sea and participates in the nature and power and vastness of the whole sea.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 4 August 1929*](http://incarnateword.in/cwm/03/4-august-1929#p3)</small>",
+
+"> Surrender is the decision taken to hand over the responsibility of your life to the Divine. Without this decision nothing is at all possible; if you do not surrender, the Yoga is entirely out of the question. Everything else comes naturally after it, for the whole process starts with surrender. You can surrender either through knowledge or through devotion. You may have a strong intuition that the Divine alone is the truth and a luminous conviction that without the Divine you cannot manage. Or you may have a spontaneous feeling that this line is the only way of being happy, a strong psychic desire to belong exclusively to the Divine: \"I do not belong to myself,\" you say, and give up the responsibility of your being to the Truth. Then comes self-offering: \"Here I am, a creature of various qualities, good and bad, dark and enlightened. I offer myself as I am to you, take me up with all my ups and downs, conflicting impulses and tendencies—do whatever you like with me.\"
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Surrender, Self-offering and Consecration*](http://incarnateword.in/cwm/03/surrender-self-offering-and-consecration#p1)</small>",
+
+"> Love of the Highest and a total self-surrender are the straight and swift way to this divine oneness [of indwelling of God in man and man in God].
+> 
+> <small>Sri Aurobindo, [*Essays on the Gita: Works, Devotion and Knowledge*](http://incarnateword.in/cwsa/19/works-devotion-and-knowledge#p12)</small>",
+
+"> For me, Sadhana consists in loving the Divine more and more integrally, more and more absolutely, with a love so total that it leads to identification.
+> 
+> <small>The Mother</small>"
+  ],
   image_url: "fairy_rose.jpg",
   thumbnail_url: "fairy_rose_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7499,7 +11255,7 @@ green_rose = Flower.create!(
   bot_name: "Rosa chinensis 'Viridiflora'",
   family: "Rosaceae",
   significance: "Timidity in Attachment to the Divine",
-  comment: "Full of life, but not knowing how to change this life into an offering to the Divine.<br/>The attachment is not complete and unreserved; there are some parts of the being that question and hold back because they do not have total trust; one might say that it is a conditional attachment, such as: \"If the Divine does what I want, I will remain attached to Him.\"",
+  comment: "Full of life, but not knowing how to change this life into an offering to the Divine. The attachment is not complete and unreserved; there are some parts of the being that question and hold back because they do not have total trust; one might say that it is a conditional attachment, such as: \"If the Divine does what I want, I will remain attached to Him.\"",
   description: "Small double green flower. A small shrub.",
   colour: "Green",
   size: "Small",
@@ -7523,6 +11279,19 @@ tree_marigold = Flower.create!(
   size: "Large",
   place: "Native to eastern Mexico and Central America; has a nearly pantropical distribution as an introduced species",
   climate: "Tropical and subtropical",
+  quotes: [
+"> All wealth belongs to the Divine and those who hold it are trustees, not possessors. It is with them today, tomorrow it may be elsewhere. All depends on the way they discharge their trust while it is with them, in what spirit, with what consciousness in their use of it, to what purpose.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p3)</small>",
+
+"> Most spiritual disciplines insist on a complete self-control, detachment and renunciation of all bondage to wealth and of all personal and egoistic desire for its possession. Some even put a ban on money and riches and proclaim poverty and bareness of life as the only spiritual condition. But this is an error; it leaves the power in the hands of the hostile forces. To reconquer it for the Divine to whom it belongs and use it divinely for the divine life is the supramental way for the Sadhaka.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p1)</small>",
+
+"> The ideal Sadhaka in this kind is one who if required to live poorly can so live and no sense of want will affect him or interfere with the full inner play of the divine consciousness, and if he is required to live richly, can so live and never for a moment fall into desire or attachment to his wealth or to the things that he uses or servitude to self-indulgence or a weak bondage to the habits that the possession of riches creates. The divine Will is all for him and the divine Ananda.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p7)</small>"
+  ],
   image_url: "tree_marigold.jpg",
   thumbnail_url: "tree_marigold_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7533,13 +11302,22 @@ mexican_sunflower = Flower.create!(
   name: "Mexican Sunflower",
   bot_name: "Tithonia rotundifolia",
   family: "Asteraceae (Compositae)",
-  significance: "Physical Consciousness entirely turned towards the Divine",
+  significance: "Physical Consciousness turned entirely towards the Divine",
   comment: "It thirsts for the Divine and wants nothing but Him.",
   description: "Medium-sized flower with bright reddish-orange ray florets and a tufted yellow center; borne singly on a long stem. A robust, erect, bushy annual herb.",
   colour: "Bright reddish-orange, yellow",
   size: "Medium-sized",
   place: "Native to Florida, Louisiana, Mexico, Central America, and the West Indies",
   climate: "Tropical and subtropical",
+  quotes: [
+"> When I speak of the physical consciousness, I mean the physical mind and the physical vital as well as the body consciousness proper.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Physical Consciousness*](http://incarnateword.in/cwsa/28/the-physical-consciousness#p2)</small>",
+
+"> In my view the body as well as the mind and life has to be spiritualised or, one may say, divinised so as to be a fit instrument and receptacle for the realisation and manifestation of the Divine. It has its part in the divine Lila, even, according to the Vaishnava sadhana, in the joy and beauty of Divine Love. That does not mean that the body has to be valued for its own separate sake or that the creation of a divine body in a future evolution of the whole being has to be contemplated as an end and not a means—that would be a serious error which would not be admissible. In any case, my speculations about an extreme form of divinisation are something in a far distance and are no part of the preoccupations of the spiritual life in the near future.
+> 
+> <small>Sri Aurobindo, [*Letters on Himself and the Ashram: Spiritual Force and the Body*](http://incarnateword.in/cwsa/35/spiritual-force-and-the-body#p3)</small>"
+  ],
   image_url: "mexican_sunflower.jpg",
   thumbnail_url: "mexican_sunflower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7559,6 +11337,11 @@ white_alder = Flower.create!(
   size: "Medium-sized",
   place: "Native to Central and South America, from Panama south to Brazil; well known in many other places as an introduced species, such as Malaysia, Indonesia, several other Pacific Islands, the Caribbean, and Florida in the United States",
   climate: "Tropical",
+  quotes: [
+"> Ordinarily, the mind reflects the status of mortal nature and the activities of the Force which works under the conditions of the material universe. But if it becomes clear, passive, pure by the renunciation of these activities and of the characteristic ideas and outlook of mental nature, then as in a clear mirror or like the sky in clear water which is without ripple and unruffled by winds, the divine is reflected.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Difficulties of the Mental Being*](http://incarnateword.in/cwsa/23/the-difficulties-of-the-mental-being#p11)</small>"
+  ],
   image_url: "white_alder.jpg",
   thumbnail_url: "white_alder_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7578,6 +11361,11 @@ yellow_alder = Flower.create!(
   size: "Small",
   place: "Native to Mexico and the West Indies",
   climate: "Tropical",
+  quotes: [
+"> Ordinarily, the mind reflects the status of mortal nature and the activities of the Force which works under the conditions of the material universe. But if it becomes clear, passive, pure by the renunciation of these activities and of the characteristic ideas and outlook of mental nature, then as in a clear mirror or like the sky in clear water which is without ripple and unruffled by winds, the divine is reflected.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Difficulties of the Mental Being*](http://incarnateword.in/cwsa/23/the-difficulties-of-the-mental-being#p11)</small>"
+  ],
   image_url: "yellow_alder.jpg",
   thumbnail_url: "yellow_alder_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7621,6 +11409,19 @@ wild_ginger = Flower.create!(
   size: "Medium to large",
   place: "Native to southeast Asia and surrounding regions, from India to China to Queensland and Indonesia; also found in many tropical regions across the world",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Revelation is the direct sight, the direct hearing or the inspired memory of Truth, drishti, sruti, smriti; it is the highest experience and always accessible to renewed experience. Not because God spoke it, but because the soul saw it, is the word of the Scriptures our supreme authority.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: Jnana*](http://incarnateword.in/cwsa/12/jnana#p98)</small>",
+
+"> The Vedic seers seem to speak of two primary faculties of the \"truth-conscious\" soul; they are Sight and Hearing, by which is intended direct operations of an inherent Knowledge describable as truth-vision and truth-audition and reflected from far-off in our human mentality by the faculties of revelation and inspiration.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: The Supermind as Creator*](http://incarnateword.in/cwsa/21/the-supermind-as-creator#p6)</small>",
+
+"> Revelation is greater than inspiration—it brings the direct knowledge and seeing, inspiration gives the expression, but the two are not always equal.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Mystic Poetry and Spiritual Poetry*](http://incarnateword.in/cwsa/27/mystic-poetry-and-spiritual-poetry#p1)</small>"
+  ],
   image_url: "wild_ginger.jpg",
   thumbnail_url: "wild_ginger_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7671,6 +11472,19 @@ flowering_maple = Flower.create!(
   size: "Small to medium-sized",
   place: "Occurs in a number of tropical and subtropical zones",
   climate: "Tropical and subtropical",
+  quotes: [
+"> I know with absolute certitude that the supramental is a truth and that its advent is in the very nature of things inevitable.
+> 
+> <small>Sri Aurobindo, [*Letters on Himself and the Ashram: 1934*](http://incarnateword.in/cwsa/35/1934#p32)</small>",
+    
+"> The manifestation of the Supramental upon earth is no more a promise but a living fact, a reality.
+> 
+> <small>The Mother, [*Mother's Agenda: April 24, 1956*](http://incarnateword.in/agenda/01/april-24-1956#p1)</small>",
+
+"> What Sri Aurobindo promised and what naturally interests us, we who are here now, is that the time has come when some beings among the *&eacute;lite* of humanity, who fulfil the conditions necessary for spiritualisation, will be able to transform their bodies with the help of the supramental Force, Consciousness and Light, so as no longer to be animal-men but become supermen.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 10 October 1956*](http://incarnateword.in/cwm/08/10-october-1956#p7)</small>"
+  ],
   image_url: "flowering_maple.jpg",
   thumbnail_url: "flowering_maple_thumbnail.jpg",
   source: "Sids1",
@@ -7865,6 +11679,11 @@ hollyhock = Flower.create!(
   size: "Medium to large",
   place: "Originally from China; cultivated in Europe and other temperate regions",
   climate: "Subtropical to temperate",
+  quotes: [
+"> Yoga means union with the Divine, and the union is effected through offering—it is founded on the offering of yourself to the Divine. In the beginning you start by making this offering in a general way, as though once for all; you say, \"I am the servant of the Divine; my life is given absolutely to the Divine; all my efforts are for the realisation of the Divine Life.\" But that is only the first step; for this is not sufficient. When the resolution has been taken, when you have decided that the whole of your life shall be given to the Divine, you have still at every moment to remember it and carry it out in all the details of your existence. You must feel at every step that you belong to the Divine; you must have the constant experience that, in whatever you think or do, it is always the Divine Consciousness that is acting through you. You have no longer anything that you can call your own; you feel everything as coming from the Divine, and you have to offer it back to its source. When you can realise that, then even the smallest thing to which you do not usually pay much attention or care, ceases to be trivial and insignificant; it becomes full of meaning and it opens up a vast horizon beyond.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 28 April 1929*](http://incarnateword.in/cwm/03/28-april-1929#p2)</small>"
+  ],
   image_url: "hollyhock.jpg",
   thumbnail_url: "hollyhock_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -7891,6 +11710,11 @@ velvet_flower_01 = {
   colour: "Dull magenta",
   significance: "Fearlessness in Action",
   comment: "Manifold, unfettered, and fearless.",
+  quotes: [
+"> Fear is an impurity, one of the greatest impurities, one of those which come most directly from the anti-divine forces which want to destroy the divine action on earth; and the first duty of those who really want to do yoga is to eliminate from their consciousness, with all the might, all the sincerity, all the endurance of which they are capable, even the shadow of a fear.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 15 August 1956*](http://incarnateword.in/cwm/08/15-august-1956#p6)</small>"
+  ],
   image_url: "velvet_flower_magenta.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:3834_-_Amaranthus_caudatus_(Zieramaranth).JPG"
@@ -7963,6 +11787,21 @@ willowleaf_angelon = Flower.create!(
   size: "Small",
   place: "Found in Mexico, Argentina, Texas, and other subtropical regions",
   climate: "Subtropical",
+  quotes: [
+"> Our renunciation must obviously be an inward renunciation; especially and above all, a renunciation of attachment and the craving of desire in the senses and the heart, of self-will in the thought and action and of egoism in the centre of the consciousness. For these things are the three knots by which we are bound to our lower nature and if we can renounce these utterly, there is nothing else that can bind us.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: Renunciation*](http://incarnateword.in/cwsa/23/renunciation#p6)</small>",
+
+"> There is a sovereign royalty in taking no thought for oneself. To have needs is to assert a weakness; to claim something proves that we lack what we claim. To desire is to be impotent; it is to recognise our limitations and confess our incapacity to overcome them.
+> 
+> If only from the point of view of a legitimate pride, man should be noble enough to renounce desire.
+> 
+> <small>The Mother, [*Prayers and Meditations: March 30, 1917*](http://incarnateword.in/cwm/01/march-30-1917#p1-p2)</small>",
+
+"> All renunciation is for a greater joy yet ungrasped. Some renounce for the joy of duty done, some for the joy of peace, some for the joy of God and some for the joy of self-torture, but renounce rather as a passage to the freedom and untroubled rapture beyond.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: Jnana*](http://incarnateword.in/cwsa/12/jnana#p94)</small>"
+  ],
   image_url: "willowleaf_angelon.jpg",
   thumbnail_url: "willowleaf_angelon_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -8075,6 +11914,15 @@ coral_vine = Flower.create!(
   size: "Tiny",
   place: "Native to the Americas",
   climate: "Found across many climatic regions",
+  quotes: [
+"> For all problems of existence are essentially problems of harmony. They arise from the perception of an unsolved discord and the instinct of an undiscovered agreement or unity. To rest content with an unsolved discord is possible for the practical and more animal part of man, but impossible for his fully awakened mind, and usually even his practical parts only escape from the general necessity either by shutting out the problem or by accepting a rough, utilitarian and unillumined compromise. For essentially, all Nature seeks a harmony, life and matter in their own sphere as much as mind in the arrangement of its perceptions.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: The Human Aspiration*](http://incarnateword.in/cwsa/21/the-human-aspiration#p3)</small>",
+
+"> This manifestation of beauty and harmony is part of the Divine realisation upon earth, perhaps even its greatest part.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 28 July 1929*](http://incarnateword.in/cwm/03/28-july-1929#p14)</small>"
+  ],
   image_url: "coral_vine.jpg",
   thumbnail_url: "coral_vine_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -8160,7 +12008,7 @@ snapdragon_07 = {
 }
 
 snapdragon_08 = {
-  bot_name: "Antirrhinum majus ‘Butterfly hybrid’",
+  bot_name: "Antirrhinum majus ‘Butterfly hybrid'",
   description: "A variation of the common snapdragon in which the lower lip is flattened, opening the \"mouth\" of the flower into a somewhat trumpet shape; borne in erect racemes. A colourful annual or perennial.",
   colour: "Pink",
   significance: "Progressive Expression",
@@ -8177,6 +12025,19 @@ snapdragon = Flower.create!(
   size: "Small",
   place: "Native to the Mediterranean region",
   climate: "Mediterranean, temperate",
+  quotes: [
+"> The power of expression comes by getting into touch with the inner source from which these things come.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Power of Expression and Yoga*](http://incarnateword.in/cwsa/31/the-power-of-expression-and-yoga#p2)</small>",
+
+"> For a certain state of consciousness there is not a single word, not a gesture, not an action which does not express a deeper or higher reality, more lasting, more essential, more true; and once one has seen and felt that, everything takes on a meaning, and one sees more clearly how things ought to be organised, arranged, so that a deeper truth may express itself still better than it does at present.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 30 May 1956*](http://incarnateword.in/cwm/08/30-may-1956#p4)</small>",
+
+"> The truest expression comes out of an absolute inner silence.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother's Attitude towards Music and Other Arts*](http://incarnateword.in/cwsa/32/the-mothers-attitude-towards-music-and-other-arts#p1)</small>"
+  ],
   image_url: "snapdragon.jpg",
   thumbnail_url: "snapdragon_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -8200,6 +12061,11 @@ climbing_lang_lang_01 = {
   colour: "Greenish-yellow to yellow",
   significance: "Clear Mind",
   comment: "The first step on the way to conversion.",
+  quotes: [
+"> Ordinarily, the mind reflects the status of mortal nature and the activities of the Force which works under the conditions of the material universe. But if it becomes clear, passive, pure by the renunciation of these activities and of the characteristic ideas and outlook of mental nature, then as in a clear mirror or like the sky in clear water which is without ripple and unruffled by winds, the divine is reflected.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Difficulties of the Mental Being*](http://incarnateword.in/cwsa/23/the-difficulties-of-the-mental-being#p11)</small>"
+  ],
   image_url: "climbing_lang_lang_flower.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Artabotrys_hexapetalus02.JPG"
@@ -8210,6 +12076,13 @@ climbing_lang_lang_02 = {
   colour: "Yellow",
   significance: "Reason",
   comment: "An excellent instrument when it is at the service of the Divine.",
+  quotes: [
+"> The first thing which should be taught to every human being as soon as he is able to think, is that he should obey reason which is a super-instinct of the species. Reason is the master of the nature of mankind. One must obey reason and absolutely refuse to be the slave of instincts. And here I am not talking to you about yoga, I am not talking about spiritual life, not at all; it has nothing to do with that. It is the basic wisdom of human life, purely human life: every human being who obeys anything other than reason is a kind of brute lower than the animal. That's all. And this should be taught everywhere; it is the basic education which should be given to children.
+> 
+> The reign of reason must come to an end only with the advent of the psychic law which manifests the divine Will.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 8 May 1957*](http://incarnateword.in/cwm/09/8-may-1957#p9-p10)</small>"
+  ],
   image_url: "climbing_lang_lang_fruit.jpg",
   source: "TopTropicals",
   url: "https://toptropicals.com/catalog/uid/artabotrys_hexapetalus.htm"
@@ -8265,6 +12138,11 @@ blood_flower = Flower.create!(
   size: "Tiny",
   place: "Native to the tropical Americas",
   climate: "Tropical",
+  quotes: [
+"> [Mind] is in its origin a principle of light, an instrument put forth from the Supermind and, though set to work within limits and even set to create limits, yet the limits are luminous borders for a special working, voluntary and purposive bounds, a surface of the finite ever extending itself under the eye of infinity. It is this character of Mind that will reveal itself under the touch of Supermind and make human mentality an adjunct and a minor instrumentation of the supramental knowledge.
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Supermind and Humanity*](http://incarnateword.in/cwsa/13/supermind-and-humanity#p4)</small>",
+  ],
   image_url: "blood_flower.jpg",
   thumbnail_url: "blood_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -8314,6 +12192,23 @@ italian_aster = Flower.create!(
   size: "Small",
   place: "Found on European mountains, and in Western and Central Asia, Siberia, and Caucasus",
   climate: "Subtropical to temperate",
+  quotes: [
+"> Sincerity means more than mere honesty. It means that you mean what you say, feel what you profess, are earnest in your will. As the sadhak aspires to be an instrument of the Divine and one with the Divine, sincerity in him means that he is really in earnest in his aspiration and refuses all other will or impulse except the Divine's.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Sincerity*](http://incarnateword.in/cwsa/29/sincerity#p5)</small>",
+
+"> True sincerity consists in following the way because you cannot do otherwise, in consecrating yourself to the divine life because you cannot do otherwise, in endeavouring to transform your being and emerge into the Light because you cannot do otherwise, because it is the very reason for which you live.
+> 
+> <small>The Mother, [*Words of the Mother - III: Undated: Before February 1960*](http://incarnateword.in/cwm/15/undated-before-february-1960#p6)</small>",
+
+"> A sincere heart is worth all the extraordinary powers in the world.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Occult Powers or Siddhis*](http://incarnateword.in/cwsa/28/occult-powers-or-siddhis#p19)</small>",
+
+"> Sincerity is the key of the divine doors.
+> 
+> <small>The Mother, [*Words of the Mother - II: Sincerity*](http://incarnateword.in/cwm/14/sincerity#p1)</small>"
+  ],
   image_url: "italian_aster.jpg",
   thumbnail_url: "italian_aster_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -8350,7 +12245,7 @@ chinese_violet_02 = {
 chinese_violet_03 = {
   description: "Small pale yellow funnelform flower with a light lavender spot on the throat; with a short corolla tube and a limb divided into five rounded overlapping lobes; borne in one-sided racemes. Spreading lightly pubescent perennial herbs with opposite ovate leaves.",
   colour: "Pale yellow, light lavender",
-  significance: "Trust in the Vital Mind for the Divine",
+  significance: "Trust of the Vital Mind in the Divine",
   comment: "Opens itself to the Divine Consciousness, without trying to hide anything from It.",
   image_url: "chinese_violet_pale_yellow_lavender.jpg",
   source: "Wikimedia Commons",
@@ -8396,6 +12291,19 @@ chinese_violet = Flower.create!(
   size: "Small",
   place: "Found in tropical regions",
   climate: "Tropical",
+  quotes: [
+"> Trust is the mind's and heart's complete reliance on the Divine and its guidance and protection.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Faith*](http://incarnateword.in/cwsa/29/faith#p3)</small>",
+
+"> The core of this inner surrender is trust and confidence in the Divine. One takes the attitude, \"I want the Divine and nothing else.\" I do not know why you should think that you can be asked to give up that—if there is not that, then the Yoga cannot be done. \"I want to give myself entirely to him and since my soul wants that, it cannot be but that I shall meet him and realise him. I ask nothing but that and his action in me to bring me to him, his action secret or open, veiled or manifest. I do not insist on my own time and way; let him do all in his own time and way, I shall believe in him, accept his will, aspire steadily for his light and presence and joy, go through all difficulties and delays relying on him and never giving up. Let my mind be quiet and turn to him and let him open it to his light; let my vital be quiet and turn to him alone and let him open it to his calm and joy. All for him and myself for him. Whatever happens, I will keep to this aspiration and self-giving and go on in perfect reliance that it will be done.\"
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Surrender*](http://incarnateword.in/cwsa/29/surrender#p19)</small>",
+
+"> Who trusts the Divine never leaves the loving arms of the Divine wherever his body may be.
+> 
+> <small>The Mother</small>",
+  ],
   image_url: "chinese_violet.jpg",
   thumbnail_url: "chinese_violet_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -8407,6 +12315,64 @@ chinese_violet = Flower.create!(
     chinese_violet_04,
     chinese_violet_05,
     chinese_violet_06
+  ]
+)
+
+# Barleria
+
+barleria_01 = {
+  description: "Small salverform flowers with five rounded, separated lobes that emerge from a spiny bracted spike; in many colours. An erect, occasionally spiny, shrub and herb.",
+  colour: "Many colours",
+  significance: "Opening",
+  comment: "The help is constant in all domains. It is for us to know how to benefit from it.",
+  image_url: "barleria_mix.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Barleria-1.JPG"
+}
+
+barleria_02 = {
+  description: "Small bluish purple salverform flowers with a yellow center; with five rounded separated lobes that emerge from a spiny bracted spike. An erect spiny shrub and herb.",
+  colour: "Bluish purple, yellow",
+  significance: "Vital Opening to the Supramental Light",
+  image_url: "barleria_blue_purple_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Barleria_courtallica_11.JPG"
+}
+
+barleria = Flower.create!(
+  name: "Barleria",
+  bot_name: "Barleria",
+  family: "Acanthaceae",
+  petals: "Five",
+  size: "Small",
+  place: "Native to Southern China, India, and Myanmar",
+  climate: "Tropical and subtropical",
+  quotes: [
+"> Opening is a release of the consciousness by which it begins to admit into itself the workings of the Divine Light and Power.
+> 
+> <small>The Mother, [*Words of the Mother - II: Openness*](http://incarnateword.in/cwm/14/openness#p2)</small>",
+
+"> In this Yoga the whole principle is to open oneself to the Divine Influence. It is there above you and, if you can once become conscious of it, you have then to call it down into you. It descends into the mind and into the body as Peace, as a Light, as a Force that works, as the Presence of the Divine with or without form, as Ananda.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Opening*](http://incarnateword.in/cwsa/29/opening#p8)</small>",
+
+"> What you should do is to throw the doors of your being wide open to the Divine. The moment you conceal something, you step straight into Falsehood. The least suppression on your part pulls you immediately down into unconsciousness. If you want to be fully conscious, be always in front of the Truth—completely open yourself and try your utmost to let it see deep inside you, into every corner of your being. That alone will bring into you light and consciousness and all that is most true.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Union with the Divine Consciousness and Will*](http://incarnateword.in/cwm/03/union-with-the-divine-consciousness-and-will#p1)</small>",
+    
+"> Widen yourself to the extreme limit of the universe… and beyond.
+> 
+> Always take upon yourself all the necessities of progress, and resolve them in the ecstasy of Unity. Then you will be divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Wideness*](http://incarnateword.in/cwm/14/wideness#p1-p2)</small>"
+  ],
+  image_url: "barleria.jpg",
+  thumbnail_url: "barleria.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Barleria_sp1.JPG",
+  variants: [
+    barleria_01,
+    barleria_02
   ]
 )
 
@@ -8427,6 +12393,25 @@ philippine_violet_02 = {
   colour: "White, lavender",
   significance: "Emotional Opening",
   comment: "The progress of emotions towards the Divine.",
+  quotes: [
+"> Opening is a release of the consciousness by which it begins to admit into itself the workings of the Divine Light and Power.
+> 
+> <small>The Mother, [*Words of the Mother - II: Openness*](http://incarnateword.in/cwm/14/openness#p2)</small>",
+
+"> In this Yoga the whole principle is to open oneself to the Divine Influence. It is there above you and, if you can once become conscious of it, you have then to call it down into you. It descends into the mind and into the body as Peace, as a Light, as a Force that works, as the Presence of the Divine with or without form, as Ananda.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Opening*](http://incarnateword.in/cwsa/29/opening#p8)</small>",
+
+"> What you should do is to throw the doors of your being wide open to the Divine. The moment you conceal something, you step straight into Falsehood. The least suppression on your part pulls you immediately down into unconsciousness. If you want to be fully conscious, be always in front of the Truth—completely open yourself and try your utmost to let it see deep inside you, into every corner of your being. That alone will bring into you light and consciousness and all that is most true.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Union with the Divine Consciousness and Will*](http://incarnateword.in/cwm/03/union-with-the-divine-consciousness-and-will#p1)</small>",
+    
+"> Widen yourself to the extreme limit of the universe… and beyond.
+> 
+> Always take upon yourself all the necessities of progress, and resolve them in the ecstasy of Unity. Then you will be divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Wideness*](http://incarnateword.in/cwm/14/wideness#p1-p2)</small>"
+  ],
   image_url: "philippine_violet_white_lavender.jpg",
   source: "TopTropicals",
   url: "https://toptropicals.com/catalog/uid/BARLERIA_STRIPED.htm"
@@ -8632,7 +12617,7 @@ bougainvillea_01 = {
 }
 
 bougainvillea_02 = {
-  bot_name: "Bougainvillea ‘Mahara’",
+  bot_name: "Bougainvillea ‘Mahara'",
   description: "Clusters of showy small semi-double ovate bright magenta bracts in dense clusters that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
   colour: "White to greenish-white, bright magenta",
   significance: "Attempt towards Protection",
@@ -8643,7 +12628,7 @@ bougainvillea_02 = {
 }
 
 bougainvillea_03 = {
-  bot_name: "Bougainvillea ‘Trinidad’",
+  bot_name: "Bougainvillea ‘Trinidad'",
   description: "Clusters of showy very pale lavender ovate bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers. A shrub, vine, or small tree, usually armed with spines.",
   colour: "White to greenish-white, pale lavender",
   significance: "Discreet Protection",
@@ -8715,7 +12700,7 @@ bougainvillea_09 = {
 }
 
 bougainvillea_10 = {
-  bot_name: "Bougainvillea ‘Mary Palmer’",
+  bot_name: "Bougainvillea ‘Mary Palmer'",
   description: "Clusters of showy ovate bracts in groups of three or more that enfold tiny white to greenish-white salverform flowers; bright purple pink bracts and white bracts in each cluster. A shrub, vine, or small tree, usually armed with spines.",
   colour: "White to greenish-white, bright purple pink",
   significance: "Manifold Protection",
@@ -8743,6 +12728,15 @@ bougainvillea = Flower.create!(
   size: "Tiny",
   place: "Native to South America, found in many other tropical and subtropical regions",
   climate: "Tropical and subtropical",
+  quotes: [
+"> When we are in close contact with the Divine, a protection can come in which helps or directly guides or moves us; it does not throw aside all difficulties, sufferings or dangers, but it carries us through them and out of them—except where for a special purpose there is need of the opposite.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: The Divine Grace and Guidance*](http://incarnateword.in/cwsa/29/the-divine-grace-and-guidance#p31)</small>",
+
+"> When you think of the Lord's Peace it acts as a call, and the more you think of it the more you surround yourself with it, which is the most powerful protection.
+> 
+> <small>The Mother</small>"
+  ],
   image_url: "bougainvillea.jpg",
   thumbnail_url: "bougainvillea_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -8792,6 +12786,17 @@ bush_violet = Flower.create!(
   size: "Small",
   place: "Native to Arizona in the United States",
   climate: "Subtropical",
+  quotes: [
+"> Energy, strength, enthusiasm, artistic taste, boldness, forcefulness are there too, if we know how to use them in the true way.
+> 
+> A vital converted and consecrated to the Divine Will becomes a bold and forceful instrument that can overcome all obstacles. But it first has to be disciplined, and this it consents to only when the Divine is its master.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 11 December 1969*](http://incarnateword.in/cwm/16/11-december-1969#p3-p4)</small>",
+
+"> The true vital being is wide, vast, calm, strong, without limitations, firm and immovable, capable of all power, all knowledge, all Ananda. It is moreover without ego, for it knows itself to be a projection and instrument of the Divine; it is the divine Warrior, pure and perfect; in it is an instrumental Force for all divine realisations.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Vital Being and Vital Consciousness*](http://incarnateword.in/cwsa/28/the-vital-being-and-vital-consciousness#p3)</small>"
+  ],
   image_url: "bush_violet.jpg",
   thumbnail_url: "bush_violet_thumbnail.jpg",
   source: "NixPixMix",
@@ -8819,6 +12824,15 @@ barbados_pride_02 = {
   colour: "Golden yellow",
   significance: "Fire in the Mind",
   comment: "An ardour that sets ideas ablaze.",
+  quotes: [
+"> There is a power in the idea—a force of which the idea is a shape. Again, behind the idea and force and word there is what is called the spirit,—a consciousness which generates the force.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Thought and Knowledge*](http://incarnateword.in/cwsa/31/thought-and-knowledge#p21)</small>",
+
+"> The idea is the realisation of a truth in Consciousness as the fact is its realisation in Power…
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: On Ideals*](http://incarnateword.in/cwsa/13/on-ideals#p3)</small>"
+  ],
   image_url: "barbados_pride_golden_yellow.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Starr_061111-1549_Caesalpinia_pulcherrima.jpg"
@@ -8992,6 +13006,11 @@ mudar = Flower.create!(
   size: "Small",
   place: "Native to Cambodia, Indonesia, Malaysia, the Philippines, Thailand, Sri Lanka, India, China, and Pakistan",
   climate: "Tropical and subtropical",
+  quotes: [
+"> True courage, in its deepest sense, is to be able to face everything, everything in life, from the smallest to the greatest things, from material things to those of the spirit, without a shudder, without physically… without the heart beginning to beat faster, without the nerves trembling or the slightest emotion in any part of the being. Face everything with a constant consciousness of the divine Presence, with a total self-giving to the Divine, and the whole being unified in this will; then one can go forward in life, can face anything whatever.
+> 
+> <small>The Mother, [*Questions and Answers 1955: 26 January 1955*](http://incarnateword.in/cwm/07/26-january-1955#p38)</small>"
+  ],
   image_url: "mudar.jpg",
   thumbnail_url: "mudar_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -9042,6 +13061,11 @@ indian_shot = Flower.create!(
   size: "Small to medium-sized",
   place: "Native to the Americas, but found in many regions",
   climate: "Found across temperate, subtropical, and tropical climates",
+  quotes: [
+"> And finally, the best friend one can have—isn't he the Divine, to whom one can say everything, reveal everything? For there indeed is the source of all compassion, of all power to efface every error when it is not repeated, to open the road to true realisation; it is he who can understand all, heal all, and always help on the path, help you not to fail, not to falter, not to fall, but to walk straight to the goal. He is the true friend, the friend of good and bad days, the one who can understand, can heal, and who is always there when you need him. When you call him sincerely, he is always there to guide and uphold you—and to love you in the true way.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 13 March 1957*](http://incarnateword.in/cwm/09/13-march-1957#p13)</small>"
+  ],
   image_url: "indian_shot.jpg",
   thumbnail_url: "indian_shot_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -9183,6 +13207,48 @@ canna_lily = Flower.create!(
   size: "Large",
   place: "Found in the tropical and subtropical Americas, and some temperate regions",
   climate: "Tropical to warm temperate",
+  quotes: [
+"> The soul of man soars as the Bird, the Hansa, past the shining firmaments of physical and mental consciousness, climbs as the traveller and fighter beyond earth of body and heaven of mind by the ascending path of the Truth to find this Godhead waiting for us, leaning down to us from the secrecy of the highest supreme…
+> 
+> <small>Sri Aurobindo, [*The Secret of the Veda: The Doctrine of the Mystics*](http://incarnateword.in/cwsa/15/the-doctrine-of-the-mystics#p4)</small>",
+
+"> In the spiritual order of things, the higher we project our view and our aspiration, the greater the Truth that seeks to descend upon us, because it is already there within us and calls for its release from the covering that conceals it in manifested Nature.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: The Sevenfold Chord of Being*](http://incarnateword.in/cwsa/21/the-sevenfold-chord-of-being#p16)</small>",
+
+"> [The soul] is, according to our psychology, connected with the small outer personality by certain centres of consciousness of which we become aware by Yoga… The inner centres are, for the most part, closed or asleep—to open them and make them awake and active is one aim of Yoga.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: The Psychic and Spiritual Realisations*](http://incarnateword.in/cwsa/30/the-psychic-and-spiritual-realisations#p19)</small>",
+
+"> The centres or Chakras are seven in number—
+> 
+> (1) The thousand-petalled lotus on the top of the head.
+> 
+> (2) In the middle of the forehead—the Ajna Chakra—(will, vision, dynamic thought).
+> 
+> (3) Throat centre—externalising mind.
+> 
+> (4) Heart-lotus—emotional centre. The psychic is behind it.
+> 
+> (5) Navel—higher vital (proper).
+> 
+> (6) Below navel—lower vital.
+> 
+> (7) Muladhara—physical.
+> 
+> All these centres are in the middle of the body; they are supposed to be attached to the spinal cord; but in fact all these things are in the subtle body, *s&#363;k&#7779;ma deha*, though one has the feeling of their activities as if in the physical body when the consciousness is awake.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The System of the Chakras*](http://incarnateword.in/cwsa/28/the-system-of-the-chakras#p1-p9)</small>",
+
+"> Within us, there are two centres of the Purusha, the inner Soul through which he touches us to our awakening; there is the Purusha in the lotus of the heart which opens upward all our powers and the Purusha in the thousand-petalled lotus whence descend through the thought and will, opening the third eye in us, the lightnings of vision and the fire of the divine energy. The bliss existence may come to us through either one of these centres. When the lotus of the heart breaks open, we feel a divine joy, love and peace expanding in us like a flower of light which irradiates the whole being.
+> When the other upper lotus opens, the whole mind becomes full of a divine light, joy and power, behind which is the Divine, the Lord of our being on his throne with our soul beside him or drawn inward into his rays; all the thought and will become then a luminosity, power and ecstasy…
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - II: The Ananda Brahman*](http://incarnateword.in/cwsa/24/the-ananda-brahman#p7)</small>",
+
+"> The two most important things here are the opening of the heart centre and the opening of the mind centres to all that is behind and above them. For the heart opens to the psychic being and the mind centres open to the higher consciousness and the nexus between the psychic being and the higher consciousness is the principal means of the Siddhi. The first opening is effected by a concentration in the heart, a call to the Divine to manifest within us and through the psychic to take up and lead the whole nature. Aspiration, prayer, bhakti, love, surrender are the main supports of this part of the Sadhana—accompanied by a rejection of all that stands in the way of what we aspire for. The second opening is effected by a concentration of the consciousness in the head (afterwards, above it) and an aspiration and call and a sustained will for the descent of the divine Peace, Power, Light, Knowledge, Ananda into the being—the Peace first or the Peace and Force together.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: Descent of the Mother's Force*](http://incarnateword.in/cwsa/32/descent-of-the-mothers-force#p17)</small>"
+  ],
   image_url: "canna_lily.jpg",
   thumbnail_url: "canna_lily_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -9284,6 +13350,24 @@ madagascar_periwinkle = Flower.create!(
   size: "Small to medium-sized",
   place: "Native to Madagascar",
   climate: "Tropical",
+  quotes: [
+"> Give up all personal seeking for comfort, satisfaction, enjoyment or happiness. Be only a burning fire for progress, take whatever comes to you as an aid to your progress and immediately make whatever progress is required.
+> 
+> <small>The Mother, [*On Education: Psychic Education and Spiritual Education*](http://incarnateword.in/cwm/12/psychic-education-and-spiritual-education#p7)</small>",
+
+"> Above all, it is the will for progress and self-purification which lights the fire. The will for progress. Those who have a strong will, when they turn it towards spiritual progress and purification, automatically light the fire within themselves.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 8 August 1956*](http://incarnateword.in/cwm/08/8-august-1956#p8)</small>",
+
+"> The thirst for progress, the thirst to know, the thirst to transform yourself, and above all the thirst for Love and Truth—if you can keep that, then you go faster. Really a thirst, a need, you know, a need… All the rest doesn't matter, what you need is THAT.
+> 
+> <small>The Mother, [*Mother's Agenda: October 7, 1964*](http://incarnateword.in/agenda/05/october-7-1964#p43)</small>",
+
+"> No more bonds—free, free, free, free! Always ready to change everything, except ONE thing: to aspire. That thirst…
+> The \"something\" we need, the Perfection we need, the Light we need, the Love we need, the Truth we need, the supreme Perfection we need—and that's all. The formulas… the fewer the formulas, the better. A need, a need, a need… that THE Thing alone can satisfy, nothing else, no half measure. That alone. And then, move on! Move on! Your path will be your path, it doesn't matter; any path, any path whatever, even the follies of today's American youth can be a path, it doesn't matter.
+> 
+> <small>The Mother, [*Mother's Agenda: October 7, 1964*](http://incarnateword.in/agenda/05/october-7-1964#p47)</small>"
+  ],
   image_url: "madagascar_periwinkle.jpg",
   thumbnail_url: "madagascar_periwinkle_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -9347,6 +13431,17 @@ orchid_04 = {
 }
 
 orchid_05 = {
+  bot_name: "Eulophia",
+  description: "Long, erect scapes of small, light green flowers with five erect petals and petal-like sepals that resemble a fan, and a prominent variegated green and white lip. A terrestrial orchid with a large oval pseudo-bulb.",
+  colour: "Light green, white",
+  significance: "Exclusive Turning of All Movements towards the Divine",
+  comment: "The sure means of having security.",
+  image_url: "orchid_eulophia.jpg",
+  source: "Biodiversity Education & Research Greenhouses, University of Connecticut",
+  url: "http://florawww.eeb.uconn.edu/201000148.html"
+}
+
+orchid_06 = {
   bot_name: "Papilionanthe teres [Vanda teres]",
   description: "Medium-sized flower with five ovate widely separated pale pinkish-lavender petals and a central arched golden yellow lip with the lower edge extended to form two rounded pinkish-lavender lobes; borne in erect racemes. An erect epiphyte with terete leaves.",
   colour: "Pale pinkish-lavender, golden yellow",
@@ -9357,7 +13452,7 @@ orchid_05 = {
   url: "https://www.flickr.com/photos/maxful/11302326975/"
 }
 
-orchid_06 = {
+orchid_07 = {
   bot_name: "Vanda tessellata",
   description: "Medium-sized fragrant flower with five stiff separated olive green petals with crinkled edges and marked with greenish-yellow, and a prominent lavender lip; widely spaced on erect racemes. A heat-loving epiphyte with narrow strap-like leaves.",
   colour: "Olive green, greenish-yellow, lavender",
@@ -9378,6 +13473,23 @@ orchid = Flower.create!(
   size: "Medium to large",
   place: "Found in many different regions",
   climate: "Found across temperate, subtropical, and tropical climates, but mostly tropical",
+  quotes: [
+"> There's only one salvation: to cling to the Divine like this (*gesture with two fists*).
+> 
+> Not clinging to what one thinks of the Divine, not even to what one feels of the Divine… to an aspiration… an aspiration as sincere as possible. And cling to that.
+> 
+> <small>The Mother, [*Mother's Agenda: July 17, 1971*](http://incarnateword.in/agenda/12/july-17-1971#p67-p68)</small>",
+
+"> The aim of our life on earth is to become conscious of the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: The True Aim of Life*](http://incarnateword.in/cwm/14/the-true-aim-of-life#p19)</small>",
+
+"> The true aim of life is to find the Divine's Presence deep inside oneself and to surrender to It so that It takes the lead of the life, all the feelings and all the actions of the body.
+> 
+> This gives a true and luminous aim to existence.
+> 
+> <small>The Mother, [*Words of the Mother - II: The True Aim of Life*](http://incarnateword.in/cwm/14/the-true-aim-of-life#p35-p36)</small>"
+  ],
   image_url: "orchid.jpg",
   thumbnail_url: "orchid_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -9388,7 +13500,8 @@ orchid = Flower.create!(
     orchid_03,
     orchid_04,
     orchid_05,
-    orchid_06
+    orchid_06,
+    orchid_07
   ]
 )
 
@@ -9399,6 +13512,19 @@ feathered_amaranth_01 = {
   colour: "Golden-yellow",
   significance: "Abundant Expression",
   comment: "Has much to say and says it fully.",
+  quotes: [
+"> The power of expression comes by getting into touch with the inner source from which these things come.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Power of Expression and Yoga*](http://incarnateword.in/cwsa/31/the-power-of-expression-and-yoga#p2)</small>",
+
+"> For a certain state of consciousness there is not a single word, not a gesture, not an action which does not express a deeper or higher reality, more lasting, more essential, more true; and once one has seen and felt that, everything takes on a meaning, and one sees more clearly how things ought to be organised, arranged, so that a deeper truth may express itself still better than it does at present.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 30 May 1956*](http://incarnateword.in/cwm/08/30-may-1956#p4)</small>",
+
+"> The truest expression comes out of an absolute inner silence.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother's Attitude towards Music and Other Arts*](http://incarnateword.in/cwsa/32/the-mothers-attitude-towards-music-and-other-arts#p1)</small>"
+  ],
   image_url: "feathered_amaranth_golden_yellow.jpg",
   source: "Timo Kuusela",
   url: "https://www.flickr.com/photos/rdvortex/662017643"
@@ -9419,6 +13545,15 @@ feathered_amaranth_03 = {
   colour: "Greenish-white",
   significance: "Attempt towards Immortality",
   comment: "Persistent and coordinated.",
+  quotes: [
+"> By immortality is meant the consciousness which is beyond birth and death, beyond the chain of cause and effect, beyond all bondage and limitation, free, blissful, self-existent in conscious-being, the consciousness of the Lord, of the supreme Purusha, of Sachchidananda.
+> 
+> <small>Sri Aurobindo, [*Isha Upanishad: II. Knowledge and Ignorance*](http://incarnateword.in/cwsa/17/ii-knowledge-and-ignorance#p44)</small>",
+
+"> Immortality in its fundamental sense does not mean merely some kind of personal survival of the bodily death; we are immortal by the eternity of our self-existence without beginning or end, beyond the whole succession of physical births and deaths through which we pass, beyond the alternations of our existence in this and other worlds: the spirit's timeless existence is the true immortality.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: Out of the Sevenfold Ignorance towards the Sevenfold Knowledge*](http://incarnateword.in/cwsa/22/out-of-the-sevenfold-ignorance-towards-the-sevenfold-knowledge#p15)</small>"
+  ],
   image_url: "feathered_amaranth_green_white.jpg",
   source: "Prof. Summer's Web Garden - Japanese Wild Flowers",
   url: "http://flowers.la.coocan.jp/Amaranthaceae/Celosia%20argentea.htm"
@@ -9563,6 +13698,15 @@ bag_flower_01 = {
   colour: "White, rose violet",
   significance: "Belief",
   comment: "Simple and candid, does not question.",
+  quotes: [
+"> This is faithfulness, to admit and to manifest no other movements but only the movements prompted and guided by the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Faithfulness*](http://incarnateword.in/cwm/14/faithfulness#p3)</small>",
+
+"> When I spoke of being faithful to the light of the soul and the divine Call, I was simply suggesting the great need in all crises and attacks,—to refuse to listen to any suggestions, impulses, lures and to oppose to them all the call of the Truth, the imperative beckoning of the Light. In all doubt and depression, to say \"I belong to the Divine, I cannot fail\"; to all suggestions of impurity and unfitness, to reply \"I am a child of Immortality chosen by Sri Aurobindo and the Mother; I have but to be true to myself and to them—the victory is sure; even if I fell, I would be sure to rise again\"; to all impulsions to depart and serve some other ideal, to reply \"This is the greatest, this is the Truth, this alone can satisfy the soul within me; I will endure through all tests and tribulations to the very end of the divine journey.\" This is what I mean by faithfulness to the Light and the Call.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: Faithfulness to the Light and the Call*](http://incarnateword.in/cwsa/32/faithfulness-to-the-light-and-the-call#p1)</small>"
+  ],
   image_url: "bag_flower_1.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Clerodendrum_quadriloculare_-_Hong_Kong_Park_Conservatory_-_IMG_9811.JPG"
@@ -9573,6 +13717,19 @@ bag_flower_02 = {
   colour: "White",
   significance: "Divine Will Acting in the Inconscient",
   comment: "Is all-powerful even when we are not aware of it.",
+  quotes: [
+"> The base of the material consciousness here is not only the Ignorance, but the Inconscience—that is, the consciousness is involved in form of matter and energy of matter.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Jivatman in the Integral Yoga*](http://incarnateword.in/cwsa/28/the-jivatman-in-the-integral-yoga#p13)</small>",
+
+"> The Inconscience is an inverse reproduction of the supreme superconscience: it has the same absoluteness of being and automatic action, but in a vast involved trance; it is being lost in itself, plunged in its own abyss of infinity.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: Knowledge by Identity and Separative Knowledge*](http://incarnateword.in/cwsa/21/knowledge-by-identity-and-separative-knowledge#p29)</small>",
+
+"> All evolution is the progressive self-revelation of the One to himself in the terms of the Many out of the Inconscience through the Ignorance towards self-conscient perfection.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: Nature: The World-Manifestation*](http://incarnateword.in/cwsa/12/nature-the-world-manifestation#p111)</small>"
+  ],
   image_url: "bag_flower_2.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Starr_090213-2510_Clerodendrum_quadriloculare.jpg"
@@ -9600,8 +13757,23 @@ bag_flower = Flower.create!(
 blue_pea_01 = {
   description: "Medium-sized single or double ultramarine blue papilionaceous flower that has a broad oval central petal with a yellow center and wing petals edged with pale blue; borne singly on a short stem. A slender perennial vine with bean-like pods.",
   colour: "Ultramarine blue, yellow, pale blue",
-  significance: "Radha’s Consciousness",
+  significance: "Radha's Consciousness",
   comment: "Symbolises perfect attachment to the Divine.",
+  quotes: [
+"> Radha is the personification of the absolute love for the Divine, total and integral in all parts of the being from the highest spiritual to the physical, bringing the absolute self-giving and total consecration of all the being and calling down into the body and the most material Nature the supreme Ananda.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Bhakti Yoga and Vaishnavism*](http://incarnateword.in/cwsa/29/bhakti-yoga-and-vaishnavism#p61)</small>",
+
+"> [Krishna is] the divine Flute-player, the immanent and universal Divine who is the supreme power of attraction; and the soul, the psychic personality [is] Radha, who responds to the call of the Flute-player.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 18 July 1956*](http://incarnateword.in/cwm/08/18-july-1956#p11)</small>",
+
+"> O Thou whom at first sight I knew for the Lord of my being and my God, receive my offering.
+> 
+> Thine are all my thoughts, all my emotions, all the sentiments of my heart, all my sensations, all the movements of my life, each cell of my body, each drop of my blood. I am absolutely and altogether Thine, Thine without reserve. What Thou wilt of me, that I shall be. Whether Thou choosest for me life or death, happiness or sorrow, pleasure or suffering, all that comes to me from Thee will be welcome. Each one of Thy gifts will be always for me a gift divine bringing with it the supreme Felicity.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: Radha's Prayer*](http://incarnateword.in/cwsa/32/radhas-prayer#p1-p2)</small>"
+  ],
   image_url: "blue_pea_ultramarine_blue_yellow.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Clitoria_ternatea.jpg"
@@ -9610,7 +13782,7 @@ blue_pea_01 = {
 blue_pea_02 = {
   description: "Medium-sized single light purple or mauve papilionaceous flower that has a broad oval central petal with a yellow center and wing petals edged with pale blue; borne singly on a short stem. A slender perennial vine with bean-like pods.",
   colour: "Light purple or mauve, yellow, pale blue",
-  significance: "Radha’s Consciousness in the Vital",
+  significance: "Radha's Consciousness in the Vital",
   comment: "Perfect attachment to the Divine replaces all vital attractions and passions.",
   image_url: "blue_pea_purple_yellow.jpg",
   source: "Wikimedia Commons",
@@ -9620,8 +13792,36 @@ blue_pea_02 = {
 blue_pea_03 = {
   description: "Medium-sized single papilionaceous flower that has a broad oval pale blue central petal with a yellow center and wing petals edged with pale blue; borne singly on a short stem. A slender perennial vine with bean-like pods.",
   colour: "Pale blue, yellow",
-  significance: "Krishna’s Light in the Senses",
+  significance: "Krishna's Light in the Senses",
   comment: "A first step towards transformation.",
+  quotes: [
+"> At last I find a meaning of soul's birth
+> Into this universe terrible and sweet,
+> I who have felt the hungry heart of earth
+> Aspiring beyond heaven to Krishna's feet.
+> 
+> I have seen the beauty of immortal eyes,
+> And heard the passion of the Lover's flute,
+> And known a deathless ecstasy's surprise
+> And sorrow in my heart for ever mute.
+> 
+> Nearer and nearer now the music draws,
+> Life shudders with a strange felicity;
+> All Nature is a wide enamoured pause
+> Hoping her lord to touch, to clasp, to be.
+> 
+> For this one moment lived the ages past;
+> The world now throbs fulfilled in me at last.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Krishna*](http://incarnateword.in/cwsa/02/krishna#p1-p4)</small>",
+
+"> All music is only the sound of His laughter,
+> All beauty the smile of His passionate bliss;
+> Our lives are His heart-beats, our rapture the bridal
+> Of Radha and Krishna, our love is their kiss.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Who*](http://incarnateword.in/cwsa/02/who#p7)</small>",
+  ],
   image_url: "blue_pea_pale_blue_yellow.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Starr_070402-6246_Clitoria_ternatea.jpg"
@@ -9664,6 +13864,19 @@ dayflower_01 = {
   colour: "Sky blue, bright yellow",
   significance: "Charity",
   comment: "Simple and sweet, attentive to the needs of all.",
+  quotes: [
+"> Yes, there is a sublime charity, one which rises from a happy heart, from a serene soul.
+> 
+> One who has won inner peace is a herald of deliverance wherever he goes, a bearer of hope and joy. Is not this what poor and suffering humanity needs above all things?
+> 
+> Yes, there are certain men whose thoughts are all love, who radiate love, and the mere presence of these individuals is a charity more active, more real than any other.
+> 
+> Though they utter no word and make no gesture, yet the sick are relieved, the tormented are soothed, the ignorant are enlightened, the wicked are appeased, those who suffer are consoled…
+>
+> These individuals who, out of love, give themselves to all, who become the servants of all, are the living symbols of the supreme Charity.
+> 
+> <small>The Mother, [*Words of Long Ago: Charity*](http://incarnateword.in/cwm/02/charity#p71-p74)</small>"
+  ],
   image_url: "dayflower_blue.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Commelina-communis-B.jpg"
@@ -9728,6 +13941,19 @@ cannonball_tree = Flower.create!(
   size: "Large",
   place: "Native to the rainforests of Central and South America; cultivated in many other places",
   climate: "Tropical",
+  quotes: [
+"> All wealth belongs to the Divine and those who hold it are trustees, not possessors. It is with them today, tomorrow it may be elsewhere. All depends on the way they discharge their trust while it is with them, in what spirit, with what consciousness in their use of it, to what purpose.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p3)</small>",
+
+"> Most spiritual disciplines insist on a complete self-control, detachment and renunciation of all bondage to wealth and of all personal and egoistic desire for its possession. Some even put a ban on money and riches and proclaim poverty and bareness of life as the only spiritual condition. But this is an error; it leaves the power in the hands of the hostile forces. To reconquer it for the Divine to whom it belongs and use it divinely for the divine life is the supramental way for the Sadhaka.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p1)</small>",
+
+"> The ideal Sadhaka in this kind is one who if required to live poorly can so live and no sense of want will affect him or interfere with the full inner play of the divine consciousness, and if he is required to live richly, can so live and never for a moment fall into desire or attachment to his wealth or to the things that he uses or servitude to self-indulgence or a weak bondage to the habits that the possession of riches creates. The divine Will is all for him and the divine Ananda.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p7)</small>"
+  ],
   image_url: "cannonball_tree.jpg",
   thumbnail_url: "cannonball_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -9745,6 +13971,15 @@ crinum_lily_01 = {
   colour: "White, reddish-purple",
   significance: "Disinterested Work Done for the Divine",
   comment: "The surest way to progress.",
+  quotes: [
+"> All action must be made in [the Integral Yoga] part of the God-life, our acts of knowledge, our acts of power and production and creation, our acts of joy and beauty and the soul's pleasure, our acts of will and endeavour and struggle and not our acts only of love and beneficent service. Its way to do these things will be not outward and mental, but inward and spiritual, and to that end it will bring into all activities, whatever they are, the spirit of divine love, the spirit of adoration and worship, the spirit of happiness in the Divine and in the beauty of the Divine so as to make all life a sacrifice of the works of the soul's love to the Divine, its cult of the Master of its existence.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - II*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-ii#p7)</small>",
+    
+"> Disinterested work: work done with no other motive than of doing as well as possible the Divine's work.
+> 
+> <small>The Mother, [*Words of the Mother - II: Work as on Offering to the Divine*](http://incarnateword.in/cwm/14/work-as-on-offering-to-the-divine#p56)</small>"
+  ],
   image_url: "crinum_lily_white_reddish_purple.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:CrinumAugustumKeyWest.JPG"
@@ -9765,6 +14000,19 @@ crinum_lily_03 = {
   colour: "White, green, light pink",
   significance: "Joy of Integral Peace",
   comment: "Calm and tranquil, an unfailing smile.",
+  quotes: [
+"> Peace was the very first thing that the Yogis and seekers of old asked for and it was a quiet and silent mind—and that always brings peace—that they declared to be the condition for realising the Divine.
+> 
+> <small>Sri Aurobindo, [*On Himself: Preparing the Sunlit Path*](http://incarnateword.in/sabcl/26/preparing-the-sunlit-path#p1)</small>",
+
+"> Peace is a deep quietude where no disturbance can come—a quietude with a sense of established security and release.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Quiet and Calm*](http://incarnateword.in/cwsa/29/quiet-and-calm#p17)</small>",
+
+"> Peace is a calm deepened into something that is very positive amounting almost to a tranquil waveless Ananda.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Quiet and Calm*](http://incarnateword.in/cwsa/29/quiet-and-calm#p12)</small>"
+  ],
   image_url: "crinum_lily_white_pink.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:P%C3%A1jara_Morro_Jable_-_Calle_Nasas_02_ies.jpg"
@@ -9830,6 +14078,15 @@ firecracker_flower = Flower.create!(
   size: "Small",
   place: "Native to southern India and Sri Lanka",
   climate: "Tropical",
+  quotes: [
+"> As there is a superconscient (something above our present consciousness) above the head from which the higher consciousness comes down into the body, so there is also a subconscient (something below our consciousness) below the feet. Matter is under the control of this power, because it is that out of which it has been created—that is why matter seems to us to be quite unconscious. The material body is very much under the influence of this power for the same reason; it is why we are not conscious of what is going on in the body, for the most part. The outer consciousness goes down into this subconscient when we are asleep, and so it becomes unaware of what is going on in us when we are asleep except for a few dreams. Many of these dreams rise up from the subconscient and are made up of old memories, impressions etc. put together in an incoherent way. For the subconscient receives impressions of all we do or experience in our lives and keeps these impressions in it, sending up often fragments of them in sleep. It is a very important part of the being, but we can do nothing much with it by the conscious will. It is the higher Force working in us that in its natural course will open the subconscient to itself and bring down into it its control and light.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Subconscient and the Integral Yoga*](http://incarnateword.in/cwsa/31/the-subconscient-and-the-integral-yoga#p19)</small>",
+
+"> The subconscient is to be penetrated by the light and made a sort of bedrock of truth, a store of right impressions, right physical responses to the Truth. Strictly speaking, it will not be subconscient at all, but a sort of bank of true values held ready for use.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Subconscient and the Integral Yoga*](http://incarnateword.in/cwsa/31/the-subconscient-and-the-integral-yoga#p71)</small>"
+  ],
   image_url: "firecracker_flower.jpg",
   thumbnail_url: "firecracker_flower_thumbnail.jpg",
   source: "Luke McGuff",
@@ -9886,6 +14143,11 @@ dahlia_01 = {
   colour: "Bicoloured or white and shades of red, pink, lavender, purple, orange, and yellow",
   significance: "Aristocracy",
   comment: "Incapable of baseness and pettiness, it asserts itself with dignity and authority.",
+  quotes: [
+"> Only a few, the rare aristocrats of the earth, can really and truly think. That is now the true aristocracy, not the aristocracy of the body and birth, not the aristocracy of vital superiority, wealth, pride and luxury, not the aristocracy of higher emotions, courage, energy, successful political instinct and the habit of mastery and rule,—though these latter cannot be neglected,—but the aristocracy of knowledge, undisturbed insight and intellectual ability.
+> 
+> <small>Sri Aurobindo, [*Early Cultural Writings: The National Value of Art*](http://incarnateword.in/cwsa/01/the-national-value-of-art#p3)</small>"
+  ],
   image_url: "dahlia_double_xl.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Dahlia_-_Indian_Botanic_Garden_-_Howrah_2012-01-29_1769.JPG"
@@ -9896,6 +14158,15 @@ dahlia_02 = {
   colour: "Many colours",
   significance: "Dignity",
   comment: "Affirms its worth, but asks for nothing.",
+  quotes: [
+"> To do this yoga, one must have, at least a little, the sense of beauty. If one does not, one misses one of the most important aspects of the physical world.
+> 
+> There is this beauty, this dignity of soul—a thing about which I am very sensitive. It is a thing that moves me and evokes in me a great respect always.
+> 
+> Yes, this beauty of soul that is visible in the face, this kind of dignity, this harmony of integral realisation. When the soul becomes visible in the physical, it gives this dignity, this beauty, this majesty, the majesty that comes from one's being the Tabernacle. Then, even things that have no particular beauty put on a sense of eternal beauty, of it *the* eternal beauty.
+> 
+> <small>The Mother, [*Words of the Mother - III: (July?) 1958*](http://incarnateword.in/cwm/15/july-1958-1#p1-p3)</small>"
+  ],
   image_url: "dahlia_double_l.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:20140901_Dahlien_0012.jpg"
@@ -9925,7 +14196,7 @@ dahlia_05 = {
   description: "Medium to large (10-15 cm) fully double mauve pink flowers with symmetrically arranged ray florets in a variety of forms (broad, rounded, or cupped).",
   colour: "Mauve pink",
   significance: "Dignity of the Emotions",
-  comment: "Not to allow one’s emotions to contradict the inner Divinity.",
+  comment: "Not to allow one's emotions to contradict the inner Divinity.",
   image_url: "dahlia_mauve_pink.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:36Dahlia.JPG"
@@ -9956,6 +14227,33 @@ dahlia_08 = {
   colour: "Pure white",
   significance: "Superhumanity",
   comment: "The aim of our aspirations.",
+  quotes: [
+"> When superman is born as Nature's king
+> His presence shall transfigure Matter's world:
+> He shall light up Truth's fire in Nature's night,
+> He shall lay upon the earth Truth's greater law;
+> Man too shall turn towards the Spirit's call.
+> 
+> Awake to his hidden possibility,
+> Awake to all that slept within his heart
+> And all that Nature meant when earth was formed
+> And the Spirit made this ignorant world his home,
+> He shall aspire to Truth and God and Bliss.
+> 
+> <small>Sri Aurobindo, [*Savitri - II: The Eternal Day: The Soul's Choice and the Supreme Consummation*](http://incarnateword.in/cwsa/34/the-eternal-day-the-souls-choice-and-the-supreme-consummation#p322-p323)</small>",
+
+"> In a profound sense it is the call and attraction of the future that makes the past and present, and that future will be more and more seen to be the growth of the godhead in the human being which is the high fate of this race that thinks and wills and labours towards its own perfection. This is a strain that we shall hear more and more, the song of the growing godhead of the kind, of human unity, of spiritual freedom, of the coming supermanhood of man, of the divine ideal seeking to actualise itself in the life of the earth, of the call to the individual to rise to his godlike possibility…
+> 
+> <small>Sri Aurobindo, [*The Future Poetry: The Power of the Spirit*](http://incarnateword.in/cwsa/26/the-power-of-the-spirit#p5)</small>",
+
+"> If a spiritual unfolding on earth is the hidden truth of our birth into Matter, if it is fundamentally an evolution of consciousness that has been taking place in Nature, then man as he is cannot be the last term of that evolution: he is too imperfect an expression of the spirit, mind itself a too limited form and instrumentation; mind is only a middle term of consciousness, the mental being can only be a transitional being. If, then, man is incapable of exceeding mentality, he must be surpassed and supermind and superman must manifest and take the lead of the creation. But if his mind is capable of opening to what exceeds it, then there is no reason why man himself should not arrive at supermind and supermanhood or at least lend his mentality, life and body to an evolution of that greater term of the Spirit manifesting in Nature.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: Man and the Evolution*](http://incarnateword.in/cwsa/22/man-and-the-evolution#p26)</small>",
+
+"> Each time we try not to be an ordinary man, not to live the ordinary life, to express in our movements, our actions and reactions the divine Truth, when we are governed by that Truth instead of being governed by the general ignorance, we are apprentice-supermen, and according to the success of our efforts, well, we are more or less able apprentices, more or less advanced on the way.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 8 October 1958*](http://incarnateword.in/cwm/09/8-october-1958#p4)</small>"
+  ],
   image_url: "dahlia_pure_white.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Schloss_Schwerin_Haslhofer.JPG"
@@ -10066,6 +14364,19 @@ thorn_apple = Flower.create!(
   size: "Large",
   place: "Found across tropical and temperate regions across the world",
   climate: "Found across a wide range of climates",
+  quotes: [
+">Tapasya is a strong concentration of the energies for a result - but usually concentration of them in the practice of some discipline for a spiritual result.
+>
+> <small>Sri Aurobindo</small>",
+
+"> Tapasya is the concentration of the will to get the results of sadhana and to conquer the lower nature.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: The Central Processes of the Sadhana*](http://incarnateword.in/cwsa/29/the-central-processes-of-the-sadhana#p26)</small>",
+
+"> When the will and energy are concentrated and used to control the mind, vital and physical and change them or to bring down the higher consciousness or for any other Yogic purpose or high purpose, that is called Tapasya.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Surrender*](http://incarnateword.in/cwsa/29/surrender#p71)</small>"
+  ],
   image_url: "thorn_apple.jpg",
   thumbnail_url: "thorn_apple_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -10136,6 +14447,15 @@ florists_chrysanthemum = Flower.create!(
   size: "Medium to large",
   place: "Native to Asia and northeastern Europe",
   climate: "Subtropical to temperate",
+  quotes: [
+"> [Life energy], life-force is not physical in itself; it is not material energy, but rather a different principle supporting Matter and involved in it. It supports and occupies all forms and without it no physical form could have come into being or could remain in being. It acts in all material forces such as electricity and is nearest to self-manifestation in those that are nearest to pure force; no material force could exist or act without it, for from it they derive their energy and movement and they are its vehicles.
+> 
+> <small>Sri Aurobindo, [*Kena and Other Upanishads: The Superlife—Life of Our Life*](http://incarnateword.in/cwsa/18/the-superlife-life-of-our-life#p3)</small>",
+
+"> The true Life-Force too reveals itself as no longer this troubled harassed divided striving surface energy, but a great and radiant Divine Power, full of peace and strength and bliss, a wide-wayed Angel of Life with its wings of Might enfolding the universe.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - II*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-ii#p23)</small>"
+  ],
   image_url: "florists_chrysanthemum.jpg",
   thumbnail_url: "florists_chrysanthemum_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -10180,6 +14500,15 @@ rainbow_pink = Flower.create!(
   size: "Small",
   place: "Native to northern China, Korea, Mongolia, and southeastern Russia",
   climate: "Temperate",
+  quotes: [
+"> Obedience is necessary so as to get away from one's own mind and vital and learn to follow the Truth.
+> 
+> <small>Sri Aurobindo, [*Letters on Himself and the Ashram: Importance of Obedience*](http://incarnateword.in/cwsa/35/importance-of-obedience#p7)</small>",
+
+"> In Yoga obedience to the Guru or to the Divine and the law of the Truth as declared by the Guru is the foundation of discipline.
+> 
+> <small>Sri Aurobindo, [*Letters on Himself and the Ashram: Discipline Defined*](http://incarnateword.in/cwsa/35/discipline-defined#p2)</small>"
+  ],
   image_url: "rainbow_pink.jpg",
   thumbnail_url: "rainbow_pink_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -10301,6 +14630,17 @@ blue_sage = Flower.create!(
   size: "Small",
   place: "Native to tropical India and China",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The only way of establishing a constant silence in one's mind is to open oneself to higher region and let this higher consciousness, force, light descend constantly into the lower mind and take possession of it. And here, when this happen, this lower mind can remain constantly quiet and silent, because it is this one which acts and fills the whole being. One can act, write and speak without the mind being active, with this force which comes from above penetrating the mind and using it; and the mind itself becomes just a passive instrument.
+> 
+> <small>The Mother, [*Questions and Answers 1954: 22 September 1954*](http://incarnateword.in/cwm/06/22-september-1954#p15)</small>",
+
+"> There is nothing mind can do that cannot be better done in the mind's immobility and thought-free stillness.
+> 
+> When mind is still, then Truth gets her chance to be heard in the purity of the silence.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: Man and Superman*](http://incarnateword.in/cwsa/12/man-and-superman#p158-p159)</small>"
+  ],
   image_url: "blue_sage.jpg",
   thumbnail_url: "blue_sage_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -10353,6 +14693,29 @@ coral_tree = Flower.create!(
   size: "Medium-sized",
   place: "Native to the tropical and subtropical regions of eastern Africa, the Indian Subcontinent, northern Australia, and the islands of the Indian Ocean and the western Pacific Ocean east to Fiji",
   climate: "Tropical and subtropical",
+  quotes: [
+"> A resplendent sun rises above the horizon. It is your Lord that comes to you.
+> 
+> The whole world awakes and stretches in delight at the contact of His glory.
+> 
+> As the earth that heaves and opens, as the tree that grows, as the flower that blossoms, as the bird that sings, as the man that loves, let His light permeate you and radiate in an ever-increasing and widening happiness, a happiness steadily moving onward as the stars move in heaven.
+> 
+> <small>The Mother, [*Words of the Mother - III: Soar High*](http://incarnateword.in/cwm/15/soar-high#p8-p10)</small>",
+
+"> In Matter shall be lit the spirit’s glow,  
+> In body and body kindled the sacred birth;
+> Night shall awake to the anthem of the stars,
+> The days become a happy pilgrim march,
+> Our will a force of the Eternal’s power,
+> And thought the rays of a spiritual sun.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Secret Knowledge*](http://incarnateword.in/cwsa/33/the-secret-knowledge#p75)</small>",
+
+"> The Spirit shall look out through Matter’s gaze
+> And Matter shall reveal the Spirit’s face.
+> 
+> <small>Sri Aurobindo, [*Savitri - II: The Eternal Day: The Soul's Choice and the Supreme Consummation*](http://incarnateword.in/cwsa/34/the-eternal-day-the-souls-choice-and-the-supreme-consummation#p328)</small>"
+  ],
   image_url: "coral_tree.jpg",
   thumbnail_url: "coral_tree_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -10372,6 +14735,11 @@ indian_blanket_01 = {
   colour: "Multicoloured or shades of red, yellow, or orange",
   significance: "Successful Future",
   comment: "Full of promise and joyful surprises.",
+  quotes: [
+"> Do you know what the flower which we have called \"Successful Future\" signifies when given to you? It signifies the hope—nay, even the promise—that you will participate in the descent of the supramental world. For that descent will be the successful consummation of our work, a descent of which the full glory has not yet been or else the whole face of life would have been different. By slow degrees the Supramental is exerting its influence; now one part of the being and now another feels the embrace or the touch of its divinity; but when it comes down in all its self-existent power, a supreme radical change will seize the whole nature. We are moving nearer and nearer the hour of its complete triumph. Once the world-conditions are ready the full descent will take place carrying everything before it. Its presence will be unmistakable, its force will brook no resistance, doubts and difficulties will not torture you any longer. For the Divine will stand manifest—unveiled in its total perfection. I do not, however, mean to say that the whole world will at once feel its presence or be transformed; but I do mean that a part of humanity will know and participate in its descent…
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: The Supramental Descent*](http://incarnateword.in/cwm/03/the-supramental-descent#p1)</small>"
+  ],
   image_url: "indian_blanket_single.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Laitche-P052.jpg"
@@ -10393,6 +14761,37 @@ indian_blanket_03 = {
   colour: "Orange red, yellow",
   significance: "Cheerfulness",
   comment: "A joyful smile of nature.",
+  quotes: [
+"> There is nothing spiritually wrong in being glad and cheerful, on the contrary it is the right thing.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Cheerfulness and Happiness*](http://incarnateword.in/cwsa/31/cheerfulness-and-happiness#p3)</small>",
+
+"> Cheerfulness is the salt of sadhana. It is a thousand times better than gloominess.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Cheerfulness and Happiness*](http://incarnateword.in/cwsa/31/cheerfulness-and-happiness#p1)</small>",
+
+"> A hidden Bliss is at the root of things.
+> 
+> A mute Delight regards Time's countless works:
+> To house God's joy in things Space gave wide room,
+> To house God's joy in self our souls were born.
+> 
+> This universe an old enchantment guards;
+> Its objects are carved cups of World-Delight
+> Whose charmed wine is some deep soul's rapture-drink:
+> The All-Wonderful has packed heaven with his dreams,
+> He has made blank ancient Space his marvel-house;
+> He spilled his spirit into Matter's signs:
+> His fires of grandeur burn in the great sun,
+> He glides through heaven shimmering in the moon;
+> He is beauty carolling in the fields of sound;
+> He chants the stanzas of the odes of Wind;
+> He is silence watching in the stars at night;
+> He wakes at dawn and calls from every bough,
+> Lies stunned in the stone and dreams in flower and tree.
+> 
+> <small>Sri Aurobindo, [*Savitri - II: The Debate of Love and Death*](http://incarnateword.in/cwsa/34/the-debate-of-love-and-death#p81-p83)</small>"
+  ],
   image_url: "indian_blanket_picta_orange.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Marineland_gaillardia01.jpg"
@@ -10459,6 +14858,27 @@ cape_jasmine = Flower.create!(
   size: "Medium to large",
   place: "Native to Asia; most commonly found growing wild in Vietnam, Southern China, Taiwan, Japan, Myanmar, and India",
   climate: "Cultivated from subtropical to warm temperate regions",
+  quotes: [
+"> This is purity, to accept no other influence but only the influence of the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Purity*](http://incarnateword.in/cwm/14/purity#p2)</small>",
+
+"> One is truly perfectly pure only when the whole being, in all its elements and all its movements, adheres fully, exclusively, to the divine Will. This indeed is total purity. It does not depend on any moral or social law, any mental convention of any kind. It depends exclusively on this: when all the elements and all the movements of the being adhere exclusively and totally to the divine Will.
+> 
+> <small>The Mother, [*Questions and Answers 1954: 22 December 1954*](http://incarnateword.in/cwm/06/22-december-1954#p18)</small>",
+
+"> What I call purity, the true purity, is not all those things morality teaches: it is non-ego.
+> 
+> There must be nothing but Him.
+> 
+> Him, not only because we have given Him everything and consecrated ourselves totally to Him (that is not enough), but Him because He has taken total possession of the human instrument.
+> 
+> <small>The Mother, [*Mother's Agenda: May 21, 1960*](http://incarnateword.in/agenda/01/may-21-1960#p1-p3)</small>",
+
+"> There is a force of purity, not the purity of the moralist, but an essential purity of spirit, in the very substance of the being.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Sex*](http://incarnateword.in/cwsa/31/sex#p90)</small>"
+  ],
   image_url: "cape_jasmine.jpg",
   thumbnail_url: "cape_jasmine_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -10579,6 +14999,11 @@ garden_gladiolus = Flower.create!(
   size: "Small to medium-sized",
   place: "Found in tropical and subtropical regions in the United States; also cultivated elsewhere",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Receptivity—the power to receive the Divine Force and to feel its presence and the presence of the Mother in it and allow it to work, guiding one's sight and will and action.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: The Divine Force in Work*](http://incarnateword.in/cwsa/29/the-divine-force-in-work#p4)</small>"
+  ],
   image_url: "garden_gladiolus.jpg",
   thumbnail_url: "garden_gladiolus_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -10657,6 +15082,15 @@ globe_amaranth = Flower.create!(
   size: "Small",
   place: "Native to Brazil, Panama, and Guatemala",
   climate: "Tropical",
+  quotes: [
+"> By immortality is meant the consciousness which is beyond birth and death, beyond the chain of cause and effect, beyond all bondage and limitation, free, blissful, self-existent in conscious-being, the consciousness of the Lord, of the supreme Purusha, of Sachchidananda.
+> 
+> <small>Sri Aurobindo, [*Isha Upanishad: II. Knowledge and Ignorance*](http://incarnateword.in/cwsa/17/ii-knowledge-and-ignorance#p44)</small>",
+
+"> Immortality in its fundamental sense does not mean merely some kind of personal survival of the bodily death; we are immortal by the eternity of our self-existence without beginning or end, beyond the whole succession of physical births and deaths through which we pass, beyond the alternations of our existence in this and other worlds: the spirit's timeless existence is the true immortality.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: Out of the Sevenfold Ignorance towards the Sevenfold Knowledge*](http://incarnateword.in/cwsa/22/out-of-the-sevenfold-ignorance-towards-the-sevenfold-knowledge#p15)</small>"
+  ],
   image_url: "globe_amaranth.jpg",
   thumbnail_url: "globe_amaranth_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -10677,6 +15111,15 @@ sunflower_01 = {
   colour: "Dark brownish-red, golden yellow, dark brown",
   significance: "Supramental Artistic Genius",
   comment: "It blossoms in the Light and knows how to manifest it.",
+  quotes: [
+"> The Supramental by its very definition is Truth Consciousness, Truth in possession of itself and fulfilling itself by its own power.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Descent and Transformation*](http://incarnateword.in/cwsa/28/descent-and-transformation#p3)</small>",
+
+"> The Supermind is in its very essence a truth-consciousness, a consciousness always free from the Ignorance which is the foundation of our present natural or evolutionary existence and from which nature in us is trying to arrive at self-knowledge and world-knowledge and a right consciousness and the right use of our existence in the universe. The Supermind, because it is a truth-consciousness, has this knowledge inherent in it and this power of true existence; its course is straight and can go direct to its aim, its field is wide and can even be made illimitable. This is because its very nature is knowledge: it has not to acquire knowledge but possesses it in its own right…
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Supermind and the Life Divine*](http://incarnateword.in/cwsa/13/supermind-and-the-life-divine#p2)</small>"
+  ],
   image_url: "sunflower_brown_yellow.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Sunflowers_in_Nova_Scotia.jpg"
@@ -10687,6 +15130,19 @@ sunflower_02 = {
   colour: "Brown or green, light to deep yellow",
   significance: "Consciousness turned towards the Light",
   comment: "It thirsts for Light and cannot live without it.",
+  quotes: [
+"> Consciousness is a fundamental thing, it is the fundamental thing in existence—it is the energy, the action, the movement of consciousness that creates the universe and all that is in it—not only the macrocosm, but the microcosm is nothing but consciousness arranging itself.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Sachchidananda: Existence, Consciousness-Force and Bliss*](http://incarnateword.in/cwsa/28/sachchidananda-existence-consciousness-force-and-bliss#p25)</small>",
+
+"> Consciousness is made up of two elements, awareness of self and things and forces and conscious power. Awareness is the first thing necessary, you have to be aware of things in the right consciousness, in the right way, seeing them in their truth; but awareness by itself is not enough. There must be a Will and a Force that make the consciousness effective.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Sachchidananda: Existence, Consciousness-Force and Bliss*](http://incarnateword.in/cwsa/28/sachchidananda-existence-consciousness-force-and-bliss#p29)</small>",
+
+"> *The only thing* that is truly effective is the change of consciousness; it is the inner liberation through an intimate, constant union, absolute and inevitable, with the vibration of the supramental forces. The preoccupation of every second, the will of all the elements of the being, the aspiration of the entire being, including all the cells of the body, is this union with the supramental forces, the divine forces. And there is no longer any need at all to be preoccupied with what the consequences will be. What has to be in the play of the universal forces and their manifestation will be, quite naturally, spontaneously, automatically, there is no need to be preoccupied with it. The only thing that matters is the constant, total, complete contact—constant, yes, constant—with the Force, the Light, the Truth, the Power, and that ineffable delight of the supramental consciousness.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 12 June 1957*](http://incarnateword.in/cwm/09/12-june-1957#p8)</small>"
+  ],
   image_url: "sunflower_yellow.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Tournesols_FR_2008.jpg"
@@ -10749,6 +15205,15 @@ cotton_rosemallow_01 = {
   colour: "Pure white to pink",
   significance: "The Divine Grace",
   comment: "Thy goodness is infinite, we bow before Thee in gratitude.",
+  quotes: [
+"> An absolute faith and trust in the Grace is, in the last analysis, the Supreme Wisdom.
+> 
+> <small>The Mother, [*Words of the Mother - II: Faith in the Divine Grace and Help*](http://incarnateword.in/cwm/14/faith-in-the-divine-grace-and-help#p31)</small>",
+
+"> The more complete your faith, sincerity and surrender, the more will grace and protection be with you. And when the grace and protection of the Divine Mother are with you, what is there that can touch you or whom need you fear? A little of it even will carry you through all difficulties, obstacles and dangers; surrounded by its full presence you can go securely on your way because it is hers, careless of all menace, unaffected by any hostility however powerful, whether from this world or from worlds invisible. Its touch can turn difficulties into opportunities, failure into success and weakness into unfaltering strength. For the grace of the Divine Mother is the sanction of the Supreme and now or tomorrow its effect is sure, a thing decreed, inevitable and irresistible.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - III*](http://incarnateword.in/cwsa/32/the-mother-iii#p3)</small>"
+  ],
   image_url: "cotton_rosemallow_white.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:H._mutabilis.jpg"
@@ -10789,6 +15254,15 @@ chinese_hibiscus_01 = {
   colour: "Light salmon pink, red",
   significance: "Agni",
   comment: "The flame of purification which ought to precede all contact with the invisible worlds.",
+  quotes: [
+"> Agni is at once a fire of aspiration, a fire of purification, a fire of tapasya, a fire of transformation.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: Experiences Associated with the Psychic*](http://incarnateword.in/cwsa/30/experiences-associated-with-the-psychic#p26)</small>",
+
+"> Without [Agni] the sacrificial flame cannot burn on the altar of the soul. That flame of Agni is the seven-tongued power of theWill, a Force of God instinct with Knowledge. This conscious and forceful will is the immortal guest in our mortality, a pure priest and a divine worker, the mediator between earth and heaven. It carries what we offer to the higher Powers and brings back in return their force and light and joy into our humanity.
+> 
+> <small>Sri Aurobindo, [*Hymns to the Mystic Fire: The Doctrine of the Mystics*](http://incarnateword.in/cwsa/16/the-doctrine-of-the-mystics#p7)</small>"
+  ],
   image_url: "chinese_hibiscus_double_salmon_red.jpg",
   source: "leahahaha",
   url: "https://www.flickr.com/photos/leahahaha/2731533496/"
@@ -10799,6 +15273,15 @@ chinese_hibiscus_02 = {
   colour: "Cream, pure white",
   significance: "Ananda",
   comment: "Calm, tranquil, equal, smiling, and very sweet in its truly simple austerity.",
+  quotes: [
+"> Ananda is the secret delight from which all things are born, by which all is sustained in existence and to which all can rise in the spiritual culmination.
+> 
+> <small>Sri Aurobindo, [*Essays on the Gita: The Gunas, Mind and Works*](http://incarnateword.in/cwsa/19/the-gunas-mind-and-works#p17)</small>",
+
+"> Ananda is the very essence of the Brahman, it is the supreme nature of the omnipresent Reality.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Gnostic Being*](http://incarnateword.in/cwsa/22/the-gnostic-being#p26)</small>"
+  ],
   image_url: "chinese_hibiscus_cream_white.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Starr_070403-6477_Hibiscus_rosa-sinensis.jpg"
@@ -10809,17 +15292,33 @@ chinese_hibiscus_03 = {
   colour: "Cream, deep red, pure white",
   significance: "Ananda in the Physical",
   comment: "May it be welcome, even if it manifests itself rarely.",
+  quotes: [
+"> There comes a time when one begins to be almost ready, when one can feel in everything, every object, in every movement, in every vibration, in all the things around—not only people and conscious beings, but things, objects; not only trees and plants and living things, but simply any object one uses, the things around one—this delight, this delight of being, of being just as one is, simply being. And one sees that all this vibrates like that. One touches a thing and feels this delight…
+> This delight is something very subtle. One moves in the midst of things and it is as though they were all singing to you their delight. There comes a time when it becomes very familiar in the life around you… In plants, in flowers, it is so wonderful! They speak all their joy, they express it. And as I said, in all familiar objects, the things around you, which you use, there is a state of consciousness in which each one is happy to be, just as it is. So at that moment one knows one has touched true Delight. And it is not conditioned. I mean it does not depend upon… it depends on nothing. It does not depend on outer circumstances, does not depend on a more or less favourable state, it does not depend on anything: it is a communion with the *raison d'&ecirc;tre* of the universe.
+> And when this comes it fills all the cells of the body. It is not even a thing which is thought out—one does no reason, does not analyse, it is not that: it is a state in which one lives. And when the body shares in it, it is so fresh—so fresh, so spontaneous, so… it no longer turns back upon itself, there is no longer any sense of self-observation, of self-analysis or of analysing things. All that is like a canticle of joyous vibrations, but very, very quiet, without violence, without passion, nothing of all that. It is very subtle and very intense at the same time, and when it comes, it seems that the whole universe is a marvellous harmony.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 23 January 1957*](http://incarnateword.in/cwm/09/23-january-1957#p18)</small>"
+  ],
   image_url: "chinese_hibiscus_cream_red.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Kailua_Yellow_Hibiscus_18cm.JPG"
 }
 
 chinese_hibiscus_04 = {
-  bot_name: "Hibiscus rosa-sinensis ‘Viceroy’",
+  bot_name: "Hibiscus rosa-sinensis ‘Viceroy'",
   description: "Small single intense magenta flower.",
   colour: "Magenta",
   significance: "Individual Power",
   comment: "Limited in its capacity and action.",
+  quotes: [
+"> God is infinite and his manifestation is infinite. The forms of his manifestation too are innumerable. Each form is a symbol of some divine power, *vibh&#363;ti*, concealed in it and to the seeing eye each finite carries in it its own revelation of the infinite.
+> 
+> <small>Sri Aurobindo, [*Essays on the Gita: God in Power of Becoming*](http://incarnateword.in/cwsa/19/god-in-power-of-becoming#p8)</small>",
+
+"> To realise its own power and to master as well as to know its world is the increasing impulse of all individual life… that impulse is an essential feature of the growing self-manifestation of the Divine in cosmic existence.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: Death, Desire and Incapacity*](http://incarnateword.in/cwsa/21/death-desire-and-incapacity#p4)</small>"
+  ],
   image_url: "chinese_hibiscus_magenta.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Hibiskus_rosa-sinensis_-_Kwiat.JPG"
@@ -10972,6 +15471,19 @@ chinese_hibiscus_19 = {
   colour: "Orange to red orange, rose, deep red",
   significance: "Power of Perseverance (Continued Perseverance and Action)",
   comment: "The perseverance that overcomes all obstacles.",
+  quotes: [
+"> The most essential quality is perseverance, endurance, and a… what shall I call it?– a kind of inner good humour which helps you not to get discouraged, not to become sad, and to face all difficulties with a smile. There is an English word which expresses this very well—cheerfulness. If you can keep this within you, you fight much better, resist much better, in the light, these bad influences which try to hinder you from progressing.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 18 January 1956*](http://incarnateword.in/cwm/08/18-january-1956#p8)</small>",
+
+"> It is by *persevering* that one conquers difficulties, not by running away from them. One who perseveres is sure to triumph. Victory goes to the most enduring.
+> 
+> <small>The Mother, [*Words of the Mother - II: Perseverance*](http://incarnateword.in/cwm/14/perseverance#p10)</small>",
+
+"> Perseverance is patience in action.
+> 
+> <small>The Mother, [*Words of the Mother - II: Perseverance*](http://incarnateword.in/cwm/14/perseverance#p2)</small>"
+  ],
   image_url: "chinese_hibiscus_red_orange_rose.jpg",
   source: "anuraj, Pixabay",
   url: "https://pixabay.com/en/hibiscus-rosa-sinensis-flower-436595/"
@@ -11076,6 +15588,39 @@ chinese_hibiscus_29 = {
   colour: "Bright red or orange red, white, cream yellow to light gold",
   significance: "Manifold Power of the New Creation (Manifold Power of Auroville)",
   comment: "The new creation will be rich in possibilities.",
+  quotes: [
+"> The really new thing, is that a new world is *born, born, born*. It is not the old one transforming itself, it is a *new* world which is *born*. And we are right in the midst of this period of transition where the two are entangled—where the other still persists all-powerful and entirely dominating the ordinary consciousness, but where the new one is quietly slipping in, still very modest, unnoticed—unnoticed to the extent that outwardly it doesn't disturb anything very much, for the time being, and that in the consciousness of most people it is even altogether imperceptible. And yet it is working, growing—until it is strong enough to assert itself visibly.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 10 July 1957*](http://incarnateword.in/cwm/09/10-july-1957#p14)</small>",
+
+"> These are people who have adventure. It is these I call, and I tell them this: \"I invite you to the great adventure.\"
+> 
+> It is not a question of repeating spiritually what others have done before us, for our adventure begins beyond that. It is a question of a new creation, entirely new, with all the unforeseen events, the risks, the hazards it entails—a *real adventure*, whose goal is certain victory, but the road to which is unknown and must be traced out step by step in the unexplored. Something that has never been in this present universe and that will *never* be again in the same way. If that interests you… well, let us embark. What will happen to you tomorrow—I have no idea.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 10 July 1957*](http://incarnateword.in/cwm/09/10-july-1957#p21-p22)</small>",
+
+"> The only creation for which there is any place here is the supramental, the bringing of the divine Truth down on the earth, not only into the mind and vital but into the body and into Matter.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Lower Vital Being*](http://incarnateword.in/cwsa/31/the-lower-vital-being#p33)</small>",
+
+"> For centuries and centuries humanity has waited for this time. It is come. But it is difficult.
+> 
+> I don't simply tell you we are here upon earth to rest and enjoy ourselves, now is not the time for that. We are here… to prepare the way for the new creation.
+> 
+> <small>The Mother, [*Notes on the Way: 2 April 1972*](http://incarnateword.in/cwm/11/2-april-1972#p2-p3)</small>",
+
+"> You must strive, you must conquer all weaknesses and limitations; above all you must tell your ego: \"Your hour is gone.\" We want a race that has no ego, that has in place of the ego the Divine Consciousness. It is that which we want: the Divine Consciousness which will allow the race to develop itself and the supramental being to take birth.
+> 
+> <small>The Mother, [*Notes on the Way: 2 April 1972*](http://incarnateword.in/cwm/11/2-april-1972#p8)</small>",
+
+"> The only creation for which there is any place here is the supramental, the bringing of the divine Truth down on the earth, not only into the mind and vital but into the body and into Matter… We are here to do what the Divine wills and to create a world in which the Divine Will can manifest its truth no longer deformed by human ignorance or perverted and mistranslated by vital desire. The work which the sadhak of the supramental Yoga has to do is not his own work for which he can lay down his own conditions, but the work of the Divine which he has to do according to the conditions laid down by the Divine. Our Yoga is not for our own sake but for the sake of the Divine.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Lower Vital Being*](http://incarnateword.in/cwsa/31/the-lower-vital-being#p33)</small>",
+
+"> The supramental creation, since it is to be a creation upon earth, must be not only an inner change but a physical and external manifestation also… It is the actual descent of the supramental Divine into Matter and the working of the Divine Presence and Power there that can alone make the physical and external change possible.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Lower Vital Being*](http://incarnateword.in/cwsa/31/the-lower-vital-being#p34)</small>"
+  ],
   image_url: "chinese_hibiscus_red_white.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Starr_061223-2696_Hibiscus_rosa-sinensis.jpg"
@@ -11096,6 +15641,31 @@ chinese_hibiscus_31 = {
   colour: "Red, white",
   significance: "Faith",
   comment: "You flame up and triumph.",
+  quotes: [
+"> Faith is a general word = *&#347;raddh&#257;*—the soul's belief in the Divine's existence, wisdom, power, love and grace—confidence and trust are aspects of faith and results of it.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Faith*](http://incarnateword.in/cwsa/29/faith#p1)</small>",
+
+"> Faith is the soul's witness to something not yet manifested, achieved or realised, but which yet the Knower within us, even in the absence of all indications, feels to be true or supremely worth following or achieving.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Faith*](http://incarnateword.in/cwsa/29/faith#p36)</small>",
+
+"> This *&#347;raddh&#257;*—the English word faith is inadequate to express it—is in reality an influence from the supreme Spirit and its light a message from our supramental being which is calling the lower nature to rise out of its petty present to a great self-becoming and self-exceeding. And that which receives the influence and answers to the call is not so much the intellect, the heart or the life mind, but the inner soul which better knows the truth of its own destiny and mission.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - II: Faith and Shakti*](http://incarnateword.in/cwsa/24/faith-and-shakti#p4)</small>",
+
+"> Faith is certainly a gift given to us by the Divine Grace. It is like a door suddenly opening upon an eternal truth, through which we can see it, almost touch it.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 9 July 1958*](http://incarnateword.in/cwm/09/9-july-1958#p4)</small>",
+
+"> In the ignorance and darkness of the beginning, faith is the most direct expression of the Divine Power which comes to fight and conquer.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 9 July 1958*](http://incarnateword.in/cwm/09/9-july-1958#p12)</small>",
+
+"> At every moment all the unforeseen, the unexpected, the unknown is before us―and what happens to us depends mostly on the intensity and purity of our faith.
+> 
+> <small>The Mother, [*Words of the Mother - II: Faith*](http://incarnateword.in/cwm/14/faith#p19)</small>"
+  ],
   image_url: "chinese_hibiscus_variegated_red_white.jpg",
   source: "Xeramtheum, All Things Plants",
   url: "http://allthingsplants.com/plants/photo/244361/"
@@ -11116,6 +15686,11 @@ chinese_hibiscus_33 = {
   colour: "Salmon pink, pink, yellow",
   significance: "Beauty of Supramental Love (Flower of Auroville)",
   comment: "It invites us to live at its height",
+  quotes: [
+"> The supramental love means an intense unity of soul with soul, mind with mind, life with life, and an entire flooding of the body consciousness with the physical experience of oneness, the presence of the Beloved in every part, in every cell of the body.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Bhakti Yoga and Vaishnavism*](http://incarnateword.in/cwsa/29/bhakti-yoga-and-vaishnavism#p37)</small>"
+  ],
   image_url: "chinese_hibiscus_salmon_pink.jpg",
   source: "Ian Percy, Florez Nursery",
   url: "http://floreznursery.blogspot.in/2013_06_01_archive.html"
@@ -11147,6 +15722,23 @@ chinese_hibiscus_36 = {
   colour: "Light or bright orange shades",
   significance: "Beauty of Tomorrow",
   comment: "The beauty that will express Divine Power.",
+  quotes: [
+"> In the physical world, of all things it is beauty that expresses best the Divine. The physical world is the world of form and the perfection of form is beauty. Beauty interprets, expresses, manifests the Eternal. Its role is to put all manifested nature in contact with the Eternal through the perfection of form, through harmony and a sense of the ideal which uplifts and leads towards something higher.
+> 
+> <small>The Mother, [*On Education: Curriculum*](http://incarnateword.in/cwm/12/curriculum#p214)</small>",
+
+"> True Beauty is as difficult to discover, to understand and above all to live as any other expression of the Divine… Pure Beauty is universal and one must be universal to see and recognise it.
+> 
+> <small>The Mother, [*Prayers and Meditations: January 29, 1917*](http://incarnateword.in/cwm/01/january-29-1917#p2)</small>",
+
+"> Beauty is as much an expression of the Divine as Knowledge, Power or Ananda.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother's Attire*](http://incarnateword.in/cwsa/32/the-mothers-attire#p2)</small>",
+
+"> Beauty and delight, whatever form it takes,—for we may speak here of the two as one,—has an unaging youth, an eternal moment, an immortal presence.
+> 
+> <small>Sri Aurobindo, [*The Future Poetry: The Soul of Poetic Delight and Beauty*](http://incarnateword.in/cwsa/26/the-soul-of-poetic-delight-and-beauty#p1)</small>"
+  ],
   image_url: "chinese_hibiscus_orange_shades.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Starr_070221-4815_Hibiscus_rosa-sinensis.jpg"
@@ -11265,10 +15857,20 @@ chinese_hibiscus_47 = {
 }
 
 chinese_hibiscus_48 = {
+  bot_name: "Hibiscus rosa-sinensis 'Daffodil'",
   description: "Large double bright yellow or golden yellow flowers. Another form has a red center.",
   colour: "Bright yellow or golden yellow, red",
   significance: "Supramental Consciousness",
   comment: "Gloriously awake and powerful. Luminous, sure of itself, infallible in its movements.",
+  quotes: [
+"> A new consciousness must manifest on earth and in man. Only the appearance of a new force and light and power accompanying the descent of the supramental consciousness into this world can raise man out of the anguish and pain and misery in which he is submerged. For only the supramental consciousness bringing down upon earth a higher poise and a purer and truer light can achieve the great miracle of transformation.
+> 
+> <small>The Mother, [*On Education: Helping Humanity*](http://incarnateword.in/cwm/12/helping-humanity#p10)</small>",
+
+"> The integral Yoga aims at scaling all the degrees of consciousness from the ordinary mental consciousness to a supramental and divine consciousness, and when the ascent is completed, to return to the material world and infuse it with the supramental force and consciousness that have been won, so that this earth may be gradually transformed into a supramental and divine world.
+> 
+> <small>The Mother, [*On Education: Helping Humanity*](http://incarnateword.in/cwm/12/helping-humanity#p14)</small>"
+  ],
   image_url: "chinese_hibiscus_double_yellow.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Hibiscus_cultivar_(2).JPG"
@@ -11279,16 +15881,43 @@ chinese_hibiscus_49 = {
   colour: "Cream white",
   significance: "Will in the Course of Uniting itself with the Divine Will",
   comment: "On the way to perfection.",
+  quotes: [
+"> The will is a part of the consciousness and ought to be in human beings the chief agent in controlling the activities of the nature.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Vigilance, Resolution, Will and the Divine Help*](http://incarnateword.in/cwsa/31/vigilance-resolution-will-and-the-divine-help#p28)</small>",
+
+"> Divine Will―the will expressing the highest Truth.
+> 
+> <small>The Mother, [*Words of the Mother - II: To Will What the Divine Wills*](http://incarnateword.in/cwm/14/to-will-what-the-divine-wills#p4)</small>",
+
+"> When I speak of the Divine Will I mean something that has descended here into an evolutionary world of Ignorance, standing at the back of things, pressing on the Darkness with its Light, leading things presently towards the best possible in the conditions of a world of Ignorance and leading it eventually towards a descent of a greater Power of the Divine which will be not an omnipotence held back and conditioned by the Law of the world as it is, but a full action and therefore bringing the reign of light, peace, harmony, joy, love, beauty and Ananda, for these are the Divine Nature.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Philosophical Thought and Yoga*](http://incarnateword.in/cwsa/28/philosophical-thought-and-yoga#p10)</small>"
+  ],
   image_url: "chinese_hibiscus_double_cream_white.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Starr_050107-2950_Hibiscus_rosa-sinensis.jpg"
 }
 
 chinese_hibiscus_50 = {
+  bot_name: "Hibiscus rosa-sinensis 'Cromwell'",
   description: "Large single shell white or very pale yellow gold flower with crinkled petals, a pink center, and golden anthers and stamens.",
   colour: "Shell white or pale yellow gold, pink, golden",
   significance: "Godhead",
   comment: "Pure and perfect, puts forth its force in the world.",
+  quotes: [
+"> I use the word Godhead because it expresses at once the essence of Divinity and its powers - it opens the door on both the impersonal and the personal aspects without stressing either.
+> 
+> <small>Sri Aurobindo</small>",
+
+"> The Godhead with whom the soul of man has to enter into this closest oneness, is indeed in his supreme status a transcendent Unthinkable too great for any manifestation, Parabrahman; but he is at the same time the living supreme Soul of all things. He is the supreme Lord, the Master of works and universal nature. He at once exceeds and inhabits as its self the soul and mind and body of the creature. He is Purushottama, Parameshwara and Paramatman and in all these equal aspects the same single and eternal Godhead. It is an awakening to this integral reconciling knowledge that is the wide gate to the utter release of the soul and an unimaginable perfection of the nature. It is this Godhead in the unity of all his aspects to whom our works and our adoration and our knowledge have to be directed as a constant inner sacrifice.
+> 
+> <small>Sri Aurobindo, [*Essays on the Gita: The Way and the Bhakta*](http://incarnateword.in/cwsa/19/the-way-and-the-bhakta#p2)</small>",
+
+"> He is the one Existence: he is the original and universal Delight that constitutes all things and exceeds them: he is the one infinite Consciousness that composes all consciousnesses and informs all their movements: he is the one illimitable Being who sustains all action and experience: his will guides the evolution of things towards their yet unrealised but inevitable aim and plenitude. To him the heart can consecrate itself, approach him as the supreme Beloved, beat and move in him as in a universal sweetness of Love and a living sea of Delight. For his is the secret Joy that supports the soul in all its experiences and maintains even the errant ego in its ordeals and struggles till all sorrow and suffering shall cease. His is the Love and the Bliss of the infinite divine Lover who is drawing all things by their own path towards his happy oneness.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: Self-Consecration*](http://incarnateword.in/cwsa/23/self-consecration#p20)</small>"
+  ],
   image_url: "chinese_hibiscus_gold_white.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Hibiscus03.jpg"
@@ -11378,6 +16007,19 @@ rose_of_sharon_02 = {
   colour: "White",
   significance: "Will One with the Divine Will",
   comment: "The condition that triumphs over all obstacles.",
+  quotes: [
+"> The will is a part of the consciousness and ought to be in human beings the chief agent in controlling the activities of the nature.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Vigilance, Resolution, Will and the Divine Help*](http://incarnateword.in/cwsa/31/vigilance-resolution-will-and-the-divine-help#p28)</small>",
+
+"> Divine Will―the will expressing the highest Truth.
+> 
+> <small>The Mother, [*Words of the Mother - II: To Will What the Divine Wills*](http://incarnateword.in/cwm/14/to-will-what-the-divine-wills#p4)</small>",
+
+"> When I speak of the Divine Will I mean something that has descended here into an evolutionary world of Ignorance, standing at the back of things, pressing on the Darkness with its Light, leading things presently towards the best possible in the conditions of a world of Ignorance and leading it eventually towards a descent of a greater Power of the Divine which will be not an omnipotence held back and conditioned by the Law of the world as it is, but a full action and therefore bringing the reign of light, peace, harmony, joy, love, beauty and Ananda, for these are the Divine Nature.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Philosophical Thought and Yoga*](http://incarnateword.in/cwsa/28/philosophical-thought-and-yoga#p10)</small>"
+  ],
   image_url: "rose_of_sharon_white.jpg",
   source: "Pflanzen (Lubera Gartenshop)",
   url: "http://www.lubera.com/de/shop/hibiskus-white-chiffon_produkt-912962.html"
@@ -11502,6 +16144,19 @@ amaryllis = Flower.create!(
   size: "Large",
   place: "Native to tropical and subtropical regions of the Americas, from Argentina north to Mexico and the Caribbean",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Conversion: the turning of all the movements of the being towards the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - III: Change*](http://incarnateword.in/cwm/15/change#p30)</small>",
+
+"> When [the psychic] is awake, it begins to take hold of the rest of the being, to influence it and change it so that all may become the true expression of the inner soul. It is this change that is called the inner conversion. There can be no conversion without the awakening of the psychic being.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: The Psychic Being and Its Role in Sadhana*](http://incarnateword.in/cwsa/30/the-psychic-being-and-its-role-in-sadhana#p28)</small>",
+
+"> The spiritual conversion begins when the soul begins to insist on a deeper life and is complete when the psychic becomes the basis or the leader of the consciousness and mind and vital and body are led by it and obey it.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: The Emergence or Coming Forward of the Psychic*](http://incarnateword.in/cwsa/30/the-emergence-or-coming-forward-of-the-psychic#p45)</small>"
+  ],
   image_url: "amaryllis.jpg",
   thumbnail_url: "amaryllis_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -11631,6 +16286,16 @@ garden_balsam_06 = {
   url: "https://www.flickr.com/photos/szotyi/1496617824"
 }
 
+garden_balsam_07 = {
+  description: "Small to medium-sized all bicoloured single or double flowers except pink and red, with irregular wavy petals and a long thin spur; borne singly in the leaf axils on very thin stalks. A bushy garden annual with succulent stems and serrate leaves.",
+  colour: "Bicoloured",
+  significance: "Manifold Generosity",
+  comment: "All in nature is spontaneously generous.",
+  image_url: "garden_balsam_bicoloured_yellow.jpg",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Balsam_flower_2.JPG"
+}
+
 garden_balsam = Flower.create!(
   name: "Garden Balsam",
   other_names: "Rose Balsam",
@@ -11638,6 +16303,12 @@ garden_balsam = Flower.create!(
   family: "Balsaminaceae",
   place: "Native to southern Asia in India and Burma; cultivated in tropical and subtropical regions",
   climate: "Tropical and subtropical",
+  quotes: [
+"> I was holding one of these flowers [Integral Generosity] in my hand when I saw Z, and I explained to him what I meant by 'integral generosity.' The effect of the ego, I told him, is to shrivel the being. It's the cause of aging, it dries you up—the being shrivels under it like a withering flower.
+> I know that at a certain moment I was making the distinction between the two states, between the person—the individual, personal being—turning towards the Lord, imploring Him to reveal His Will, and then this experience of becoming—by extending oneself, by opening, by enlarging, by merging into the creation—of BECOMING the Will of the Lord, the Supreme's Will.
+> 
+> <small>The Mother, [*Mother's Agenda: October 2, 1961*](http://incarnateword.in/agenda/02/october-2-1961#p1)</small>"
+  ],
   image_url: "garden_balsam.jpg",
   thumbnail_url: "garden_balsam_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -11648,7 +16319,8 @@ garden_balsam = Flower.create!(
     garden_balsam_03,
     garden_balsam_04,
     garden_balsam_05,
-    garden_balsam_06
+    garden_balsam_06,
+    garden_balsam_07
   ]
 )
 
@@ -11660,6 +16332,31 @@ morning_glory_01 = {
   colour: "White and shades of red, pink, purple, and blue",
   significance: "Nature makes an Offering of Her Beauty",
   comment: "It is a spontaneous and effortless offering.",
+  quotes: [
+"> The world's senseless beauty mirrors God's delight.
+> 
+> That rapture's smile is secret everywhere;
+> It flows in the wind's breath, in the tree's sap,
+> Its hued magnificence blooms in leaves and flowers.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Kingdoms of the Little Life*](http://incarnateword.in/cwsa/33/the-kingdoms-of-the-little-life#p64-p65)</small>",
+
+"> Flowers are the moment's representations of things that are in themselves eternal.
+> 
+> <small>Sri Aurobindo, [*Letters on Himself and the Ashram: Sri Aurobindo's Compassion*](http://incarnateword.in/cwsa/35/sri-aurobindos-compassion#p2)</small>",
+
+"> In trees and plants, it is the need to grow in order to obtain more light, more air, more space; in flowers, it is the offering of their beauty and fragrance in a loving efflorescence.
+> 
+> <small>The Mother, [*On Education: The Four Austerities and the Four Liberations*](http://incarnateword.in/cwm/12/the-four-austerities-and-the-four-liberations#p72)</small>",
+
+"> When the sun sets and all becomes silent, sit down for a moment and put yourself into communion with Nature: you will feel rising from the earth, from below the roots of the trees and mounting upward and coursing through their fibres up to the highest outstretching branches, the aspiration of an intense love and longing,—a longing for something that brings light and gives happiness, for the light that is gone and they wish to have back again. There is a yearning so pure and intense that if you can feel the movement in the trees, your own being too will go up in an ardent prayer for the peace and light and love that are unmanifested here.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 2 June 1929*](http://incarnateword.in/cwm/03/2-june-1929#p7)</small>",
+
+"> The trees rise towards the sky… Beautiful symbol for nature's aspiration towards the Light.
+> 
+> <small>The Mother</small>"
+  ],
   image_url: "morning_glory_mix.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Morning_glory.jpg"
@@ -11669,8 +16366,17 @@ morning_glory_02 = {
   bot_name: "Ipomoea tricolor 'Pearly Gates'",
   description: "Large, radiant, translucent white funnelform flower with a cream yellow throat. An annual climber.",
   colour: "White, cream yellow",
-  significance: "Integral Unconditional Offering",
+  significance: "Unconditional Integral Offering",
   comment: "The joy of self-offering without asking anything in return.",
+  quotes: [
+"> The Divine gives itself to those who give themselves without reserve and in all their parts to the Divine. For them the calm, the light, the power, the bliss, the freedom, the wideness, the heights of knowledge, the seas of Ananda.
+> 
+> <small>Sri Aurobindo, [*Letters on Himself and the Ashram: Darshan Messages*](http://incarnateword.in/cwsa/35/darshan-messages#p1)</small>",
+
+"> [The soul's inherent aspiration] is what comes up when there is the sheer self-giving, when \"I seek you for this, I seek you for that\" changes to a sheer \"I seek you for you.\" It is that marvellous and ineffable absolute in the Divine that Krishnaprem means when he says, \"Not knowledge nor this nor that, but Krishna.\" The pull of that is indeed a categorical imperative, the self in us drawn to the Divine because of the imperative call of its greater Self, the soul ineffably drawn towards the object of its adoration, because it cannot be otherwise, because it is it and He is He. That is all about it.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Seeking the Divine*](http://incarnateword.in/cwsa/29/seeking-the-divine#p13)</small>"
+  ],
   image_url: "morning_glory_pearly_gates.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Ipomoea_tricolor46978264.jpg"
@@ -11682,6 +16388,23 @@ morning_glory_03 = {
   colour: "Blue, white",
   significance: "Artistic Sensitivity",
   comment: "A powerful aid in fighting ugliness.",
+  quotes: [
+"> Art is discovery and revelation of Beauty…
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Art for Art's Sake*](http://incarnateword.in/cwsa/27/art-for-arts-sake#p3)</small>",
+
+"> Art is nothing less in its fundamental truth than the aspect of beauty of the Divine manifestation.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 28 July 1929*](http://incarnateword.in/cwm/03/28-july-1929#p19)</small>",
+
+"> If you want art to be the true and highest art, it must be the expression of a divine world brought down into this material world.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 28 July 1929*](http://incarnateword.in/cwm/03/28-july-1929#p4)</small>",
+
+"> In a sense, spirituality is the highest art, the art of life; for it aims at creating a life of beauty pure in line, faultless in rhythm, replete with strength, illumined with light and vibrant with delight.
+> 
+> <small>Sri Aurobindo</small>"
+  ],
   image_url: "morning_glory_blue_white.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Morning_glory_6b.jpg"
@@ -11693,6 +16416,51 @@ morning_glory_04 = {
   colour: "Bright magenta",
   significance: "Joy of Beauty",
   comment: "Beauty is the joyous offering of Nature.",
+  quotes: [
+"> Let beauty be your constant ideal.
+> 
+> The beauty of the soul
+> 
+> The beauty of sentiments
+> 
+> The beauty of thoughts
+> 
+> The beauty of the action
+> 
+> The beauty in the work
+> 
+> so that nothing comes out of your hands which is not an expression of pure and harmonious beauty.
+> 
+> And the Divine Help shall always be with you.
+> 
+> <small>The Mother, [*On Education: Curriculum*](http://incarnateword.in/cwm/12/curriculum#p215-p222)</small>",
+
+"> In the world of forms a violation of Beauty is as great a fault as a violation of Truth in the world of ideas. For Beauty is the worship Nature offers to the supreme Master of the universe; Beauty is the divine language in forms. And a consciousness of the Divine which is not translated externally by an understanding and expression of Beauty would be an incomplete consciousness.
+> 
+> <small>The Mother, [*Prayers and Meditations: January 29, 1917*](http://incarnateword.in/cwm/01/january-29-1917#p1)</small>",
+
+"> Delight is the soul of existence, beauty the intense impression, the concentrated form of delight.
+> 
+> <small>Sri Aurobindo, [*The Future Poetry: The Soul of Poetic Delight and Beauty*](http://incarnateword.in/cwsa/26/the-soul-of-poetic-delight-and-beauty#p1)</small>",
+
+"> Beauty is Ananda taking form—but the form need not be a physical shape. One speaks of a beautiful thought, a beautiful act, a beautiful soul. What we speak of as beauty is Ananda in manifestation.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Art, Beauty and Ananda*](http://incarnateword.in/cwsa/27/art-beauty-and-ananda#p3)</small>",
+
+"> Beauty is the special divine Manifestation in the physical as Truth is in the mind, Love in the heart, Power in the vital. Supramental beauty is the highest divine beauty manifesting in Matter.
+> 
+> <small>Sri Aurobindo, [*Letters on Poetry and Art: Beauty*](http://incarnateword.in/cwsa/27/beauty#p4)</small>",
+
+"> The one rule of the gnostic life would be the self-expression of the Spirit, the will of the Divine Being; that will, that self-expression could manifest through extreme simplicity or through extreme complexity and opulence or in their natural balance,—for beauty and plenitude, a hidden sweetness and laughter in things, a sunshine and gladness of life are also powers and expressions of the Spirit.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Divine Life*](http://incarnateword.in/cwsa/22/the-divine-life#p53)</small>",
+
+"> Beauty is his footprint showing us where he has passed,
+> Love is his heart-beats' rhythm in mortal breasts,
+> Happiness the smile on his adorable face.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Kingdom of Subtle Matter*](http://incarnateword.in/cwsa/33/the-kingdom-of-subtle-matter#p75)</small>"
+  ],
   image_url: "morning_glory_scarlet_o_hara.jpg",
   source: "World Seed Supply",
   url: "http://www.worldseedsupply.com/product/ipomoea-nil-scarlet-ohara-morning-glory-seeds/"
@@ -11747,6 +16515,19 @@ jungle_geranium_01 = {
   colour: "Light yellow",
   significance: "Mental Aspiration",
   comment: "Its expression is clear, precise, and very reasonable.",
+  quotes: [
+"> There is no deep meaning [*of aspiration*]—the meaning is plain. It is the call of the being for higher things—for the Divine, for all that belongs to the higher or Divine Consciousness.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Aspiration*](http://incarnateword.in/cwsa/29/aspiration#p10)</small>",
+
+"> This taste for supreme adventure is aspiration–an aspiration which takes hold of you completely and flings you, without calculation and without reserve and without a possibility of withdrawal, into the great adventure of the divine discovery, the great adventure of the divine meeting, the yet greater adventure of the divine Realisation.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 25 January 1956*](http://incarnateword.in/cwm/08/25-january-1956#p58)</small>",
+
+"> Aspiration is like an arrow, like this (*gesture*). So you aspire, want *very* earnestly to understand, know, enter into the truth. Yes? And then with that aspiration you do this (*gesture*). Your aspiration rises, rises, rises, rises straight up, very strong and then it strikes against a kind of… how to put it?… lid which is there, hard like iron and extremely thick, and it does not pass through. And then you say, \"See, what's the use of aspiring? It brings nothing at all. I meet with something hard and cannot pass!\" But you know about the drop of water which falls on the rock, it ends up by making a chasm: it cuts the rock from top to bottom. Your aspiration is a drop of water which, instead of falling, rises. So, by dint of rising, it beats, beats, beats, and one day it makes a hole, by dint of rising; and when it makes the hole suddenly it springs out from this lid and enters an immensity of light, and you say, \"Ah, now I understand.\"
+> 
+> <small>The Mother, [*Questions and Answers 1955: 13 July 1955*](http://incarnateword.in/cwm/07/13-july-1955#p25)</small>"
+  ],
   image_url: "jungle_geranium_yellow.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Ixora_coccinea,_yellow.jpg"
@@ -11757,6 +16538,11 @@ jungle_geranium_02 = {
   colour: "Deep red",
   significance: "Aspiration in the Physical",
   comment: "Manifold, simple, and joyful.",
+  quotes: [
+"> Have you never watched a forest with all its countless trees and plants simply struggling to catch the light—twisting and trying in a hundred possible ways just to be in the sun? That is precisely the feeling of aspiration in the physical—the urge, the movement, the push towards the light. Plants have more of it in their physical being than men. Their whole life is a worship of light. Light is of course the material symbol of the Divine, and the sun represents, under material conditions, the Supreme Consciousness. The plants have felt it quite distinctly in their own simple, blind way. Their aspiration is intense, if you know how to become aware of it.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Aspiration in Plants*](http://incarnateword.in/cwm/03/aspiration-in-plants#p1)</small>"
+  ],
   image_url: "jungle_geranium_red.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:%E0%B4%9A%E0%B5%86%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%82.jpg"
@@ -11822,6 +16608,27 @@ jasmine = Flower.create!(
   size: "Small",
   place: "Native to tropical and warm temperate regions of the Eurasia, Australasia, and Oceania",
   climate: "Tropical to warm temperate",
+  quotes: [
+"> This is purity, to accept no other influence but only the influence of the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Purity*](http://incarnateword.in/cwm/14/purity#p2)</small>",
+
+"> One is truly perfectly pure only when the whole being, in all its elements and all its movements, adheres fully, exclusively, to the divine Will. This indeed is total purity. It does not depend on any moral or social law, any mental convention of any kind. It depends exclusively on this: when all the elements and all the movements of the being adhere exclusively and totally to the divine Will.
+> 
+> <small>The Mother, [*Questions and Answers 1954: 22 December 1954*](http://incarnateword.in/cwm/06/22-december-1954#p18)</small>",
+
+"> What I call purity, the true purity, is not all those things morality teaches: it is non-ego.
+> 
+> There must be nothing but Him.
+> 
+> Him, not only because we have given Him everything and consecrated ourselves totally to Him (that is not enough), but Him because He has taken total possession of the human instrument.
+> 
+> <small>The Mother, [*Mother's Agenda: May 21, 1960*](http://incarnateword.in/agenda/01/may-21-1960#p1-p3)</small>",
+
+"> There is a force of purity, not the purity of the moralist, but an essential purity of spirit, in the very substance of the being.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: Sex*](http://incarnateword.in/cwsa/31/sex#p90)</small>"
+  ],
   image_url: "jasmine.jpg",
   thumbnail_url: "jasmine_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -11892,6 +16699,15 @@ crape_myrtle = Flower.create!(
   family: "Lythraceae",
   size: "Medium-sized",
   place: "Native to China, Korea, Japan, and the Indian Subcontinent",
+  quotes: [
+"> There are relations, personal, intimate as life itself, sweet as love, encompassing like the sky, deep like deep waters. A Friend walks at our side; a Lover is with us in our heart's secrecy; a Master of the Work and the Ordeal points our way; a Creator of things uses us as his instrument; we are in the arms of the eternal Mother.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Master of the Work*](http://incarnateword.in/cwsa/23/the-master-of-the-work#p28)</small>",
+
+"> The more you give yourself to the Divine the more He is with you, totally, constantly, at every minute, in all your thoughts, all your needs, and that there's no aspiration which does not receive an immediate answer; and you have the sense of a complete, constant intimacy, of a total nearness. It is as though you carried… as though the Divine were all the time with you; you walk and He walks with you, you sleep and He sleeps with you, you eat and He eats with you, you think and He thinks with you, you love and He is the love you have. But for this one must give himself entirely, totally, exclusively…
+> 
+> <small>The Mother, [*Questions and Answers 1955: 20 July 1955*](http://incarnateword.in/cwm/07/20-july-1955#p12)</small>"
+  ],
   climate: "Tropical to warm temperate",
   image_url: "crape_myrtle.jpg",
   thumbnail_url: "crape_myrtle_thumbnail.jpg",
@@ -11933,6 +16749,19 @@ shrub_verbena_03 = {
   colour: "Yellow",
   significance: "Light in the Cells",
   comment: "The first step towards purity in the cells.",
+  quotes: [
+"> There comes a moment when the body itself finds that there is *nothing in the world* which is so worth living for as this transformation; that there is nothing which can have as great an interest as this passionate interest of transformation. It is as though all the cells of the body were athirst for that Light which wants to manifest; they cry out for it, they find an intense joy in it and are *sure* of the Victory.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 25 September 1957*](http://incarnateword.in/cwm/09/25-september-1957#p8)</small>",
+
+"> The cells of the body thirst for the Divine Consciousness and when they are brought into contact with It their aspiration becomes very intense.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 21 October 1967*](http://incarnateword.in/cwm/16/21-october-1967#p2)</small>",
+
+"> At the centre of each cell lies the Divine Consciousness. By aspiration and repeated self-giving, the cells must be made transparent.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 18 March 1967*](http://incarnateword.in/cwm/16/18-march-1967#p2)</small>"
+  ],
   image_url: "shrub_verbena_yellow.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Golden_flower_hydrangea.jpg"
@@ -12014,6 +16843,19 @@ turks_cap_01 = {
   colour: "Bright red",
   significance: "Divine Help",
   comment: "Modest in appearance, powerful in action.",
+  quotes: [
+"> Give yourself to the Divine absolutely, and the Divine Help will always be with you.
+> 
+> <small>The Mother, [*More Answers from the Mother: 4 January 1972*](http://incarnateword.in/cwm/17/4-january-1972#p2)</small>",
+
+"> The help is always there.
+> 
+> It is you who must keep your receptivity living.
+> 
+> The Divine help is much vaster than what any human being is able to receive.
+> 
+> <small>The Mother, [*Words of the Mother - II: The Divine Help*](http://incarnateword.in/cwm/14/the-divine-help#p7-p9)</small>"
+  ],
   image_url: "turks_cap_bright_red.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:%E0%B4%9A%E0%B5%86%E0%B4%AE%E0%B5%8D%E0%B4%AA%E0%B4%B0%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF5.JPG"
@@ -12025,6 +16867,11 @@ turks_cap_02 = {
   colour: "Red",
   significance: "Divine Solicitude",
   comment: "Always active, even when we do not perceive it.",
+  quotes: [
+"> Divine solicitude (in the sense of solicitude for others, a tender and affectionate and watchful care for their need and their good), the care of the Divine for the sadhaka.
+> 
+> <small>Sri Aurobindo</small>"
+  ],
   image_url: "turks_cap_red.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Malvaviscus_arboreus_stamens_and_pistil_2.jpg"
@@ -12091,6 +16938,19 @@ mango = Flower.create!(
   size: "Tiny",
   place: "Found in the wild in India; cultivated varieties have been introduced to other warm regions of the world",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The Divine reveals himself in the world around us when we look upon [it] with a spiritual desire of delight that seeks him in all things.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - II: The Ananda Brahman*](http://incarnateword.in/cwsa/24/the-ananda-brahman#p9)</small>",
+
+"> At these blessed hours [of dawn] all earth sings a hymn of gladness, the grasses shudder with pleasure, the air is vibrant with light, the trees lift towards heaven their most ardent prayer, the chant of the birds becomes a canticle, the waves of the sea billow with love, the smile of children tells of the infinite and the souls of men appear in their eyes.
+> 
+> <small>The Mother, [*Prayers and Meditations: March 31, 1917*](http://incarnateword.in/cwm/01/march-31-1917#p4)</small>",
+
+"> The whole creation speaks of the Divine to him who knows how to hear within his heart.
+> 
+> <small>The Mother, [*Words of the Mother - III: The Divine Working in the Universe*](http://incarnateword.in/cwm/15/the-divine-working-in-the-universe#p33)</small>"
+  ],
   image_url: "mango.jpg",
   thumbnail_url: "mango_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -12131,6 +16991,19 @@ spanish_cherry = Flower.create!(
   size: "Small",
   place: "Native to India, Sri Lanka, the Andaman Islands, and the Indochinese peninsula; found in tropical forests in South Asia, Southeast Asia, and northern Australia",
   climate: "Mostly tropical",
+  quotes: [
+"> Patience: the capacity to wait steadily for the Realisation to come.
+> 
+> <small>The Mother, [*Words of the Mother - II: Patience*](http://incarnateword.in/cwm/14/patience#p2)</small>",
+
+"> To know how to wait is to put Time on your side.
+> 
+> <small>The Mother, [*Words of the Mother - II: Patience*](http://incarnateword.in/cwm/14/patience#p14)</small>",
+
+"> By having patience under all kinds of pressure you lay the foundations of peace.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Patience and Perseverance*](http://incarnateword.in/cwsa/29/patience-and-perseverance#p13)</small>"
+  ],
   image_url: "spanish_cherry.jpg",
   thumbnail_url: "spanish_cherry_thumbnail.jpg",
   source: "MarveilleueChiang-May",
@@ -12212,6 +17085,46 @@ sacred_lotus_01 = {
   colour: "White, golden, yellow",
   significance: "Aditi - the Divine Consciousness",
   comment: "Pure, immaculate, gloriously powerful.",
+  quotes: [
+"> Aditi - the Mother. Aditi is the indivisible consciousness force and Ananda of the Supreme; The Mother, its living dynamis, the supreme Love, Wisdom, Power.
+> 
+> <small>Sri Aurobindo, [*Record of Yoga - II: Diagrams, c. January 1927*](http://incarnateword.in/cwsa/11/diagrams-c-january-1927#p3)</small>",
+
+"> According to the Truth of things,… the worlds are brought forth from the divine consciousness, from Aditi, goddess of infinite being, mother of the gods, the indivisible consciousness, the Light that cannot be impaired…
+> 
+> <small>Sri Aurobindo, [*The Secret of the Veda: To Bhaga Savitri, the Enjoyer*](http://incarnateword.in/cwsa/15/to-bhaga-savitri-the-enjoyer#p21)</small>",
+
+"> The Divine Mother is the Consciousness and Force of the Divine—which is the Mother of all things.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Consciousness and Force of the Divine*](http://incarnateword.in/cwsa/32/the-consciousness-and-force-of-the-divine#p2)</small>",
+
+"> The One whom we adore as the Mother is the divine Conscious Force that dominates all existence…
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - VI*](http://incarnateword.in/cwsa/32/the-mother-vi#p2)</small>",
+
+"> All is created by the Supreme Goddess, the Supreme and Original Mahashakti, all proceeds from her, all lives by her, all lives in her, even as she lives in all. All wisdom and knowledge are her wisdom and knowledge; all power is her power, all will and force her will and force, all action is her action, all movement her movement. All beings are portions of her power of existence.
+> 
+> <small>Sri Aurobindo, [*Record of Yoga - II: Undated Notes, c. December 1926*](http://incarnateword.in/cwsa/11/undated-notes-c-december-1926#p20)</small>",
+
+"> At the head she stands of birth and toil and fate,
+> In their slow round the cycles turn to her call;
+> Alone her hands can change Time's dragon base.
+> 
+> Hers is the mystery the Night conceals;
+> The spirit's alchemist energy is hers;
+> She is the golden bridge, the wonderful fire.
+> 
+> The luminous heart of the Unknown is she,
+> A power of silence in the depths of God;
+> She is the Force, the inevitable Word,
+> The magnet of our difficult ascent,
+> The Sun from which we kindle all our suns,
+> The Light that leans from the unrealised Vasts,
+> The joy that beckons from the impossible,
+> The Might of all that never yet came down.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Adoration of the Divine Mother*](http://incarnateword.in/cwsa/33/the-adoration-of-the-divine-mother#p42-p44)</small>"
+  ],
   image_url: "sacred_lotus_white.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:HanaNoHasu6.jpg"
@@ -12222,6 +17135,46 @@ sacred_lotus_02 = {
   colour: "Pink, golden, yellow",
   significance: "Avatar - the Supreme Manifested in a Body upon Earth",
   comment: "The pink lotus is the flower of Sri Aurobindo.",
+  quotes: [
+"> The word Avatara means a descent; it is a coming down of the Divine below the line which divides the divine from the human world or status.
+>
+> <small>Sri Aurobindo, [*The Possibility and Purpose of Avatarhood*](http://incarnateword.in/cwsa/19/the-possibility-and-purpose-of-avatarhood#fnref2)</small>",
+
+"> An Avatar is an emanation of the Supreme Lord who assumes a human body on earth.
+> 
+> <small>The Mother, [*On Thoughts and Aphorisms: Aphorism - 38*](http://incarnateword.in/cwm/10/aphorism-38#p3)</small>",
+
+"> An Avatar, roughly speaking, is one who is conscious of the presence and power of the Divine born in him or descended into him and governing from within his will and life and action; he feels identified inwardly with this divine power and presence.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Meaning and Purpose of Avatarhood*](http://incarnateword.in/cwsa/28/the-meaning-and-purpose-of-avatarhood#p38)</small>",
+
+"> The reason for which the Avatars descend is to raise up man again and again, developing in him a higher and ever higher humanity, a greater and yet greater development of divine being, bringing more and more of heaven again and again upon the earth until our toil is done, our work accomplished and Sachchidananda fulfilled in all even here, even in this material universe.
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: The Yoga and Its Objects*](http://incarnateword.in/cwsa/13/the-yoga-and-its-objects#p45)</small>",
+
+"> The Avatar comes to reveal the divine nature in man above this lower nature and to show what are the divine works, free, unegoistic, disinterested, impersonal, universal, full of the divine light, the divine power and the divine love. He comes as the divine personality which shall fill the consciousness of the human being and replace the limited egoistic personality, so that it shall be liberated out of ego into infinity and universality, out of birth into immortality. He comes as the divine power and love which calls men to itself, so that they may take refuge in that and no longer in the insufficiency of their human wills and the strife of their human fear, wrath and passion, and liberated from all this unquiet and suffering may live in the calm and bliss of the Divine.
+> 
+> <small>Sri Aurobindo, [*Essays on the Gita: The Divine Birth and Divine Works*](http://incarnateword.in/cwsa/19/the-divine-birth-and-divine-works#p11)</small>",
+
+"> Surely for the earth consciousness it is so [*the very fact that the Divine manifests himself is the greatest of all splendours*]. Consider the obscurity here and what it would be if the Divine did not directly intervene and the Light of Lights did not break out of the obscurity—for that is the meaning of the manifestation.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Meaning and Purpose of Avatarhood*](http://incarnateword.in/cwsa/28/the-meaning-and-purpose-of-avatarhood#p1)</small>",
+
+"> His was a spirit that stooped from larger spheres
+> Into our province of ephemeral sight,
+> A colonist from immortality.
+> 
+> A pointing beam on earth's uncertain roads,
+> His birth held up a symbol and a sign;
+> His human self like a translucent cloak
+> Covered the All-Wise who leads the unseeing world.
+> 
+> Affiliated to cosmic Space and Time
+> And paying here God's debt to earth and man
+> A greater sonship was his divine right.
+> 
+> <small>Sri Aurobindo, [*Savitri - I: The Yoga of the King: The Yoga of the Soul's Release*](http://incarnateword.in/cwsa/33/the-yoga-of-the-king-the-yoga-of-the-souls-release#p3-p5)</small>"
+  ],
   image_url: "sacred_lotus_pink.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Nelumno_nucifera_open_flower_-_botanic_garden_adelaide_edit3.jpg"
@@ -12235,6 +17188,16 @@ sacred_lotus = Flower.create!(
   size: "Very large",
   place: "Native to Tropical Asia and Queensland, Australia",
   climate: "Tropical",
+  quotes: [
+"> The red lotus is the Avatar. The white lotus is the Divine Consciousness.
+> 
+> <small>The Mother</small>",
+
+"> The red lotus represents Sri Aurobindo, the white one represents me.
+> In a general way the lotus is the flower of the Divine Wisdom, whatever its colour. But red signifies the Avatar, the Divine incarnated in matter, and white signifies the Divine Consciousness manifested upon earth.
+> 
+> <small>The Mother</small>"
+  ],
   image_url: "sacred_lotus.jpg",
   thumbnail_url: "sacred_lotus_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -12250,7 +17213,7 @@ sacred_lotus = Flower.create!(
 oleander_01 = {
   description: "Sweetly fragrant single salverform flower with five separated lobes that are pink fading to pale pink on the edges, and twisted, suggesting a pinwheel, and a light yellow center with a delicate fringed corona; borne in loose cymes. A prolific flowering shrub with stiff lanceolate leaves.",
   colour: "Pink to pale pink, light yellow",
-  significance: "Sweetness of Thought turned exclusively towards the Divine",
+  significance: "Sweetness of Thought turned Exclusively towards the Divine",
   comment: "Lovely, joyful, sweet, and calm, sheltered from all conflicts.",
   image_url: "oleander_pink_yellow.jpg",
   source: "Wikimedia Commons",
@@ -12282,6 +17245,11 @@ oleander_04 = {
   colour: "White",
   significance: "Quiet Mind",
   comment: "The best way to learn.",
+  quotes: [
+"> The first step is a quiet mind—silence is a farther step, but quietude must be there, and by a quiet mind I mean a mental consciousness within which sees thoughts arrive to it and move about, but does not itself feel that it is thinking or identify itself with the thoughts or call them its own. Thoughts, mental movements may pass through it as wayfarers appear and pass from elsewhere through a silent country—the quiet mind observes them or does not care to observe them but in either case does not become active or lose its quietude.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Quiet and Calm*](http://incarnateword.in/cwsa/29/quiet-and-calm#p36)</small>"
+  ],
   image_url: "oleander_white.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:NERIUM_OLEANDER_-_AGUDA_-_IB-119_(Baladre).JPG"
@@ -12430,6 +17398,19 @@ water_lily = Flower.create!(
   petals: "Numerous",
   place: "Found in many different regions of the world",
   climate: "Found across temperate, subtropical, and tropical climates",
+  quotes: [
+"> All wealth belongs to the Divine and those who hold it are trustees, not possessors. It is with them today, tomorrow it may be elsewhere. All depends on the way they discharge their trust while it is with them, in what spirit, with what consciousness in their use of it, to what purpose.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p3)</small>",
+
+"> Most spiritual disciplines insist on a complete self-control, detachment and renunciation of all bondage to wealth and of all personal and egoistic desire for its possession. Some even put a ban on money and riches and proclaim poverty and bareness of life as the only spiritual condition. But this is an error; it leaves the power in the hands of the hostile forces. To reconquer it for the Divine to whom it belongs and use it divinely for the divine life is the supramental way for the Sadhaka.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p1)</small>",
+
+"> The ideal Sadhaka in this kind is one who if required to live poorly can so live and no sense of want will affect him or interfere with the full inner play of the divine consciousness, and if he is required to live richly, can so live and never for a moment fall into desire or attachment to his wealth or to the things that he uses or servitude to self-indulgence or a weak bondage to the habits that the possession of riches creates. The divine Will is all for him and the divine Ananda.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: The Mother - IV*](http://incarnateword.in/cwsa/32/the-mother-iv#p7)</small>"
+  ],
   image_url: "water_lily.jpg",
   thumbnail_url: "water_lily_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -12453,6 +17434,21 @@ common_basil_01 = {
   colour: "White, pink",
   significance: "Discipline",
   comment: "Sets the example and hopes to be followed.",
+  quotes: [
+"> Without character, without some kind of high or strong discipline there is no enduring power of life.
+> 
+> <small>Sri Aurobindo, [*The Human Cycle: Aesthetic and Ethical Culture*](http://incarnateword.in/cwsa/25/aesthetic-and-ethical-culture#p8)</small>",
+
+"> Discipline is indispensable to progress. It is only when one imposes a rigorous and enlightened discipline on oneself that one can be free from the discipline of others.
+> 
+> The supreme discipline is integral surrender to the Divine and to allow nothing else either in one's feelings or in one's activities. Nothing should ever be omitted from this surrender—that is the supreme and most rigorous discipline.
+> 
+> <small>The Mother, [*On Education: Correspondence*](http://incarnateword.in/cwm/12/correspondence#p346-p347)</small>",
+
+"> It can be said that all discipline whatsoever, if it is followed strictly, sincerely, deliberately, is of considerable help, for it makes the earthly life reach its goal more rapidly and prepares it to receive the new life. To discipline oneself is to hasten the arrival of this new life and the contact with the supramental reality.
+> 
+> <small>The Mother, [*Words of the Mother - II: Tapasya*](http://incarnateword.in/cwm/14/tapasya#p12)</small>"
+  ],
   image_url: "common_basil_white_pink.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Basilic,_jardins_du_mus%C3%A9um_de_Toulouse.JPG"
@@ -12463,6 +17459,11 @@ common_basil_02 = {
   colour: "White",
   significance: "Joy of Union with the Divine",
   comment: "Abundantly scented, it fills the heart with joy.",
+  quotes: [
+"> To see nothing but the Divine, to be at every moment in union with him, to love him in all creatures and have the delight of him in all things is the whole condition of [the God-lover's] spiritual existence… The joy of heaven and the joy of earth are only a small shadow of his possessions; for as he grows into the Divine, the Divine too flows out upon him with all the light, power and joy of an infinite existence.
+> 
+> <small>Sri Aurobindo, [*Essays on the Gita: Works, Devotion and Knowledge*](http://incarnateword.in/cwsa/19/works-devotion-and-knowledge#p10)</small>"
+  ],
   image_url: "common_basil_white.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:2008_03_15_-_Ocimum_basilicum_6.JPG"
@@ -12493,6 +17494,25 @@ wooden_rose_01 = {
   colour: "White, light greenish-yellow, light green",
   significance: "Integral Gratitude",
   comment: "The whole being offers itself to the Lord in absolute trust.",
+  quotes: [
+"> There is nothing which gives you a joy equal to that of gratitude. One hears a bird sing, sees a lovely flower, looks at a little child, observes an act of generosity, reads a beautiful sentence, looks at the setting sun, no matter what, suddenly this comes upon you, this kind of emotion—indeed so deep, so intense—that the world manifests the Divine, that there is something behind the world which is the Divine.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 25 January 1956*](http://incarnateword.in/cwm/08/25-january-1956#p56)</small>",
+
+"> And yet, of all movements, the one that gives perhaps the most joy—an unalloyed joy, untainted by that egoism—is spontaneous gratitude.
+> 
+> It is something very special. It isn't love, it isn't self-offering… It's a very FULL joy. Very full.
+> 
+> It is a very special vibration unlike anything other than itself. It is something that widens you, that fills you—that is so fervent!
+> 
+> It is certainly, of all the movements within the reach of human consciousness, the one that draws you the most out of your ego…
+>
+> When you can enter that vibration in its purity, you realize immediately that it has the same quality as the vibration of Love: it is directionless…
+>
+> Ultimately, gratitude is only a very slightly colored hue of the essential Vibration of Love.
+> 
+> <small>The Mother, [*Mother's Agenda: December 21, 1963*](http://incarnateword.in/agenda/04/december-21-1963#p33-p36)</small>"
+  ],
   image_url: "wooden_rose_white.jpg",
   source: "Anand Kumar Reddy, Medicinal Plants",
   url: "http://medplants.blogspot.in/search/label/Operculina%20turpethum"
@@ -12503,6 +17523,19 @@ wooden_rose_02 = {
   colour: "Light brown",
   significance: "Call of the Divine Grace",
   comment: "Not loud, but persistent and very perceptible to those who know how to listen.",
+  quotes: [
+"> Grace is something spontaneous which wells out from the Divine Consciousness as a free flower of its being.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Bhakti Yoga and Vaishnavism*](http://incarnateword.in/cwsa/29/bhakti-yoga-and-vaishnavism#p24)</small>",
+
+"> No matter how great your faith and trust in the divine Grace, no matter how great your capacity to see it at work in all circumstances, at every moment, at every point in life, you will never succeed in understanding the marvellous immensity of Its Action, and the precision, the exactitude with which this Action is accomplished; you will never be able to grasp to what extent the Grace does everything, is behind everything, organises everything, conducts everything, so that the march forward to the divine realisation may be as swift, as complete, as total and harmonious as possible, considering the circumstances of the world.
+> 
+> As soon as you are in contact with It, there is not a second in time, not a point in space, which does not show you *dazzlingly* this perpetual work of the Grace, this constant intervention of the Grace.
+> 
+> And once you have seen this, you feel you are never equal to it, for you should never forget it, never have any fears, any anguish, any regrets, any recoils… or even suffering. If one were in union with this Grace, if one saw It everywhere, one would begin living a life of exultation, of all-power, of infinite happiness.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 1 August 1956*](http://incarnateword.in/cwm/08/1-august-1956#p49-p51)</small>"
+  ],
   image_url: "wooden_rose_brown.jpg",
   source: "Protist Information Server",
   url: "http://protist.i.hosei.ac.jp/asagao/yoneda_db/j/PCD2522/htmls/10.html"
@@ -12616,6 +17649,23 @@ star_cluster = Flower.create!(
   size: "Small",
   place: "Native to much of Africa as well as Yemen",
   climate: "Mostly tropical",
+  quotes: [
+"> Light is not knowledge but the illumination that comes from above and liberates the being from obscurity and darkness.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: Light*](http://incarnateword.in/cwsa/30/light#p14)</small>",
+
+"> Light is primarily a spiritual manifestation of the Divine Reality illuminative and creative; material light is a subsequent representation or conversion of it into Matter for the purposes of the material Energy.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Ascent towards Supermind*](http://incarnateword.in/cwsa/22/the-ascent-towards-supermind#p26)</small>",
+
+"> Our sense by its incapacity has invented darkness. In truth there is nothing but Light, only it is a power of light either above or below our poor human vision's limited range.
+> 
+> For do not imagine that light is created by the Suns. The Suns are only physical concentrations of Light, but the splendour they concentrate for us is self-born and everywhere.
+> 
+> God is everywhere and wherever God is, there is Light.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: God: The One Reality*](http://incarnateword.in/cwsa/12/god-the-one-reality#p66-p68)</small>"
+  ],
   image_url: "star_cluster.jpg",
   thumbnail_url: "star_cluster_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -12932,6 +17982,11 @@ annual_phlox = Flower.create!(
   size: "Small",
   place: "Native to Texas; widely distributed in the southeastern United States",
   climate: "Mostly tropical",
+  quotes: [
+"> Yoga, says the Gita, is skill in works, and by this phrase the ancient Scripture meant that the transformation of mind and being to which it gave the name of Yoga brought with it a perfect inner state and faculty out of which the right principle of action and the right spiritual and divine result of works emerged naturally like a tree out of its seed.
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Yoga and Skill in Works*](http://incarnateword.in/cwsa/13/yoga-and-skill-in-works#p3)</small>"
+  ],
   image_url: "annual_phlox.jpg",
   thumbnail_url: "annual_phlox_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -12955,8 +18010,58 @@ annual_phlox = Flower.create!(
 cape_leadwort_01 = {
   description: "Small, soft, pale lavender blue salverform flower with a very thin long corolla tube and a limb divided into five widely separated lobes; borne in terminal clusters. An evergreen shrub with semi-scandent stems.",
   colour: "Pale lavender blue",
-  significance: "Krishna’s Ananda",
+  significance: "Krishna's Ananda",
   comment: "Manifold, abundant, and so full of charm",
+  quotes: [
+"> Krishna is the Eternal's Personality of Ananda; because [of] him all creation is possible, because of his play, because of his delight, because of his sweetness.
+> 
+> <small>Sri Aurobindo, [*Essays Divine and Human: Nature: The World-Manifestation*](http://incarnateword.in/cwsa/12/nature-the-world-manifestation#p80)</small>",
+
+"> Krishna as a godhead is the Lord of Ananda, Love and Bhakti; as an incarnation, he manifests the union of wisdom (Jnana) and works and leads the earth-evolution through this towards union with the Divine by Ananda, Love and Bhakti.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Gods*](http://incarnateword.in/cwsa/28/the-gods#p32)</small>",
+
+"> The boy with the flute is Sri Krishna, the Lord descended into the world-play from the divine Ananda; his flute is the music of the call which seeks to transform the lower ignorant play of mortal life and bring into it and establish in its place the lila of his divine Ananda.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: Gods, Goddesses and Semi-Divine Beings*](http://incarnateword.in/cwsa/30/gods-goddesses-and-semi-divine-beings#p11)</small>",
+
+"> Krishna is the immanent Divine, the Divine Presence in everyone and in all things. He is also, sovereignly, the aspect of Delight and Love of the Supreme; he is the smiling tenderness and the playful gaiety; he is at once the player, the play and all his playmates. And as both the game and its results are wholly known, conceived, willed, organised and played consciously in their entirety, there can be room for nothing but the delight of the play. Thus to see Krishna means to find the inner Godhead, to play with Krishna means to be identified with the inner Godhead and to share in his consciousness.
+> 
+> <small>The Mother, [*On Thoughts and Aphorisms: Aphorism - 27*](http://incarnateword.in/cwm/10/aphorism-27#p3)</small>",
+
+"> God as beauty, Srikrishna in Brindavan, Shyamasundara, is not only Beauty, He is also Love, and without perfect love there cannot be perfect beauty, and without perfect beauty there cannot be perfect delight.
+> 
+> <small>Sri Aurobindo, [*Early Cultural Writings: The National Value of Art*](http://incarnateword.in/cwsa/01/the-national-value-of-art#p8)</small>",
+
+"> Was it not he once in Brindavan? Woods divine to our yearning,  
+> Memorable always! O flowers, O delight on the tree-tops burning,  
+> Grasses his herds have grazed and crushed by his feet in the dancing,  
+> Yamuna flowing with song, through the greenness always advancing,  
+> You unforgotten remind; for his flute with its sweetness ensnaring  
+> Sounds in our ears in the night and our souls of their teguments baring  
+> Hales us out naked and absolute, out to his woodlands eternal,  
+> Out to his moonlit dances, his dalliance sweet and supernal,  
+> And we go stumbling, maddened and thrilled to his dreadful embraces,  
+> Slaves of his rapture to Brindavan crowded with amorous faces,  
+> Luminous kine in the green glades seated, soft-eyed gazing,  
+> Flowers on the branches distressing us, moonbeams unearthly amazing,  
+> Yamuna flowing before us, laughing low with her voices,  
+> Brindavan arching o’er us where Shyama sports and rejoices.  
+> Inly the miracle trembles repeated; mist-walls are broken  
+> Hiding that country of God and we look on the wonderful token,  
+> Clasp the beautiful body of the Eternal; his flute-call of yearning  
+> Cries in our breast with its blissful anguish for ever returning;  
+> Life flows past us with passionate voices, a heavenly river,  
+> All our being goes back as a bride of his bliss to the Giver.  
+> Even an hour of the soul can unveil the Unborn, the Everlasting,  
+> Gaze on its mighty Companion; the load of mortality casting,  
+> Mind hushes stilled in eternity; waves of the Infinite wander  
+> Thrilling body and soul and its endless felicity squander;  
+> All world-sorrow is finished, the cry of the parting is over;  
+> Ecstasy laughs in our veins, in our heart is the heart of the Lover.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Ahana*](http://incarnateword.in/cwsa/02/ahana#p2)</small>"
+  ],
   image_url: "cape_leadwort_lavender_blue.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:BSUJPLPCjf7877_13.JPG"
@@ -12968,6 +18073,24 @@ cape_leadwort_02 = {
   colour: "Pure white",
   significance: "Presence",
   comment: "Consciousness seeking for the presence.",
+  quotes: [
+"> His laughter of beauty breaks out in green trees,
+> His moments of beauty triumph in a flower;
+> The blue sea's chant, the rivulet's wandering voice
+> Are murmurs falling from the Eternal's harp.
+> 
+> This world is God fulfilled in outwardness.
+> 
+> <small>Sri Aurobindo, [*Savitri - II: The Debate of Love and Death*](http://incarnateword.in/cwsa/34/the-debate-of-love-and-death#p31-p32)</small>",
+
+"> It is intended by the word Presence to indicate the sense and perception of the Divine as a Being, felt as present in one's existence and consciousness or in relation with it, without the necessity of any farther qualification or description. Thus of the \"ineffable Presence\" it can only be said that it is there and nothing more can or need be said about it, although at the same time one knows that all is there, personality and impersonality, Power and Light and Ananda and everything else, and that all these flow from that indescribable Presence. The word may be used sometimes in a less absolute sense, but that is always the fundamental significance,—the essential perception of the essential presence supporting everything else.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Terminology*](http://incarnateword.in/cwsa/28/terminology#p18)</small>",
+
+"> It is the Divine Presence that gives value to life. This Presence is the source of all peace, all joy, all security.
+> 
+> <small>The Mother, [*Words of the Mother - II: The Divine is with You*](http://incarnateword.in/cwm/14/the-divine-is-with-you#p79)</small>"
+  ],
   image_url: "cape_leadwort_white.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Littleflower2.jpg"
@@ -13056,6 +18179,27 @@ frangipani = Flower.create!(
   size: "Medium to large",
   place: "Native to the West Indies, Central America, and Mexico; cultivated in tropical and subtropical regions across the world",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The psychic being is the soul developing in the evolution.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: Classification of the Parts of the Being*](http://incarnateword.in/cwsa/28/classification-of-the-parts-of-the-being#p1)</small>",
+
+"> The true soul of man is in the true invisible heart hidden in some luminous cave of the nature: there under some infiltration of the divine Light is our soul, a silent inmost being of which few are even aware; for if all have a soul, few are conscious of their true soul or feel its direct impulse. There dwells the little spark of the Divine which supports the obscure mass of our nature and around it grows the psychic being, the formed soul or the real Man within us. It is as this psychic being in him grows and the movements of the heart reflect its divinations and impulsions that man becomes more and more aware of his soul, ceases to be a superior animal and, awakening to glimpses of the godhead within him, admits more and more its intimations of a deeper life and consciousness and an impulse towards things divine. It is one of the decisive moments of the integral Yoga when this psychic being, liberated, brought out from the veil to the front, can pour the full flood of its divinations, seeings and impulsions on the mind, life and body of man and begins to prepare the upbuilding of divinity in the earthly nature.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - I*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-i#p17)</small>",
+
+"> It is the very nature of the soul or the psychic being to turn towards the divine Truth as the sunflower to the sun; it accepts and clings to all that is divine or progressing towards divinity, and draws back from all that is a perversion or a denial of it, from all that is false and undivine. Yet the soul is at first but a spark and then a little flame of godhead burning in the midst of a great darkness… It is only when the life turns towards the Divine that the soul can truly come forward and impose its power on the outer members; for, itself a spark of the Divine, to grow in flame towards the Divine is its true life and its very reason of existence.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - I*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-i#p21)</small>",
+
+"> The first [step of self-realisation] is the discovery of the soul, not the outer soul of thought and emotion and desire, but the secret psychic entity, the divine element within us. When that becomes dominant over the nature, when we are consciously the soul and when mind, life and body take their true place as its instruments, we are aware of a guide within that knows the truth, the good, the true delight and beauty of existence, controls heart and intellect by its luminous law and leads our life and being towards spiritual completeness. Even within the obscure workings of the Ignorance we have then a witness who discerns, a living light that illumines, a will that refuses to be misled and separates the mind's truth from its error, the heart's intimate response from its vibrations to a wrong call and wrong demand upon it, the life's true ardour and plenitude of movement from vital passion and the turbid falsehoods of our vital nature and its dark self seekings. This is the first step of self-realisation, to enthrone the soul, the divine psychic individual in the place of the ego.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - I: The Origin and Remedy of Falsehood, Error, Wrong and Evil*](http://incarnateword.in/cwsa/21/the-origin-and-remedy-of-falsehood-error-wrong-and-evil#p35)</small>",
+
+"> In order to strengthen the [conscious contact with one's psychic being] and aid, if possible, the development of the conscious psychic personality, one should, while concentrating, turn towards it, aspire to know it and feel it, open oneself to receive its influence, and take great care, each time that one receives an indication from it, to follow it very scrupulously and sincerely. To live in a great aspiration, to take care to become inwardly calm and remain so always as far as possible, to cultivate a perfect sincerity in all the activities of one's being—these are the essential conditions for the growth of the psychic being.
+> 
+> <small>The Mother, [*Some Answers from the Mother: 10 September 1959*](http://incarnateword.in/cwm/16/10-september-1959#p5)</small>"
+  ],
   image_url: "frangipani.jpg",
   thumbnail_url: "frangipani_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -13099,6 +18243,39 @@ tuberose = Flower.create!(
   size: "Medium-sized",
   place: "Native to Mexico; cultivated in other tropical and subtropical regions",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The really new thing, is that a new world is *born, born, born*. It is not the old one transforming itself, it is a *new* world which is *born*. And we are right in the midst of this period of transition where the two are entangled—where the other still persists all-powerful and entirely dominating the ordinary consciousness, but where the new one is quietly slipping in, still very modest, unnoticed—unnoticed to the extent that outwardly it doesn't disturb anything very much, for the time being, and that in the consciousness of most people it is even altogether imperceptible. And yet it is working, growing—until it is strong enough to assert itself visibly.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 10 July 1957*](http://incarnateword.in/cwm/09/10-july-1957#p14)</small>",
+
+"> These are people who have adventure. It is these I call, and I tell them this: \"I invite you to the great adventure.\"
+> 
+> It is not a question of repeating spiritually what others have done before us, for our adventure begins beyond that. It is a question of a new creation, entirely new, with all the unforeseen events, the risks, the hazards it entails—a *real adventure*, whose goal is certain victory, but the road to which is unknown and must be traced out step by step in the unexplored. Something that has never been in this present universe and that will *never* be again in the same way. If that interests you… well, let us embark. What will happen to you tomorrow—I have no idea.
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 10 July 1957*](http://incarnateword.in/cwm/09/10-july-1957#p21-p22)</small>",
+
+"> The only creation for which there is any place here is the supramental, the bringing of the divine Truth down on the earth, not only into the mind and vital but into the body and into Matter.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Lower Vital Being*](http://incarnateword.in/cwsa/31/the-lower-vital-being#p33)</small>",
+
+"> For centuries and centuries humanity has waited for this time. It is come. But it is difficult.
+> 
+> I don't simply tell you we are here upon earth to rest and enjoy ourselves, now is not the time for that. We are here… to prepare the way for the new creation.
+> 
+> <small>The Mother, [*Notes on the Way: 2 April 1972*](http://incarnateword.in/cwm/11/2-april-1972#p2-p3)</small>",
+
+"> You must strive, you must conquer all weaknesses and limitations; above all you must tell your ego: \"Your hour is gone.\" We want a race that has no ego, that has in place of the ego the Divine Consciousness. It is that which we want: the Divine Consciousness which will allow the race to develop itself and the supramental being to take birth.
+> 
+> <small>The Mother, [*Notes on the Way: 2 April 1972*](http://incarnateword.in/cwm/11/2-april-1972#p8)</small>",
+
+"> The only creation for which there is any place here is the supramental, the bringing of the divine Truth down on the earth, not only into the mind and vital but into the body and into Matter… We are here to do what the Divine wills and to create a world in which the Divine Will can manifest its truth no longer deformed by human ignorance or perverted and mistranslated by vital desire. The work which the sadhak of the supramental Yoga has to do is not his own work for which he can lay down his own conditions, but the work of the Divine which he has to do according to the conditions laid down by the Divine. Our Yoga is not for our own sake but for the sake of the Divine.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Lower Vital Being*](http://incarnateword.in/cwsa/31/the-lower-vital-being#p33)</small>",
+
+"> The supramental creation, since it is to be a creation upon earth, must be not only an inner change but a physical and external manifestation also… It is the actual descent of the supramental Divine into Matter and the working of the Divine Presence and Power there that can alone make the physical and external change possible.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - IV: The Lower Vital Being*](http://incarnateword.in/cwsa/31/the-lower-vital-being#p34)</small>"
+  ],
   image_url: "tuberose.jpg",
   thumbnail_url: "tuberose_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -13139,6 +18316,15 @@ bell_flower = Flower.create!(
   size: "Large",
   place: "Native to Jamaica and Cuba",
   climate: "Tropical",
+  quotes: [
+"> This is faithfulness, to admit and to manifest no other movements but only the movements prompted and guided by the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Faithfulness*](http://incarnateword.in/cwm/14/faithfulness#p3)</small>",
+
+"> When I spoke of being faithful to the light of the soul and the divine Call, I was simply suggesting the great need in all crises and attacks,—to refuse to listen to any suggestions, impulses, lures and to oppose to them all the call of the Truth, the imperative beckoning of the Light. In all doubt and depression, to say \"I belong to the Divine, I cannot fail\"; to all suggestions of impurity and unfitness, to reply \"I am a child of Immortality chosen by Sri Aurobindo and the Mother; I have but to be true to myself and to them—the victory is sure; even if I fell, I would be sure to rise again\"; to all impulsions to depart and serve some other ideal, to reply \"This is the greatest, this is the Truth, this alone can satisfy the soul within me; I will endure through all tests and tribulations to the very end of the divine journey.\" This is what I mean by faithfulness to the Light and the Call.
+> 
+> <small>Sri Aurobindo, [*The Mother with Letters on The Mother: Faithfulness to the Light and the Call*](http://incarnateword.in/cwsa/32/faithfulness-to-the-light-and-the-call#p1)</small>"
+  ],
   image_url: "bell_flower.jpg",
   thumbnail_url: "bell_flower_thumbnail.jpg",
   source: "Kyle Wicomb",
@@ -13229,6 +18415,15 @@ pastel_flower = Flower.create!(
   size: "Small",
   place: "Grows in a variety of coastal habitats in New South Wales (Australia) and other subtropical regions",
   climate: "Subtropical",
+  quotes: [
+"> A clear and precise vision of what is to be done and a steady, calm and firm will to have it done are the essential conditions for an organisation to be run properly.
+> 
+> <small>The Mother, [*Words of the Mother - I: Organisation and Work*](http://incarnateword.in/cwm/13/organisation-and-work#p8)</small>",
+
+"> One must organise one's own things… And those who can do that are generally those who can put their ideas into order and can also organise their character and can finally control their movements… If you take life in that way, truly it be comes interesting. If one lives in a confusion, a disorder, an inner and outer chaos in which everything is mixed up and one is conscious of nothing and still less is master of things, this is not living.
+> 
+> <small>The Mother, [*Questions and Answers 1954: 3 February 1954*](http://incarnateword.in/cwm/06/3-february-1954#p9)</small>"
+  ],
   image_url: "pastel_flower.jpg",
   thumbnail_url: "pastel_flower_thumbnail.jpg",
   source: "Shubhada Nikharge",
@@ -13251,6 +18446,35 @@ pomegranate_01 = {
   colour: "Orange-red",
   significance: "Divine Love",
   comment: "A flower reputed to bloom even in the desert.",
+  quotes: [
+"> Long ago, very long ago, in the desert land that is now Arabia, a divine being incarnated on earth to awaken it to the Supreme Love. As one would expect, he was persecuted by men, misunderstood, suspected, hunted after. Mortally wounded by his assailants, he wished to die alone, quietly, so that his work might be accomplished; and, pursued by them, he fled. Suddenly in the broad barren plain, a tiny bush of pomegranate appeared. The Saviour stole under its low branches in order to give up his body in peace; and at once the bush expanded miraculously, increased itself, widened, became deep and luxuriant in such a way that when the pursuers passed by they did not even suspect that the One whom they were chasing was hidden there, and they continued on their way.
+> 
+> While, drop by drop, the sacred blood fell, fertilising the soil, the bush covered itself with marvellous flowers, scarlet, enormous―clusters of petals, innumerable drops of blood…
+> 
+> These are the flowers that, for us, express and hold the Divine Love.
+> 
+> <small>The Mother, [*Words of the Mother - II: Divine Love*](http://incarnateword.in/cwm/14/divine-love#p15-p17)</small>",
+
+"> A supreme divine Love is a creative Power and, even though it can exist in itself silent and unchangeable, yet rejoices in external form and expression and is not condemned to be a speechless and bodiless godhead. It has even been said that creation itself was an act of love or at least the building up of a field in which Divine Love could devise its symbols and fulfil itself in act of mutuality and self-giving, and, if not the initial nature of creation, this may well be its ultimate object and motive.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - II*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-ii#p10)</small>",
+
+"> To bring the Divine Love and Beauty and Ananda into the world is, indeed, the whole crown and essence of our Yoga.
+> 
+> <small>Sri Aurobindo, [*Letters on Himself and the Ashram: Darshan Messages*](http://incarnateword.in/cwsa/35/darshan-messages#p5)</small>",
+
+"> Divine Love, in my view of it, is again not something ethereal, cold and far, but a love absolutely intense, intimate and full of unity, closeness and rapture using all the nature for its expression.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Divine Love, Psychic Love and Human Love*](http://incarnateword.in/cwsa/29/divine-love-psychic-love-and-human-love#p36)</small>",
+
+"> The Divine Love may not be able yet to manifest on the physical plane, humanity being what it is, as fully and freely as it would otherwise do, but that does not make it less close or intense than the human.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Divine Love, Psychic Love and Human Love*](http://incarnateword.in/cwsa/29/divine-love-psychic-love-and-human-love#p5)</small>",
+
+"> Love is with all, working for the progress of each one equally―but it triumphs in those who care for it.
+> 
+> <small>The Mother, [*Words of the Mother - II: General*](http://incarnateword.in/cwm/14/general-1#p1)</small>"
+  ],
   image_url: "pomegranate_double_orange.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Gardenology.org-IMG_6835_hunt09jun.jpg"
@@ -13261,6 +18485,19 @@ pomegranate_02 = {
   colour: "Orange, cream-yellow",
   significance: "Divine Sacrifice",
   comment: "Is it not a supreme sacrifice for the Divine to renounce the beatitude of His unity in order to create the painful multiplicity of the world?",
+  quotes: [
+"> The Divine's sacrifice is the descent of the Divine into the obscurity of the unconsciousness.
+> 
+> <small>The Mother</small>",
+
+"> The manifestation of the love of the Divine in the world was the great holocaust, the supreme self-giving. The Perfect Consciousness accepted to be merged and absorbed into the unconsciousness of matter, so that consciousness might be awakened in the depths of its obscurity and little by little a Divine Power might rise in it and make the whole of this manifested universe a highest expression of the Divine Consciousness and the Divine love.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 2 June 1929*](http://incarnateword.in/cwm/03/2-june-1929#p6)</small>",
+
+"> The law of sacrifice is the common divine action that was thrown out into the world in its beginning as a symbol of the solidarity of the universe. It is by the attraction of this law that a divinising principle, a saving power descends to limit and correct and gradually to eliminate the errors of an egoistic and self-divided creation. This descent, this sacrifice of the Purusha, the Divine Soul submitting itself to Force and Matter so that it may inform and illuminate them, is the seed of redemption of this world of Inconscience and Ignorance.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Sacrifice, the Triune Path and the Lord of the Sacrifice*](http://incarnateword.in/cwsa/23/the-sacrifice-the-triune-path-and-the-lord-of-the-sacrifice#p1)</small>"
+  ],
   image_url: "pomegranate_single_orange.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Punica_granatum_0556.jpg"
@@ -13269,7 +18506,7 @@ pomegranate_02 = {
 pomegranate_03 = {
   description: "Medium to large nearly round, thick-skinned fruit that is yellow tinged with red when ripe, and contains many seeds enclosed in a juicy reddish edible pulp; A shrub or small tree.",
   colour: "Yellow, red",
-  significance: "Divine Love spreading over the World",
+  significance: "Divine Love Spreading over the World",
   comment: "Innumerable, succulent, it gives strength and life untiringly.",
   image_url: "pomegranate_fruit.jpg",
   source: "Wikimedia Commons",
@@ -13313,6 +18550,23 @@ rose_01 = {
   colour: "Various colours", 
   significance: "Love for the Divine",
   comment: "The vegetal kingdom gathers together its most beautiful possibilities to offer them to the Divine.",
+  quotes: [
+"> Love is the source of the Universe and the power that unites the manifestation to its Creator. Aspire sincerely and one day you will feel and be the Love.
+> 
+> <small>The Mother</small>",
+
+"> Love is a mighty vibration coming straight from the One, and only the very pure and very strong are capable of receiving and manifesting it.
+> 
+> <small>The Mother, [*Words of the Mother - II: Love and Sexual Desire*](http://incarnateword.in/cwm/14/love-and-sexual-desire#p4)</small>",
+
+"> Love is the one emotion in us which can be entirely motiveless and self-existent; love need have no other motive than love… Love is that by which we can enter directly into possession of the self-existent delight of the divine Being. Divine love is indeed itself that possession and, as it were, the body of the Ananda.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - II: The Motives of Devotion*](http://incarnateword.in/cwsa/24/the-motives-of-devotion#p11)</small>",
+
+"> For there is, concealed behind individual love, obscured by its ignorant human figure, a mystery which the mind cannot seize, the mystery of the body of the Divine, the secret of a mystic form of the Infinite which we can approach only through the ecstasy of the heart and the passion of the pure and sublimated sense, and its attraction which is the call of the divine Flute-player, the mastering compulsion of the All-Beautiful, can only be seized and seize us through an occult love and yearning which in the end makes one the Form and the Formless, and identifies Spirit and Matter. It is that which the spirit in Love is seeking here in the darkness of the Ignorance and it is that which it finds when individual human love is changed into the love of the Immanent Divine incarnate in the material universe.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - I: The Ascent of the Sacrifice - II*](http://incarnateword.in/cwsa/23/the-ascent-of-the-sacrifice-ii#p4)</small>"
+  ],
   image_url: "rose_mix.jpg",
   source: "sophie",
   url: "https://www.flickr.com/photos/sophiea/5721768347"
@@ -13329,6 +18583,16 @@ rose_02 = {
 }
 
 rose_03 = {
+  description: "Small reddish-pink roses. A small shrub.",
+  colour: "Reddish-pink",
+  significance: "Psychic Love",
+  comment: "Strong and faithful, it has a beauty that does not belie.",
+  image_url: "rose_reddish_pink",
+  source: "Wikimedia Commons",
+  url: "https://commons.wikimedia.org/wiki/File:Rose_Fragola_20070601.jpg"
+}
+
+rose_04 = {
   description: "Small to medium-sized solitary orange flower. A large shrub",
   colour: "Orange",
   significance: "Flaming Love for the Divine",
@@ -13338,7 +18602,7 @@ rose_03 = {
   url: "https://commons.wikimedia.org/wiki/File:Rosa_%27Voodoo%27_1.JPG"
 }
 
-rose_04 = {
+rose_05 = {
   description: "Medium-sized lavender or mauve flower.",
   colour: "Lavender or mauve",
   significance: "Humility in the Love for the Divine",
@@ -13348,7 +18612,7 @@ rose_04 = {
   url: "https://commons.wikimedia.org/wiki/File:Lavender_rose.jpg"
 }
 
-rose_05 = {
+rose_06 = {
   description: "Medium to large yellow flower. A medium to large shrub.",
   colour: "Yellow",
   significance: "Mental Love for the Divine",
@@ -13358,7 +18622,7 @@ rose_05 = {
   url: "https://commons.wikimedia.org/wiki/File:Rose_Gina_Lollobrigida_20070601.jpg"
 }
 
-rose_06 = {
+rose_07 = {
   description: "Medium to large red flower. A large shrub.",
   colour: "Red",
   significance: "Human Passions changed into Love for the Divine",
@@ -13368,7 +18632,7 @@ rose_06 = {
   url: "https://commons.wikimedia.org/wiki/File:Rosa_%27Mister_Lincoln%27_1964.jpg"
 }
 
-rose_07 = {
+rose_08 = {
   description: "All medium-sized bicoloured flowers. A large shrub.",
   colour: "Bicoloured",
   significance: "Balance of Nature in the Love for the Divine",
@@ -13378,17 +18642,22 @@ rose_07 = {
   url: "https://commons.wikimedia.org/wiki/File:Rose_(142).jpg"
 }
 
-rose_08 = {
+rose_09 = {
   description: "Very large white flower tinged with pink and yellow. A shrub.",
   colour: "White, pink, yellow",
   significance: "Love from the Divine",
   comment: "A vibration of love that the Supreme directs upon a particular point (a person or thing).",
+  quotes: [
+"> There is only *one* true love, the love *from* the Divine, which, in human beings, turns into love *for* the Divine.
+> 
+> <small>The Mother, [*On Education: The New Age Association*](http://incarnateword.in/cwm/12/the-new-age-association#p29)</small>"
+  ],
   image_url: "rose_white_pink_yellow.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Rosa_%27Mevrow_G_A_van_Rossen%27.jpg"
 }
 
-rose_09 = {
+rose_10 = {
   description: "Small white flower tinged with pink. A small to medium-sized shrub.",
   colour: "White, pink",
   significance: "Affection for the Divine",
@@ -13398,8 +18667,8 @@ rose_09 = {
   url: "https://commons.wikimedia.org/wiki/File:Madeleine_Rivoire.JPG"
 }
 
-rose_10 = {
-  bot_name: "Rosa ‘Confidence’",
+rose_11 = {
+  bot_name: "Rosa ‘Confidence'",
   description: "Medium to large salmon coloured flower. A large shrub.",
   colour: "Salmon",
   significance: "Beauty Offers itself in Service to the Divine",
@@ -13409,8 +18678,8 @@ rose_10 = {
   url: "https://commons.wikimedia.org/wiki/File:Hybrid_Tea_-_Confidence_3_(cr).JPG"
 }
 
-rose_11 = {
-  bot_name: "Rosa ‘Father’s Day’",
+rose_12 = {
+  bot_name: "Rosa ‘Father's Day'",
   description: "Small double light orange flower borne in small clusters on short stems. A small shrub.",
   colour: "Light orange",
   significance: "Supramental Attachment for the Divine",
@@ -13420,28 +18689,46 @@ rose_11 = {
   url: "https://commons.wikimedia.org/wiki/File:Howard_Foley_(4493132394).jpg"
 }
 
-rose_12 = {
-  bot_name: "Rosa ‘Edward’",
+rose_13 = {
+  bot_name: "Rosa ‘Edward'",
   description: "Medium-sized double, highly fragrant pink flower. A large shrub.",
   colour: "Pink",
   significance: "Surrender",
   comment: "To will what the Divine wills is the supreme wisdom.",
+  quotes: [
+"> By surrender we mean not this but a spontaneous self-giving, a giving of all your self to the Divine, to a greater Consciousness of which you are a part. Surrender will not diminish, but increase; it will not lessen or weaken or destroy your personality, it will fortify and aggrandise it. Surrender means a free total giving with all the delight of the giving… True surrender enlarges you; it increases your capacity; it gives you a greater measure in quality and in quantity which you could not have had by yourself. This new greater measure of quality and quantity is different from anything you could attain before: you enter into another world, into a wideness which you could not have entered if you did not surrender. It is as when a drop of water falls into the sea; if it still kept there its separate identity, it would remain a little drop of water and nothing more, a little drop crushed by all the immensity around, because it has not surrendered. But, surrendering, it unites with the sea and participates in the nature and power and vastness of the whole sea.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: 4 August 1929*](http://incarnateword.in/cwm/03/4-august-1929#p3)</small>",
+
+"> Surrender is the decision taken to hand over the responsibility of your life to the Divine. Without this decision nothing is at all possible; if you do not surrender, the Yoga is entirely out of the question. Everything else comes naturally after it, for the whole process starts with surrender. You can surrender either through knowledge or through devotion. You may have a strong intuition that the Divine alone is the truth and a luminous conviction that without the Divine you cannot manage. Or you may have a spontaneous feeling that this line is the only way of being happy, a strong psychic desire to belong exclusively to the Divine: \"I do not belong to myself,\" you say, and give up the responsibility of your being to the Truth. Then comes self-offering: \"Here I am, a creature of various qualities, good and bad, dark and enlightened. I offer myself as I am to you, take me up with all my ups and downs, conflicting impulses and tendencies—do whatever you like with me.\"
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Surrender, Self-offering and Consecration*](http://incarnateword.in/cwm/03/surrender-self-offering-and-consecration#p1)</small>"
+  ],
   image_url: "rose_edward.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Rosa_Louise_Odier_01.jpg"
 }
 
-rose_13 = {
+rose_14 = {
   description: "All fully double medium to large solitary pink flowers, except Surrender and Perfect Surrender. Shrubs of all sizes.",
   colour: "Pink",
   significance: "Loving Surrender",
   comment: "A state that can be obtained by surrendering to the Divine.",
+  quotes: [
+"> Love of the Highest and a total self-surrender are the straight and swift way to this divine oneness [of indwelling of God in man and man in God].
+> 
+> <small>Sri Aurobindo, [*Essays on the Gita: Works, Devotion and Knowledge*](http://incarnateword.in/cwsa/19/works-devotion-and-knowledge#p12)</small>",
+
+"> For me, Sadhana consists in loving the Divine more and more integrally, more and more absolutely, with a love so total that it leads to identification.
+> 
+> <small>The Mother</small>"
+  ],
   image_url: "rose_pink.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Vienna_Woods_(4492484451).jpg"
 }
 
-rose_14 = {
+rose_15 = {
   description: "Medium to large yellow flower tinged with orange. A medium to large shrub.",
   colour: "Yellow, orange",
   significance: "Mental Surrender",
@@ -13451,8 +18738,8 @@ rose_14 = {
   url: "https://commons.wikimedia.org/wiki/File:Rosa-eureka.jpg"
 }
 
-rose_15 = {
-  bot_name: "Rosa ‘Paul Neyron’",
+rose_16 = {
+  bot_name: "Rosa ‘Paul Neyron'",
   description: "Large double, highly fragrant deep pink flower. A medium to large shrub.",
   colour: "Deep pink",
   significance: "Perfect Surrender",
@@ -13462,7 +18749,7 @@ rose_15 = {
   url: "https://commons.wikimedia.org/wiki/File:Rose_Yves_Piaget_20070601.jpg"
 }
 
-rose_16 = {
+rose_17 = {
   bot_name: "Rosa 'Prosperity'",
   description: "Small very fragrant, semi-double ivory white flower tinged with pink; borne in full pendulous sprays. A vigorous climber.",
   colour: "Ivory white, pink",
@@ -13473,8 +18760,8 @@ rose_16 = {
   url: "https://commons.wikimedia.org/wiki/File:Rosa_%27Prosperity%27_01.jpg"
 }
 
-rose_17 = {
-  bot_name: "Rosa ‘Peace’",
+rose_18 = {
+  bot_name: "Rosa ‘Peace'",
   description: "Medium to large cream or yellow flower tinged with pink. A medium to large shrub.",
   colour: "Cream or yellow, pink",
   significance: "Mental Love under the Psychic Influence",
@@ -13512,7 +18799,8 @@ rose = Flower.create!(
     rose_14,
     rose_15,
     rose_16,
-    rose_17
+    rose_17,
+    rose_18
   ]
 )
 
@@ -13588,6 +18876,11 @@ bowstring_hemp = Flower.create!(
   size: "Small",
   place: "Native to Africa, Madagascar, and southern Asia",
   climate: "Tropical and subtropical",
+  quotes: [
+"> The spiritual man is one who has discovered his soul: he has found his self and lives in that, is conscious of it, has the joy of it; he needs nothing external for his completeness of existence.
+> 
+> <small>Sri Aurobindo, [*The Life Divine - II: The Gnostic Being*](http://incarnateword.in/cwsa/22/the-gnostic-being#p18)</small>"
+  ],
   image_url: "bowstring_hemp.jpg",
   thumbnail_url: "bowstring_hemp_thumbnail.jpg",
   source: "Wikimedia commons",
@@ -13628,6 +18921,11 @@ pincushion_flower = Flower.create!(
   size: "Tiny",
   place: "Native to northern Africa (northern Algeria, northern Libya, Morocco, and Tunisia), the Azores, the Madeira Islands, the Canary Islands, southern Europe (France, Portugal, Spain, Albania, Bulgaria, Greece, Italy, and Yugoslavia), and western Asia (Turkey); also found in subtropical America and temperate Australia",
   climate: "Subtropical to temperate",
+  quotes: [
+"> [My blessings are] for the Will of the Lord to be done, with full force and power. So it is not necessary that there should always be a success. There might be a failure also, if such is the Will of the Lord. And the Will is for the progress, I mean the inner progress. So whatever will happen will be for the best.
+> 
+> <small>The Mother, [*Words of the Mother - I: Blessings*](http://incarnateword.in/cwm/13/blessings#p12)</small>"
+  ],
   image_url: "pincushion_flower.jpg",
   thumbnail_url: "pincushion_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -13645,6 +18943,11 @@ florists_gloxinia_01 = {
   colour: "Many colours",
   significance: "Broadening of the Being",
   comment: "All the parts of the being broaden in order to progress.",
+  quotes: [
+"> When the consciousness is narrow and personal or shut in the body, it is difficult to receive from the Divine—the wider it expands, the more it can receive. A time comes when it feels as wide as the world and able to receive all the Divine into itself.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - III: The Universal or Cosmic Consciousness*](http://incarnateword.in/cwsa/30/the-universal-or-cosmic-consciousness#p29)</small>"
+  ],
   image_url: "florists_gloxinia_mix.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:2010._%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0_%D1%86%D0%B2%D0%B5%D1%82%D0%BE%D0%B2_%D0%B2_%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B5_%D0%BD%D0%B0_%D0%B4%D0%B5%D0%BD%D1%8C_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0_12.jpg"
@@ -13708,6 +19011,11 @@ eggplant_01 = {
   colour: "Light lavender, white, yellow",
   significance: "Fearlessness in the Vital",
   comment: "Goes straight to its goal and fears no inclemency.",
+  quotes: [
+"> Fear is an impurity, one of the greatest impurities, one of those which come most directly from the anti-divine forces which want to destroy the divine action on earth; and the first duty of those who really want to do yoga is to eliminate from their consciousness, with all the might, all the sincerity, all the endurance of which they are capable, even the shadow of a fear.
+> 
+> <small>The Mother, [*Questions and Answers 1956: 15 August 1956*](http://incarnateword.in/cwm/08/15-august-1956#p6)</small>"
+  ],
   image_url: "eggplant_lavender_white.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Bereng-flor-1.JPG"
@@ -13718,6 +19026,11 @@ eggplant_02 = {
   colour: "Purple, yellow",
   significance: "Vital Courage",
   comment: "Must be controlled to be beneficial.",
+  quotes: [
+"> True courage, in its deepest sense, is to be able to face everything, everything in life, from the smallest to the greatest things, from material things to those of the spirit, without a shudder, without physically… without the heart beginning to beat faster, without the nerves trembling or the slightest emotion in any part of the being. Face everything with a constant consciousness of the divine Presence, with a total self-giving to the Divine, and the whole being unified in this will; then one can go forward in life, can face anything whatever.
+> 
+> <small>The Mother, [*Questions and Answers 1955: 26 January 1955*](http://incarnateword.in/cwm/07/26-january-1955#p38)</small>"
+  ],
   image_url: "eggplant_purple.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Eggplant_Flower_in_Hong_Kong.JPG"
@@ -13814,6 +19127,23 @@ terrestrial_orchid = Flower.create!(
   size: "Small",
   place: "Found from tropical and subtropical Asia to the western Pacific, including Hawaii, Tonga, and Samoa; also occurs in Australia from Cooktown to the Jardine River on Cape York Peninsula",
   climate: "Tropical and subtropical",
+  quotes: [
+"> There's only one salvation: to cling to the Divine like this (*gesture with two fists*).
+> 
+> Not clinging to what one thinks of the Divine, not even to what one feels of the Divine… to an aspiration… an aspiration as sincere as possible. And cling to that.
+> 
+> <small>The Mother, [*Mother's Agenda: July 17, 1971*](http://incarnateword.in/agenda/12/july-17-1971#p67-p68)</small>",
+
+"> The aim of our life on earth is to become conscious of the Divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: The True Aim of Life*](http://incarnateword.in/cwm/14/the-true-aim-of-life#p19)</small>",
+
+"> The true aim of life is to find the Divine's Presence deep inside oneself and to surrender to It so that It takes the lead of the life, all the feelings and all the actions of the body.
+> 
+> This gives a true and luminous aim to existence.
+> 
+> <small>The Mother, [*Words of the Mother - II: The True Aim of Life*](http://incarnateword.in/cwm/14/the-true-aim-of-life#p35-p36)</small>"
+  ],
   image_url: "terrestrial_orchid.jpg",
   thumbnail_url: "terrestrial_orchid_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -13919,6 +19249,19 @@ african_marigold = Flower.create!(
   size: "Medium to large",
   place: "Native to Mexico and Central America",
   climate: "Tropical",
+  quotes: [
+"> That which can easily change its form is \"plastic\". Figuratively, it is suppleness, a capacity of adaptation to circumstances and necessities. When I ask you to be plastic in relation to the Divine, I mean not to resist the Divine with the rigidity of preconceived ideas and fixed principles.
+> 
+> <small>The Mother, [*Questions and Answers 1950 - 1951: 14 March 1951*](http://incarnateword.in/cwm/04/14-march-1951#p4)</small>",
+
+"> The physical being and physical consciousness must be very plastic to be able to lend themselves to all the necessary changes, so as to be of one kind one day and another the next, and so on.
+> 
+> <small>The Mother, [*Questions and Answers 1950 - 1951: 28 April 1951*](http://incarnateword.in/cwm/04/28-april-1951#p12)</small>",
+
+"> The supramental body which has to be brought into being here has four main attributes: lightness, adaptability, plasticity and luminosity… Supramental plasticity will enable it to stand the attack of every hostile force which strives to pierce it: it will present no dull resistance to the attack but will be, on the contrary, so pliant as to nullify the force by giving way to it to pass off. Thus it will suffer no harmful consequences and the most deadly attacks will leave it unscathed.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: True Humility - Supramental Plasticity - Spiritual Rebirth*](http://incarnateword.in/cwm/03/true-humility-supramental-plasticity-spiritual-rebirth#p2)</small>"
+  ],
   image_url: "african_marigold.jpg",
   thumbnail_url: "african_marigold_thumbnail.jpg",
   source: "Horticulture Gardens Today",
@@ -13959,6 +19302,19 @@ french_marigold = Flower.create!(
   size: "Small to medium-sized",
   place: "Native to the Americas; naturalised around the world",
   climate: "Found across temperate, subtropical, and tropical climates",
+  quotes: [
+"> That which can easily change its form is \"plastic\". Figuratively, it is suppleness, a capacity of adaptation to circumstances and necessities. When I ask you to be plastic in relation to the Divine, I mean not to resist the Divine with the rigidity of preconceived ideas and fixed principles.
+> 
+> <small>The Mother, [*Questions and Answers 1950 - 1951: 14 March 1951*](http://incarnateword.in/cwm/04/14-march-1951#p4)</small>",
+
+"> The physical being and physical consciousness must be very plastic to be able to lend themselves to all the necessary changes, so as to be of one kind one day and another the next, and so on.
+> 
+> <small>The Mother, [*Questions and Answers 1950 - 1951: 28 April 1951*](http://incarnateword.in/cwm/04/28-april-1951#p12)</small>",
+
+"> The supramental body which has to be brought into being here has four main attributes: lightness, adaptability, plasticity and luminosity… Supramental plasticity will enable it to stand the attack of every hostile force which strives to pierce it: it will present no dull resistance to the attack but will be, on the contrary, so pliant as to nullify the force by giving way to it to pass off. Thus it will suffer no harmful consequences and the most deadly attacks will leave it unscathed.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: True Humility - Supramental Plasticity - Spiritual Rebirth*](http://incarnateword.in/cwm/03/true-humility-supramental-plasticity-spiritual-rebirth#p2)</small>"
+  ],
   image_url: "french_marigold.jpg",
   thumbnail_url: "french_marigold_thumbnail.jpg",
   source: "Benery",
@@ -14010,6 +19366,19 @@ yellow_oleander = Flower.create!(
   size: "Medium-sized",
   place: "Native to central and southern Mexico, and Central America; cultivated widely as an ornamental",
   climate: "Tropical",
+  quotes: [
+"> The \"Mind\" in the ordinary use of the word covers indiscriminately the whole consciousness, for man is a mental being and mentalises everything; but in the language of this Yoga, the words mind and mental are used to connote specially the part of the nature which has to do with cognition and intelligence, with ideas, with mental or thought perceptions, the reactions of thought to things, with the truly mental movements and formations, mental vision and will etc. that are part of his intelligence.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Mind*](http://incarnateword.in/cwsa/28/the-mind#p1)</small>",
+
+"> The Mind proper is divided into three parts—thinking Mind, dynamic Mind, externalising Mind—the former concerned with ideas and knowledge in their own right, the second with the putting out of mental forces for realisation of the idea, the third with the expression of them in life (not only by speech, but by any form it can give).
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - I: The Mind*](http://incarnateword.in/cwsa/28/the-mind#p37)</small>",
+
+"> [Mind] is in its origin a principle of light, an instrument put forth from the Supermind and, though set to work within limits and even set to create limits, yet the limits are luminous borders for a special working, voluntary and purposive bounds, a surface of the finite ever extending itself under the eye of infinity. It is this character of Mind that will reveal itself under the touch of Supermind and make human mentality an adjunct and a minor instrumentation of the supramental knowledge.
+> 
+> <small>Sri Aurobindo, [*Essays in Philosophy and Yoga: Supermind and Humanity*](http://incarnateword.in/cwsa/13/supermind-and-humanity#p4)</small>"
+  ],
   image_url: "yellow_oleander.jpg",
   thumbnail_url: "yellow_oleander_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -14034,7 +19403,7 @@ black_eyed_susan_vine_01 = {
 }
 
 black_eyed_susan_vine_02 = {
-  bot_name: "Thunbergia alata ‘Julietta’",
+  bot_name: "Thunbergia alata ‘Julietta'",
   description: "Medium-sized golden-yellow to deep orange salverform flower with a limb composed of five broad, somewhat squared lobes, a throat that is not dark maroon, and a curved corolla tube that emerges from two enlarged inflated bracts; usually borne singly from the leaf axils. A light annual or perennial vine.",
   colour: "Golden-yellow to deep orange",
   significance: "Transformation Dispels Obscurity",
@@ -14052,6 +19421,11 @@ black_eyed_susan_vine = Flower.create!(
   size: "Small to medium-sized",
   place: "Native to Eastern Africa; found in Cerrado vegetation of Brazil and Hawaii, along with eastern Australia and the southern USA in the states of Texas and Florida",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Even if there is much darkness—and this world is full of it and the physical nature of man also—yet a ray of the true Light can prevail eventually against a tenfold darkness. Believe that and cleave to it always.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Faith*](http://incarnateword.in/cwsa/29/faith#p62)</small>"
+  ],
   image_url: "black_eyed_susan_vine.jpg",
   thumbnail_url: "black_eyed_susan_vine_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -14114,6 +19488,25 @@ kings_mantle = Flower.create!(
   size: "Medium-sized",
   place: "Native to western Africa",
   climate: "Tropical and subtropical",
+  quotes: [
+"> Opening is a release of the consciousness by which it begins to admit into itself the workings of the Divine Light and Power.
+> 
+> <small>The Mother, [*Words of the Mother - II: Openness*](http://incarnateword.in/cwm/14/openness#p2)</small>",
+
+"> In this Yoga the whole principle is to open oneself to the Divine Influence. It is there above you and, if you can once become conscious of it, you have then to call it down into you. It descends into the mind and into the body as Peace, as a Light, as a Force that works, as the Presence of the Divine with or without form, as Ananda.
+> 
+> <small>Sri Aurobindo, [*Letters on Yoga - II: Opening*](http://incarnateword.in/cwsa/29/opening#p8)</small>",
+
+"> What you should do is to throw the doors of your being wide open to the Divine. The moment you conceal something, you step straight into Falsehood. The least suppression on your part pulls you immediately down into unconsciousness. If you want to be fully conscious, be always in front of the Truth—completely open yourself and try your utmost to let it see deep inside you, into every corner of your being. That alone will bring into you light and consciousness and all that is most true.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Union with the Divine Consciousness and Will*](http://incarnateword.in/cwm/03/union-with-the-divine-consciousness-and-will#p1)</small>",
+
+"> Widen yourself to the extreme limit of the universe… and beyond.
+> 
+> Always take upon yourself all the necessities of progress, and resolve them in the ecstasy of Unity. Then you will be divine.
+> 
+> <small>The Mother, [*Words of the Mother - II: Wideness*](http://incarnateword.in/cwm/14/wideness#p1-p2)</small>"
+  ],
   image_url: "kings_mantle.jpg",
   thumbnail_url: "kings_mantle_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -14131,7 +19524,7 @@ kings_mantle = Flower.create!(
 wishbone_flower_01 = {
   description: "Small salverform flowers with a flattened corolla tube and a limb irregularly divided into one larger crimped upper lobe and three smaller lower lobes; hybrid forms are in white, mauve, or lavender; the prominent calyx is light green and ribbed; borne singly in the leaf axils or in few-flowered terminal racemes. A low delicate annual herb.",
   colour: "White, mauve, or lavender, and light green",
-  significance: "Krishna’s Play",
+  significance: "Krishna's Play",
   comment: "A power of progress veiling itself behind appearances.",
   image_url: "wishbone_flower_mix.jpg",
   source: "Wikimedia Commons",
@@ -14141,7 +19534,7 @@ wishbone_flower_01 = {
 wishbone_flower_02 = {
   description: "Small salverform flowers with a flattened corolla tube and a limb irregularly divided into one larger crimped upper lobe and three smaller lower lobes; a hybrid form is pale lavender, edged with deep velvety purple, with a yellow spot in the center of the lower lobe; the prominent calyx is light green and ribbed; borne singly in the leaf axils or in few-flowered terminal racemes. A low delicate annual herb.",
   colour: "Pale lavender, deep purple, yellow, light green",
-  significance: "Krishna’s Play in Matter",
+  significance: "Krishna's Play in Matter",
   comment: "Beauty, love, and joy are His companions. A play that widens and makes us progress.",
   image_url: "wishbone_flower_lavender.jpg",
   source: "Wikimedia Commons",
@@ -14151,7 +19544,7 @@ wishbone_flower_02 = {
 wishbone_flower_03 = {
   description: "Small salverform white flowers with a pale pinkish tan, a flattened corolla tube, and a limb irregularly divided into one larger crimped upper lobe and three smaller lower lobes, with a yellow spot in the center of the lower lobe; the prominent calyx is light green and ribbed; borne singly in the leaf axils or in few-flowered terminal racemes. A low delicate annual herb.",
   colour: "White, pale pink, yellow, light green",
-  significance: "Krishna’s Integral Play",
+  significance: "Krishna's Integral Play",
   comment: "All the parts of the being respond to His influence.",
   image_url: "wishbone_flower_pink.jpg",
   source: "Wikimedia Commons",
@@ -14167,6 +19560,34 @@ wishbone_flower = Flower.create!(
   size: "Small",
   place: "Found in tropical and subtropical regions of Asia and the Americas",
   climate: "Tropical and subtropical",
+  quotes: [
+"> At last I find a meaning of soul's birth
+> Into this universe terrible and sweet,
+> I who have felt the hungry heart of earth
+> Aspiring beyond heaven to Krishna's feet.
+> 
+> I have seen the beauty of immortal eyes,
+> And heard the passion of the Lover's flute,
+> And known a deathless ecstasy's surprise
+> And sorrow in my heart for ever mute.
+> 
+> Nearer and nearer now the music draws,
+> Life shudders with a strange felicity;
+> All Nature is a wide enamoured pause
+> Hoping her lord to touch, to clasp, to be.
+> 
+> For this one moment lived the ages past;
+> The world now throbs fulfilled in me at last.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Krishna*](http://incarnateword.in/cwsa/02/krishna#p1-p4)</small>",
+
+"> All music is only the sound of His laughter,
+> All beauty the smile of His passionate bliss;
+> Our lives are His heart-beats, our rapture the bridal
+> Of Radha and Krishna, our love is their kiss.
+> 
+> <small>Sri Aurobindo, [*Collected Poems: Who*](http://incarnateword.in/cwsa/02/who#p7)</small>",
+  ],
   image_url: "wishbone_flower.jpg",
   thumbnail_url: "wishbone_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -14198,7 +19619,7 @@ nasturtium_02 = {
   comment: "The best encouragement for doing what is necessary.",
   image_url: "nasturtium_dark_red.jpg",
   source: "Wikimedia Commons",
-  url: "https://commons.wikimedia.org/wiki/File:Flower,_Name_Unknown..._-_Flickr_-_nekonomania_(7).jpg"
+  url: "https://commons.wikimedia.org/wiki/File:Flower,_Name_Unknown…_-_Flickr_-_nekonomania_(7).jpg"
 }
 
 nasturtium_03 = {
@@ -14240,6 +19661,13 @@ nasturtium = Flower.create!(
   size: "Medium-sized",
   place: "Native to the Andes from Bolivia north to Colombia; naturalized in parts of the United States (California, New York, Pennsylvania, New Hampshire, Massachusetts, and Connecticut)",
   climate: "Tropical and subtropical",
+  quotes: [
+"> There is another aspect of the divine grace, the aspect of progress which will be victorious over all obstacles, the aspect which will propel humanity to a new realisation, which will open the doors of a new world and make it possible not only for a chosen few to benefit by the divine realisation but for their influence, their example, their power to bring to the rest of mankind new and better conditions.
+> 
+> This opens up roads of realisation into the future, possibilities which are already foreseen, when an entire part of humanity, the one which has opened consciously or unconsciously to the new forces, is lifted up, as it were, into a higher, more harmonious, more perfect life…
+> 
+> <small>The Mother, [*Questions and Answers 1957 - 1958: 19 March 1958*](http://incarnateword.in/cwm/09/19-march-1958#p8-p9)</small>"
+  ],
   image_url: "nasturtium.jpg",
   thumbnail_url: "nasturtium_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -14491,6 +19919,20 @@ zephyr_flower = Flower.create!(
   size: "Small to medium-sized",
   place: "Native to the tropical and temperate Western Hemisphere",
   climate: "Found across temperate, subtropical, and tropical climates",
+  quotes: [
+"> Prayer is only a particular form given to that will, aspiration and faith… Its power and sense is to put the will, aspiration and faith of man into touch with the divine Will as that of a conscious Being with whom we can enter into conscious and living relations.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - II: The Godward Emotions*](http://incarnateword.in/cwsa/24/the-godward-emotions#p9)</small>",
+
+"> In spiritual matters and in the seeking of spiritual gains, this conscious relation is a great power; it is a much greater power than our own entirely self-reliant struggle and effort and it brings a fuller spiritual growth and experience.
+> 
+> <small>Sri Aurobindo, [*The Synthesis of Yoga - II: The Godward Emotions*](http://incarnateword.in/cwsa/24/the-godward-emotions#p10)</small>",
+
+"> Here is my constant prayer to our Lord:
+> \"O my beloved Lord, let Thy Will be done. Thy Will alone, without any resistance or opposition. Thy Will is our happiness and our security.\"
+> 
+> <small>The Mother</small>"
+  ],
   image_url: "zephyr_flower.jpg",
   thumbnail_url: "zephyr_flower_thumbnail.jpg",
   source: "Wikimedia Commons",
@@ -14654,6 +20096,15 @@ common_zinnia = Flower.create!(
   size: "Large",
   place: "Found in the deserts of Mexico",
   climate: "Tropical, dry",
+  quotes: [
+"> Let endurance be your watchword: teach the life-force in you—your vital being—not to complain but to put up with all the conditions necessary for great achievement. The body is a very enduring servant, it bears the stress of circumstance tamely like a beast of burden. It is the vital being that is always grumbling and uneasy. The slavery and torture to which it subjects the physical is almost incalculable. How it twists and deforms the poor body to its own fads and fancies, irrationally demanding that everything should be shaped according to its whimsicality! But the very essence of endurance is that the vital should learn to give up its capricious likes and dislikes and preserve an equanimity in the midst of the most trying conditions.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Endurance - the Vital's Hunger for Praise - Signs of the Converted Vital*](http://incarnateword.in/cwm/03/endurance-the-vitals-hunger-for-praise-signs-of-the-converted-vital#p1)</small>",
+
+"> Nothing great is ever accomplished without endurance.
+> 
+> <small>The Mother, [*Questions and Answers 1929 - 1931: Endurance - the Vital's Hunger for Praise - Signs of the Converted Vital*](http://incarnateword.in/cwm/03/endurance-the-vitals-hunger-for-praise-signs-of-the-converted-vital#p2)</small>"
+  ],
   image_url: "common_zinnia.jpg",
   thumbnail_url: "common_zinnia_thumbnail.jpg",
   source: "Wikimedia Commons",
