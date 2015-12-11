@@ -19,6 +19,7 @@ class Flower
   field :size, type: String
 	field :place, type: String
 	field :climate, type: String
+  field :quotes, type: Array
   field :image_url, type: String
   field :thumbnail_url, type: String
   field :source, type: String
