@@ -34,9 +34,25 @@ class FlowersController < ApplicationController
 		@flower = Flower.find(params[:id])
 		@previous = Flower.where(:_slugs.lt => @flower._slugs[0]).desc(:_slugs).first
 		@next = Flower.where(:_slugs.gt => @flower._slugs[0]).asc(:_slugs).first
+		if @previous.present?
+			previous_flower = {
+				name: @previous.name,
+				url: request.protocol + request.host_with_port + "/flowers/" + @previous._slugs.first
+			}
+		end
+
+		if @next.present?
+			next_flower = {
+				name: @next.name,
+				url: request.protocol + request.host_with_port + "/flowers/" + @next._slugs.first
+			}
+		end
+
 		respond_to do |format|
 			format.html
-			format.json { render json: @flower }
+			format.json do
+        render :json => @flower.attributes.merge({:previous => previous_flower, :next => next_flower})
+      end
 		end
 	end
 
