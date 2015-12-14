@@ -8,4 +8,8 @@ module ApplicationHelper
 			"#{page_title} | #{base_title}"
 		end
 	end
+
+  def markdown(md_text)
+    Rails.application.config.markdown.render(md_text)
+  end
 end

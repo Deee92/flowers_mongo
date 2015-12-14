@@ -94,6 +94,18 @@ textarea {
 }
 
 
+hr {
+  border-top: none;
+  text-align: center;
+  &:after {
+    content: "*";
+    color: $gray-light;
+    position: relative;
+    top: -0.5em;
+    font-size: 1.5em;
+  }
+}
+
 /* header */
 
 #logo {
@@ -301,6 +313,10 @@ input {
 		float: right;
 		font-size: 0.6em;
 	}
+}
+
+.md-quote {
+	font-weight: 100;
 }
 
 .side-details {

@@ -7849,7 +7849,6 @@ myrtle = Flower.create!(
 "> Some give their soul to the Divine, some their life, some offer their work, some their money. A few consecrate all of themselves and all they have — soul, life, work, wealth; these are the true children of God.
 >
 > <small>The Mother</small>"
-    }
   ],
   image_url: "myrtle.jpg",
   thumbnail_url: "myrtle_thumbnail.jpg",
@@ -15609,7 +15608,7 @@ chinese_hibiscus_01 = {
 > 
 > <small>Sri Aurobindo, [*Letters on Yoga - III: Experiences Associated with the Psychic*](http://incarnateword.in/cwsa/30/experiences-associated-with-the-psychic#p26)</small>",
 
-"> Without [Agni] the sacrificial flame cannot burn on the altar of the soul. That flame of Agni is the seven-tongued power of theWill, a Force of God instinct with Knowledge. This conscious and forceful will is the immortal guest in our mortality, a pure priest and a divine worker, the mediator between earth and heaven. It carries what we offer to the higher Powers and brings back in return their force and light and joy into our humanity.
+"> Without [Agni] the sacrificial flame cannot burn on the altar of the soul. That flame of Agni is the seven-tongued power of the Will, a Force of God instinct with Knowledge. This conscious and forceful will is the immortal guest in our mortality, a pure priest and a divine worker, the mediator between earth and heaven. It carries what we offer to the higher Powers and brings back in return their force and light and joy into our humanity.
 > 
 > <small>Sri Aurobindo, [*Hymns to the Mystic Fire: The Doctrine of the Mystics*](http://incarnateword.in/cwsa/16/the-doctrine-of-the-mystics#p7)</small>"
   ],

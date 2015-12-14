@@ -65,6 +65,16 @@
         <p class="t5"><%= @flower.description %></p>
       <% end %>
 
+      <% if @flower.quotes.present? %>
+        <p class="flower_subheading">Quotes</p>
+        <div class="md-quote">
+          <% @flower.quotes.each do |quote| %>
+            <%= markdown(quote).html_safe %>
+            <%= markdown("---").html_safe %>
+          <% end %>
+        </div>
+      <% end %>
+
       <% if @flower.variants.count > 0 %>
         <div class="row">
           <div class="col-md-4 col-md-offset-5 col-sm-5 col-sm-offset-5 col-xs-5 col-xs-offset-4" style="margin-top: 1em; margin-bottom: 0.5em">
@@ -108,6 +118,18 @@
                   <div class="col-xs-12">
                       <p class="variant-subheading">The Mother&rsquo;s Comment</p>
                       <p class="lead"><%= variant.comment %></p>
+                  </div>
+                </div>
+              <% end %>
+              <% if variant.quotes.present? %>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <p class="variant-subheading">Quotes</p>
+                    <div class="md-quote">
+                      <% variant.quotes.each do |quote| %>
+                        <%= markdown(quote).html_safe %>
+                      <% end %>
+                    </div>
                   </div>
                 </div>
               <% end %>

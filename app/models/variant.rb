@@ -6,6 +6,7 @@ class Variant
   field :comment, type: String
   field :description, type: String
   field :colour, type: String
+  field :quotes, type: Array
   field :image_url, type: String
   field :source, type: String
   field :url, type: String

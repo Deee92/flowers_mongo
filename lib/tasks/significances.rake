@@ -145,7 +145,7 @@ namespace :sort do
     { word: "Equal", root: "Equality" },
     { word: "Eternal", root: "Eternity" },
     { word: "Exclusive", root: "Exclusivism" },
-    { word: "Exclusively", root: "Exclusivism" }
+    { word: "Exclusively", root: "Exclusivism" },
     { word: "Expressive", root: "Expression" },
     { word: "Faithfulness", root: "Faith" },
     { word: "Flaming", root: "Flame" },
