@@ -18990,7 +18990,7 @@ rose_03 = {
   colour: "Reddish-pink",
   significance: "Psychic Love",
   comment: "Strong and faithful, it has a beauty that does not belie.",
-  image_url: "rose_reddish_pink",
+  image_url: "rose_reddish_pink.jpg",
   source: "Wikimedia Commons",
   url: "https://commons.wikimedia.org/wiki/File:Rose_Fragola_20070601.jpg"
 }
