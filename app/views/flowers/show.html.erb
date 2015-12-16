@@ -155,6 +155,11 @@
       </div>
     <% end %>
 
+    <div class="side-details">
+      <p class="flower_subheading">Type</p>
+      <p class="t5"><%= @flower.type %></p>
+    </div>
+
     <% if @flower.other_names.present? %>
       <div class="side-details">
         <p class="flower_subheading">Other Names</p>
@@ -184,7 +189,7 @@
     <% end %>
 
     <div class="side-details">
-      <p class="flower_subheading">Cultivation</p>
+      <p class="flower_subheading">Distribution</p>
       <p class="t5"><%= @flower.place %></p>
     </div>
 
