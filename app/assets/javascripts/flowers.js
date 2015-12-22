@@ -107,6 +107,16 @@
     }
   }
 
+  // Bootstrap tabs
+
+  $('#myTabs a').click(function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+  })
+
+  $('#myTabs a[href="#flowerdetails"]').tab('show')
+  $('#myTabs a[href="#discussion"]').tab('show')
+
   $(document).ready(ready);
   $(document).on('page:load', ready);
 }).call(this);

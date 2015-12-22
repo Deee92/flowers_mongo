@@ -97,7 +97,8 @@ class FlowersController < ApplicationController
 			params.require(:flower).permit(:name, :bot_name, :significance,
 																		 :petals, :colour, :description,
 																		 :place, :climate, :season, :size,
-																		 :image_url, :variants_attributes)
+																		 :discussion, :image_url,
+																		 :variants_attributes)
 			#HEHE
 		end
 

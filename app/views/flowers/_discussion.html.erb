@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="col-md-12 col-xs-12">
+    <div class="details">
+      <% if @flower.discussion.present? %>
+        <% if is_admin? %>
+          <%= link_to "edit", edit_flower_path(@flower), class: "option", style: "float: right;" %>
+        <% end %>
+        <div class="md-discussion">
+          <%= markdown(@flower.discussion).html_safe %>
+        </div>
+      <% else %>
+        <h1>Discuss <%= @flower.name %></h1>
+        <%= form_for @flower do |f| %>
+          <%= f.text_area :discussion, rows: 10, class: "form-control" %>
+          <div class="row">
+            <div class="col-md-6", style="margin-top: 1em;">
+              <%= f.submit "Update", class: "btn btn-md btn-primary" %>
+            </div>
+            <div class="col-md-6", style="margin-top: 1em;">
+              <%= link_to "Cancel", flower_path(@flower), class: "btn btn-md btn-danger", style: "width: 100%;" %>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>
