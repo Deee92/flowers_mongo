@@ -12,7 +12,6 @@
 </div> -->
 <!-- <div class="fb-share-button" data-href="<%= request.original_url %>" data-layout="button"></div> -->
 
-<p id="remarked"></p>
 <div class="hidden-xs hidden-sm">
   <% if !@previous.nil? %>
     <%= link_to flower_path(@previous), class: "flower_nav" do %>
@@ -68,9 +67,11 @@
       <% if @flower.quotes.present? %>
         <p class="flower_subheading">Quotes</p>
         <div class="md-quote">
-          <% @flower.quotes.each do |quote| %>
+          <% @flower.quotes.each_with_index do |quote, i| %>
+            <% if i > 0 %>
+              <%= markdown("---").html_safe %>
+            <% end %>
             <%= markdown(quote).html_safe %>
-            <%= markdown("---").html_safe %>
           <% end %>
         </div>
       <% end %>
@@ -154,6 +155,11 @@
       </div>
     <% end %>
 
+    <div class="side-details">
+      <p class="flower_subheading">Type</p>
+      <p class="t5"><%= @flower.type %></p>
+    </div>
+
     <% if @flower.other_names.present? %>
       <div class="side-details">
         <p class="flower_subheading">Other Names</p>
@@ -183,7 +189,7 @@
     <% end %>
 
     <div class="side-details">
-      <p class="flower_subheading">Cultivation</p>
+      <p class="flower_subheading">Distribution</p>
       <p class="t5"><%= @flower.place %></p>
     </div>
 

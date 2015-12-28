@@ -14,6 +14,7 @@ class Flower
   field :significance, type: String
   field :comment, type: String
   field :description, type: String
+  field :type, type: String
   field :colour, type: String
   field :petals, type: String
   field :size, type: String
