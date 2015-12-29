@@ -5,6 +5,7 @@ class Variant
   field :significance, type: String
   field :comment, type: String
   field :description, type: String
+  field :rows, type: String
   field :colour, type: String
   field :quotes, type: Array
   field :image_url, type: String

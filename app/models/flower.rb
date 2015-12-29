@@ -17,6 +17,7 @@ class Flower
   field :type, type: String
   field :colour, type: String
   field :petals, type: String
+  field :rows, type: String
   field :size, type: String
 	field :place, type: String
 	field :climate, type: String
