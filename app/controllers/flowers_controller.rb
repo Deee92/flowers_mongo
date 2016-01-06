@@ -51,7 +51,17 @@ class FlowersController < ApplicationController
 		respond_to do |format|
 			format.html
 			format.json do
-        render :json => @flower.attributes.merge({:previous => previous_flower, :next => next_flower})
+				if @flower.quotes.present?
+					flower_quotes = @flower.quotes.map { |quote| Redcarpet::Markdown.new(Redcarpet::Render::HTML).render(quote).html_safe }
+				end
+				if @flower.variants.present?
+					@flower.variants.each do |variant|
+						if variant.quotes.present?
+							variant.quotes = variant.quotes.map { |quote| Redcarpet::Markdown.new(Redcarpet::Render::HTML).render(quote).html_safe }
+						end
+					end
+				end
+        render :json => @flower.attributes.merge({:previous => previous_flower, :next => next_flower, :quotes => flower_quotes})
       end
 		end
 	end
