@@ -138,6 +138,10 @@
             <div class="<%= i % 2 == 0 ? 'col-md-4' : 'col-md-4 col-md-pull-8' %>">
               <p class="flower_subheading">Description</p>
               <p class="t5"><%= variant.description %></p>
+              <% if variant.rows.present? %>
+                <p class="flower_subheading">Rows</p>
+                <p class="t5"><%= variant.rows %></p>
+              <% end %>
               <p class="flower_subheading">Colour</p>
               <p class="t5"><%= variant.colour %></p>
             </div>
@@ -178,6 +182,13 @@
       <div class="side-details">
         <p class="flower_subheading">Petals</p>
         <p class="t5"><%= @flower.petals %></p>
+      </div>
+    <% end %>
+
+    <% if @flower.rows.present? %>
+      <div class="side-details">
+        <p class="flower_subheading">Rows</p>
+        <p class="t5"><%= @flower.rows %></p>
       </div>
     <% end %>
 
