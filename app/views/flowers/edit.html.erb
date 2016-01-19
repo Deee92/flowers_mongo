@@ -18,7 +18,7 @@
 				<hr>
 				<h1 class="nice_heading">Variants</h1>
 					<%= f.fields_for :variants do |builder|%>
-						
+					
 						<%= builder.label :bot_name, "Botanical name", class: "form_field" %>
 						<%= builder.text_field :bot_name, class: "form-control" %>
 
@@ -43,7 +43,7 @@
 					<%= f.submit "Update", class: "btn btn-lg btn-primary" %>
 				</div>
 			  <div class="col-md-6", style="margin-top: 1em;">
-					<%= link_to "Cancel", flowers_path, class: "btn btn-lg btn-danger", style: "width: 100%;" %>
+					<%= link_to "Cancel", flower_path(@flower), class: "btn btn-lg btn-danger", style: "width: 100%;" %>
 				</div>
 			</div>
 		<% end %>

@@ -7,6 +7,8 @@ class SessionsController < ApplicationController
     log_in(user)
     redirect_to root_url
     flash[:success] = "Welcome, #{user.name}!"
+    # puts request.env["omniauth.auth"]
+    # puts user.image
   end
 
   def destroy

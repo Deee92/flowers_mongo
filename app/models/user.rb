@@ -7,6 +7,7 @@ class User
   slug :name
   field :admin, type: Boolean, default: false
   field :email, type: String
+  field :image, type: String
   field :subscribed, type: Boolean, default: false
 
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
@@ -20,6 +21,8 @@ class User
       user.provider = auth.provider
       user.uid = auth.uid
       user.name = auth.info.name
+      user.email = auth.info.email
+      user.image = auth.info.image
       user.save!
     end
   end
