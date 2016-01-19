@@ -1,4 +1,6 @@
 SECRET_KEY_BASE: ""
 APP_ID: "app id here"
 APP_SECRET: "app secret here"
+GOOGLE_CLIENT_ID: "google app id here"
+GOOGLE_CLIENT_SECRET: "google app secret here"
 AMAZON_IMAGE_PATH: "https://flowers-assets.s3-ap-southeast-1.amazonaws.com/img/"

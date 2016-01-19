@@ -1,5 +1,5 @@
 <header class="navbar navbar-fixed-top navbar-default navbar-custom">
-	<div class="container">
+	<div class="container-fluid">
 		<div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
       	<span class="sr-only">Toggle navigation</span>
@@ -14,10 +14,21 @@
     		<li class="<%= 'active' if current_page?(flowers_path) %>"><%= link_to "Browse", flowers_path %></li>
         <li class="<%= 'active' if current_page?(significances_path) %>"><%= link_to "Significances", significances_path %></li>
         <li class="<%= 'active' if current_page?(about_path) %>"><%= link_to "About", about_path %></li>
-        <!-- <li class="<%= 'active' if current_page?(new_flower_path) %>"><%= link_to "New", new_flower_path %></li>
+        <!-- <li class="<%= 'active' if current_page?(new_flower_path) %>"><%= link_to "New", new_flower_path %></li> -->
+        <li>
+          <!-- Search bar -->
+          <%= form_tag flowers_path, method: "get", class: "navbar-form" do %>
+            <div class="input-group input-group-sm" style="padding-top:4px;">
+              <%= text_field_tag :query, params[:query], class: "form-control", placeholder: "Search" %>
+              <div class="input-group-btn">
+                <button type="submit" class="btn btn-primary">Go</button>
+              </div>
+            </div>
+          <% end %>
+        </li>
         <% if current_user %>
           <li class="dropdown <%= 'active' if current_page?(user_path(current_user)) %>">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><%= current_user.name %> <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><%= image_tag(current_user.image) %> <span class="hidden-md hidden-sm"><%= current_user.name %></span> <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
               <li><%= link_to "Your profile", user_path(current_user) %></li>
               <li role="presentation" class="divider"></li>
@@ -26,19 +37,15 @@
             </ul>
           </li>
         <% else %>
-          <li class="<%= 'active' if current_page?(signin_path) %>"><%= link_to "Sign in", signin_path %></li>
-        <% end %> -->
-        <li>
-          <!-- Search bar -->
-          <%= form_tag flowers_path, method: "get", class: "navbar-form" do %>
-            <div class="input-group">
-              <%= text_field_tag :query, params[:query], class: "form-control", placeholder: "Search" %>
-              <div class="input-group-btn">
-                <button type="submit" class="btn btn-primary">Go</button>
-              </div>
-            </div>
-          <% end %>
-        </li>
+          <!-- <li class="<%= 'active' if current_page?(signin_path) %>"><%= link_to "Sign in", signin_path %></li> -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sign in <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><%= link_to "<i class='fa fa-facebook-official fa-fw'></i> Facebook".html_safe, "/auth/facebook" %></li>
+              <li><%= link_to "<i class='fa fa-google fa-fw'></i> Google".html_safe, "/auth/google_oauth2" %></li>
+            </ul>
+          </li>
+        <% end %>
       </ul>
     </div>
 	</div>

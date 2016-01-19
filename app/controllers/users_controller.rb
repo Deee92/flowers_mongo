@@ -14,7 +14,7 @@ class UsersController < ApplicationController
   def update
     @user =  current_user
     if @user.update_attributes(user_params)
-      if @user.email == "dee@dee.com"
+      if @user.email == "deepika@revealinghour.in"
         @user.admin = true
       else
         @user.admin = false
@@ -39,6 +39,6 @@ class UsersController < ApplicationController
   private
 
     def user_params
-      params.require(:user).permit(:email, :subscribed)
+      params.require(:user).permit(:subscribed)
     end
 end

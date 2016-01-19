@@ -28,194 +28,25 @@
   <% end %>
 </div>
 
-<div class="row">
-  <div class="col-md-9 col-xs-12">
-    <div class="details">
-      <% if is_admin? %>
-        <%= link_to "edit", edit_flower_path(@flower), class: "option", style: "float: right;" %>
-      <% end %>
-      <h1 class="flower_heading"><%= @flower.name %></h1>
+<div>
 
-      <% if @flower.bot_name.present? %>
-        <h3 class="botanical_name">(<%= @flower.bot_name %>)</h3>
-      <% end %>
-      
-      <% if @flower.image_url %>
-        <% flower_url = ENV['AMAZON_IMAGE_PATH'] + @flower.image_url %>
-        <script type="text/javascript">
-          window.image_url = "<%= flower_url %>";
-        </script>
-        <%= link_to image_tag('', :class => "img-responsive main-img"), flower_url,:rel => "lightbox", :data => {lightbox: @flower.name.to_url, title: @flower.name}%>
-        <a href="<%= @flower.url %>" target="_blank" class="img-source" style="padding-bottom: 30px;"><%= @flower.source %></a>
-      <% end %>
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#flowerdetails" aria-controls="#flowerdetails" role="tab" data-toggle="tab">Details</a></li>
+    <li role="presentation"><a href="#discussion" aria-controls="discussion" role="tab" data-toggle="tab">Discussion</a></li>
+  </ul>
 
-      <% if @flower.significance.present? %>
-        <p class="flower_subheading" style="clear: both;">Significance given by the Mother</p>
-        <p class="lead significance"><%= @flower.significance %></p>
-      <% end %>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane fade in active" id="flowerdetails">
+      <%= render 'details' %>
+    </div>
+    <div role="tabpanel" class="tab-pane fade" id="discussion">
+      <%= render 'discussion' %>
 
-      <% if @flower.comment.present? %>
-        <p class="flower_subheading">The Mother&rsquo;s Comment</p>
-        <p class="lead comment"><%= @flower.comment %></p>
-      <% end %>
-
-      <% if @flower.description.present? %>
-        <p class="flower_subheading">Description</p>
-        <p class="t5"><%= @flower.description %></p>
-      <% end %>
-
-      <% if @flower.quotes.present? %>
-        <p class="flower_subheading">Quotes</p>
-        <div class="md-quote">
-          <% @flower.quotes.each_with_index do |quote, i| %>
-            <% if i > 0 %>
-              <%= markdown("---").html_safe %>
-            <% end %>
-            <%= markdown(quote).html_safe %>
-          <% end %>
-        </div>
-      <% end %>
-
-      <% if @flower.variants.count > 0 %>
-        <div class="row">
-          <div class="col-md-4 col-md-offset-5 col-sm-5 col-sm-offset-5 col-xs-5 col-xs-offset-4" style="margin-top: 1em; margin-bottom: 0.5em">
-            <p class="t3">Variants</p>
-          </div>
-        </div>
-
-        <% @flower.variants.each_with_index do |variant, i| %>
-          <% if i > 0 %>
-            <hr>
-          <% end %>
-          <% if is_admin? %>
-            <%= link_to "edit", '#', class: "option", style: "float: right;" %>
-            <br/>
-          <% end %>
-
-          <div class="row variant">
-          <% variant_url = ENV['AMAZON_IMAGE_PATH'] + variant.image_url %>
-          <% variant_anchor = variant.significance ? variant.significance.to_url : variant.colour.to_url %>
-          <a class="variant-anchor" href="#<%= variant_anchor %>" id="<%= variant_anchor %>"></a>
-            <% if variant.bot_name.present? %>
-              <p class="botanical_name">(<%= variant.bot_name %>)</p>
-            <% end %>
-            <div class="<%= i % 2 == 0 ? 'col-md-8' : 'col-md-8 col-md-push-4' %>">
-              <div class="row">
-                <div class="col-xs-12">
-                  <%= link_to image_tag(variant_url, :class => "img-responsive variant-img"), variant_url,:rel => "lightbox", :data => {lightbox: @flower.name.to_url, title: @flower.name + " &mdash; " + variant.colour}%>
-                  <a href="<%= variant.url %>" target="_blank" class="img-source"><%= variant.source %></a>
-                </div>
-              </div>
-              <% if variant.significance.present? %>
-                <div class="row" style="margin-top: 20px">
-                  <div class="col-xs-12">
-                    <p class="variant-subheading">Significance given by the Mother</p>
-                    <p class="lead"><%= variant.significance %></p>
-                  </div>
-                </div>
-              <% end %>
-              <% if variant.comment.present? %>
-                <div class="row">
-                  <div class="col-xs-12">
-                      <p class="variant-subheading">The Mother&rsquo;s Comment</p>
-                      <p class="lead"><%= variant.comment %></p>
-                  </div>
-                </div>
-              <% end %>
-              <% if variant.quotes.present? %>
-                <div class="row">
-                  <div class="col-xs-12">
-                    <p class="variant-subheading">Quotes</p>
-                    <div class="md-quote">
-                      <% variant.quotes.each do |quote| %>
-                        <%= markdown(quote).html_safe %>
-                      <% end %>
-                    </div>
-                  </div>
-                </div>
-              <% end %>
-            </div>
-            <div class="<%= i % 2 == 0 ? 'col-md-4' : 'col-md-4 col-md-pull-8' %>">
-              <p class="flower_subheading">Description</p>
-              <p class="t5"><%= variant.description %></p>
-              <% if variant.rows.present? %>
-                <p class="flower_subheading">Rows</p>
-                <p class="t5"><%= variant.rows %></p>
-              <% end %>
-              <p class="flower_subheading">Colour</p>
-              <p class="t5"><%= variant.colour %></p>
-            </div>
-          </div>
-        <% end %>
-      
-      <% end %>
     </div>
   </div>
-  <div class="col-md-3 col-xs-12 sidebar">
-    <% if @flower.family.present? %>
-      <div class="side-details">
-        <p class="flower_subheading">Family</p>
-        <p class="t5"><%= @flower.family %></p>
-      </div>
-    <% end %>
 
-    <div class="side-details">
-      <p class="flower_subheading">Type</p>
-      <p class="t5"><%= @flower.type %></p>
-    </div>
-
-    <% if @flower.other_names.present? %>
-      <div class="side-details">
-        <p class="flower_subheading">Other Names</p>
-        <p class="t5"><%= @flower.other_names %></p>
-      </div>
-    <% end %>
-
-    <% if @flower.colour.present? %>
-      <div class="side-details">
-        <p class="flower_subheading">Colour</p>
-        <p class="t5"><%= @flower.colour %></p>
-      </div>
-    <% end %>
-
-    <% if @flower.petals.present? %>
-      <div class="side-details">
-        <p class="flower_subheading">Petals</p>
-        <p class="t5"><%= @flower.petals %></p>
-      </div>
-    <% end %>
-
-    <% if @flower.rows.present? %>
-      <div class="side-details">
-        <p class="flower_subheading">Rows</p>
-        <p class="t5"><%= @flower.rows %></p>
-      </div>
-    <% end %>
-
-    <% if @flower.size.present? %>
-      <div class="side-details">
-        <p class="flower_subheading">Size</p>
-        <p class="t5"><%= @flower.size %></p>
-      </div>
-    <% end %>
-
-    <div class="side-details">
-      <p class="flower_subheading">Distribution</p>
-      <p class="t5"><%= @flower.place %></p>
-    </div>
-
-    <div class="side-details">
-      <p class="flower_subheading">Climate</p>
-      <p class="t5"><%= @flower.climate %></p>
-    </div>
-
-    <div class="scroll">
-      <a href="#" class="flower_nav">
-        <span class="glyphicon glyphicon-menu-up flower_nav_button"></span>
-      </a>
-    </div>
-  </div>
-    
 </div>
 
 <div class="flower_nav_text visible-xs-block visible-sm-block">

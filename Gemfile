@@ -49,11 +49,12 @@ gem 'kaminari'
 # Search
 gem 'mongoid-elasticsearch'
 
-# Use omniauth for signing in with Facebook
+# Use omniauth for signing in with Facebook and Google
 gem 'omniauth-facebook'
+gem 'omniauth-google-oauth2'
 
 # Use Font Awesome
-# gem 'font-awesome-sass'
+gem 'font-awesome-sass'
 
 # Use social buttons
 gem 'bootstrap-social-rails'

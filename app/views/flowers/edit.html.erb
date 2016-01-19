@@ -5,18 +5,20 @@
 	<div class="col-md-6 col-md-offset-3">
 		<%= form_for(@flower) do |f| %>
 			<%= render 'flower_fields', f: f %>
+
+			<% flower_url = ENV['AMAZON_IMAGE_PATH'] + @flower.image_url %>
 			
-			<%= image_tag(@flower.image_url, class: "photo img-responsive", style: "margin: 2em 0;") %>
+			<%= image_tag(flower_url, class: "photo img-responsive", style: "margin: 2em 0;") %>
 
 			<%= f.label :image_url, "New image URL", class: "form_field" %>
 			<!-- Use file_field to choose file -->
 			<%= f.text_field :image_url, class: "form-control" %>
 
-			<% if @flower.variants %>
+			<% if @flower.variants.present? %>
 				<hr>
 				<h1 class="nice_heading">Variants</h1>
 					<%= f.fields_for :variants do |builder|%>
-						
+					
 						<%= builder.label :bot_name, "Botanical name", class: "form_field" %>
 						<%= builder.text_field :bot_name, class: "form-control" %>
 
@@ -41,7 +43,7 @@
 					<%= f.submit "Update", class: "btn btn-lg btn-primary" %>
 				</div>
 			  <div class="col-md-6", style="margin-top: 1em;">
-					<%= link_to "Cancel", flowers_path, class: "btn btn-lg btn-danger", style: "width: 100%;" %>
+					<%= link_to "Cancel", flower_path(@flower), class: "btn btn-lg btn-danger", style: "width: 100%;" %>
 				</div>
 			</div>
 		<% end %>
