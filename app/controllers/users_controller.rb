@@ -14,7 +14,7 @@ class UsersController < ApplicationController
   def update
     @user =  current_user
     if @user.update_attributes(user_params)
-      if @user.email == "deepika@revealinghour.in"
+      if (@user.email == "deepika@revealinghour.in" || @user.email == "deepikatiwari92@gmail.com" || @user.email == "prashaantt@gmail.com")
         @user.admin = true
       else
         @user.admin = false

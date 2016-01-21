@@ -23,6 +23,9 @@ class User
       user.name = auth.info.name
       user.email = auth.info.email
       user.image = auth.info.image
+      if user.email == "deepikatiwari92@gmail.com" || user.email == "deepika@revealinghour.in" || user.email == "prashaantt@gmail.com"
+        user.admin = true
+      end
       user.save!
     end
   end
