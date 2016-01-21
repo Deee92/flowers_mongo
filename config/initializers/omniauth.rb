@@ -1,7 +1,7 @@
 Rails.application.config.middleware.use OmniAuth::Builder do
   google_options = {
     :access_type => "online",
-    :skip_jwt => true
+    :skip_jwt => true,
     :image_aspect_ratio => "square",
     :image_size => { height: 30, width: 30 }
   }
