@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   get 'signin' => 'sessions#new'
   get 'signout' => 'sessions#destroy'
 
+  get 'flowers/:id/edit_discussion', to: 'flowers#edit_discussion', as: 'edit_discussion'
+
   get 'auth/:provider/callback', to: 'sessions#create'
   get 'auth/failure', to: redirect('/')
 

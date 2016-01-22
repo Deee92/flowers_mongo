@@ -84,6 +84,10 @@ class FlowersController < ApplicationController
 		@flower = Flower.find(params[:id])
 	end
 
+	def edit_discussion
+		@flower = Flower.find(params[:id])
+	end
+
 	def update
 		@flower = Flower.find(params[:id])
 		if @flower.update_attributes(flower_params)
