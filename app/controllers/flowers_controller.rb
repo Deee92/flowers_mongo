@@ -88,6 +88,10 @@ class FlowersController < ApplicationController
 		@flower = Flower.find(params[:id])
 	end
 
+	def edit_experiences
+		@flower = Flower.find(params[:id])
+	end
+
 	def update
 		@flower = Flower.find(params[:id])
 		if @flower.update_attributes(flower_params)
@@ -111,7 +115,7 @@ class FlowersController < ApplicationController
 			params.require(:flower).permit(:name, :bot_name, :significance,
 																		 :petals, :colour, :description,
 																		 :place, :climate, :season, :size,
-																		 :discussion, :image_url,
+																		 :discussion, :experiences, :image_url,
 																		 :variants_attributes)
 			#HEHE
 		end

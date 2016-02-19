@@ -1,18 +1,18 @@
 <div class="row">
   <div class="col-md-12 col-xs-12">
     <div class="details">
-      <% if @flower.discussion.present? %>
-        <h1>Discussions on <%= @flower.name %></h1>
+      <% if @flower.experiences.present? %>
+      	<h1>Experiences with <%= @flower.name %></h1>
         <% if is_admin? %>
-          <%= link_to "edit", edit_discussion_path(@flower), class: "option", style: "float: right;" %>
+          <%= link_to "edit", edit_experiences_path(@flower), class: "option", style: "float: right;" %>
         <% end %>
         <div class="md-discussion">
-          <%= markdown(@flower.discussion).html_safe %>
+          <%= markdown(@flower.experiences).html_safe %>
         </div>
       <% else %>
-        <h1>Discuss <%= @flower.name %></h1>
+        <h1>Share your experiences about <%= @flower.name %></h1>
         <%= form_for @flower do |f| %>
-          <%= f.text_area :discussion, rows: 10, class: "form-control" %>
+          <%= f.text_area :experiences, rows: 10, class: "form-control" %>
           <div class="row">
             <div class="col-md-6", style="margin-top: 1em;">
               <%= f.submit "Update", class: "btn btn-md btn-primary" %>

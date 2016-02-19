@@ -116,6 +116,7 @@
 
   $('#myTabs a[href="#flowerdetails"]').tab('show')
   $('#myTabs a[href="#discussion"]').tab('show')
+  $('#myTabs a[href="#experiences"]').tab('show')
 
   $(document).ready(ready);
   $(document).on('page:load', ready);

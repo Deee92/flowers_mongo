@@ -23,6 +23,7 @@ class Flower
 	field :climate, type: String
   field :quotes, type: Array
   field :discussion, type: String
+  field :experiences, type: String
   field :image_url, type: String
   field :thumbnail_url, type: String
   field :source, type: String
