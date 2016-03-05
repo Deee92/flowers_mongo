@@ -6,14 +6,15 @@ Rails.application.routes.draw do
   
   get 'about' => 'static_pages#about'
 
+  devise_for :users, :controllers => { :omniauth_callbacks => "omniauth_callbacks" }
   get 'signin' => 'sessions#new'
   get 'signout' => 'sessions#destroy'
 
   get 'flowers/:id/edit_discussion', to: 'flowers#edit_discussion', as: 'edit_discussion'
   get 'flowers/:id/edit_experiences', to: 'flowers#edit_experiences', as: 'edit_experiences'
 
-  get 'auth/:provider/callback', to: 'sessions#create'
-  get 'auth/failure', to: redirect('/')
+  # get 'auth/:provider/callback', to: 'sessions#create'
+  # get 'auth/failure', to: redirect('/')
 
   get 'colour/:colour', to: 'application#colour'
 

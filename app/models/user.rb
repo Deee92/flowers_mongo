@@ -1,6 +1,7 @@
 class User
   include Mongoid::Document
   include Mongoid::Slug
+  devise :omniauthable, :omniauth_providers => [:facebook, :google_oauth2]
   field :provider, type: String
   field :uid, type: String
   field :name, type: String
